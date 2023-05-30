@@ -1,2 +1,2 @@
-# 60-210
-Repository for Course 60-210 at CMU, Fall 2022
+# 60-212
+Repository for Course 60-212 at CMU.
