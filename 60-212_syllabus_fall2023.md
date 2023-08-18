@@ -1,0 +1,466 @@
+# Syllabus for *Creative Coding* (60-212, Fall 2023)
+
+Golan Levin<br>
+Professor of Computational Art<br>
+CMU School of Art
+
+---
+
+### Overview
+
+*This document exclusively covers the policies and procedures for the Fall 2023 edition of Intermediate Studio: Creative Coding (60-212). This document does not include information about topic units, specific assignments, or readings; these can be found on the course web site. For Zoom room links, Discord channel links, and the Professor's phone number (for emergency contacts), please see the #key-information channel in our course Discord server. [Last Update: 16 January, 2022].*
+
+* Title: *Intermediate Studio: Creative Coding* (60-212), Fall 2023
+* Time/Loc: Mon/Wed, 2:00-4:50pm in CFA-303
+* Departments: Carnegie Mellon University [School of Art](http://www.art.cmu.edu/) and [IDeATe Program](https://ideate.cmu.edu/)
+* Course website: [TBA](TBA)
+* Course OpenProcessing site: [TBA](TBA)
+* Course Google Calendar: [http://bit.ly/golancoursecalendar](http://bit.ly/golancoursecalendar)
+
+Professor Contact: 
+
+* Professor: [Golan Levin](http://www.art.cmu.edu/people/golan-levin/), golan@andrew.cmu.edu
+* Discord: golan#4224
+
+---
+
+### Contents
+
+* [**Overview**](#overview)
+	* [Course Description](#course-description)
+* [**Course Profile**](#course-profile)
+	* [Key Topics](#key-topics)
+	* [Prerequisite Knowledge](#prerequisite-knowledge)
+	* [Learning Objectives (Course Goals)](#learning-objectives-and-course-goals)
+	* [Course Relevance](#course-relevance)
+	* [Assessment Structure](#assessment-structure)
+	* [Learning Resources](#learning-resources)
+	* [Extra Time Commitments](#extra-time-commitments)
+	* [Course Tags](#course-tags)
+* [**Administrata**](#administrata)
+	* [Prerequisites](#prerequisites)
+	* [Credits Allocated](#credits-allocated)
+	* [Required Course Materials](#required-course-materials)
+	* [Communication Tools](#communication-tools)
+* [**Coping With COVID**](#coping-with-covid)
+	* [Accommodations and Flexibility](#accommodations-and-flexibility)
+	* [Health-Related Absences](#health-related-absences)
+* [**Civics and Attendance**](#civics-and-attendance)
+	* [Attendance and Presence](#attendance-and-presence)
+	* [A Word About Unexcused Absences in Critiques](#a-word-about-unexcused-absences-in-critiques)
+	* [Early Morning Procedures](#early-morning-procedures)
+	* [Attendance Policy Summary](#attendance-policy-summary)
+* [**Grading, Rubics, and Expectations of Professionalism**](#grading-rubics-and-expectations-of-professionalism)
+	* [Expectations of Professionalism](#expectations-of-professionalism)
+	* [Rubrics for Creative Projects](#rubrics-for-creative-projects) 
+	* [Grades](#grades)
+	* [Follow Your Passion](#follow-your-passion)
+	* [Policies for Late Work](#policies-for-late-work)
+* [**Academic Integrity**](#academic-integrity)
+	* [Summary of CMU Academic Integrity Policies](#summary-of-cmu-academic-integrity-policies)
+	* [Policies for Open-Ended Creative Projects](#policies-for-open-ended-creative-projects)
+	* [Use of Free and Open-Source Code in Projects](#use-of-free-and-open-source-code-in-projects)
+	* [Policies Regarding Informal Collaboration](#policies-regarding-informal-collaboration)
+	* [Policies Regarding Formal Collaboration](#policies-regarding-formal-collaboration)
+* [**Zoom & Remote Education**](#zoom--remote-education)
+	* [Communication Tools](#communication-tools)
+	* [Recording Lectures](#recording-lectures)
+	* [Hybrid Sessions](#hybrid-sessions)
+	* [Avoiding Zoom Fatigue](#avoiding-zoom-fatigue)
+	* [Zoom Policies](#zoom-policies)
+	* [Sharing Your Camera](#sharing-your-camera)
+* [**Code of Conduct**](#code-of-conduct)
+	* [Code of Conduct](#code-of-conduct-1)
+	* [Inclusivity Statement](#inclusivity-statement)
+* [**Freedom of Speech Committment**](#freedom-of-speech)
+* [**Dealing with Stress**](#dealing-with-stress)
+* [**FERPA Statement**](#ferpa-statement)
+* [**Land Notice**](#land-notice)
+
+---
+
+# Overview
+
+### Course Description
+*Electronic Media Studio: Interactivity and Computation* (60-212) is a practical introduction to the use of programming and computation within the context of the arts. In this “intromediate” level course, students develop or deepen the skills and confidence to produce interactive, generative, and computational artworks; discuss their work in relation to current and historic praxes of computer art; and engage new technologies critically.
+
+This is a “studio art course in computer science”, in which our objective is art and design, but our medium is student-written software. Intended as a second course for arts students who have already had one semester of elementary programming (in any language), this class develops craft skills in text-based, imperative programming using a variety of creative coding toolkits, especially including [p5.js](https://p5js.org/) (JavaScript) and [Unity3D](https://unity.com/) (JavaScript/C#). Through rigorous programming exercises in these environments, students will develop mastery over the basic vocabulary of constructs that govern static, dynamic, and interactive form, with the aim of applying these skills to problems in interactive art, computational design, and other creative explorations of transmediality, connectivity, generativity, and immersivity.
+
+
+---
+# Course Profile
+
+### Key Topics
+*What are the key subject topics that this course will cover?*
+
+This course covers the practical application of computer programming techniques to the creation of expressive software art and computational design. Topics include generative art, networked interactivity, gestural interaction systems, and immersive world-making.
+
+### Prerequisite Knowledge
+*What prior knowledge must students have in order to be successful in this course?*
+
+* This course is intended as a second course for students who have already had at least one semester of elementary programming (in any language). Students must be familiar and comfortable with computer programming fundamentals, such as iteration, conditional testing, functional abstraction, static and dynamic memory structures (e.g. arrays), and object-oriented programming, as taught in a CMU course like 15-104, 15-110, or 15-112.
+* A strong foundation in mathematics, especially including geometry, algebra, and trigonometry, will also be very helpful.
+* This course is taught primarily with JavaScript. Students fluent only in Python may need to do some additional preparation.
+
+### Learning Objectives and Course Goals
+*What are the overall goals of this course that students will achieve after completing it?*
+
+At the conclusion of this course, students will be able to:
+
+* Be proficient in creating computer programs capable of responding to user interaction, in a variety of different creative coding tools.
+* Gain familiarity with the repertoire of artists, designers, works and activities around creative coding, interactive art, generative form, and computational design.
+* Understand the role of computation in artworks that explore concepts of transmediality, connectivity, generativity, and immersivity.
+* Understand how to document and present creative work online, and in person.
+
+### Course Relevance
+*How is this course relevant to the targeted student populations?*
+
+This course is relevant to students who are interested in:
+
+* Exploring the use of computation in expanding our expressive vocabulary
+* Designing procedural form for games, virtual environments, and other modes of creative expression
+* Developing expertise in the aesthetic nuances and conceptual landscape of interactivity
+* Understanding the practical and social assumptions that underpin code in culture
+
+### Assessment Structure
+*How will students be assessed in this course: assignments, exams, final, presentation, project, etc.?*
+
+Grades will be generated through a [labor-based grading contract](https://en.wikipedia.org/wiki/Contract_grading#Labor-based_contract_grading), which will be negotiated with the students at the beginning of the semester, and re-evaluated at mid-semester. This contract will be based on factors including completion of assignments and attendance. 
+
+There are approximately 6-10 main assignments (software art programming projects) on which students will receive critical feedback from faculty, outside professionals, and their peers. Critical feedback on the content or quality of projects will not factor into grades, except where such feedback concerns missing components of the assignment. 
+
+### Learning Resources
+*What resources will be available for students: web pages, learning applications, texts, case studies, etc.?*
+
+Available resources include specialized hardware, GitHub repositories, YouTube lectures, a course web site, professor-made lecture videos, and a class Discord.
+
+### Extra Time Commitments
+*Are there extra time commitments required outside of the regularly scheduled course meeting times?*
+
+There are no specific time commitments required outside of regular class sessions. However, students may wish to take advantage of the Professor’s available office hours.
+
+### Course Tags
+*Keywords referencing general topics and/or course structure.* 
+
+* *Computational*
+* *New Media Art*
+* *Creative Coding*
+* *Interdisciplinary*
+* *Lab Component*
+* *Research*
+* *IDeATe*
+* *Maker*
+
+
+---
+# Administrata
+
+### Prerequisites
+There are no *specific* course prerequisites for this course, but students must be familiar and comfortable with computer programming fundamentals, such as iteration, conditional testing, functional abstraction, static and dynamic memory structures, and object-oriented programming, as taught in a course like 15-104, 15-110, or 15-112. A strong foundation in mathematics, especially including geometry, algebra, and trigonometry, will also be very helpful. This course is taught primarily with JavaScript; students fluent only in Python may need to do some additional preparation.
+
+### Credits Allocated
+60-212 provides 12 units of academic credit, and satisfies the software skills portal requirement for students pursuing IDeATe minors and concentrations. 60-212 additionally satisfies the same Electronic Media Studio requirement as 60-210 (sometimes called EMS2) for students pursuing BFA and BXA majors within the School of Art.
+
+### Required Course Materials
+
+* **Laptop**. Students should have access to a personal laptop with a webcam. A reliable internet connection will be very important.
+* **Sketchbook**. It is extremely wise to plan your projects on paper before writing any code. In support of this, you are required to maintain a paper sketchbook for this course. Some assignments will require you to post images of your project sketches.
+* **Operating System**. Recent, well-updated installations of Mac OSX, Windows and Linux are all acceptable operating systems. However, although all of the programming toolkits with which we work are free and cross-platform, it is possible that example projects may only be provided for Mac OSX. 
+* **Programming Environments**. This is a polyglot course; the programming environments used for example projects and sample code will be a mixture of [p5.js](https://p5js.org/) (JavaScript, optionally with [Visual Studio Code](https://code.visualstudio.com/) and the [p5.vscode](https://marketplace.visualstudio.com/items?itemName=samplavigne.p5-vscode) extension), [Unity3D](https://unity.com/) (JavaScript or C#), and potentially [Processing](https://processing.org/) (Java) and Python.
+* **Communication Software**. Students should have up-to-date installations of [Zoom](https://zoom.us/) and [Discord](https://discord.com/) on their laptops and/or other devices. 
+* **Camera**. Students should have access to a digital camera to document certain projects. A smartphone with a camera is acceptable.
+
+### Communication Tools
+This course uses the following software systems to share information:
+
+* **[Zoom](https://zoom.us/)**, for remote meetings. A link and password will be sent to you by email.
+* **[Discord](https://discord.com/)**, for coordination. A link and password will be sent to you by email.
+* **Email**. The Professor will send emails once or twice a week. Please read them.
+* **WordPress website**, through which you will publish your projects.
+* **Google Calendar**, [http://bit.ly/golancoursecalendar](http://bit.ly/golancoursecalendar)
+
+
+---
+# Coping With COVID
+
+### Policies for In-Person Meetings at the STUDIO
+
+In light of the ongoing COVID pandemic, the following policies govern our in-person meetings at the STUDIO for Creative Inquiry (room CFA-111): 
+
+* **Masks** must be worn at all times in the STUDIO. KN95 masks are available and [strongly encouraged](https://www.cidrap.umn.edu/sites/default/files/public/mask_table_1-final.jpg).
+* Please **don't crowd each other**; do your reasonable best to remain at least 6 feet from others.
+* **Food** is not to be eaten in the STUDIO. 
+* **Drinks** (especially caffeinated drinks with lids) are permitted; please replace your mask as soon as possible after taking a sip. Be careful with open cups near laptops!
+* The STUDIO closes at 11pm. While the STUDIO can be a nice place to take a daytime nap, **overnight sleeping** is not permitted. 
+
+
+### Health-Related Absences
+Please evaluate your own health status regularly and refrain from attending class and other on-campus events if you feel even slightly ill. You are strongly encouraged to seek appropriate medical attention for treatment of illness. **In the event of contagious illness, please do not come to class or to campus!** Instead notify me about your absence as soon as possible, so that accommodations can be made. A doctor’s note for medical excuses is not required.
+
+
+### Accommodations and Flexibility
+The effects of the ongoing COVID pandemic make this time stressful for everyone. I do not wish for this class to be an additional source of stress. We are gathered to make creative work because doing so is a source of joy, meaning, solace, and self-betterment. Do the projects because your heart is in the work, not because you are concerned about grades.
+
+If you're going to be absent, please communicate with me. As per our [Civics and Attendance](#civics-and-attendance) policies, I do not allow *unexcused* absences, i.e., an absence in which you neglected to contacted me before class (“I’m feeling ill today”, “I have a religious holiday”, etc.). However, owing to the kinds of unusual circumstances that may arise, you are permitted one unexcused absence. 
+
+We will have approximately eight large projects this semester. I would love it if you did all of them. But you may need a release valve if something goes sideways. Our [labor-based grading contract](https://en.wikipedia.org/wiki/Contract_grading#Labor-based_contract_grading) will allow you to miss some number (TBD) of assignments without penalty. 
+
+
+---
+# Civics and Attendance
+
+### Attendance and Presence
+
+It has been said: **80% of success is just showing up**. Your presence and civic participation in the class are of paramount importance. You are responsible for what happens in class whether you’re here or not. Organize with your classmates to get class information and material that you have missed.
+
+Additionally, **communication is paramount** when it comes to your attendance. If you’re going to be absent or tardy, please contact the professor in a timely way regarding your situation. Email is best, but I am also amenable to receiving messages by Discord, Twitter DM, or SMS. If you’re ill, or if you know you will have a planned absence, please let me know before the beginning of that class session: I can be very understanding and accommodating about planned and necessary absences, family circumstances, and/or medical issues when you inform me in a timely and professional manner.
+
+Regarding your **mental presence in the classroom**: physical presence means nothing if you’re “checked out”; focus is precious, and your mental presence is extremely important. During the professor’s lectures or (especially) during guest presentations, distracted participation is prohibited. You can exist for few hours without tweeting, facebooking, chatting, texting, emailing, or doing work for other courses. 
+
+### Early Morning Procedures
+Groan. Our 8:00am start time is a challenge; many people in our community are not "morning people". In recognition of this, we will begin most in-person class sessions (unless otherwise indicated) with *work periods*, during which coffee will be available, and students will have time to work on their projects. It will also be a time during which students can reserve individual consultations with the professor. These work periods will run from 8:00-9:00am.
+
+### A Word About Unexcused Absences in Critiques
+Sometimes, students who haven’t completed their projects skip class during critiques, because they are too embarrassed to come to class empty-handed. This type of absence is particularly self-destructive, and is one of the most objectionable things you can do in this class. *Please have courage.* Your participation on critique days is essential, even if your own project is incomplete or missing, because these sessions and conversations help you understand our class standards, expectations, and criteria for good work. Even if your own project is unfinished, you are still expected to contribute productively to the class discussion.
+
+### Attendance Policy Summary
+
+**Terms:**
+
+* A **class event** is an in-class activity, such as a lecture or critique, in which your presence and participation is *expected*. 
+* A **work period** is an in-class span of time during which your presence and participation are highly desirable, but not *required*. During work periods, students will have time to work on their projects, with ready access to consultations with the professor and advice from their peers.
+* An **excused absence** is one in which you've communicated responsibly with the professor prior to class, by email, Discord, Twitter, or SMS. For example, if you've sent a message to the professor because you're not feeling well, or if you know in advance that you're going to be observing a religious holiday or traveling to a job interview. Contacting the professor beforehand can make it possible to provide you with accommodations—such as recording a class event, or providing a Zoom connection for a remote participant.
+* An **unexcused absence** is one in which you've *ghosted* a class event, without communicating beforehand with the professor.
+* A **mental absence** is a form of *partial absence* in which you might as well be elsewhere. For example, while walking around the room, I plainly observe that you're working on homework for another course. Sleeping in class is also a form of mental absence.
+* A **tardiness** is a form of *partial absence* in which you are more than 20 minutes late to an class event. Tardiness may be excused or unexcused. 
+
+**Policies:**
+
+* Students should contact the professor before class to alert him to their absence. 
+* Our labor-based grading contract (to be negotiated) will assign grades that factor in a count of unexcused absences, but not excused absences. 
+* A post-hoc excuse for an unexcused absence may or may not be accepted, at the professor's discretion.
+* Owing to the COVID-19 crisis, you will be permitted one unexcused absence.
+* The first incidence of unexcused tardiness will be noted, but excused. 
+* The first incidence of mental absence will be noted, but excused. 
+
+
+**Advisory:** 
+
+The three least forgivable violations of our course attendance policy are: 
+
+1. Sleeping during a presentation by an outside guest
+2. Unexcused absence during a critique
+3. Unexcused absence... and then I bump into you in the hallway chatting with your friends later that day
+
+---
+# Grading, Rubics, and Expectations of Professionalism
+
+In this course, your work is evaluated according to three different systems, which are decoupled to the greatest extent possible:
+
+* **Grades** (standards used by CMU on its transcripts, to indicate your objective level of effort in a course) 
+* **Rubrics** (standards used by our class community in critiques, to provide subjective feedback about your creative projects)
+* **Expectations of Professionalism** (standards used by the professor to judge your professional conduct, which help me decide whether I might someday write a letter of recommendation for you, agree to offer independent study credits to you, hire you as a research assistant, etc.).
+
+### Expectations of Professionalism
+There are a few elementary things you can do to ensure that you retain my highest respect for your professionalism. These things may seem simple and obvious, but it’s sometimes surprising how few students seem to get this right. At a minimum, I ask you to:
+
+* **Be good**. Have a positive attitude.
+* **Be present**. Show up to all of the course sessions, on time.
+* **Be responsible**. Communicate with the professor beforehand if you must miss a session.
+* **Be diligent**. Submit your deliverables, on time, with clear and thorough documentation. 
+
+Beyond this, I would love it if you could:
+
+* **Be helpful**. Help your classmates when they’re stuck.
+* **Be fearless**. Work outside your comfort zone. Give yourself permission to weird.
+* **Be conscientious**. Pay attention to details of craft and execution.  Put your heart in the work.
+* **Be persevering**. Become resourceful about getting the assistance you need.
+* **Be generous**. Make helpful contributions to discussions.
+
+### Rubrics for Creative Projects 
+The purpose of our open-ended projects is to provide well-circumscribed opportunities for you to make creative work with code. Generally the prompts will invite you to explore a specific conceptual theme or set of programming techniques, but, unless stated otherwise, there is no correct solution, and no specific requirement for how to implement your idea. A prompt also asks not just for a creative solution, but also for some creativity in defining and approaching the problem. It is expected that your projects will be documented and published on our course website.
+
+With creative projects, it may not matter how much time a student spent making it. You may sometimes observe a very quickly-executed solution which succeeds because of its strong concept. Usually, however, the quality of a project is rewarded by extra attention to its craft.
+
+In our critiques, we will evaluate your open-ended projects according to the following subjective considerations:
+
+* **Curiosity**: Are you asking questions as you work?
+* **Tenacity**: Are you forging through difficult problems without giving up?
+* **Execution**: Are you crafting with purpose, precision, and attention?
+* **Inventiveness**: Are you discovering/exploring methods outside the obvious and predictable?
+
+### Grades
+
+Grades will be calculated with a [labor-based grading contract](https://en.wikipedia.org/wiki/Contract_grading#Labor-based_contract_grading), which will be negotiated with students at the beginning of the semester, and re-evaluated at mid-semester. This contract will be based on objective factors that include the number of projects you complete, your fulfillment of the project requirements, and your attendance. 
+
+In this course, your grades boil down to **fulfillment**. Projects always have a list of *supporting requirements*. These are very straightforward to fulfill, but if you fail to meet these, you will have points deducted. Nearly every project assignment will ask you to do the following:
+
+* **Create** a unique blog post for your project, on our course website.
+* **Title** and **Categorize** your blog post in a specified manner.
+* **Embed** a photo of your notebook sketches for the project, if applicable.
+* **Embed** a static image of your project, such as a screenshot or photograph.
+* **Embed** dynamic documentation of your project (such as an animated GIF, video recording, or interactive applet) into the blog post, if applicable.
+* **Write** 100-200 words about your project, describing its development process. In your writing, include some critical reflection and analysis of your project: In what ways did you succeed, and in what ways could it be better?
+* **Embed** or link to your code, if requested.
+* As per our course policies on [Academic Integrity](#academic-integrity), you must also:
+	* **Name** any other students from whom you received advice or help. If you had collaborators, explain how the work was distributed among the collaborators.
+	* **Cite** and link to the sources for any code, external libraries, or other media (e.g. photographs, soundtracks, source images) which you used in your Project. Citing your sources is super important, folks. Err on the side of generosity.
+
+
+### Policies for Late Work
+
+Our class is fast-paced. When you submit work late, you will miss an important opportunity to share, show off, discuss and get critical feedback on your work.
+
+**To receive critical feedback on your work**, your work must be available for evaluation during the critical review period. For example, at times this semester, your creative projects may be evaluated by outside experts who review your work in an in-class critique session, or online. If your assignment is not uploaded and documented online by the time those persons do their reviews, then your work will likely not receive feedback from them. 
+
+**To receive full credit towards your grade**, projects should be uploaded and completed by the time that I get around to reading them, which is usually a few days after their stated due date. If not, I reserve the right to assign partial or zero credit to them. Generally I grade (i.e. check) work a few days after the due date. I offer no precise details about this. If you know you're going to be a little late with a project, *contact me* to arrange an accommodation. 
+
+
+### Follow Your Passion
+*This is art school.* With very rare exceptions (I’ll be clear), I will almost always prefer that you *make the assignment interesting to you* — if necessary, by creatively bending the rules or re-interpreting the assignment. My assignments are starting-points, prompts and propositions. Think beyond them.
+
+Notwithstanding the above, you will always be expected to conform to certain supporting requirements (described [above](#grades)) in regard to deliverables and documentation. Did you include an image of your project? Did you write the requested narrative? *Such requirements are non-negotiable.*
+
+
+---
+# Academic Integrity
+Your behavior as a responsible member of the new-media arts community is very important — as demonstrated, for example, by properly citing your sources and borrowed code, and crediting those who have helped you. These expectations and obligations are addressed here, in our course Academic Integrity Policy.
+
+### Summary of CMU Academic Integrity Policies
+Carnegie Mellon University prohibits academic dishonesty. This includes plagiarism, and may consist of: submitting the work of someone else as your own; failing to cite assistance you received; or the failure to properly cite materials or ideas from other sources. **Nearly all of these problems can be easily avoided if you’re clear and generous in giving credit where credit is due.** 
+
+Please read the [University Policy on Cheating and Plagiarism](https://www.cmu.edu/policies/student-and-student-life/academic-integrity.html) to understand the penalties associated with academic dishonesty at Carnegie Mellon University. I reserve the right to determine an appropriate penalty based on the violation of academic dishonesty that occurs. The penalty for plagiarizing may range from failure on the specific plagiarized assignment to failure in the class. If you have any questions about this policy as it relates to work you are doing in the course, please feel free to contact the professor.
+
+### Policies for Open-Ended Creative Projects
+For your open-ended, public-facing projects, which will be presented and hosted online in our course website or at OpenProcessing.org, there are no “correct answers”. Your curiosity, creativity, ingenuity and originality are prized.
+
+You may borrow code or ideas from other sources, within the limits of “reasonable person” principles described below, provided you attribute your sources. Your work will appear, publicly, on the open Internet. Your projects will likely be discussed and critiqued in front of (and with the assistance of) your peers.
+
+As art students, you are expected or invited to make extensive use of open-source libraries and tutorials. When working in this way, much like a knitting circle, our classroom is structured around peer instruction, in which students are expected to help each other learn.
+
+### Use of Free and Open-Source Code in Projects
+**Credit is perhaps the most important form of currency** in the economies of commons-based peer production and open-source media arts. You are expected to cite the source of any code you use. Please note the following expectations and guidelines:
+
+**Use Libraries**. In your Projects, the use of general, reusable libraries is strongly encouraged. The people who developed and contributed these components to the community worked hard, often for no pay; acknowledge them by citing their name and linking to their repository.
+
+**Be Careful**. It sometimes happens that an artist places the entire source code for their artwork online, as a resource from which others can learn. The assignments professors give in new-media arts courses are often similar; you may discover the work of a student in some other class or school, who has posted code for a project which responds to a similar assignment. *You should probably avoid this code*. At the very least, you should be very, very careful about approaching such code for possible re-use. If it is necessary to do so, it is best to extract components that solve a specific technical problem, rather than those parts which operate to create a unique creative experience. Your challenge, if and/or when you work with others’ code, is to *make it your own*. It should be clear that forking an artwork from someone’s page on GitHub, Glitch, OpenProcessing, etc., and simply changing the colors would be disgracefully lazy. Doing so without proper citation would be plagiarism.
+
+### Policies Regarding Informal Collaboration
+Our course places a very high value on civic responsibility that includes, but is not limited to, helping others learn. In this course, we strongly encourage you to give help (or ask others for help) in using various toolkits, algorithms, libraries, or other facilities. Please note the following expectations:
+
+* In this class, *it’s OK to give and receive help*. In fact, it’s *better* than OK! But students who receive help from someone else are obliged to acknowledge that person in their project report, clarifying the nature of the help that was received.
+* *We are all teachers*. Students with advanced skills are expected to help others, yet refrain from doing another’s work for them. You can usually tell when you’re about to cross the line: Ask yourself whether you are teaching someone to fish, or merely giving them the fish.
+* When in doubt: *give credit* to the people who have helped you.
+
+### Policies Regarding Formal Collaboration
+The assignments in this course are primarily intended to be executed by individuals. That said, I am in favor of students collaborating if such collaborations arise organically and can be conducted safely. Please note the following expectations:
+
+* *Use proper social distancing*. In light of the ongoing the COVID-19 pandemic, please respect University and other health guidelines regarding personal distance. Please sit apart, wear masks, don't share computer keyboards, etcetera.
+* *Notify the Professor*. It’s helpful for me to know who is working with whom. Students who wish to collaborate should jointly inform the professor as early as possible.
+* *Only pairs*. Unless permission is explicitly granted by the Professor, collaborations in this course are restricted to pairs of students.
+* *Describe who did what*. Written reports for collaborative projects should describe how your effort was distributed.
+* *Only 60-212 collaborators*. Your project collaborator, if you have one, must be in this class. You may not collaborate with people from outside the course (e.g. your housemate).
+* *Avoid co-dependency*. You may not collaborate with the same person (i.e. submit an assignment jointly) on more than two projects.
+
+
+---
+# Zoom & Remote Education
+
+### Communication Tools
+We will begin the semester using Zoom for synchronous remote sessions. The link for this Zoom room will be sent to students by email, and can also be found in the *#key-information* channel of our class Discord. Please make sure that your Internet connection is stable, that your equipment is set up with an up-to-date version of Zoom, and that your system is able to share audio and video during class meetings.
+
+### Recording Lectures
+I will offer to record select portions of my *technical lectures* if there is interest, as well as guest presentations. However, I will generally not record informal conversations, critiques or discussions. 
+
+### Hybrid Sessions
+If a student is unable to attend an in-person class session, I will consider requests to livestream portions of the class via Zoom, if it makes sense to do so. 
+
+### Avoiding Zoom Fatigue
+Zoom fatigue is a real and serious problem. To avoid it, we will not meet for the full 3-hour duration of our class in Zoom. Instead. Instead, during remote days, there will be an official Zoom meeting period, generally of 60-90 minutes' duration. During the rest of class period, we may (a) work individually on projects, with Zoom available (“quiet co-working”), (b) have one-on-one meetings with the professor, or (c) occasionally convene in small groups. That said, if you need a break, please let me know. 
+
+### Zoom Policies
+* In general, please **keep your mic muted** (unless you unless you are actively sharing with the class), in order to reduce stray noise.
+* You may use the “raise hand feature” to get attention, but I recommend **actually raising your hand** in the video if possible.
+* You are also very welcome to **ask or respond to questions in the chat**; I will do my best to notice and respond to your remarks. Please note that Zoom chats do not persist and are deleted when the session closes.
+* You are welcome to **use reactions** (clapping and thumbs up), if it feels like the right thing to do.
+* You are welcome to **use a background image** or a blurred background in your video if you wish.
+
+### Sharing Your Camera
+The simple fact is that **I teach *much, much better* when I can see your faces** — I mean, *a lot* better. It's incredibly difficult for me to lecture to a blank screen. Being able to see each other also promotes more engaging discussions among students. Therefore, if you are comfortable doing so, I respectfully request that you please keep your camera on. 
+
+Of course, I also completely understand there may be good technical or personal reasons why a student would to blank their camera. I can manage OK with up to about 30-40% of our class blanking their cameras at any one time — more than this, however, and I might ask you the favor of unblanking. 
+
+If you have any concerns about sharing your video, especially in a long-term context, please email me as soon as possible and we can discuss possible adjustments.
+
+
+---
+# Code of Conduct
+
+### Code of Conduct
+I am committed to providing an educational experience that is free of harassment and intimidation for everyone in this course—regardless of gender identity and expression, age, sexual orientation, disability, physical appearance, body size, race, ethnicity, nationality, religion (or lack thereof), or technology choices. I will not tolerate any form of harassment and/or discriminatory, oppressive, suppressive, or violent behavior.
+
+*Harassment* may include, but is not limited to, offensive verbal comments, deliberate intimidation, stalking, following, harassing photography or recording, sustained disruption, inappropriate or non-consensual physical contact, unwelcome sexual attention, and/or refusing to accept the limits or boundaries set by another participant in our classroom. I further define *suppressive* behavior as any sort of communication that stifles or belittles another. Participants who have been asked to stop any behavior are expected to comply immediately. I expect all of the participants in our course community to adhere to this code of conduct–including myself, the Professor.
+
+Debate and free exchange of ideas is encouraged, but I will not tolerate harassment. If someone engages in harassing behavior, I may take any action deemed appropriate in the Carnegie Mellon University Policy against [Sexual Harassment and Sexual Assault](https://www.cmu.edu/policies/administrative-and-governance/sexual-harassment-and-sexual-assault.html), [Discriminatory Harassment](https://www.cmu.edu/student-affairs/theword/community-policies/discriminatory-harassment.html), or other [community policies](https://www.cmu.edu/student-affairs/theword/community-policies/index.html). If you experience or witness harassment, threatening behavior, suppressive behavior, or have any other concerns, I encourage you to speak up, say something, and/or let us know immediately.
+
+*Carnegie Mellon University is firmly committed to intellectual honesty, freedom of inquiry and expression, and respect for the dignity of each individual. Acts of discriminatory harassment or intimidation by a student directed toward any member of the community are inconsistent with this commitment and will not be tolerated. Consistent with the University’s Statement of Assurance, prohibited acts include harassment and intimidation motivated by discriminatory intent based on race, color, national origin, sex, handicap or disability, age, sexual orientation, gender identity, religion, creed, ancestry, belief, veteran status, or genetic information. Any such harassment or intimidation of or by a student should be referred to the Dean of Student Affairs for resolution.*
+
+### Inclusivity Statement
+It is my intent that students from all diverse backgrounds and perspectives be well served by this course, and that the diversity that students bring to this class be viewed as a resource, strength and benefit. It is my intent to present activities that accommodate and value a diversity of gender, sexuality, disability, age, socioeconomic status, ethnicity, race, and culture. I will gladly honor your request to address you by the pronouns and name you specify.
+
+I commit to make individual arrangements to address disabilities or religious needs (e.g. religious events in conflict with class meetings). Please advise me of these preferences and needs early in the semester so that I may make appropriate changes to our plans and records.
+
+
+
+---
+# Freedom of Speech
+
+### Freedom of Speech Committment 
+This is an art course in an art school. This course may present content that includes nudity, imagery, language, or dialogue that could offend some students. In viewing and discussing works of art, I encourage the broadest possible tolerance consistent with United States law.
+
+Being in an art school, you should be prepared for the possibility of encountering content that challenges your moral, ethical, and aesthetic values. In case of extremely graphic content I will warn the class in advance, but if you have a history of PTSD please let me know privately if there are types of content that are known to act as trauma triggers for you.
+
+Freedom of speech is the foundation of our community and our nation. The works we view or produce in this class may awe, illuminate, challenge, unsettle, confound, provoke, and, at times, offend. I defend the freedom to create content and exhibit such work anywhere in the world, and I recognize the privilege of living in a country where creating, exhibiting, and experiencing such work is a constitutional right. To exhibit a work of art is not to endorse the work or the vision, ideas, and opinions of the artist. It is to uphold the right of all to experience diverse visions and views. If and when controversies arise from the exhibition of a work of art, we welcome public discussion and debate with the belief that such discussion is integral to the experience of the art. Consistent with our fundamental commitment to freedom of speech, we will not censor exhibitions or other presentations in response to political or ideological pressure. That said: in this classroom, hate speech and symbols, or other media in violation of our course [Code of Conduct](#code-of-conduct) or harassment policies, will not be considered protected speech and will not be tolerated.
+
+If you feel offended by course content, please first contact the professor privately in writing. In your email or letter, please address the following questions:
+
+* To what in the presented work or assignment do you object?
+* What do you believe is the theme or purpose of this work?
+* What do you feel might be the result of viewing, reading or learning about this work?
+* Is there a work of equal value that you would recommend which would serve as an alternative to the work in question?
+
+Materials are considered innocent until proven guilty. Allegedly offensive materials will not be removed until after a review process has completed.
+
+
+---
+# Dealing with Stress
+**Take care of yourself**. Please do your best to maintain a healthy lifestyle this semester by eating well, exercising, avoiding drugs and alcohol, getting enough sleep and taking some time to relax. This will help you achieve your goals and cope with stress.
+
+All of us benefit from support during times of struggle. You are not alone. There are many helpful resources available on campus and an important part of the college experience is learning how to ask for help. Asking for support sooner rather than later is often helpful.
+
+If you or anyone you know experiences any academic stress, difficult life events, or feelings like anxiety or depression, we strongly encourage you to seek support. Counseling and Psychological Services (CaPS) is here to help: call 412-268-2922 and visit their website at http://www.cmu.edu/counseling/. Consider reaching out to a friend, faculty or family member you trust for help getting connected to the support that can help. If you or someone you know is feeling suicidal or in danger of harm to self or others, call someone immediately, day or night:
+
+* **CaPS Counseling: +1-412-268-2922**
+* **Re:solve Crisis Network: +1-888-796-8226**
+* **On campus CMU Police: +1-412-268-2323**
+
+
+---
+# FERPA Statement
+[FERPA](https://www2.ed.gov/policy/gen/guid/fpco/ferpa/index.html) (The Family Educational Rights and Privacy Act) is a federal law that protects the confidentiality of student records. It restricts others from accessing or discussing your educational records without your consent. In this section, we discuss why you have been asked to sign a waiver, which grants your consent to have your work shown online.
+
+In a typical class, your homework (and other information delineating your academic performance) would not be visible to the public. Indeed, the FERPA law requires that you have the right to privacy in this regard. This is one of the main reasons for the existence of so many “walled gardens” for courseware, such as Autolab, Canvas, Moodle, Blackboard and Piazza, which keep all student work hidden behind passwords and paywalls.
+
+An essential component of the educational experience in new media arts, however, is learning how to participate in the “Grand Conversation” all around us, by becoming more effective culture operators. We cannot do this in the safe space of a password-protected courseware module. Our work is strengthened and sharpened in the forge of public scrutiny: in this case, the agora of the Internet.
+
+Sometimes students are afraid to publish something because it is of poor quality. They think that they will receive embarrassing, negative critiques. In fact, negative critique is quite rare. The most common thing that happens when one creates an artwork of poor quality, is that it is simply *ignored*. Being ignored — this, not being shunned or derided — this is the fate of mediocre work.
+
+On the other hand, if something is truly great is published — and great projects can happen, and have happened, even in an introductory class like this one — there is the chance that it may be circulated widely on the Internet. Every year that I have taught this course, a handful of the students’ projects get blogged and receive as many as 50,000 views in a week. It cannot be emphasized that this is an absolutely transformative experience for students, that cannot be obtained without taking the risk to work publicly. Students can and do get job offers and build careers on the basis of such success.
+
+That said, there are also plenty of reasons why you may wish to work anonymously, when you work online. Perhaps you are concerned about stalkers or harassment. Perhaps you wish to address themes in your work which might not meet with the approval of your parents or future employers. These are valid considerations. On our course website, you will be identified by a public-facing username. For these reasons, you have been given the opportunity to select a blog username which can help protect your anonymity.
+
+
+---
+# Land Notice
+The Frank-Ratchye STUDIO for Creative Inquiry, Carnegie Mellon University, and the city of Pittsburgh is situated on land that has been continuously inhabited for over 16,000 years, serving as a home to members of the Adena, Hopewell, Monongahela, Lenape, Shawnee, Wyandot, Tisagechroami, Delaware, and Mohican communities before becoming a territory of the Iroquois Confederacy. The Iroquois Confederacy included the Mohawk, Onondaga, Oneida, Cayuga, Seneca, and Tuscarora people, whose relationships with the land continue to this day. The Seneca name for Pittsburgh is [Dionde:gâ](https://en.wikipedia.org/wiki/History_of_Pittsburgh).
+
