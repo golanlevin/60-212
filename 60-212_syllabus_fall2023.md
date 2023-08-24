@@ -354,15 +354,15 @@ With very rare exception, it is permissible to use generative AI systems (such a
 
 On the other hand, just because you're *permitted* to use generative AI systems, I don't necessarily *recommend* it. Please keep the following suggestions in mind: 
 
-* *Beware normativity.* Generative AI systems are designed to regurgitate a digested version of stuff they've seen before. The results they provide are often appallingly normative. That might work well for a CS course in which there is a "right answer", but it's anathema to an art course in which the goal is for you to develop your own creative voice. The major projects in this course may ask you to make something beautiful; they may ask you to make something interesting; but most importantly of all, the projects ask you to make something *yours*. No AI system — definitionally — can do that.
-* *There's no short-cut to skill.* There aren't many programming exercises in this class that could be made wholesale by an AI — but those that could, have been assigned to you because I genuinely believe you need those programming skills in order to make the more creative stuff.
+* *Beware normativity.* Generative AI systems are designed to regurgitate a digested version of stuff they've seen before. The results they provide are often appallingly normative. That might work well for a CS course in which there is a "right answer", but it's anathema to an art course in which the goal is for you to develop your own creative voice. The main projects in this course may ask you to make something beautiful; they may ask you to make something interesting; but most importantly of all, the projects ask you to make something *yours*. No AI system — definitionally — can do that.
+* *There's no short-cut to skill.* There aren't many programming exercises in this class that could be made wholesale by an AI — but those that could, are basic exercises which have been assigned to you precisely because I genuinely believe you actually need those skills in order to make the more creative stuff. 
 * *Beware the loss of serendipity.* Bob Ross famously quipped, "We don't make mistakes -- we just have happy accidents." Although it may be expedient to have a system write your code for you, you will miss out on the chance to become intimately familiar with the grain of your medium, and to have accidents that suggest new possibilities and ideas.
-* *Beware the loss of your time.* In some cases, it might be easier just to program the damn thing yourself, than to spend the time correcting and tweaking your prompt.
+* *Beware the loss of your time.* In many cases, it might be easier just to program the damn thing yourself, than to spend the time correcting and tweaking your prompt.
 
 ---
 # Zoom & Remote Education
 
-We will likely not be using Zoom to meet this semester, but if the need arises, the following policies will apply. 
+We will probably not be using Zoom to meet this semester, but if the need arises, the following policies will apply. 
 
 ### Communication Tools
 If we need to meet via Zoom, please make sure that your Internet connection is stable, that your equipment is set up with an up-to-date version of Zoom, and that your system is able to share audio and video during class meetings.
