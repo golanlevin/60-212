@@ -13,9 +13,18 @@ CMU School of Art
 * Title: *Intermediate Studio: Creative Coding* (60-212), Fall 2023
 * Time/Loc: Mon/Wed, 2:00-4:50pm in CFA-303
 * Departments: Carnegie Mellon University [School of Art](http://www.art.cmu.edu/) and [IDeATe Program](https://ideate.cmu.edu/)
-* Course OpenProcessing site: [TBA](TBA)
+* Course OpenProcessing site: [https://openprocessing.org/class/86356](https://openprocessing.org/class/86356)
 * Course Google Calendar: [http://bit.ly/golancoursecalendar](http://bit.ly/golancoursecalendar)
 * Contact: [Golan Levin](http://www.art.cmu.edu/people/golan-levin/), golan@andrew.cmu.edu
+
+---
+
+### TLDR
+
+Your official grade will be based on your professionalism in completing work and attending class.
+
+1. **Do The Assignment Checklists.** Each assignment has a clearly defined list of tasks, whose purpose is to help you develop discipline in documenting your work well. 
+2. **No Ghosting.** Attendance is important, but if you need to miss class — which happens, within reason — you are expected to be responsible about communicating with the professor about your absence.
 
 ---
 
@@ -84,6 +93,21 @@ This is a “studio art course in computer science”, in which our objective is
 ---
 # Course Profile
 
+### Deliverables
+
+There will be 10 sets of Deliverables this semester. Each set will have several components, including warmup exercises and a main project, that may have different deadlines.
+
+1. Form & Code: Gauntlet I. 
+2. Form & Code: Gauntlet II. 
+3. Form & Code: Gauntlet III. 
+4. Generative Pattern: Riso Wallpaper
+5. Time: Loop/Clock
+6. Feedback & Physics: Generative Field NFT
+7. Gestural Systems: Augmented Body
+8. Mobile Telematic 
+9. Poetic Surveillance System
+10. Audiovisual Environment
+
 ### Key Topics
 *What are the key subject topics that this course will cover?*
 
@@ -121,7 +145,7 @@ This course is relevant to students who are interested in:
 
 Grades will be generated through a [labor-based grading contract](https://en.wikipedia.org/wiki/Contract_grading#Labor-based_contract_grading), which will be negotiated with the students at the beginning of the semester, and re-evaluated at mid-semester. This contract will be based on factors including completion of assignments and attendance. 
 
-There are approximately 7-10 main assignments (software art programming projects) on which students will receive critical feedback from faculty, outside professionals, and their peers. Critical feedback on the content or quality of projects will not factor into grades, except where such feedback concerns missing components of the assignment. 
+There are 10 main sets of deliverables (software art programming projects) on which students will receive critical feedback from faculty, outside professionals, and their peers. Critical feedback on the content or quality of projects will not factor into grades, except where such feedback concerns missing components of the assignment. 
 
 ### Learning Resources
 *What resources will be available for students: web pages, learning applications, texts, case studies, etc.?*
@@ -174,26 +198,6 @@ This course uses the following software systems to share information:
 
 
 ---
-# Course COVID Policies
-
-As of August 2023, new COVID variants are [on the rise](https://www.cbsnews.com/news/new-covid-2023-variant-eg5-strain-what-to-know/), and [health experts are recommending masking up](https://www.cnn.com/2023/08/23/health/masks-covid-surge-wellness/index.html). As we head back to campus, keep in mind that thousands of students are returning from all over the world. In light of this, the following policies and suggestions govern our in-person meetings: 
-
-* **Masks** are *very strongly recommended* during the first two weeks of the semester. Following the first two weeks, the use of masks is *encouraged*.
-* That said: It's important that we be able to see and hear each other well. In the interest of effective interpersonal communication, *you may feel free to lower your mask (if you wish) if you are actively speaking to the entire class.* This is a calculated risk.
-* **Don't crowd each other**; do your reasonable best to remain a comfortable distance from others.
-* **Drinks** (especially caffeinated drinks with lids) are permitted; please replace your mask after taking a sip.
-* **Food** is not to be eaten in the classroom. 
-
-### Health-Related Absences
-Please evaluate your own health status regularly and refrain from attending class and other on-campus events if you feel even slightly ill. You are strongly encouraged to seek appropriate medical attention for treatment of illness. **In the event of contagious illness, please do not come to class or to campus!** Instead, notify the professor about your absence as soon as possible, so that accommodations can be made. 
-
-### Accommodations and Flexibility
-If you're going to be absent, please communicate with me. As per our [Civics and Attendance](#civics-and-attendance) policies, I may or may not allow *unexcused* absences, i.e., an absence in which you neglected to contacted me before class. When providing an excuse for an absence, a few words will suffice (“I’m feeling ill today”, “I have a religious holiday”, etc.). 
-
-We will have approximately 7-10 large projects this semester. I would love it if you did all of them. But you may need a release valve if something goes sideways. Our [labor-based grading contract](https://en.wikipedia.org/wiki/Contract_grading#Labor-based_contract_grading) will allow you to miss some number (TBD) of assignments without penalty. 
-
-
----
 # Civics and Attendance
 
 ### Attendance and Presence
@@ -207,34 +211,47 @@ Regarding your **mental presence in the classroom**: physical presence means not
 ### A Word About Unexcused Absences in Critiques
 Sometimes, students who haven’t completed their projects skip class during critiques, because they are too embarrassed to come to class empty-handed. This type of absence is particularly self-destructive, and is one of the most objectionable and ignominious things you can do in this class. *Please have courage.* Your participation on critique days is essential, even if your own project is incomplete or missing, because these sessions and conversations help you understand our class standards, expectations, and criteria for good work. Even if your own project is unfinished, you are still expected to contribute productively to the class discussion.
 
+### Health-Related Absences
+Please evaluate your own health status regularly and refrain from attending class and other on-campus events if you feel even slightly ill. You are strongly encouraged to seek appropriate medical attention for treatment of illness. **In the event of contagious illness, please do not come to class or to campus!** Instead, notify the professor about your absence as soon as possible, so that accommodations can be made. 
+
 ### Attendance Policy Summary
 
 **Terms:**
 
 * A **class event** is an in-class activity, such as a lecture or critique, in which your presence and participation is *expected*. 
-* A **work period** is an in-class span of time during which your presence and participation are highly desirable, but not strictly *required*. During work periods, students will have time to work on their projects, with ready access to consultations with the professor and advice from their peers.
+* A **work period** is an in-class span of time during which your presence and participation are highly desirable, but may not be strictly *required*. During work periods, students will have time to work on their projects, with ready access to consultations with the professor and advice from their peers. The professor will be clear as to whether self-dismissal is permitted during a given work periods.
+* An **unexcused absence** is one in which you've *ghosted* a class event, without communicating beforehand with the professor.
 * An **excused absence** is one in which you've communicated responsibly with the professor prior to class. (For example: if you've sent a message to the professor because you're not feeling well, or if you know in advance that you're going to be observing a religious holiday or traveling to a job interview.) Potentially, contacting the professor beforehand may make it possible to provide you with accommodations—such as recording a class event, or providing a Zoom connection for a remote participant. I recognize that all sorts of unexpected things can happen; if you provide an excuse *after* the class event, I *may or may not* accept your excuse.
-* An **unexcused absence** is one in which you've *ghosted* a class event, without communicating beforehand with the professor. 
 * A **mental absence** is a form of *partial absence* in which you might as well be elsewhere. For example, while walking around the room, I plainly observe that you're working on homework for another course. Sleeping in class is also a form of mental absence.
 * A **tardiness** is a form of *partial absence* in which you are more than 20 minutes late to an class event. Tardiness may be excused or unexcused. 
 
 **Policies:**
 
 * Students should contact the professor before class to alert him to their absence.
-* Our labor-based grading contract (to be negotiated) will assign grades that factor in a count of unexcused absences, but not excused absences. 
+* Our labor-based grading contract (to be negotiated) will assign grades that factor in a count of unexcused absences, but not excused absences, within reason.
+* This policy on excused absences should not be abused. If you have accumulated an unreasonably large number of absences—even if they were excused—we may still have an issue. 
 * A post-hoc excuse for an unexcused absence *may or may not* be accepted, at the professor's discretion.
 * The first incidence of unexcused tardiness will be noted, but excused. 
 * The first incidence of mental absence will be noted, but excused. 
-* My seemingly lenient policy on excused absences should not be abused. If you have accumulated an unreasonably large number of excused absences—even if they were excused—we may still have a problem.
-
 
 **Advisory:** 
 
-The three least forgivable violations of our course attendance policy are: 
+The three least-forgivable violations of our course attendance policy are: 
 
 1. Sleeping during a presentation by an outside guest
 2. Unexcused absence during a critique
-3. Unexcused absence... and then I bump into you in the hallway chatting with your friends later that day
+3. Unexcused absence... and then I bump into you in the hallway later that day
+
+---
+# Course COVID Policies
+
+As of August 2023, new COVID variants are [on the rise](https://www.cbsnews.com/news/new-covid-2023-variant-eg5-strain-what-to-know/), and [health experts are recommending masking up](https://www.cnn.com/2023/08/23/health/masks-covid-surge-wellness/index.html). As we head back to campus, keep in mind that thousands of students are returning from all over the world. In light of this, the following policies and suggestions govern our in-person meetings: 
+
+* **Masks** are *very strongly recommended* during the first two weeks of the semester. Following the first two weeks, the use of masks is *encouraged*.
+* That said: It's important that we be able to see and hear each other well. In the interest of effective interpersonal communication, *feel welcome to lower your mask (if you wish) if you are actively speaking to the entire class.* This is a calculated risk.
+* **Drinks** (especially caffeinated drinks with lids) are permitted; please replace your mask after taking a sip.
+* **Food** is not to be eaten in the classroom. 
+
 
 ---
 # Grading, Rubics, and Expectations of Professionalism
@@ -243,7 +260,7 @@ In this course, your work is evaluated according to three different systems, whi
 
 * **Grades** (standards used by CMU on its transcripts, to indicate your objective level of effort in a course) 
 * **Rubrics** (standards used by our class community in critiques, to provide subjective feedback about your creative work)
-* **Expectations of Professionalism** (standards used by the professor to judge your professional conduct, which help me decide whether I might someday write a letter of recommendation for you, agree to offer independent study credits to you, hire you as a research assistant, etc.).
+* **Expectations of Professionalism** (standards used by the professor to judge your professional conduct, which help me decide whether I might someday (e.g.) write a letter of recommendation for you, agree to offer independent study credits to you, hire you as a research assistant, or enroll you from my waitlist.
 
 ### Expectations of Professionalism
 There are a few elementary things you can do to ensure that you retain my highest respect for your professionalism. These things may seem simple and obvious, but it’s surprising how few students seem to get this right. At a minimum, I ask you to:
@@ -348,16 +365,16 @@ The assignments in this course are primarily intended to be executed by individu
 
 ### Policies and Suggestions Regarding Generative AI
 
-With very rare exception, it is permissible to use generative AI systems (such as ChatGPT) to help you with your projects. Indeed: it is incumbent upon us to explore how these systems are changing the nature of software development. The use of generative AI in your classwork is subject to the following policy:
+With few exceptions (I'll be clear), it is *permissible* to use generative AI systems (such as ChatGPT) to help you with your projects. Indeed: it is incumbent upon us to explore how these systems are changing the nature of software development. The use of generative AI in your classwork is subject to the following policy:
 
-* *Acknowledge your use.* If you use a generative AI system to assist you in the creation of a project, you are required to say so — in exactly the same way that you would acknowledge using some code you found online, or that you would acknowledge receiving help from another student. In your project write-up, please state which system you used, and how. Your honesty in this matter is extremely important.
+* *Acknowledge your use.* If you use a generative AI system to assist you in the creation of a project, you are required to say so — in exactly the same way that you would acknowledge using some code you found online, or that you would acknowledge receiving help from another student. In your project write-up, please state which system you used, and how you used it. Your honesty in this matter is extremely important. And, I hope we can all learn from your experiments.
 
-On the other hand, just because you're *permitted* to use generative AI systems, I don't necessarily *recommend* it. Please keep the following suggestions in mind: 
+On the other hand, just because you're *permitted* to use generative AI systems... I don't necessarily *recommend* it. Please keep the following suggestions in mind: 
 
 * *Beware normativity.* Generative AI systems are designed to regurgitate a digested version of stuff they've seen before. The results they provide are often appallingly normative. That might work well for a CS course in which there is a "right answer", but it's anathema to an art course in which the goal is for you to develop your own creative voice. The main projects in this course may ask you to make something beautiful; they may ask you to make something interesting; but most importantly of all, the projects ask you to make something *yours*. No AI system — definitionally — can do that.
 * *There's no short-cut to skill.* There aren't many programming exercises in this class that could be made wholesale by an AI — but those that could, are basic exercises which have been assigned to you precisely because I genuinely believe you actually need those skills in order to make the more creative stuff. 
 * *Beware the loss of serendipity.* Bob Ross famously quipped, "We don't make mistakes -- we just have happy accidents." Although it may be expedient to have a system write your code for you, you will miss out on the chance to become intimately familiar with the grain of your medium, and to have accidents that suggest new possibilities and ideas.
-* *Beware the loss of your time.* In many cases, it might be easier just to program the damn thing yourself, than to spend the time correcting and tweaking your prompt.
+* *Beware the loss of your time.* In many cases, it's often easier just to program the damn thing yourself, than to spend the time correcting and tweaking your prompt.
 
 ---
 # Zoom & Remote Education
