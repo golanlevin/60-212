@@ -68,17 +68,17 @@ Your official grade will be based on your professionalism in completing work and
 	* [Policies Regarding Informal Collaboration](#policies-regarding-informal-collaboration)
 	* [Policies Regarding Formal Collaboration](#policies-regarding-formal-collaboration)
 	* [Policies and Suggestions Regarding Generative AI](#policies-and-suggestions-regarding-generative-ai)
+* [**Code of Conduct**](#code-of-conduct)
+	* [Code of Conduct](#code-of-conduct-1)
+	* [Inclusivity Statement](#inclusivity-statement)
+* [**Freedom of Speech Committment**](#freedom-of-speech)
+* [**Dealing with Stress**](#dealing-with-stress)
 * [**Zoom & Remote Education**](#zoom--remote-education)
 	* [Communication Tools](#communication-tools)
 	* [Recording Lectures](#recording-lectures)
 	* [Hybrid Sessions](#hybrid-sessions)
 	* [Zoom Policies](#zoom-policies)
 	* [Sharing Your Camera](#sharing-your-camera)
-* [**Code of Conduct**](#code-of-conduct)
-	* [Code of Conduct](#code-of-conduct-1)
-	* [Inclusivity Statement](#inclusivity-statement)
-* [**Freedom of Speech Committment**](#freedom-of-speech)
-* [**Dealing with Stress**](#dealing-with-stress)
 * [**Land Notice**](#land-notice)
 
 ---
@@ -369,42 +369,14 @@ The assignments in this course are primarily intended to be executed by individu
 
 With few exceptions (I'll be clear), it is *permissible* to use generative AI systems (such as ChatGPT) to help you with your projects. Indeed: it is incumbent upon us to explore how these systems are changing the nature of software development. The use of generative AI in your classwork is subject to the following policy:
 
-* *Acknowledge your use.* If you use a generative AI system to assist you in the creation of a project, you are required to say so — in exactly the same way that you would acknowledge using some code you found online, or that you would acknowledge receiving help from another student. In your project write-up, please state which system you used, and how you used it. Your honesty in this matter is extremely important. And, I hope we can all learn from your experiments.
+* *Acknowledge your use.* If you use a generative AI system to assist you in the creation of a project, you are required to say so — in exactly the same way that you would acknowledge using some code you found online, or that you would acknowledge receiving help from another student. In your project write-up and/or in your code, please state which system you used, and how you used it. Your honesty in this matter is extremely important. And, I hope we can all learn from your experiments.
 
 On the other hand, just because you're *permitted* to use generative AI systems... I don't necessarily *recommend* it. Please keep the following suggestions in mind: 
 
-* *Beware normativity.* Generative AI systems are designed to regurgitate a digested version of stuff they've seen before. The results they provide are often appallingly normative. That might work well for a CS course in which there is a "right answer", but it's anathema to an art course in which the goal is for you to develop your own creative voice. The main projects in this course may ask you to make something beautiful; they may ask you to make something interesting; but most importantly of all, the projects ask you to make something *yours*. No AI system — definitionally — can do that.
+* *Beware a push toward normativity.* Generative AI systems are designed to regurgitate a digested version of stuff they've seen before. The results they provide are often intrinsically and appallingly normative. That might work well for a CS course in which there is a "right answer", but it may be unsuitable for an art project in which the goal is for you to develop your own creative voice. We may hope that you make something beautiful; we may hope that you make something interesting; but most importantly of all, the projects in this course ask you to make something *yours*. No AI system can do that, by definition... unless you made the AI system.
 * *There's no short-cut to skill.* There aren't many programming exercises in this class that could be made wholesale by an AI — but those that could, are basic exercises which have been assigned to you precisely because I genuinely believe you actually need those skills in order to make the more creative stuff. 
 * *Beware the loss of serendipity.* Bob Ross famously quipped, "We don't make mistakes -- we just have happy accidents." Although it may be expedient to have a system write your code for you, you will miss out on the chance to become intimately familiar with the grain of your medium, and to have accidents that suggest new possibilities and ideas.
 * *Beware the loss of your time.* In many cases, it's often easier just to program the damn thing yourself, than to spend the time correcting and tweaking your prompt.
-
----
-# Zoom & Remote Education
-
-We will probably not be using Zoom to meet this semester, but if the need arises, the following policies will apply. 
-
-### Communication Tools
-If we need to meet via Zoom, please make sure that your Internet connection is stable, that your equipment is set up with an up-to-date version of Zoom, and that your system is able to share audio and video during class meetings.
-
-### Recording Lectures
-I may offer to record select portions of my *formal lectures* if there is interest, as well as guest presentations. However, I will generally not record informal conversations, critiques or discussions. 
-
-### Hybrid Sessions
-If a student is unable to attend an in-person class session, I will consider requests to livestream portions of the class via Zoom, if it makes sense to do so. 
-
-### Zoom Policies
-* In general, please **keep your mic muted** (unless you unless you are actively sharing with the class), in order to reduce stray noise.
-* You may use the “raise hand feature” to get attention, but I recommend **actually raising your hand** in the video if possible.
-* You are also very welcome to **ask or respond to questions in the chat**; I will do my best to notice and respond to your remarks. Please note that Zoom chats do not persist and are deleted when the session closes.
-* You are welcome to **use reactions** (clapping and thumbs up), if it feels like the right thing to do.
-* You are welcome to **use a background image** or a blurred background in your video if you wish.
-
-### Sharing Your Camera
-The simple fact is that **I teach *much, much better* when I can see your faces** — I mean, *a lot* better. It's incredibly difficult for me to lecture to a blank screen. Being able to see each other also promotes more engaging discussions among students. Therefore, if you are comfortable doing so, I respectfully request that you please keep your camera on. 
-
-Of course, I also completely understand there may be good technical or personal reasons why a student would to blank their camera. I can manage OK with up to about 30-40% of our class blanking their cameras at any one time — more than this, however, and I might ask you the favor of unblanking. 
-
-If you have any concerns about sharing your video, especially in a long-term context, please email me as soon as possible and we can discuss possible adjustments.
 
 
 ---
@@ -457,6 +429,34 @@ If you or anyone you know experiences any academic stress, difficult life events
 * **CaPS Counseling: +1-412-268-2922**
 * **Re:solve Crisis Network: +1-888-796-8226**
 * **On campus CMU Police: +1-412-268-2323**
+
+---
+# Zoom & Remote Education
+
+We will probably not be using Zoom to meet this semester, but if the need arises, the following policies will apply. 
+
+### Communication Tools
+If we need to meet via Zoom, please make sure that your Internet connection is stable, that your equipment is set up with an up-to-date version of Zoom, and that your system is able to share audio and video during class meetings.
+
+### Recording Lectures
+I may offer to record select portions of my *formal lectures* if there is interest, as well as guest presentations. However, I will generally not record informal conversations, critiques or discussions. 
+
+### Hybrid Sessions
+If a student is unable to attend an in-person class session, I will consider requests to livestream portions of the class via Zoom, if it makes sense to do so. 
+
+### Zoom Policies
+* In general, please **keep your mic muted** (unless you unless you are actively sharing with the class), in order to reduce stray noise.
+* You may use the “raise hand feature” to get attention, but I recommend **actually raising your hand** in the video if possible.
+* You are also very welcome to **ask or respond to questions in the chat**; I will do my best to notice and respond to your remarks. Please note that Zoom chats do not persist and are deleted when the session closes.
+* You are welcome to **use reactions** (clapping and thumbs up), if it feels like the right thing to do.
+* You are welcome to **use a background image** or a blurred background in your video if you wish.
+
+### Sharing Your Camera
+The simple fact is that **I teach *much, much better* when I can see your faces** — I mean, *a lot* better. It's incredibly difficult for me to lecture to a blank screen. Being able to see each other also promotes more engaging discussions among students. Therefore, if you are comfortable doing so, I respectfully request that you please keep your camera on. 
+
+Of course, I also completely understand there may be good technical or personal reasons why a student would to blank their camera. I can manage OK with up to about 30-40% of our class blanking their cameras at any one time — more than this, however, and I might ask you the favor of unblanking. 
+
+If you have any concerns about sharing your video, especially in a long-term context, please email me as soon as possible and we can discuss possible adjustments.
 
 
 ---
