@@ -33,6 +33,7 @@ Your official grade will be based on your professionalism in completing work and
 * [**Overview**](#overview)
 	* [Course Description](#course-description)
 * [**Course Profile**](#course-profile)
+   * [Deliverables](#deliverables)
 	* [Key Topics](#key-topics)
 	* [Prerequisite Knowledge](#prerequisite-knowledge)
 	* [Learning Objectives (Course Goals)](#learning-objectives-and-course-goals)
@@ -95,18 +96,19 @@ This is a “studio art course in computer science”, in which our objective is
 
 ### Deliverables
 
-There will be 10 sets of Deliverables this semester. Each set will have several components, including warmup exercises and a main project, that may have different deadlines.
+There will be 10 sets of Deliverables this semester. Each set will have several components, including warmup exercises and a main project, that may have different deadlines. *Note: this list may be subject to change.*
 
-1. Form & Code: Gauntlet I. 
-2. Form & Code: Gauntlet II. 
-3. Form & Code: Gauntlet III. 
-4. Generative Pattern: Riso Wallpaper
-5. Time: Loop/Clock
-6. Feedback & Physics: Generative Field NFT
+1. Form & Code: Visual Problems I. 
+2. Form & Code: Visual Problems II. 
+3. Form & Code: Visual Problems III. 
+4. Generative Pattern
+5. Time and Dynamic Form
+6. Feedback & Physics: Generative Field
 7. Gestural Systems: Augmented Body
-8. Mobile Telematic 
-9. Poetic Surveillance System
+8. Network: Mobile Telematic 
+9. Camera: Poetic Surveillance System
 10. Audiovisual Environment
+
 
 ### Key Topics
 *What are the key subject topics that this course will cover?*
