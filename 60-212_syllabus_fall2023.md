@@ -202,6 +202,8 @@ This course uses the following software systems to share information:
 ---
 # Civics and Attendance
 
+*The specifics of how attendance relates to your grades will be articulated in a labor-based grading contract, negotiated between the professor and students, which will form an addendum to this Syllabus.*
+
 ### Attendance and Presence
 
 It has been said: **80% of success is just showing up**. Your presence and civic participation in the class are of paramount importance. You are responsible for what happens in class whether you’re here or not. Organize with your classmates to get class information and material that you have missed.
@@ -225,12 +227,12 @@ Please evaluate your own health status regularly and refrain from attending clas
 * An **unexcused absence** is one in which you've *ghosted* a class event, without communicating beforehand with the professor.
 * An **excused absence** is one in which you've communicated responsibly with the professor prior to class. (For example: if you've sent a message to the professor because you're not feeling well, or if you know in advance that you're going to be observing a religious holiday or traveling to a job interview.) Potentially, contacting the professor beforehand may make it possible to provide you with accommodations—such as recording a class event, or providing a Zoom connection for a remote participant. I recognize that all sorts of unexpected things can happen; if you provide an excuse *after* the class event, I *may or may not* accept your excuse.
 * A **mental absence** is a form of *partial absence* in which you might as well be elsewhere. For example, while walking around the room, I plainly observe that you're working on homework for another course. Sleeping in class is also a form of mental absence.
-* A **tardiness** is a form of *partial absence* in which you are more than 20 minutes late to an class event. Tardiness may be excused or unexcused. 
+* A **tardiness** is a form of *partial absence* in which you are more than 20 minutes late to an class event. Tardiness may be excused or unexcused. Note that I typically begin to lecture (or commence other important class activities) no more than 5 minutes after the official start time.
 
 **Policies:**
 
 * Students should contact the professor before class to alert him to their absence.
-* Our labor-based grading contract (to be negotiated) will assign grades that factor in a count of unexcused absences, but not excused absences, within reason.
+* Our *labor-based grading contract* (to be negotiated) will assign grades that factor in a count of unexcused absences, but not excused absences, within reason.
 * This policy on excused absences should not be abused. If you have accumulated an unreasonably large number of absences—even if they were excused—we may still have an issue. 
 * A post-hoc excuse for an unexcused absence *may or may not* be accepted, at the professor's discretion.
 * The first incidence of unexcused tardiness will be noted, but excused. 
@@ -250,7 +252,7 @@ The three least-forgivable violations of our course attendance policy are:
 As of August 2023, new COVID variants are [on the rise](https://www.cbsnews.com/news/new-covid-2023-variant-eg5-strain-what-to-know/), and [health experts are recommending masking up](https://www.cnn.com/2023/08/23/health/masks-covid-surge-wellness/index.html). As we head back to campus, keep in mind that thousands of students are returning from all over the world. In light of this, the following policies and suggestions govern our in-person meetings: 
 
 * **Masks** are *very strongly recommended* during the first two weeks of the semester. Following the first two weeks, the use of masks is *encouraged*.
-* That said: It's important that we be able to see and hear each other well. In the interest of effective interpersonal communication, *feel welcome to lower your mask (if you wish) if you are actively speaking to the entire class.* This is a calculated risk.
+* That said: It's important that we be able to see and hear each other well. In the interest of effective interpersonal communication, *feel welcome to lower your mask (if you wish) if you are actively speaking to the entire class.* Yes, this is a calculated risk.
 * **Drinks** (especially caffeinated drinks with lids) are permitted; please replace your mask after taking a sip.
 * **Food** is not to be eaten in the classroom. 
 
@@ -262,7 +264,7 @@ In this course, your work is evaluated according to three different systems, whi
 
 * **Grades** (standards used by CMU on its transcripts, to indicate your objective level of effort in a course) 
 * **Rubrics** (standards used by our class community in critiques, to provide subjective feedback about your creative work)
-* **Expectations of Professionalism** (standards used by the professor to judge your professional conduct, which help me decide whether I might someday (e.g.) write a letter of recommendation for you, agree to offer independent study credits to you, hire you as a research assistant, or enroll you from my waitlist.
+* **Expectations of Professionalism** (standards used by the professor to judge your professional conduct. These help me decide whether I might someday (for example) write a letter of recommendation for you; agree to offer independent study credits to you; hire you as a research assistant; or enroll you from my waitlist for an advanced course.
 
 ### Expectations of Professionalism
 There are a few elementary things you can do to ensure that you retain my highest respect for your professionalism. These things may seem simple and obvious, but it’s surprising how few students seem to get this right. At a minimum, I ask you to:
@@ -294,7 +296,7 @@ In our critiques, we will evaluate your open-ended projects according to the fol
 
 ### Grades
 
-Grades will be calculated with a [labor-based grading contract](https://en.wikipedia.org/wiki/Contract_grading#Labor-based_contract_grading), which will be negotiated with students at the beginning of the semester, and re-evaluated at mid-semester. This contract will be based on objective factors that include the number of projects you complete, your fulfillment of the project requirements, and your attendance. 
+*Grades will be calculated with a [labor-based grading contract](https://en.wikipedia.org/wiki/Contract_grading#Labor-based_contract_grading), which will be negotiated with students at the beginning of the semester, and re-evaluated at mid-semester. This contract will be based on objective factors that include the number of projects you complete, your fulfillment of the project requirements, and your attendance. This contract will form an addendum to this Syllabus.*
 
 In this course, your grades boil down to **fulfillment**. Projects always have a list of *supporting requirements*. These are very straightforward to fulfill, but if you fail to meet these, you will have points deducted. Nearly every project assignment will ask you to do the following:
 
@@ -314,7 +316,7 @@ In this course, your grades boil down to **fulfillment**. Projects always have a
 
 Our class is extremely fast-paced. When you submit work late, you will miss an important opportunity to share, show off, discuss and get critical feedback on your work.
 
-**To receive critical feedback on your work**, your work must be available for evaluation during the critical review period. For example, at times this semester, your creative projects may be evaluated by outside experts who review your work in an in-class critique session, or online. If your assignment is not uploaded and documented online by the time those persons do their reviews, then your work will likely not receive feedback from them. Gebe
+**To receive critical feedback on your work**, your work must be available for evaluation during the critical review period. For example, at times this semester, your creative projects may be evaluated in an in-class crit, or by outside experts who review your work in class or online. If your assignment is not uploaded and documented online by the time those persons do their reviews, then your work will likely not receive feedback from them. I will do my best to provide feedback for late work, but just like everyone else, I need to reserve my effort for the next topic; generally speaking, feedback for late work is comparatively attenuated. 
 
 **To receive full credit towards your grade**, projects should be uploaded and completed by the time that I get around to reading them. This is usually a day or two after their stated due date, but I offer no precise details on this. If your project is late, I reserve the right to assign partial or zero credit to it. If you know you're going to be a little late with a project, *contact me* to arrange an accommodation. 
 
@@ -402,7 +404,7 @@ I commit to make individual arrangements to address disabilities or religious ne
 # Freedom of Speech
 
 ### Freedom of Speech Committment 
-This is an art course in an art school. This course may present content that potentially includes nudity, imagery, language, or dialogue that could offend some students. In viewing and discussing works of art, I encourage the broadest possible tolerance consistent with United States law.
+This is an art course in an art school. This course may present content that potentially includes imagery, language, or dialogue that could offend some students. In viewing and discussing works of art, I encourage the broadest possible tolerance consistent with United States law.
 
 Being in an art school, you should be prepared for the possibility of encountering content that challenges your moral, ethical, and aesthetic values. In the unlikely case that I present extremely graphic content I will warn the class in advance, but if you have a history of PTSD please let me know privately if there are types of content that are known to act as trauma triggers for you. If you intend to present material that you know some people may find disturbing, please provide a content warning beforehand.
 
@@ -433,7 +435,7 @@ If you or anyone you know experiences any academic stress, difficult life events
 ---
 # Zoom & Remote Education
 
-We will probably not be using Zoom to meet this semester, but if the need arises, the following policies will apply. 
+*We will probably not need to use Zoom to meet this semester, but if the need arises, the following policies will apply.*
 
 ### Communication Tools
 If we need to meet via Zoom, please make sure that your Internet connection is stable, that your equipment is set up with an up-to-date version of Zoom, and that your system is able to share audio and video during class meetings.
@@ -461,5 +463,5 @@ If you have any concerns about sharing your video, especially in a long-term con
 
 ---
 # Land Notice
-The Frank-Ratchye STUDIO for Creative Inquiry, Carnegie Mellon University, and the city of Pittsburgh is situated on land that has been continuously inhabited for over 16,000 years, serving as a home to members of the Adena, Hopewell, Monongahela, Lenape, Shawnee, Wyandot, Tisagechroami, Delaware, and Mohican communities before becoming a territory of the Iroquois Confederacy. The Iroquois Confederacy included the Mohawk, Onondaga, Oneida, Cayuga, Seneca, and Tuscarora people, whose relationships with the land continue to this day. The Seneca name for Pittsburgh is [Dionde:gâ](https://en.wikipedia.org/wiki/History_of_Pittsburgh).
+Carnegie Mellon University and the city of Pittsburgh are situated on land that has been continuously inhabited for over 16,000 years, serving as a home to members of the Adena, Hopewell, Monongahela, Lenape, Shawnee, Wyandot, Tisagechroami, Delaware, and Mohican communities before becoming a territory of the Iroquois Confederacy. The Iroquois Confederacy included the Mohawk, Onondaga, Oneida, Cayuga, Seneca, and Tuscarora people, whose relationships with the land continue to this day. The Seneca name for Pittsburgh is [Dionde:gâ](https://en.wikipedia.org/wiki/History_of_Pittsburgh).
 
