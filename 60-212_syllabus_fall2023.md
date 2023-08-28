@@ -24,7 +24,7 @@ CMU School of Art
 Your official grade will be based on your professionalism in completing work and attending class.
 
 1. **Do The Assignment Checklists.** Each assignment has a clearly defined list of tasks, whose purpose is to help you develop discipline in documenting your work well. 
-2. **No Ghosting.** Attendance is important, but if you need to miss class — which happens, within reason — you are expected to be responsible about communicating with the professor about your absence.
+2. **No Ghosting.** Attendance is important, but if you need to miss class — which can happen, within reason — you are expected to be responsible about communicating with the professor about your absence.
 
 ---
 
@@ -232,15 +232,15 @@ Please evaluate your own health status regularly and refrain from attending clas
 **Policies:**
 
 * Students should contact the professor before class to alert him to their absence.
+* A *post-hoc* excuse for an unexcused absence *may or may not* be accepted, at the professor's discretion.
 * Our *labor-based grading contract* (to be negotiated) will assign grades that factor in a count of unexcused absences, but not excused absences, within reason.
-* This policy on excused absences should not be abused. If you have accumulated an unreasonably large number of absences—even if they were excused—we may still have an issue. 
-* A post-hoc excuse for an unexcused absence *may or may not* be accepted, at the professor's discretion.
+* The course policy on excused absences shall not be abused. If you have accumulated an unreasonably large number of absences—even if they were excused—we may still have an issue. Regardless of whether your absences are excused or unexcused, I reserve the right to issue a failing grade if you miss 8 or more sessions in whole or in part.
 * The first incidence of unexcused tardiness will be noted, but excused. 
 * The first incidence of mental absence will be noted, but excused. 
 
 **Advisory:** 
 
-The three least-forgivable violations of our course attendance policy are: 
+The three *least-forgivable* violations of our course attendance policy are: 
 
 1. Sleeping during a presentation by an outside guest
 2. Unexcused absence during a critique
@@ -254,7 +254,7 @@ As of August 2023, new COVID variants are [on the rise](https://www.cbsnews.com/
 * **Masks** are *very strongly recommended* during the first two weeks of the semester. Following the first two weeks, the use of masks is *encouraged*.
 * That said: It's important that we be able to see and hear each other well. In the interest of effective interpersonal communication, *feel welcome to lower your mask (if you wish) if you are actively speaking to the entire class.* Yes, this is a calculated risk.
 * **Drinks** (especially caffeinated drinks with lids) are permitted; please replace your mask after taking a sip.
-* **Food** is not to be eaten in the classroom. 
+* **Food** is not to be eaten in the classroom. It's not sanitary, it leaves a mess, and it's risky around computers. 
 
 
 ---
