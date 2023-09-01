@@ -54,7 +54,6 @@ Nat Sarkissian's [*Hello Modulo*](https://verse.works/collections/hello-modulo-b
 Cacheflowe (Justin Gitlin)'s [*Moiré-Room*](https://cacheflowe.com/art/physical/moire-room) is an immersive environment at Meow Wolf Denver. 
 ![Cacheflowe's *Moiré-Room*](openprocessing_images/cacheflow_moire_room.jpg)
 
-
 ---
 
 ### For Further Research
