@@ -34,24 +34,31 @@ This early minimalist quartet of computer plotter drawings by Manfred Mohr — "
 ![Manfred Mohr, *p137*](openprocessing_images/p137_mohr_1973.png)
 
 [Jean-Pierre Hébert](https://www.artsy.net/artist/jean-pierre-hebert) was an early algorist who used computer-controlled plotters to create nuanced interference patterns. This is from c.1990:
+
 ![Hébert](openprocessing_images/jeanpierre_hebert.jpg)
 
 Kath O'Donnell develops Moiré interference patterns [from the trails left by the edges of rotating 3D forms](https://www.fxhash.xyz/generative/20956). 
+
 ![Kath O'Donnell](openprocessing_images/kath_odonnell_moire.png)
 
 Liam Egan creates [interactive Moiré patterns](https://www.fxhash.xyz/generative/slug/euphonic) with stunning colors:
+
 ![Liam Egan's *Euphonic*](openprocessing_images/liam_egan_moire.gif)
 
 Amy Goodchild's lavalike [*No Apologies*](https://foundation.app/@amygoodchild/foundation/80549) animation is mesmerizing.
+
 ![Amy Goodchild's *No Apologies*](openprocessing_images/amy_goodchild_no_apologies_moire.gif) 
 
 Melissa Weiderrecht's [*Both Be Both*](https://superrare.com/artwork-v2/both-be-both-41921) (2023) animation explores contrasts: "pixelated and soft, glitchy and smooth, digital and textured".
+
 ![Melissa Weiderrecht's *Both Be Both*](openprocessing_images/melissa_weiderrecht_both_be_both_moire.jpg) 
 
 Nat Sarkissian's [*Hello Modulo*](https://verse.works/collections/hello-modulo-by-nat-sarkissian) presents a contrast between machinic interference patterns and a 'hand-drawn' (computational) rendering style.
+
 ![Nat Sarkissian's *Euphonic*](openprocessing_images/nat_sarkissian_moire.jpg)
 
 Cacheflowe (Justin Gitlin)'s [*Moiré-Room*](https://cacheflowe.com/art/physical/moire-room) is an immersive environment at Meow Wolf Denver. 
+
 ![Cacheflowe's *Moiré-Room*](openprocessing_images/cacheflow_moire_room.jpg)
 
 ---
