@@ -31,6 +31,7 @@ Prof. Anoka Faruqee, on the painting faculty at Yale, creates paintings that mak
 ![Anoka Faruqee, paintings](openprocessing_images/anoka_faruqee_moire_paintings.jpg)
 
 This early minimalist quartet of computer plotter drawings by Manfred Mohr — "P-137, Graph Pattern" (1973) — obtains intensity from Moiré-type interference:
+
 ![Manfred Mohr, *p137*](openprocessing_images/p137_mohr_1973.png)
 
 [Jean-Pierre Hébert](https://www.artsy.net/artist/jean-pierre-hebert) was an early algorist who used computer-controlled plotters to create nuanced interference patterns. This is from c.1990:
