@@ -20,6 +20,10 @@ It's possible to make some very sophisticated and mind-bending displays using th
 
 [![Moiré kit demonstration](openprocessing_images/moire-kit-demo.jpg)](https://www.youtube.com/watch?v=4nn1MqCMa1M)
 
+Moiré patterns are a "real thing" that have effects in the physical world. Here's a 1958 photo of Moiré interference patterns in water waves by legendary 20th-century science photographer, Berenice Abbott:
+
+![Berenice Abbott interference patterns](openprocessing_images/berenice_abbott_interference.jpg)
+
 
 ---
 
