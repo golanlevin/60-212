@@ -33,7 +33,7 @@ Moiré patterns are a "real thing" that have effects in the physical world. Here
 
 [![Anoka Faruqee](openprocessing_images/anoka_faruqee_video.jpg)](https://www.youtube.com/watch?v=hYn3Ou8L3o0)
 
-![Anoka Faruqee, paintings](openprocessing_images/anoka_faruqee_moire_paintings.jpg)
+![Anoka Faruqee, paintings](openprocessing_images/anoka_faruqee_paintings.jpg)
 
 This early minimalist quartet of computer plotter drawings by Manfred Mohr — "P-137, Graph Pattern" (1973) — obtains intensity from Moiré-type interference:
 
