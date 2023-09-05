@@ -16,7 +16,7 @@ To fine-tune your composition, I recommend you place some dimensions of variabil
 
 ![Moiré pattern](https://raw.githubusercontent.com/golanlevin/60-212/main/openprocessing_images/moire.gif)
 
-It's possible to make some very sophisticated and mind-bending displays using the Moiré effect. Check out this video, for example around 2'35":
+It's possible to make some very sophisticated and mind-bending displays using the Moiré effect. Check out [this video](https://www.youtube.com/watch?v=4nn1MqCMa1M), for example around 2'35":
 
 [![Moiré kit demonstration](openprocessing_images/moire-kit-demo.jpg)](https://www.youtube.com/watch?v=4nn1MqCMa1M)
 
