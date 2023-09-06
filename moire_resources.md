@@ -88,6 +88,7 @@ Some additional Moiré work you might like includes:
 * [Loren Bednar's *Phase* NFT](https://opensea.io/collection/phase-by-loren-bednar) ([*image*](openprocessing_images/bednar_phase_moire.jpg))
 * [Plotter drawings by Jakub Antolak](https://twitter.com/jakub_antolak/status/1680915719339352064) ([*image*](openprocessing_images/jakub_antolak_moire.jpg))
 * [Plotter drawings by Julien Espagnon](https://twitter.com/Julien_Espagnon/status/1697540035451461656) ([*image*](openprocessing_images/julien_espagnon_moire_plot.jpg))
+* [Plotter drawings by Julien Gachadoat (v3ga)](https://twitter.com/v3ga/status/1699054503431946727) ([*image*](openprocessing_images/julien_gachadoat_v3ga_moire.jpg)
 * [Plotter drawings by Piterpasma](https://twitter.com/piterpasma/status/1697568448727875941) ([*image*](openprocessing_images/piterpasma_moire_plot.jpg))
 * [Tutorial for SVG Moiré Patterns in Blender by Maks Surguy](https://www.patreon.com/posts/exploring-moire-61867805)
 * [Mario Klingemann's shader replication of a pretty lattice in the Manchester Airport smoking area (Twitter thread)](https://twitter.com/quasimondo/status/1132276597405495298)
