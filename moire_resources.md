@@ -14,7 +14,7 @@ Present your composition in a fullscreen canvas (use `createCanvas(windowWidth, 
 
 To fine-tune your composition, I recommend you place some dimensions of variability (such as the line separation, line weight, position, and/or rotation angle) under interactive control. Feel free to retain this interactivity, or to remove this interactivity altogether you feel ready to commit to specific values for these variables.
 
-![Moiré pattern](https://raw.githubusercontent.com/golanlevin/60-212/main/openprocessing_images/moire.gif)
+![Moiré pattern](openprocessing_images/moire.gif)
 
 It's possible to make some very sophisticated and mind-bending displays using the Moiré effect. Check out [this video](https://www.youtube.com/watch?v=4nn1MqCMa1M), for example around 2'35":
 
