@@ -33,9 +33,10 @@ Libraries:
 * [Color.js](https://colorjs.io/)
 * [Culori.js](https://culorijs.org/)
 
-Artworks: 
+Inspirations: 
 
 * https://albers.elastiq.ch/
+* [Kjetil Golid, *Archetype*](https://www.artblocks.io/curated/collections/archetype-by-kjetil-golid?tab=Artworks)
 
 Readings: 
 
@@ -63,3 +64,9 @@ Readings:
 
 * tixy
 * gemini + p5 
+
+
+### Spiral / Phyllotaxis
+
+* [Jen Stark, *Vortex*](https://www.artblocks.io/curated/collections/vortex-by-jen-stark), 2021
+* Jon Edmark
