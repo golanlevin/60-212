@@ -30,22 +30,34 @@ Libraries:
 
 * [Chroma.js](https://www.vis4.net/chromajs/)
 * [Texel/Color](https://github.com/texel-org/color) by @mattdesl
+* [Mixbox](https://github.com/scrtwpns/mixbox) 
 * [Color.js](https://colorjs.io/)
 * [Culori.js](https://culorijs.org/)
+* [Spectral.glsl](https://github.com/rvanwijnen/spectral.js/tree/main?tab=readme-ov-file#shaders)
+
 
 Inspirations: 
 
 * https://albers.elastiq.ch/
 * [Kjetil Golid, *Archetype*](https://www.artblocks.io/curated/collections/archetype-by-kjetil-golid?tab=Artworks)
 
+Color Pickers: 
+
+* Björn Ottosson's [Color Picker](https://bottosson.github.io/misc/colorpicker/) and related [article](https://bottosson.github.io/posts/colorpicker/)
+* [OKLCH Color Picker & Converter](https://oklch.com/#77.33,0.141,123.88,100)
+* [CIELUV Color Picker](https://www.hsluv.org/)
+
+
 Readings: 
 
 * [Computer Color is Broken](https://www.youtube.com/watch?v=LKnqECcg6Gw) (video)
 * [Mastering Multi-Hued Color Scales](https://www.vis4.net/blog/mastering-multi-hued-color-scales/)
 * [Chroma.js Color Palette Helper](https://gka.github.io/palettes/#/9|s|00429d,96ffea,ffffe0|ffffe0,ff005e,93003a|1|1)
-* https://bottosson.github.io/posts/colorpicker/
 * https://bottosson.github.io/posts/oklab/
-* https://bottosson.github.io/misc/colorpicker/#b48133
+* [*An interactive review of Oklab*](https://raphlinus.github.io/color/2021/01/18/oklab-critique.html#update-2021-01-29), Raph Levien, 2021. Includes interactives.
+* [*Okay, Color Spaces*](https://ericportis.com/posts/2024/okay-color-spaces/), Eric Portis, 2024. Includes interactives.
+* [*Color Spaces*](https://ciechanow.ski/color-spaces/), Bartosz Ciechanowski, 2019. Includes interactives.
+* https://github.com/mattdesl/workshop-generative-color
 
 60-30-10: 
 
