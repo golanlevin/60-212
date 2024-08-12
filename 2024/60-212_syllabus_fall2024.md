@@ -18,17 +18,17 @@
 
 ## Contents
 
-* TL;DR
-* Overview
-* Administration
-* Attendance Policies
-* Grading and Evaluation Policies
-* Academic Integrity
-* Accommodations
-* Code of Conduct
-* Classroom Hygiene
-* Dealing with Stress
-* Land Notice
+* [TL;DR](#tldr)
+* [Overview](#overview-1)
+* [Administration](#administration)
+* [Attendance Policies](#attendance-policies)
+* [Grading and Evaluation Policies](#grading-and-evaluation-policies)
+* [Academic Integrity](#academic-integrity)
+* [Accommodations](#accommodations)
+* [Code of Conduct](#code-of-conduct)
+* [Classroom Hygiene](#classroom-hygiene)
+* [Dealing with Stress](#dealing-with-stress)
+* [Land Notice](#land-notice)
 
 ---
 
