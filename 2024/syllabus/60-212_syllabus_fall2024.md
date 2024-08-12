@@ -4,7 +4,7 @@
 
 ## Overview
 
-*This document covers the policies and procedures for the Fall 2024 edition of "Intermediate Studio: Creative Coding (60-212)". This document does not include information about topic modules, specific assignments, or readings; these can be found elsewhere in this repository.* 
+*This document covers the policies and procedures for the Fall 2024 edition of "Intermediate Studio: Creative Coding (60-212)". This document does not include information about topic modules, specific assignments, or readings; these can be found elsewhere in this repository. A PDF version of this document can be found [here](pdf/60-212_syllabus_fall2024.pdf).*
 
 * Title: *Intermediate Studio: Creative Coding* (60-212), Fall 2024
 * Time and Location: Mon/Wed, 7:00-9:50pm in CFA-303
