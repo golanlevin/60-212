@@ -1,5 +1,9 @@
 # Programming GLSL shaders
 
+* pixel-based programming
+* data-parallel computing
+* SIMD (Single Instruction, Multiple Data) processing, where the same operation is applied to multiple data points (pixels) simultaneously
+
 ### Inspirations
 
 * [Char Stiles, livecoding practice](http://charstiles.com/shader/)

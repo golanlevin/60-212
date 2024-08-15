@@ -34,12 +34,16 @@ Libraries:
 * [Color.js](https://colorjs.io/)
 * [Culori.js](https://culorijs.org/)
 * [Spectral.glsl](https://github.com/rvanwijnen/spectral.js/tree/main?tab=readme-ov-file#shaders)
+* [Spectral.js](https://github.com/rvanwijnen/spectral.js/blob/main/spectral.js)
+* [Rampensau](https://meodai.github.io/rampensau/)
 
 
 Inspirations: 
 
 * https://albers.elastiq.ch/
+* [Poline](https://meodai.github.io/poline/)
 * [Kjetil Golid, *Archetype*](https://www.artblocks.io/curated/collections/archetype-by-kjetil-golid?tab=Artworks)
+* [parametric pottery](https://anatolyzenkov.com/parametric-pottery/preview/22) & [code](https://anatolyzenkov.com/preview/parametric-pottery/js/colors.js)
 
 Color Pickers: 
 
@@ -50,6 +54,7 @@ Color Pickers:
 
 Readings: 
 
+* [Computational Color](http://printingcode.runemadsen.com/lecture-color/) by Rune Madsen
 * [Computer Color is Broken](https://www.youtube.com/watch?v=LKnqECcg6Gw) (video)
 * [Mastering Multi-Hued Color Scales](https://www.vis4.net/blog/mastering-multi-hued-color-scales/)
 * [Chroma.js Color Palette Helper](https://gka.github.io/palettes/#/9|s|00429d,96ffea,ffffe0|ffffe0,ff005e,93003a|1|1)
@@ -82,3 +87,13 @@ Readings:
 
 * [Jen Stark, *Vortex*](https://www.artblocks.io/curated/collections/vortex-by-jen-stark), 2021
 * Jon Edmark
+
+
+### Blobs
+
+* https://www.artblocks.io/marketplace/collections/66ba40ed77ff57fa951bc1ef/explore?tokenId=90&hash=0x7df942e0d0ea45f01bc2f4a453efeda1a241e4466ecfeda0ea82457c106d7857
+
+
+
+
+
