@@ -73,6 +73,49 @@ Readings:
 
 ---
 
+### Diffusion
+
+* Google [GenType](https://labs.google/gentype) & [MakingOf](https://developers.googleblog.com/en/how-its-made-gentype-alphabet-creator/)
+* Dino Diffusion
+	* Explainer - https://madebyoll.in/posts/dino_diffusion/
+	* Demo - https://madebyoll.in/posts/dino_diffusion/demo/
+	* Training repo - https://github.com/madebyollin/dino-diffusion
+	* p5+Dino (mine) - https://openprocessing.org/sketch/2321795
+
+---
+
+### Custom Pixel Project
+
+* Nested For Loop
+* Rejection Sampling
+* Colored thatch lines
+
+And:
+
+Alvy Ray Smith Pixel book? 
+Woman pixel book? 
+Fogleman quadtree
+CACM Custom Pixel chapter
+
+* Filippo Aleotti's Monocular depth estimation in-browser [demo](https://filippoaleotti.github.io/demo_live/run/)
+* https://annotate.pixlab.io/
+
+Segmentation:
+
+* Meta demo: https://segment-anything.com/demo# 
+* Comfy UI node in RunComfy: https://www.runcomfy.com/comfyui-workflows/comfyui-segment-anything-v2-SAM2-image-and-video-segmentation using https://github.com/kijai/ComfyUI-segment-anything-2/tree/main
+* SegmentAnything2 Huggingface Space: https://huggingface.co/spaces/SkalskiP/segment-anything-model-2
+* Single image segmentation in browser: https://huggingface.co/spaces/webml-community/segment-anything-webgpu or 
+https://huggingface.co/spaces/Xenova/segment-anything-webgpu 
+* Colab notebook: https://colab.research.google.com/github/facebookresearch/segment-anything/blob/main/notebooks/automatic_mask_generator_example.ipynb
+* https://dinov2.metademolab.com/demos?category=depth 
+
+
+
+
+
+---
+
 ### Artists
 
 * [Anna Lucia](https://x.com/annaluciacodes)
