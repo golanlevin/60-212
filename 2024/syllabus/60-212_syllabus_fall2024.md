@@ -160,7 +160,7 @@ An *excused* absence is one about which you have communicated with me in a timel
 
 Please evaluate your own health status regularly and refrain from attending class if you feel even slightly ill. In the event of illness, please do not come to class or to campus! Instead, seek appropriate medical attention, and notify me about your absence as soon as possible, so that accommodations can be made.
 
-### Ghosting (No-Call, No-Show Absences)
+### *Ghosting* (No-Call, No-Show Absences)
 
 If I, the professor, am unable to come to class, I will send a message so that students can plan accordingly. I expect the exact same courtesy from you. Failing to communicate responsibly about your absences — in other words, *ghosting*, or "[No-Call, No-Show](https://en.wikipedia.org/wiki/No_call,_no_show)" events — is problematic and disrespectful to the classroom community, and is not acceptable in this course. Allowing the grace of one emergency for everyone, the following policy applies:
 
@@ -174,11 +174,12 @@ Students are responsible for notifying the professor as soon as possible, even i
 
 ### Partial Attendance
 
-*Partial absence* includes situations like tardiness, sleeping in class, or other forms of mental absence (i.e. distracted participation). Three incidents of unexcused partial absence will cause you to lose a letter grade (A→B). 
+Focus is precious, and our class time is limited. Physical presence means nothing if you’re “checked out”; your mental presence is extremely important. *Partial absence* includes situations like tardiness, sleeping in class, moonlighting, or other forms of mental absence (i.e. distracted participation). Three incidents of unexcused partial absence will cause you to lose a letter grade (A→B).
 
-* **Tardiness** is a form of partial absence in which you are more than 20 minutes late to a class event. Tardiness may be excused or unexcused. Note that I typically begin to lecture (or commence other important class activities) no more than 5 minutes after the official start time. *Your first incident of unexcused tardiness will be noted, but excused*. 
-* **Focus is precious**. Physical presence means nothing if you’re “checked out”; your mental presence is extremely important. You can function for a few hours without sleeping, texting, chatting online, emailing, or doing work for other courses. During lectures, critiques, or (*especially*) during guest presentations, such distracted participation is demoralizing to those around you. If I observe you doing these things, depending on the circumstance, I may have no choice but to correct you publicly. *Your first incident of mental absence will be noted, but excused*.
-* **To step out briefly, quietly excuse yourself**. I don't require notification if you just need to step out for a few minutes in the middle of class (e.g. to use the restroom, collect yourself, take an urgent call, etc.). If I'm in the middle of lecturing, I would prefer not to be interrupted by ths type of request; just excuse yourself. Stepping out for a few minutes is not considered partial absence.
+* **Tardiness** is a form of partial absence in which you are more than 15 minutes late to a class session. Tardiness may be excused or unexcused. Note that I typically begin to lecture (or commence other important class activities) no more than 5 minutes after the official start time. Your first incident of unexcused tardiness will receive a warning, but further instances will impact your grade.
+* **Sleeping in class** is considered partial attendance. If you are sleeping in class I will wake you up. Your first incident of sleeping in class will receive a warning, but further instances will impact your grade. If you are not getting enough sleep please address this issue either with a doctor or with an academic advisor in order to better balance your days and nights.
+* **Working on homework for another class**, during class time (i.e. *moonlighting*) is considered partial attendance. Your first incident of moonlighting will receive a warning, but further instances will impact your grade. Moonlighting is particularly harmful to class morale because it signals a lack of engagement and respect for both your peers and the course content. When you disengage from the collective learning experience, it diminishes the collaborative energy and focus of the group. This behavior can create a ripple effect, distracting others and lowering the overall quality of discussion and participation. 
+* **Stepping out briefly is OK**. I don't require notification if you just need to step out for a few minutes in the middle of class (e.g. to use the restroom, collect yourself, take an urgent call, etc.). If I'm in the middle of lecturing, I would not prefer to be interrupted; just excuse yourself. Stepping out for a few minutes is not considered partial absence.
 
 ### Malingering On Critique Days
 
