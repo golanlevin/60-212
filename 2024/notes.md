@@ -123,6 +123,7 @@ CACM Custom Pixel chapter
 
 Segmentation:
 
+* Tom's segmenter: https://github.com/baaivision/Painter
 * Meta demo: https://segment-anything.com/demo# 
 * Comfy UI node in RunComfy: https://www.runcomfy.com/comfyui-workflows/comfyui-segment-anything-v2-SAM2-image-and-video-segmentation using https://github.com/kijai/ComfyUI-segment-anything-2/tree/main
 * SegmentAnything2 Huggingface Space: https://huggingface.co/spaces/SkalskiP/segment-anything-model-2
