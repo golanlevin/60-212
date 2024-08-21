@@ -82,6 +82,27 @@ Readings:
 	* Training repo - https://github.com/madebyollin/dino-diffusion
 	* p5+Dino (mine) - https://openprocessing.org/sketch/2321795
 
+DinoDiffusion
+
+* [Netron network inspector](https://github.com/lutzroeder/netron)
+* [Netron DinoDiffusion](https://netron.app/?url=https://madebyoll.in/posts/dino_diffusion/demo/network.onnx)
+* [Colab](https://colab.research.google.com/drive/1lqdR9NS-p1E0-qnpl-0otEryjhcQsdfj#scrollTo=6cGKrZLlcwXG)
+* [Colab](https://colab.research.google.com/drive/1lqdR9NS-p1E0-qnpl-0otEryjhcQsdfj#scrollTo=ky0RHfx1buVD)
+* [Colab](https://colab.research.google.com/drive/1jrrVNE3zOj2pWGaKOpgaBnRbYZLif1aM?usp=sharing)
+* [Colab](https://colab.research.google.com/drive/1SIo3U_5FzW9qHzcc4GtoXleFHy0LJ1S-#scrollTo=GtJSiiuF382r)
+* [Colab](https://colab.research.google.com/drive/1g4ennvR90uka-ELYK4yBdxHZzYJk8oRU#scrollTo=cpWAckmG5XEI)
+* [ChatGPT ONNX](https://chatgpt.com/c/7e28c77e-060d-4587-a8fa-f09350b0595a)
+
+ComfyUI: 
+
+* [List of nodes](https://ltdrdata.github.io/)
+* [LoRAs](https://drive.google.com/drive/folders/1ERcu6v7RHT3v98cyeC715xiAiB3uzEhp)
+
+AI: 
+
+* [What's Really Real? Slide deck](https://docs.google.com/presentation/d/1Jl_CdMicE1chWOqJQOGSXj3o0VVv01v-Y76XaJIuRgE/edit#slide=id.g2c84f3ab5a8_0_3442)
+
+
 ---
 
 ### Custom Pixel Project
@@ -111,7 +132,10 @@ https://huggingface.co/spaces/Xenova/segment-anything-webgpu
 * https://dinov2.metademolab.com/demos?category=depth 
 
 
+Readings: 
 
+* [From Point to Pixel : A Genealogy of Digital Aesthetics, Meredith Hoy](https://web.p.ebscohost.com/ehost/ebookviewer/ebook/ZTAwMHhuYV9fMTIwMTk5Nl9fQU41?sid=36b96674-49a6-44f1-b0d9-50f2653a40a8@redis&vid=0&lpid=lp_53&format=EB)
+* [A Biography of the Pixel, Alvy Ray Smith](https://ebookcentral.proquest.com/lib/cm/reader.action?docID=6676817)
 
 
 ---
