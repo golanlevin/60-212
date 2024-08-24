@@ -34,9 +34,9 @@
 
 # TL;DR
 
-![2024-grading-policy.jpg](images/2024-grading-policy.jpg)
+Your grade in 60-212 will be based on your professionalism in completing work and attending class, subject to the policies summarized below:
 
-Your grade will be based on your professionalism in completing work and attending class, subject to the following policies:
+![2024-grading-policy.jpg](images/2024-grading-policy.jpg)
 
 **Assignment Policy:**
 
@@ -52,7 +52,7 @@ Each weekly assignment has a clearly defined checklist of subtasks, whose purpos
 * 🤕 Ghost 2 sessions: lose a letter grade.
 * 💀 Ghost 3+ sessions: fail the class.
 
-Attendance is important, but if you need to miss class — which can happen, within reason — you are expected to be responsible about communicating with the professor about your attendance. In the policy articulated above, *"ghosting"* refers specifically to "No-call, No-show" attendance events — not excused absences.
+Attendance is important, but if you need to miss class — which can happen, within reason — you are expected to be responsible about communicating with the professor about your attendance. In the policy articulated here, *"ghosting"* refers specifically to "No-call, No-show" attendance events — not excused absences.
 
 ---
 
@@ -68,24 +68,24 @@ This is a “studio art course in computer science”, in which our objective is
 ### Prerequisites
 *What prior knowledge must students have in order to be successful in this course?*
 
-* 60-212 is an *intermediate level course*, intended as a second course for students who have already had at least one semester of introductory computer programming (in any language). Students must be familiar and comfortable with computer programming fundamentals, such as iteration, conditional testing, functional abstraction, static and dynamic memory structures (e.g. arrays), and object-oriented programming, as taught in a CMU course like 15-104, 15-110, or 15-112.
+* 60-212 is an *intermediate level course*, intended as a second course for students who have already had at least one semester of introductory computer programming (in any language). Students must be familiar and comfortable with computer programming fundamentals, such as iteration, conditional testing, functional abstraction, static and dynamic memory structures (e.g. arrays), and object-oriented programming, as taught in a course like AP Computer Science, or (at CMU) 15-104, 15-110, or 15-112.
 * General computing skills (such as browser use, file management, and word processing) are essential. Students are also expected to have some familiarity with software workflows for editing and distributing images and video. 
-* A strong foundation in mathematics, especially including geometry, algebra, and trigonometry, may also be very helpful.
+* A strong foundation in mathematics, especially including geometry, algebra, and trigonometry, will also be very helpful.
 * This course is taught primarily with JavaScript. Students who are primarily familiar with Python will benefit from doing some additional preparation, such as viewing p5.js videos on the [Coding Train YouTube Channel](https://www.youtube.com/@TheCodingTrain).
 
 ### Learning Objectives and Course Goals
 At the conclusion of this course, students will be able to:
 
-* Demonstrate proficiency in creating computer programs as artworks.
-* Gain familiarity with the repertoire of artists, designers, works and activities around creative coding, interactive art, generative form, and computational design.
+* Demonstrate proficiency in creating art by programming a computer.
+* Demonstrate familiarity with a repertoire of artists, designers, works and activities around creative coding, interactive art, generative form, and computational design.
 * Understand the role of computation in artworks that explore concepts of transmediality, connectivity, generativity, and immersivity.
-* Understand how to document and present creative work.
+* Understand how to document and present artworks created using code.
 
 ### Course Relevance
 
 This course is relevant to students who are interested in:
 
-* Exploring the use of computation in expanding our expressive vocabulary
+* Exploring the use of computation in creating new culture and expanding their expressive vocabulary
 * Developing expertise in the aesthetic nuances and conceptual landscape of interactivity
 * Designing procedural form and generative art for games, virtual environments, and other modes of creative expression
 * Understanding the practical and social assumptions that underpin code in culture
@@ -93,15 +93,15 @@ This course is relevant to students who are interested in:
 ### Assessment Structure
 *How will students be assessed: assignments, exams, final, presentation, project, etc.?*
 
-* **10 Assignments**. There will be 10 sets of Deliverables this semester, assigned at approximately weekly intervals. Each set will have several sub-components, including warmup exercises and a main project, that may have different intermediate deadlines.
+* **10 Assignments**. There will be ten sets of Deliverables this semester, assigned at approximately weekly intervals. Each set will have several sub-components, including multiple warmup exercises and a main project, that may have different intermediate deadlines.
 * **Complete the checklists**. For each set of deliverables, an objective checklist of subtasks will be provided, with clearly defined assessment criteria. To ensure transparency, fairness and consistency, grades in this course are straightforwardly calculated according to students' fulfillment of these checklists and criteria. Many items on these checklists are intentionally easy to fulfill; pay attention to them.
-* **Qualitative evaluations are decoupled from grades**. Students will also receive qualitative feedback from the professor, other CMU faculty, outside professionals, and/or their peers. Qualitative critical feedback on the content or quality of your projects does not factor into your grade.
+* **Qualitative evaluations are decoupled from grades**. In addition to grades that reflect the fulfillment of straightforward checklists, students will also receive qualitative and subjective feedback from the professor, other CMU faculty, outside professionals, and/or their peers. This critical feedback on the content or quality of your projects does not factor into your grade.
 
 This semester, you can expect to receive the following feedback: 
 
 * You will receive a numeric grade for each component of each weekly set of deliverables, as well as a brief written evaluation about one or more of your weekly projects. 
-* At Fall Break, you will receive a mid-semester grade, as well as a written evaluation about your performance.
-* At the end of the semester you will receive a final grade, and an optional written evaluation. 
+* At Fall Break, you will receive a mid-semester grade, as well as a brief written evaluation about your performance.
+* At the end of the semester you will receive a final grade, and a written evaluation. 
 
 ### Extra Time Commitments
 *Are there extra time commitments required outside of the regularly scheduled course meeting times?*
@@ -115,7 +115,7 @@ This semester, you can expect to receive the following feedback:
 # Administration
 
 ### Credits Allocated
-60-212 provides **12** units of academic credit, and satisfies the software skills portal requirement for students pursuing IDeATe minors and concentrations. 
+60-212 provides **12** units of academic credit, and satisfies a software skills requirement for students pursuing IDeATe minors and concentrations. 
 
 ### Required Course Materials
 
@@ -127,8 +127,8 @@ This semester, you can expect to receive the following feedback:
 
 ### Additional Expenses
 
-* You will find it *extremely* beneficial to have a paid account for an LLM-based generative AI system, such as [ChatGPT Plus](https://openai.com/chatgpt/pricing/) ($20/month), [Anthropic Claude.ai Pro](https://www.anthropic.com/pricing) ($20/month),  or [GitHub CoPilot Individual](https://github.com/features/copilot#pricing) ($10/month).
 * For certain assignments it will be necessary to create a prepaid "Hobby" account at [RunComfy.com](https://www.runcomfy.com/pricing). I estimate that a one-time balance of $20-30 should be adequate for most of the work that we need to do. 
+* You will find it *extremely* beneficial to have a paid account for an LLM-based generative AI system, such as [ChatGPT Plus](https://openai.com/chatgpt/pricing/) ($20/month), [Anthropic Claude.ai Pro](https://www.anthropic.com/pricing) ($20/month),  or [GitHub CoPilot Individual](https://github.com/features/copilot#pricing) ($10/month).
 
 ### Communication Tools
 This course uses the following software systems to share information:
@@ -145,24 +145,26 @@ This course uses the following software systems to share information:
 
 This section articulates policies on: 
 
-* **Excused absences** (about which you communicated responsibly)
-* **Ghosting** ("No-Call, No-Show" absences)
+* **Excused absences** (about which you have communicated responsibly)
+* ***Ghosting*** ("No-Call, No-Show" absences)
 * **Partial attendance** (tardiness, mental absence)
 * **Malingering** on critique days (avoidant behavior)
 
 ### Excused Absences
 
-An *excused* absence is one about which you have communicated with me in a timely and professional manner.
+An *excused* absence is one about which you have communicated with me in a timely, professional, and responsible manner.
 
 * **Communication is paramount**. Attendance is important, but if you're running late or need to miss class — which can happen, within reason — you are expected to be responsible about communicating with me. If you’re ill, or if you know you will have a planned absence, please let me know by Discord or email before the beginning of that class session. I can be very understanding and accommodating about planned and necessary absences, family circumstances, and/or medical issues when you inform me in a timely and professional manner. 
-* **This policy on excused absences shall not be abused**. Special accommodations will be necessary if you need to miss more than a few sessions. Not every circumstance can be accommodated; I reserve the right to issue a low or failing grade if you miss an unreasonably large number of sessions (i.e. 8 or more) in whole or in part.
+* **This policy on excused absences shall not be abused**. Even if your absences are "excused", special accommodations will become necessary if you need to miss more than a few sessions. Not every circumstance can be accommodated, not all excuses are equal, and some class sessions are more important than others (e.g. critiques); I reserve the right to lower your grade if you miss four or more sessions, in whole or in part, without such an accommodation. If you have chronic medical issues that impact your attendance, please speak to the [Office of Disability Resources](https://www.cmu.edu/disability-resources/) as soon as possible and then make an appointment with me to discuss any accommodation requests. 
 * **Missed information is your problem**. You are responsible for any information you have missed as a result of absence. Per CMU policy, "faculty are not obligated to re-teach material due to a student missing class." Organize with your classmates to get class information and material that you have missed.
 
 Please evaluate your own health status regularly and refrain from attending class if you feel even slightly ill. In the event of illness, please do not come to class or to campus! Instead, seek appropriate medical attention, and notify me about your absence as soon as possible, so that accommodations can be made.
 
 ### *Ghosting* (No-Call, No-Show Absences)
 
-If I, the professor, am unable to come to class, I will send a message so that students can plan accordingly. I expect the exact same courtesy from you. Failing to communicate responsibly about your absences — in other words, *ghosting*, or "[No-Call, No-Show](https://en.wikipedia.org/wiki/No_call,_no_show)" events — is problematic and disrespectful to the classroom community, and is not acceptable in this course. Allowing the grace of one emergency for everyone, the following policy applies:
+If I, the professor, am unable to come to class, I will send a message so that you can plan accordingly.
+
+Failing to communicate responsibly about your absences — in other words, *ghosting*, or "[No-Call, No-Show](https://en.wikipedia.org/wiki/No_call,_no_show)" events — is problematic and disrespectful to the classroom community, and is not acceptable in this course. Allowing the grace of one emergency for everyone, the following policy applies:
 
 * Ghost 1 session: no impact on your grade.
 * Ghost 2 sessions: lose a letter grade (A→B).
@@ -179,11 +181,11 @@ Focus is precious, and our class time is limited. Physical presence means nothin
 * **Tardiness** is a form of partial absence in which you are more than 15 minutes late to a class session. Tardiness may be excused or unexcused. Note that I typically begin to lecture (or commence other important class activities) no more than 5 minutes after the official start time. Your first incident of unexcused tardiness will receive a warning, but further instances will impact your grade.
 * **Sleeping in class** is considered partial attendance. If you are sleeping in class I will wake you up. Your first incident of sleeping in class will receive a warning, but further instances will impact your grade. If you are not getting enough sleep please address this issue either with a doctor or with an academic advisor in order to better balance your days and nights.
 * **Working on homework for another class**, during class time (i.e. *moonlighting*) is considered partial attendance. Your first incident of moonlighting will receive a warning, but further instances will impact your grade. Moonlighting is particularly harmful to class morale because it signals a lack of engagement and respect for both your peers and the course content. When you disengage from the collective learning experience, it diminishes the collaborative energy and focus of the group. This behavior can create a ripple effect, distracting others and lowering the overall quality of discussion and participation. 
-* **Stepping out briefly is OK**. I don't require notification if you just need to step out for a few minutes in the middle of class (e.g. to use the restroom, collect yourself, take an urgent call, etc.). If I'm in the middle of lecturing, I would not prefer to be interrupted; just excuse yourself. Stepping out for a few minutes is not considered partial absence.
+* **Stepping out briefly is OK**. I don't require notification if you just need to step out for a few minutes in the middle of class (e.g. to use the restroom, collect yourself, take an urgent call, etc.). If I'm in the middle of lecturing, please don't interrupt me; just excuse yourself. Stepping out for a few minutes is not considered partial absence.
 
-### Malingering On Critique Days
+### [Malingering](https://www.merriam-webster.com/dictionary/malinger) On Critique Days
 
-Sometimes, students who haven’t completed their projects choose to ghost class on critique days, because they are too embarrassed to come to class empty-handed. This type of absence or avoidant behavior, called [*malingering*](https://www.merriam-webster.com/dictionary/malinger), is particularly self-destructive. *Please have courage.* Your participation on critique days is essential, even if your own project is incomplete or missing, because these sessions and conversations help you understand our class standards, expectations, and criteria for good work. If you are empty-handed, just say so; it happens. Even if you are without a project, you are still expected to contribute productively to the class discussion.
+Sometimes, students who haven’t completed their projects choose to avoid class on critique days, because they are too embarrassed to come to class empty-handed. *Please have courage.* Your participation on critique days is essential, even if your own project is incomplete or missing, because these sessions and conversations help you understand our class standards, expectations, and criteria for good work. If you are empty-handed, just say so; it happens. Even if you are without a project, you are still expected to contribute productively to the class discussion.
 
 ---
 # Grading and Evaluation Policies
@@ -198,7 +200,7 @@ In this course, your work is evaluated according to three different systems, whi
 
 **Grades** are standards used by CMU on its transcripts, to indicate your objective level of effort in a course. 
 
-Your grades in 60-212 will be based on your self-evident **fulfillment** of simple checklists. Projects will always have a checklist of *supporting requirements*. These are very straightforward to fulfill, but if you fail to meet these, you will have points deducted. Practically every project assignment will ask you to check off subtasks such as:
+Your grades in 60-212 will be based on your self-evident **fulfillment** of simple checklists. Projects will always have a checklist of *supporting requirements*. These are very straightforward to fulfill, but if you fail to meet these, you will have points deducted. Practically every project assignment will ask you to check off subtasks such as (for example):
 
 * **Create** a unique Discord post for your project.
 * **Title** and **Tag** your project in a specified manner.
@@ -267,7 +269,7 @@ Our class is extremely fast-paced. When you submit work late, you will miss an i
 
 **To receive critical feedback on your work**, your work must be available for evaluation during the designated review period. For example, at times this semester, your creative projects may be evaluated in an in-class critique, or by outside experts who review your work online. If your assignment is not uploaded and documented by the time those persons do their reviews, then your work will likely not receive feedback from them. I will do my best to provide feedback for late work, but just like everyone else, I need to reserve my effort for the next topic; generally speaking, my feedback for late work is comparatively attenuated. 
 
-**To receive full credit towards your grade**, projects should be uploaded and completed by the time that I get around to reading them. This is usually a day or two after their stated due date, but I offer no precise details on this. If your project is late, I reserve the right to assign partial credit to it. If you know you're going to be a little late with a project, *contact me* to arrange an accommodation.
+**To receive full credit towards your grade**, projects should be uploaded and completed by the time that I get around to reading them. This is usually a day or two after their stated due date. If your project is late, I reserve the right to assign partial credit to it. If you know you're going to be a little late with a project, *contact me* to arrange an accommodation.
 
 
 ---
@@ -285,10 +287,10 @@ You may borrow code or ideas from other sources, within the limits of principles
 As art students, you are expected or invited to make extensive use of open-source toolkits, libraries and tutorials. When working in this way, much like a knitting circle, our classroom is structured around peer instruction, in which students are expected to help each other learn.
 
 ### Use of Online and/or Open-Source Code in Projects
-**Credit is perhaps the most important form of currency** in the economies of commons-based peer production and open-source media arts. You are expected to cite the source of any code you use. Please note the following expectations and guidelines:
+**Credit is one of the most important forms of currency** in economies of commons-based peer production and open-source media arts. You are expected to cite the source of any code you use. Please note the following expectations and guidelines:
 
-* **Use Libraries**. In your Projects, the use of general-purpose, reusable code libraries that solve specific technical problems is very strongly encouraged. The people who developed these components worked hard, often for no pay; acknowledge their community contributions by citing their name and linking to their repository.
-* **Be Careful**. It sometimes happens that an artist will place the entire source code for their artwork online. You might even discover the work of a student in some other course or school, who has posted their code for a project that responds to a similar assignment. *You should probably avoid this code*, or at the very least, you should be *extremely* careful about approaching such code for any possible re-use. Forking an *artwork* from someone’s page on OpenProcessing and simply changing the colors would be unacceptably and disgracefully lazy; doing so without thorough and proper citation would be outright plagiarism.
+* **Use Libraries**. In your Projects, the use of general-purpose, reusable code libraries that solve specific technical problems is very strongly encouraged. The people who developed these components worked hard, often for no pay; please acknowledge their community contributions by citing their name and linking to their repository.
+* **Be Careful**. It sometimes happens that an artist will place the entire source code for their artwork online. You might even discover the work of a student in some other course or school, who has posted their code for a project that responds to a similar assignment. *You should probably avoid this code*, or at the very least, you should be *extremely* careful about approaching such code for any possible re-use. Forking an *artwork* from someone’s page on OpenProcessing and simply changing the colors would be disgracefully lazy; doing so without thorough and proper citation would be outright plagiarism.
 
 ### Policies Regarding Informal Collaboration
 Our course places a very high value on civic responsibility, which includes helping others learn. In this course, we strongly encourage you to give help (or ask others for help) in using various toolkits, algorithms, libraries, or other facilities. Please note the following expectations:
@@ -308,20 +310,23 @@ The assignments in this course are primarily intended to be executed by individu
 
 ### Policies and Suggestions Regarding Generative AI
 
+In this class, you are permitted and encouraged to explore the affordances of generative AI as an instrument for art-making. 
+
 With only a few exceptions (I'll be clear), you are *affirmatively encouraged* to use generative AI systems (such as ChatGPT, Claude, or CoPilot) to assist you with your programming projects. Indeed: it is incumbent upon us to explore how these systems are changing the nature of creative coding and software development. In using AI systems in your classwork, please keep the following in mind:
 
-* **Use your own words when requested**. You will be asked to produce a handful of brief writing assignments (such as providing anonymous critical feedback to your peers, or writing *Looking Outwards* reports) where your own thoughts, opinions, and voice are prized. These will not be difficult writing assignments; using AI tools to write them for you would represent a bad-faith posture.
-* **Acknowledge your use.** If you use an LLM or generative AI system to assist you in the creation of a project, you are required to say so — in exactly the same way that you would acknowledge using some code you found online, or that you would acknowledge receiving help from another student. In your project write-up and/or in your code, please state which system you used, and how you used it. Your honesty in this matter is extremely important.
-* **Beware a push toward normativity.** Generative AI systems are designed to regurgitate a digested version of stuff they've seen before. The results they provide are often inherently average "[slop](https://www.nytimes.com/2024/06/11/style/ai-search-slop.html)". That may be sufficient for technical problems in which there is a right answer, but it may be unsuitable for an art project in which the goal is for you to develop your own creative voice. I may hope that you make something *beautiful*; I may hope that you make something *interesting*; but most importantly of all, my assignments in this course ask you to make something *yours*. No AI system can do that, by definition...unless you made the AI system.
-* **There's no short-cut to skill.** There aren't many exercises in this class that could be made wholesale by an AI — but those that possibly could, are basic exercises which have been assigned to you precisely because I genuinely believe you actually need to develop those skills in order to make the more creative stuff. 
+* **Use your own words when requested**. You will be asked to produce a handful of brief writing assignments (such as providing anonymous critical feedback to your peers, or writing [*Looking Outwards*](https://github.com/golanlevin/lectures/blob/master/syllabi/looking-outwards.md) reports) where your own thoughts, opinions, and voice are prized. These will not be difficult writing assignments. Using AI tools to write them for you would represent a bad-faith posture.
+* **Take ownership of your work**, including activities supported by AI. The more you develop projects through your own thinking and labor, the easier it is to stand by the work you produce. You are fully responsible for all of the material you produce in this class, even if some of it was generated with the help of AI. Be prepared to stand behind everything you develop.
+* **Acknowledge your use.** Carnegie Mellon University’s Academic Integrity Policy prohibits use of unauthorized assistance to complete coursework, but allows instructors to define what is "authorized" versus "unauthorized". So here it is: in this course, if you use an LLM or generative AI system to assist you in the creation of a project, *you are required to say so* — in exactly the same way that you would cite another author, acknowledge using some code you found online, or acknowledge receiving help from another student. In your project write-up and/or in your code, please state which system you used, and how you used it. Your honesty in this matter is of the utmost importance as we all learn to understand this new landscape. 
+* **There's no short-cut to skill.** The person who benefits most from engaging with studio work and academic projects is you. There are many instances where you may be able to use AI to assist with or even take over tasks. However, you may miss out on important learning opportunities if you don’t engage with the intellectual activities that the project entails. There aren't many exercises in this class that could be made wholesale by an AI — but those that possibly could, are basic exercises which have been assigned to you precisely because I genuinely believe you actually need to develop those skills in order to make even more creative stuff. 
+* **Beware the loss of your time.**  You are advised to check claims, verify evidence, and evaluate any sources that appear in AI output. When AI programs lack information, their operations will select less relevant materials or even make up information to complete their responses. Although the results might appear authoritative or unique, the operations behind AI output can produce inaccurate, disconnected, false information, or over-fit resemblances to pre-existing work. It may sometimes be easier just to program the damn thing yourself, than to spend your time coping with an AI's errors, hallucinations, and lack of originality.
+* **Beware a push toward normativity.** This is an art course that seeks to cultivate your unique creative voice. But generative AI systems are designed to regurgitate a digested version of stuff they've seen before. The results they generate are often inherently average "[slop](https://www.nytimes.com/2024/06/11/style/ai-search-slop.html)". Slop may be perfectly adequate to solve a technical problem in which there is a well-defined correct answer, but it is likely unfit for an art project in which the goal is for you to express your own perspective. I may hope that you make something *beautiful*; I may hope that you make something *interesting*; but most importantly of all, my assignments in this course challeng you to make something *yours*.
 * **Beware the loss of serendipity.** Bob Ross famously quipped, "We don't make mistakes — we just have happy accidents." Although it may be expedient to have a system write your code for you, you may miss out on the chance to become intimately familiar with the grain of your medium, and to have accidents that suggest new possibilities and ideas.
-* **Beware the loss of your time.** Paradoxically, in some cases, it may be easier just to program the damn thing yourself, than to spend your time coping with an AI's hallucinations.
+* **Be careful with your private information.** Please be aware that many AI companies ingest and integrate user information; do not enter confidential information as part of any prompt. 
 
 ### Summary of CMU Academic Integrity Policies
 Carnegie Mellon University prohibits academic dishonesty. This includes plagiarism, and may consist of: submitting the work of someone else as your own; failing to cite assistance you received; or the failure to properly cite materials or ideas from other sources. **Nearly all of these problems can be easily avoided if you’re clear and generous in giving credit where credit is due.** 
 
 CMU's [University Policy on Cheating and Plagiarism](https://www.cmu.edu/policies/student-and-student-life/academic-integrity.html) articulates the possible penalties associated with plagiarism and academic dishonesty. These may include, but are not limited to, zero credit for the specific plagiarized assignment, to failure in the class. If you have any questions about this policy as it relates to work you are doing in the course, please feel free to contact me.
-
 
 ---
 
@@ -353,8 +358,8 @@ For incidents that may not violate any formal policies or require disciplinary a
 
 As of fall 2024, new COVID variants are on the rise. As we head back to campus, keep in mind that thousands of students are returning from all over the world. In light of this, the following policies and suggestions govern our in-person meetings: 
 
-* **Masks** are *strongly recommended* during the first two weeks of the semester. Following the first two weeks, the use of masks is *encouraged*. That said: It's important that we be able to see and hear each other well. In the interest of effective interpersonal communication, *feel welcome to lower your mask (if you wish) if you are actively speaking to the entire class.*
-* **No food in the classroom**. It's not sanitary, it leaves a mess, and it's risky around computers.
+* **Masks** are *strongly encouraged* during the first two weeks of the semester. After the first two weeks, the use of masks is *encouraged*. However: It's important that we be able to see and hear each other well. In the interest of effective interpersonal communication, *feel welcome to lower your mask (if you wish) if you are actively speaking to the entire class.*
+* **No food in the classroom, please**. It's not sanitary, it leaves a mess, and it's risky around computers.
 * **Drinks** in containers with lids are permitted. 
 
 ---
