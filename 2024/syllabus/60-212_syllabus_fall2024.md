@@ -9,7 +9,7 @@
 * Title: *Intermediate Studio: Creative Coding* (60-212), Fall 2024
 * Time and Location: Mon/Wed, 7:00-9:50pm in CFA-303
 * Departments: Carnegie Mellon University [School of Art](http://www.art.cmu.edu/) and [IDeATe Program](https://ideate.cmu.edu/)
-* Course OpenProcessing site: [https://openprocessing.org/class/93074#/](https://openprocessing.org/class/93074#/)
+* Course OpenProcessing site: [https://openprocessing.org/class/93074](https://openprocessing.org/class/93074)
 * Course Google Calendar: [http://bit.ly/golancoursecalendar](http://bit.ly/golancoursecalendar)
 * Professor: [Golan Levin](http://www.art.cmu.edu/people/golan-levin/), golan@andrew
 * Assistant: [Em Lugo](https://art.cmu.edu/people/emmanuel-lugo/), elugo@andrew
