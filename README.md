@@ -8,7 +8,8 @@ School of Art • Carnegie Mellon University*
 ## 2024 Edition - Key Links
 
 * [Syllabus](2024/syllabus/60-212_syllabus_fall2024.md)
-* OpenProcessing Site: [https://openprocessing.org/class/86356](https://openprocessing.org/class/86356) 
+* [Assignments and Lectures](2024/readme.md)
+* OpenProcessing Site: [https://openprocessing.org/class/93074](https://openprocessing.org/class/93074#/) 
 * Google Calendar: [http://bit.ly/golancoursecalendar](http://bit.ly/golancoursecalendar)
 
 ---
