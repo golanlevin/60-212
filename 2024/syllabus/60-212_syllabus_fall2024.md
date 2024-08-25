@@ -44,7 +44,7 @@ Your grade in 60-212 will be based on your professionalism in completing work an
 * 🤕 Forgo 2 weekly assignments: lose a letter grade.
 * 💀 Forgo 3+ weekly assignments: fail the class.
 
-Each weekly assignment has a clearly defined checklist of subtasks, whose purpose is to help you develop discipline in creating and documenting your work. Your grade is straightforwardly calculated from your fulfillment of these checklists. Partial assignments are graded as such, and don't count as "forgone".
+Each weekly assignment has a clearly defined checklist of subtasks, whose purpose is to help you develop discipline in creating and documenting your work. Your grade is straightforwardly calculated from your fulfillment of these checklists. Partially completed assignments (15%+) are graded as such, and don't count as "forgone".
 
 **Attendance Policy:**
 
@@ -190,7 +190,7 @@ Sometimes, students who haven’t completed their projects choose to avoid class
 ---
 # Grading and Evaluation Policies
 
-In this course, your work is evaluated according to three different systems, which are decoupled to the greatest extent possible:
+In this course, your effort is evaluated according to three different systems, which are decoupled to the greatest extent possible:
 
 * **Grades** (standards used by CMU on its transcripts) 
 * **Evaluations** (standards used by our class community in critiques)
@@ -198,16 +198,20 @@ In this course, your work is evaluated according to three different systems, whi
 
 ### Grades
 
-**Grades** are standards used by CMU on its transcripts, to indicate your objective level of effort in a course. 
+**Grades** are standards used by CMU on its transcripts, to indicate your objective level of effort in a course. The following policy concerns "foregone" assignments, i.e weekly problem sets which you have skipped altogether, or on which you have completed less than 15% by their due date:
 
-Your grades in 60-212 will be based on your self-evident **fulfillment** of simple checklists. Projects will always have a checklist of *supporting requirements*. These are very straightforward to fulfill, but if you fail to meet these, you will have points deducted. Practically every project assignment will ask you to check off subtasks such as (for example):
+* Forgo 1 weekly assignment: no impact on your grade whatsoever.
+* Forgo 2 weekly assignments: lose a letter grade (A→B).
+* Forgo 3+ weekly assignments: fail the class (B→R).
+
+Your grades in 60-212 will be based on your self-evident **fulfillment** of simple checklists. Projects will always have a checklist of *supporting requirements*. These are often very straightforward to fulfill, but if you fail to meet these, you will have points deducted. Practically every project assignment will ask you to check off subtasks such as (for example):
 
 * **Create** a unique Discord post for your project.
 * **Title** and **Tag** your project in a specified manner.
 * **Upload** a photo of your notebook sketches for the project, if applicable.
 * **Upload** a static image of your project, such as a screenshot or photograph.
 * **Upload** dynamic documentation of your project (such as an animated GIF, video recording, or interactive applet) into the blog post, if applicable.
-* **Write** 100-200 words about your project, describing its development process. In your writing, include some critical reflection and analysis of your project: In what ways did you succeed, and in what ways could it be better?
+* **Write** 100-150 words about your project, describing its development process. In your writing, include some critical reflection and analysis of your project: What were your goals? In what ways did you succeed? And in what ways did you fall short? 
 * **Link** to your project or code, if requested.
 * As per our syllabus policies on Academic Integrity, you must also:
 	* **Name** any other students (or generative AI systems) from whom you received advice or help, and describe the help you received. If you had collaborators, explain how the work was distributed among the collaborators.
