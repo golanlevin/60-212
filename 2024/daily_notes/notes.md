@@ -1,13 +1,8 @@
 # Notes
 
-Landfill of mostly unstructured notes to myself.
-
----
-
-### Philosophy
+This is a landfill of mostly unstructured notes to myself.
 
 
-* [An app can be a home-cooked meal](https://www.robinsloan.com/notes/home-cooked-app/), Robin Sloan
 
 ---
 
