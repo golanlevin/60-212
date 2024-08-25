@@ -1,7 +1,7 @@
 # Creative Coding • 60-212
 
-*Professor Golan Levin <br />
-School of Art • Carnegie Mellon University*
+*Professor Golan Levin<br />
+School of Art & IDeATe • Carnegie Mellon University*
 
 ---
 
