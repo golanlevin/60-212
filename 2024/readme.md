@@ -1,5 +1,7 @@
 # Creative Coding • Fall 2024
 
+*This is the main landing page for 60-212, Fall 2024.*
+  
 ---
 
 ## Key Links
@@ -41,7 +43,7 @@ This information is also available in our Google [**Calendar**](http://bit.ly/go
 
 ## Topics and Projects:
 
-*(Note: Subject to Change)*
+*(Note: This is Subject to Change)*
 
 * Code & Form
 * Generativity: Pattern
