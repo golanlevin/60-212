@@ -32,7 +32,7 @@
       * Be aware that Lauren McCarthy's book, "[Getting Started with p5.js](https://learning.oreilly.com/library/view/getting-started-with/9781457186769/?sso_link=yes&sso_link_from=cmu-edu)" is available online for free through the CMU libraries.
       * Remember, if you get stuck while making the projects, you can always give a shout in the `#haaaalp` channel in the course Discord.
       * See the [helpful tools](#helpful-tools) documented below. 
-4. [***60 minutes***] **Complete** the following four mini-assignments on OpenProcessing. The purpose of these exercises is to help me assess your preparedness and baseline level of skill.
+4. [***60 minutes***] **Complete** the following four mini-assignments on OpenProcessing. These are not hugely 'creative' projects; the purpose of these exercises is to help me assess your preparedness and baseline level of skill.
    * [*5 minutes*] **Do** [Iteration: Transitioning Rectangles](https://openprocessing.org/class/93074/#/c/93123)
    * [*10 minutes*] **Do** [Nested Iteration & Randomness: Grid, Interrupted](https://openprocessing.org/class/93074/#/c/93124)
    * [*15 minutes*] **Do** [Transformations + Functional Abstraction: Critter Stamps](https://openprocessing.org/class/93074/#/c/93122)
