@@ -8,7 +8,7 @@ School of Art & IDeATe • Carnegie Mellon University*
 ## 2024 Edition - Key Links
 
 * [Syllabus](2024/syllabus/60-212_syllabus_fall2024.md)
-* [Main Page (Daily Notes & Assignments)](2024/README.md)
+* [Main Page (Daily Notes & Assignments)](2024/readme.md)
 * OpenProcessing Site: [https://openprocessing.org/class/93074](https://openprocessing.org/class/93074#/) 
 * Google Calendar: [http://bit.ly/golancoursecalendar](http://bit.ly/golancoursecalendar)
 
