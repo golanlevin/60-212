@@ -18,8 +18,7 @@
 
 ## Assignments
 
-* [**Assignment Set 0**](assignments/assignment_0.md) (Due 8/28, Wednesday).
-* [Assignment Set 1]() (Due TBA).
+* [**Assignment Set 1**](assignments/assignment_1.md) (Due 8/28, Wednesday).
 * [Assignment Set 2]() (Due TBA).
 * [Assignment Set 3]() (Due TBA).
 * [Assignment Set 4]() (Due TBA).
