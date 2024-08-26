@@ -12,24 +12,42 @@
 
 ## Daily Notes
 
-* [**8/26 • Monday**](daily_notes/20240826.md): Hello World!
+* `Mon 08/26`: [Hello World!](daily_notes/20240826.md)
+* `Wed 08/28`: Code & Form
 
 ---
 
-## Assignments
+## Assignments & Critical Dates
 
-* [**Assignment Set 1**](assignments/assignment_1.md) (Due 8/28, Wednesday).
-* [Assignment Set 2]() (Due TBA).
-* [Assignment Set 3]() (Due TBA).
-* [Assignment Set 4]() (Due TBA).
-* [Assignment Set 5]() (Due TBA).
-* [Assignment Set 6]() (Due TBA).
-* [Assignment Set 7]() (Due TBA).
-* [Assignment Set 8]() (Due TBA).
-* [Assignment Set 9]() (Due TBA).
-* [Assignment Set 10]() (Due TBA).
+This information is also available in our Google [**Calendar**](http://bit.ly/golancoursecalendar):
 
+* `Wed 08/28`: [Assignment Set 1](assignments/assignment_1.md) Due
+* `Wed 09/04`: Assignment Set 2 Due
+* `Wed 09/11`: Assignment Set 3 Due
+* `Tue 09/24`: Required attendance: Artist talk by [Brain](https://tegabrain.com/) & [Lavigne](https://lav.io/), 5:30pm
+* `Wed 09/25`: Assignment Set 4 Due
+* `Wed 10/02`: Assignment Set 5 Due
+* `Wed 10/09`: Assignment Set 6 Due
+* `Mon 10/28`: Assignment Set 7 Due
+* `Wed 11/06`: Assignment Set 8 Due
+* `Mon 11/18`: Assignment Set 9 Due
+* `Wed 12/04`: Assignment Set 10 Due
 
+### Calendar Visual Overview: 
 
+![Session and Due Dates](syllabus/images/60212-schedule-2024.png)
 
+---
 
+## Topics and Projects:
+
+*(Note: Subject to Change)*
+
+* Code & Form
+* Generativity: Pattern
+* Dynamic Form (Loop; Timepiece)
+* Interactivity I: Creature 
+* Interactivity II: Gesture Expander
+* Generativity II: Diffusion (AI) 
+* Connectivity: Telematic
+* Transmediality: Audiovisual Environment
