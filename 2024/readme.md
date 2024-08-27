@@ -7,7 +7,7 @@
 ## Key Links
 
 * [Syllabus](syllabus/60-212_syllabus_fall2024.md)
-* OpenProcessing Site: [https://openprocessing.org/class/93074](https://openprocessing.org/class/93074#/) 
+* OpenProcessing Classroom: [https://openprocessing.org/class/93074](https://openprocessing.org/class/93074#/) 
 * Google Calendar: [http://bit.ly/golancoursecalendar](http://bit.ly/golancoursecalendar)
 
 ---
@@ -15,7 +15,7 @@
 ## Daily Notes
 
 * `Mon 08/26`: [Hello World!](daily_notes/20240826.md)
-* `Wed 08/28`: Code & Form
+* `Wed 08/28`: [Code & Form](daily_notes/20240828.md)
 
 ---
 
@@ -46,6 +46,8 @@ This information is also available in our Google [**Calendar**](http://bit.ly/go
 *(Note: This is Subject to Change)*
 
 * Code & Form
+* Computational Color
+* Shaders & Pixel Programming
 * Generativity: Pattern
 * Dynamic Form (Loop; Timepiece)
 * Interactivity I: Creature 
