@@ -24,7 +24,7 @@
 This information is also available in our Google [**Calendar**](http://bit.ly/golancoursecalendar):
 
 * `Wed 08/28`: [Assignment Set 1](assignments/assignment_1.md) Due
-* `Wed 09/04`: Assignment Set 2 Due
+* `Wed 09/04`: [Assignment Set 2](assignments/assignment_2.md) Due
 * `Wed 09/11`: Assignment Set 3 Due
 * `Tue 09/24`: Required attendance: Artist talk by [Brain](https://tegabrain.com/) & [Lavigne](https://lav.io/), 5:30pm
 * `Wed 09/25`: Assignment Set 4 Due
