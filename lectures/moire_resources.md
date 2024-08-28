@@ -14,15 +14,15 @@ Present your composition in a fullscreen canvas (use `createCanvas(windowWidth, 
 
 To fine-tune your composition, I recommend you place some dimensions of variability (such as the line separation, line weight, position, and/or rotation angle) under interactive control. Feel free to retain this interactivity, or to remove this interactivity altogether you feel ready to commit to specific values for these variables.
 
-![Moiré pattern](openprocessing_images/moire.gif)
+![Moiré pattern](../openprocessing_images/moire.gif)
 
 It's possible to make some very sophisticated and mind-bending displays using the Moiré effect. Check out [this video](https://www.youtube.com/watch?v=4nn1MqCMa1M), for example around 2'35":
 
-[![Moiré kit demonstration](openprocessing_images/moire-kit-demo.jpg)](https://www.youtube.com/watch?v=4nn1MqCMa1M)
+[![Moiré kit demonstration](../openprocessing_images/moire-kit-demo.jpg)](https://www.youtube.com/watch?v=4nn1MqCMa1M)
 
 Moiré patterns are a "real thing" that have effects in the physical world. Here's a 1958 photo of Moiré interference patterns in water waves by legendary 20th-century science photographer, Berenice Abbott:
 
-![Berenice Abbott interference patterns](openprocessing_images/berenice_abbott_interference.jpg)
+![Berenice Abbott interference patterns](../openprocessing_images/berenice_abbott_interference.jpg)
 
 
 ---
@@ -31,49 +31,49 @@ Moiré patterns are a "real thing" that have effects in the physical world. Here
 
 [Anoka Faruqee](https://www.artsy.net/artist/anoka-faruqee), on the painting faculty at Yale, creates paintings that make use of Moiré-type interference patterns. 
 
-[![Anoka Faruqee](openprocessing_images/anoka_faruqee_video.jpg)](https://www.youtube.com/watch?v=hYn3Ou8L3o0)
+[![Anoka Faruqee](../openprocessing_images/anoka_faruqee_video.jpg)](https://www.youtube.com/watch?v=hYn3Ou8L3o0)
 
-![Anoka Faruqee, paintings](openprocessing_images/anoka_faruqee_paintings.jpg)
+![Anoka Faruqee, paintings](../openprocessing_images/anoka_faruqee_paintings.jpg)
 
 This early minimalist quartet of computer plotter drawings by Manfred Mohr — "P-137, Graph Pattern" (1973) — obtains intensity from Moiré-type interference:
 
-![Manfred Mohr, *p137*](openprocessing_images/p137_mohr_1973.png)
+![Manfred Mohr, *p137*](../openprocessing_images/p137_mohr_1973.png)
 
 [Jean-Pierre Hébert](https://www.artsy.net/artist/jean-pierre-hebert) was an early algorist who used computer-controlled plotters to create nuanced interference patterns. This is from c.1990:
 
-![Hébert](openprocessing_images/jeanpierre_hebert.jpg)
+![Hébert](../openprocessing_images/jeanpierre_hebert.jpg)
 
 Kath O'Donnell develops Moiré interference patterns [from the trails left by the edges of rotating 3D forms](https://www.fxhash.xyz/generative/20956). 
 
-![Kath O'Donnell](openprocessing_images/kath_odonnell_moire.png)
+![Kath O'Donnell](../openprocessing_images/kath_odonnell_moire.png)
 
 Liam Egan creates [interactive Moiré patterns](https://www.fxhash.xyz/generative/slug/euphonic) with stunning colors:
 
-![Liam Egan's *Euphonic*](openprocessing_images/liam_egan_moire.gif)
+![Liam Egan's *Euphonic*](../openprocessing_images/liam_egan_moire.gif)
 
 Amy Goodchild's lavalike [*No Apologies*](https://foundation.app/@amygoodchild/foundation/80549) animation is mesmerizing.
 
-![Amy Goodchild's *No Apologies*](openprocessing_images/amy_goodchild_no_apologies_moire.gif) 
+![Amy Goodchild's *No Apologies*](../openprocessing_images/amy_goodchild_no_apologies_moire.gif) 
 
 Melissa Weiderrecht's [*Both Be Both*](https://superrare.com/artwork-v2/both-be-both-41921) (2023) animation explores contrasts: "pixelated and soft, glitchy and smooth, digital and textured".
 
-![Melissa Weiderrecht's *Both Be Both*](openprocessing_images/melissa_weiderrecht_both_be_both_moire.jpg) 
+![Melissa Weiderrecht's *Both Be Both*](../openprocessing_images/melissa_weiderrecht_both_be_both_moire.jpg) 
 
 Nat Sarkissian's [*Hello Modulo*](https://verse.works/collections/hello-modulo-by-nat-sarkissian) presents a contrast between machinic interference patterns and a 'hand-drawn' (computational) rendering style.
 
-![Nat Sarkissian's *Euphonic*](openprocessing_images/nat_sarkissian_moire.jpg)
+![Nat Sarkissian's *Euphonic*](../openprocessing_images/nat_sarkissian_moire.jpg)
 
 Nicolas Sassoon's [*PATTERNS*](http://www.nicolassassoon.com/PATTERNS.html) stunning series of browser-based studies:
 
-![Nicolas Sassoon's *PATTERNS](openprocessing_images/nicolas_sassoon_moire.jpg)
+![Nicolas Sassoon's *PATTERNS](../openprocessing_images/nicolas_sassoon_moire.jpg)
 
 Cacheflowe (Justin Gitlin)'s [*Moiré-Room*](https://cacheflowe.com/art/physical/moire-room) is an immersive projection environment at Meow Wolf Denver. 
 
-![Cacheflowe's *Moiré-Room*](openprocessing_images/cacheflow_moire_room.jpg)
+![Cacheflowe's *Moiré-Room*](../openprocessing_images/cacheflow_moire_room.jpg)
 
 Takahiro Kurashima's interactive [*Poemotion*](https://www.lars-mueller-publishers.com/poemotion-1) and [*Moirémotion*](https://www.youtube.com/watch?v=zG5omMyxmNI) books:
 
-[![Kurashima's *Moirémotion*](openprocessing_images/kurashima_book.jpg)](https://www.youtube.com/watch?v=zG5omMyxmNI)
+[![Kurashima's *Moirémotion*](../openprocessing_images/kurashima_book.jpg)](https://www.youtube.com/watch?v=zG5omMyxmNI)
 
 
 ---
