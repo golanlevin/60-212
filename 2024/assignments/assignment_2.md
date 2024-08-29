@@ -14,7 +14,7 @@
 * (30 minutes) [#08: Using Arrays: Living Line](https://openprocessing.org/class/93074/#/c/93244)
 * (30 minutes) [#09: 2D Perlin Noise: Imaginary Islands](https://openprocessing.org/class/93074/#/c/93245)
 * (30 minutes) [#10: Iteration & Randomness: Hitomezashi Sashiko Stitching](https://openprocessing.org/class/93074/#/c/93247)
-* (45 minutes) [#11: Iteration & Graphics Transforms: Moiré Pattern](https://openprocessing.org/class/86356/#/c/86721). [(*Lecture*)](https://github.com/golanlevin/60-212/blob/main/lectures/moire_resources.md)
+* (45 minutes) [#11: Iteration & Graphics Transforms: Moiré Pattern](https://openprocessing.org/class/93074/#/c/93248). [(*Lecture*)](https://github.com/golanlevin/60-212/blob/main/lectures/moire_resources.md)
 * (45 minutes) [#12: Maluma/Taketa Generator](https://openprocessing.org/class/93074/#/c/93250)
 
 
