@@ -10,7 +10,7 @@ It sometimes happens that you will be asked to justify the value of art to some 
 
 * In terms of earning a living: Creative coders earn livings in fields like game design, information visualization, user interface design, web design, mobile app design, educational software design, interactive advertising, interactive entertainment, data journalism, corporate R&D, and multimedia software development. These are large industries.
 * We are all immersed in computer displays, and creative coders are the experts of designing for these displays. Creative coders sometimes have job titles like: creative technologist, design technologist, technical artist, procedural artist, data artist, interactive art director, computational designer, multimedia programmer, immersive experience designer, interactive media developer, etc.
-* Creative coders explore the new aesthetics, social potential, and new forms of cultural expression made possible by computer technologies — in the same way that cinema and photography, which were the new media of previous eras, were made meaningful by artists.
+* Creative coders explore the new aesthetics, social potential, and new forms of cultural expression made possible by computer technologies — in the same way that cinema and photography, which were the new media of previous eras, were made meaningful by artists. Art is a kind of R&D for humanity and culture, and new media art is R&D for humanity and culture using computers.
 
 Plenty of companies include creative technologists in their software development teams, because these artists are adept at: 
 
