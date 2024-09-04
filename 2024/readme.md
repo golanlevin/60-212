@@ -16,6 +16,7 @@
 
 * `Mon 08/26`: [Hello World!](daily_notes/20240826.md)
 * `Wed 08/28`: [Code & Form](daily_notes/20240828.md)
+* `Wed 09/04`: [Movement](daily_notes/20240904.md)
 
 ---
 
@@ -25,7 +26,7 @@ This information is also available in our Google [**Calendar**](http://bit.ly/go
 
 * `Wed 08/28`: [Assignment Set 1](assignments/assignment_1.md) Due
 * `Wed 09/04`: [Assignment Set 2](assignments/assignment_2.md) Due
-* `Wed 09/11`: Assignment Set 3 Due
+* `Wed 09/11`: [Assignment Set 3](assignments/assignment_3.md) Due
 * `Tue 09/24`: Required attendance: Artist talk by [Brain](https://tegabrain.com/) & [Lavigne](https://lav.io/), 5:30pm
 * `Wed 09/25`: Assignment Set 4 Due
 * `Wed 10/02`: Assignment Set 5 Due
