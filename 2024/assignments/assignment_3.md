@@ -2,11 +2,11 @@
 
 ### Due Wednesday, September 11
 
-![Loop Nik](https://raw.githubusercontent.com/golanlevin/60-212/main/openprocessing_images/loop-dinkolas.gif) ![Loop Alyssa](https://raw.githubusercontent.com/golanlevin/60-212/main/openprocessing_images/loop-alyssa.gif) ![Loop Jun](https://raw.githubusercontent.com/golanlevin/60-212/main/openprocessing_images/loop-jun.gif)
+<img src="../../openprocessing_images/loop-dinkolas.gif" width="200" height="200"> <img src="../../openprocessing_images/loop-alyssa.gif" width="200" height="200"> <img src="../../openprocessing_images/loop-jun.gif" width="200" height="200"><br />*Loops by previous Art undergraduates in 60-212.*
 
 ---
 
-*Our second set of Deliverables is due at the beginning of class on Wednesday, September 4. The primary topics it emphasizes are: shape; iteration and nested iteration; controlled randomness, and graphics transformations. I estimate that it will take you about 4-6 hours.*
+*Our third set of Deliverables is due at the beginning of class on Wednesday, September 4. The primary topics it emphasizes are: animation and geometry, generativity and noise. I estimate that it will take you about 5-6 hours.*
 
 ***NOTE: I will have office hours next Tuesday evening (9/10/24), most likely in the STUDIO for Creative Inquiry (CFA-111) from 6-8pm.***
 
@@ -20,13 +20,7 @@
 
 #### Projects
 
-* (20 minutes) [Trigonometry, Iteration: *Phyllotactic Spiral*](https://openprocessing.org/class/93074/#/c/93564)
-* (30 minutes) [Arrays, Geometry, Interaction: *Line Intersections*](https://openprocessing.org/class/93074/#/c/93559)
-* (2 hours) [Generative Landscape Animation](https://openprocessing.org/class/93074/#/c/93563)
-* (2 hours) [Rhythm Loop](https://openprocessing.org/class/93074/#/c/93560)
-
-And 
-
-* Gemini
-* DinoDiffusion
-* Reading?
+1. (30 minutes) [Trigonometry, Iteration: *Phyllotactic Spiral*](https://openprocessing.org/class/93074/#/c/93564)
+2. (30 minutes) [Arrays, Geometry, Interaction: *Line Intersections*](https://openprocessing.org/class/93074/#/c/93559)
+3. (2 hours) [Generative Landscape Animation](https://openprocessing.org/class/93074/#/c/93563)
+4. (3 hours) [Rhythm Loop](https://openprocessing.org/class/93074/#/c/93560)
