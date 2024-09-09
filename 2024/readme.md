@@ -17,6 +17,7 @@
 * `Mon 08/26`: [Hello World!](daily_notes/20240826.md)
 * `Wed 08/28`: [Code & Form](daily_notes/20240828.md)
 * `Wed 09/04`: [Movement](daily_notes/20240904.md)
+* `Mon 09/09`: [Movement, Loops, Shaping Functions](daily_notes/20240909.md)
 
 ---
 
