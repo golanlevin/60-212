@@ -4,6 +4,8 @@
 
 --- 
 
+![banded_clock.gif](images/banded_clock.gif)
+
 The interactive and dynamic control of visual media over time is a core concern in new media arts. In this project, you are asked to create visualizations that display novel or unconventional representations of the time. This work is due at the beginning of class on Wednesday, September 25. You have **two weeks** to complete this work. As usual, please feel welcome to contact me via Discord by DM or in the `#haaalp` channel. 
 
 This project has **4 main components**: 
