@@ -6,7 +6,7 @@
 
 ---
 
-*Our third set of Deliverables is due at the beginning of class on Wednesday, September 4. The primary topics it emphasizes are: animation and geometry, generativity and noise. I estimate that it will take you about 5-6 hours.*
+*Our third set of Deliverables is due at the beginning of class on Wednesday, September 11. The primary topics it emphasizes are: animation and geometry, generativity and noise. I estimate that it will take you about 5-6 hours.*
 
 ***NOTE: I will have office hours next Tuesday evening (9/10/24), most likely in the STUDIO for Creative Inquiry (CFA-111) from 6-8pm.***
 
