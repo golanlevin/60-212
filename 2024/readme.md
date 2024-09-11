@@ -18,6 +18,7 @@
 * `Wed 08/28`: [Code & Form](daily_notes/20240828.md)
 * `Wed 09/04`: [Movement](daily_notes/20240904.md)
 * `Mon 09/09`: [Movement, Loops, Shaping Functions](daily_notes/20240909.md)
+* `Wed 09/11`: [Clocks](daily_notes/20240911.md)
 
 ---
 
@@ -28,8 +29,8 @@ This information is also available in our Google [**Calendar**](http://bit.ly/go
 * `Wed 08/28`: [Assignment Set 1](assignments/assignment_1.md) Due
 * `Wed 09/04`: [Assignment Set 2](assignments/assignment_2.md) Due
 * `Wed 09/11`: [Assignment Set 3](assignments/assignment_3.md) Due
-* `Tue 09/24`: Required attendance: Artist talk by [Brain](https://tegabrain.com/) & [Lavigne](https://lav.io/), 5:30pm
-* `Wed 09/25`: Assignment Set 4 Due
+* `Tue 09/24`: **Required**: [Artist talk by Brain & Lavigne](https://studioforcreativeinquiry.org/events/brain-lavigne), 5:30pm
+* `Wed 09/25`: [Assignment Set 4](assignments/assignment_4.md) Due
 * `Wed 10/02`: Assignment Set 5 Due
 * `Wed 10/09`: Assignment Set 6 Due
 * `Mon 10/28`: Assignment Set 7 Due
