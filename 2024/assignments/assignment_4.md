@@ -27,9 +27,7 @@ The learning objectives of this project are:
 
 ## 1. Looking Outwards
 
-*(15 minutes; 5%)* **Review** the timepieces listed in my [**Lecture on Clocks**](https://github.com/golanlevin/lectures/tree/master/lecture_clock) directory. Now, in the `#looking-outwards-3` Discord channel, **write** a couple of sentences about a clock that you find particularly memorable. Why does it stick with you? **Include** an image or screenshot of that project if possible.
-
-Since you'll be creating a *collection* of clocks yourself, don't ignore the handful of artists and designers who have also created such collections: the [*12 O'Clocks*](https://github.com/golanlevin/lectures/tree/master/lecture_clock#software-clocks-i) collection by John Maeda; the [*24 Times*](https://24times.gysin-vanetti.com/) collection by Andreas Gysin; and the collection of [timepieces](https://cwandt.com/collections/time) created by Che-Wei Wang and Taylor Levy. *(I'm not asking you to write about these collections specifically; but of course you can if you want to. I just want to make sure you've looked them over.)*
+*(15 minutes; 5%)* **Browse** the timepieces listed in my [**Lecture on Clocks**](https://github.com/golanlevin/lectures/tree/master/lecture_clock) directory. Now, in the `#looking-outwards-3` Discord channel, **write** a couple of sentences about a clock that you find particularly memorable. Why does it stick with you? **Include** an image or screenshot of that project if possible.
 
 ---
 
@@ -48,12 +46,12 @@ Despite the widespread adoption of technological standards, there are many other
 Please **review** the following **5** resources:
 
 * Please **read** this this [**5-page PDF about timekeeping**](readings/drucker_timekeeping.pdf) by design theorist Johanna Drucker, from her book *Graphesis: Visual Forms of Knowledge Production* (Harvard Press, 2014).
-* Please **watch** this excellent 6-minute YouTube video on the [**History of Timekeeping Devices**](https://www.youtube.com/watch?v=SsULOvIWSUo).
-* If you didn’t already see it in class, please **watch** the first 13 minutes of [**A Brief History of the Calendar and Timekeeping**](https://www.youtube.com/watch?v=OaYMK2n9Aow&t=4s), a YouTube lecture by [Dr. Donna Carroll](https://www.maastrichtuniversity.nl/dl-carroll), Lecturer of Physics, Maastricht University.
 * **Browse** or **skim** the [**Wikipedia History of Timekeeping Devices**](https://en.wikipedia.org/wiki/History_of_timekeeping_devices).
-* **Look** at [**https://yourcalendricalfallacyis.com/**](https://yourcalendricalfallacyis.com/). (It’s awesome!)
+* **Review** the information at [**https://yourcalendricalfallacyis.com/**](https://yourcalendricalfallacyis.com/). (It’s awesome!)
+* In case you missed it in class, please **watch** this excellent 6-minute YouTube video on the [**History of Timekeeping Devices**](https://www.youtube.com/watch?v=SsULOvIWSUo).
+* In case you missed it in class, please **watch** the first 13 minutes of [**A Brief History of the Calendar and Timekeeping**](https://www.youtube.com/watch?v=OaYMK2n9Aow&t=4s), a YouTube lecture by [Dr. Donna Carroll](https://www.maastrichtuniversity.nl/dl-carroll), Lecturer of Physics, Maastricht University.
 
-*Now:* In a Discord post in the `#timekeepingReadings` channel, please **write** two sentences about something that stuck with you from any of these readings/viewings. What did you see, read or learn that was interesting? Why was it interesting to you?
+*Now:* In a Discord post in the `#04-time-readings` channel, please **write** two sentences about something that stuck with you from any of these readings or viewings. What did you see, read or learn that was interesting? Why was it interesting to you?
 
 ---
 
@@ -81,7 +79,7 @@ Here are some potentially helpful clock tutorials on YouTube:
 
 ## 4. Document Your Work
 
-*(15 minutes, 5%)* In a Discord post in the channel `#timepiece`, concisely describe your 10 clocks in a bulleted list.
+*(15 minutes, 5%)* In a Discord post in the channel `#04-timepiece`, concisely describe your 10 clocks in a bulleted list.
 
 **Embed** 2-3 images of your best clock(s). Show what it looks like or how it behaves at different times of day. If your clock involves animation in a special way, embed an animated GIF or a brief video recording.
 
