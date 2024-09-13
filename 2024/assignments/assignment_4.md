@@ -10,10 +10,10 @@ The interactive and dynamic control of visual media over time is a core concern 
 
 This project has **4 main components**: 
 
-1. *(15 minutes; 5%)* **[Looking Outwards](1-looking-outwards)**
-2. *(60 minutes; 10%)* **[Readings and Viewings](2-readings-and-viewings)**
-3. *(12 hours; 80%)* **[Make Ten Clocks](3-make-ten-clocks)**
-4. *(15 minutes, 5%)* **[Document Your Work](document-your-work)**
+1. *(15 minutes; 5%)* **[Looking Outwards](#1-looking-outwards)**
+2. *(60 minutes; 10%)* **[Readings and Viewings](#2-readings-and-viewings)**
+3. *(12 hours; 80%)* **[Make Ten Clocks](#3-make-ten-clocks)**
+4. *(15 minutes, 5%)* **[Document Your Work](#document-your-work)**
 
 The learning objectives of this project are:
 
