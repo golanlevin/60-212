@@ -19,7 +19,9 @@
 * `Wed 09/04`: [Movement](daily_notes/20240904.md)
 * `Mon 09/09`: [Movement, Loops, Shaping Functions](daily_notes/20240909.md)
 * `Wed 09/11`: [Guest lecture; Clocks](daily_notes/20240911.md)
-* `Wed 09/16`: [Timekeeping (cont'd)](daily_notes/20240916.md)
+* `Mon 09/16`: [Timekeeping (cont'd)](daily_notes/20240916.md)
+* `Wed 09/18`: *Work session class; Golan away.*
+
 
 ---
 
