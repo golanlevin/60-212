@@ -21,7 +21,7 @@
 * `Wed 09/11`: [Guest lecture; Clocks](daily_notes/20240911.md)
 * `Mon 09/16`: [Timekeeping (cont'd)](daily_notes/20240916.md)
 * `Wed 09/18`: *Work session class; Golan away.*
-
+* `Mon 09/23`: [Timekeeping worksession](daily_notes/20240923.md)
 
 ---
 
