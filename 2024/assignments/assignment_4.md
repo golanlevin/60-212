@@ -67,6 +67,8 @@ You will probably want to use the *[hour()](https://archive.p5js.org/reference/#
 
 You are encouraged to **question** basic assumptions about how time is represented. **Consider** things like biological time ([chronobiology](https://en.wikipedia.org/wiki/Chronobiology)), [ultradian rhythms](https://en.wikipedia.org/wiki/Ultradian_rhythm) and [infradian rhythms](https://en.wikipedia.org/wiki/Infradian_rhythm), solar and lunar cycles, celestial time, geological time, decimal time, historical time, [psychological time](http://cpl.revues.org/4998), and subjective time. (This list is not exclusive or exhaustive.) Remember to **sketch** first in your paper sketchbook.
 
+**NEW REQUIREMENT:** At the top of your code for each timepiece, **add a `comment`** which explains that project. For example, you might explain what your timepiece displays, or how to read it, or how it works.
+
 [This sketch](https://openprocessing.org/sketch/2018166) demonstrates how to use the p5.js basic time functions:<br />[![clock demo](images/clock-demo.gif)](https://openprocessing.org/sketch/2018166)
 
 Here are some potentially helpful clock tutorials on YouTube: 
