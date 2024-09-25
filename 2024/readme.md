@@ -22,6 +22,7 @@
 * `Mon 09/16`: [Timekeeping (cont'd)](daily_notes/20240916.md)
 * `Wed 09/18`: *Work session class; Golan away.*
 * `Mon 09/23`: [Timekeeping worksession](daily_notes/20240923.md)
+* `Wed 09/25`: [Timepiece Review](daily_notes/20240925.md)
 
 ---
 
@@ -34,7 +35,7 @@ This information is also available in our Google [**Calendar**](http://bit.ly/go
 * `Wed 09/11`: [Assignment Set 3](assignments/assignment_3.md) Due
 * `Tue 09/24`: **Required**: [Artist talk by Brain & Lavigne](https://studioforcreativeinquiry.org/events/brain-lavigne), 5:30pm
 * `Wed 09/25`: [Assignment Set 4](assignments/assignment_4.md) Due
-* `Wed 10/02`: Assignment Set 5 Due
+* `Wed 10/02`: [Assignment Set 5](assignments/assignment_5.md) Due
 * `Wed 10/09`: Assignment Set 6 Due
 * `Mon 10/28`: Assignment Set 7 Due
 * `Wed 11/06`: Assignment Set 8 Due
