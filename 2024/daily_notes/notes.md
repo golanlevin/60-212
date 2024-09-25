@@ -14,6 +14,8 @@ This is a landfill of mostly unstructured notes to myself.
 * [Word sorter by Trudy Painter](https://editor.p5js.org/trudypainter/sketches/cSN7DNnWG) organizes words on user-defined spectra. [Tweet](https://x.com/trudypainter/status/1820555477455167900)
 * [Grow a seed](https://editor.p5js.org/pitaru/sketches/z7Cq3HEtjo) AI-collaborative drawing tool by Amit Pitaru. Insanely short code. [Tweet](https://x.com/pitaru/status/1821310018198642867)
 
+https://x.com/tinaz0ne/status/1824153041597239433
+
 Gemini + p5 + littleBits? 
 
 ---
