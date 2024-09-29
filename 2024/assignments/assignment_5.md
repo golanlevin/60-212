@@ -4,8 +4,10 @@
 
 ![gemini.png](images/gemini.png)
 
+This week, we begin to incorporate generative AI into our creative coding assignments. This set of deliverables has two components, which are due at the beginning of class on Wednesday 10/2:
 
-There are OpenProcessing slots for the two deliverables below. 
+* 5.1. [Canvas Describer](https://openprocessing.org/class/93074/#/c/94365) (15 minute exercise, 20%)
+* 5.2. [LLM-Boosted Interaction](https://openprocessing.org/class/93074/#/c/94366) (main project, 2-4 hours, 80%)
 
 --- 
 
@@ -24,7 +26,8 @@ There are OpenProcessing slots for the two deliverables below.
   6. Enable the Gemini API for your project.
   7. Copy the generated API key and paste it into the "API KEY" input field in the web application.
   8. Note: Make sure to keep your API key secure and avoid sharing it publicly.
-* **Create** a simple riff of [**this demonstration program**](https://openprocessing.org/sketch/2369075) by forking this sketch and changing the prompt. You're welcome to modify the graphics and/or interaction code if you wish, but that's not required for this small exercise. **Upload** your project to [this collection](https://openprocessing.org/class/93074/#/c/94365) in our OpenProcessing classroom ("5.1. Canvas Describer"). 
+* **Create** a simple riff of [**this demonstration program**](https://openprocessing.org/sketch/2369075) by forking this sketch and changing the prompt. You're welcome to modify the graphics and/or interaction code if you wish, but that's not required for this small exercise. 
+* **Upload** your project to [this collection](https://openprocessing.org/class/93074/#/c/94365) in our OpenProcessing classroom ("5.1. Canvas Describer"). 
 * In the Discord channel `#05-canvas-describer`, **paste** your revised prompt, and **embed** a few screenshots of your program in use. **Write** a sentence or two about other things you tried, critical reflection, etc. 
 
 
@@ -45,19 +48,19 @@ It helps to understand what's possible! Please **browse** the [Google Gemini API
 **Check out** the examples below to see how some other people have used Google's Gemini AI to make interesting interactions in p5.js. *This is not an exhaustive list of techniques or possibilities!*
 
 * [*Gemini API starter examples*](https://x.com/pitaru/status/1819797112399511625) by Amit Pitaru: Gemini AI describes p5.js canvas. [Minimal Demo](https://editor.p5js.org/pitaru/sketches/Ixu00bucD); [Version with instructions](https://editor.p5js.org/pitaru/sketches/NSAqfrdJY).
-* [*Ask Gemini with Audio*](https://editor.p5js.org/pitaru/sketches/NSAqfrdJY)
-* [*One Line, One Word*](https://editor.p5js.org/alexanderchen/sketches/UIPy0LXjm) by Alexander Chen. The AI describes the quality of a line. [Tweet](https://x.com/alexanderchen/status/1819939988676440241)
-* [*Stick Figure Theater*](https://editor.p5js.org/alexanderchen/sketches/ndd3oqln2) by Alexander Chen.  Draw a character, and Gemini will try to return a line of dialogue. [Tweet](https://x.com/alexanderchen/status/1821011074658828481)
-* [*Word sorter*](https://editor.p5js.org/trudypainter/sketches/cSN7DNnWG) by Trudy Painter. Organizes words along user-defined spectra. [Tweet](https://x.com/trudypainter/status/1820555477455167900)
-* [*Grow a Seed*](https://editor.p5js.org/pitaru/sketches/z7Cq3HEtjo) AI-collaborative drawing tool by Amit Pitaru. Note the insanely short code. [Tweet](https://x.com/pitaru/status/1821310018198642867)
-* [*Crappy gaze Estimation*](https://editor.p5js.org/golan/sketches/sktetHnz8)
-* [*Life's biggest questions*](https://editor.p5js.org/ttarigh/sketches/oibptLN-L) -[Tweet](https://x.com/tinaz0ne/status/1824153041597239433)
-* [*Let's Dance*](https://editor.p5js.org/pitaru/sketches/-ujxN6JUr) by Amit Pitaru - [Tweet](https://x.com/pitaru/status/1822453415013650768)
+* [*One Line, One Word*](https://editor.p5js.org/alexanderchen/sketches/UIPy0LXjm) by Alexander Chen. The AI poetically describes the quality of a line. ([Tweet](https://x.com/alexanderchen/status/1819939988676440241))
+* [*Stick Figure Theater*](https://editor.p5js.org/alexanderchen/sketches/ndd3oqln2) by Alexander Chen. Draw a character; the AI returns a line of dialogue. ([Tweet](https://x.com/alexanderchen/status/1821011074658828481))
+* [*Word sorter*](https://editor.p5js.org/trudypainter/sketches/cSN7DNnWG) by Trudy Painter. A text analyzer that organizes words along user-defined spectra. ([Tweet](https://x.com/trudypainter/status/1820555477455167900))
+* [*Grow a Seed*](https://editor.p5js.org/pitaru/sketches/z7Cq3HEtjo) AI-collaborative drawing tool by Amit Pitaru. The AI analyzes the canvas, and returns working p5.js code (!!) to enhance it. ([Tweet](https://x.com/pitaru/status/1821310018198642867))
+* [*Crappy gaze Estimation*](https://editor.p5js.org/golan/sketches/sktetHnz8) by Golan. The AI tries to estimate which direction the eye is looking.
+* [*Life's biggest questions*](https://editor.p5js.org/ttarigh/sketches/oibptLN-L) by ttarigh. Responds to all questions with a single, profound word. ([Tweet](https://x.com/tinaz0ne/status/1824153041597239433))
+* [*Let's Dance*](https://editor.p5js.org/pitaru/sketches/-ujxN6JUr) by Amit Pitaru. The user draws a path for a blue dot; Gemini provides path coordinates for a red dot. ([Tweet](https://x.com/pitaru/status/1822453415013650768))
 
 Please note that you might need to modify the code of `geminiAPI.js` in order to implement a concept with unusual functionality. *Also, please note that while it is possible to [enable reduced content safety settings in Google Gemini](https://ai.google.dev/gemini-api/docs/safety-settings#safety-filtering-per-request), your projects should still adhere to our Syllabus [Code of Conduct guidelines](https://github.com/golanlevin/60-212/blob/main/2024/syllabus/60-212_syllabus_fall2024.md#code-of-conduct).* 
 
 *Now*: 
 
 * **Create** an app in p5.js that uses the Google Gemini API to do something interesting.
+* **Post** your app to the "5.2. LLM-Boosted Interaction" [collection in OpenProcessing](https://openprocessing.org/class/93074/#/c/94366). 
 * In the Discord channel `#05-gemini-app`, **describe** your project, and **embed** a few screenshots (or an animated GIF, or an unlisted YouTube video) of your program in use. **Write** a sentence or two of critical reflection about your project and/or process.
 
