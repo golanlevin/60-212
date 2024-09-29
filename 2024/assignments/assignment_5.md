@@ -62,5 +62,5 @@ Please note that you might need to modify the code of `geminiAPI.js` in order to
 
 * **Create** an app in p5.js that uses the Google Gemini API to do something interesting.
 * **Post** your app to the "5.2. LLM-Boosted Interaction" [collection in OpenProcessing](https://openprocessing.org/class/93074/#/c/94366). 
-* In the Discord channel `#05-gemini-app`, **describe** your project, and **embed** a few screenshots (or an animated GIF, or an unlisted YouTube video) of your program in use. **Write** a sentence or two of critical reflection about your project and/or process.
+* In the Discord channel `#05-llm-app`, **describe** your project, and **embed** a few screenshots (or an animated GIF, or an unlisted YouTube video) of your program in use. **Write** a sentence or two of critical reflection about your project and/or process.
 
