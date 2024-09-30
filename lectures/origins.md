@@ -2,8 +2,6 @@
 
 ---
 
-### Clocks as Performance: Live and Unplugged
-
 Origins & Pioneers: Vera Molnár, Duane Palyka
 An homage from Gen-Z generative artist, Alida Sun:
 
