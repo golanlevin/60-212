@@ -23,6 +23,7 @@
 * `Wed 09/18`: *Work session class; Golan away.*
 * `Mon 09/23`: [Timekeeping worksession](daily_notes/20240923.md)
 * `Wed 09/25`: [Timepiece Review](daily_notes/20240925.md)
+* `Mon 09/30`: [AI + Worksession](daily_notes/20240930.md)
 
 ---
 
