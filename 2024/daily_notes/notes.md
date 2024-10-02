@@ -4,51 +4,61 @@ This is a landfill of mostly unstructured notes to myself.
 
 
 
----
-
-### Gemini + p5
-
-* [Gemini API starter examples](https://x.com/pitaru/status/1819797112399511625) by Amit Pitaru: Gemini AI describes p5.js canvas. [Minimal Demo](https://editor.p5js.org/pitaru/sketches/Ixu00bucD); [Version with instructions](https://editor.p5js.org/pitaru/sketches/NSAqfrdJY).
-* [One Line, One Word](https://editor.p5js.org/alexanderchen/sketches/UIPy0LXjm) by Alexander Chen. AI describes the quality of a line. [Tweet](https://x.com/alexanderchen/status/1819939988676440241)
-* [Stick Figure Theater](https://editor.p5js.org/alexanderchen/sketches/ndd3oqln2) by Alexander Chen.  Draw a character, and Gemini will try to return a line of dialogue. [Tweet](https://x.com/alexanderchen/status/1821011074658828481)
-* [Word sorter by Trudy Painter](https://editor.p5js.org/trudypainter/sketches/cSN7DNnWG) organizes words on user-defined spectra. [Tweet](https://x.com/trudypainter/status/1820555477455167900)
-* [Grow a seed](https://editor.p5js.org/pitaru/sketches/z7Cq3HEtjo) AI-collaborative drawing tool by Amit Pitaru. Insanely short code. [Tweet](https://x.com/pitaru/status/1821310018198642867)
-
-https://x.com/tinaz0ne/status/1824153041597239433
-
-Gemini + p5 + littleBits? 
 
 ---
 
-### Color 
+### Color Demonstrations
 
-* [Chroma.js + p5 demo](https://editor.p5js.org/golan/sketches/2pkxnwYxF) by Golan
-* [Texel/color + p5 demo](https://editor.p5js.org/golan/sketches/Ya1xm67i6) by Golan
+* [Color Interpolation (Simple)](https://editor.p5js.org/golan/sketches/r7BTC6kdl) by Golan
+* [Color Randomness (Simple)](https://editor.p5js.org/golan/sketches/h3ltTBZUd) by Golan
 
-Libraries: 
+### Advanced Color Library Demos 
 
-* [Chroma.js](https://www.vis4.net/chromajs/)
-* [Texel/Color](https://github.com/texel-org/color) by @mattdesl
-* [Mixbox](https://github.com/scrtwpns/mixbox) 
-* [Color.js](https://colorjs.io/)
-* [Culori.js](https://culorijs.org/)
-* [Spectral.glsl](https://github.com/rvanwijnen/spectral.js/tree/main?tab=readme-ov-file#shaders)
-* [Spectral.js](https://github.com/rvanwijnen/spectral.js/blob/main/spectral.js)
-* [Rampensau](https://meodai.github.io/rampensau/)
+Let's first look at the [**Chroma.js Color Palette Helper**](https://gka.github.io/palettes/#/9|s|00429d,96ffea,ffffe0|ffffe0,ff005e,93003a|0|1). This tool can help us master multi-hued, multi-stop color scales.
+
+* [**Chroma.js + p5 demo**](https://editor.p5js.org/golan/sketches/2pkxnwYxF): [Chroma.js](https://www.vis4.net/chromajs/) is a small, zero-dependency JavaScript library for all kinds of color conversions and color scales.
+* [**Texel/color + p5 demo**](https://editor.p5js.org/golan/sketches/Ya1xm67i6): [Texel/Color](https://github.com/texel-org/color) by Matt Deslauriers is a minimal and modern color library for JavaScript. It is especially useful for real-time  applications and generative art. Features include fast color conversion, color difference, and gamut mapping.
+* [**Mixbox + p5 demo**](https://editor.p5js.org/golan/sketches/FPtOVXlpV): [Mixbox](https://github.com/scrtwpns/mixbox), developed by Šárka Sochorová and Ondřej Jamriška, is a new JavaScript library for natural color mixing. It models colors as real-life pigments using the Kubelka & Munk theory to predict realistic color behavior. The inputs are converted into a version of CMYK; the K–M mixing is performed in that latent space, and then the output is converted to RGB.
+* *Also: [Color.js](https://colorjs.io/)*
+* *Also: [Culori.js](https://culorijs.org/)*
 
 
-Inspirations: 
 
-* https://albers.elastiq.ch/
-* [Poline](https://meodai.github.io/poline/)
-* [Kjetil Golid, *Archetype*](https://www.artblocks.io/curated/collections/archetype-by-kjetil-golid?tab=Artworks)
-* [parametric pottery](https://anatolyzenkov.com/parametric-pottery/preview/22) & [code](https://anatolyzenkov.com/preview/parametric-pottery/js/colors.js)
 
-Color Pickers: 
+Uniform Color Palettes
 
-* Björn Ottosson's [Color Picker](https://bottosson.github.io/misc/colorpicker/) and related [article](https://bottosson.github.io/posts/colorpicker/)
-* [OKLCH Color Picker & Converter](https://oklch.com/#77.33,0.141,123.88,100)
-* [CIELUV Color Picker](https://www.hsluv.org/)
+* [The "Magma" color palette in p5](https://editor.p5js.org/golan/sketches/BlPUeC-mf)
+
+
+### Inspirations
+
+#### Color Pickers: 
+
+* [OK* Color Picker](https://bottosson.github.io/misc/colorpicker/) and related [article](https://bottosson.github.io/posts/colorpicker/) by Björn Ottosson
+* [OKLCH Color Picker & Converter](https://oklch.com/#77.33,0.141,123.88,100) by Evil Martians
+* [CIELUV Color Picker](https://www.hsluv.org/) by  Alexei Boronine
+
+#### Color Explorers
+
+* David Aerne's [**Poline**](https://meodai.github.io/poline/)
+* David Aerne's [**Rampensau**](https://meodai.github.io/rampensau/). RampenSau is a lightweight, dependency-free and blazingly fast color generation library. It makes use of hue cycling and easing functions to generate pleasing color ramps.
+* Cynthia Brewer's [**Color Advice for Cartographers**](https://colorbrewer2.org/#type=sequential&scheme=BuPu&n=3)
+
+#### Artworks
+
+* Kjetil Golid's [**Archetype**](https://www.artblocks.io/curated/collections/archetype-by-kjetil-golid?tab=Artworks)
+* Anatoly Zenkov's [**Parametric Pottery**](https://anatolyzenkov.com/parametric-pottery/preview/22) (click!) & [code](https://anatolyzenkov.com/preview/parametric-pottery/js/colors.js) (uses OKlab!)
+* David Aerne's [**Albers**](https://albers.elastiq.ch/)
+
+
+
+### Assignments
+
+* 60-30-10: https://editor.p5js.org/golan/sketches/U5EgeSwwR
+
+
+
+
 
 
 Readings: 
@@ -67,6 +77,13 @@ Readings:
 
 * https://www.youtube.com/watch?v=rAfjUOkbyr0
 
+---
+
+---
+
+---
+
+Gemini + p5 + littleBits? 
 
 ---
 
@@ -147,23 +164,10 @@ Readings:
 ### Tiny Exercises
 
 * tixy
-* gemini + p5 
 
-
-### Spiral / Phyllotaxis
-
-* [Jen Stark, *Vortex*](https://www.artblocks.io/curated/collections/vortex-by-jen-stark), 2021
-* Jon Edmark
 
 
 ### Blobs
 
 * https://www.artblocks.io/marketplace/collections/66ba40ed77ff57fa951bc1ef/explore?tokenId=90&hash=0x7df942e0d0ea45f01bc2f4a453efeda1a241e4466ecfeda0ea82457c106d7857
-
-
-
-### Clock
-
-* https://www.youtube.com/watch?v=3Aa8CzklS6c
-
 
