@@ -37,7 +37,7 @@ This information is also available in our Google [**Calendar**](http://bit.ly/go
 * `Tue 09/24`: **Required**: [Artist talk by Brain & Lavigne](https://studioforcreativeinquiry.org/events/brain-lavigne), 5:30pm
 * `Wed 09/25`: [Assignment Set 4](assignments/assignment_4.md) Due
 * `Wed 10/02`: [Assignment Set 5](assignments/assignment_5.md) Due
-* `Wed 10/09`: Assignment Set 6 Due
+* `Wed 10/09`: [Assignment Set 6](assignments/assignment_6.md) Due
 * `Mon 10/28`: Assignment Set 7 Due
 * `Wed 11/06`: Assignment Set 8 Due
 * `Mon 11/18`: Assignment Set 9 Due
