@@ -43,10 +43,11 @@ A color’s “split complements” are a pair of colors that are opposite, but 
 
 ### 4. 60-30-10 
 
-(*25%, 45 minutes*)
+(*25%, 60 minutes*)
 
 * **Watch** [this video about the "60-30-10 rule"](https://www.youtube.com/watch?v=rAfjUOkbyr0).
 * [This p5.js sketch](https://editor.p5js.org/golan/sketches/U5EgeSwwR) presents a set of three colors in approximately 60-30-10 proportions. **Modify** [this sketch](https://editor.p5js.org/golan/sketches/U5EgeSwwR) to use a satisfying trio of colors, replacing lines 14-16 with a generative strategy. Your program should generate a new set of colors each time the user clicks the mouse button. 
+* *(FOR EXTRA CREDIT — If you would like to have a more creative version of this assignment: feel free to change the composition however you wish — so long as the three colors are still distributed in 60-30-10 proportions.)*
 * **Save** your work to the correct slot in our OpenProcessing classroom.
 
 ---
