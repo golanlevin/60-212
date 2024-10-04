@@ -16,9 +16,22 @@
 
 *Now*: In the Discord channel, `#6-color-readings`, **write** a sentence of reflection about something that you found interesting or helpful from these readings. 
 
+### 2. Color Explorers
+
+(*15%, 30 minutes*) Spend a few minutes interacting with the following interactive color explorers: 
+
+* [**Chroma.js Color Palette Helper**](https://gka.github.io/palettes/#/9|s|00429d,96ffea,ffffe0|ffffe0,ff005e,93003a|1|1)
+* David Aerne's [**Poline**](https://meodai.github.io/poline/)
+* David Aerne's [**Rampensau**](https://meodai.github.io/rampensau/).
+* Cynthia Brewer's [**Color Advice for Cartographers**](https://colorbrewer2.org/#type=sequential&scheme=BuPu&n=3)
+* [**OK Color Picker**](https://bottosson.github.io/misc/colorpicker/) by Björn Ottosson
+* [**OKLCH Color Picker & Converter**](https://oklch.com/#77.33,0.141,123.88,100) by Evil Martians
+
+*Now*: In the Discord channel, `#6-color-explorers`, **write** a sentence of reflection about something that you found interesting or helpful from these tools. 
+
 ---
 
-### 2. Four-Color Gradient
+### 3. Four-Color Gradient
 
 (*10%, 30 minutes*)
 
@@ -30,7 +43,7 @@
 
 ---
 
-### 3. Split Complements
+### 4. Split Complements
 
 (*15%, 30 minutes*)
 
@@ -41,7 +54,7 @@ A color’s “split complements” are a pair of colors that are opposite, but 
 
 ---
 
-### 4. 60-30-10 
+### 5. 60-30-10 
 
 (*25%, 60 minutes*)
 
@@ -52,20 +65,9 @@ A color’s “split complements” are a pair of colors that are opposite, but 
 
 ---
 
-### 5. **Color Relativity I**: 
-
 (*25%, 45 minutes*)
 
-* **Create** a program to generate novel color sets that always fulfill the *three-look-like-four* condition. Your program should generate a new set of colors each time the user clicks the mouse button.
-* **Save** your work to the correct slot in our OpenProcessing classroom.
-
-![albers-3-looks-like-4.png](images/albers-3-looks-like-4.png)
-
----
-
-(*25%, 45 minutes*)
-
-### 6. **Color Relativity II:** 
+### 6. **Color Relativity:** 
 
 * **Create** a program to generate novel color sets that always fulfill the *four-look-like-three* condition. Your program should generate a new set of colors each time the user clicks the mouse button. Demonstrate the relativity of color by duplicating the spots’ colors in a location where they can be more easily compared. 
 * **Save** your work to the correct slot in our OpenProcessing classroom.
