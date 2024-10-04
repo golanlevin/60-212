@@ -14,7 +14,7 @@
 * [Computational Color](http://printingcode.runemadsen.com/lecture-color/) by Rune Madsen (15 minute read)
 * [*Okay, Color Spaces*](https://ericportis.com/posts/2024/okay-color-spaces/), Eric Portis, 2024. Includes interactives. (15 minute read)
 
-*Now*: In the Discord channel, `#6-color-readings`, **write** a sentence of reflection about something that you found interesting or helpful from these readings. 
+*Now*: In the Discord channel, `#06-color-readings`, **write** a sentence of reflection about something that you found interesting or helpful from these readings. 
 
 ### 2. Color Explorers
 
@@ -27,7 +27,7 @@
 * [**OK Color Picker**](https://bottosson.github.io/misc/colorpicker/) by Björn Ottosson
 * [**OKLCH Color Picker & Converter**](https://oklch.com/#77.33,0.141,123.88,100) by Evil Martians
 
-*Now*: In the Discord channel, `#6-color-explorers`, **write** a sentence of reflection about something that you found interesting or helpful from these tools. 
+*Now*: In the Discord channel, `#06-color-explorers`, **write** a sentence of reflection about something that you found interesting or helpful from these tools. 
 
 ---
 
