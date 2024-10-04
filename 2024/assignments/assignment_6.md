@@ -7,7 +7,7 @@
 
 ---
 
-### 1. Readings
+### 1. Readings: Computational Color
 
 (*10%, 30 minutes*) Read the following two articles: 
 
@@ -16,7 +16,9 @@
 
 *Now*: In the Discord channel, `#06-color-readings`, **write** a sentence of reflection about something that you found interesting or helpful from these readings. 
 
-### 2. Color Explorers
+---
+
+### 2. Interactives: Color Explorers
 
 (*15%, 30 minutes*) Spend a few minutes interacting with the following interactive color explorers: 
 
