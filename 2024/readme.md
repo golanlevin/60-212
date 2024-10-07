@@ -24,6 +24,7 @@
 * `Mon 09/23`: [Timekeeping worksession](daily_notes/20240923.md)
 * `Wed 09/25`: [Timepiece Review](daily_notes/20240925.md)
 * `Mon 09/30`: [AI + Worksession](daily_notes/20240930.md)
+* `Mon 10/07`: [Computational Color](daily_notes/20241007.md)
 
 ---
 
@@ -34,32 +35,16 @@ This information is also available in our Google [**Calendar**](http://bit.ly/go
 * `Wed 08/28`: [Assignment Set 1](assignments/assignment_1.md) Due
 * `Wed 09/04`: [Assignment Set 2](assignments/assignment_2.md) Due
 * `Wed 09/11`: [Assignment Set 3](assignments/assignment_3.md) Due
-* `Tue 09/24`: **Required**: [Artist talk by Brain & Lavigne](https://studioforcreativeinquiry.org/events/brain-lavigne), 5:30pm
+* `Tue 09/24`: [Artist talk by Brain & Lavigne](https://studioforcreativeinquiry.org/events/brain-lavigne)
 * `Wed 09/25`: [Assignment Set 4](assignments/assignment_4.md) Due
 * `Wed 10/02`: [Assignment Set 5](assignments/assignment_5.md) Due
 * `Wed 10/09`: [Assignment Set 6](assignments/assignment_6.md) Due
-* `Mon 10/28`: Assignment Set 7 Due
-* `Wed 11/06`: Assignment Set 8 Due
-* `Mon 11/18`: Assignment Set 9 Due
-* `Wed 12/04`: Assignment Set 10 Due
+* `Mon 10/28`: Assignment Set 7 Due (Generative Art; Shaders)
+* `Wed 11/06`: Assignment Set 8 Due (Body / Gesture Expander)
+* `Mon 11/18`: Assignment Set 9 Due (Diffusion: Dino, p5+Comfy; Telematic?)
+* `Wed 12/04`: Assignment Set 10 Due (Audiovisual Environment)
 
 ### Calendar Visual Overview: 
 
 ![Session and Due Dates](syllabus/images/60212-schedule-2024.png)
 
----
-
-## Topics and Projects:
-
-*(Note: This is Subject to Change)*
-
-* Code & Form
-* Computational Color
-* Shaders & Pixel Programming
-* Generativity: Pattern
-* Dynamic Form (Loop; Timepiece)
-* Interactivity I: Creature 
-* Interactivity II: Gesture Expander
-* Generativity II: Diffusion (AI) 
-* Connectivity: Telematic
-* Transmediality: Audiovisual Environment
