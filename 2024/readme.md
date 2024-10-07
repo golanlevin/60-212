@@ -39,10 +39,14 @@ This information is also available in our Google [**Calendar**](http://bit.ly/go
 * `Wed 09/25`: [Assignment Set 4](assignments/assignment_4.md) Due
 * `Wed 10/02`: [Assignment Set 5](assignments/assignment_5.md) Due
 * `Wed 10/09`: [Assignment Set 6](assignments/assignment_6.md) Due
-* `Mon 10/28`: Assignment Set 7 Due (Generative Art; Shaders)
+* `Mon 10/28`: Assignment Set 7 Due (Pixels, Shaders, Generative Art)
 * `Wed 11/06`: Assignment Set 8 Due (Body / Gesture Expander)
-* `Mon 11/18`: Assignment Set 9 Due (Diffusion: Dino, p5+Comfy; Telematic?)
-* `Wed 12/04`: Assignment Set 10 Due (Audiovisual Environment)
+* `Mon 11/18`: Assignment Set 9 Due (Diffusion: Dino, p5+Comfy)
+* `Wed 12/04`: Assignment Set 10 Work-in-Progress (Interactive Environment)
+* `Tue 12/10`: Assignment Set 10 Due (Interactive Environment), 5:30pm‐8:30pm
+
+
+60212 A INT: CREATIVE CODING Tuesday, December 10, 2024 05:30pm‐08:30pm  LEVIN GOLAN (golan)
 
 ### Calendar Visual Overview: 
 
