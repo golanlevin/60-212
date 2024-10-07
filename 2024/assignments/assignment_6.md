@@ -114,6 +114,7 @@ For this project, I recommend you work with a color space that allows good contr
 
 * **Create** a program to generate novel color sets that always fulfill the *four-look-like-three* condition. Your program should generate a new set of colors each time the user clicks the mouse button. Demonstrate the relativity of color by duplicating the spots’ colors in a location where they can be more easily compared. 
 * *For this assignment, you are asked to use an advanced color library, such as [Chroma.js](https://editor.p5js.org/golan/sketches/2pkxnwYxF), [Texel/Color](https://editor.p5js.org/golan/sketches/Ya1xm67i6), [Mixbox](https://editor.p5js.org/golan/sketches/FPtOVXlpV), [Color.js](https://colorjs.io/), or [Culori.js](https://culorijs.org/).*
+* You might find [this video](https://www.youtube.com/watch?v=_Le83fKGKEo) to be helpful in explaining color strategies for this project. 
 * **Save** your work to the correct slot in our OpenProcessing classroom.
 
 ![albers-4-looks-like-3.png](images/albers-4-looks-like-3.png)
