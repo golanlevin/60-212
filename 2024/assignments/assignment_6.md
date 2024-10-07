@@ -21,6 +21,7 @@ Due **Wednesday** 10/9:
 
 The following p5.js **template demos/code** may be helpful for this Assignment: 
 
+* [Dead-simple Chroma + p5 example at OpenProcessing](https://openprocessing.org/sketch/2384439)
 * [Chroma.js + p5.js](https://editor.p5js.org/golan/sketches/2pkxnwYxF)
 * [Texel/Color + p5.js](https://editor.p5js.org/golan/sketches/Ya1xm67i6)
 * [Mixbox + p5.js](https://editor.p5js.org/golan/sketches/FPtOVXlpV)
@@ -66,8 +67,10 @@ The following p5.js **template demos/code** may be helpful for this Assignment:
 (*10%, 30 minutes*) This is due at the ***end*** of class on Wednesday October 9: 
 
 * **Read** or **skim** this article: [*Mastering Multi-hued Color Scales with Chroma.js*](https://www.vis4.net/blog/mastering-multi-hued-color-scales/)
-* Carefully **examine** this [Chroma.js+p5 example](https://editor.p5js.org/golan/sketches/2pkxnwYxF), — especially the `scale` feature of Chroma.js. 
-* **Create** a sketch that presents a smooth gradient through four colors. In a separate part of your canvas, display chips of the four colors in isolation. 
+* Carefully **examine** this [Chroma.js+p5 example](https://editor.p5js.org/golan/sketches/2pkxnwYxF), — especially the `scale` feature of Chroma.js.
+* Feel free to **study** and/or **fork** this [dead-simple Chroma + p5 example at OpenProcessing](https://openprocessing.org/sketch/2384439).
+* **Create** a sketch that presents a smooth gradient through four colors. 
+* In a separate part of your canvas, **display** chips of the four colors in isolation. 
 * **Respond** to this question, in a comment in your p5 code: *which color interpolation technique did you use and why?*
 * **Save** your work to the correct slot in our OpenProcessing classroom.
 
@@ -81,7 +84,8 @@ The following p5.js **template demos/code** may be helpful for this Assignment:
 
 A color’s “split complements” are a pair of colors that are opposite, but just adjacent (±15–30°) on the color wheel. Here, you are asked to create an interactive sketch that displays swatches of the split complements for a randomly generated color. *For this assignment, you are asked to use an advanced color library, such as [Chroma.js](https://editor.p5js.org/golan/sketches/2pkxnwYxF), [Texel/Color](https://editor.p5js.org/golan/sketches/Ya1xm67i6), [Mixbox](https://editor.p5js.org/golan/sketches/FPtOVXlpV): [github](https://github.com/scrtwpns/mixbox), [Color.js](https://colorjs.io/), or [Culori.js](https://culorijs.org/).*
 
-* [**Modify** this sketch](https://editor.p5js.org/golan/sketches/VtdpsUYLU) so that the chips are colored with split complements. Your program should generate a new set of colors each time the user clicks the mouse button. 
+* For this project, feel free to **study** and/or **fork** this [dead-simple Chroma + p5 example at OpenProcessing](https://openprocessing.org/sketch/2384439).
+* [**Modify** the code from this empty sketch](https://editor.p5js.org/golan/sketches/VtdpsUYLU) so that the chips are colored with split complementaries. Your program should generate a new set of colors each time the user clicks the mouse button. 
 * **Save** your work to the correct slot in our OpenProcessing classroom.
 
 ---
@@ -95,7 +99,7 @@ A color’s “split complements” are a pair of colors that are opposite, but 
 * **Watch** [this 3-minute video about the "60-30-10 rule"](https://www.youtube.com/watch?v=rAfjUOkbyr0).
 * [This p5.js sketch](https://editor.p5js.org/golan/sketches/U5EgeSwwR) presents a set of three colors in approximately 60-30-10 proportions. **Modify** [this sketch](https://editor.p5js.org/golan/sketches/U5EgeSwwR) to use a satisfying trio of colors, replacing lines 14-16 with a generative strategy. Your program should generate a new set of colors each time the user clicks the mouse button.
 * *For this assignment, you are asked to use an advanced color library, such as [Chroma.js](https://editor.p5js.org/golan/sketches/2pkxnwYxF), [Texel/Color](https://editor.p5js.org/golan/sketches/Ya1xm67i6), [Mixbox](https://editor.p5js.org/golan/sketches/FPtOVXlpV): [Mixbox](https://github.com/scrtwpns/mixbox), [Color.js](https://colorjs.io/), or [Culori.js](https://culorijs.org/).*
-* *(FOR EXTRA CREDIT — If you would like to have a more creative version of this assignment: feel free to change the composition however you wish — so long as the three colors are still distributed in 60-30-10 proportions.)*
+* **FOR EXTRA CREDIT** — *If you would like to have a more creative version of this assignment: feel free to change the composition however you wish — so long as the three colors are still distributed in approximately 60-30-10 proportions. I will award extra credit proportional to how inventive you are about generating such compositions.*
 * **Save** your work to the correct slot in our OpenProcessing classroom.
 
 ---
