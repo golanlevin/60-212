@@ -73,7 +73,7 @@ The following p5.js **template demos/code** may be helpful for this Assignment:
 * **Create** a sketch that presents a smooth gradient through four colors. 
 * In a separate part of your canvas, **display** chips of the four colors in isolation. 
 * **Respond** to this question, in a comment in your p5 code: *which color interpolation technique did you use and why?*
-* **Save** your work to the correct slot in our OpenProcessing classroom.
+* **Save** your work to the [correct slot in our OpenProcessing classroom](https://openprocessing.org/class/93074/#/c/94448).
 
 ---
 
@@ -90,7 +90,7 @@ For this project, I recommend you work with a color space that allows good contr
 * For this project, feel free to **study** and/or **fork** this [dead-simple Chroma + p5 example at OpenProcessing](https://openprocessing.org/sketch/2384439).
 * [**Modify** the code from this empty sketch](https://editor.p5js.org/golan/sketches/VtdpsUYLU) so that the chips are colored with a main color and its split complementaries. 
 * Your program must generate a new set of colors each time the user clicks the mouse button. 
-* **Save** your work to the correct slot in our OpenProcessing classroom.
+* **Save** your work to the [correct slot in our OpenProcessing classroom](https://openprocessing.org/class/93074/#/c/94452).
 
 ---
 
@@ -104,7 +104,7 @@ For this project, I recommend you work with a color space that allows good contr
 * [This p5.js sketch](https://editor.p5js.org/golan/sketches/U5EgeSwwR) presents a set of three colors in approximately 60-30-10 proportions. **Modify** [this sketch](https://editor.p5js.org/golan/sketches/U5EgeSwwR) to use a satisfying trio of colors, replacing lines 14-16 with a generative strategy. Your program should generate a new set of colors each time the user clicks the mouse button.
 * *For this assignment, you are asked to use an advanced color library, such as [Chroma.js](https://editor.p5js.org/golan/sketches/2pkxnwYxF), [Texel/Color](https://editor.p5js.org/golan/sketches/Ya1xm67i6), [Mixbox](https://editor.p5js.org/golan/sketches/FPtOVXlpV): [Mixbox](https://github.com/scrtwpns/mixbox), [Color.js](https://colorjs.io/), or [Culori.js](https://culorijs.org/).*
 * **FOR EXTRA CREDIT** — *If you would like to have a more creative version of this assignment: feel free to change the composition however you wish — so long as the three colors are still distributed in approximately 60-30-10 proportions. I will award extra credit proportional to how inventive you are about generating such compositions.*
-* **Save** your work to the correct slot in our OpenProcessing classroom.
+* **Save** your work to the [correct slot in our OpenProcessing classroom](https://openprocessing.org/class/93074/#/c/94453).
 
 ---
 
@@ -115,6 +115,6 @@ For this project, I recommend you work with a color space that allows good contr
 * **Create** a program to generate novel color sets that always fulfill the *four-look-like-three* condition. Your program should generate a new set of colors each time the user clicks the mouse button. Demonstrate the relativity of color by duplicating the spots’ colors in a location where they can be more easily compared. 
 * *For this assignment, you are asked to use an advanced color library, such as [Chroma.js](https://editor.p5js.org/golan/sketches/2pkxnwYxF), [Texel/Color](https://editor.p5js.org/golan/sketches/Ya1xm67i6), [Mixbox](https://editor.p5js.org/golan/sketches/FPtOVXlpV), [Color.js](https://colorjs.io/), or [Culori.js](https://culorijs.org/).*
 * You might find [this video](https://www.youtube.com/watch?v=_Le83fKGKEo) to be helpful in explaining color strategies for this project. 
-* **Save** your work to the correct slot in our OpenProcessing classroom.
+* **Save** your work to the [correct slot in our OpenProcessing classroom](https://openprocessing.org/class/93074/#/c/94454).
 
 ![albers-4-looks-like-3.png](images/albers-4-looks-like-3.png)
