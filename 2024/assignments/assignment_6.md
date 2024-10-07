@@ -5,29 +5,31 @@
 
 ## Due Monday 10/7 and Wednesday 10/9
 
-This assignment has 6 parts:
+This assignment is mostly technical, and has 6 parts:
 
 Due **Monday** 10/7:
 
-* 1. Readings: Computational Color
-* 2. Interactives: Color Explorers
+* 6.1. Readings: Computational Color
+* 6.2. Interactives: Color Explorers
 
 Due **Wednesday** 10/9:
 
-* 3. Four-Color Gradient
-* 4. Split Complementaries
-* 5. 60-30-10 Composition
-* 6. Color Relativity
+* 6.3. Four-Color Gradient
+* 6.4. Split Complementaries
+* 6.5. 60-30-10 Composition
+* 6.6. Color Relativity
 
-The following p5.js **template demos/code** may be helpful for this project: 
+The following p5.js **template demos/code** may be helpful for this Assignment: 
 
 * [Chroma.js + p5.js](https://editor.p5js.org/golan/sketches/2pkxnwYxF)
 * [Texel/Color + p5.js](https://editor.p5js.org/golan/sketches/Ya1xm67i6)
 * [Mixbox + p5.js](https://editor.p5js.org/golan/sketches/FPtOVXlpV)
 
+*Note: The "60-30-10 Composition" exercise has the most room for creativity, but making an original composition will be considered extra credit.* 
+
 ---
 
-### 1. Readings: Computational Color
+### 6.1. Readings: Computational Color
 
 ![munsell.png](images/munsell.png)
 
@@ -40,7 +42,7 @@ The following p5.js **template demos/code** may be helpful for this project:
 
 ---
 
-### 2. Interactives: Color Explorers
+### 6.2. Interactives: Color Explorers
 
 ![chromajs-demo.png](images/chromajs-demo.png)
 
@@ -57,7 +59,7 @@ The following p5.js **template demos/code** may be helpful for this project:
 
 ---
 
-### 3. Four-Color Gradient
+### 6.3. Four-Color Gradient
 
 ![bezier-through-colors.png](images/bezier-through-colors.png)
 
@@ -71,7 +73,7 @@ The following p5.js **template demos/code** may be helpful for this project:
 
 ---
 
-### 4. Split Complementaries
+### 6.4. Split Complementaries
 
 ![split-complementaries.jpg](images/split-complementaries.jpg)
 
@@ -84,7 +86,7 @@ A color’s “split complements” are a pair of colors that are opposite, but 
 
 ---
 
-### 5. 60-30-10 Composition
+### 6.5. 60-30-10 Composition
 
 ![60-30-10.png](images/60-30-10.png)
 
@@ -98,7 +100,7 @@ A color’s “split complements” are a pair of colors that are opposite, but 
 
 ---
 
-### 6. Color Relativity
+### 6.6. Color Relativity
 
 (*25%, 45 minutes*) This is due at the ***end*** of class on Wednesday October 9: 
 
