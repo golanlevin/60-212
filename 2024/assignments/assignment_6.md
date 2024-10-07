@@ -21,9 +21,10 @@ Due **Wednesday** 10/9:
 
 The following p5.js **template demos/code** may be helpful for this Assignment: 
 
+* [**Chroma.js** + p5.js](https://editor.p5js.org/golan/sketches/2pkxnwYxF)
 * [Dead-simple Chroma + p5 example at OpenProcessing](https://openprocessing.org/sketch/2384439)
-* [Chroma.js + p5.js](https://editor.p5js.org/golan/sketches/2pkxnwYxF)
-* [Texel/Color + p5.js](https://editor.p5js.org/golan/sketches/Ya1xm67i6)
+* [**Texel/Color** + p5.js](https://editor.p5js.org/golan/sketches/Ya1xm67i6)
+* [Dead-simple Texel/Color + p5 example at OpenProcessing](https://openprocessing.org/sketch/2384613)
 * [Mixbox + p5.js](https://editor.p5js.org/golan/sketches/FPtOVXlpV)
 
 *Note: The "60-30-10 Composition" exercise has the most room for creativity, but making an original composition will be considered extra credit.* 
@@ -82,10 +83,13 @@ The following p5.js **template demos/code** may be helpful for this Assignment:
 
 (*15%, 30 minutes*) This is due at the ***end*** of class on Wednesday October 9: 
 
-A color’s “split complements” are a pair of colors that are opposite, but just adjacent (±15–30°) on the color wheel. Here, you are asked to create an interactive sketch that displays swatches of the split complements for a randomly generated color. *For this assignment, you are asked to use an advanced color library, such as [Chroma.js](https://editor.p5js.org/golan/sketches/2pkxnwYxF), [Texel/Color](https://editor.p5js.org/golan/sketches/Ya1xm67i6), [Mixbox](https://editor.p5js.org/golan/sketches/FPtOVXlpV): [github](https://github.com/scrtwpns/mixbox), [Color.js](https://colorjs.io/), or [Culori.js](https://culorijs.org/).*
+A color’s “split complements” are a pair of colors that are opposite, but just adjacent (±15–30°) on the color wheel. Here, you are asked to create an interactive sketch that displays swatches of the split complements for a randomly generated color.
+
+For this project, I recommend you work with a color space that allows good control of hue, such as **oklch**, **okhsv**, or **okhsl**. Good choices would be [Texel/Color](https://editor.p5js.org/golan/sketches/Ya1xm67i6) or [Chroma.js](https://editor.p5js.org/golan/sketches/2pkxnwYxF). 
 
 * For this project, feel free to **study** and/or **fork** this [dead-simple Chroma + p5 example at OpenProcessing](https://openprocessing.org/sketch/2384439).
-* [**Modify** the code from this empty sketch](https://editor.p5js.org/golan/sketches/VtdpsUYLU) so that the chips are colored with split complementaries. Your program should generate a new set of colors each time the user clicks the mouse button. 
+* [**Modify** the code from this empty sketch](https://editor.p5js.org/golan/sketches/VtdpsUYLU) so that the chips are colored with a main color and its split complementaries. 
+* Your program must generate a new set of colors each time the user clicks the mouse button. 
 * **Save** your work to the correct slot in our OpenProcessing classroom.
 
 ---
