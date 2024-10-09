@@ -25,6 +25,7 @@
 * `Wed 09/25`: [Timepiece Review](daily_notes/20240925.md)
 * `Mon 09/30`: [AI + Worksession](daily_notes/20240930.md)
 * `Mon 10/07`: [Computational Color](daily_notes/20241007.md)
+* `Mon 10/07`: [Color+](daily_notes/20241009.md)
 
 ---
 
@@ -39,7 +40,7 @@ This information is also available in our Google [**Calendar**](http://bit.ly/go
 * `Wed 09/25`: [Assignment Set 4](assignments/assignment_4.md) Due
 * `Wed 10/02`: [Assignment Set 5](assignments/assignment_5.md) Due
 * `Wed 10/09`: [Assignment Set 6](assignments/assignment_6.md) Due
-* `Mon 10/28`: Assignment Set 7 Due (Pixels, Shaders, Generative Art)
+* `Mon 10/28`: [Assignment Set 7](assignments/assignment_7.md) (Pixels, Shaders, Generative Art)
 * `Wed 11/06`: Assignment Set 8 Due (Body / Gesture Expander)
 * `Mon 11/18`: Assignment Set 9 Due (Diffusion: Dino, p5+Comfy)
 * `Wed 12/04`: Assignment Set 10 Work-in-Progress (Interactive Environment)
