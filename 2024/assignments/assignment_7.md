@@ -30,6 +30,10 @@ This assignment is due in several parts. The first portion — just some light 
 
 *(10%, 30 minutes, due 10/21)* Below are some collections of generative artworks. Each page presents variations produced by a single piece of software-art. **Browse** these pages and **select** a project you like (or which appeals to you more than the others). In the Discord channel `#07-generative-art`, **provide** a link to the project's URL; **write** a sentence about what you found interesting about it; and **include** an image of the artwork.
 
+Note: many of these artworks are dynamic and/or interactive, and some allow you to generate new results beyond the ones already generated. On the [fxhash.xyz](https://www.fxhash.xyz/) website, look for the following buttons, which will allow you to experience some projects in real-time: 
+
+![fxhash.png](images/fxhash.png)
+
 * [*Forecast*](https://www.fxhash.xyz/generative/25151) by [Amy Goodchild](https://www.amygoodchild.com/about)
 * [*nth culture*](https://deca.art/collection/nth-culture-by-fingacode) by [Fingacode (Junior Ngoma)](https://www.youtube.com/watch?v=2Lero3In5uc)
 * [*horizon(te)s*](https://www.fxhash.xyz/marketplace/generative/16217) by Iskra Velitchkova & Zach Lieberman
