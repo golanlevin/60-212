@@ -15,7 +15,9 @@ This assignment is due in several parts. The first portion — just some light 
 
 ## 7.1. Looking Outwards: Shaders
 
-*(10%, 30 minutes)* "Shaders" are special programs that can do fast and powerful things with pixels. Shaders are executed on your computer's GPU rather than its CPU, and use a C-like language called GLSL.
+![shadertoy.jpg](images/shadertoy.jpg)
+
+*(10%, 30 minutes, due 10/21)* "Shaders" are special programs that can do fast and powerful things with pixels. Shaders are executed on your computer's GPU rather than its CPU, and use a C-like language called GLSL. Each pixel on your screen executes the GLSL shader program, *in parallel*.
 
 * **Spend 20 minutes browsing** the demos on [Shadertoy](https://www.shadertoy.com/), a website that showcases shaders created by contributors from all over the world. **Observe** how the code for each shader is displayed (and editable). Many of the programs there are technical demonstrations rather than artworks; noting this, **try** out different search terms in the Shadertoy search field, such as: *voronoi*, *fractal*, *oklab*, *emboss*, *fluid*, *warp*, *raymarching*, *hdr*, *cloud*, *noise*, etc. 
 * **Select** one shader that interests you. In the Discord channel `#07-shadertoy`, **provide** a link to the shader's URL, **write** a sentence about what you found interesting about it, and another sentence sharing an observation of the code that produced it. **Include** a screenshot of the shader. 
@@ -24,7 +26,9 @@ This assignment is due in several parts. The first portion — just some light 
 
 ## 7.2. Looking Outwards: Generative Art
 
-*(10%, 30 minutes)* Below are some collections of generative artworks. Each page presents variations produced by a single piece of (art) software. **Browse** these pages and **select** a project you like (or which appeals to you more than the others). In the Discord channel `#07-generative-art`, **provide** a link to the project's URL; **write** a sentence about what you found interesting about it; and **include** an image of the artwork.
+![mapan.jpg](images/mapan.jpg)<br/><small>*William Mapan*</small>
+
+*(10%, 30 minutes, due 10/21)* Below are some collections of generative artworks. Each page presents variations produced by a single piece of software-art. **Browse** these pages and **select** a project you like (or which appeals to you more than the others). In the Discord channel `#07-generative-art`, **provide** a link to the project's URL; **write** a sentence about what you found interesting about it; and **include** an image of the artwork.
 
 * [*Forecast*](https://www.fxhash.xyz/generative/25151) by [Amy Goodchild](https://www.amygoodchild.com/about)
 * [*nth culture*](https://deca.art/collection/nth-culture-by-fingacode) by [Fingacode (Junior Ngoma)](https://www.youtube.com/watch?v=2Lero3In5uc)
@@ -82,9 +86,11 @@ This assignment is due in several parts. The first portion — just some light 
 
 ## 7.3. Tixy.Land
 
-*Most of you already completed this on Wednesday October 9th, but I just want to make sure everyone has done it.*
+![tixy.png](images/tixy.png)
 
-*(5%, 10 minutes)* In this very lightweight exercise, we get our first exposure to "data-parallel computing", or "SIMD (Single Instruction, Multiple Data) processing", wherein the same operation is applied to multiple data points (pixels) simultaneously. We will use [Tixy.land](https://tixy.land/), a tiny online environment for JavaScript code golfing in which you will write a tiny program that is applied to a 16x16 grid of pixels. 
+*Most of you already completed this on Wednesday October 9th, but I just want to make sure everyone has done it. This exercise is intended as play, and will be 'checked', but not critiqued.*
+
+*(5%, 10 minutes, due 10/21)* In this very lightweight exercise, we get our first exposure to "data-parallel computing", or "SIMD (Single Instruction, Multiple Data) processing", wherein the same operation is applied to multiple data points (pixels) simultaneously. We will use [**Tixy.land**](https://tixy.land/), a tiny online environment for JavaScript code golfing in which you will write a tiny program that is applied to a 16x16 grid of pixels. In Tixy, each "pixel" executes a common program whose only inputs are the current time (T), its index (I), and its X and Y coordinates.  
 
 If you haven't already done so: spend a few minutes **experimenting** with the creative coding toolkit at [https://tixy.land](https://tixy.land/). When you feel like you've made something appealing, **paste** the URL of your creation in the Discord channel, `07-tixyland`. Feel free to describe your project with an optional title. 
 
