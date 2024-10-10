@@ -6,9 +6,9 @@ In this assignment, we turn our attention to the manipulation of **pixels** — 
 
 This assignment is due in several parts. The first portion — just some light internet browsing — is due upon return from Fall Break, at the beginning of class on **Monday October 21**: 
 
-* 7.1. Looking Outwards: Shaders *(10%, 30 minutes)*
-* 7.2. Looking Outwards: Generative Art *(10%, 30 minutes)*
-* 7.3. Tixy.land *(5%, 10 minutes)*
+* 7.1. [Looking Outwards: Shaders](#71-looking-outwards-shaders) *(10%, 30 minutes)*
+* 7.2. [Looking Outwards: Generative Art](#72-looking-outwards-generative-art) *(10%, 30 minutes)*
+* 7.3. [Tixy.land](#73-tixyland) *(5%, 10 minutes)*
 * *More parts TBA*
 
 ---
@@ -84,9 +84,9 @@ This assignment is due in several parts. The first portion — just some light 
 
 *Most of you already completed this on Wednesday October 9th, but I just want to make sure everyone has done it.*
 
-In this very lightweight exercise, we get our first exposure to "data-parallel computing", or "SIMD (Single Instruction, Multiple Data) processing", wherein the same operation is applied to multiple data points (pixels) simultaneously. We will use [Tixy.land](https://tixy.land/), a tiny online environment for JavaScript code golfing in which you will write a tiny program that is applied to a 16x16 grid of pixels. 
+*(5%, 10 minutes)* In this very lightweight exercise, we get our first exposure to "data-parallel computing", or "SIMD (Single Instruction, Multiple Data) processing", wherein the same operation is applied to multiple data points (pixels) simultaneously. We will use [Tixy.land](https://tixy.land/), a tiny online environment for JavaScript code golfing in which you will write a tiny program that is applied to a 16x16 grid of pixels. 
 
-*(5%, 10 minutes)* If you haven't already done so: spend a few minutes **experimenting** with the creative coding toolkit at [https://tixy.land](https://tixy.land/). When you feel like you've made something appealing, **paste** the URL of your creation in the Discord channel, `07-tixyland`. Feel free to describe your project with an optional title. 
+If you haven't already done so: spend a few minutes **experimenting** with the creative coding toolkit at [https://tixy.land](https://tixy.land/). When you feel like you've made something appealing, **paste** the URL of your creation in the Discord channel, `07-tixyland`. Feel free to describe your project with an optional title. 
 
 ---
 
