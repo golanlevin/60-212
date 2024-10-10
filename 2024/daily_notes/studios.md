@@ -53,7 +53,7 @@ Here is an informal and very partial list of some creative technology studios â€
 * [Refik Anadol Studio](https://refikanadolstudio.com/)
 * [R/GA](https://www.rga.com/)
 * [Rockwell Group](https://www.rockwellgroup.com/lab)
-* [San Francisco Exploratorium Exhibit Design Lab](https://www.exploratorium.edu/exhibits/exhibit-making)
+* [SF Exploratorium Exhibit Design Lab](https://www.exploratorium.edu/exhibits/exhibit-making)
 * [SOFT Lab](https://soft-lab.com/)
 * [Soso Limited](https://www.sosolimited.com/)
 * [Stamen](https://stamen.com/)
