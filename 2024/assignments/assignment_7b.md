@@ -133,7 +133,7 @@ What could it mean for your custom pixels to become more "intelligent"? Well, th
 
 ## 7.6. Generative Composition: Hexagonal Truchet Tiles
 
-The purpose of this exercise is to strengthen your skills in generative form-making with modular (pixel-like) design elements.
+*(25%, 2 hours)* The purpose of this exercise is to strengthen your skills in generative form-making with modular (pixel-like) design elements.
 
 > *Making procedural patterns is a mental exercise in finding minimal reusable elements. This practice is old; we as a species have been using grids and patterns to decorate textiles, floors and borders of objects for a long time: from meander patterns in ancient Greece, to Chinese lattice design, the pleasure of repetition and variation catches our imagination. Take some time to look at decorative patterns and see how artists and designers have a long history of navigating the fine edge between the predictability of order and the surprise of variation and chaos. From Arabic geometrical patterns, to gorgeous African fabric designs, there is an entire universe of patterns to learn from.* — From the [*Book of Shaders*](https://thebookofshaders.com/09/) by Patricio Gonzalez-Vivo & Jen Lowe.
 
@@ -168,15 +168,37 @@ Some potentially helpful videos are here:
 
 ## 7.7. Shader Composition
 
-Here is some shader template code: 
+*(25%, 2 hours)* **Create** a visual composition in the GLSL shader language. 
 
-* [Simple shader with uniforms](https://openprocessing.org/sketch/2405238) at OpenProcessing
-* [Shader interpreting BMWalker](https://openprocessing.org/sketch/2405195) at OpenProcessing
+Now: 
 
-Now, 
+* **Spend** 10 minutes familiarizing yourself with your tools. Browse the following resources and articles: 
+	* [p5js Shader Examples](https://github.com/aferriss/p5jsShaderExamples?tab=readme-ov-file) by Adam Ferris
+	* [Inigo Quilez (iq) Articles](https://iquilezles.org/articles/)
+	* [iq 2D Signed Distance Functions](https://iquilezles.org/articles/distfunctions2d/)
+	* [iq 2D SDF Analytic Gradients](https://iquilezles.org/articles/distgradfunctions2d/)
+	* [iq Smooth Min Function](https://iquilezles.org/articles/smin/)
+	* [iq Palette Functions](https://iquilezles.org/articles/palettes/)
+	* [iq Useful Little Functions](https://iquilezles.org/articles/functions/)
+	* [iq Noise warping, i.e. domain distortion](https://iquilezles.org/articles/warp/)
+	* [GLSL function reference](https://gist.github.com/markknol/d06c0167c75ab5c6720fe9083e4319e1)
+	* [Value noise](https://www.shadertoy.com/view/lsf3WH)
+	* [Gradient noise](https://www.shadertoy.com/view/XdXGW8)
+	* [Cosine Palettes](https://www.shadertoy.com/view/tlSBDw)
+	* [Fields](https://www.shadertoy.com/view/MtKBzw)
+	* [Metaballs](https://www.shadertoy.com/view/4dj3zh)
+* **Create** a visual composition in the GLSL shader language. Your project can be time-based, generative, and/or interactive. It can be self-standing, or it could respond to provided motion-capture data, or it could respond to the mouse. You may find it helpful to **fork** one of the following template projects for executing a shader within a p5.js sketch:
+  * [Simple shader with uniforms](https://openprocessing.org/sketch/2405238) at OpenProcessing
+  * [Shader interpreting BMWalker](https://openprocessing.org/sketch/2405195) at OpenProcessing
+* **Upload** your project to the [corresponding assignment in our OpenProcessing classroom](). If you find it helpful, you are welcome to *develop* your project in a real-time programming environment like [Shader.place](https://shader.place/), [The Force](https://shawnlawson.github.io/The_Force/), or [KodeLife](https://hexler.net/kodelife). However, you are asked to **publish** your GLSL code as a shader loaded by p5.js in OpenProcessing. Note that you may encounter small but annoying differences in GLSL dialects if you do this; be careful.
 
-* **Fork** one of these template projects. 
-* **Create** a composition tha
+![bmwalker-shader.png](images/bmwalker-shader.png)
 
-
+Inigo Quilez (iq) Articles
+iq 2D Signed Distance Functions
+iq 2D SDF Analytic Gradients
+iq Smooth Min Function
+iq Palette Functions
+iq Useful Little Functions
+iq Noise warping, i.e. domain distortion
 
