@@ -2,7 +2,11 @@
 
 *Topic: pixel-based programming; data-parallel computing; SIMD (Single Instruction, Multiple Data) processing, where the same operation is applied to multiple data points (pixels) simultaneously.*
 
-### Inspirations
+✅ 
+👁️
+💤
+
+### Inspirations ✅ 
 
 * [Char Stiles, livecoding practice](http://charstiles.com/shader/)
 * [Melissa Wiederrecht, *Cosmic Rays*](https://melissawiederrecht.com/artwork/cosmic-rays), 2023
@@ -15,19 +19,19 @@
 
 ### Tools
 
-* [Tixy.land](https://tixy.land/)
-* [Google Sheets shader example](https://docs.google.com/spreadsheets/d/1BVeicBmRxTop6quL4ZNBPcoAVWuPXJy6YjqGcTsA4wY/edit?usp=sharing)
-* [*The Force* shader editor by Shawn Lawson](https://shawnlawson.github.io/The_Force/)
-* [*ShaderBooth* shader editor by Max Bittker](https://shaderbooth.com/)
+* 💤 [Tixy.land](https://tixy.land/)
+* 💤 [Google Sheets shader example](https://docs.google.com/spreadsheets/d/1BVeicBmRxTop6quL4ZNBPcoAVWuPXJy6YjqGcTsA4wY/edit?usp=sharing)
+* ✅ [*The Force* shader editor by Shawn Lawson](https://shawnlawson.github.io/The_Force/)
+* ✅ [*ShaderBooth* shader editor by Max Bittker](https://shaderbooth.com/)
 
 ### p5 Shader Template code: 
 
-* [p5 + Simple shader with uniforms](https://openprocessing.org/sketch/2405238) at OpenProcessing
-* [p5 + Simple shader in p5.js](https://editor.p5js.org/golan/sketches/VNn5GTF94) at Editor.p5js.org
-* [p5 + Shader applied to BMWalker data](https://openprocessing.org/sketch/2405195) at OpenProcessing
+* ✅ [p5 + Simple shader with uniforms](https://openprocessing.org/sketch/2405238) at OpenProcessing
+* 💤 [p5 + Simple shader in p5.js](https://editor.p5js.org/golan/sketches/VNn5GTF94) at Editor.p5js.org
+* ✅ [p5 + Shader applied to BMWalker data](https://openprocessing.org/sketch/2405195) at OpenProcessing
 
 
-### Quick GLSL Facts (Quirks and Gotchas vs. p5.js)
+### Quick GLSL Facts (Quirks and Gotchas vs. p5.js) ✅ 
 
 * GLSL is not JavaScript, even though it looks similar; it's more like C. 
 * A vertex shader is necessary, even if you're just doing fragment (pixel) operations.
@@ -48,7 +52,7 @@
 * You can do component *swizzling*: `vec4 a = vec4(1.0,2.0,3.0,4.0); vec4 b = a.zyyw;`
 
 
-### Some notable GLSL math functions:
+### Some notable GLSL math functions: 👁️
 
 * `type mod (type x, float y)`
 * `type fract (type x)`
@@ -68,9 +72,9 @@
 
 * [Book of Shaders](https://thebookofshaders.com/)
 * [Welcome to p5.js Shaders](https://itp-xstory.github.io/p5js-shaders/#/) by Casey Conchinha and Louise Lessél.
-* [p5+shaders](https://github.com/aferriss/p5jsShaderExamples?tab=readme-ov-file) by Adam Ferris 
-* [p5 Shader Reference](https://archive.p5js.org/reference/#/p5/createShader)
-* [GLSL Function Documentation](https://gist.github.com/markknol/d06c0167c75ab5c6720fe9083e4319e1)
+* ✅ [p5+shaders](https://github.com/aferriss/p5jsShaderExamples?tab=readme-ov-file) by Adam Ferris 
+* 👁️ [p5 Shader Reference](https://archive.p5js.org/reference/#/p5/createShader)
+* 👁️ [GLSL Function Documentation](https://gist.github.com/markknol/d06c0167c75ab5c6720fe9083e4319e1)
 
 ### Intermediate Readings & Resources
 
