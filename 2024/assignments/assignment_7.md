@@ -9,7 +9,13 @@ This assignment is due in several parts. The first portion — just some light 
 * 7.1. [Looking Outwards: Shaders](#71-looking-outwards-shaders) *(10%, 30 minutes)*
 * 7.2. [Looking Outwards: Generative Art](#72-looking-outwards-generative-art) *(10%, 30 minutes)*
 * 7.3. [Tixy.land](#73-tixyland) *(5%, 10 minutes)*
-* *More parts TBA*
+
+Parts 7.4, 7.5, 7.6, and 7.7 are **due Monday 10/28** and are [described here](assignment_7b.md): 
+
+* 7.4. [Animated Composition for Flipdot Display](assignment_7b.md#74-animated-composition-for-flipdot-display) *(10%, 30 minutes)*
+* 7.5. [Custom "Pixel": Camera, Color, Nested Iteration](assignment_7b.md#75-custom-pixel-camera-color-nested-iteration) *(15%, 1.5 hours)*
+* 7.6. [Generative Modular Composition: Hexagonal Truchet Tiles](assignment_7b.md#76-generative-composition-hexagonal-truchet-tiles) *(25%, 2 hours)*
+* 7.7. [Shader Composition](assignment_7b.md#77-shader-composition) *(25%, 2 hours)*
 
 ---
 

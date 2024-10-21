@@ -12,10 +12,10 @@ The first three exercises in Assignment 7 were due Monday 10/21 and described [h
 
 The remaining portions of Assignment 7 are due Monday 10/28: 
 
-* 7.4. [Animated Composition for Flipdot Display](#74-animated-composition-for-flipdot-display) *(10%, 20 minutes)*
-* 7.5. Custom "Pixel": Camera, Color, Nested Iteration *(15%, 90 minutes)*
-* 7.6. Generative Modular Composition: Hexagonal Truchet Tiles (25%)
-* 7.7. Shader Composition (25%)
+* 7.4. [Animated Composition for Flipdot Display](#74-animated-composition-for-flipdot-display) *(10%, 30 minutes)*
+* 7.5. [Custom "Pixel": Camera, Color, Nested Iteration](#75-custom-pixel-camera-color-nested-iteration) *(15%, 1.5 hours)*
+* 7.6. [Generative Modular Composition: Hexagonal Truchet Tiles](#76-generative-composition-hexagonal-truchet-tiles) *(25%, 2 hours)*
+* 7.7. [Shader Composition](#77-shader-composition) *(25%, 2 hours)*
 
 ---
 
@@ -137,11 +137,30 @@ The purpose of this exercise is to strengthen your skills in generative form-mak
 
 > *Making procedural patterns is a mental exercise in finding minimal reusable elements. This practice is old; we as a species have been using grids and patterns to decorate textiles, floors and borders of objects for a long time: from meander patterns in ancient Greece, to Chinese lattice design, the pleasure of repetition and variation catches our imagination. Take some time to look at decorative patterns and see how artists and designers have a long history of navigating the fine edge between the predictability of order and the surprise of variation and chaos. From Arabic geometrical patterns, to gorgeous African fabric designs, there is an entire universe of patterns to learn from.* — From the [*Book of Shaders*](https://thebookofshaders.com/09/) by Patricio Gonzalez-Vivo & Jen Lowe.
 
-**Prompt**: Develop a computationally-generated, machine-plotted artwork using tiling patterns—in which larger-scale structures appear to emerge from the arrangement of modular elements.
+![duotone-bridge-1.jpg](images/duotone-bridge-1.jpg)
 
+![duotone-hex-1.jpg](images/duotone-hex-1.jpg)<br /><small>From [*Duotone Truchet-Like Tilings*](http://cambolbro.com/graphics/duotone/), by Cameron Browne</small>
 
+Now: 
 
+* **Read** this chapter from the book [*10 PRINT*](readings/10_print_excerpt.pdf): Chapter 30, pp. 64-81 by Nick Montfort et al. [6MB PDF](readings/10_print_excerpt.pdf).
+* **Create** a computationally-generated artwork using hexagonal Truchet tiling patterns—in which larger-scale structures appear to emerge from the arrangement of modular elements. You can work in GLSL if you feel up to it, but I anticipate most students will develop this project in p5.js. 
+* **Upload** your project to the [corresponding assignment in our OpenProcessing classroom]().
+* **Remember**, your project must **satisfy** the following requirements: 
+  1. **No square grids!** You're expected to implement a hexagonal tiling. (Masochists should check out these [methods for tiling the Euclidean plane with convex regular polygons](https://en.wikipedia.org/wiki/Euclidean_tilings_by_convex_regular_polygons).  
+  2. **Larger visual structures should appear to emerge** from relationships between adjacent tiles. The point isn't just to make a [jumble of random hexagonal tiles](images/hexagon-multicolor.jpg).
+  3. **Generate a new composition when the user clicks.**
 
+Some potentially helpful videos are here: 
+
+* Tutorial on [**Truchet tiling in p5.js with Hexagons**](https://www.youtube.com/watch?v=Qwb2VYrN-us)
+* Tutorial on [Truchet tiling in p5.js with Squares](https://www.youtube.com/watch?v=99Hr8lpWWSg)
+* Tutorial on [Truchet tiling in p5.js with Octagons](https://www.youtube.com/watch?v=tv2DgZ9dRzY)
+* Tutorial on [Truchet tiling in GLSL](https://www.youtube.com/watch?v=2R7h76GoIJM)
+
+![peterkagey_truncated_trihexagonal_medium_res.png](images/peterkagey_truncated_trihexagonal_medium_res.png)
+
+![truchet-steven-dollins.png](images/truchet-steven-dollins.png)<br /><small>*Designs by Peter Kagey and Steven Dollins.*</small>
 
 
 ---
