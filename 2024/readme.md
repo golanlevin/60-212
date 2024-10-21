@@ -26,6 +26,7 @@
 * `Mon 09/30`: [AI + Worksession](daily_notes/20240930.md)
 * `Mon 10/07`: [Computational Color](daily_notes/20241007.md)
 * `Mon 10/07`: [Color+](daily_notes/20241009.md)
+* `Mon 10/21`: [Pixel Logics](daily_notes/20241021.md)
 
 ---
 
