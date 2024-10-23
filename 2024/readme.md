@@ -12,7 +12,7 @@
 
 ---
 
-## Daily Notes
+## Daily Notes & Lectures
 
 * `Mon 08/26`: [Hello World!](daily_notes/20240826.md)
 * `Wed 08/28`: [Code & Form](daily_notes/20240828.md)
@@ -27,7 +27,18 @@
 * `Mon 10/07`: [Computational Color](daily_notes/20241007.md)
 * `Mon 10/07`: [Color+](daily_notes/20241009.md)
 * `Mon 10/21`: [Pixel Logics I](daily_notes/20241021.md) + [Em](daily_notes/20241021_em.md)
-* `Mon 10/23`: [Pixel Logics II](daily_notes/20241023.md)
+* `Wed 10/23`: [Pixel Logics II](daily_notes/20241023.md)
+* `Mon 10/28`
+* `Wed 10/30` 
+* `Mon 11/04` 
+* `Wed 11/06` 
+* `Mon 11/11` 
+* `Wed 11/13` 
+* `Mon 11/18` 
+* `Wed 11/20`
+* `Mon 11/25` 
+* `Mon 12/02` 
+* `Wed 12/04`
 
 ---
 
@@ -42,11 +53,11 @@ This information is also available in our Google [**Calendar**](http://bit.ly/go
 * `Wed 09/25`: [Assignment Set 4](assignments/assignment_4.md) Due
 * `Wed 10/02`: [Assignment Set 5](assignments/assignment_5.md) Due
 * `Wed 10/09`: [Assignment Set 6](assignments/assignment_6.md) Due
-* `Mon 10/21`: [Assignment Set 7](assignments/assignment_7.md) (Pixels, Shaders, Generative Art, Part I)
-* `Mon 10/28`: [Assignment Set 7B](assignments/assignment_7b.md) (Pixels, Shaders, Generative Art, Part II)
-* `Wed 11/06`: Assignment Set 8 Due (Body / Gesture Expander)
-* `Mon 11/18`: Assignment Set 9 Due (Diffusion: Dino, p5+Comfy)
-* `Wed 12/04`: Assignment Set 10 Work-in-Progress (Interactive Environment)
+* `Mon 10/21`: [Assignment Set 7](assignments/assignment_7.md) (Part I) Due
+* `Mon 10/28`: [Assignment Set 7B](assignments/assignment_7b.md) (Part II) Due
+* `Wed 11/06`: Assignment Set 8 Due (Diffusion: Dino, p5+Comfy) 
+* `Mon 11/18`: Assignment Set 9 Due (Body / Gesture Expander)
+* `Wed 12/04`: Assignment Set 10 *Work-in-Progress* (Interactive Environment)
 * `Tue 12/10`: Assignment Set 10 Due (Interactive Environment), 5:30pm‐8:30pm
 
 ### Calendar Visual Overview: 
