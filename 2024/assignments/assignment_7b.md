@@ -168,7 +168,7 @@ Some potentially helpful videos are here:
 
 ## 7.7. Shader Composition
 
-*(25%, 2 hours)* **Create** a visual composition in the GLSL shader language. 
+*(25%, 2 hours)* **Create** a visual composition in the GLSL shader language. Your composition should have some aspect which is generative, and/or interactive, and/or time-based. 
 
 Now: 
 
