@@ -26,7 +26,8 @@
 * `Mon 09/30`: [AI + Worksession](daily_notes/20240930.md)
 * `Mon 10/07`: [Computational Color](daily_notes/20241007.md)
 * `Mon 10/07`: [Color+](daily_notes/20241009.md)
-* `Mon 10/21`: [Pixel Logics](daily_notes/20241021.md)
+* `Mon 10/21`: [Pixel Logics I](daily_notes/20241021.md) + [Em](daily_notes/20241021_em.md)
+* `Mon 10/23`: [Pixel Logics II](daily_notes/20241023.md)
 
 ---
 
@@ -42,7 +43,7 @@ This information is also available in our Google [**Calendar**](http://bit.ly/go
 * `Wed 10/02`: [Assignment Set 5](assignments/assignment_5.md) Due
 * `Wed 10/09`: [Assignment Set 6](assignments/assignment_6.md) Due
 * `Mon 10/21`: [Assignment Set 7](assignments/assignment_7.md) (Pixels, Shaders, Generative Art, Part I)
-* `Mon 10/28`: [Assignment Set 7b](assignments/assignment_7b.md) (Pixels, Shaders, Generative Art, Part II)
+* `Mon 10/28`: [Assignment Set 7B](assignments/assignment_7b.md) (Pixels, Shaders, Generative Art, Part II)
 * `Wed 11/06`: Assignment Set 8 Due (Body / Gesture Expander)
 * `Mon 11/18`: Assignment Set 9 Due (Diffusion: Dino, p5+Comfy)
 * `Wed 12/04`: Assignment Set 10 Work-in-Progress (Interactive Environment)

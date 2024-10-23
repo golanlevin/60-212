@@ -1,6 +1,6 @@
 # Truchet Tiles
 
-## Modular Elements, Randomized; Larger Structures Seemingly Emerging Therefrom
+## *Modular Elements, Randomized;<br />Larger Structures Seemingly Emerging Therefrom*
 
 ---
 
@@ -67,4 +67,30 @@ From [Duotone Truchet-Like Tilings](http://cambolbro.com/graphics/duotone/), by 
 
 ![multiscale-truchet.png](multiscale-truchet.png)
 
-![truchet-multiscale-toivanen.png](truchet-multiscale-toivanen.png)
+![truchet-multiscale-toivanen.png](truchet-multiscale-toivanen.png)
+
+---
+
+## Wang Tiles & Edge-Matching Puzzles
+
+From [Wikipedia](https://en.wikipedia.org/wiki/Wang_tile): First proposed by mathematician Hao Wang in 1961, Wang Tiles are modeled visually by square tiles with a color on each side. A set of such tiles is selected, and copies of the tiles are arranged side by side with matching colors, *without rotating or reflecting them*. Wang tiles have become a popular tool for procedural synthesis of textures, heightfields, and other large and nonrepeating bidimensional data sets; a small set of precomputed or hand-made source tiles can be assembled very cheaply without too obvious repetitions and without periodicity.
+
+
+For [maze generation](http://www.cr31.co.uk/stagecast/wang/2edge.html):
+
+![wang-game.png](wang-game.png)
+
+
+For [game terrain design]():
+
+![Example1Step1.png](Example1Step1.png)
+
+
+---
+
+## Various Artworks, Experiments, Etc.
+
+By [Alexander Reben](https://twitter.com/artBoffin/status/1442498594880176132):
+
+![reben1.jpg](reben1.jpg)
+![reben2.jpg](reben2.jpg)
