@@ -193,12 +193,3 @@ Now:
 * **Upload** your project to the [corresponding assignment in our OpenProcessing classroom](). If you find it helpful, you are welcome to *develop* your project in a real-time programming environment like [Shader.place](https://shader.place/), [The Force](https://shawnlawson.github.io/The_Force/), or [KodeLife](https://hexler.net/kodelife). However, you are asked to **publish** your GLSL code as a shader loaded by p5.js in OpenProcessing. Note that you may encounter small but annoying differences in GLSL dialects if you do this; be careful.
 
 ![bmwalker-shader.png](images/bmwalker-shader.png)
-
-Inigo Quilez (iq) Articles
-iq 2D Signed Distance Functions
-iq 2D SDF Analytic Gradients
-iq Smooth Min Function
-iq Palette Functions
-iq Useful Little Functions
-iq Noise warping, i.e. domain distortion
-
