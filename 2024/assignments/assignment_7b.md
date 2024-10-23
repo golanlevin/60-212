@@ -94,7 +94,7 @@ For additional instruction, see this Coding Train tutorial on [ASCII video](http
 
 * **Browse** the inspirational materials below.
 * **Create** a p5.js program that interprets the camera using custom picture elements. (You are *not* expected to use shaders for this assignment.)
-* **Upload** your project to the [corresponding assignment in our OpenProcessing classroom]().
+* **Upload** your project to the [corresponding assignment in our OpenProcessing classroom](https://openprocessing.org/class/93074/#/c/94623).
 
 ### Viewings:
 
