@@ -51,7 +51,9 @@ In 1704, Sebastien Truchet considered all possible patterns formed by tilings of
 
 [From Mathworld](https://mathworld.wolfram.com/TruchetTiling.html): A modification of Truchet’s tiles leads to a single tile consisting of two circular arcs of radius equal to half the tile edge length centered at opposed corners. There are two possible orientations of this tile, and tiling the plane using tiles with random orientations gives visually interesting patterns.![1920px-Truchet_tiling.svg-1536x1536.png](1920px-Truchet_tiling.svg-1536x1536.png)
 
-Milled version by Sabine Wieluch (Bleeptrack): [Video](https://www.youtube.com/watch?v=k0wkpYMZ984)---
+Milled version by Sabine Wieluch (Bleeptrack): [Video](https://www.youtube.com/watch?v=k0wkpYMZ984)
+
+![bleeptrack-tiles.jpg](bleeptrack-tiles.jpg)---
 
 ## Expanded Truchet Patterns
 
