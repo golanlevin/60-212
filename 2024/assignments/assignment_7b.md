@@ -145,7 +145,7 @@ Now:
 
 * **Read** or **skim** this chapter from the book [*10 PRINT*](readings/10_print_excerpt.pdf): Chapter 30, pp. 64-81 by Nick Montfort et al. [6MB PDF](readings/10_print_excerpt.pdf). This reading is offered as additional context. There's no response required, but at least be sure to crack it open and look. 
 * **Create** a computationally-generated artwork using hexagonal Truchet tiling patterns—in which larger-scale structures appear to emerge from the arrangement of modular elements. You can work in GLSL if you feel up to it, but I anticipate most students will develop this project in p5.js.
-* **Upload** your project to the [corresponding assignment in our OpenProcessing classroom]().
+* **Upload** your project to the [corresponding assignment in our OpenProcessing classroom](https://openprocessing.org/class/93074/#/c/94624).
 * **Remember**, your project **must satisfy** the following requirements: 
   1. **No square grids!** You're expected to implement a hexagonal tiling. (Masochists should check out these [methods for tiling the Euclidean plane with convex regular polygons](https://en.wikipedia.org/wiki/Euclidean_tilings_by_convex_regular_polygons).  
   2. **Larger visual structures should appear to emerge** from relationships between adjacent tiles. The point isn't just to make a [jumble of random hexagonal tiles](images/hexagon-multicolor.jpg).
