@@ -28,7 +28,7 @@
 * `Mon 10/07`: [Color+](daily_notes/20241009.md)
 * `Mon 10/21`: [Pixel Logics I](daily_notes/20241021.md) + [Em](daily_notes/20241021_em.md)
 * `Wed 10/23`: [Pixel Logics II](daily_notes/20241023.md)
-* `Mon 10/28`
+* `Mon 10/28`: [Body Tracking](daily_notes/20241028.md)
 * `Wed 10/30` 
 * `Mon 11/04` 
 * `Wed 11/06` 
@@ -55,8 +55,8 @@ This information is also available in our Google [**Calendar**](http://bit.ly/go
 * `Wed 10/09`: [Assignment Set 6](assignments/assignment_6.md) Due
 * `Mon 10/21`: [Assignment Set 7](assignments/assignment_7.md) (Part I) Due
 * `Mon 10/28`: [Assignment Set 7B](assignments/assignment_7b.md) (Part II) Due
-* `Wed 11/06`: Assignment Set 8 Due (Diffusion: Dino, p5+Comfy) 
-* `Mon 11/18`: Assignment Set 9 Due (Body / Gesture Expander)
+* `Wed 11/06`: [Assignment Set 8](assignments/assignment_8.md) Due 
+* `Mon 11/18`: Assignment Set 8 Due (Diffusion: Dino, p5+Comfy)  
 * `Wed 12/04`: Assignment Set 10 *Work-in-Progress* (Interactive Environment)
 * `Tue 12/10`: Assignment Set 10 Due (Interactive Environment), 5:30pm‐8:30pm
 
