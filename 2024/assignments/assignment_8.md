@@ -2,7 +2,9 @@
 
 ### Gesture Expander: Tracking and Augmenting the Body/Face/Hands
 
-*This project is due Monday, November 4th. Please note that the due date has been moved from 11/6 to 11/4, in case Election Day proves to be too stressful or distracting.*
+*This project is due* **Monday, November 4th.** *Please note that the due date has been moved from 11/6 to 11/4, in case Election Day proves to be too stressful or distracting.*
+
+![zach-lieberman-face-swing.gif](images/zach-lieberman-face-swing.gif)<br /><small>From *Más Que la Cara* by Zach Lieberman, 2017</small>
 
 ---
 
@@ -15,7 +17,7 @@ To share your project in documentation, you are asked to record a short video in
 
 *Now:*
 
-* **Read** (5%) [Más Que la Cara Overview](https://zachlieberman.medium.com/m%C3%A1s-que-la-cara-overview-48331a0202c0). It's a nice overview of a face-tracking project, from conceptualization to execution, art to tech. In the Discord channel, `#08-reading-response`, **write** a sentence about something you observed or found interesting in the project. This is an estimated 12-minute reading.
+* **Read** (5%) Zach Lieberman's [Más Que la Cara Overview](https://zachlieberman.medium.com/m%C3%A1s-que-la-cara-overview-48331a0202c0) (2017). It's a nice overview of a face-tracking project, from conceptualization to execution, art to tech. In the Discord channel, `#08-reading-response`, **write** a sentence about something you observed or found interesting in the project. This is an estimated 12-minute reading.
 * **Create** (60%) your project using p5.js. Some links to code for template projects are provided below. **Upload** your project to the [corresponding slot]() in our OpenProcessing classroom.
 * **Enact** a brief demonstration or performance that makes use of your software. Be deliberate about how you perform, demonstrate, or use your software. **Consider** how your demo-performance should be tailored to your software, and your software should be tailored to your performance. (It may help to write a script for your performance or demo narration.)
 * **Document** (25%) your demonstration or performance by making a video recording that is at least 15 seconds long. Store this in an *Unlisted* (not Private) video on YouTube or Vimeo. 
@@ -23,22 +25,33 @@ To share your project in documentation, you are asked to record a short video in
 
 ![broc.gif](images/broc.gif)
 
-### Code Templates
+---
+
+## Code Resources
 
 ![ml5-trackers.png](images/ml5-trackers.png)
 
-For this project, we will use the [ml5.js templates](https://docs.ml5js.org/#/) for [face](https://docs.ml5js.org/#/reference/facemesh), [body](https://docs.ml5js.org/#/reference/bodypose), and [hand](https://docs.ml5js.org/#/reference/handpose) tracking. I have ported these to OpenProcessing so that you can easily fork/work on your projects there: 
-
-* [ml5-bodyPose-2024](https://openprocessing.org/sketch/2417039)
-* [ml5-handPose-2024](https://openprocessing.org/sketch/2417093)
-* [ml5-faceMesh-2024](https://openprocessing.org/sketch/2417226)
-* [MediaPipe-FaceMetrics-2024](https://openprocessing.org/sketch/2066195)
-* [p5-Microphone-Demos-2024](https://openprocessing.org/sketch/2189436)
+For this project, we will use the [ml5.js templates](https://docs.ml5js.org/#/) for [face](https://docs.ml5js.org/#/reference/facemesh), [body](https://docs.ml5js.org/#/reference/bodypose), and [hand](https://docs.ml5js.org/#/reference/handpose) tracking, which are built on top of the Google MediaPipe tracking library. I have ported these to OpenProcessing so that you can easily fork/work on your projects there. 
 
 **NOTE**: *If you need a template that supports multiple interaction modalities simultaneously, talk to the professor about possibilities.*
 
+### Starter template code: 
 
+* **Body**: [ml5-bodyPose-2024](https://openprocessing.org/sketch/2417039)
+* **Hand**: [ml5-handPose-2024](https://openprocessing.org/sketch/2417093)
+* **Face**: [ml5-faceMesh-2024](https://openprocessing.org/sketch/2417226)
+* **Expressions**: [MediaPipe-FaceMetrics-2024](https://openprocessing.org/sketch/2066195)
+* **Microphone**: [p5-Microphone-Demos-2024](https://openprocessing.org/sketch/2189436)
+
+### Some simple demonstrations: 
+
+* [ml5-BodyBroccoli-2024](https://openprocessing.org/sketch/2187655)
+* [ml5-Mask-2024](https://openprocessing.org/sketch/2187420)
+* [BigMouth-2024](https://openprocessing.org/sketch/2071101)
+* [FaceExtractor-2024](https://openprocessing.org/sketch/2195649)
+* [ml5-HandPuppet-2024](https://openprocessing.org/sketch/2187485)
+* [ml5-handPose+Matter-2024](https://openprocessing.org/sketch/2064673)
 
 ---
 
-[*2023 assignment version*](https://golancourses.net/fall23/deliverables/07-gesture-expander/)
+<small>[*2023 assignment version*](https://golancourses.net/fall23/deliverables/07-gesture-expander/)</small>
