@@ -17,7 +17,7 @@ To share your project in documentation, you are asked to record a short video in
 
 *Now:*
 
-* **Read** (5%) Zach Lieberman's [Más Que la Cara Overview](https://zachlieberman.medium.com/m%C3%A1s-que-la-cara-overview-48331a0202c0) (2017). It's a nice overview of a face-tracking project, from conceptualization to execution, art to tech. In the Discord channel, `#08-reading-response`, **write** a sentence about something you observed or found interesting in the project. This is an estimated 12-minute reading.
+* **Read** (5%) Zach Lieberman's [*Más Que la Cara* Overview](https://zachlieberman.medium.com/m%C3%A1s-que-la-cara-overview-48331a0202c0) (2017). It's a nice writeup about a face-tracking project, from conceptualization to execution, art to tech. Then, in the Discord channel, `#08-reading-response`, **write** a sentence about something you observed or found interesting in the project. This is an estimated 12-minute reading.
 * **Create** (60%) your project using p5.js. Some links to code for template projects are provided below. **Upload** your project to the [corresponding slot]() in our OpenProcessing classroom.
 * **Enact** a brief demonstration or performance that makes use of your software. Be deliberate about how you perform, demonstrate, or use your software. **Consider** how your demo-performance should be tailored to your software, and your software should be tailored to your performance. (It may help to write a script for your performance or demo narration.)
 * **Document** (25%) your demonstration or performance by making a video recording that is at least 15 seconds long. Store this in an *Unlisted* (not Private) video on YouTube or Vimeo. 
@@ -37,9 +37,9 @@ For this project, we will use the [ml5.js templates](https://docs.ml5js.org/#/) 
 
 ### Starter template code: 
 
-* **Body**: [ml5-bodyPose-2024](https://openprocessing.org/sketch/2417039)
-* **Hand**: [ml5-handPose-2024](https://openprocessing.org/sketch/2417093)
 * **Face**: [ml5-faceMesh-2024](https://openprocessing.org/sketch/2417226)
+* **Hand**: [ml5-handPose-2024](https://openprocessing.org/sketch/2417093)
+* **Body**: [ml5-bodyPose-2024](https://openprocessing.org/sketch/2417039)
 * **Expressions**: [MediaPipe-FaceMetrics-2024](https://openprocessing.org/sketch/2066195)
 * **Microphone**: [p5-Microphone-Demos-2024](https://openprocessing.org/sketch/2189436)
 
@@ -51,6 +51,8 @@ For this project, we will use the [ml5.js templates](https://docs.ml5js.org/#/) 
 * [FaceExtractor-2024](https://openprocessing.org/sketch/2195649)
 * [ml5-HandPuppet-2024](https://openprocessing.org/sketch/2187485)
 * [ml5-handPose+Matter-2024](https://openprocessing.org/sketch/2064673)
+
+![krawleb_kadoin_walking_man_anim.gif](images/krawleb_kadoin_walking_man_anim.gif)<br/><small>CMU Student work by Krawleb & Kadoin, 2016</small>
 
 ---
 
