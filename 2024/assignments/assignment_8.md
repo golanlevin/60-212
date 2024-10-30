@@ -18,7 +18,7 @@ To share your project in documentation, you are asked to record a short video in
 *Now:*
 
 * **Read** (5%) Zach Lieberman's [*Más Que la Cara* Overview](https://zachlieberman.medium.com/m%C3%A1s-que-la-cara-overview-48331a0202c0) (2017). It's a nice writeup about a face-tracking project, from conceptualization to execution, art to tech. Then, in the Discord channel, `#08-reading-response`, **write** a sentence about something you observed or found interesting in the project. This is an estimated 12-minute reading.
-* **Create** (60%) your project using p5.js. Some links to code for template projects are provided below. **Upload** your project to the [corresponding slot]() in our OpenProcessing classroom.
+* **Create** (60%) your project using p5.js. Some links to code for template projects are provided below. **Upload** your project to the [corresponding slot](https://openprocessing.org/class/93074/#/c/94715) in our OpenProcessing classroom.
 * **Enact** a brief demonstration or performance that makes use of your software. Be deliberate about how you perform, demonstrate, or use your software. **Consider** how your demo-performance should be tailored to your software, and your software should be tailored to your performance. (It may help to write a script for your performance or demo narration.)
 * **Document** (25%) your demonstration or performance by making a video recording that is at least 15 seconds long. Store this in an *Unlisted* (not Private) video on YouTube or Vimeo. 
 * **Write** (10%) a post in the `#08-gesture-expander` channel on Discord. **Include** the link to your video. **Include** about 100 words (3-5 sentences) that explain and evaluate your project. **Include** at least two screenshots in your Discord post.
