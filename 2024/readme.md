@@ -29,7 +29,7 @@
 * `Mon 10/21`: [Pixel Logics I](daily_notes/20241021.md) + [Em](daily_notes/20241021_em.md)
 * `Wed 10/23`: [Pixel Logics II](daily_notes/20241023.md)
 * `Mon 10/28`: [Body Tracking](daily_notes/20241028.md)
-* `Wed 10/30` 
+* `Wed 10/30`: [Full-Body Interactive Art](daily_notes/20241030.md)
 * `Mon 11/04` 
 * `Wed 11/06` 
 * `Mon 11/11` 
