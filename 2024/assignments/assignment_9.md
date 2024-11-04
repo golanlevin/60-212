@@ -20,6 +20,7 @@
   * Press a letter key (and then RETURN) to guide the AI with that letter.
   * **Draw** on the canvas with the cursor to provide input to the AI.
 * *Now*, **modify** the code of this sketch, specifically creating your own generative image for guiding the AI. You are expected to do this by modifying the  `generateInputImage()` function. (There are no other parts of the code that should be modified.) Keep in mind that your graphics must be rendered into the `inputGraphics` buffer, an offscreen image whose dimensions are 64×64 pixels. Your program should generate a novel input image every time the user presses a key. (What works well? What doesn't? Why do you suppose?)
+* Upload your sketch to the [corresponding slot]() in our OpenProcessing classroom.
 
 ---
 
