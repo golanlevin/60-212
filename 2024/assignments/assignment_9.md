@@ -1,13 +1,18 @@
 # Assignment Set #9
 
-### Creative Coding with AI
+## Creative Coding with AI
 
-* **9.1 Dino Diffusion + p5 Exercise** (10%, 45 minutes)
-* 
+* **9.1. Dino Diffusion + p5 Exercise** (10%, 45 minutes)
+* **9.2. Situated Eye • Poetic Surveillant** (50%, 6 hours)
+* **9.3. Readings/Viewings** TBA
+* **9.4. ComfyUI I: AI Channels.** TBA
+* **9.5. ComfyUI II: p5 Conditioning.** TBA
 
 ---
 
 ## 9.1 Dino Diffusion + p5 Exercise
+
+![dino-diffusion-hi.png](images/dino-diffusion-hi.png)
 
 *(10%, 45 minutes)* [Diffusion models](https://en.wikipedia.org/wiki/Diffusion_model) are the core AI algorithms used in popular image generation tools like Midjourney and DALL-E. In this warm-up exercise, you will experiment with using custom generative p5.js graphics to "condition" (guide) a simple diffusion AI. We will base our work on "Dino Diffusion", an ultra-minimal diffusion model created by [Ollin Boer Bohan](https://madebyoll.in/) that generates 512×512 botanical images in the browser. 
 
@@ -24,6 +29,38 @@
 
 ---
 
-https://www.youtube.com/watch?v=T2qQGqZxkD0
-https://www.youtube.com/watch?v=ydzJPeeMiMI Teachable Sorter
-https://medium.com/google-design/teaching-a-bell-to-ring-when-your-pancakes-are-ready-d65db43fffe5 (2020)
+![pancake.gif](images/pancake.gif)
+
+## 9.2. Situated Eye • Poetic Surveillant
+
+9.2. Create a machine that asks a question of the world. Your machine should either measure/detect something interesting, measure/detect something in an interesting way, or create an interesting provocation by bringing an uncommon measurement/detection to our attention. The emphasis here is on the selection and collection of intriguing data, rather than on the production of an attractive interpretation or visualization. What overlooked dynamics or invisible rhythms can you discover?
+
+In this project, you are asked to create a “situated eye” – a “contextualized classifier” – a “purposeful detector” – a “poetic surveillant“. You are asked to create a camera-based system:
+
+* which is located in a specific place;
+* which is trained to detect a specific thing (or things);
+* and which responds to what it sees, in an interesting way.
+
+Example Projects: 
+
+* [Irene (2m)](https://www.youtube.com/watch?v=T2qQGqZxkD0)
+* [Irene (30m)](https://vimeo.com/514957215)
+* [Lucas & Gautam, Teachable Sorter](https://www.youtube.com/watch?v=ydzJPeeMiMI)
+* [Teaching a bell to ring when your pancakes are ready](https://medium.com/google-design/teaching-a-bell-to-ring-when-your-pancakes-are-ready-d65db43fffe5) (2020)
+
+Template Code: 
+
+* [ml5 + teachable machine](https://openprocessing.org/sketch/2430277)
+* [handPose Rock-Paper-Scissors, ml5v1](https://openprocessing.org/sketch/2428446)
+* [bodyPose Training & Recognition, ml5v1](https://openprocessing.org/sketch/2428616)
+* [1D Regression using ml5v.0.12.2](https://editor.p5js.org/golan/sketches/dvQldQn7w)
+* [2D Regression using ml5v.0.12.2](https://editor.p5js.org/golan/sketches/B96GvGSA-)
+* [ml5 tm ref](https://docs.ml5js.org/#/reference/image-classifier-tm)
+
+---
+
+## **9.3. Readings/Viewings** *TBA*
+## **9.4. ComfyUI I: Image Analysis.** *TBA*
+## **9.5. ComfyUI II: Image Synthesis.** *TBA*
+
+
