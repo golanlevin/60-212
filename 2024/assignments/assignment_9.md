@@ -30,7 +30,7 @@ In this unit, we will explore the combination of creative coding with AI techniq
 
 * **Read** "[Dino Diffusion: Bare-bones Diffusion Models](https://madebyoll.in/posts/dino_diffusion/)" (2023) by Ollin Boer Bohan. (You can play with Bohan's [demo here](https://madebyoll.in/posts/dino_diffusion/demo/).) This is an estimated 12-minute reading.
 * **Write** a sentence sharing something you learned from this article, in the Discord channel `09-dino-reading`.
-* **Fork** [this OpenProcessing sketch](https://openprocessing.org/sketch/2321795), which is a p5.js port of Bohan's Dino-Diffusion project. (Make sure your forked sketch includes the 8MB ONNX model file, "network.onnx"; if you're lacking this file for some reason, you can also find it [here](https://github.com/golanlevin/dino-diffusion-p5/tree/main).)
+* **Fork** [this OpenProcessing sketch](https://openprocessing.org/sketch/2321795), which is a p5.js port of Bohan's Dino-Diffusion project. (Make sure your forked sketch includes the 8MB ONNX model file, "network.onnx", in your sketch's FILES tab; if you're lacking this file for some reason, you can also find it [here](https://github.com/golanlevin/dino-diffusion-p5/tree/main). In your sketch's LIBRARIES tab, you should also be sure to include the ONNX runtime library, `https://cdn.jsdelivr.net/npm/onnxruntime-web/dist/ort.min.js`.)
 * **Experiment** with this sketch as follows:
   * Press RETURN to start or re-start the AI process.
   * Press SPACE to clear the canvas and start over.
