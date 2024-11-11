@@ -148,7 +148,7 @@ ML5.js is *actively transitioning* to a new version. As a result, your mileage m
 
 * **Study** this [presentation about running p5.js in RunComfy](../../lectures/comfy/image_synthesis/readme.md) 
 * **Load** the following workflow into RunComfy. It is available in this JSON workflow, [`p5-in-comfy.json`](../../lectures/comfy/image_synthesis/workflows/p5-in-comfy.json), and/or in the screenshot image below (whose metadata contains a copy of the workflow).
-* **Develop** a simple p5.js program, whose canvas dimensions are (exactly) 512x512. Your p5 program should generate a new image whenever the user clicks the mouse. **Upload** a copy of your p5.js generator program into the [correct slot]() in our OpenProcessing classroom, for safekeeping.
+* **Develop** a simple p5.js program, whose canvas dimensions are (exactly) 512x512. Your p5 program should generate a new image whenever the user clicks the mouse. **Upload** a copy of your p5.js generator program into the [correct slot](https://openprocessing.org/class/93074/#/c/94907) in our OpenProcessing classroom, for safekeeping.
 * **Paste** a copy of your p5.js generator program into the *comfyui-p5js-node* in the Comfy workflow. Make sure it works. 
 * **Devise** a text prompt for the CLIP text conditioner which tells the Stable Diffusion process how to interpret the image from your p5 generator. 
 * **Iterate.** Explore how you can change the code of your generator, and the text prompt you're using, so that they work together well. 
