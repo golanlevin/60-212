@@ -18,7 +18,7 @@ In this unit, we will explore the combination of creative coding with AI techniq
 * **Due Monday 11/18:**
   * 9.3. Situated Eye / Poetic Observer (`#09-situated-eye`)
   * 9.4. ComfyUI I: Image Analysis (+ [OpenProcessing](TBA))
-  * 9.5. ComfyUI II: Image Synthesis (`#09-p5-conditioning`)
+  * 9.5. ComfyUI II: Image Synthesis (`#09-p5-in-comfy`)
 
 ---
 
@@ -133,7 +133,7 @@ ML5.js is *actively transitioning* to a new version. As a result, your mileage m
 2. *Now*:
   * **Select** a static image that you'd like to use as the basis for a computational image treatment. (Your image can be something of your own, or something from the internet, but be sure to give credit in your code if the image is borrowed.)
   * Using [this readymade RunComfy workflow](../../lectures/comfy/image_analysis/workflows/3_image_depth_and_segmentation.json), **compute** a *depthmap* for your selected image, as well as one or more *semantic segmentation* masks. This workflow is explained in great detail on [this lecture page](../../lectures/comfy/image_analysis/readme.md). **Make sure** your (possibly resized) color image, as well as your depth and segmentation images, all have the same dimensions. 
-  * Using p5.js. **develop** a custom treatment of your selected image, making use of at least one of the new additional channels of information. (You're not required to use both.) Your treatment can be generative, animated, or static — up to you. You are permitted to recycle ideas from project 7.5, but you are also encouraged to develop fresh ideas that take advantage of the new data channels. A [simple p5 project](https://openprocessing.org/sketch/2440728) that demonstrates how to ingest the 5 data channels can be found [here](https://openprocessing.org/sketch/2440728), and a fancy version can be found [here](https://editor.p5js.org/golan/sketches/-_cFmLtoP).
+  * Using p5.js, **develop** a custom treatment of your selected image, making use of at least one of the new additional channels of information. (You're not required to use both.) Your treatment can be generative, animated, or static — up to you. You are permitted to recycle ideas from project 7.5, but you are also encouraged to develop fresh ideas that take advantage of the new data channels. A [simple p5 project](https://openprocessing.org/sketch/2440728) that demonstrates how to ingest the 5 data channels can be found [here](https://openprocessing.org/sketch/2440728), and a fancy version can be found [here](https://editor.p5js.org/golan/sketches/-_cFmLtoP).
   * **Upload** your project to the appropriate slot [in our OpenProcessing classroom](). 
 
 ![p5_treatment.gif](../../lectures/comfy/image_analysis/p5_treatment.gif)
