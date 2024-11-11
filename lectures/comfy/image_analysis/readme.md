@@ -1,5 +1,5 @@
 
-# Instructions
+# ComfyUI: Introduction & Image Analysis
 
 *These instructions are current as of 10 November 2024.*
 
