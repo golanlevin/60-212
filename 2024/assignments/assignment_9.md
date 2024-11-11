@@ -6,9 +6,9 @@ In this unit, we will explore the combination of creative coding with AI techniq
 
 * **9.1. Exercise: Dino Diffusion + p5** (10%, 30 minutes, due 11/11)
 * **9.2. Looking Outwards #4: AI+Art** (10%, 30 minutes, due 11/11)
-* **9.3. Situated Eye / Poetic Observer** (40%, 6 hours, due 11/18)
+* **9.3. Situated Eye / Poetic Observer** (40%, 5 hours, due 11/18)
 * **9.4. ComfyUI I: Image Analysis** (15%, 1.5 hours, due 11/18)
-* **9.5. ComfyUI II: Image Synthesis** (20%, 1.5 hours, due 11/18)
+* **9.5. ComfyUI II: Image Synthesis** (20%, 2 hours, due 11/18)
 
 **Summary of Due Dates for Assignment #9:**
 
@@ -48,7 +48,7 @@ In this unit, we will explore the combination of creative coding with AI techniq
 
 *(10%, 30 minutes, due Monday 11/11)* This is a "Looking Outwards" assignment about Art+AI. Spend 45 minutes **browsing** the following online showcases of projects that make use of machine learning and ‘AI’ techniques. Look beyond the first page of results — more than a thousand projects are indexed across these sites!
 
-> * **Some AI artists I recommend**: [Lauren Lee McCarthy](https://lauren-mccarthy.com/), [Memo Akten](https://www.memo.tv/artworks/), [Mario Klingemann](https://quasimondo.com/), [Sougwen Chung](https://sougwen.com/), [Holly Herndon & Mat Dryhurst](https://herndondryhurst.studio/), [Kyle McDonald](https://kylemcdonald.net/), [Sofia Crespo](https://sofiacrespo.com/), [Scott Eaton](https://www.scott-eaton.com/category/creative-ai)
+* **Some AI artists I recommend**: [Lauren Lee McCarthy](https://lauren-mccarthy.com/), [Memo Akten](https://www.memo.tv/artworks/), [Mario Klingemann](https://quasimondo.com/), [Sougwen Chung](https://sougwen.com/), [Holly Herndon & Mat Dryhurst](https://herndondryhurst.studio/), [Kyle McDonald](https://kylemcdonald.net/), [Sofia Crespo](https://sofiacrespo.com/), [Scott Eaton](https://www.scott-eaton.com/category/creative-ai)
 * [**NeurIPS AI Art Gallery**](https://www.aiartonline.com/) — galleries for the [2017](https://www.aiartonline.com/category/art-2017/), [2018](https://www.aiartonline.com/category/community/), [2019](https://www.aiartonline.com/category/community-2019/), and [2020](https://www.aiartonline.com/category/art-2020/) NeurIPS Workshops on Machine Learning for Creativity and Design.
 * [**Mlart.co**](https://mlart.co/) — a collection of AI+art experiments from 2015-2021, curated by Emil Wallner.
 * [**AiArtists.org**](https://aiartists.org/ai-artist-founding-members) — a global database of artists who are exploring AI’s impact on art and culture.
@@ -65,7 +65,7 @@ In this unit, we will explore the combination of creative coding with AI techniq
 
 ## 9.3. Situated Eye / Poetic Observer
 
-*(40%, 6 hours, due Monday 11/18)* This assignment is intended to protect and cultivate your *curiosity* — by providing you with powerful tools for computer *vision*. In this conceptually-oriented project, you are asked to create a working “situated eye” – a “contextualized classifier” – a “purposeful detector” – a “poetic observer“.
+*(40%, 5 hours, due Monday 11/18)* This assignment is intended to protect and cultivate your *curiosity* — by providing you with powerful tools for computer *vision*. In this conceptually-oriented project, you are asked to create a working “situated eye” – a “contextualized classifier” – a “purposeful detector” – a “poetic observer“.
 
 **Create** a machine that uses a camera to ask a question of the world. Your machine should either measure/detect something interesting, measure/detect something in an interesting way, or create an interesting provocation by bringing an uncommon measurement/detection to our attention. The emphasis here is on the *selection* and *collection* of intriguing data, rather than on the *production* (for now) of an attractive interpretation, visualization, or game. What overlooked phenomenon or invisible rhythm can you discover?
 
@@ -121,7 +121,7 @@ ML5.js is *actively transitioning* to a new version. As a result, your mileage m
 
 ![controlnet_example.png](../../lectures/comfy/image_analysis/workflows/3_image_depth_and_segmentation_sm.png)
 
-In this project, we will revisit the core premise of our [Custom Pixel](https://github.com/golanlevin/60-212/blob/main/2024/assignments/assignment_7b.md#75-custom-pixel-camera-color-nested-iteration) project from Assignment #7.5. This time, however, we will use machine learning techniques (such as monocular depth estimation and semantic segmentation) in order to provide *additional channels of information* to our custom image interpreting software.
+(*15%, 1.5 hours, due 11/18*) In this project, we will revisit the core premise of our [Custom Pixel](https://github.com/golanlevin/60-212/blob/main/2024/assignments/assignment_7b.md#75-custom-pixel-camera-color-nested-iteration) project from Assignment #7.5. This time, however, we will use machine learning techniques (such as monocular depth estimation and semantic segmentation) in order to provide *additional channels of information* to our custom image interpreting software.
 
 1. **First**: briefly familiarize yourself with ComfyUI: what it *is*, and what it can *do*. **Read** the following article: [Beginner's Guide to ComfyUI](https://aituts.com/comfyui/) by AITuts. This should take about 10 minutes. If you're interested in learning more, feel free to browse any or all of the following optional resources: 
   * [ComfyUI Github](https://github.com/comfyanonymous/ComfyUI/blob/master/README.md)
@@ -140,6 +140,19 @@ In this project, we will revisit the core premise of our [Custom Pixel](https://
 
 ---
 
-## **9.5. ComfyUI 2: Image Synthesis** *TBA*
+## **9.5. ComfyUI 2: p5 in Comfy**
 
-*IN PROGRESS! - MORE TBA.*
+![oatmeal.png](../../lectures/comfy/image_synthesis/images/oatmeal.png)
+
+*(20%, 2 hours, due 11/18)* In this exercise, you will write a small program in p5.js that generates a conditioning image for Stable Diffusion in ComfyUI. *Now*: 
+
+* **Study** this [presentation about running p5.js in RunComfy](../../lectures/comfy/image_synthesis/readme.md) 
+* **Load** the following workflow into RunComfy. It is available in this JSON workflow, [`p5-in-comfy.json`](../../lectures/comfy/image_synthesis/workflows/p5-in-comfy.json), and/or in the screenshot image below (whose metadata contains a copy of the workflow).
+* **Develop** a simple p5.js program, whose canvas dimensions are (exactly) 512x512. Your p5 program should generate a new image whenever the user clicks the mouse. **Upload** a copy of your p5.js generator program into the [correct slot]() in our OpenProcessing classroom, for safekeeping.
+* **Paste** a copy of your p5.js generator program into the *comfyui-p5js-node* in the Comfy workflow. Make sure it works. 
+* **Devise** a text prompt for the CLIP text conditioner which tells the Stable Diffusion process how to interpret the image from your p5 generator. 
+* **Iterate.** Explore how you can change the code of your generator, and the text prompt you're using, so that they work together well. 
+* **Queue the Prompt!** Generate some pairs of input-output images. 
+* In the Discord channel `#09-p5-in-comfy`, **post** 2 or 3 pairs of images, showing your results. Also, please **paste** the text prompt you used into the Discord post as well. **Write** a couple of sentences about your experience.
+
+![p5-in-comfy.png](../../lectures/comfy/image_synthesis/workflows/p5-in-comfy.png)
