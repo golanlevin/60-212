@@ -5,13 +5,13 @@
 
 **Contents:** 
 
-* Setting up the RunComfy Virtual Machine
-* Testing RunComfy's Default Patch
-* Let's Make an Image Analysis Patch
-	1. Loading and Resizing an Image
-	2. Estimate an Image's Depth Map with AI
-	3. Segment the Image with AI
-* Let's Use our Image Analysis in p5!
+* [Setting up the RunComfy Virtual Machine](#setting-up-the-runcomfy-virtual-machine)
+* [Testing RunComfy's Default Patch](#testing-runcomfys-default-patch)
+* [Let's Make an Image Analysis Patch](#lets-make-an-image-analysis-patch)
+	1. [Loading and Resizing an Image](#1-loading-and-resizing-an-image)
+	2. [Estimate an Image's Depth Map with AI](#2-estimate-an-images-depth-map-with-ai)
+	3. [Segment the Image with AI](#3-segment-the-image-with-ai)
+* [Let's Use our Image Analysis in p5!](#lets-use-our-image-analysis-in-p5)
 
 
 ---
@@ -129,7 +129,7 @@ Study the [workflow image](workflows/3_image_depth_and_segmentation_sm.png) to r
 
 ## Let's Use our Image Analysis in p5!
 
-Here is a p5.js sketch, similar to our [Custom Pixel assignment, 7.5](https://github.com/golanlevin/60-212/blob/main/2024/assignments/assignment_7b.md#75-custom-pixel-camera-color-nested-iteration), which ingests the three elephant images. 
+We can now use this AI workflow to extend our creative coding practice in p5. Here is a p5.js sketch, similar to our [Custom Pixel assignment, 7.5](https://github.com/golanlevin/60-212/blob/main/2024/assignments/assignment_7b.md#75-custom-pixel-camera-color-nested-iteration), which ingests the three elephant images. 
 
 * [https://editor.p5js.org/golan/sketches/-_cFmLtoP](https://editor.p5js.org/golan/sketches/-_cFmLtoP) **Fancy version**, at editor.p5js.org
 * [https://editor.p5js.org/golan/sketches/yZNdwF2sP](https://editor.p5js.org/golan/sketches/yZNdwF2sP) **Simplified version**, at editor.p5js.org

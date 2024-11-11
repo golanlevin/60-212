@@ -117,13 +117,11 @@ ML5.js is *actively transitioning* to a new version. As a result, your mileage m
 
 ---
 
-## **9.4. ComfyUI 1: Image Analysis** 
+## **9.4. ComfyUI 1: Custom Pixel+AI** 
 
-*IN PROGRESS!*
+![controlnet_example.png](../../lectures/comfy/image_analysis/workflows/3_image_depth_and_segmentation_sm.png)
 
-![controlnet_example.png](images/controlnet_example.png)
-
-*(5%, 20-30 minutes, due Monday 11/11)* 
+In this project, we will revisit the core premise of our [Custom Pixel](https://github.com/golanlevin/60-212/blob/main/2024/assignments/assignment_7b.md#75-custom-pixel-camera-color-nested-iteration) project from Assignment #7.5. This time, however, we will use machine learning techniques (such as monocular depth estimation and semantic segmentation) in order to provide *additional channels of information* to our custom image interpreting software.
 
 1. **First**: briefly familiarize yourself with ComfyUI: what it *is*, and what it can *do*. **Read** the following article: [Beginner's Guide to ComfyUI](https://aituts.com/comfyui/) by AITuts. This should take about 10 minutes. If you're interested in learning more, feel free to browse any or all of the following optional resources: 
   * [ComfyUI Github](https://github.com/comfyanonymous/ComfyUI/blob/master/README.md)
@@ -132,8 +130,13 @@ ML5.js is *actively transitioning* to a new version. As a result, your mileage m
   * [Pixaroma ComfyUI YouTube Tutorials](https://www.youtube.com/playlist?list=PL-pohOSaL8P9kLZP8tQ1K1QWdZEgwiBM0)
   * [Purz ComfyUI YouTube Channel](https://www.youtube.com/@PurzBeats)
   * [ComfyUI Reddit](https://www.reddit.com/r/comfyui/)
-2. *MORE TBA.*
+2. *Now*:
+  * **Select** a static image that you'd like to use as the basis for a computational image treatment. (Your image can be something of your own, or something from the internet, but be sure to give credit in your code if the image is borrowed.)
+  * Using [this readymade RunComfy workflow](../../lectures/comfy/image_analysis/workflows/3_image_depth_and_segmentation.json), **compute** a *depthmap* for your selected image, as well as one or more *semantic segmentation* masks. This workflow is explained in great detail on [this lecture page](../../lectures/comfy/image_analysis/readme.md). **Make sure** your (possibly resized) color image, as well as your depth and segmentation images, all have the same dimensions. 
+  * Using p5.js. **develop** a custom treatment of your selected image, making use of at least one of the new additional channels of information. (You're not required to use both.) Your treatment can be generative, animated, or static — up to you. You are permitted to recycle ideas from project 7.5, but you are also encouraged to develop fresh ideas that take advantage of the new data channels. A [simple p5 project](https://openprocessing.org/sketch/2440728) that demonstrates how to ingest the 5 data channels can be found [here](https://openprocessing.org/sketch/2440728), and a fancy version can be found [here](https://editor.p5js.org/golan/sketches/-_cFmLtoP).
+  * **Upload** your project to the appropriate slot [in our OpenProcessing classroom](). 
 
+![p5_treatment.gif](../../lectures/comfy/image_analysis/p5_treatment.gif)
 
 ---
 

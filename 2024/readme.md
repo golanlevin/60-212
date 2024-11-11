@@ -32,7 +32,7 @@
 * `Wed 10/30`: [Full-Body Interactive Art](daily_notes/20241030.md)
 * `Mon 11/04`: *Work session for Body/Gesture project*
 * `Wed 11/06`: [Teachable Interactions](daily_notes/20241106.md)
-* `Mon 11/11` 
+* `Mon 11/11`: [Introduction to ComfyUI](daily_notes/20241111.md)
 * `Wed 11/13` 
 * `Mon 11/18` 
 * `Wed 11/20`
