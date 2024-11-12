@@ -33,12 +33,13 @@
 * `Mon 11/04`: *Work session for Body/Gesture project*
 * `Wed 11/06`: [Teachable Interactions](daily_notes/20241106.md)
 * `Mon 11/11`: [Introduction to ComfyUI](daily_notes/20241111.md)
-* `Wed 11/13` 
-* `Mon 11/18` 
+* `Wed 11/13`: [Worksession for AI projects](daily_notes/20241113.md)
+* `Mon 11/18`
 * `Wed 11/20`
-* `Mon 11/25` 
-* `Mon 12/02` 
+* `Mon 11/25`
+* `Mon 12/02`
 * `Wed 12/04`
+* `Tue 12/10`
 
 ---
 
