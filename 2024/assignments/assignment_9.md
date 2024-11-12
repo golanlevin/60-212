@@ -13,12 +13,12 @@ In this unit, we will explore the combination of creative coding with AI techniq
 **Summary of Due Dates for Assignment #9:**
 
 * **Due Monday 11/11:** 
-  * 9.1. Exercise: Dino Diffusion + p5 (`#09-dino-reading` + [OpenProcessing](https://openprocessing.org/class/93074/#/c/94831))
-  * 9.2. Looking Outwards #4: AI+Art (`#looking-outwards-4`)
+  * 9.1. [Exercise: Dino Diffusion + p5](#91-exercise-dino-diffusion--p5) (`#09-dino-reading` + [OpenProcessing](https://openprocessing.org/class/93074/#/c/94831))
+  * 9.2. [Looking Outwards #4: AI+Art](#92-looking-outwards-4-ai--art) (`#looking-outwards-4`)
 * **Due Monday 11/18:**
-  * 9.3. Situated Eye / Poetic Observer (`#09-situated-eye`)
-  * 9.4. ComfyUI I: Image Analysis (+ [OpenProcessing](TBA))
-  * 9.5. ComfyUI II: Image Synthesis (`#09-p5-in-comfy`)
+  * 9.3. [Situated Eye / Poetic Observer](#93-situated-eye-poetic-observer) (`#09-situated-eye`)
+  * 9.4. [ComfyUI 1: Custom Pixel+AI](#94-comfyui-1-custom-pixelai) (+ [OpenProcessing](https://openprocessing.org/class/93074/#/c/94907))
+  * 9.5. [ComfyUI 2: p5 in Comfy](#95-comfyui-2-p5-in-comfy) (`#09-p5-in-comfy` + [OpenProcessing]())
 
 ---
 
@@ -113,13 +113,20 @@ ML5.js is *actively transitioning* to a new version. As a result, your mileage m
 * [ml5.js Image Classification](https://thecodingtrain.com/tracks/ml5js-beginners-guide/ml5/1-classification/image-classification)
 * [ml5.js: Train Your Own Neural Network (OLD)](https://www.youtube.com/watch?v=8HEgeAbYphA)
 * [ml5.js: Feature Extractor Regression (OLD)](https://thecodingtrain.com/tracks/ml5js-beginners-guide/ml5/3-feature-extractor/2-regression)
-* [ml5.js: Documentaiton of ml5+TeachableMachine](https://docs.ml5js.org/#/reference/image-classifier-tm)
+* [ml5.js: Documentation of ml5+TeachableMachine](https://docs.ml5js.org/#/reference/image-classifier-tm)
 
 ---
 
 ## **9.4. ComfyUI 1: Custom Pixel+AI** 
 
 ![controlnet_example.png](../../lectures/comfy/image_analysis/workflows/3_image_depth_and_segmentation_sm.png)
+
+### TLDR: 
+
+* **Load this RunComfy workflow: [`3_image_depth_and_segmentation.json`](../../lectures/comfy/image_analysis/workflows/3_image_depth_and_segmentation.json)**
+* **Test it with this elephant image, [`original_rgb.png `](https://github.com/golanlevin/60-212/blob/main/lectures/comfy/image_analysis/input/original_rgb.png)**
+* **Swap in your own image and change the Florence prompt**
+* **Write [an OpenProcessing sketch](https://openprocessing.org/class/93074/#/c/94907) that uses the depth and/or segmentation.**
 
 (*15%, 1.5 hours, due 11/18*) In this project, we will revisit the core premise of our [Custom Pixel](https://github.com/golanlevin/60-212/blob/main/2024/assignments/assignment_7b.md#75-custom-pixel-camera-color-nested-iteration) project from Assignment #7.5. This time, however, we will use machine learning techniques (such as monocular depth estimation and semantic segmentation) in order to provide *additional channels of information* to our custom image interpreting software.
 
@@ -134,7 +141,7 @@ ML5.js is *actively transitioning* to a new version. As a result, your mileage m
   * **Select** a static image that you'd like to use as the basis for a computational image treatment. (Your image can be something of your own, or something from the internet, but be sure to give credit in your code if the image is borrowed.)
   * Using [this readymade RunComfy workflow](../../lectures/comfy/image_analysis/workflows/3_image_depth_and_segmentation.json), **compute** a *depthmap* for your selected image, as well as one or more *semantic segmentation* masks. This workflow is explained in great detail on [this lecture page](../../lectures/comfy/image_analysis/readme.md). **Make sure** your (possibly resized) color image, as well as your depth and segmentation images, all have the same dimensions. 
   * Using p5.js, **develop** a custom treatment of your selected image, making use of at least one of the new additional channels of information. (You're not required to use both.) Your treatment can be generative, animated, or static — up to you. You are permitted to recycle ideas from project 7.5, but you are also encouraged to develop fresh ideas that take advantage of the new data channels. A [simple p5 project](https://openprocessing.org/sketch/2440728) that demonstrates how to ingest the 5 data channels can be found [here](https://openprocessing.org/sketch/2440728), and a fancy version can be found [here](https://editor.p5js.org/golan/sketches/-_cFmLtoP).
-  * **Upload** your project to the appropriate slot [in our OpenProcessing classroom](). 
+  * **Upload** your project to the appropriate slot [in our OpenProcessing classroom](https://openprocessing.org/class/93074/#/c/94907). 
 
 ![p5_treatment.gif](../../lectures/comfy/image_analysis/p5_treatment.gif)
 
@@ -144,11 +151,17 @@ ML5.js is *actively transitioning* to a new version. As a result, your mileage m
 
 ![oatmeal.png](../../lectures/comfy/image_synthesis/images/oatmeal.png)
 
+### TLDR: 
+
+* **Load this workflow into RunComfy: [`p5-in-comfy.json`](../../lectures/comfy/image_synthesis/workflows/p5-in-comfy.json)**
+* **Write a simple p5 sketch to control it, and a text prompt**
+* **Document it in the Discord channel `#09-p5-in-comfy`**
+
 *(20%, 2 hours, due 11/18)* In this exercise, you will write a small program in p5.js that generates a conditioning image for Stable Diffusion in ComfyUI. *Now*: 
 
 * **Study** this [presentation about running p5.js in RunComfy](../../lectures/comfy/image_synthesis/readme.md) 
 * **Load** the following workflow into RunComfy. It is available in this JSON workflow, [`p5-in-comfy.json`](../../lectures/comfy/image_synthesis/workflows/p5-in-comfy.json), and/or in the screenshot image below (whose metadata contains a copy of the workflow).
-* **Develop** a simple p5.js program, whose canvas dimensions are (exactly) 512x512. Your p5 program should generate a new image whenever the user clicks the mouse. **Upload** a copy of your p5.js generator program into the [correct slot](https://openprocessing.org/class/93074/#/c/94907) in our OpenProcessing classroom, for safekeeping.
+* **Develop** a simple p5.js program, whose canvas dimensions are (exactly) 512x512. Your p5 program should generate a new image whenever the user clicks the mouse. **Upload** a copy of your p5.js generator program into the [correct slot]() in our OpenProcessing classroom, for safekeeping.
 * **Paste** a copy of your p5.js generator program into the *comfyui-p5js-node* in the Comfy workflow. Make sure it works. 
 * **Devise** a text prompt for the CLIP text conditioner which tells the Stable Diffusion process how to interpret the image from your p5 generator. 
 * **Iterate.** Explore how you can change the code of your generator, and the text prompt you're using, so that they work together well. 
