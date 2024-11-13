@@ -1,170 +1,145 @@
 {
-  "last_node_id": 13,
-  "last_link_id": 14,
+  "last_node_id": 37,
+  "last_link_id": 63,
   "nodes": [
     {
-      "id": 10,
-      "type": "PreviewImage",
-      "pos": {
-        "0": 1920,
-        "1": 670
-      },
-      "size": [
-        205.5189666748047,
-        246
-      ],
-      "flags": {},
-      "order": 9,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "images",
-          "type": "IMAGE",
-          "link": 10
-        }
-      ],
-      "outputs": [],
-      "properties": {
-        "Node name for S&R": "PreviewImage"
-      },
-      "widgets_values": []
-    },
-    {
-      "id": 3,
-      "type": "KSampler",
-      "pos": {
-        "0": 1200,
-        "1": 190
-      },
-      "size": {
-        "0": 315,
-        "1": 262
-      },
-      "flags": {},
-      "order": 6,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "model",
-          "type": "MODEL",
-          "link": 1
-        },
-        {
-          "name": "positive",
-          "type": "CONDITIONING",
-          "link": 4
-        },
-        {
-          "name": "negative",
-          "type": "CONDITIONING",
-          "link": 6
-        },
-        {
-          "name": "latent_image",
-          "type": "LATENT",
-          "link": 14
-        }
-      ],
-      "outputs": [
-        {
-          "name": "LATENT",
-          "type": "LATENT",
-          "links": [
-            7
-          ],
-          "slot_index": 0
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "KSampler"
-      },
-      "widgets_values": [
-        506791601479827,
-        "randomize",
-        20,
-        8,
-        "euler",
-        "normal",
-        0.75
-      ]
-    },
-    {
-      "id": 9,
+      "id": 37,
       "type": "SaveImage",
       "pos": {
-        "0": 1910,
-        "1": 170
+        "0": 1895,
+        "1": 98
       },
       "size": [
-        505.4283451885226,
-        437.7353138228875
+        520.5714477670954,
+        402.7536836699887
       ],
       "flags": {},
-      "order": 8,
+      "order": 11,
       "mode": 0,
       "inputs": [
         {
           "name": "images",
           "type": "IMAGE",
-          "link": 9
+          "link": 63
         }
       ],
       "outputs": [],
       "properties": {},
       "widgets_values": [
-        "p5_"
+        "p5-composite"
       ]
     },
     {
-      "id": 12,
-      "type": "VAEEncode",
+      "id": 32,
+      "type": "VAEDecode",
       "pos": {
-        "0": 840,
-        "1": 500
+        "0": 1821,
+        "1": 641
       },
       "size": {
         "0": 210,
         "1": 46
       },
       "flags": {},
-      "order": 5,
+      "order": 9,
       "mode": 0,
       "inputs": [
         {
-          "name": "pixels",
-          "type": "IMAGE",
-          "link": 12
+          "name": "samples",
+          "type": "LATENT",
+          "link": 54
         },
         {
           "name": "vae",
           "type": "VAE",
-          "link": 11
+          "link": 55
         }
       ],
       "outputs": [
         {
-          "name": "LATENT",
-          "type": "LATENT",
+          "name": "IMAGE",
+          "type": "IMAGE",
           "links": [
-            14
+            61
           ],
           "slot_index": 0
         }
       ],
       "properties": {
-        "Node name for S&R": "VAEEncode"
-      }
+        "Node name for S&R": "VAEDecode"
+      },
+      "widgets_values": []
     },
     {
-      "id": 11,
+      "id": 36,
+      "type": "Image Overlay",
+      "pos": {
+        "0": 2082,
+        "1": 754
+      },
+      "size": {
+        "0": 315,
+        "1": 290
+      },
+      "flags": {},
+      "order": 10,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "base_image",
+          "type": "IMAGE",
+          "link": 60
+        },
+        {
+          "name": "overlay_image",
+          "type": "IMAGE",
+          "link": 61
+        },
+        {
+          "name": "optional_mask",
+          "type": "MASK",
+          "link": null,
+          "shape": 7
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            63
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "Image Overlay"
+      },
+      "widgets_values": [
+        "None",
+        "nearest-exact",
+        1,
+        512,
+        512,
+        1020,
+        0,
+        0,
+        0
+      ],
+      "color": "#332222",
+      "bgcolor": "#553333",
+      "shape": 1
+    },
+    {
+      "id": 34,
       "type": "HYPE_P5JSImage",
       "pos": {
-        "0": 70,
-        "1": 340
+        "0": 37,
+        "1": 252
       },
       "size": [
-        445.70276693285086,
-        988.5880155027478
+        390.53904776709857,
+        825.9295836699878
       ],
       "flags": {},
       "order": 0,
@@ -175,8 +150,9 @@
           "name": "image",
           "type": "IMAGE",
           "links": [
-            12,
-            13
+            57,
+            58,
+            59
           ],
           "slot_index": 0
         }
@@ -185,93 +161,17 @@
         "Node name for S&R": "HYPE_P5JSImage"
       },
       "widgets_values": [
-        "function setup() {\n  createCanvas(512, 512);\n  pixelDensity(1); noLoop(); \n}\nfunction draw() {\n  background('lightblue');\n  ellipseMode(CENTER); noStroke(); \n  let colA = color(173, 216, 230);\n  let colB = color(47, 79, 79); \n  for (let i=1; i<=7; i++){\n    fill (lerpColor(colA, colB, i/7));\n    let ry = map(pow(t,1.5),0,1, 250,500) + i/7*10*random(-1,1); \n    let rx = 300 * random(-1,1); \n    let rw = width * random(2.5,3.5); \n    ellipse(width/2+rx,ry, rw,height*random(0.4,0.5)); \n  }\n}",
+        "function setup() {\n  createCanvas(512, 512); // must be this size for SD1.5\n  noLoop(); \n}\n\nfunction draw() {\n  background('lightblue');\n  ellipseMode(CENTER); \n  noStroke(); \n  \n  let colA = color(173, 216, 230);\n  let colB = color(47, 79, 79);\n  let nHills = 7; \n  for (let i=1; i<=nHills; i++){\n    let t = map(i, 0,nHills, 0,1); \n    let col = lerpColor(colA, colB, t);\n    fill(col); \n    let ry = map(pow(t,1.5),0,1, 250,500) + t*10*random(-1,1); \n    let rx = 300 * random(-1,1); \n    let rw = width * random(2.5,3.5); \n    ellipse(width/2+rx,ry, rw,height*random(0.4,0.5)); \n  }\n}\n",
         "run_p5js_sketch",
         null
-      ]
-    },
-    {
-      "id": 6,
-      "type": "CLIPTextEncode",
-      "pos": {
-        "0": 750,
-        "1": 80
-      },
-      "size": [
-        309.23191343071096,
-        97.29031999476291
-      ],
-      "flags": {},
-      "order": 3,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "clip",
-          "type": "CLIP",
-          "link": 3
-        }
-      ],
-      "outputs": [
-        {
-          "name": "CONDITIONING",
-          "type": "CONDITIONING",
-          "links": [
-            4
-          ],
-          "slot_index": 0
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "CLIPTextEncode"
-      },
-      "widgets_values": [
-        "rolling hills, foggy day, cloudy sky, mountains with trees"
-      ]
-    },
-    {
-      "id": 7,
-      "type": "CLIPTextEncode",
-      "pos": {
-        "0": 760,
-        "1": 250
-      },
-      "size": [
-        326.044752024461,
-        99.27017452601285
-      ],
-      "flags": {},
-      "order": 4,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "clip",
-          "type": "CLIP",
-          "link": 5
-        }
-      ],
-      "outputs": [
-        {
-          "name": "CONDITIONING",
-          "type": "CONDITIONING",
-          "links": [
-            6
-          ],
-          "slot_index": 0
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "CLIPTextEncode"
-      },
-      "widgets_values": [
-        "text, watermark"
       ]
     },
     {
       "id": 4,
       "type": "CheckpointLoaderSimple",
       "pos": {
-        "0": 190,
-        "1": 180
+        "0": 588,
+        "1": 212
       },
       "size": {
         "0": 315,
@@ -303,8 +203,8 @@
           "name": "VAE",
           "type": "VAE",
           "links": [
-            8,
-            11
+            11,
+            55
           ],
           "slot_index": 2
         }
@@ -317,29 +217,152 @@
       ]
     },
     {
-      "id": 8,
-      "type": "VAEDecode",
+      "id": 7,
+      "type": "CLIPTextEncode",
       "pos": {
-        "0": 1593,
-        "1": 604
+        "0": 1005,
+        "1": 288
+      },
+      "size": [
+        287.06275089209703,
+        120.68797004694227
+      ],
+      "flags": {},
+      "order": 5,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "clip",
+          "type": "CLIP",
+          "link": 5
+        }
+      ],
+      "outputs": [
+        {
+          "name": "CONDITIONING",
+          "type": "CONDITIONING",
+          "links": [
+            6
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "CLIPTextEncode"
+      },
+      "widgets_values": [
+        "text, watermark"
+      ]
+    },
+    {
+      "id": 6,
+      "type": "CLIPTextEncode",
+      "pos": {
+        "0": 1002,
+        "1": 65
+      },
+      "size": [
+        286.81405089209693,
+        142.60371582330976
+      ],
+      "flags": {},
+      "order": 4,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "clip",
+          "type": "CLIP",
+          "link": 3
+        }
+      ],
+      "outputs": [
+        {
+          "name": "CONDITIONING",
+          "type": "CONDITIONING",
+          "links": [
+            4
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "CLIPTextEncode"
+      },
+      "widgets_values": [
+        "Rolling hills, foggy day, cloudy sky, mountains with trees"
+      ]
+    },
+    {
+      "id": 11,
+      "type": "VAEEncode",
+      "pos": {
+        "0": 1032,
+        "1": 568
       },
       "size": {
         "0": 210,
         "1": 46
       },
       "flags": {},
-      "order": 7,
+      "order": 6,
       "mode": 0,
       "inputs": [
         {
-          "name": "samples",
-          "type": "LATENT",
-          "link": 7
+          "name": "pixels",
+          "type": "IMAGE",
+          "link": 58
         },
         {
           "name": "vae",
           "type": "VAE",
-          "link": 8
+          "link": 11
+        }
+      ],
+      "outputs": [
+        {
+          "name": "LATENT",
+          "type": "LATENT",
+          "links": [
+            12
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "VAEEncode"
+      },
+      "widgets_values": []
+    },
+    {
+      "id": 31,
+      "type": "Image Overlay",
+      "pos": {
+        "0": 1081,
+        "1": 769
+      },
+      "size": {
+        "0": 315,
+        "1": 290
+      },
+      "flags": {},
+      "order": 7,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "base_image",
+          "type": "IMAGE",
+          "link": 51
+        },
+        {
+          "name": "overlay_image",
+          "type": "IMAGE",
+          "link": 59
+        },
+        {
+          "name": "optional_mask",
+          "type": "MASK",
+          "link": null,
+          "shape": 7
         }
       ],
       "outputs": [
@@ -347,42 +370,149 @@
           "name": "IMAGE",
           "type": "IMAGE",
           "links": [
-            9,
-            10
+            60
           ],
           "slot_index": 0
         }
       ],
       "properties": {
-        "Node name for S&R": "VAEDecode"
+        "Node name for S&R": "Image Overlay"
       },
-      "widgets_values": []
+      "widgets_values": [
+        "None",
+        "nearest-exact",
+        1,
+        512,
+        512,
+        0,
+        0,
+        0,
+        0
+      ],
+      "color": "#223333",
+      "bgcolor": "#335555",
+      "shape": 1
     },
     {
-      "id": 13,
+      "id": 35,
       "type": "PreviewImage",
       "pos": {
-        "0": 753,
-        "1": 615
+        "0": 483,
+        "1": 585
       },
       "size": [
-        387.6792993894762,
-        339.51495729748103
+        158.81392776709777,
+        246
       ],
       "flags": {},
-      "order": 2,
+      "order": 3,
       "mode": 0,
       "inputs": [
         {
           "name": "images",
           "type": "IMAGE",
-          "link": 13
+          "link": 57
         }
       ],
       "outputs": [],
       "properties": {
         "Node name for S&R": "PreviewImage"
-      }
+      },
+      "widgets_values": []
+    },
+    {
+      "id": 23,
+      "type": "EmptyImage",
+      "pos": {
+        "0": 832,
+        "1": 855
+      },
+      "size": [
+        210,
+        130
+      ],
+      "flags": {},
+      "order": 2,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            51
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "EmptyImage"
+      },
+      "widgets_values": [
+        2048,
+        1024,
+        1,
+        0
+      ]
+    },
+    {
+      "id": 3,
+      "type": "KSampler",
+      "pos": {
+        "0": 1454,
+        "1": 224
+      },
+      "size": {
+        "0": 315,
+        "1": 262
+      },
+      "flags": {},
+      "order": 8,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "model",
+          "type": "MODEL",
+          "link": 1
+        },
+        {
+          "name": "positive",
+          "type": "CONDITIONING",
+          "link": 4
+        },
+        {
+          "name": "negative",
+          "type": "CONDITIONING",
+          "link": 6
+        },
+        {
+          "name": "latent_image",
+          "type": "LATENT",
+          "link": 12
+        }
+      ],
+      "outputs": [
+        {
+          "name": "LATENT",
+          "type": "LATENT",
+          "links": [
+            54
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "KSampler"
+      },
+      "widgets_values": [
+        194606732025772,
+        "randomize",
+        20,
+        8,
+        "euler",
+        "normal",
+        0.8
+      ]
     }
   ],
   "links": [
@@ -427,42 +557,10 @@
       "CONDITIONING"
     ],
     [
-      7,
-      3,
-      0,
-      8,
-      0,
-      "LATENT"
-    ],
-    [
-      8,
-      4,
-      2,
-      8,
-      1,
-      "VAE"
-    ],
-    [
-      9,
-      8,
-      0,
-      9,
-      0,
-      "IMAGE"
-    ],
-    [
-      10,
-      8,
-      0,
-      10,
-      0,
-      "IMAGE"
-    ],
-    [
       11,
       4,
       2,
-      12,
+      11,
       1,
       "VAE"
     ],
@@ -470,35 +568,91 @@
       12,
       11,
       0,
-      12,
-      0,
-      "IMAGE"
-    ],
-    [
-      13,
-      11,
-      0,
-      13,
-      0,
-      "IMAGE"
-    ],
-    [
-      14,
-      12,
-      0,
       3,
       3,
       "LATENT"
+    ],
+    [
+      51,
+      23,
+      0,
+      31,
+      0,
+      "IMAGE"
+    ],
+    [
+      54,
+      3,
+      0,
+      32,
+      0,
+      "LATENT"
+    ],
+    [
+      55,
+      4,
+      2,
+      32,
+      1,
+      "VAE"
+    ],
+    [
+      57,
+      34,
+      0,
+      35,
+      0,
+      "IMAGE"
+    ],
+    [
+      58,
+      34,
+      0,
+      11,
+      0,
+      "IMAGE"
+    ],
+    [
+      59,
+      34,
+      0,
+      31,
+      1,
+      "IMAGE"
+    ],
+    [
+      60,
+      31,
+      0,
+      36,
+      0,
+      "IMAGE"
+    ],
+    [
+      61,
+      32,
+      0,
+      36,
+      1,
+      "IMAGE"
+    ],
+    [
+      63,
+      36,
+      0,
+      37,
+      0,
+      "IMAGE"
     ]
   ],
   "groups": [],
   "config": {},
   "extra": {
     "ds": {
-      "scale": 0.5131581182307069,
+      "scale": 0.5644739300537784,
       "offset": [
-        271.4926772670622,
-        -8.542188336955347
+        60.0152141329012,
+        83.96832563001034
       ]
     }
   },
