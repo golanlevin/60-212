@@ -1,7 +1,7 @@
 
 # p5js *in* ComfyUI
 
-*In this lesson, we will use p5.js code to generate an image that conditions a full-featued Stable Diffusion process within ComfyUI. With this setup, you can use traditional generative art to scaffold more naturalistically textured images. These instructions are current as of 10 November 2024.*
+*In this lesson, we will use p5.js code to generate an image that conditions a full-featured Stable Diffusion process within ComfyUI. With this setup, you can use traditional generative art to scaffold more naturalistically textured images. These instructions are current as of 10 November 2024.*
 
 ![results.png](images/results.png)
 
