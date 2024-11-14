@@ -164,8 +164,14 @@ ML5.js is *actively transitioning* to a new version. As a result, your mileage m
 * **Develop** a simple p5.js program, whose canvas dimensions are (exactly) 512x512. Your p5 program should generate a new image whenever the user clicks the mouse. **Upload** a backup copy of your p5.js generator program into the [correct slot](https://openprocessing.org/class/93074/#/c/94911) in our OpenProcessing classroom, for safekeeping.
 * **Paste** a copy of your p5.js generator program into the *comfyui-p5js-node* in the Comfy workflow. Make sure it works. 
 * **Devise** a text prompt for the CLIP text conditioner which tells the Stable Diffusion process how to interpret the image from your p5 generator. 
-* **Iterate.** Explore how you can change the code of your generator, and the text prompt you're using, so that they work together well. 
+* **Iterate.** Explore how you can change the code of your generator, and the text prompt you're using, so that they work together well.
 * **Queue the Prompt!** Generate some pairs of input-output images. 
 * In the Discord channel `#09-p5-in-comfy`, **post** 2 or 3 pairs of images, showing your results. Also, please **paste** the text prompt you used into the Discord post as well. **Write** a couple of sentences about your experience.
+* **Experiment**! Try some of the other Stable Diffusion models (as long as you're using SD 1.5 models). The following models are all working well in this setup — they are built-in to the dropdown menu in RunComfy: 
+  * sd1/animeStills_v1.safetensors
+  * sd1/dreamshaper_8.safetensors
+  * sd1/meinapastel_v6Pastel.safetensors
+  * sd1/universestable_v50Comics.safetensors
+  * sd1/crystalClear2_crystalClear2V1.safetensors
 
 ![p5-in-comfy.png](../../lectures/comfy/image_synthesis/workflows/p5-in-comfy.png)
