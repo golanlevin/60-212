@@ -53,7 +53,7 @@ We will be using [**comfyui-p5js-node**](https://github.com/tracerstar/comfyui-p
 * For good measure, refresh the browser page. 
 * Now, click on the "Manager" button near the bottom of the Control Panel
 * Click "Install via Git URL"
-* Enter `https://github.com/tracerstar/comfyui-p5js-node.git`
+* Enter **`https://github.com/tracerstar/comfyui-p5js-node.git`**
 * Click *Restart Comfy* again 
 * Refresh the browser page again
 * In your Assets, under `Home > ComfyUI > custom_nodes`, you should now see `comfyui-p5js-node`. 
@@ -90,29 +90,27 @@ function draw() {
 
 ```
 
-* NOTE: Our conditioning images from p5.js must have dimensions of **512x512** to work properly with Stable Diffusion 1.5, which (for now) is what we're using. 
 * I also modified the prompt in the (positive) *CLIP Text Conditioning* node. I changed it to `Rolling hills, foggy day, cloudy sky, mountains with trees`. 
-* If you now click Queue Prompt, you should be able to generate images using Stable Diffusion that are conditioned by your text prompt and your p5.js generative art! An example of my landscape is below. 
+* If you now click **Queue Prompt**, you should be able to generate images using Stable Diffusion that are conditioned by your text prompt and your p5.js generative art! An example of my landscape is below.
+* **NOTE 1**: Our conditioning images from p5.js must have dimensions of **512x512** to work properly with Stable Diffusion 1.5, which (for now) is what we're using.
+* **NOTE 2**: There have been some weird issues with the p5 sketch sometimes generating images that are 512x512, and other times that are 1024x1024. I thought this could be solved with `pixelDensity(1)` but that doesn't seem to work, so you may have to compensate further down the pipeline if this happens to you. 
+
 
 ![landscape.png](images/landscape.png)
 
 
 #### Using other Stable Diffusion Models
 
-Many other Stable Diffusion models are available: Some are tuned to look like paintings, some are tuned to look like drawings, some are tuned to look like photographs of food, etcetera. We will obtain trained [image-generation models from civitai.com](https://civitai.com/models). There are two important notes:
+Many other Stable Diffusion models are available: Some are tuned to look like paintings, some are tuned to look like drawings, some are tuned to look like photographs of food, etcetera. I encourage you to try them out! You will need to obtain models in the *correct format* for things to work. Search for "SD 1.5" "Checkpoint" "Trained" "Safe Tensor" models. The following Stable Diffusion models are all working well in this setup — they are built-in to the dropdown menu in RunComfy: 
 
-* **CAUTION 1**. Where do these AI models come from? Many Stable Diffusion models are developed by individuals for the purpose of generating virtual pornography — sometimes to satisfy extremely specific kinks. These AI models are often advertised to the "AI art community" using insipid, salacious, and offensive thumbnail pics — reflecting the culture of these individuals. I'm sorry: browsing tools should not require an immersion in creep culture. The AI models are capable of generating a much wider range of images than the thumbnails would suggest.
-* **CAUTION 2**. You will need to obtain models in the *correct format* for things to work. Search for "SD 1.5" "Checkpoint" "Trained" "Safe Tensor" models [as in this search](https://civitai.com/search/models?baseModel=SD%201.5&modelType=Checkpoint&checkpointType=Trained&sortBy=models_v9). 
+* sd1/animeStills_v1.safetensors
+* sd1/dreamshaper_8.safetensors
+* sd1/meinapastel_v6Pastel.safetensors
+* sd1/universestable_v50Comics.safetensors
+* sd1/crystalClear2_crystalClear2V1.safetensors
 
-The following models are all working for me in this setup (these models are each 2-4GB in size): 
+You can obtain more trained [image-generation models from civitai.com](https://civitai.com/models); if you want to do this, [try this search](https://civitai.com/search/models?baseModel=SD%201.5&modelType=Checkpoint&checkpointType=Trained&sortBy=models_v9). **NOTE:** Many Stable Diffusion models are developed by individuals for the purpose of generating virtual pornography — sometimes to satisfy extremely specific kinks. These AI models are often advertised to the "AI art community" using insipid, salacious, and offensive thumbnail pics — reflecting the culture of these individuals. I'm sorry: browsing tools should not require an immersion in creep culture. The AI models are capable of generating a much wider range of images than the thumbnails would suggest.
 
-* [DreamShaper](https://civitai.com/models/4384/dreamshaper)
-* [Realistic Stock Photo](https://civitai.com/models/139565/realistic-stock-photo) 
-* [dvArch - Multi-Prompt Architecture Tuned Model](https://civitai.com/models/8552/dvarch-multi-prompt-architecture-tuned-model)
-* [Product Design (minimalism-eddiemauro)](https://civitai.com/models/23893/product-design-minimalism-eddiemauro)
-* [Fruit Fusion](https://civitai.com/models/18742/fruit-fusion)
-* [Impressionism (Oil painting)](https://civitai.com/models/28068/impressionism-oil-painting)
-* [Slate_pencil_mix](https://civitai.com/models/389528/slatepencilmix)
 
 ---
 
