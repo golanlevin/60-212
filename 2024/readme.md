@@ -58,7 +58,7 @@ This information is also available in our Google [**Calendar**](http://bit.ly/go
 * `Mon 10/28`: [Assignment Set 7B](assignments/assignment_7b.md) (Part II) Due
 * `Wed 11/06`: [Assignment Set 8](assignments/assignment_8.md) Due 
 * `Mon 11/18`: [Assignment Set 9](assignments/assignment_9.md) Due  
-* `Wed 12/04`: Assignment Set 10 *Work-in-Progress* (Interactive Environment)
+* `Wed 12/04`: [Assignment Set 10](assignments/assignment_10.md) *Work-in-Progress* (Interactive Environment)
 * `Tue 12/10`: Assignment Set 10 Due (Interactive Environment), 5:30pm‐8:30pm
 
 ### Calendar Visual Overview: 
