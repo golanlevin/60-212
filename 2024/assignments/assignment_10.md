@@ -45,7 +45,7 @@ This assignment is due in several parts. The first portion will be to watch and 
 
 *(10%, 20 minutes, due 11/20)* 
 
-* **Spend 20 minutes online** looking for content made in Touchdesigner that features some interaction that interests you on socialmedia. Search under **#touchdesigner/#doitintops**. Acceptable sites to do this viewing are Instagram,Twitter,Youtube
+* **Spend 20 minutes online** looking for content made in Touchdesigner that features some interaction that interests you on socialmedia. Search under **#touchdesigner/#doitintops**. Acceptable sites to do this viewing are Instagram,Twitter,Youtube,Vimeo. The [official TouchDesigner showcase on Vimeo.com](https://vimeo.com/groups/touchdesigner/sort:plays/format:thumbnail) is particularly good.
 
 * **Write** one sentence about why this form of interaction or visualization interests you.
 
