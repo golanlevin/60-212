@@ -34,8 +34,8 @@
 * `Wed 11/06`: [Teachable Interactions](daily_notes/20241106.md)
 * `Mon 11/11`: [Introduction to ComfyUI](daily_notes/20241111.md)
 * `Wed 11/13`: [Worksession for AI projects](daily_notes/20241113.md)
-* `Mon 11/18`
-* `Wed 11/20`
+* `Mon 11/18`: Critique of Project 9
+* `Wed 11/20`: TouchDesigner tutorial by Em
 * `Mon 11/25`
 * `Mon 12/02`
 * `Wed 12/04`
@@ -57,7 +57,8 @@ This information is also available in our Google [**Calendar**](http://bit.ly/go
 * `Mon 10/21`: [Assignment Set 7](assignments/assignment_7.md) (Part I) Due
 * `Mon 10/28`: [Assignment Set 7B](assignments/assignment_7b.md) (Part II) Due
 * `Wed 11/06`: [Assignment Set 8](assignments/assignment_8.md) Due 
-* `Mon 11/18`: [Assignment Set 9](assignments/assignment_9.md) Due  
+* `Mon 11/18`: [Assignment Set 9](assignments/assignment_9.md) Due 
+* `Mon 11/25`: [Assignment Set 10b](assignments/assignment_10b.md) Due
 * `Wed 12/04`: [Assignment Set 10](assignments/assignment_10.md) *Work-in-Progress* (Interactive Environment)
 * `Tue 12/10`: Assignment Set 10 Due (Interactive Environment), 5:30pm‐8:30pm
 
