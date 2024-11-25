@@ -36,7 +36,7 @@
 * `Wed 11/13`: [Worksession for AI projects](daily_notes/20241113.md)
 * `Mon 11/18`: Critique of Project 9
 * `Wed 11/20`: TouchDesigner tutorial by Em
-* `Mon 11/25`
+* `Mon 11/25`: [TD interaction & LittleBits](daily_notes/20241125.md)
 * `Mon 12/02`
 * `Wed 12/04`
 * `Tue 12/10`
