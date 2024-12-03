@@ -32,6 +32,17 @@ Feedback and instancing are two effects that are common workflows I would like y
 * Once you complete the tutorials, change SOMETHING SMALL about them. It could be something as miniscule as the period of the noise, or the shape of your instancing objects, or the color scheme. Do some simple transformation on top of the base tutorial to show that you know how certain characteristics of the patch work. Post a screenshot of the patches working, and the output in the discord channel `#10-intermediate-tutorials`
 
 ---
+## 10.5 Progress Report (1.5 hours max) Due 12/4
+* In the #10-progress-report channel in discord post a screenshot of what you have so far for the Interactive Environment project. 
+* Write a couple sentences on what you intend to do or what tools you intend to use
+* What you can write about or show 
+    * a sketch of what you want the final to look like or do
+    * a preliminary node network or rudimentary output
+    * a tool or node that is the "main" function of your patch
+    * an example that inspires you that you intend to recreate or borrow functionality from
+
+* What you cannot do for this project
+    * Use the output directly from a tutorial without accrediting the source
 
 ## 10.5 Interactive Environment
 
