@@ -37,9 +37,9 @@
 * `Mon 11/18`: Critique of Project 9
 * `Wed 11/20`: TouchDesigner tutorial by Em
 * `Mon 11/25`: [TD interaction & LittleBits](daily_notes/20241125.md)
-* `Mon 12/02`
-* `Wed 12/04`
-* `Tue 12/10`
+* `Mon 12/02`: TouchDesigner worksession
+* `Wed 12/04`: TouchDesigner worksession
+* `Tue 12/10`: Final Presentations, 5:30-8:30pm
 
 ---
 
@@ -59,8 +59,8 @@ This information is also available in our Google [**Calendar**](http://bit.ly/go
 * `Wed 11/06`: [Assignment Set 8](assignments/assignment_8.md) Due 
 * `Mon 11/18`: [Assignment Set 9](assignments/assignment_9.md) Due 
 * `Mon 11/25`: [Assignment Set 10b](assignments/assignment_10b.md) Due
-* `Wed 12/04`: [Assignment Set 10](assignments/assignment_10.md) *Work-in-Progress* (Interactive Environment)
-* `Tue 12/10`: Assignment Set 10 Due (Interactive Environment), 5:30pm‐8:30pm
+* `Wed 12/04`: [Assignment Set 10b](assignments/assignment_10b.md) Work-in-Progress (Interactive Environment)
+* `Tue 12/10`: [Assignment Set 10](assignments/assignment_10b.md) Interactive Environment Presentations
 
 ### Calendar Visual Overview: 
 

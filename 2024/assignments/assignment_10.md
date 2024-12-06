@@ -1,5 +1,7 @@
 # Assignment Set #10a
 
+This document is [continued in 10b, here](assignment_10b.md).
+
 ## Touchdesigner: Interactive Environment
 
 In this assignment, we will have a more open ended interactive assignment that will emphasize on visualising and mastering a real-world input. 
