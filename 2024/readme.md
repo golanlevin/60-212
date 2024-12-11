@@ -40,6 +40,7 @@
 * `Mon 12/02`: TouchDesigner worksession
 * `Wed 12/04`: TouchDesigner worksession
 * `Tue 12/10`: Final Presentations, 5:30-8:30pm
+* `Mon 12/16`: *Remaining deliverables due, 12 Noon.*
 
 ---
 
@@ -61,6 +62,7 @@ This information is also available in our Google [**Calendar**](http://bit.ly/go
 * `Mon 11/25`: [Assignment Set 10b](assignments/assignment_10b.md) Due
 * `Wed 12/04`: [Assignment Set 10b](assignments/assignment_10b.md) Work-in-Progress (Interactive Environment)
 * `Tue 12/10`: [Assignment Set 10](assignments/assignment_10b.md) Interactive Environment Presentations
+* `Mon 12/16`: *Remaining deliverables due, 12 Noon.*
 
 ### Calendar Visual Overview: 
 
