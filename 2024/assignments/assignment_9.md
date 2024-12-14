@@ -7,7 +7,7 @@ In this unit, we will explore the combination of creative coding with AI techniq
 * **9.1. Exercise: Dino Diffusion + p5** (10%, 30 minutes, due 11/11)
 * **9.2. Looking Outwards #4: AI+Art** (10%, 30 minutes, due 11/11)
 * **9.3. Situated Eye / Poetic Observer** (40%, 5 hours, due 11/18)
-* **9.4. ComfyUI I: Image Analysis** (15%, 1.5 hours, due 11/18)
+* **9.4. ComfyUI I: Image Analysis** (20%, 1.5 hours, due 11/18)
 * **9.5. ComfyUI II: Image Synthesis** (20%, 2 hours, due 11/18)
 
 **Summary of Due Dates for Assignment #9:**
@@ -128,7 +128,7 @@ ML5.js is *actively transitioning* to a new version. As a result, your mileage m
 * **Swap in your own image and change the Florence prompt**
 * **Write [an OpenProcessing sketch](https://openprocessing.org/class/93074/#/c/94907) that uses the depth and/or segmentation.**
 
-(*15%, 1.5 hours, due 11/18*) In this project, we will revisit the core premise of our [Custom Pixel](https://github.com/golanlevin/60-212/blob/main/2024/assignments/assignment_7b.md#75-custom-pixel-camera-color-nested-iteration) project from Assignment #7.5. This time, however, we will use machine learning techniques (such as monocular depth estimation and semantic segmentation) in order to provide *additional channels of information* to our custom image interpreting software.
+(*20%, 1.5 hours, due 11/18*) In this project, we will revisit the core premise of our [Custom Pixel](https://github.com/golanlevin/60-212/blob/main/2024/assignments/assignment_7b.md#75-custom-pixel-camera-color-nested-iteration) project from Assignment #7.5. This time, however, we will use machine learning techniques (such as monocular depth estimation and semantic segmentation) in order to provide *additional channels of information* to our custom image interpreting software.
 
 1. **First**: briefly familiarize yourself with ComfyUI: what it *is*, and what it can *do*. **Read** the following article: [Beginner's Guide to ComfyUI](https://aituts.com/comfyui/) by AITuts. This should take about 10 minutes. If you're interested in learning more, feel free to browse any or all of the following optional resources: 
   * [ComfyUI Github](https://github.com/comfyanonymous/ComfyUI/blob/master/README.md)
