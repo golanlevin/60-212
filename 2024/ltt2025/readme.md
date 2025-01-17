@@ -23,9 +23,9 @@
 
 ## Preliminary Remarks
 
-* Thank you for allowing me to share with you today. 
+* Thank you for allowing me to share with you today!
 * I'm privileged to work with an unusual population of hybrid students at CMU, an R1 university with strong Computer Science and strong arts. The typical student in my Creative Coding class is a sophomore Art undergraduate who is double-majoring or minoring in Computer Science, HCI, Information Science, or related technical fields. 
-* The students in my course are Art students who have have previously studied programming -- usually, either as AP CS in high school, or Introductory Programming in our School of Computer Science. They have strong visual skills and strong algorithmic thinking skills, but my Creative Coding course is often the first time that they are "putting together" their two interests. 
+* The students in my course are Art students who have previously studied programming -- usually, either as AP CS in high school, or Introductory Programming in our School of Computer Science. They have strong visual skills and strong algorithmic thinking skills, but my Creative Coding course is often the first time that they are "putting together" their two interests. 
 
 
 ---
@@ -142,7 +142,7 @@ As some of you know, I'm co-author with Tega Brain of "[Code as Creative Medium]
 
 ![custom-pixel-assignment.png](img/custom-pixel-assignment.png)
 
-Presently, I use ComfyUI's affordances for AI image *analysis* (such as monocular depth estimation and promptable object segmentation) to *extend* this classic creative coding exercise. I want to remind students that AI is not just for image *synthesis*, but can be used for image *analysis* as well. This conceot was suggested by [Tom White](https://drib.net/).
+Presently, I use ComfyUI's affordances for AI image *analysis* (such as monocular depth estimation and promptable object segmentation) to *extend* this classic creative coding exercise. I want to remind students that AI is not just for image *synthesis*, but can be used for image *analysis* as well. This concept was suggested by [Tom White](https://drib.net/).
 
 ![3_image_depth_and_segmentation_sm.png](img/3_image_depth_and_segmentation_sm.png)
 
