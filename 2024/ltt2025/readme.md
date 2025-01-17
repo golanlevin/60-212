@@ -166,6 +166,8 @@ Presently, I use ComfyUI's affordances for AI image *analysis* (such as monocula
 
 > *Electric hand* by Kai Okorodudu
 
+![kai_hand.png](img/kai_hand.png)
+
 ![kai-okorodudu-hand.gif](img/kai-okorodudu-hand.gif)
 
 * **Acknowledgements**: Thanks to [Tom White](https://drib.net/) who suggested the premise of this assignment. 
