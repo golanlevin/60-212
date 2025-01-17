@@ -23,7 +23,7 @@
 
 ## Preliminary Remarks
 
-* Thank you for allowing me to share with you today. My heart goes out to our many friends in Los Angeles.
+* Thank you for allowing me to share with you today. 
 * I'm privileged to work with an unusual population of hybrid students at CMU, an R1 university with strong Computer Science and strong arts. The typical student in my Creative Coding class is a sophomore Art undergraduate who is double-majoring or minoring in Computer Science, HCI, Information Science, or related technical fields. 
 * The students in my course are Art students who have have previously studied programming -- usually, either as AP CS in high school, or Introductory Programming in our School of Computer Science. They have strong visual skills and strong algorithmic thinking skills, but my Creative Coding course is often the first time that they are "putting together" their two interests. 
 
