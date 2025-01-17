@@ -8,7 +8,7 @@
 
 ## Overview
 
-> **I report on a collection of exercises that were used to integrate generative AI toolkits into a fall 2024 studio art course in creative coding at Carnegie Mellon University.** 
+> **I report on a collection of weekly exercises that were used to integrate generative AI toolkits into a fall 2024 studio art course in creative coding at Carnegie Mellon University.** 
 >
 > “[Intermediate Studio: Creative Coding](https://github.com/golanlevin/60-212/tree/main/2024)” (60-212) is a practical introduction to the use of programming and computation within the context of the arts. In this course, students develop or deepen the skills and confidence to produce interactive, generative, and computational artworks; discuss their work in relation to current and historic praxes of computer art; and engage new technologies critically. The primary toolkit used in the course is p5.js, and most of the assignments are adapted from the book I co-authored with Tega Brain, “[Code as Creative Medium](https://mitpress.mit.edu/9780262542043/code-as-creative-medium/)”. In previous editions of this course, the integration of AI techniques has been limited to the use of Google’s Teachable Machine and MediaPipe libraries (via ml5.js) to analyze, recognize and track body movements for e.g. gestural interactions.
 >
@@ -24,8 +24,8 @@
 ## Preliminary Remarks
 
 * Thank you for allowing me to share with you today. My heart goes out to our many friends in Los Angeles.
-* I'm privileged to work with an unusual population of hybrid students at CMU, an R1 university with strong Computer Science and strong arts. The typical student in my Creative Coding class is a sophomore undergraduate in our School of Art who is minoring or double-majoring in Computer Science, HCI, Information Science, or related technical fields. 
-* The students in my course have previously studied programming -- e.g. either as AP CS in high school, or Introductory Programming in our School of Computer Science. My Creative Coding course is the first time that they are "putting together" their two interests. 
+* I'm privileged to work with an unusual population of hybrid students at CMU, an R1 university with strong Computer Science and strong arts. The typical student in my Creative Coding class is a sophomore Art undergraduate who is double-majoring or minoring in Computer Science, HCI, Information Science, or related technical fields. 
+* The students in my course are Art students who have have previously studied programming -- usually, either as AP CS in high school, or Introductory Programming in our School of Computer Science. They have strong visual skills and strong algorithmic thinking skills, but my Creative Coding course is often the first time that they are "putting together" their two interests. 
 
 
 ---
@@ -64,10 +64,14 @@ function keyPressed(){
 
 ![51_bee_jackson.png](img/51_bee_jackson.png)
 
+> "Describe this as an sophisticated product using product design vernacular" — Brooke Schwartz
+
+![brooke_schwartz_gemini.png](img/brooke_schwartz_gemini.png)
+
 
 ## 1.2. "LLM-Boosted Interaction"
 
-* **Summary**: "In this project, you are asked to make an app in p5.js that uses the Google Gemini API to do something interesting." 
+* **Summary**: "In this project, you are asked to make an app in p5.js that uses the Google Gemini API to do something interesting." Students are given a week.
 * **Assignment**: Detailed assignment statement [**here**](https://github.com/golanlevin/60-212/blob/main/2024/assignments/assignment_5.md#52-project-llm-boosted-interaction)
 * **Template code**: Lots of sample programs linked [**here**](https://github.com/golanlevin/60-212/blob/main/2024/assignments/assignment_5.md#52-project-llm-boosted-interaction)
 
@@ -155,6 +159,10 @@ Presently, I use ComfyUI's affordances for AI image *analysis* (such as monocula
 
 
 #### Some Student Work
+
+> *Dream Scene Painting* by Jeffrey Wang
+
+![jeffrey_wang_pixel.png](img/jeffrey_wang_pixel.png)
 
 > *Electric hand* by Kai Okorodudu
 
