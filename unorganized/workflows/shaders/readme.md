@@ -8,6 +8,7 @@
 
 ### Inspirations ✅ 
 
+* [Mythbusters: CPU vs GPU](https://www.youtube.com/shorts/0jZKw74jDnY)
 * [Char Stiles, livecoding practice](http://charstiles.com/shader/)
 * [Melissa Wiederrecht, *Cosmic Rays*](https://melissawiederrecht.com/artwork/cosmic-rays), 2023
 * [Loie Hollowell, *Contractions*](https://www.artblocks.io/curated/collections/contractions-by-loie-hollowell?tab=Artworks), 2022
