@@ -1,5 +1,7 @@
 # Color
 
+![cercis-canadensis.jpg](cercis-canadensis.jpg)
+
 ---
 
 ### Level 1: Basics

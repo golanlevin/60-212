@@ -75,6 +75,10 @@ Takahiro Kurashima's interactive [*Poemotion*](https://www.lars-mueller-publishe
 
 [![Kurashima's *Moirémotion*](../openprocessing_images/kurashima_book.jpg)](https://www.youtube.com/watch?v=zG5omMyxmNI)
 
+<!--
+![moire_zach_lieberman_2025.jpg](../openprocessing_images/moire_zach_lieberman_2025.jpg)
+-->
+
 
 ---
 
