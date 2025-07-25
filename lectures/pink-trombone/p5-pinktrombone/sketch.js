@@ -2,6 +2,9 @@
 // Copyright 2017 Neil Thapen - https://dood.al/pinktrombone/
 // "Bare-handed procedural speech synthesis"
 // Adapted to p5.js by Golan Levin, July 2025
+// Click to begin. 
+// Writeup: 
+// https://github.com/golanlevin/60-212/tree/main/lectures/pink-trombone
 //============================================================
 
 let tonguePositionSlider; 
@@ -22,8 +25,8 @@ function setup() {
 
 //-----------------------
 function mousePressed() {
-  // Don't touch this — the AudioSystem must be initialized by
-  // a user action to comply with browser autoplay policies.
+  // Don't delete this — the AudioSystem must be initialized by
+  // a user action to comply with browser autoplay policies:
   startPinkTromboneAudioSystem(); 
 }
 
@@ -35,7 +38,7 @@ function draw() {
   if (bAutoPlay){
      tonguePositionSlider.value( map(noise(millis()/500), 0, 1, tongueMin, tongueMax) );
      tongueDiameterSlider.value( map(noise(millis()/180), 0, 1, innerTongueDiameter, outerTongueDiameter) );
-     pitchSlider.value( map(noise(millis()/1300), 0, 1, 90, 240) );
+     pitchSlider.value( map(noise(millis()/1300), 0,1, 31,72) ); // range is MIDI notes, G1-C5
      voicingSlider.value( map(noise(millis()/1100), 0.1, 0.9, 0, 1) );
   }
 
