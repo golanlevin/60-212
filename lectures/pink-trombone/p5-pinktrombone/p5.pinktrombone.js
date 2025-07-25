@@ -403,7 +403,7 @@ var AudioSystem =
             vocalOutput += Tract.lipOutput + Tract.noseOutput;
             Tract.runStep(glottalOutput, inputArray2[j], lambda2);
             vocalOutput += Tract.lipOutput + Tract.noseOutput;
-            let sample = AudioSystem.bZeroVolume ? 0.0 : vocalOutput * 0.5;
+            let sample = AudioSystem.bZeroVolume ? 0.0 : vocalOutput * 0.4;
             outArray[j] = sample;
 
             AudioSystem.latestAudioBlock[j] = sample;  // <-- store for volume calculation
