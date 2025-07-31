@@ -50,4 +50,4 @@ If [**Pink Trombone**](https://dood.al/pinktrombone/) is a "disembodied mouth", 
 
 * [Pink Trombone with extra controls and visualizations](https://www.yacavone.net/vowel-space/)
 * Zack Qattan's [Text-to-Speech Pink Trombone](https://www.youtube.com/watch?v=YhlIgTvHwa0)
-
+* These [researchers controlled Pink Trombone with a neural net](https://courses.ideate.cmu.edu/60-428/f2021/index.html%3Fp=111.html)
