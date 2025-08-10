@@ -84,6 +84,11 @@ Dana Gordon reflected on a visit to the Mark Rothko retrospective at The Fondati
 
 ![looking_at_rothko_no14.jpg](img/looking_at_rothko_no14.jpg)
 
+*Dansaekhwa*, sometimes known as Korean monochrome painting, is an art movement born in South Korea in the 1970s. Dansaekhwa artists avoided any reference to Western realism in their works, creating primarily monochrome and minimalist paintings with a strong focus on materiality. An example is Hur Hwang (허황), whose paintings explore subtle variations of the color white, which he believes invokes diverse psychological responses. Hur Hwang creates his own paint, mostly out of a thick mix of natural stone powder that he poured onto the canvas.
+
+![hur_hwang_variable_consciousness_1993_dansaekhwa.jpg](img/hur_hwang_variable_consciousness_1993_dansaekhwa.jpg)<br />Hur Hwang, *Variable Consciousness*, 1993.
+
+
 ---
 
 I realize I said "no hard edges". In these two works, intermediate colors are achieved by a kind of half-tone or dithering technique: placing small chips or lines of different colors, with admittedly hard edges, in close alternation. 
@@ -137,13 +142,17 @@ Light: Rafaël Rozendaal at MoMA
 
 ---
 
+<!--
 https://www.instagram.com/mchx_______/
 
 https://www.fxhash.xyz/u/MCHX
+-->
 
 ![anton_dubrovin_mchx_2025.jpg](img/anton_dubrovin_mchx_2025.jpg)<br />Anton Dubrovn (MCHX), 2025. [another](img/anton_dubrovn_mchx_2025_2.jpg)
 
 ---
+
+<!--
 
 https://x.com/XorDev/status/1927869795304669566
 
@@ -176,3 +185,5 @@ Zach Lieberman
 * https://twigl.app/?ol=true&ss=-OV-iPL4DQkXYW-ABUrV
 * https://twigl.app/?ol=true&ss=-OURN9GfEmqqTAhL71vg
 * https://bsky.app/profile/xordev.com/post/3lqqqeecldk2a
+
+-->
