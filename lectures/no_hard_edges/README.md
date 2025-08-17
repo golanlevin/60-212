@@ -4,6 +4,8 @@ Work in Progress
 
 ---
 
+![spectrum-cast-by-prism.jpg](img/spectrum-cast-by-prism.jpg)
+
 *Articulating the Indistinct*
 
 An image that is, not one that depicts
@@ -118,6 +120,8 @@ I realize I said "no hard edges". In these two works, intermediate colors are ac
 ---
 
 ## Computational Approaches
+
+![cory_arcangel_photoshop_cs_2017-042.jpg](img/cory_arcangel_photoshop_cs_2017-042.jpg)<br />Cory Arcangel, *"Photoshop CS: 84 by 144 inches, 300 DPI, RGB, square pixels, default gradient "Spectrum", mousedown y=12100, x=26340, mouseup y=12100, x=42000; tool "Wand", select y= 12100, x=20000, tolerance=94, contiguous=on; default gradient "Spectrum", mousedown y=24300, x=16320, mouseup y=0, x=16320"*, 2017
 
 ![manolo_gamboa_naon_cirrrll_2020.jpg](img/manolo_gamboa_naon_cirrrll_2020.jpg)<br />Manolo Gamboa Naon, [*cirrrll*](https://www.behance.net/gallery/95976629/cirrrll), 2020
 
