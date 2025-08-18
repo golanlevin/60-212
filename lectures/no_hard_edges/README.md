@@ -152,7 +152,12 @@ https://www.instagram.com/mchx_______/
 https://www.fxhash.xyz/u/MCHX
 -->
 
-![anton_dubrovin_mchx_2025.jpg](img/anton_dubrovin_mchx_2025.jpg)<br />Anton Dubrovn (MCHX), 2025. [another](img/anton_dubrovn_mchx_2025_2.jpg)
+![anton_dubrovin_mchx_2025.jpg](img/anton_dubrovin_mchx_2025.jpg)<br />Anton Dubrovn (MCHX), 2025.
+
+![anton_dubrovn_mchx_2025_2.jpg](img/anton_dubrovn_mchx_2025_2.jpg)<br />Anton Dubrovn (MCHX), [2025](https://www.instagram.com/p/DNSeYfRMyrV/?img_index=1).
+
+![light_doesn't_bend_that_way_lars_wander.jpg](img/light_doesn't_bend_that_way_lars_wander.jpg)<br />Lars Wander, [Light Doesn't Bend that Way](https://larswander.com/art/light-doesnt-bend-that-way/), 2023.
+
 
 ---
 
