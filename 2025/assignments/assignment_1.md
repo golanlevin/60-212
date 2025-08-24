@@ -65,7 +65,7 @@ Additionally:
 * **1.4.2.** (*10 minutes*) **Do** [Nested Iteration & Randomness: Grid, Interrupted](https://openprocessing.org/class/100952/#/c/100956)
 * **1.4.3.** (*15 minutes*) **Do** [Transformations + Functional Abstraction: Critter Stamps](https://openprocessing.org/class/100952/#/c/100957)
 * **1.4.4.** (*30 minutes*) **Do** [Array of (Animating) Objects: Ripples](https://openprocessing.org/class/100952/#/c/100958)
-* **1.4.5.** (*60 minutes*) **Do** [Expressive Control of a Line: Profile Generator]()
+* **1.4.5.** (*60 minutes*) **Do** [Expressive Control of a Line: Profile Generator](https://openprocessing.org/class/100952/#/c/100959)
 
 For each of these exercises, submit it to the appropriate slot in the OpenProcessing classroom. (In case it's helpful, a tutorial on how to use OpenProcessing is available [here](https://www.youtube.com/watch?v=Oj3DGSCMAOQ).) No additional documentation (writeup, screenshot, etc.) is required for these exercises.
 
