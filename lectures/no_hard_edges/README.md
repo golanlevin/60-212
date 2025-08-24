@@ -86,6 +86,10 @@ Dana Gordon reflected on a visit to the Mark Rothko retrospective at The Fondati
 
 ![looking_at_rothko_no14](img/looking_at_rothko_no14.jpg)
 
+Jordan Belson (1926–2011) was an American abstract filmmaker whose work explored visionary and cosmic imagery, often described as meditative journeys into inner and outer space. Drawing on influences from Eastern mysticism, meditation, and metaphysical traditions, his films use shifting fields of light, color, and sound to evoke transcendent, spiritual states of consciousness. Belson’s aesthetics aimed less at narrative and more at evoking an experiential encounter with the sublime, the infinite, and the unseen. Here is a clip from [*Momentum*](https://www.youtube.com/watch?v=F2EBAksEoJM&t=77s) (1968):
+
+[![jordan_belson_momentum_1968](img/jordan_belson_momentum_1968.jpg)](https://www.youtube.com/watch?v=F2EBAksEoJM&t=77s)
+
 *Dansaekhwa*, sometimes known as Korean monochrome painting, is an art movement born in South Korea in the 1970s. Dansaekhwa artists avoided any reference to Western realism in their works, creating primarily monochrome and minimalist paintings with a strong focus on materiality. An example is Hur Hwang (허황), whose paintings explore subtle variations of the color white, which he believes invokes diverse psychological responses. Hur Hwang creates his own paint, mostly out of a thick mix of natural stone powder that he poured onto the canvas.
 
 ![hur_hwang_variable_consciousness_1993_dansaekhwa](img/hur_hwang_variable_consciousness_1993_dansaekhwa.jpg)<br />Hur Hwang, *Variable Consciousness*, 1993.

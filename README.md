@@ -5,17 +5,17 @@ School of Art & IDeATe • Carnegie Mellon University*
 
 ---
 
-## 2024 Edition - Key Links
+## 2025 Edition - Key Links
 
-* [Syllabus](2024/syllabus/60-212_syllabus_fall2024.md)
-* [Main Page (Daily Notes & Assignments)](2024/readme.md)
-* OpenProcessing Site: [https://openprocessing.org/class/93074](https://openprocessing.org/class/93074#/) 
-* Google Calendar: [http://bit.ly/golancoursecalendar](http://bit.ly/golancoursecalendar)
+* [Fall 2025 Syllabus](2025/syllabus/60-212_syllabus_fall2025.md)
+* [Main Page (Daily Notes & Assignments)](2025/readme.md)
+* OpenProcessing Site: [https://openprocessing.org/class/100952](https://openprocessing.org/class/100952#/) 
 
 ---
 
 ### Past Editions
 
+* 2024: [Creative Coding](2024/readme.md)
 * 2023: [Creative Coding](https://golancourses.net/fall23/)
 * 2022: [Interactivity and Computation](https://courses.ideate.cmu.edu/60-212/s2022/)
 * 2020: [Interactivity and Computation](https://courses.ideate.cmu.edu/60-212/f2020/)
