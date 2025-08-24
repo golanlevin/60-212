@@ -9,6 +9,9 @@
 *Articulating the Indistinct*
 
 <!--
+
+https://openprocessing.org/sketch/2334454 - Shader Template
+
 An image that *is*, not one that depicts 
 a photograph of math
 fragment shader programmed as a felt field rather than a rendered object.
