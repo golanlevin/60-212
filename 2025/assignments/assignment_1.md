@@ -8,10 +8,10 @@
 
 *This set of deliverables is due by the beginning of class on Wednesday 8/27. There are four main tasks, the total of which should take less than 3 hours:*
 
-* 1.1. [Administrative Tasks]() *(30 minutes)*
-* 1.2. [Looking Outwards Post]() *(15 minutes)*
-* 1.3. [Wayfinding]() *(30 minutes)*
-* 1.4. [Four Small Exercises]() *(90 minutes)*
+* 1.1. [Administrative Tasks](#11-administrative-tasks) *(30 minutes)*
+* 1.2. [Looking Outwards Post](#12-looking-outwards-post) *(15 minutes)*
+* 1.3. [Wayfinding](#13-wayfinding) *(30 minutes)*
+* 1.4. [Four Small Exercises](#14-four-small-exercises) *(90 minutes)*
 
 ---
 
