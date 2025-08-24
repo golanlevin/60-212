@@ -2,6 +2,7 @@
 
 ### Due Wednesday, August 27, 2025
 
+
 ---
 
 ![dendron-banner-hello.png](img/dendron-banner-hello.png)
@@ -12,6 +13,7 @@
 * 1.2. [Looking Outwards Post](#12-looking-outwards-post) *(15 minutes)*
 * 1.3. [p5 Wayfinding](#13-p5-wayfinding) *(30 minutes)*
 * 1.4. [Five Small Exercises](#14-five-small-exercises) *(2 hours)*
+
 
 ---
 
@@ -52,12 +54,13 @@ Additionally:
 * Unless otherwise indicated, feel welcome to use AI systems while programming, such as ChatGPT, Claude, or CoPilot. *(In your project reports, be sure to indicate that you received assistance from these systems.)*
 * If you find it helpful, Lauren McCarthy's book, "[Getting Started with p5.js](https://learning.oreilly.com/library/view/getting-started-with/9781457186769/?sso_link=yes&sso_link_from=cmu-edu)" is available online for free through the CMU libraries.
 * Remember, if you get stuck while making the projects, you can always give a shout in the `#haaaalp` channel in the course Discord.
-* See the [helpful tools](#helpful-tools) documented at the bottom of this page. 
 
 
 ---
 
 ## 1.4. Five Small Exercises
+
+![assignment_1_five_exercises.png](img/assignment_1_five_exercises.png)
 
 (***2 hours***) **Complete** the following five mini-assignments in our [OpenProcessing classroom](https://openprocessing.org/class/100952#/). The purpose of these exercises is to help me assess your preparedness and baseline level of skill. For this reason, these exercises are less open-ended than others to come.
 
@@ -72,7 +75,7 @@ For each of these exercises, submit it to the appropriate slot in the OpenProces
 
 ---
 
-## Helpful Tools
+## Helpful Information
 
 ### Locating Pixel Coordinates
 
@@ -80,11 +83,7 @@ It can sometimes be challenging to locate the pixel coordinates you want. You ma
 
 <img src="../../2024/assignments/images/mouse-recording.gif" width="400">
 
-### Choosing Colors
 
-In can also be challenging to get the values that describe the color you want. You may find it helpful to refer to this [table of common Web colors](https://en.wikipedia.org/wiki/Web_colors#Extended_colors) (which can help you refer to colors by name) as well as the [Digital Color Meter app](https://medium.com/mac-os-x/digital-color-meter-in-mac-machine-e961bedca040) that comes with MacOS. Additionally, you can easily access a color picker by [searching for one on Google](https://www.google.com/search?q=color+picker):
-
-<img src="../../2024/assignments/images/google-color-picker.png" width="400">
 
 
 
