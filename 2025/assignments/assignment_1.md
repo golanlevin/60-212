@@ -6,12 +6,12 @@
 
 ![dendron-banner-hello.png](img/dendron-banner-hello.png)
 
-*This set of deliverables is due by the beginning of class on Wednesday 8/27. There are four main tasks, the total of which should take less than 3 hours:*
+*This set of deliverables is due by the beginning of class on Wednesday 8/27. There are four main tasks, the total of which should take less than 4 hours:*
 
 * 1.1. [Administrative Tasks](#11-administrative-tasks) *(30 minutes)*
 * 1.2. [Looking Outwards Post](#12-looking-outwards-post) *(15 minutes)*
-* 1.3. [Wayfinding](#13-wayfinding) *(30 minutes)*
-* 1.4. [Four Small Exercises](#14-four-small-exercises) *(90 minutes)*
+* 1.3. [p5 Wayfinding](#13-p5-wayfinding) *(30 minutes)*
+* 1.4. [Five Small Exercises](#14-five-small-exercises) *(2 hours)*
 
 ---
 
@@ -39,9 +39,9 @@
 
 ---
 
-## 1.3. Wayfinding 
+## 1.3. p5 Wayfinding 
 
-(***30 minutes***] Wayfinding: **ensure** you know where to get help
+(***30 minutes***] The purpose of this task is to help **ensure** that you know where to find good-quality information about the p5.js toolkit.
 
 * (*10 minutes*) **Browse** the [p5.js Reference](https://p5js.org/reference/). Examine at least ten Reference pages, starting with the [Shape commands](https://p5js.org/reference/#Shape). Note that many of the Reference pages allow you to tinker with the code. *(For what it's worth, I happen to prefer the [old version of the reference](https://archive.p5js.org/reference/).)*
 * (*10 minutes*) **Browse** the [p5.js Examples](https://archive.p5js.org/examples/) archive, which are organized thematically. Review at least ten p5.js Examples, skimming their code.
@@ -57,16 +57,17 @@ Additionally:
 
 ---
 
-## 1.4. Four Small Exercises
+## 1.4. Five Small Exercises
 
-(***60 minutes***) **Complete** the following four mini-assignments in our [OpenProcessing classroom](https://openprocessing.org/class/100952#/). These are not particularly 'creative' projects; the purpose of these exercises is to help me assess your preparedness and baseline level of programming skill.
+(***2 hours***) **Complete** the following five mini-assignments in our [OpenProcessing classroom](https://openprocessing.org/class/100952#/). The purpose of these exercises is to help me assess your preparedness and baseline level of skill. For this reason, these exercises are less open-ended than others to come.
 
-* **1.4.1.** (*5 minutes*) **Do** [Iteration: Transitioning Rectangles](https://openprocessing.org/class/93074/#/c/93123)
-* **1.4.2.** (*10 minutes*) **Do** [Nested Iteration & Randomness: Grid, Interrupted]()
-* **1.4.3.** (*15 minutes*) **Do** [Transformations + Functional Abstraction: Critter Stamps]()
-* **1.4.4.** (*30 minutes*) **Do** [Array of (Animating) Objects: Ripples]()
+* **1.4.1.** (*5 minutes*) **Do** [Iteration: Transitioning Rectangles](https://openprocessing.org/class/100952/#/c/100955)
+* **1.4.2.** (*10 minutes*) **Do** [Nested Iteration & Randomness: Grid, Interrupted](https://openprocessing.org/class/100952/#/c/100956)
+* **1.4.3.** (*15 minutes*) **Do** [Transformations + Functional Abstraction: Critter Stamps](https://openprocessing.org/class/100952/#/c/100957)
+* **1.4.4.** (*30 minutes*) **Do** [Array of (Animating) Objects: Ripples](https://openprocessing.org/class/100952/#/c/100958)
+* **1.4.5.** (*60 minutes*) **Do** [Expressive Control of a Line: Profile Generator]()
 
-For each of these exercises, submit it to the appropriate slot in the OpenProcessing classroom. For these exercises, no other documentation (writeup, screenshot, etc.) is required.  
+For each of these exercises, submit it to the appropriate slot in the OpenProcessing classroom. (In case it's helpful, a tutorial on how to use OpenProcessing is available [here](https://www.youtube.com/watch?v=Oj3DGSCMAOQ).) No additional documentation (writeup, screenshot, etc.) is required for these exercises.
 
 
 ---

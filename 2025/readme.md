@@ -25,7 +25,12 @@
 
 ---
 
-## Daily Notes & Lectures
+## Special Events
+
+* `Mon 10/06`: [Daniel Temkin artist talk](https://danieltemkin.com/), STUDIO for Creative Inquiry, 5:30pm 
+* `Tue 10/21`: [Everest Pipkin artist talk](), Kresge Theater, 5:30pm.
+
+## Daily Notes, Lectures, & Events
 
 * `Mon 08/25` [Hello World!](daily_notes/20250825.md)
 * `Wed 08/27` 
@@ -60,6 +65,11 @@
 * `TBA, 12/8-12` — Final presentations
 * `Mon 12/15`
 
+---
+
+
+
+
 
 <!--
 
@@ -90,6 +100,13 @@
 * `Wed 12/04`: TouchDesigner worksession
 * `Tue 12/10`: Final Presentations, 5:30-8:30pm
 * `Mon 12/16`: *Remaining deliverables due, 12 Noon.*
+
+Body/gait interp things to see: 
+https://x.com/yugop/status/1842149619167531174
+https://x.com/jtchomko/status/1935364536623562853?s=46&t=UdwSqA9DrI0efjW7u0Ittw
+
+Shader template: 
+https://openprocessing.org/sketch/2334454
 
 -->
 
