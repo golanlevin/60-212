@@ -1,11 +1,67 @@
 # Creative Coding (60-212) • Fall 2025
 
 * OpenProcessing Classroom: [https://openprocessing.org/class/100952](https://openprocessing.org/class/100952#/)
-* [Fall 2025 Syllabus](syllabus/60-212_syllabus_fall2025.md)
+* Creative Coding [Fall 2025 Syllabus](syllabus/60-212_syllabus_fall2025.md)
+
+---
+
+## Assignments
+
+* `Wed 08/27`: [Assignment Set 1](assignments/assignment_1.md) Due
+* `Wed 09/03`: Assignment Set 2 Due
+* `Wed 09/10`: Assignment Set 3 Due
+* `Wed 09/17`: Assignment Set 4 Due
+* `Wed 09/25`: Assignment Set 5 Due
+* `Wed 10/02`: Assignment Set 6 Due
+* `Wed 10/09`: Assignment Set 7 Due
+* `Mon 10/21`: [Assignment Set 7](assignments/assignment_7.md) (Part I) Due
+* `Mon 10/28`: [Assignment Set 7B](assignments/assignment_7b.md) (Part II) Due
+* `Wed 11/06`: [Assignment Set 8](assignments/assignment_8.md) Due 
+* `Mon 11/18`: [Assignment Set 9](assignments/assignment_9.md) Due 
+* `Mon 11/25`: [Assignment Set 10a](assignments/assignment_10b.md) Due
+* `Wed 12/04`: [Assignment Set 10b](assignments/assignment_10b.md) Work-in-Progress (Interactive Environment)
+* `Tue 12/10`: [Assignment Set 10](assignments/assignment_10b.md) Interactive Environment Presentations
+* `Mon 12/16`: *Remaining deliverables due, 12 Noon.*
 
 ---
 
 ## Daily Notes & Lectures
+
+* `Mon 08/25` [Hello World!](daily_notes/20250825.md)
+* `Wed 08/27` 
+* `Mon 09/01` — *No session (Labor Day)*
+* `Wed 09/03` 
+* `Mon 09/08`  
+* `Wed 09/10` 
+* `Mon 09/15` 
+* `Wed 09/17` 
+* `Mon 09/22` 
+* `Wed 09/24` 
+* `Mon 09/29` 
+* `Wed 10/01` 
+* `Mon 10/06` 
+* `Wed 10/08` 
+* `Mon 10/13` — *No session (Fall Break)*
+* `Wed 10/15` — *No session (Fall Break)*
+* `Mon 10/20`
+* `Wed 10/22` 
+* `Mon 10/27` 
+* `Wed 10/29` 
+* `Mon 11/03` 
+* `Wed 11/05` 
+* `Mon 11/10` 
+* `Wed 11/12` 
+* `Mon 11/17` 
+* `Wed 11/19` 
+* `Mon 11/24` 
+* `Wed 11/26` — *No session (Thanksgiving)*
+* `Wed 12/01` 
+* `Mon 12/03` 
+* `TBA, 12/8-12` — Final presentations
+* `Mon 12/15`
+
+
+<!--
 
 * `Mon 08/26`: [Hello World!](daily_notes/20240826.md)
 * `Wed 08/28`: [Code & Form](daily_notes/20240828.md)
@@ -35,30 +91,8 @@
 * `Tue 12/10`: Final Presentations, 5:30-8:30pm
 * `Mon 12/16`: *Remaining deliverables due, 12 Noon.*
 
----
+-->
 
-## Assignments & Critical Dates
 
-This information is also available in our Google [**Calendar**](http://bit.ly/golancoursecalendar):
-
-* `Wed 08/28`: [Assignment Set 1](assignments/assignment_1.md) Due
-* `Wed 09/04`: [Assignment Set 2](assignments/assignment_2.md) Due
-* `Wed 09/11`: [Assignment Set 3](assignments/assignment_3.md) Due
-* `Tue 09/24`: [Artist talk by Brain & Lavigne](https://studioforcreativeinquiry.org/events/brain-lavigne)
-* `Wed 09/25`: [Assignment Set 4](assignments/assignment_4.md) Due
-* `Wed 10/02`: [Assignment Set 5](assignments/assignment_5.md) Due
-* `Wed 10/09`: [Assignment Set 6](assignments/assignment_6.md) Due
-* `Mon 10/21`: [Assignment Set 7](assignments/assignment_7.md) (Part I) Due
-* `Mon 10/28`: [Assignment Set 7B](assignments/assignment_7b.md) (Part II) Due
-* `Wed 11/06`: [Assignment Set 8](assignments/assignment_8.md) Due 
-* `Mon 11/18`: [Assignment Set 9](assignments/assignment_9.md) Due 
-* `Mon 11/25`: [Assignment Set 10b](assignments/assignment_10b.md) Due
-* `Wed 12/04`: [Assignment Set 10b](assignments/assignment_10b.md) Work-in-Progress (Interactive Environment)
-* `Tue 12/10`: [Assignment Set 10](assignments/assignment_10b.md) Interactive Environment Presentations
-* `Mon 12/16`: *Remaining deliverables due, 12 Noon.*
-
---- 
-
-### Calendar Visual Overview: 
 
 

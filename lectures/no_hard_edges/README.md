@@ -1,6 +1,6 @@
 # No Hard Edges
 
-Work in Progress
+*Work in Progress*
 
 ---
 
@@ -8,25 +8,22 @@ Work in Progress
 
 *Articulating the Indistinct*
 
-An image that is, not one that depicts
-
-resists literal interpretation, offers compositional depth and variation, and rewards a fragment shader programmed as a felt field rather than a rendered object.
-
-photograph of math
-
-
+<!--
+An image that *is*, not one that depicts 
+a photograph of math
+fragment shader programmed as a felt field rather than a rendered object.
+resisting literal interpretation
 Compositional flatness (or shallow space)
 Field-based logic (no hierarchy or figure/ground)
 Built from small gestures: dots, strokes, dabs
 Light, color, or texture emerge from accumulation
 No “image of” — just image
+-->
 
 
 ---
 
-![caspar_david_friedrich_monk_by_the_sea_1808](img/caspar_david_friedrich_monk_by_the_sea_1808.jpg)<br />Caspar David Friedrich, [*Monk by the Sea*](https://en.wikipedia.org/wiki/The_Monk_by_the_Sea), 1808.
-
-A visitor to Friedrich’s studio, Helene von Kügelgen, suggested that the painting would be less frightening if he put a sea monster in it.![caspar_david_friedrich_morning_1824](img/caspar_david_friedrich_morning_1824.jpg)<br />Caspar David Friedrich, *Morning*, 1824.
+![caspar_david_friedrich_monk_by_the_sea_1808](img/caspar_david_friedrich_monk_by_the_sea_1808.jpg)<br />Caspar David Friedrich, [*Monk by the Sea*](https://en.wikipedia.org/wiki/The_Monk_by_the_Sea), 1808. A visitor to Friedrich’s studio, Helene von Kügelgen, suggested that the painting would be less frightening if he put a sea monster in it.![caspar_david_friedrich_morning_1824](img/caspar_david_friedrich_morning_1824.jpg)<br />Caspar David Friedrich, *Morning*, 1824.
 
 ---
 
@@ -38,13 +35,13 @@ A visitor to Friedrich’s studio, Helene von Kügelgen, suggested that the pain
 
 **Tonalism** was a style of painting that emerged in the US in the late 19th century, characterized by a narrow range of muted colors and soft, atmospheric effects to evoke mood and quiet introspection. Instead of emphasizing clear detail or dramatic contrast, Tonalist artists built their images from subtle shifts in tone—often in a single dominant color family, like warm browns or cool grays.
 
-Tonalist landscapes often depict twilight, mist, or still water, with hazy silhouettes and a sense of stillness. The goal wasn’t to document nature precisely, but to convey a mood of reverie, often bordering on the spiritual or melancholic. In short, Tonalism is about painting with mood first, form second—a good parallel for shader programming focused on soft, immersive fields rather than objects or outlines.
+Tonalist landscapes often depict twilight, mist, or still water, with hazy silhouettes and a sense of stillness. The goal wasn’t to document nature precisely, but to convey a mood of reverie, often bordering on the spiritual or melancholic. In short, Tonalism is about painting with mood first, form second—a good parallel for shader programming focused on soft, immersive fields rather than objects or outlines. Here are various tonalist works by James Whistler: 
 
-![jm_whistler_nocturne_grey_and_silver_1875](img/jm_whistler_nocturne_grey_and_silver_1875.jpg)
+![jm_whistler_nocturne_grey_and_silver_1875](img/jm_whistler_nocturne_grey_and_silver_1875.jpg)<br />J.M. Whistler, *Nocturne in Grey and Silver*, 1875
 
-![jm_whistler_nocturne_in_black_and_gold_the_falling_rocket_1875](img/jm_whistler_nocturne_in_black_and_gold_the_falling_rocket_1875.jpg)
+![jm_whistler_nocturne_in_black_and_gold_the_falling_rocket_1875](img/jm_whistler_nocturne_in_black_and_gold_the_falling_rocket_1875.jpg)<br />J.M. Whistler, *Nocturne in Black and Gold*, 1875
 
-![jm_whistler_nocturne_grey_and_gold_canal_1884](img/jm_whistler_nocturne_grey_and_gold_canal_1884.jpg)
+![jm_whistler_nocturne_grey_and_gold_canal_1884](img/jm_whistler_nocturne_grey_and_gold_canal_1884.jpg)<br />J.M. Whistler, *Nocturne in Grey and Gold*, 1884
 
 ---
 
@@ -130,7 +127,9 @@ Tauba Auerbach, [*Untitled (Fold)*](https://taubaauerbach.com/view.php?id=376), 
 
 ## Computational Approaches
 
+<!--
 ![cory_arcangel_photoshop_cs_2017-042](img/cory_arcangel_photoshop_cs_2017-042.jpg)<br />Cory Arcangel, *"Photoshop CS: 84 by 144 inches, 300 DPI, RGB, square pixels, default gradient "Spectrum", mousedown y=12100, x=26340, mouseup y=12100, x=42000; tool "Wand", select y= 12100, x=20000, tolerance=94, contiguous=on; default gradient "Spectrum", mousedown y=24300, x=16320, mouseup y=0, x=16320"*, 2017
+-->
 
 ![manolo_gamboa_naon_cirrrll_2020](img/manolo_gamboa_naon_cirrrll_2020.jpg)<br />Manolo Gamboa Naon, [*cirrrll*](https://www.behance.net/gallery/95976629/cirrrll), 2020
 
@@ -139,13 +138,15 @@ Tauba Auerbach, [*Untitled (Fold)*](https://taubaauerbach.com/view.php?id=376), 
 Light: Rafaël Rozendaal at MoMA
 
 ![rafael_rozendaal_light_moma_2025](img/rafael_rozendaal_light_moma_2025.jpg)
-[another](img/rafael_rozendaal_light_moma_2025_2.jpg)
+[another](img/rafael_rozendaal_light_moma_2025_2.jpg) by Rozendaal
 
 ![rafael_rozendaal_81_landscapes_2025](img/rafael_rozendaal_81_landscapes_2025.jpg)
 
 [Lenticular paintings by Rozendaal](https://x.com/heft_gallery/status/1943345145887265077)
 
 ---
+
+Works by [Krista Kim](https://www.kristakimstudio.com/), 2024:
 
 ![krista_kim_continuum_2024](img/krista_kim_continuum_2024.jpg)
 
@@ -155,17 +156,22 @@ Light: Rafaël Rozendaal at MoMA
 
 ---
 
-<!--
-https://www.instagram.com/mchx_______/
+![static_zachlieberman_conegradientstudies.jpg](img/static_zachlieberman_conegradientstudies.jpg)<br />Zach Lieberman, [*Cone Gradient Study*](https://verse.works/series/color-gradient-study-by-zach-lieberman) #18 and #32 (2023)<br />Some additional examples by Lieberman: 
 
-https://www.fxhash.xyz/u/MCHX
--->
+* [DENYFFnJfXo](https://www.instagram.com/zach.lieberman/reel/DENYFFnJfXo/) (dynamic)
+* [C59Po3Ypu4p](https://www.instagram.com/zach.lieberman/p/C59Po3Ypu4p/?img_index=5)
+* [C3id8aXp7Mg](https://www.instagram.com/zach.lieberman/p/C3id8aXp7Mg/?img_index=1)
+* [C3YhGT3Jd1p](https://www.instagram.com/zach.lieberman/p/C3YhGT3Jd1p/?img_index=1)
+* [DGPf6PNsXQ-](https://www.instagram.com/zach.lieberman/p/DGPf6PNsXQ-/?img_index=1)
 
 ![anton_dubrovin_mchx_2025](img/anton_dubrovin_mchx_2025.jpg)<br />Anton Dubrovn (MCHX), 2025.
 
 ![anton_dubrovn_mchx_2025_2](img/anton_dubrovn_mchx_2025_2.jpg)<br />Anton Dubrovn (MCHX), [2025](https://www.instagram.com/p/DNSeYfRMyrV/?img_index=1).
 
+<!-- 
 ![light_doesn't_bend_that_way_lars_wander](img/light_doesn't_bend_that_way_lars_wander.jpg)<br />Lars Wander, [Light Doesn't Bend that Way](https://larswander.com/art/light-doesnt-bend-that-way/), 2023.
+-->
+
 
 
 ---
@@ -182,18 +188,6 @@ https://medium.com/design-bootcamp/color-gradients-and-blurry-boundaries-f173900
 
 https://design.google/library/color-theory-ruxandra-duru
 
----
-
-Zach Lieberman 
-
-* https://www.instagram.com/zach.lieberman/p/C59Po3Ypu4p/?img_index=5
-* https://www.instagram.com/zach.lieberman/p/C3id8aXp7Mg/?img_index=1
-* https://www.instagram.com/zach.lieberman/p/C3YhGT3Jd1p/?img_index=1
-* https://www.instagram.com/zach.lieberman/reel/C9AMQ1ZxVKt/
-* https://www.instagram.com/zach.lieberman/p/DGPf6PNsXQ-/?img_index=1
-* https://www.instagram.com/zach.lieberman/p/DHYKUQ2Rk_i/?img_index=2
-* https://www.instagram.com/zach.lieberman/reel/DENYFFnJfXo/
-* https://www.instagram.com/zach.lieberman/p/C1hFhFfLF0a/?img_index=1
 
 
 ---

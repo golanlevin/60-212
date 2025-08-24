@@ -1,8 +1,8 @@
 # Some Creative Technology Studios
 
-My *Creative Coding* students asked where and how their skills are used in the world, so I made this informal and very partial list of some creative technology studios — the kinds of places where creative coders work. These organizations lead in fields like interactive installation, information visualization, web design, interactive museum displays, cartography, experience design, audiovisual performance, experimental product design, and interactive entertainment. This list doesn't necessarily include many other types of organizations, such as game companies, mobile app design studios, academic research labs, graduate programs, corporate R&D labs, or interaction design studios, etc. that also employ creative technologists.
+My *Creative Coding* students asked where and how their skills are used in the world, so I made this informal and very partial list of some creative technology studios — the kinds of places where creative coders work. These organizations lead in fields like interactive installation, information visualization, web design, interactive museum displays, cartography, experience design, audiovisual performance, experimental product design, and interactive entertainment. This list doesn't necessarily include many other types of organizations, such as game companies, mobile app design studios, academic research labs, graduate schools, corporate R&D labs, or interaction design studios, etc. that also happen to employ creative technologists.
 
-* [Accurat](https://accurat.it/)
+* [Accurat](https://studio.accurat.it/)
 * [Antimodular Research](https://antimodular.com/)
 * [Ars Electronica Futurelab](https://ars.electronica.art/futurelab/en/)
 * [Art+Com](https://artcom.de/en/)
@@ -12,6 +12,7 @@ My *Creative Coding* students asked where and how their skills are used in the w
 * [C&G Partners](https://www.cgpartnersllc.com/)
 * [Cinimod Studio](https://www.cinimodstudio.com/)
 * [Clever°Franke](https://www.cleverfranke.com/)
+* [Cocolab](https://www.cocolab.mx/en/#team)
 * [Dataveyes](https://dataveyes.com/en)
 * [Daily Tous les Jours](https://www.dailytouslesjours.com/en)
 * [Design-IO](https://www.design-io.com/)
@@ -24,9 +25,12 @@ My *Creative Coding* students asked where and how their skills are used in the w
 * [Gagarín](https://www.gagarin.is/)
 * [Gallagher & Associates](https://gallagherdesign.com/)
 * [Google Creative Lab](https://experiments.withgoogle.com/experiments)
+* [Getty Museum: Public Technologies Group](https://www.linkedin.com/in/davidnewbury/)
 * [Hangar](https://hangar.org/en/)
 * [Hypersonic.cc](https://www.hypersonic.cc/)
 * [iArt](https://iart.ch/en)
+* [Ideum](https://ideum.com/featured-work)
+* [Ingenium Centre, Digital Innovation Lab](https://ingenium.ca/en/ingenium-centre/digital-innovation-lab/)
 * [Informationart](https://informationart.com/)
 * [InformationIsBeautiful](https://informationisbeautiful.net/)
 * [Interactive Things](https://www.interactivethings.com/)
@@ -39,6 +43,7 @@ My *Creative Coding* students asked where and how their skills are used in the w
 * [Marshmallow Laser Feast](https://www.marshmallowlaserfeast.com/)
 * [Medialab-Matadero Madrid](https://www.medialab-matadero.es/en)
 * [Meow Wolf](https://meowwolf.com/)
+* [Moment Factory](https://momentfactory.com/)
 * [The Mill](https://themill.com/)
 * [Moment Factory](https://momentfactory.com/home)
 * [NASA Scientific Visualization Studio](https://www.youtube.com/@nasascientificvisualizatio5842/videos)
@@ -55,7 +60,9 @@ My *Creative Coding* students asked where and how their skills are used in the w
 * [Ralph Appelbaum Associates](https://raai.com/)
 * [Random International](https://www.random-international.com/)
 * [Refik Anadol Studio](https://refikanadolstudio.com/)
+* [Relative Scale](https://relativescale.com/)
 * [R/GA](https://www.rga.com/)
+* [Rhizomatiks](https://rhizomatiks.com/en/#about)
 * [Rockwell Group](https://www.rockwellgroup.com/lab)
 * [SF Exploratorium Exhibit Design Lab](https://www.exploratorium.edu/exhibits/exhibit-making)
 * [SOFT Lab](https://soft-lab.com/)
