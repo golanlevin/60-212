@@ -74,7 +74,8 @@ This fall, there are 10 primary assignment sets:
 9. Code and Diffusion AI (due 11/17)
 10. Final Project (due 12/08-12, TBA)
 
-<img src="60-212_2025_schedule.png" width="512">
+
+<img src="60-212_2025_schedule.png" width="800">
 
 ### Prerequisites
 
