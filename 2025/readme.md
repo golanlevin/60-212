@@ -1,7 +1,10 @@
 # Creative Coding (60-212) • Fall 2025
 
-* OpenProcessing Classroom: [https://openprocessing.org/class/100952](https://openprocessing.org/class/100952#/)
 * Creative Coding [Fall 2025 Syllabus](syllabus/60-212_syllabus_fall2025.md)
+* OpenProcessing Classroom: [https://openprocessing.org/class/100952](https://openprocessing.org/class/100952#/)
+* Time and Location: Mon/Wed, 2:00-4:50pm in CFA-318
+* Professor: [Golan Levin](http://www.art.cmu.edu/people/golan-levin/), golan@andrew
+* Assistant: [Lorie Chen](https://www.loriechen.com/), ylchen@andrew
 
 ---
 
@@ -9,7 +12,7 @@
 
 <img src="syllabus/60-212_2025_schedule.png" width="512">
 
-* `Wed 08/27`: [Assignment Set 1](assignments/assignment_1.md) Due: *Getting Started*
+* `Wed 08/27`: [**Assignment Set 1**](assignments/assignment_1.md) Due: *Getting Started*
 * `Wed 09/03`: Assignment Set 2 Due: *Form and Shape*
 * `Wed 09/10`: Assignment Set 3 Due: *Looping Movement*
 * `Wed 09/17`: Assignment Set 4 Due: *Timekeeping*

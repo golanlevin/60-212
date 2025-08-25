@@ -1,5 +1,7 @@
 # *Creative Coding* Syllabus (60-212, Fall 2025)
 
+![60-212-2025-banner.png](img/60-212-2025-banner.png)
+
 *This document covers policies and procedures for the Fall 2025 edition of "Intermediate Studio: Creative Coding (60-212)". This document does not include information about weekly topics, specific assignments, viewings or readings; that information can be found elsewhere in this repository. A PDF version of this document can be found [here](pdf/60-212_syllabus_fall2025.pdf).*
 
 * Title: *Intermediate Studio: Creative Coding* (60-212), Fall 2025
@@ -444,3 +446,5 @@ As we head back to campus, keep in mind that thousands of students are returning
 * **[Counseling and Psychological Services](http://www.cmu.edu/counseling/) (CaPS): +1-412-268-2922**
 * **[Resolve Crisis Network](https://www.upmc.com/services/behavioral-health/resolve-crisis-services) (UPMC): +1-888-796-8226**
 * **[On-Campus CMU Police](https://www.cmu.edu/police/): +1-412-268-2323**
+
+---
