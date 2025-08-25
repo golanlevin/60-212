@@ -2,6 +2,8 @@
 
 My *Creative Coding* students asked where and how their skills are used in the world, so I made this informal and very partial list of some creative technology studios — the kinds of places where creative coders work. These organizations lead in fields like interactive installation, information visualization, web design, interactive museum displays, cartography, experience design, audiovisual performance, experimental product design, and interactive entertainment. This list doesn't necessarily include many other types of organizations, such as game companies, mobile app design studios, academic research labs, graduate schools, corporate R&D labs, or interaction design studios, etc. that also happen to employ creative technologists.
 
+People who work at these studios often have *titles* like: Creative Coder, Creative Technologist, Design Technologist, Computational Designer, Technical Artist, Interaction Designer, UX/UI Designer, New Media Artist, Information Designer, Experience Designer (XD), Physical Computing Specialist, Interactive Media Designer, Motion Designer, AV Systems Designer, Software Artist, Interactive Developer, Realtime Developer, Media Systems Engineer, Fabrication Technologist, Interactive Media Producer, Experience Prototyper, Technical Director, Creative Director.
+
 * [Accurat](https://studio.accurat.it/)
 * [Antimodular Research](https://antimodular.com/)
 * [Ars Electronica Futurelab](https://ars.electronica.art/futurelab/en/)
