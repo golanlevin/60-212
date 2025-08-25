@@ -1,4 +1,4 @@
-# Assignment Set #1
+# Assignment Set #1: Getting Started
 
 ### Due Wednesday, August 27, 2025
 
@@ -31,10 +31,11 @@
 
 ## 1.2. Looking Outwards Post
 
-(***20 minutes***) Please **write** a "[Looking Outwards](https://github.com/golanlevin/lectures/blob/master/syllabi/looking-outwards.md)" post, as follows: 
+(***20 minutes***) The purpose of this exercise is that I would like to understand your interests, tastes, and experience, and for you to be able to share some work you admire with your peers. Please **write** a "[Looking Outwards](https://github.com/golanlevin/lectures/blob/master/syllabi/looking-outwards.md)" post, as follows: 
 
-* **Recall** a project you have admired (prior to this course) which you feel falls under the broad umbrella of "Creative Coding". 
-* **Create** a post in the `#looking-outwards-1` channel in the course Discord. In a few sentences, **describe** the project, and **explain** what you like about the. It's sufficient to write 3-5 sentences. 
+* **Recall** a project you have admired (prior to this course) which you feel falls under the broad umbrella of "Creative Coding".
+* **Create** a post in the `#looking-outwards-1` channel in our course Discord. In a few sentences, **describe** the project, and **explain** what you like about it. It's sufficient to write 3-5 sentences. 
+* **Answer** the questions: *Who* made this project? (Was it an individual, a small team, a big company?) *Why* did they make it, or for whom (what kind of audience)?
 * **Include** a link (URL) to the project or its documentation (such as a YouTube video).
 * **Embed** an image of the project in your post. 
 
@@ -43,7 +44,7 @@
 
 ## 1.3. p5 Wayfinding 
 
-(***30 minutes***] The purpose of this task is to help **ensure** that you know where to find good-quality information about the p5.js toolkit.
+(***30 minutes***) The purpose of this task is to help **ensure** that you know where to find good-quality information about the p5.js toolkit, such as documentation and tutorials. 
 
 * (*10 minutes*) **Browse** the [p5.js Reference](https://p5js.org/reference/). Examine at least ten Reference pages, starting with the [Shape commands](https://p5js.org/reference/#Shape). Note that many of the Reference pages allow you to tinker with the code. *(For what it's worth, I happen to prefer the [old version of the reference](https://archive.p5js.org/reference/).)*
 * (*10 minutes*) **Browse** the [p5.js Examples](https://archive.p5js.org/examples/) archive, which are organized thematically. Review at least ten p5.js Examples, skimming their code.
@@ -53,7 +54,7 @@ Additionally:
 
 * Unless otherwise indicated, feel welcome to use AI systems while programming, such as ChatGPT, Claude, or CoPilot. *(In your project reports, be sure to indicate that you received assistance from these systems.)*
 * If you find it helpful, Lauren McCarthy's book, "[Getting Started with p5.js](https://learning.oreilly.com/library/view/getting-started-with/9781457186769/?sso_link=yes&sso_link_from=cmu-edu)" is available online for free through the CMU libraries.
-* Remember, if you get stuck while making the projects, you can always give a shout in the `#haaaalp` channel in the course Discord.
+* Remember, if you get stuck while making a project, you can always give a shout in the `#haaaalp` channel in the course Discord!
 
 
 ---
@@ -62,7 +63,7 @@ Additionally:
 
 ![assignment_1_five_exercises.png](img/assignment_1_five_exercises.png)
 
-(***2 hours***) **Complete** the following five mini-assignments in our [OpenProcessing classroom](https://openprocessing.org/class/100952#/). The purpose of these exercises is to help me assess your preparedness and baseline level of skill. For this reason, these exercises are less open-ended than others to come.
+(***2 hours***) Please **complete** the following five mini-assignments in our [OpenProcessing classroom](https://openprocessing.org/class/100952#/). The purpose of these exercises is to help me assess your preparedness and baseline level of skill. (For this reason, these exercises are not as open-ended as the others you'll encounter this semester.) In case it's helpful, a tutorial on how to use OpenProcessing is available [here](https://www.youtube.com/watch?v=Oj3DGSCMAOQ).
 
 * **1.4.1.** (*5 minutes*) **Do** [Iteration: Transitioning Rectangles](https://openprocessing.org/class/100952/#/c/100955)
 * **1.4.2.** (*10 minutes*) **Do** [Nested Iteration & Randomness: Grid, Interrupted](https://openprocessing.org/class/100952/#/c/100956)
@@ -70,7 +71,12 @@ Additionally:
 * **1.4.4.** (*30 minutes*) **Do** [Array of (Animating) Objects: Ripples](https://openprocessing.org/class/100952/#/c/100958)
 * **1.4.5.** (*60 minutes*) **Do** [Expressive Control of a Line: Profile Generator](https://openprocessing.org/class/100952/#/c/100959)
 
-For each of these exercises, submit it to the appropriate slot in the OpenProcessing classroom. (In case it's helpful, a tutorial on how to use OpenProcessing is available [here](https://www.youtube.com/watch?v=Oj3DGSCMAOQ).) No additional documentation (writeup, screenshot, etc.) is required for these exercises.
+For each exercise, remember to do the following:
+
+* **Add metadata** to your project, by giving it a title, description, and thumbnail image. To do this, click *SAVE* or ⓘ, then click *EDIT*, and add information to the various fields. Click on the thumbnail square in order to capture a thumbnail image in the browser.
+* **Submit** your project to the appropriate collection in the OpenProcessing classroom. 
+
+No additional documentation (writeup, screenshot, etc.) is required for these exercises.
 
 
 ---
