@@ -59,6 +59,21 @@ Attendance is important, but if you need to miss class — which can happen, wit
 
 This is a “studio art course in computer science”, in which our objective is art and design, but our medium is student-written software. Intended as a second course for arts students who have already had one semester of elementary programming (in any language), this class develops craft skills in arts-engineering using a variety of creative coding toolkits, especially including [p5.js](https://p5js.org/) (JavaScript), [ComfyUI](https://www.runcomfy.com/) and [TouchDesigner](https://derivative.ca/). Through rigorous programming exercises in these environments, students will develop mastery over the basic vocabulary of constructs that govern static, dynamic, and interactive form, with the aim of applying these skills to problems in interactive art, computational design, and other creative explorations of transmediality, connectivity, generativity, and immersivity.
 
+This fall, there are 10 primary assignment sets: 
+
+1. Getting Started (due 8/27)
+2. Form and Shape (due 9/03)
+3. Looping Movement (due 9/10)
+4. Timekeeping (due 9/17)
+5. Pattern and Pixel Logics (due 9/29) 
+6. LLM Interaction (due 10/08)
+7. Gesture and Augmented Body (due 10/27)
+8. Telematic System (due 11/05)
+9. Code and Diffusion AI (due 11/17)
+10. Final Project (due 12/08-12, TBA)
+
+![60-212_2025_schedule.png](60-212_2025_schedule.png)
+
 ### Prerequisites
 
 *What prior knowledge must students have in order to be successful in this course?*

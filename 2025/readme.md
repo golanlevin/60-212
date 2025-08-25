@@ -7,21 +7,18 @@
 
 ## Assignments
 
-* `Wed 08/27`: [Assignment Set 1](assignments/assignment_1.md) Due
-* `Wed 09/03`: Assignment Set 2 Due
-* `Wed 09/10`: Assignment Set 3 Due
-* `Wed 09/17`: Assignment Set 4 Due
-* `Wed 09/25`: Assignment Set 5 Due
-* `Wed 10/02`: Assignment Set 6 Due
-* `Wed 10/09`: Assignment Set 7 Due
-* `Mon 10/21`: [Assignment Set 7](assignments/assignment_7.md) (Part I) Due
-* `Mon 10/28`: [Assignment Set 7B](assignments/assignment_7b.md) (Part II) Due
-* `Wed 11/06`: [Assignment Set 8](assignments/assignment_8.md) Due 
-* `Mon 11/18`: [Assignment Set 9](assignments/assignment_9.md) Due 
-* `Mon 11/25`: [Assignment Set 10a](assignments/assignment_10b.md) Due
-* `Wed 12/04`: [Assignment Set 10b](assignments/assignment_10b.md) Work-in-Progress (Interactive Environment)
-* `Tue 12/10`: [Assignment Set 10](assignments/assignment_10b.md) Interactive Environment Presentations
-* `Mon 12/16`: *Remaining deliverables due, 12 Noon.*
+<img src="syllabus/60-212_2025_schedule.png" width="512">
+
+* `Wed 08/27`: [Assignment Set 1](assignments/assignment_1.md) Due: *Getting Started*
+* `Wed 09/03`: Assignment Set 2 Due: *Form and Shape*
+* `Wed 09/10`: Assignment Set 3 Due: *Looping Movement*
+* `Wed 09/17`: Assignment Set 4 Due: *Timekeeping*
+* `Mon 09/29`: Assignment Set 5 Due: *Pattern and Pixel Logics*
+* `Wed 10/08`: Assignment Set 6 Due: *LLM Interaction*
+* `Mon 10/27`: Assignment Set 7 Due: *Gesture and Augmented Body*
+* `Wed 11/05`: Assignment Set 8 Due: *Telematic System*
+* `Mon 11/17`: Assignment Set 9 Due: *Code and Diffusion*
+* `12/08-12`: Assignment Set 9 Due: *Final Project*
 
 ---
 
