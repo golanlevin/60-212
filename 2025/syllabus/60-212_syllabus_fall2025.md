@@ -1,6 +1,6 @@
 # *Creative Coding* Syllabus (60-212, Fall 2025)
 
-![60-212-2025-banner.png](img/60-212-2025-banner.png)
+<img src="img/60-212-2025-banner.png" width="512">
 
 *This document covers policies and procedures for the Fall 2025 edition of "Intermediate Studio: Creative Coding (60-212)". This document does not include information about weekly topics, specific assignments, viewings or readings; that information can be found elsewhere in this repository. A PDF version of this document can be found [here](pdf/60-212_syllabus_fall2025.pdf).*
 
