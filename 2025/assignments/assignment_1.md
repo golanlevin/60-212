@@ -23,8 +23,8 @@
 
 * (*1 minute*) **Bookmark** our [Course GitHub](https://github.com/golanlevin/60-212/blob/main/2025/readme.md) in your laptop's browser.
 * (*4 minutes*) **Create** an ID on [Discord.com](https://discord.com/), if you don't already have one. **Join** our class Discord, using the invitation sent to you by email. **Browse** our server's channels so you know what goes where.
-* (*10 minutes*) **Create** an ID on [OpenProcessing.org](https://openprocessing.org) (if you don't already have one). **Join** our [OpenProcessing classroom](https://openprocessing.org/class/100952#/), using the invitation sent to you by email, and **bookmark** it in your laptop's browser. 
-* **Browse** some of the sketches that people have published at [https://openprocessing.org/discover](https://openprocessing.org/discover). *(Note: the quality varies widely!)* Run the programs, and be sure to **look** at their code (*command-shift-return* may help switch to the code view). In the `#main-chatter` channel of the course Discord, **paste** a link to a project that you found interesting. (No writing is necessary.)
+* (*5 minutes*) In the `#main-chatter` channel of our course Discord, **introduce** yourself in a sentence or two. Please share something about yourself — pets, favorite food, arcane or funny information is fine.
+* (*5 minutes*) **Create** an ID on [OpenProcessing.org](https://openprocessing.org) (if you don't already have one). **Join** our [OpenProcessing classroom](https://openprocessing.org/class/100952#/), using the invitation sent to you by email, and **bookmark** it in your laptop's browser. Take a moment to **browse** some of the sketches that people have published at [https://openprocessing.org/discover](https://openprocessing.org/discover). *(Note: the quality varies widely!)* Run the programs, and be sure to **look** at their code (*command-shift-return* may help switch to the code view).
 * (*15 minutes*) **Review** the [Syllabus](https://github.com/golanlevin/60-212/blob/main/2025/syllabus/60-212_syllabus_fall2025.md) carefully, and **complete** the [**Welcome Form & Exit Ticket**](https://forms.gle/L4FDuXApCnWMobiX7).
 
 
@@ -32,7 +32,7 @@
 
 ## 1.2. Touchstone Sharing
 
-(***20 minutes***) You are asked to share a "touchstone" — a project (by someone else) that you admire. The purpose of this exercise is to help me become familiar with your interests, tastes, and familiarity with the field — and for you to be able to share some work you admire with your peers.  
+(***20 minutes***) You are asked to share a "touchstone" — a project (by someone else) that you admire. The purpose of this exercise is to help me become familiar with your interests, tastes, and familiarity with the field — and for you to be able to share some work you admire with your peers. I also want to make sure that you're able to access the Discord. 
 
 * **Recall** a project you have admired (by someone else) which you feel falls under the broad umbrella of "Creative Coding".
 * **Create** a post in the `#touchstone` channel in our course Discord. 
