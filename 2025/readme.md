@@ -13,7 +13,7 @@
 <img src="syllabus/60-212_2025_schedule.png" width="512">
 
 * `Wed 08/27`: [**Assignment Set 1**](assignments/assignment_1.md) Due: *Getting Started*
-* `Wed 09/03`: Assignment Set 2 Due: *Form and Shape*
+* `Wed 09/03`: [**Assignment Set 2**](assignments/assignment_2.md) Due: *Form and Shape*
 * `Wed 09/10`: Assignment Set 3 Due: *Looping Movement*
 * `Wed 09/17`: Assignment Set 4 Due: *Timekeeping*
 * `Mon 09/29`: Assignment Set 5 Due: *Pattern and Pixel Logics*
