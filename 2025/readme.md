@@ -10,7 +10,7 @@
 
 ## Assignments
 
-<img src="syllabus/60-212_2025_schedule.png" width="512">
+<img src="syllabus/60-212_2025_schedule.png" width="400">
 
 * `Wed 08/27`: [**Assignment Set 1**](assignments/assignment_1.md) Due: *Getting Started*
 * `Wed 09/03`: [**Assignment Set 2**](assignments/assignment_2.md) Due: *Form and Shape*
@@ -35,9 +35,9 @@
 ## Daily Notes, Lectures, & Events
 
 * `Mon 08/25` [Hello World!](daily_notes/20250825.md)
-* `Wed 08/27` #2 Due. 
+* `Wed 08/27` [Daily notes](daily_notes/20250827.md) • [#1 Due](assignments/assignment_1.md)
 * `Mon 09/01` — *No session (Labor Day)*
-* `Wed 09/03` 
+* `Wed 09/03` [#2 Due](assignments/assignment_2.md)
 * `Mon 09/08`  
 * `Wed 09/10` #3 Due.
 * `Mon 09/15` 
