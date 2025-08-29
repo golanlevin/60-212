@@ -17,10 +17,10 @@
 * (15 minutes) 2.2. [Trigonometry, Interaction: Eye(s) Following Cursor](https://openprocessing.org/class/100952/#/c/101260)
 * (20 minutes) 2.3. [Iteration & Conditional Testing: Mini-Calendar](https://openprocessing.org/class/100952/#/c/101257)
 * (10 minutes) 2.4. [Iteration & Interpolation: String Art](https://openprocessing.org/class/100952/#/c/101261)
-* (30 minutes) 2.5. [Nested Iteration, Transformations, Randomness Gradient: *Schotter*](https://openprocessing.org/class/100952/#/c/101262)
-* (30 minutes) 2.6. [Iteration & Arrays: Living Line](https://openprocessing.org/class/100952/#/c/101256)
-* (30 minutes) 2.7. [Iteration & Randomness: Hitomezashi Sashiko Stitching](https://openprocessing.org/class/100952/#/c/101253)
-* (30 minutes) 2.8. [2D Perlin Noise: Imaginary Islands](https://openprocessing.org/class/100952/#/c/101254)
+* (30 minutes) 2.5. [Iteration & Arrays: Living Line](https://openprocessing.org/class/100952/#/c/101256)
+* (30 minutes) 2.6. [Iteration & Randomness: Hitomezashi Sashiko Stitching](https://openprocessing.org/class/100952/#/c/101253)
+* (30 minutes) 2.7. [2D Perlin Noise: Imaginary Islands](https://openprocessing.org/class/100952/#/c/101254)
+* (60 minutes) 2.8. [Re-Coding Vera Molnar's "Interruptions" (1968)](https://openprocessing.org/class/100952/#/c/101352)
 * (45 minutes) 2.9. [Iteration & Transforms: Moiré Pattern Composition](https://openprocessing.org/class/100952/#/c/101252) 
 
 
