@@ -104,11 +104,17 @@ Takahiro Kurashima's interactive [*Poemotion*](https://www.lars-mueller-publishe
 
 ---
 
+Here's some nice work by Zach Lieberman, who has made some lovely shader-based [interference studies](https://x.com/zachlieberman/status/1799588785245618467):
+
+![zach_lieberman_moire_2025.jpg](img/zach_lieberman_moire_2025.jpg)
+
+--
+
 ### For Further Consideration
 
 Some additional Moiré work you might like includes: 
 
-* One of Zach Lieberman's shader-based [interference studies](https://x.com/zachlieberman/status/1799588785245618467)
+
 * [Plotter drawings by Julien Gachadoat (v3ga)](https://twitter.com/v3ga/status/1699054503431946727) ([*image*](../../openprocessing_images/julien_gachadoat_v3ga_moire.jpg))
 * [Plotter drawings by Julien Espagnon](https://twitter.com/Julien_Espagnon/status/1697540035451461656) ([*image*](../../openprocessing_images/julien_espagnon_moire_plot.jpg))
 * [Plotter drawings by Piterpasma](https://twitter.com/piterpasma/status/1697568448727875941) ([*image*](../../openprocessing_images/piterpasma_moire_plot.jpg))
