@@ -9,7 +9,7 @@
 
 *We are still in a phase of the course that emphasizes the development of basic programming skills, knowledge of your toolset, careful observation, and precision execution. This is not a particularly “open-ended” set of Deliverables (though the "Moiré" projects have a good deal of room for creative expression). Things will open out more, soon.*
 
-***NOTE: On Labor Day (Monday 9/1) I will have office hours in the afternoon and evening from 2-9pm in CFA-303.***
+***NOTE: On Labor Day (Monday 9/1) I will be available to help you during office hours, from 2-10pm in CFA-303.***
 
 ---
 
@@ -22,8 +22,6 @@
 * (30 minutes) 2.7. [2D Perlin Noise: Imaginary Islands](https://openprocessing.org/class/100952/#/c/101254)
 * (60 minutes) 2.8. [Re-Coding Vera Molnar's "Interruptions" (1968)](https://openprocessing.org/class/100952/#/c/101352)
 * (45 minutes) 2.9. [Iteration & Transforms: Moiré Pattern Composition](https://openprocessing.org/class/100952/#/c/101252) 
-
-
 
 
 
