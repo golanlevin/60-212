@@ -62,6 +62,11 @@ Van Der Beek's *Moirage* was created with a moiré "pattern kit", released by bi
 
 ![oster_moire_1964.jpg](img/oster_moire_1964.jpg)
 
+---
+
+Works by painter Julian Stanczak: *Permutation* (1967), *Wandering Line* (1990):
+
+![julian_stanczak_permutation_1967](img/julian_stanczak_permutation_1967.jpg)![julian_stanczak_wandering_line_1990](img/julian_stanczak_wandering_line_1990.jpg)
 
 ---
 
@@ -101,6 +106,10 @@ Takahiro Kurashima's interactive [*Poemotion*](https://www.lars-mueller-publishe
 
 [![Kurashima's *Moirémotion*](../../openprocessing_images/kurashima_book.jpg)](https://www.youtube.com/watch?v=zG5omMyxmNI)
 
+---
+
+![mathijs_delbaere_moire.gif](img/mathijs_delbaere_moire.gif)
+Animation by Mathijs Delbaere.
 
 ---
 
