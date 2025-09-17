@@ -124,7 +124,7 @@ Thanks to the [outstanding assistance](https://github.com/yonmaor1/p5-flipdots) 
 	* `((t+x)^y)%9;` // a very compact generator!
 	* `random() < 0.02;` // low probability events 
 * **Tinker** and **devise** one or two different expressions whose results you like. Your results must depend in some way on `t` — that is, they must be time-based or animated. (Consider that the display produces sound as well as image!) We'll have some time to test out your ideas in class on Wednesday. 
-* **Paste** your JavaScript expression in the Discord channel, *#07-flipdot-composition*. **Include** a screenshot or animated GIF. Your exercise will be presented on the display in a public exhibition later this semester, in a looping sequence with the other students' exercises.
+* **Paste** your JavaScript expression in the Discord channel, *#53-flipdot-composition*. **Include** a screenshot or animated GIF. Your exercise will be presented on the display in a public exhibition later this semester, in a looping sequence with the other students' exercises.
 
 ![flipdot_2.png](../../2024/assignments/images/flipdot-screenshot.png)
 
