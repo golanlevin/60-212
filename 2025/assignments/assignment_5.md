@@ -6,11 +6,11 @@
 
 As follows:
 
-* 5.1. [Looking Outwards: Generative Art]() *(15%, 30 minutes)*
-* 5.2. [Tixy.Land]() *(5%, 15 minutes)*
-* 5.3. [Animated Composition for Flipdot Display]() *(10%, 20 minutes)*
-* 5.4. [Generative Composition: Hexagonal Truchet Tiles]() *(30%, 2 hours)* 
-* 5.5. [Custom Pixel: Camera, Color, Nested Iteration]() *(40%, 2 hours)*
+* 5.1. [Looking Outwards: Generative Art](#51-looking-outwards-generative-art) *(15%, 30 minutes)*
+* 5.2. [Tixy.Land](#52-tixyland) *(5%, 15 minutes)*
+* 5.3. [Animated Composition for Flipdot Display](#53-animated-composition-for-flipdot-display) *(10%, 20 minutes)*
+* 5.4. [Generative Composition: Hexagonal Truchet Tiles](#54-generative-composition-hexagonal-truchet-tiles) *(30%, 2 hours)* 
+* 5.5. [Custom Pixel: Camera, Color, Nested Iteration](#55-custom-pixel-camera-color-nested-iteration) *(40%, 2 hours)*
 
 
 --- 
