@@ -16,7 +16,7 @@
 * `Wed 09/03`: [**Assignment Set 2**](assignments/assignment_2.md) Due: *Form and Shape*
 * `Wed 09/10`: [**Assignment Set 3**](assignments/assignment_3.md) Due: *Movement, Loops*
 * `Wed 09/17`: [**Assignment Set 4**](assignments/assignment_4.md) Due: *Timekeeping*
-* `Mon 09/29`: Assignment Set 5 Due: *Pattern and Pixel Logics*
+* `Mon 09/29`: [**Assignment Set 5**](assignments/assignment_5.md) Due: *Pattern and Pixel Logics*
 * `Wed 10/08`: Assignment Set 6 Due: *LLM Interactivity*
 * `Mon 10/27`: Assignment Set 7 Due: *Gesture-Mapping and Augmented Body*
 * `Wed 11/05`: Assignment Set 8 Due: *Telematic System*
@@ -41,10 +41,10 @@
 * `Mon 09/08` Workday
 * `Wed 09/10` [Daily notes](daily_notes/20250910.md) • [#3 Due](assignments/assignment_3.md)
 * `Mon 09/15` [Daily notes](daily_notes/20250915.md)
-* `Wed 09/17` [#4 Due](assignments/assignment_4.md)
+* `Wed 09/17` [Daily notes](daily_notes/20250917.md) • [#4 Due](assignments/assignment_4.md).
 * `Mon 09/22` 
 * `Wed 09/24` 
-* `Mon 09/29` #5 Due.
+* `Mon 09/29` [#5 Due](assignments/assignment_5.md).
 * `Wed 10/01` 
 * `Mon 10/06` 
 * `Wed 10/08` #6 Due.
