@@ -19,7 +19,7 @@ As follows:
 
 ![mapan.jpg](../../2024/assignments/images/mapan.jpg)<br/><small>*William Mapan*</small>
 
-*(10%, 30 minutes)* Below are some collections of generative artworks. Each page presents variations produced by a single piece of software-art. **Browse** these pages and **select** a project you like (or which appeals to you more than the others). Run the artwork several times (and/or browse its variations, if it is no longer running live). In the Discord channel `#51-generative-art`, **provide** a link to the project's URL; **write** a sentence about what you found interesting about it; and **include** an image of the artwork.
+*(10%, 30 minutes, due Monday 9/22)* Below are some collections of generative artworks. Each page presents variations produced by a single piece of software-art. **Browse** these pages and **select** a project you like (or which appeals to you more than the others). Run the artwork several times (and/or browse its variations, if it is no longer running live). In the Discord channel `#51-generative-art`, **provide** a link to the project's URL; **write** a sentence about what you found interesting about it; and **include** an image of the artwork.
 
 Note: many of these artworks are dynamic and/or interactive, and some allow you to generate new results beyond the ones already generated. On the [fxhash.xyz](https://www.fxhash.xyz/) website, look for the following buttons, which will allow you to experience some projects in real-time: 
 
@@ -94,7 +94,7 @@ Note: many of these artworks are dynamic and/or interactive, and some allow you 
 
 ![tixy.png](../../2024/assignments/images/tixy.png)
 
-*(5%, 15 minutes)* In this very lightweight exercise, we get our first exposure to "data-parallel computing", or "SIMD (Single Instruction, Multiple Data) processing", wherein the same operation is applied to multiple data points (pixels) simultaneously. 
+*(5%, 15 minutes, due Monday 9/22)* In this very lightweight exercise, we get our first exposure to "data-parallel computing", or "SIMD (Single Instruction, Multiple Data) processing", wherein the same operation is applied to multiple data points (pixels) simultaneously. 
 
 We will use [**Tixy.land**](https://tixy.land/), a tiny online environment for JavaScript "code golfing" in which you will write a tiny program that is applied to a 16x16 grid of pixels. In Tixy, each "pixel" executes a common program whose only inputs are the current time (`t`), its index (`i`), and its `x` and `y` coordinates.  
 
