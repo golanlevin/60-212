@@ -43,6 +43,7 @@ Note: many of these artworks are dynamic and/or interactive, and some allow you 
 * [*Zbageti*](https://www.fxhash.xyz/generative/17737) by Melissa Wiederrecht • p5js
 * [*Cosmic Rays*](https://verse.works/series/cosmic-rays-by-melissa-wiederrecht) by Melissa Wiederrecht
 * [*Growth v02*](https://www.fxhash.xyz/generative/slug/growth-v02) by [Robert Hodgin](https://roberthodgin.com/) (flight404)
+* [*Infinite Garden*](https://www.infinite-garden.xyz/) by [Leander Herzog](https://leanderherzog.ch/)
 * [*Miniscapes*](https://www.fxhash.xyz/generative/slug/miniscapes-1) by Rich Poole & ThePaperCrane
 * [*Genomes*](https://www.fxhash.xyz/generative/slug/genomes) by ciphrd & znah
 * [*Barbarians*](https://verse.works/series/barbarians-by-jacek-markusiewicz) by Jacek Markusiewicz
