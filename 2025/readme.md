@@ -42,7 +42,7 @@
 * `Wed 09/10` [Daily notes](daily_notes/20250910.md) • [#3 Due](assignments/assignment_3.md)
 * `Mon 09/15` [Daily notes](daily_notes/20250915.md)
 * `Wed 09/17` [Daily notes](daily_notes/20250917.md) • [#4 Due](assignments/assignment_4.md).
-* `Mon 09/22` 
+* `Mon 09/22` [Daily notes](daily_notes/20250922.md)
 * `Wed 09/24` 
 * `Mon 09/29` [#5 Due](assignments/assignment_5.md).
 * `Wed 10/01` 
