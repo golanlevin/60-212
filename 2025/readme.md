@@ -38,13 +38,13 @@
 * `Wed 08/27` [Daily notes](daily_notes/20250827.md) • [#1 Due](assignments/assignment_1.md)
 * `Mon 09/01` — *No session (Labor Day)*
 * `Wed 09/03` [Daily notes](daily_notes/20250903.md) • [#2 Due](assignments/assignment_2.md)
-* `Mon 09/08` Workday
+* `Mon 09/08` Workday.
 * `Wed 09/10` [Daily notes](daily_notes/20250910.md) • [#3 Due](assignments/assignment_3.md)
 * `Mon 09/15` [Daily notes](daily_notes/20250915.md)
 * `Wed 09/17` [Daily notes](daily_notes/20250917.md) • [#4 Due](assignments/assignment_4.md).
 * `Mon 09/22` [Daily notes](daily_notes/20250922.md)
-* `Wed 09/24` 
-* `Mon 09/29` [#5 Due](assignments/assignment_5.md).
+* `Wed 09/24` Workday.
+* `Mon 09/29` [Daily notes](daily_notes/20250929.md) • [#5 Due](assignments/assignment_5.md).
 * `Wed 10/01` 
 * `Mon 10/06` 
 * `Wed 10/08` #6 Due.
