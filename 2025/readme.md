@@ -17,7 +17,7 @@
 * `Wed 09/10`: [**Assignment Set 3**](assignments/assignment_3.md) Due: *Movement, Loops*
 * `Wed 09/17`: [**Assignment Set 4**](assignments/assignment_4.md) Due: *Timekeeping*
 * `Mon 09/29`: [**Assignment Set 5**](assignments/assignment_5.md) Due: *Pattern and Pixel Logics*
-* `Wed 10/08`: Assignment Set 6 Due: *LLM Interactivity*
+* `Wed 10/08`: [**Assignment Set 6**](assignments/assignment_6.md) Due: *LLM Interactivity*
 * `Mon 10/27`: Assignment Set 7 Due: *Gesture-Mapping and Augmented Body*
 * `Wed 11/05`: Assignment Set 8 Due: *Telematic System*
 * `Mon 11/17`: Assignment Set 9 Due: *Code and Diffusion*
@@ -29,8 +29,8 @@
 
 *Your attendance at these artist talks is very strongly encouraged:*
 
-* `Mon 10/06`: [Daniel Temkin artist talk](https://danieltemkin.com/), STUDIO for Creative Inquiry, 5:30pm 
-* `Tue 10/21`: [Everest Pipkin artist talk](), Kresge Theater, 5:30pm.
+* `Mon 10/06`: [Daniel Temkin artist talk](https://studioforcreativeinquiry.org/events/temkin25), STUDIO for Creative Inquiry, 5:30pm 
+* `Tue 10/21`: [Everest Pipkin artist talk](https://art.cmu.edu/event/visiting-artist-public-lecture-everest-pipkin/), Kresge Theater, 5:30pm.
 
 ## Daily Notes, Lectures, & Events
 
@@ -45,9 +45,9 @@
 * `Mon 09/22` [Daily notes](daily_notes/20250922.md)
 * `Wed 09/24` Workday.
 * `Mon 09/29` [Daily notes](daily_notes/20250929.md) • [#5 Due](assignments/assignment_5.md).
-* `Wed 10/01` 
-* `Mon 10/06` 
-* `Wed 10/08` #6 Due.
+* `Wed 10/01` Workday.
+* `Mon 10/06` Optional workday + [Required artist lecture]((https://studioforcreativeinquiry.org/events/temkin25)), 5:30pm in CFA-111.
+* `Wed 10/08` [#6 Due](assignments/assignment_6.md).
 * `Mon 10/13` — *No session (Fall Break)*
 * `Wed 10/15` — *No session (Fall Break)*
 * `Mon 10/20`
