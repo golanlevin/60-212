@@ -45,7 +45,7 @@
 * `Mon 09/22` [Daily notes](daily_notes/20250922.md)
 * `Wed 09/24` Workday.
 * `Mon 09/29` [Daily notes](daily_notes/20250929.md) • [#5 Due](assignments/assignment_5.md).
-* `Wed 10/01` Workday.
+* `Wed 10/01` [Daily notes](daily_notes/20251001.md)
 * `Mon 10/06` Optional workday + [Required artist lecture]((https://studioforcreativeinquiry.org/events/temkin25)), 5:30pm in CFA-111.
 * `Wed 10/08` [#6 Due](assignments/assignment_6.md).
 * `Mon 10/13` — *No session (Fall Break)*
