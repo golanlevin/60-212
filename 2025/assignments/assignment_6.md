@@ -2,7 +2,7 @@
 
 ### Due Wednesdays, 10/1 and 10/8
 
-![gemini.png](img/newyorker_gemini.png)
+<img src="img/newyorker_gemini.png" width="512">
 
 This week, we begin to incorporate generative AI into our creative coding assignments. This set of deliverables has two components, which are due at the beginning of class on Wednesday 10/2:
 
@@ -56,14 +56,13 @@ The pandora's box of Gemini+p5 has been cracked open by [Amit Pitaru](https://pi
 **NOTE: THESE P5 SKETCHES NEED TO BE UPDATED. CHECK BACK WEDNESDAY OCTOBER 1.**
 
 * [*Gemini API starter examples*](https://x.com/pitaru/status/1819797112399511625) by Amit Pitaru: Gemini AI describes p5.js canvas. [Minimal Demo](https://editor.p5js.org/pitaru/sketches/Ixu00bucD); [Version with instructions](https://editor.p5js.org/pitaru/sketches/NSAqfrdJY).
-* [*One Line, One Word*](https://editor.p5js.org/alexanderchen/sketches/UIPy0LXjm) by Alexander Chen. The AI poetically describes the quality of a line. ([Tweet](https://x.com/alexanderchen/status/1819939988676440241))
-* [*Stick Figure Theater*](https://editor.p5js.org/alexanderchen/sketches/ndd3oqln2) by Alexander Chen. Draw a character; the AI returns a line of dialogue. ([Tweet](https://x.com/alexanderchen/status/1821011074658828481))
-* [*Word sorter*](https://editor.p5js.org/trudypainter/sketches/cSN7DNnWG) by [Trudy Painter](https://www.trudy.computer/). A text analyzer that organizes words along user-defined spectra. ([Tweet](https://x.com/trudypainter/status/1820555477455167900))
-* [*Grow a Seed*](https://editor.p5js.org/pitaru/sketches/z7Cq3HEtjo) AI-collaborative drawing tool by Amit Pitaru. The AI analyzes the canvas, and returns working p5.js code (!!) to enhance it. ([Tweet](https://x.com/pitaru/status/1821310018198642867))
+* [*One Line, One Word*](https://editor.p5js.org/golan/sketches/7k4imWAs1) by Alexander Chen. The AI poetically describes the quality of a line. ([Tweet](https://x.com/alexanderchen/status/1819939988676440241))
+* [*Stick Figure Theater*](https://editor.p5js.org/golan/sketches/LIaa52nxi) by Alexander Chen. Draw a character; the AI returns a line of dialogue. ([Tweet](https://x.com/alexanderchen/status/1821011074658828481))
+* [*Word sorter*](https://editor.p5js.org/golan/sketches/dt6OLwey8) by [Trudy Painter](https://www.trudy.computer/). A text analyzer that organizes words along user-defined spectra. ([Tweet](https://x.com/trudypainter/status/1820555477455167900))
+* [*Grow a Seed*](https://editor.p5js.org/golan/sketches/ZkdhSxlGx) AI-collaborative drawing tool by Amit Pitaru. The AI analyzes the canvas, and returns working p5.js code (!!) to enhance it. ([Tweet](https://x.com/pitaru/status/1821310018198642867))
 * [*Crappy gaze Estimation*](https://editor.p5js.org/golan/sketches/sktetHnz8) by Golan. The AI tries to estimate which direction the eye is looking.
 * [*Penny Dater*](https://editor.p5js.org/golan/sketches/x3oKtHYtP) by Golan. The AI reads the date on a penny. 
-* [*Life's biggest questions*](https://editor.p5js.org/ttarigh/sketches/oibptLN-L) by ttarigh. Responds to all questions with a single, profound word. ([Tweet](https://x.com/tinaz0ne/status/1824153041597239433))
-* [*Let's Dance*](https://editor.p5js.org/pitaru/sketches/-ujxN6JUr) by Amit Pitaru. The user draws a path for a blue dot; Gemini provides path coordinates for a red dot. ([Tweet](https://x.com/pitaru/status/1822453415013650768))
+* [*Life's biggest questions*](https://editor.p5js.org/golan/sketches/em7IzgngM) by Tina Tarighian. Responds to all questions with a single, profound word. ([Tweet](https://x.com/tinaz0ne/status/1824153041597239433))
 
 Please note that you might need to modify the code of `geminiAPI.js` in order to implement a concept with unusual functionality. *Also, please note that while it is possible to [enable reduced content safety settings in Google Gemini](https://ai.google.dev/gemini-api/docs/safety-settings#safety-filtering-per-request), your projects must still adhere to our Syllabus [Code of Conduct guidelines](https://github.com/golanlevin/60-212/blob/main/2024/syllabus/60-212_syllabus_fall2024.md#code-of-conduct).* 
 
