@@ -37,20 +37,22 @@ For this project, we will use the [ml5.js templates](https://docs.ml5js.org/#/) 
 
 ### Starter template code: 
 
-* **Face**: [ml5-faceMesh-2024](https://openprocessing.org/sketch/2417226)
-* **Hand**: [ml5-handPose-2024](https://openprocessing.org/sketch/2417093)
-* **Body**: [ml5-bodyPose-2024](https://openprocessing.org/sketch/2417039)
-* **Expressions**: [MediaPipe-FaceMetrics-2024](https://openprocessing.org/sketch/2066195)
-* **Microphone**: [p5-Microphone-Demos-2024](https://openprocessing.org/sketch/2189436)
+* **Holistic**: [MediapipeHolistic-2025](https://openprocessing.org/sketch/2760298)
+* **Face**: [ml5-faceMesh-2025](https://openprocessing.org/sketch/2417226)
+* **Hand**: [ml5-handPose-2025](https://openprocessing.org/sketch/2417093)
+* **Body**: [ml5-bodyPose-2025](https://openprocessing.org/sketch/2417039)
+* **Expressions**: [MediaPipe-FaceMetrics-2025](https://openprocessing.org/sketch/2066195)
+* **Microphone 1**: [Simple Mic Demo](https://openprocessing.org/sketch/2189445)
+* **Microphone 2**: [p5-Microphone-Demos-2025](https://openprocessing.org/sketch/2189436)
 
 ### Some simple demonstrations: 
 
-* [ml5-BodyBroccoli-2024](https://openprocessing.org/sketch/2187655)
-* [ml5-Mask-2024](https://openprocessing.org/sketch/2187420)
-* [BigMouth-2024](https://openprocessing.org/sketch/2071101)
-* [FaceExtractor-2024](https://openprocessing.org/sketch/2195649)
-* [ml5-HandPuppet-2024](https://openprocessing.org/sketch/2187485)
-* [ml5-handPose+Matter-2024](https://openprocessing.org/sketch/2064673)
+* [ml5-BodyBroccoli-2025](https://openprocessing.org/sketch/2187655)
+* [ml5-Mask-2025](https://openprocessing.org/sketch/2187420)
+* [BigMouth-2025](https://openprocessing.org/sketch/2071101)
+* [FaceExtractor-2025](https://openprocessing.org/sketch/2195649)
+* [ml5-HandPuppet-2025](https://openprocessing.org/sketch/2187485)
+* [ml5-handPose+Matter-2025](https://openprocessing.org/sketch/2064673)
 
 ![krawleb_kadoin_walking_man_anim.gif](images/krawleb_kadoin_walking_man_anim.gif)<br/><small>CMU Student work by Krawleb & Kadoin, 2016</small>
 

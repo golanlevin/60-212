@@ -50,7 +50,7 @@
 * `Mon 10/13` — *No session (Fall Break)*
 * `Wed 10/15` — *No session (Fall Break)*
 * `Mon 10/20` [Daily notes](daily_notes/20251020.md). *1:1 Meetings.*
-* `Wed 10/22`
+* `Wed 10/22` [Daily notes](daily_notes/20251022.md). *1:1 Meetings.*
 * `Mon 10/27` 
 * `Wed 10/29` 
 * `Mon 11/03` #7a Due.
