@@ -117,4 +117,4 @@ For this project, I recommend you work with a color space that allows good contr
 * You might find [**this video**](https://www.youtube.com/watch?v=_Le83fKGKEo) to be helpful in explaining color strategies for this project. 
 * **Save** your work to the [correct slot in our OpenProcessing classroom](https://openprocessing.org/class/93074/#/c/94454).
 
-![albers-4-looks-like-3.png](images/albers-4-looks-like-3.png)
+![albers-4-looks-like-3.png](images/albers-4-looks-like-3.png)  
