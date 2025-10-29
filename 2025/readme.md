@@ -52,11 +52,11 @@
 * `Mon 10/20` [Daily notes](daily_notes/20251020.md). *1:1 Meetings.*
 * `Wed 10/22` [Daily notes](daily_notes/20251022.md). *1:1 Meetings.*
 * `Mon 10/27` [Daily notes](daily_notes/20251027.md)
-* `Wed 10/29` 
-* `Mon 11/03` #7a Due.
+* `Wed 10/29` [Daily notes](daily_notes/20251029.md)
+* `Mon 11/03` [#7a Due](assignments/assignment_7.md) (Draft)
 * `Wed 11/05` 
 * `Mon 11/10` 
-* `Wed 11/12` #7b Due.
+* `Wed 11/12` [#7b Due](assignments/assignment_7.md) (Revision)
 * `Mon 11/17`
 * `Wed 11/19` 
 * `Mon 11/24` 
