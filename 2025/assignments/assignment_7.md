@@ -68,7 +68,7 @@ For this project, you are encouraged to use [**this Google Mediapipe all-in-one 
 
 ---
 
-*Optionally*, **Read** (5%) Zach Lieberman's [*Más Que la Cara* Overview](https://zachlieberman.medium.com/m%C3%A1s-que-la-cara-overview-48331a0202c0) (2017). It's a nice writeup about a face-tracking project, from conceptualization to execution, art to tech. Then, in the Discord channel, `#08-reading-response`, **write** a sentence about something you observed or found interesting in the project. This is an estimated 12-minute reading.
+*Optionally*, **Read** Zach Lieberman's [*Más Que la Cara* Overview](https://zachlieberman.medium.com/m%C3%A1s-que-la-cara-overview-48331a0202c0) (2017). It's a nice writeup about a face-tracking project, from conceptualization to execution, art to tech. Then, in the Discord channel, `#08-reading-response`, **write** a sentence about something you observed or found interesting in the project. This is an estimated 12-minute reading.
 
 <img src="../../2024/assignments/images/zach-lieberman-face-swing.gif" width="256"><br />[*Más Que la Cara* Overview](https://zachlieberman.medium.com/m%C3%A1s-que-la-cara-overview-48331a0202c0) by Zach Lieberman (2017)
 
