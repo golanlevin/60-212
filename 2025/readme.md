@@ -20,7 +20,8 @@
 * `Wed 10/08`: [**Assignment Set 6**](assignments/assignment_6.md) Due: *LLM Interactivity*
 * `Mon 11/03`: [**Assignment Set 7a**](assignments/assignment_7.md) Due: *Interactive Creature / Augmented Body*
 * `Wed 11/12`: [**Assignment Set 7b**](assignments/assignment_7.md) Due: *Project 7 Revision*
-* `Sun 12/07`: Assignment Set 8 Due: *TouchDesigner Project*
+* `Wed 11/19`: [**Assignment Set 8a**](assignments/assignment_8a.md) Due: *Touchdesigner Introduction*
+* `Sun 12/07`: Assignment Set 8 Due: *TouchDesigner Project: Responsive Environment*
 
 ---
 
@@ -54,12 +55,12 @@
 * `Mon 10/27` [Daily notes](daily_notes/20251027.md)
 * `Wed 10/29` [Daily notes](daily_notes/20251029.md)
 * `Mon 11/03` [#7a Due](assignments/assignment_7.md) (Draft)
-* `Wed 11/05` 
-* `Mon 11/10` 
+* `Wed 11/05` Workday.
+* `Mon 11/10` Workday.
 * `Wed 11/12` [#7b Due](assignments/assignment_7.md) (Revision)
-* `Mon 11/17`
-* `Wed 11/19` 
-* `Mon 11/24` 
+* `Mon 11/17` Workday.
+* `Wed 11/19` [#8a Due](assignments/assignment_8a.md).
+* `Mon 11/24` Workday.
 * `Wed 11/26` — *No session (Thanksgiving)*
 * `Wed 12/01` 
 * `Mon 12/03` 
