@@ -10,7 +10,7 @@ In this assignment, we will create an open-ended interactive assignment that wil
 
 This assignment is due in several parts. The first portion will be to watch and follow along with some introductory technical content to catch-up the uninitiated; and to do a small looking outwards. Due at the start of class **Wednesday November 20**: 
 
-* 8.1 : Getting Ready *(30 minutes, due Wednesday, 11/19)*
+* 8.1 : Getting Ready *(30 minutes, due Monday, 11/17)*
 * 8.2 :[Introductory video Completion](#91-Introductory-videos) *(10%, 60-90 minutes, due Wednesday 11/19)*
 * 8.3 :[Looking Outwards: Interaction and Touch](#72-looking-outwards-generative-art) *(10%, 30 minutes, due Wednesday 11/19)*
 
@@ -18,7 +18,7 @@ This assignment is due in several parts. The first portion will be to watch and 
 
 ## 8.1 Getting Ready (No Deliverable)
 
-*(5%, 30 minutes, due Wednesday, 11/19)* Touchdesigner is a desktop/laptop rendering and programming environment. Unlike p5.js, we will require everyone to have it installed and ready to use on your computer. 
+*(5%, 30 minutes, due Monday, 11/17)* Touchdesigner is a desktop/laptop rendering and programming environment. Unlike p5.js, we will require everyone to have it installed and ready to use on your computer. 
 
 By the next session of class, we need the following **4** things from you:
 
@@ -26,6 +26,7 @@ By the next session of class, we need the following **4** things from you:
 * **Your Computer Charger**: Touchdesigner uses the full power of your CPU and GPU whenever possible. Every time you use Touchdesigner, you will want your laptop to be plugged in.
 * **Touchdesigner Official Release** software installed, and a Non-Commerical License Activated. You can find the download files [here](https://derivative.ca/download) 
 * **Make sure TouchDesigner opens properly** and runs on your laptop. If it doesn't, you'll have to use a school computer. 
+* Also, please **add** your *Body/Creature* project to [this OpenProcessing classroom slot](https://openprocessing.org/class/100952/#/c/102844) — thank you!
 
 ---
 
