@@ -24,7 +24,7 @@ By the next session of class, we need the following **4** things from you:
 
 * **A 3-Button Mouse** for you to use during class (it is *possible* to use Touchdesigner without a 3-button mouse, but is significantly harder and will slow you down significantly).
 * **Your Computer Charger**: Touchdesigner uses the full power of your CPU and GPU whenever possible. Every time you use Touchdesigner, you will want your laptop to be plugged in.
-* **Touchdesigner Official Release** software installed, and a Non-Commerical License Activated. You can find the download files [here](https://derivative.ca/download) 
+* **Touchdesigner Official Release** software installed, and a Non-Commercial (Educational) License Activated. You can find the download files [here](https://derivative.ca/download) 
 * **Make sure TouchDesigner opens properly** and runs on your laptop. If it doesn't, you'll have to use a school computer. 
 * Also, please **add** your *Body/Creature* project to [this OpenProcessing classroom slot](https://openprocessing.org/class/100952/#/c/102844) — thank you!
 
