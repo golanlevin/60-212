@@ -4,15 +4,15 @@
 
 ---
 
-## Touchdesigner: Interactive Environment
+## Touchdesigner: Responsive/Interactive Environment
 
 In this assignment, we will create an open-ended interactive assignment that will emphasize on visualising and mastering a real-world input. 
 
 This assignment is due in several parts. The first portion will be to watch and follow along with some introductory technical content to catch-up the uninitiated; and to do a small looking outwards. Due at the start of class **Wednesday November 20**: 
 
-* 8.1 : Getting Ready *(30 minutes, due Monday, 11/17)*
-* 8.2 :[Introductory video Completion](#91-Introductory-videos) *(10%, 60-90 minutes, due Wednesday 11/19)*
-* 8.3 :[Looking Outwards: Interaction and Touch](#72-looking-outwards-generative-art) *(10%, 30 minutes, due Wednesday 11/19)*
+* 8.1 : [Getting Ready](#81-getting-ready-no-deliverable) *(30 minutes, due Monday, 11/17)*
+* 8.2 : [Introductory video completion](#82-viewing-introductory-videos) *(10%, 60-90 minutes, due Wednesday 11/19)*
+* 8.3 : [Looking Outwards: Interaction and Touch](#83-looking-outwards-interaction-and-touch) *(10%, 30 minutes, due Wednesday 11/19)*
 
 ---
 

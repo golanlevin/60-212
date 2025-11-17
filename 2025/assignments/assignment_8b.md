@@ -1,4 +1,4 @@
-# Assignment Set #8b
+# Assignment Set #8b: Interactive Environment
 
 TBA.
 

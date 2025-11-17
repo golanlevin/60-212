@@ -58,7 +58,7 @@
 * `Wed 11/05` Workday.
 * `Mon 11/10` Workday.
 * `Wed 11/12` [#7b Due](assignments/assignment_7.md) (Revision)
-* `Mon 11/17` Workday.
+* `Mon 11/17` [Daily notes](daily_notes/20251117.md); 8a.1 due.
 * `Wed 11/19` [#8a Due](assignments/assignment_8a.md).
 * `Mon 11/24` Workday.
 * `Wed 11/26` — *No session (Thanksgiving)*
