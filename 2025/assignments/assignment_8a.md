@@ -36,12 +36,22 @@ By the next session of class, we need the following **4** things from you:
 
 *(10%, 60-90 minutes, due 11/20)* Touchdesigner is a multimedia, node based programming language that uses *Python* to process numerical data, and *GLSL shaders* to render images.
 
-* **Spend 50 minutes watching** the **First Ten** demo videos on [The Touchdesigner 100 Course](https://learn.derivative.ca/courses/100-fundamentals/), a website that holds your hand through the basics of Learning Touchdesigner from nothing to beginner. **WHILE FOLLOWING ALONG** As you watch, hit "Mark Complete" 
-* **Screenshot and submit** the progress you have made. In the Discord channel `#8.2-TD101`, your screenshot should look like this :
+* **Spend 50 minutes watching** the **first ten** demo videos on [The Touchdesigner 101 Course](https://learn.derivative.ca/courses/100-fundamentals/), a website that holds your hand through the basics of Learning Touchdesigner from nothing to beginner. **WHILE FOLLOWING ALONG** As you watch, hit "Mark Complete". 
+* You should view the following specific sections in "101 – Navigating the Environment":
+	1. [The User Interface](https://learn.derivative.ca/courses/100-fundamentals/lessons/101-navigating-the-environment/topic/user-interface/)
+	2. [Using the OP Create Dialog](https://learn.derivative.ca/courses/100-fundamentals/lessons/101-navigating-the-environment/topic/using-the-op-create-dialog/)
+	3. [Reading Network Anatomy](https://learn.derivative.ca/courses/100-fundamentals/lessons/101-navigating-the-environment/topic/reading-network-anatomy/)
+	4. [Reading Operator Anatomy](https://learn.derivative.ca/courses/100-fundamentals/lessons/101-navigating-the-environment/topic/reading-operator-anatomy/)
+	5. [Operator Wires, References & Links](https://www.youtube.com/watch?v=wb51mj-HNiQ)
+	6. [Working with TOPs](https://learn.derivative.ca/courses/100-fundamentals/lessons/101-navigating-the-environment/topic/working-with-tops/)
+	7. [Working with CHOPs](https://learn.derivative.ca/courses/100-fundamentals/lessons/101-navigating-the-environment/topic/working-with-chops/)
+	8. [Working with DATs](https://learn.derivative.ca/courses/100-fundamentals/lessons/101-navigating-the-environment/topic/working-with-dats/)
+	9. [Working with SOPs](https://learn.derivative.ca/courses/100-fundamentals/lessons/101-navigating-the-environment/topic/working-with-sops/)
+	10. [Working with COMPs](https://learn.derivative.ca/courses/100-fundamentals/lessons/101-navigating-the-environment/topic/working-with-comps/)
+* **Screenshot and submit** the progress you have made. In the Discord channel `#8-2-tutorials-1xx`, include some screenshots of your tutorial work. 
 
-![10.1e.jpg](../../2024/assignments/images/emtouchdesignerlectures/10.1expectation.png)
 
-* In this class we have a variety of levels of experience with this tool. Because of this, those who have had prior exposure are encouraged to do viewings from sections *102-108* and the [Touchdesigner 200 Course](https://learn.derivative.ca/courses/200-intermediate/)
+*Note: In this class, students may already have a variety of levels of experience with this toolkit. Because of this, advanced students (with prior experience in TouchDesigner) are encouraged to do viewings from sections 102-105 and/or the [Touchdesigner 200 Course](https://learn.derivative.ca/courses/200-intermediate/).*
 
 ---
 
@@ -53,7 +63,7 @@ By the next session of class, we need the following **4** things from you:
 
 * **Spend 20-30 minutes online** looking for content made in Touchdesigner that features some *interaction* that interests you. Search under takgs like **#touchdesigner /#doitintops**. Recommended sites to do this viewing are Instagram, Twitter, Youtube, and Vimeo. The [official TouchDesigner showcase on Vimeo.com](https://vimeo.com/groups/touchdesigner/sort:plays/format:thumbnail) is particularly good.
 * **Write** one sentence about why this form of interaction or visualization interests you.
-* **Screenshot and submit the link** to the piece. In the Discord channel `#8.3-Looking-Outwards`
+* **Screenshot and submit the link** to the piece. In the Discord channel `#8-3-looking-outwards`
 * **Note**: please do not just skim the first page of results!
 
 ---
