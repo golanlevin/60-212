@@ -22,8 +22,9 @@ Do **one** of the following tutorials on Instancing:
 
 * [**Instancing** Mild 🌶️ Geometry with Mouse Interactivity](https://www.youtube.com/watch?v=SJZIMGg-thY)
 * [**Instancing** Mild 🌶️ Instancing Basics](https://www.youtube.com/watch?v=BFG-FBKuJow)
-![Instancing mild](../../2024/assignments/images/emtouchdesignerlectures/instancing_mild.png)
 * [**Instancing** Spicy 🌶️🌶️ Looping Noise](https://www.youtube.com/watch?v=TGYO1WcT5ys)
+
+![Instancing mild](../../2024/assignments/images/emtouchdesignerlectures/instancing_mild.png)
 ![Instancing Spicy](../../2024/assignments/images/emtouchdesignerlectures/instancing_spicy.png)
 
 ### 8.4.2. Feedback 
@@ -31,10 +32,12 @@ Do **one** of the following tutorials on Instancing:
 Do **one** of the following tutorials on Feedback:
 
 * [**Feedback** Mild 🌶️  Color Tunnel](https://www.youtube.com/watch?v=gHPrDMqOmJ0)
-![feedbackmild](../../2024/assignments/images/emtouchdesignerlectures/feedback_mild.png)
 * [**Feedback** Spicy 🌶️🌶️ Feedback Spitscanner](https://www.youtube.com/watch?v=jOcMCGtclBs)
-![fspicy](../../2024/assignments/images/emtouchdesignerlectures/feedback_spicy.png)
 * [**Feedback** Extra Spicy 🌶️🌶️🌶️ Feedback Influenced Instancing](https://www.youtube.com/watch?v=Qv2nTk4lr-E) (goes very fast, take your time, pause and slow down the video if necessary)
+
+
+![feedbackmild](../../2024/assignments/images/emtouchdesignerlectures/feedback_mild.png)
+![fspicy](../../2024/assignments/images/emtouchdesignerlectures/feedback_spicy.png)
 ![extraspicy](../../2024/assignments/images/emtouchdesignerlectures/extra_spicy.png)
 
 Once you complete the tutorials, **change** SOMETHING SMALL about them. It could be something as miniscule as the period of the noise, or the shape of your instancing objects, or the color scheme. Do some simple transformation on top of the base tutorial to show that you know how certain characteristics of the patch work. 
