@@ -60,11 +60,11 @@
 * `Wed 11/12` [#7b Due](assignments/assignment_7.md) (Revision)
 * `Mon 11/17` [Daily notes](daily_notes/20251117.md); 8a.1 due.
 * `Wed 11/19` [Daily notes](daily_notes/20251119.md); [#8a Due](assignments/assignment_8a.md).
-* `Mon 11/24` Workday.
+* `Mon 11/24` [Daily notes](daily_notes/20251124.md).
 * `Wed 11/26` — *No session (Thanksgiving)*
-* `Wed 12/01` 
-* `Mon 12/03` 
-* `Sun 12/07` — #8 Due.
+* `Wed 12/01` Workday.
+* `Mon 12/03` Workday.
+* `Sun 12/07` — #8 Due, 5:30pm.
 * `Mon 12/15`
 
 ---
