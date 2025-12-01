@@ -60,7 +60,7 @@ Once you complete the tutorials, **change** SOMETHING SMALL about them. It could
 
 This project will have multiple phases over the rest of the semester: 
 
-* Monday 12/01 will be a work day where everyone will have a ~10 minute meeting with Em to establish a project direction/prescribe useful tools/look at previous and similar work. After you meet with Em you are welcome to stay and work or work where you please. 
+* Monday 12/01 will be a work day. 
 * Wednesday 12/03 will be a small showing of work-in-progress, or sketches of what you intend to do. This is non-binding. What you show in the WIP does not limit what you can do for the final submission.
 * 12/7: final presentations and celebration of your work.
 
