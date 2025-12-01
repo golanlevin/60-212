@@ -56,7 +56,7 @@ Once you complete the tutorials, **change** SOMETHING SMALL about them. It could
 
 *(70%, >5 hours due 12/3 + Revised 12/7)* 
 
-* **Create** a Touchdesigner patch that creates a graphic corresponding to some sort of **INPUT**. This could be a camera, computer vision, serial devices like Arduino , Google MediaPipe bodytracking, audio, keyboard input, etc.
+* **Create** a Touchdesigner patch that creates a graphic corresponding to some sort of **INPUT**. This could be a camera, computer vision, a serial device like Arduino, Google MediaPipe bodytracking, audio (like the TouchDesigner [audioAnalysis](https://www.youtube.com/watch?v=Qnuc-TEDmaI) tool), keyboard input, etc.
 
 This project will have multiple phases over the rest of the semester: 
 
