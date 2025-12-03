@@ -67,8 +67,10 @@ This project will have multiple phases over the rest of the semester:
 
 ### Project 8 Final Deliverables
 
+*You'll give final presentations on Sunday evening, December 7th from 5:30-8:00pm in our classroom. You should have the following prepared:*
+
 * **Video Documentation**. Create a brief video to document your project. This likely means you will **export an .mp4 file and create an unlisted YouTube video**. Instructions on how to export .mp4 videos from TouchDesigner are [here](https://www.youtube.com/watch?v=DSpaWDQP5O4). Depending on your project, it may also be helpful for you to record and intercut "over-the-shoulder" (camera) video of you using your interactive software, interface hardware, etc. If you do appear in your documentation, give consideration to lighting, your choice of environment, your 'costume', and rehearsing your 'performance'. 
-* **Create a post** in the `#8-5-interactive-environment` Discord channel.
+* **Create a post** in the `#8-6-interactive-environment` Discord channel.
 * In the post, **write 1-2 paragraphs** (150-200 words) about your project: what it *is*, what your *goals* were, the *challenges* you overcame in developing it, and your *evaluation* of the results. Be sure to **acknowledge** any inspirations or sources of assistance.
 * In the post, **link** to your YouTube video documentation. **Make sure** the video is set to unlisted/public (and not "private").
 * In the post, **include 1-3 images** of your project. These might be screengrabs, photographs, sketches, diagrams, etc.
