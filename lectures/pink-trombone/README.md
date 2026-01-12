@@ -8,15 +8,16 @@ We present a [**p5.js version**](https://editor.p5js.org/golan/sketches/E9Hd-deV
 
 ![pink-trombone-implementations.png](img/pink-trombone-implementations.png)
 
-[**Pink Trombone**](https://dood.al/pinktrombone/) is a real-time, articulatory speech synthesizer that generates human-like vocal sounds by physically modeling the shape and dynamics of the human vocal tract. Developed by Neil Thapen, it simulates voiced sound production by passing a glottal waveform through a configurable waveguide representing the vocal tract's cross-sectional diameters. By adjusting these diameters over time—mimicking tongue, lips, and nasal cavity movements—the system can produce a wide range of vowel- and consonant-like utterances without relying on prerecorded phonemes or text-to-speech techniques.
+[**Pink Trombone**](https://dood.al/pinktrombone/) is a real-time, articulatory speech synthesizer that generates human-like vocal sounds by physically modeling the shape and dynamics of the human vocal tract. Developed by Neil Thapen, it simulates voiced sound production by passing a glottal waveform through a configurable waveguide representing the vocal tract's cross-sectional diameters. By adjusting these diameters over time—mimicking tongue, lips, and nasal cavity movements—the system can produce a wide range of vowel- and consonant-like utterances without relying on prerecorded phonemes or text-to-speech techniques. Pink Trombone has a vibrant online [fan](https://www.instagram.com/p/DRWqvwNjFX2) [community](https://www.instagram.com/p/DTNK_6WDpbx).
 
 This [**p5.js version of Pink Trombone**](https://editor.p5js.org/golan/sketches/E9Hd-deVy) serves as a pedagogical tool for teaching interactive audio synthesis and user interface design. Unlike the original implementation, it deliberately omits most of Thapen's visual interface representing the vocal tract. This is to allow students to create their *own* alternative interaction modalities—using e.g. gestural body-tracking controls—while engaging with the core synthesis engine.
+
 
 ---
 
 ## p5 Code
 
-This adaptation of Pink Trombone is known to work with p5.js v.1.11.9. Code can be found:
+This adaptation of Pink Trombone is known to work with p5.js v.1.11.11. Code can be found:
 
 * In [this repository](p5-pinktrombone/): [sketch.js](p5-pinktrombone/sketch.js), [p5.pinktrombone.js](p5-pinktrombone/p5.pinktrombone.js)
 * At [Editor.p5js.org](https://editor.p5js.org/golan/sketches/E9Hd-deVy)
