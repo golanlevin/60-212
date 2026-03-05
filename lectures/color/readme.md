@@ -22,7 +22,8 @@ Josef Albers' discoveries of color relativity highlight how the perception of a 
 ![albers-3-looks-like-4.png](albers-3-looks-like-4.png)
 
 **Make four colors look like three:**
-![albers-4-looks-like-3.png](albers-4-looks-like-3.png)
+
+![albers-4-looks-like-3.png](albers-4-looks-like-3.png)
 
 ---
 
@@ -143,6 +144,7 @@ OKLab is an improvement over the CIELAB color space, [introduced by Björn Ottos
 * David Aerne's [**Poline**](https://meodai.github.io/poline/)
 * David Aerne's [**Rampensau**](https://meodai.github.io/rampensau/). RampenSau is a lightweight, dependency-free and blazingly fast color generation library. It makes use of hue cycling and easing functions to generate pleasing color ramps.
 * Cynthia Brewer's [**Color Advice for Cartographers**](https://colorbrewer2.org/#type=sequential&scheme=BuPu&n=3)
+* David Aerne's [Palette visualizer](https://meodai.github.io/color-palette-shader/#colors/d1b187-c77b58-ae5d40-79444a-4b3d44-ba9158-927441-4d4539-77743b-b3a555-d2c9a5-8caba1-4b726e-847875-ab9b8e?model=okhsl&metric=oklab&pos=0.4388)
 
 #### Artworks
 
