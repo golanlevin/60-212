@@ -95,28 +95,13 @@ In computer vision, there is a difference between *detection* (is there an eleph
 * [Segment Anything v1 Demo](https://segment-anything.com/)
 * [Segment Anything v2 Demo](https://sam2.metademolab.com/demo) 
 
-*Now:* We will add to our current workflow to become [`3_image_depth_and_segmentation.json`](workflows/3_image_depth_and_segmentation.json), shown below. In particular, we will be adding the nodes that have been labeled green:
+*Now:* We will add to our current workflow to become [`3_image_depth_and_segmentation_for_runcomfy_2026.png`](workflows/3_image_depth_and_segmentation_for_runcomfy_2026.png), shown below. 
 
-![3_image_depth_and_segmentation_sm.png](workflows/3_image_depth_and_segmentation_sm.png)
+![3_image_depth_and_segmentation_for_runcomfy_2026.png](workflows/3_image_depth_and_segmentation_for_runcomfy_2026.png)
 
-The conceptual overview of the workflow is as follows: 
+Study the [workflow image](workflows/3_image_depth_and_segmentation_for_runcomfy_2026.png) to reproduce it, follow the instructions below, or upload the entire [`3_image_depth_and_segmentation_for_runcomfy_2026.json`](workflows/3_image_depth_and_segmentation_for_runcomfy_2026.json) workflow if you prefer.
 
-* A tracker/localizer node called [*Florence*](https://www.microsoft.com/en-us/research/project/projectflorence/) (created by Microsoft) is provided with the input image and a text prompt ("elephant"). *Florence* produces a bounding box around the elephant's outline. Note that *Florence* was [ported to Comfy by someone named Kijai](https://github.com/kijai/ComfyUI-Florence2), using Microsoft's code.
-* We take the center point of the elephant's bounding box, and the input image, and provide them to a *SAM2* node. Then *SAM2* treats the center point just like the mouse click in [this demo](https://segment-anything.com/), and produces a "mask image" (i.e. segmentation) for whatever object the center point occupies. Note that *SAM2* node was also ported to Comfy by [Kijai](https://github.com/kijai/ComfyUI-segment-anything-2) using Meta's code.
-* We then convert that mask into a regular image.
-
-Study the [workflow image](workflows/3_image_depth_and_segmentation_sm.png) to reproduce it, follow the instructions below, or upload the entire [`3_image_depth_and_segmentation.json`](workflows/3_image_depth_and_segmentation.json) workflow if you prefer. You will need to install the following ComfyUI nodes: 
-
-* *DownloadAndLoadFlorence2Model* 
-* *Florence2Run*
-* *Florence2 Coordinates*
-* *Mask Preview*
-* *Sam2Segmentation*
-* *(Down)Load SAM2Model*
-* *Convert Mask to Image*
-* You might also need Kijai's *ComfyUI-KJNodes* utilities.
-
-*Good luck!* When you're done, you should be able to download the following three images, and they should all have the same dimensions: 
+*Good luck!* When you're done, you should be able to download the following three images, among others, and they should all have the same dimensions: 
 
 * [elephant_rgb.png](output/elephant_rgb.png)
 * [elephant_depth.png](output/elephant_depth.png)* [elephant_segment.png](output/elephant_segment.png)
