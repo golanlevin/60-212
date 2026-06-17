@@ -1,0 +1,864 @@
+{
+  "id": "e441dde9-f7fc-4e69-86dd-44bbaec8893e",
+  "revision": 0,
+  "last_node_id": 141,
+  "last_link_id": 318,
+  "nodes": [
+    {
+      "id": 116,
+      "type": "LayerMask: SegmentAnythingUltra V2",
+      "pos": [
+        1322.8233903462994,
+        888.9482710563444
+      ],
+      "size": [
+        432.703125,
+        510
+      ],
+      "flags": {},
+      "order": 4,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "image",
+          "type": "IMAGE",
+          "link": 287
+        }
+      ],
+      "outputs": [
+        {
+          "name": "image",
+          "type": "IMAGE",
+          "links": [
+            317
+          ]
+        },
+        {
+          "name": "mask",
+          "type": "MASK",
+          "links": [
+            288
+          ]
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "LayerMask: SegmentAnythingUltra V2",
+        "cnr_id": "ComfyUI_LayerStyle_Advance",
+        "ver": "7b678b401a38307a4a7e99ef6630bd48f9cecedb"
+      },
+      "widgets_values": [
+        "sam_vit_h (2.56GB)",
+        "GroundingDINO_SwinT_OGC (694MB)",
+        0.3,
+        "VITMatte",
+        6,
+        6,
+        0.15,
+        0.99,
+        true,
+        "elephant",
+        "cuda",
+        2,
+        false
+      ],
+      "color": "rgba(27, 80, 119, 0.7)"
+    },
+    {
+      "id": 40,
+      "type": "SaveImage",
+      "pos": [
+        2327.310573134335,
+        608.3110784606644
+      ],
+      "size": [
+        409.953125,
+        345.390625
+      ],
+      "flags": {},
+      "order": 7,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 81
+        }
+      ],
+      "outputs": [],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.24.0",
+        "Node name for S&R": "SaveImage"
+      },
+      "widgets_values": [
+        "myproject/elephant_depth"
+      ]
+    },
+    {
+      "id": 32,
+      "type": "MaskToImage",
+      "pos": [
+        1825.3078865670607,
+        928.406130855811
+      ],
+      "size": [
+        225,
+        48
+      ],
+      "flags": {},
+      "order": 9,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "mask",
+          "type": "MASK",
+          "link": 288
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "slot_index": 0,
+          "links": [
+            71
+          ]
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "MaskToImage",
+        "cnr_id": "comfy-core",
+        "ver": "0.24.0"
+      },
+      "widgets_values": [],
+      "color": "#232",
+      "bgcolor": "#353"
+    },
+    {
+      "id": 120,
+      "type": "SaveImage",
+      "pos": [
+        2326.8879228924093,
+        1776.942315215283
+      ],
+      "size": [
+        417.40625,
+        316
+      ],
+      "flags": {},
+      "order": 10,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 291
+        }
+      ],
+      "outputs": [],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.24.0",
+        "Node name for S&R": "SaveImage"
+      },
+      "widgets_values": [
+        "myproject/elephant_pose"
+      ]
+    },
+    {
+      "id": 134,
+      "type": "SaveImage",
+      "pos": [
+        2325.6945416048848,
+        1406.4532311277355
+      ],
+      "size": [
+        407.734375,
+        316
+      ],
+      "flags": {},
+      "order": 16,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 313
+        }
+      ],
+      "outputs": [],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.24.0",
+        "Node name for S&R": "SaveImage"
+      },
+      "widgets_values": [
+        "myproject/elephant_normal"
+      ]
+    },
+    {
+      "id": 41,
+      "type": "SaveImage",
+      "pos": [
+        2325.5016762593345,
+        1007.2157554137888
+      ],
+      "size": [
+        407,
+        341.484375
+      ],
+      "flags": {},
+      "order": 14,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 71
+        }
+      ],
+      "outputs": [],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.24.0",
+        "Node name for S&R": "SaveImage"
+      },
+      "widgets_values": [
+        "myproject/elephant_segment"
+      ],
+      "color": "#232",
+      "bgcolor": "#353"
+    },
+    {
+      "id": 118,
+      "type": "AnimalPosePreprocessor",
+      "pos": [
+        1364.5578217953907,
+        1902.5449880656515
+      ],
+      "size": [
+        369.6875,
+        192
+      ],
+      "flags": {},
+      "order": 5,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "image",
+          "type": "IMAGE",
+          "link": 289
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            291
+          ]
+        },
+        {
+          "name": "POSE_KEYPOINT",
+          "type": "POSE_KEYPOINT",
+          "links": [
+            318
+          ]
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "AnimalPosePreprocessor",
+        "cnr_id": "comfyui_controlnet_aux",
+        "ver": "e8b689a513c3e6b63edc44066560ca5919c0576e"
+      },
+      "widgets_values": [
+        "yolox_l.torchscript.pt",
+        "rtmpose-m_ap10k_256_bs5.torchscript.pt",
+        640
+      ]
+    },
+    {
+      "id": 43,
+      "type": "SaveImage",
+      "pos": [
+        2321.721411690089,
+        195.6091874314432
+      ],
+      "size": [
+        419.125,
+        362.5
+      ],
+      "flags": {},
+      "order": 2,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 73
+        }
+      ],
+      "outputs": [],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.24.0",
+        "Node name for S&R": "SaveImage"
+      },
+      "widgets_values": [
+        "myproject/elephant_rgb"
+      ]
+    },
+    {
+      "id": 36,
+      "type": "ImageResize+",
+      "pos": [
+        640.3081855599612,
+        746.3667165881639
+      ],
+      "size": [
+        315,
+        312
+      ],
+      "flags": {},
+      "order": 1,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "image",
+          "type": "IMAGE",
+          "link": 316
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "slot_index": 0,
+          "links": [
+            73,
+            79,
+            287,
+            289,
+            310
+          ]
+        },
+        {
+          "name": "width",
+          "type": "INT",
+          "slot_index": 1,
+          "links": []
+        },
+        {
+          "name": "height",
+          "type": "INT",
+          "slot_index": 2,
+          "links": []
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "ImageResize+",
+        "cnr_id": "comfyui_essentials",
+        "ver": "9d9f4bedfc9f0321c19faf71855e228c93bd0dc9"
+      },
+      "widgets_values": [
+        0,
+        640,
+        "bicubic",
+        "keep proportion",
+        "always",
+        0
+      ]
+    },
+    {
+      "id": 50,
+      "type": "DepthAnythingPreprocessor",
+      "pos": [
+        1360.2812572877626,
+        705.4032544229981
+      ],
+      "size": [
+        341.15625,
+        136
+      ],
+      "flags": {},
+      "order": 3,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "image",
+          "type": "IMAGE",
+          "link": 79
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            81
+          ]
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "DepthAnythingPreprocessor",
+        "cnr_id": "comfyui_controlnet_aux",
+        "ver": "e8b689a513c3e6b63edc44066560ca5919c0576e"
+      },
+      "widgets_values": [
+        "depth_anything_vitl14.pth",
+        640
+      ]
+    },
+    {
+      "id": 133,
+      "type": "Reroute",
+      "pos": [
+        1241.6307900068905,
+        1593.3880088265232
+      ],
+      "size": [
+        75,
+        26
+      ],
+      "flags": {},
+      "order": 6,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 310
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "IMAGE",
+          "links": [
+            311,
+            312
+          ]
+        }
+      ],
+      "properties": {
+        "showOutputText": false,
+        "horizontal": false
+      }
+    },
+    {
+      "id": 125,
+      "type": "DSINE-NormalMapPreprocessor",
+      "pos": [
+        1457.1700929763897,
+        1454.5143843288156
+      ],
+      "size": [
+        270,
+        168
+      ],
+      "flags": {},
+      "order": 12,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "image",
+          "type": "IMAGE",
+          "link": 311
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            303
+          ]
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "DSINE-NormalMapPreprocessor",
+        "cnr_id": "comfyui_controlnet_aux",
+        "ver": "e8b689a513c3e6b63edc44066560ca5919c0576e"
+      },
+      "widgets_values": [
+        30,
+        10,
+        640
+      ]
+    },
+    {
+      "id": 132,
+      "type": "GetImageSize+",
+      "pos": [
+        1470.6461952939164,
+        1681.9775317514118
+      ],
+      "size": [
+        225,
+        120
+      ],
+      "flags": {},
+      "order": 13,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "image",
+          "type": "IMAGE",
+          "link": 312
+        }
+      ],
+      "outputs": [
+        {
+          "name": "width",
+          "type": "INT",
+          "links": [
+            308
+          ]
+        },
+        {
+          "name": "height",
+          "type": "INT",
+          "links": [
+            309
+          ]
+        },
+        {
+          "name": "count",
+          "type": "INT",
+          "links": null
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "GetImageSize+",
+        "cnr_id": "comfyui_essentials",
+        "ver": "9d9f4bedfc9f0321c19faf71855e228c93bd0dc9"
+      },
+      "widgets_values": []
+    },
+    {
+      "id": 130,
+      "type": "ImageCrop+",
+      "pos": [
+        1760.4687775869834,
+        1539.9737331324827
+      ],
+      "size": [
+        225,
+        280
+      ],
+      "flags": {},
+      "order": 15,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "image",
+          "type": "IMAGE",
+          "link": 303
+        },
+        {
+          "name": "width",
+          "type": "INT",
+          "widget": {
+            "name": "width"
+          },
+          "link": 308
+        },
+        {
+          "name": "height",
+          "type": "INT",
+          "widget": {
+            "name": "height"
+          },
+          "link": 309
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            313
+          ]
+        },
+        {
+          "name": "x",
+          "type": "INT",
+          "links": null
+        },
+        {
+          "name": "y",
+          "type": "INT",
+          "links": null
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "ImageCrop+",
+        "cnr_id": "comfyui_essentials",
+        "ver": "9d9f4bedfc9f0321c19faf71855e228c93bd0dc9"
+      },
+      "widgets_values": [
+        256,
+        256,
+        "top-left",
+        0,
+        0
+      ]
+    },
+    {
+      "id": 138,
+      "type": "LoadImage",
+      "pos": [
+        311.4995750239075,
+        746.5969154015307
+      ],
+      "size": [
+        282.796875,
+        340
+      ],
+      "flags": {},
+      "order": 0,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            316
+          ]
+        },
+        {
+          "name": "MASK",
+          "type": "MASK",
+          "links": null
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "LoadImage"
+      },
+      "widgets_values": [
+        "e2302d64f2d64ae3dff5df21f0760bae3399346f71399db578ac8074f3d8aa80.png",
+        "image"
+      ]
+    },
+    {
+      "id": 140,
+      "type": "PreviewImage",
+      "pos": [
+        1823.2658443261123,
+        1030.16325036632
+      ],
+      "size": [
+        225,
+        280
+      ],
+      "flags": {},
+      "order": 8,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 317
+        }
+      ],
+      "outputs": [],
+      "properties": {
+        "Node name for S&R": "PreviewImage"
+      },
+      "widgets_values": []
+    },
+    {
+      "id": 141,
+      "type": "SavePoseKpsAsJsonFile",
+      "pos": [
+        1779.1128225441637,
+        1979.1509669611655
+      ],
+      "size": [
+        270,
+        108
+      ],
+      "flags": {},
+      "order": 11,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "pose_kps",
+          "type": "POSE_KEYPOINT",
+          "link": 318
+        }
+      ],
+      "outputs": [],
+      "properties": {
+        "Node name for S&R": "SavePoseKpsAsJsonFile"
+      },
+      "widgets_values": [
+        "elephantPose_"
+      ]
+    }
+  ],
+  "links": [
+    [
+      71,
+      32,
+      0,
+      41,
+      0,
+      "IMAGE"
+    ],
+    [
+      73,
+      36,
+      0,
+      43,
+      0,
+      "IMAGE"
+    ],
+    [
+      79,
+      36,
+      0,
+      50,
+      0,
+      "IMAGE"
+    ],
+    [
+      81,
+      50,
+      0,
+      40,
+      0,
+      "IMAGE"
+    ],
+    [
+      287,
+      36,
+      0,
+      116,
+      0,
+      "IMAGE"
+    ],
+    [
+      288,
+      116,
+      1,
+      32,
+      0,
+      "MASK"
+    ],
+    [
+      289,
+      36,
+      0,
+      118,
+      0,
+      "IMAGE"
+    ],
+    [
+      291,
+      118,
+      0,
+      120,
+      0,
+      "IMAGE"
+    ],
+    [
+      303,
+      125,
+      0,
+      130,
+      0,
+      "IMAGE"
+    ],
+    [
+      308,
+      132,
+      0,
+      130,
+      1,
+      "INT"
+    ],
+    [
+      309,
+      132,
+      1,
+      130,
+      2,
+      "INT"
+    ],
+    [
+      310,
+      36,
+      0,
+      133,
+      0,
+      "IMAGE"
+    ],
+    [
+      311,
+      133,
+      0,
+      125,
+      0,
+      "IMAGE"
+    ],
+    [
+      312,
+      133,
+      0,
+      132,
+      0,
+      "IMAGE"
+    ],
+    [
+      313,
+      130,
+      0,
+      134,
+      0,
+      "IMAGE"
+    ],
+    [
+      316,
+      138,
+      0,
+      36,
+      0,
+      "IMAGE"
+    ],
+    [
+      317,
+      116,
+      0,
+      140,
+      0,
+      "IMAGE"
+    ],
+    [
+      318,
+      118,
+      1,
+      141,
+      0,
+      "POSE_KEYPOINT"
+    ]
+  ],
+  "groups": [],
+  "config": {},
+  "extra": {
+    "ds": {
+      "scale": 0.5131581182307069,
+      "offset": [
+        -98.06237848060621,
+        269.8722329655267
+      ]
+    },
+    "frontendVersion": "1.45.15",
+    "VHS_latentpreview": false,
+    "VHS_latentpreviewrate": 0,
+    "VHS_MetadataImage": true,
+    "VHS_KeepIntermediate": true
+  },
+  "version": 0.4
+}
