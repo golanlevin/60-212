@@ -26,7 +26,9 @@ No “image of” — just image
 
 ---
 
-![caspar_david_friedrich_monk_by_the_sea_1808](img/caspar_david_friedrich_monk_by_the_sea_1808.jpg)<br />Caspar David Friedrich, [*Monk by the Sea*](https://en.wikipedia.org/wiki/The_Monk_by_the_Sea), 1808. A visitor to Friedrich’s studio, Helene von Kügelgen, suggested that the painting would be less frightening if he put a sea monster in it.![caspar_david_friedrich_morning_1824](img/caspar_david_friedrich_morning_1824.jpg)<br />Caspar David Friedrich, *Morning*, 1824.
+![caspar_david_friedrich_monk_by_the_sea_1808](img/caspar_david_friedrich_monk_by_the_sea_1808.jpg)<br />Caspar David Friedrich, [*Monk by the Sea*](https://en.wikipedia.org/wiki/The_Monk_by_the_Sea), 1808. A visitor to Friedrich’s studio, Helene von Kügelgen, suggested that the painting would be less frightening if he put a sea monster in it.
+
+![caspar_david_friedrich_morning_1824](img/caspar_david_friedrich_morning_1824.jpg)<br />Caspar David Friedrich, *Morning*, 1824.
 
 ---
 
@@ -166,6 +168,8 @@ Works by [Krista Kim](https://www.kristakimstudio.com/), 2024:
 * [C3id8aXp7Mg](https://www.instagram.com/zach.lieberman/p/C3id8aXp7Mg/?img_index=1)
 * [C3YhGT3Jd1p](https://www.instagram.com/zach.lieberman/p/C3YhGT3Jd1p/?img_index=1)
 * [DGPf6PNsXQ-](https://www.instagram.com/zach.lieberman/p/DGPf6PNsXQ-/?img_index=1)
+
+[*Soft Continuum*](https://verse.works/series/soft-continuum-by-mchx) by Anton Dubrovn (MCHX), 2026.
 
 ![anton_dubrovin_mchx_2025](img/anton_dubrovin_mchx_2025.jpg)<br />Anton Dubrovn (MCHX), 2025.
 
