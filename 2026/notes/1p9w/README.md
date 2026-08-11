@@ -185,7 +185,12 @@ You are not making nine pictures *of* something. You are constructing nine open-
 
 ---
 
+Each drawing is the answer to a question. Are you a curious person?
+
+Based on the quality of your research, not the quality of ChatGPT's algo implementations. 
+
 Now I need recommendations for art and other inspirations to look at:
+
 
 * Core inspiration - this assignment was inspired by [this IG post by @tsumikiroom](https://www.instagram.com/p/DbdZWERoBKu) 
 * Sol Lewitt wall drawings
@@ -200,10 +205,41 @@ Fifty random points, all mutually connected. This establishes that an elementary
 * Agnes Denes, Isometric Systems in Isotropic Space - multiple geometric transformations applied to a common conceptual object.
 * [CGAL](https://doc.cgal.org/latest/Manual/packages.html#PartConvexHullAlgorithms)
 * [cartography-playground](https://cartography-playground.gitlab.io/)
-* Snibbe CodeDoc [Tripolar](https://www.snibbe.com/generative/tripolar), https://editor.p5js.org/golan/sketches/nurnJ6_8l
+* Snibbe CodeDoc [Tripolar](https://www.snibbe.com/generative/tripolar), https://editor.p5js.org/golan/sketches/nurnJ6_8l 
+* Snibbe [*Boundary Functions*](https://www.youtube.com/watch?v=5wA3lKcDrlM)
+* Snibbe [*Near*](https://web.archive.org/web/20090228201714/http://snibbe.com/scott/public/near/index.html) (2004)
+* Sol Lewitt, *Wall Drawing #118*
+  * https://www.artic.edu/artworks/196148/wall-drawing-118-50-randomly-placed-points-connected-by-straight-lines
+  * https://www.youtube.com/watch?v=ky9K_-NJoPU
+* Bruno Munari, *Flight of Fancy*
 
-Each drawing is the answer to a question. Are you a curious person?
 
-Based on the quality of your research, not the quality of ChatGPT's algo implementations. 
+---
 
+## Part A. 
 
+No AI is permitted for Part A. You must be able to do these yourself. 
+
+Note: for the exercises that specify sorting, be sure to copy the points array so its original remains unchanged.
+
+1. Spline curve connecting all the points, in order
+* Draw a perpendicular projection from every point to the horizontal centerline
+* Star Graph: Connect every point to the centroid of the set
+* Sort points from left to right, connect them with a polyline
+* Axis-aligned bounding box
+* Sort points clockwise around the centroid; connect them with a closed loop
+* Connect each point to its nearest neighbor
+* Connect each point to the point furthest from it
+* Complete Graph (hairball)
+
+## Part B. 
+
+1. Minimal Spanning Tree (Prim's algorithm)
+2. Minimum-area oriented bounding box
+3. Delaunay triangulation (Bowyer-Watson)
+4. Open traveling-salesperson path
+5. Density-field isoline using marching squares
+6. Convex hull peeling (Onion Decomposition)
+7. Project every point onto the PCA major axis
+8. Bubble-clipped Voronoi diagram
+9. Projections onto minimum bounding circle
