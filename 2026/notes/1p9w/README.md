@@ -201,6 +201,7 @@ Fifty random points, all mutually connected. This establishes that an elementary
   - [algo_visuals](https://www.instagram.com/algo_visuals/)
   - [3blue1brown](https://www.instagram.com/3blue1brown/)
   - [mathmotion97](https://www.instagram.com/mathmotion97/)
+  - [codevisuals.io/](https://www.instagram.com/codevisuals.io/)
 * [Tokyo Strut (Masahiko Sato & Mio Ueta)](https://www.youtube.com/watch?v=4M-j0Wnjb7Q&t=6s)
 * Agnes Denes, Isometric Systems in Isotropic Space - multiple geometric transformations applied to a common conceptual object.
 * [CGAL](https://doc.cgal.org/latest/Manual/packages.html#PartConvexHullAlgorithms)
@@ -218,19 +219,19 @@ Fifty random points, all mutually connected. This establishes that an elementary
 
 ## Part A. 
 
-No AI is permitted for Part A. You must be able to do these yourself. 
+No AI is permitted for Part A: you must be able to accomplish these yourself. 
 
-Note: for the exercises that specify sorting, be sure to copy the points array so its original remains unchanged.
+*Note: for the exercises that specify sorting, be sure to copy the points array so the original data remains unchanged.*
 
 1. Spline curve connecting all the points, in order
-* Draw a perpendicular projection from every point to the horizontal centerline
-* Star Graph: Connect every point to the centroid of the set
-* Sort points from left to right, connect them with a polyline
-* Axis-aligned bounding box
-* Sort points clockwise around the centroid; connect them with a closed loop
-* Connect each point to its nearest neighbor
-* Connect each point to the point furthest from it
-* Complete Graph (hairball)
+2. Draw a perpendicular projection from every point to the horizontal centerline
+3. Star Graph: Connect every point to the centroid of the set
+4. Sort points from left to right; connect them with a polyline
+5. Axis-aligned (min/max) bounding box
+6. Sort points clockwise around the centroid; connect them with a closed loop
+7. Connect each point to its nearest neighbor
+8. Connect each point to the point furthest from it
+9. Complete Graph (hairball)
 
 ## Part B. 
 

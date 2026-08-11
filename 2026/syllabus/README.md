@@ -29,7 +29,7 @@
 
 # TL;DR
 
-Your grade in this course is straightforwardly calculated based on your **professionalism** in completing work and attending class, subject to the policies summarized below:
+To a first approximation, your grade in this course is straightforwardly based on your **professionalism** in completing work and attending class, subject to the policies summarized below:
 
 ![grading-policy.jpg](img/grading-policy.jpg)
 
@@ -39,7 +39,7 @@ Your grade in this course is straightforwardly calculated based on your **profes
 * 🤕 Forgo 2 sets of assignments: lose a letter grade.
 * 💀 Forgo 3+ sets of assignments: fail the class.
 
-There will be 10 sets of assignments this semester. Each set of assignments has a clearly defined checklist of subtasks, whose purpose is to help you develop discipline in creating and documenting your work. Your grade is based on your fulfillment of these checklists. A set of assignments is "forgone" if it is more than one week late, or if it is less than 25% completed.
+There will be 10 sets of assignments this semester (the final project has 3 phased subsets). Each set of assignments has a clearly defined checklist of subtasks, whose purpose is to help you develop discipline in creating and documenting your work. Your grade is based on your fulfillment of these checklists. A set of assignments is "forgone" if it is more than one week late, or if it is less than 25% completed.
 
 ### Summary of Attendance Policy:
 
@@ -47,7 +47,7 @@ There will be 10 sets of assignments this semester. Each set of assignments has 
 * 🤕 Ghost 2 sessions: lose a letter grade.
 * 💀 Ghost 3+ sessions: fail the class.
 
-Here, *"ghosting"* refers specifically to "**no-call, no-show**" attendance events. Attendance is important, but if you need to miss class — which can happen, within reason — you are expected to be responsible about **communicating** with me about your attendance, in order to obtain an "excused absence". That said, this flexibility should not be abused; additional policies (see below) may take effect if you incur more than 3 excused absences.
+Here, *"ghosting"* refers specifically to "**no-call, no-show**" attendance events. If you need to miss class — which can happen, within reason — you are expected to be responsible about **communicating** with me about your attendance, in order to obtain an "excused absence". That said, this flexibility should not be abused; additional policies take effect if you incur more than 3 excused absences.
 
 
 ---
@@ -60,20 +60,21 @@ Here, *"ghosting"* refers specifically to "**no-call, no-show**" attendance even
 
 This is a “studio art course in computer science”, in which our objective is art and design, but our medium is student-written software. Intended as a second course for arts students who have already had one semester of elementary programming (in any language), this class develops craft skills in arts-engineering using a variety of creative coding toolkits, especially including [p5.js](https://p5js.org/) (JavaScript) and [ComfyUI](https://www.runcomfy.com/). Through rigorous programming exercises in these environments, students will develop mastery over the basic vocabulary of constructs that govern static, dynamic, and interactive form, with the aim of applying these skills to problems in interactive art, computational design, and other creative explorations of transmediality, connectivity, generativity, and immersivity.
 
-This fall, there are 10 primary assignment sets: 
+This fall, there are 10 primary assignment sets, with the following due dates and schedule below: 
 
-1. Getting Started (due 8/27)
-2. Form and Shape (due 9/03)
-3. Looping Movement (due 9/10)
-4. Timekeeping (due 9/17)
-5. Pattern and Pixel Logics (due 9/29) 
-6. LLM Interaction (due 10/08)
-7. Gesture and Augmented Body (due 10/27)
-8. Telematic System (due 11/05)
-9. Code and Diffusion AI (due 11/17)
-10. Final Project (due 12/08-12, TBA)
+* `Wed 08/26` — #1 Due (Form; Points and Lines) 
+* `Wed 09/02` — #2 Due (Movement, Illusion, Loops)
+* `Mon 09/14` — #3 Due (Color)
+* `Wed 09/23` — #4 Due (Camera/Puppet)
+* `Wed 10/07` — #5 Due (Speech/AI-Buffet)
+* `Mon 10/26` — #6 Due (Pixel Logics, Shaders)
+* `Mon 11/09` — #7 Due (Creative Tool)
+* `Mon 11/16` — #8a Due (Capstone Experiment)
+* `Wed 12/02` — #8b Due (Capstone)
+* `TBA 12/XX` — #8c (Capstone Presentations and Documentation)
 
-
+<br />
+![60-212_2026_schedule](img/60-212_2026_schedule.png)
 
 ### Prerequisites
 
@@ -89,9 +90,9 @@ This fall, there are 10 primary assignment sets:
 
 At the conclusion of this course, students will be able to:
 
-* Demonstrate proficiency in creating art by programming a computer.
+* Demonstrate proficiency in using computer programming to make artworks and creative software.
 * Demonstrate familiarity with a repertoire of artists, designers, works and activities around creative coding, interactive art, generative form, and computational design.
-* Understand the role of computation in artworks that explore concepts of transmediality, generativity, connectivity, and immersivity.
+* Understand the role of computation in artworks and other creative software that explore concepts of transmediality, generativity, connectivity, and immersivity.
 * Understand how to document and present artworks created using code.
 
 ### Course Relevance
@@ -137,14 +138,14 @@ This semester, you can expect to receive the following feedback, at a minimum:
 ### Required Course Materials
 
 * **Laptop**. Students should have access to a personal laptop with a webcam and a reliable internet connection. Recent, well-updated installations of Mac OSX, Windows and Linux are all acceptable operating systems. However, although all of the programming toolkits with which we work are free and cross-platform, it is possible that example projects may only be provided for Mac OSX.
-* **Programming Environments**. The primary programming environment used for example projects and sample code will be [p5.js](https://p5js.org/) (JavaScript, optionally programmed within [Visual Studio Code](https://code.visualstudio.com/) with the [p5.vscode](https://marketplace.visualstudio.com/items?itemName=samplavigne.p5-vscode) extension). However, we are also likely to encounter [TouchDesigner](https://derivative.ca/), [ComfyUI](https://www.runcomfy.com/), and potentially [Processing](https://processing.org/) (Java) or Python.
+* **Programming Environments**. The primary programming environment used for example projects and sample code will be [p5.js](https://p5js.org/) (JavaScript, optionally programmed within [Visual Studio Code](https://code.visualstudio.com/) with the [p5.vscode](https://marketplace.visualstudio.com/items?itemName=samplavigne.p5-vscode) extension). However, we are also likely to encounter [ComfyUI](https://www.runcomfy.com/), [TouchDesigner](https://derivative.ca/), and potentially [Processing](https://processing.org/) (Java) or Python.
 * **Sketchbook**. It is extremely wise to plan your projects on paper before writing any code, and some assignments will require you to post images of your project sketches. In support of this, you are strongly advised to maintain a sketchbook for this course, ideally on paper.
 * **Smartphone Camera**. Students should have access to a smartphone with a camera to document certain projects.
-* **3-Button Mouse**. You will need a 3-button mouse for certain software. I recommend the [Logitech M100 wired mouse](https://www.amazon.com/Logitech-Corded-mouse-Black-910-005003/dp/B01MV1GX63/?th=1) (USB-A, $9) or the [Lenovo 400 wired mouse](https://www.amazon.com/Lenovo-USB-C-Compact-Wired-Mouse/dp/B09LRBWB5P/?th=1) (USB-C, $10). Wireless 3-button mice are also acceptable. Please obtain this mouse before the end of September.
+
 
 ### Additional Expenses
 
-* You will find it very beneficial to have a paid account for an LLM-based generative AI system, such as [ChatGPT Plus](https://openai.com/chatgpt/pricing/) ($20/month), [Anthropic Claude.ai Pro](https://www.anthropic.com/pricing) ($20/month),  or [GitHub CoPilot Individual](https://github.com/features/copilot#pricing) ($10/month).
+* You will find it very beneficial to have a paid account for an LLM-based generative AI system, such as [ChatGPT Plus](https://openai.com/chatgpt/pricing/) ($20/month), [Anthropic Claude.ai Pro](https://www.anthropic.com/pricing) ($20/month).
 * I'm currently working to make sure this is free to you (TBA), but it may become necessary to create a prepaid "Hobby" account at [RunComfy.com](https://www.runcomfy.com/pricing). I estimate that a one-time balance of $20 should be adequate for most of the work that we need to do. 
 
 
@@ -165,7 +166,7 @@ This course uses the following software systems to share information:
 This section articulates policies on: 
 
 * **Excused absences** (about which you have communicated responsibly)
-* ***Ghosting*** ("No-Call, No-Show" absences)
+* **Ghosting** ("No-Call, No-Show" absences)
 * **Partial attendance** (tardiness, mental absence)
 * **Malingering** on critique days (avoidant behavior)
 * **Health-Related Absences**
@@ -175,9 +176,9 @@ This section articulates policies on:
 
 An *excused* absence is one about which you have communicated with me in a timely, professional, and responsible manner.
 
-* **Communication is paramount**. Attendance is important, but if you're running late or need to miss class — which can happen, within reason — you are expected to be responsible about communicating with me. If you’re ill, or if you know you will have a planned absence, please let me know by Discord or email before the beginning of that class session. I can be very understanding and accommodating about planned and necessary absences, family circumstances, and/or medical issues when you inform me in a timely and professional manner. 
-* **This policy on excused absences shall not be abused**. Even if your absences are "excused", special arrangements will become necessary if you need to miss more than a few sessions. Not every circumstance can be accommodated, not all excuses are equal, and some class sessions (e.g. critiques) are more important than others. I reserve the right to lower your grade if you miss four or more sessions, in whole or in part, without such a special accommodation in place. If you have chronic medical issues that are likely to impact your attendance, please speak to the [Office of Disability Resources](https://www.cmu.edu/disability-resources/) as soon as possible and then make an appointment with me to discuss any accommodation requests. 
-* **Missed information is your problem**. The professor or TA *may* be able to help, but *you* are ultimately responsible for any information you have missed as a result of absence. Per CMU policy, "faculty are not obligated to re-teach material due to a student missing class." Organize with your classmates to get class information and material that you have missed.
+* **Communication is paramount**. If you're running late or need to miss class — which can happen, within reason — you are expected to be responsible about communicating with me. If you’re ill, or if you know you will have a planned absence, let me know by Discord or email before the beginning of that class session. I can be very understanding and accommodating about planned and necessary absences, family circumstances, and/or medical issues when you inform me in a timely and professional manner. 
+* **This policy on excused absences shall not be abused**. Even if your absences are "excused", special arrangements will become necessary if you need to miss more than a few sessions. Not every circumstance can be accommodated, not all excuses are equal, and some class sessions (especially: critiques) are more important than others. I reserve the right to lower your grade if you miss four or more sessions, in whole or in part, without such a special accommodation in place. If you have chronic medical issues that are likely to impact your attendance, please speak to the [Office of Disability Resources](https://www.cmu.edu/disability-resources/) as soon as possible and then make an appointment with me to discuss any accommodation requests. 
+* **Missed information is your problem**. The professor or TA *may* be able to help, but *you* are ultimately responsible for any information you have missed as a result of absence. Per CMU policy: *"faculty are not obligated to re-teach material due to a student missing class."* Organize with your classmates to get class information and material that you have missed.
 
 ### *Ghosting* (No-Call, No-Show Absences)
 
