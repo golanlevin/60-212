@@ -10,7 +10,7 @@
 * Professor: [Golan Levin](http://www.art.cmu.edu/people/golan-levin/), `golan@`
 * TA: [Libby McCaffrey](https://elizabethmccaffrey.com/), `lmccaffr@`
 
-*For Zoom links, Discord channel links, and the Professor's emergency contact information, please see the `#key-information` channel in our course Discord server.*
+*For Discord channel links, Zoom links, and the Professor's emergency contact information, please see the `#key-information` channel in our course Discord server.*
 
 ## Contents
 
@@ -47,7 +47,7 @@ There will be 10 sets of assignments this semester (the final project has 3 phas
 * 🤕 Ghost 2 sessions: lose a letter grade.
 * 💀 Ghost 3+ sessions: fail the class.
 
-Here, *"ghosting"* refers specifically to "**no-call, no-show**" attendance events. If you need to miss class — which can happen, within reason — you are expected to be responsible about **communicating** with me about your attendance, in order to obtain an "excused absence". That said, this flexibility should not be abused; additional policies take effect if you incur more than 3 excused absences.
+For the purposes of this course, *"ghosting"* refers specifically to "**no-call, no-show**" attendance events. If you need to miss class — which can happen, within reason — you are expected to be responsible about **communicating** with me about your attendance, generally no later than 30 minutes before class, in order to obtain an "excused absence". That said, this flexibility should not be abused; additional policies take effect if you incur more than 3 excused absences. 
 
 
 ---
@@ -82,8 +82,8 @@ This fall, there are 10 primary assignment sets, with the following due dates an
 
 * 60-212 is a *doubly-intermediate* course: intended for students who have already had at least one semester of arts foundations, and who have also already had at least one semester of introductory computer programming (in any language).
 * Students must be familiar and comfortable with computer programming fundamentals, such as iteration, conditional testing, functional abstraction, static and dynamic memory structures (e.g. arrays), and object-oriented programming, as taught in a course like AP Computer Science, or (at CMU) 15-104, 15-110, or 15-112.
-* General computing skills (such as browser use, file management, and word processing) are essential. Students are also expected to have some familiarity with software workflows for editing and distributing images and video.
-* A strong foundation in mathematics, especially including geometry, algebra, and trigonometry, will also be very helpful.
+* General computing skills (such as browser use, file management, word processing, and the Linux command line) are essential. Students are also expected to have some familiarity with software workflows for editing and distributing images and video.
+* A strong foundation in mathematics, including geometry, algebra, and trigonometry, may also be helpful.
 * This course is taught primarily with JavaScript. Students who are primarily familiar with Python will benefit from doing some additional preparation, such as viewing p5.js videos on the [Coding Train YouTube Channel](https://www.youtube.com/@TheCodingTrain).
 
 ### Learning Objectives and Course Goals
@@ -91,7 +91,7 @@ This fall, there are 10 primary assignment sets, with the following due dates an
 At the conclusion of this course, students will be able to:
 
 * Demonstrate proficiency in using computer programming to make artworks and creative software.
-* Demonstrate familiarity with a repertoire of artists, designers, works and activities around creative coding, interactive art, generative form, and computational design.
+* Demonstrate familiarity with a repertoire of artists, designers, works and activities around creative coding, generative form, interactive art, and computational design.
 * Understand the role of computation in artworks and other creative software that explore concepts of transmediality, generativity, connectivity, and immersivity.
 * Understand how to document and present artworks created using code.
 
@@ -99,7 +99,7 @@ At the conclusion of this course, students will be able to:
 
 This course is relevant to students who are interested in:
 
-* Exploring the use of computation in creating new culture and expanding their expressive vocabulary
+* Exploring the use of computation and coding practices in creating new culture and expanding their expressive vocabulary
 * Developing expertise in the aesthetic nuances and conceptual landscape of interactivity
 * Designing procedural form and generative art for games, virtual environments, and other modes of creative expression
 * Understanding the practical and social assumptions that underpin code in culture
@@ -108,7 +108,9 @@ This course is relevant to students who are interested in:
 
 *How will students be assessed: assignments, exams, final, presentation, project, etc.?*
 
-* **10 Assignments**. There will be ten sets of Deliverables this semester, assigned at approximately weekly intervals. Each set will have several sub-components, including multiple warmup exercises and a main project, that may have different intermediate deadlines.
+This course uses [*specifications grading*](https://academictech.uchicago.edu/2025/07/28/specifications-grading-a-powerful-way-to-reflect-what-students-learn/). Work is evaluated against a set of explicit, observable criteria, and these criteria are designed to be relatively unambiguous and quickly verifiable.
+
+* **10 Assignments**. There will be ten sets of Deliverables this semester, assigned at approximately weekly intervals. Each set will have several sub-components, usually including multiple warmup exercises and a main project, that may have different intermediate deadlines.
 * **Complete the checklists**. For each set of deliverables, an objective checklist of subtasks will be provided, with clearly defined assessment criteria. To ensure transparency, fairness and consistency, grades in this course are straightforwardly calculated according to students' fulfillment of these checklists and criteria. Many items on these checklists are intentionally easy to fulfill; pay attention to them.
 * **Qualitative evaluations are decoupled from grades**. In addition to grades that reflect the fulfillment of straightforward checklists, students will also receive qualitative and subjective feedback from a variety of people, including the professor, other CMU faculty, outside professionals, and/or their peers. This critical feedback on the content and quality of your projects does not factor into your grade.
 
@@ -123,7 +125,7 @@ This semester, you can expect to receive the following feedback, at a minimum:
 *Are there extra time commitments required outside of the regularly scheduled course meeting times?*
 
 * I anticipate that students will spend approximately 6-8 hours per week outside of class working on their projects. In the past, some students have reported that this course consumes as much as 15 hours per week. 
-* There will be a small number of special events outside of class meeting times (such as public artist lectures), for which attendance is *strongly recommended*.
+* There will be a small number of special events outside of class meeting times (such as public artist lectures), for which attendance is *strongly recommended*, but not strictly required.
 * Students may also wish to attend optional and occasional group work sessions.
 
 
@@ -138,15 +140,10 @@ This semester, you can expect to receive the following feedback, at a minimum:
 ### Required Course Materials
 
 * **Laptop**. Students should have access to a personal laptop with a webcam and a reliable internet connection. Recent, well-updated installations of Mac OSX, Windows and Linux are all acceptable operating systems. However, although all of the programming toolkits with which we work are free and cross-platform, it is possible that example projects may only be provided for Mac OSX.
-* **Programming Environments**. The primary programming environment used for example projects and sample code will be [p5.js](https://p5js.org/) (JavaScript, optionally programmed within [Visual Studio Code](https://code.visualstudio.com/) with the [p5.vscode](https://marketplace.visualstudio.com/items?itemName=samplavigne.p5-vscode) extension). However, we are also likely to encounter [ComfyUI](https://www.runcomfy.com/), [TouchDesigner](https://derivative.ca/), and potentially [Processing](https://processing.org/) (Java) or Python.
+* **Programming Environments**. The primary programming environment used for example projects and sample code will be [p5.js](https://p5js.org/) (JavaScript, optionally programmed within [Visual Studio Code](https://code.visualstudio.com/) with the [p5.vscode](https://marketplace.visualstudio.com/items?itemName=samplavigne.p5-vscode) extension). However, we are also expected to encounter [ComfyUI](https://www.runcomfy.com/), and potentially [TouchDesigner](https://derivative.ca/), [Processing](https://processing.org/) (Java), and/or Python.
 * **Sketchbook**. It is extremely wise to plan your projects on paper before writing any code, and some assignments will require you to post images of your project sketches. In support of this, you are strongly advised to maintain a sketchbook for this course, ideally on paper.
 * **Smartphone Camera**. Students should have access to a smartphone with a camera to document certain projects.
-
-
-### Additional Expenses
-
-* You will find it very beneficial to have a paid account for an LLM-based generative AI system, such as [ChatGPT Plus](https://openai.com/chatgpt/pricing/) ($20/month), [Anthropic Claude.ai Pro](https://www.anthropic.com/pricing) ($20/month).
-* I'm currently working to make sure this is free to you (TBA), but it may become necessary to create a prepaid "Hobby" account at [RunComfy.com](https://www.runcomfy.com/pricing). I estimate that a one-time balance of $20 should be adequate for most of the work that we need to do. 
+* **LLM Account**. You will need to have an account for a command-line-based LLM coding assistant, such as Google [Antigravity CLI](https://antigravity.google/) (formerly Gemini CLI), OpenAI [Codex via ChatGPT Plus](https://openai.com/chatgpt/pricing/), or [Anthropic Claude.ai Pro](https://www.anthropic.com/pricing).
 
 
 ### Communication Tools
