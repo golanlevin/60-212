@@ -1,7 +1,6 @@
-# *Creative Coding* Syllabus (60-212, Fall 2026)
+# Syllabus for *Creative Coding* (60-212, Fall 2026)
 
-
-*This document covers policies and procedures for the Fall 2026 edition of "Intermediate Studio: Creative Coding" (60-212). This document does not include information about weekly topics, specific assignments, viewings or readings; that information can be found elsewhere in this repository.*
+![cc2026_banner2.jpg](img/cc2026_banner2.jpg)
 
 * Title: *Intermediate Studio: Creative Coding* (60-212), Fall 2026
 * Time and Location: Mon/Wed, 2:00-4:50pm in CFA-303
@@ -10,9 +9,12 @@
 * Professor: [Golan Levin](http://www.art.cmu.edu/people/golan-levin/), `golan@`
 * TA: [Libby McCaffrey](https://elizabethmccaffrey.com/), `lmccaffr@`
 
-*For Discord channel links, Zoom links, and the Professor's emergency contact information, please see the `#key-information` channel in our course Discord server.*
 
 ## Contents
+
+*Intermediate Studio: Creative Coding* (60-212) is a practical introduction to the use of programming and computation within the context of the arts. In this intermediate level course, students develop or deepen the skills and confidence to produce interactive, generative, and computational artworks; discuss their work in relation to current and historic praxes of computer art; and engage new technologies critically.
+
+This is a “studio art course in computer science”, in which our objective is art and design, but our medium is student-written software. Intended as a second course for arts students who have already had one semester of elementary programming (in any language), this class develops craft skills in arts-engineering using a variety of creative coding toolkits, especially including [p5.js](https://p5js.org/) (JavaScript) and [ComfyUI](https://www.runcomfy.com/). Through rigorous programming exercises in these environments, students will develop mastery over the basic vocabulary of constructs that govern static, dynamic, and interactive form, with the aim of applying these skills to problems in interactive art, computational design, and other creative explorations of transmediality, connectivity, generativity, and immersivity.
 
 * [TL;DR](#tldr)
 * [Overview](#overview)
@@ -27,11 +29,11 @@
 
 ---
 
-# TL;DR
+# TL;DR: Grading 
 
-To a first approximation, your grade in this course is straightforwardly based on your **professionalism** in completing work and attending class, subject to the policies summarized below:
+To a first approximation, your grade in this course is straightforwardly based on your **basic professionalism** in completing work and attending class, subject to the policies summarized below:
 
-![grading-policy.jpg](img/grading-policy.jpg)
+<img src="img/grading-policy.jpg" width=512>
 
 ### Summary of Assignment Policy:
 
@@ -39,7 +41,7 @@ To a first approximation, your grade in this course is straightforwardly based o
 * 🤕 Forgo 2 sets of assignments: lose a letter grade.
 * 💀 Forgo 3+ sets of assignments: fail the class.
 
-There will be 10 sets of assignments this semester (the final project has 3 phased subsets). Each set of assignments has a clearly defined checklist of subtasks, whose purpose is to help you develop discipline in creating and documenting your work. Your grade is based on your fulfillment of these checklists. A set of assignments is "forgone" if it is more than one week late, or if it is less than 25% completed.
+There will be 10 sets of assignments this semester (the final project has 3 phased subsets). Each set of assignments has a clearly defined checklist of subtasks, whose purpose is to help you develop discipline in creating and documenting your work. Your grade is based on your fulfillment of these checklists. A set of assignments is "**forgone**" if it is more than one week late, or if it is less than 25% completed.
 
 ### Summary of Attendance Policy:
 
@@ -54,19 +56,15 @@ For the purposes of this course, *"ghosting"* refers specifically to "**no-call,
 
 # Overview
 
-### Course Description
-
-*Intermediate Studio: Creative Coding* (60-212) is a practical introduction to the use of programming and computation within the context of the arts. In this intermediate level course, students develop or deepen the skills and confidence to produce interactive, generative, and computational artworks; discuss their work in relation to current and historic praxes of computer art; and engage new technologies critically.
-
-This is a “studio art course in computer science”, in which our objective is art and design, but our medium is student-written software. Intended as a second course for arts students who have already had one semester of elementary programming (in any language), this class develops craft skills in arts-engineering using a variety of creative coding toolkits, especially including [p5.js](https://p5js.org/) (JavaScript) and [ComfyUI](https://www.runcomfy.com/). Through rigorous programming exercises in these environments, students will develop mastery over the basic vocabulary of constructs that govern static, dynamic, and interactive form, with the aim of applying these skills to problems in interactive art, computational design, and other creative explorations of transmediality, connectivity, generativity, and immersivity.
+### Units and Schedule
 
 This fall, there are 10 primary assignment sets, with the following due dates and schedule below: 
 
 * `Wed 08/26` — #1 Due (Form; Points and Lines) 
 * `Wed 09/02` — #2 Due (Movement, Illusion, Loops)
 * `Mon 09/14` — #3 Due (Color)
-* `Wed 09/23` — #4 Due (Camera/Puppet)
-* `Wed 10/07` — #5 Due (Speech/AI-Buffet)
+* `Wed 09/23` — #4 Due (Mic/Cam/Puppet)
+* `Wed 10/07` — #5 Due (AI-Buffet)
 * `Mon 10/26` — #6 Due (Pixel Logics, Shaders)
 * `Mon 11/09` — #7 Due (Creative Tool)
 * `Mon 11/16` — #8a Due (Capstone Experiment)
@@ -80,11 +78,12 @@ This fall, there are 10 primary assignment sets, with the following due dates an
 
 *What prior knowledge must students have in order to be successful in this course?*
 
-* 60-212 is a *doubly-intermediate* course: intended for students who have already had at least one semester of arts foundations, and who have also already had at least one semester of introductory computer programming (in any language).
-* Students must be familiar and comfortable with computer programming fundamentals, such as iteration, conditional testing, functional abstraction, static and dynamic memory structures (e.g. arrays), and object-oriented programming, as taught in a course like AP Computer Science, or (at CMU) 15-104, 15-110, or 15-112.
+* 60-212 is a *doubly-intermediate* course: intended for students who have already had at least one semester of arts foundations, and who have *also* already had at least one semester of introductory computer programming (in any language). To qualify for enrollment in this course: 
+	* Students must have made a portfolio of creative work (such as for admission to the School of Art BFA/BXA programs). 
+	* Students must also be familiar and comfortable with computer programming fundamentals, such as iteration, conditional testing, functional abstraction, common memory structures (e.g. arrays), and object-oriented programming, as taught in a course like AP Computer Science, or (at CMU) 15-104, 15-110, or 15-112.
 * General computing skills (such as browser use, file management, word processing, and the Linux command line) are essential. Students are also expected to have some familiarity with software workflows for editing and distributing images and video.
+* This course is taught primarily with JavaScript. Students who are only familiar with Python will benefit from doing some additional preparation, such as viewing p5.js videos on the [Coding Train YouTube Channel](https://www.youtube.com/@TheCodingTrain).
 * A strong foundation in mathematics, including geometry, algebra, and trigonometry, may also be helpful.
-* This course is taught primarily with JavaScript. Students who are primarily familiar with Python will benefit from doing some additional preparation, such as viewing p5.js videos on the [Coding Train YouTube Channel](https://www.youtube.com/@TheCodingTrain).
 
 ### Learning Objectives and Course Goals
 
@@ -99,7 +98,7 @@ At the conclusion of this course, students will be able to:
 
 This course is relevant to students who are interested in:
 
-* Exploring the use of computation and coding practices in creating new culture and expanding their expressive vocabulary
+* Exploring the use of computation and contemporary coding practices in creating new culture and expanding their expressive vocabulary
 * Developing expertise in the aesthetic nuances and conceptual landscape of interactivity
 * Designing procedural form and generative art for games, virtual environments, and other modes of creative expression
 * Understanding the practical and social assumptions that underpin code in culture
@@ -110,9 +109,9 @@ This course is relevant to students who are interested in:
 
 This course uses [*specifications grading*](https://academictech.uchicago.edu/2025/07/28/specifications-grading-a-powerful-way-to-reflect-what-students-learn/). Work is evaluated against a set of explicit, observable criteria, and these criteria are designed to be relatively unambiguous and quickly verifiable.
 
-* **10 Assignments**. There will be ten sets of Deliverables this semester, assigned at approximately weekly intervals. Each set will have several sub-components, usually including multiple warmup exercises and a main project, that may have different intermediate deadlines.
+* **10 Sets of Assignments**. There will be ten sets of Assignments this semester, assigned at approximately weekly intervals. Each set will have several sub-components, usually including multiple warmup exercises and a main project, that may have different intermediate deadlines.
 * **Complete the checklists**. For each set of deliverables, an objective checklist of subtasks will be provided, with clearly defined assessment criteria. To ensure transparency, fairness and consistency, grades in this course are straightforwardly calculated according to students' fulfillment of these checklists and criteria. Many items on these checklists are intentionally easy to fulfill; pay attention to them.
-* **Qualitative evaluations are decoupled from grades**. In addition to grades that reflect the fulfillment of straightforward checklists, students will also receive qualitative and subjective feedback from a variety of people, including the professor, other CMU faculty, outside professionals, and/or their peers. This critical feedback on the content and quality of your projects does not factor into your grade.
+* **Qualitative evaluations are decoupled from grades**. In addition to grades that reflect the fulfillment of straightforward checklists, students will also receive qualitative and subjective feedback from a variety of people, including the professor, the teaching assistant, other CMU faculty, outside professionals, and/or your peers. This critical feedback on the content and quality of your projects does not factor into your grade.
 
 This semester, you can expect to receive the following feedback, at a minimum: 
 
@@ -124,8 +123,8 @@ This semester, you can expect to receive the following feedback, at a minimum:
 
 *Are there extra time commitments required outside of the regularly scheduled course meeting times?*
 
-* I anticipate that students will spend approximately 6-8 hours per week outside of class working on their projects. In the past, some students have reported that this course consumes as much as 15 hours per week. 
-* There will be a small number of special events outside of class meeting times (such as public artist lectures), for which attendance is *strongly recommended*, but not strictly required.
+* I anticipate that students will spend approximately 6-10 hours per week outside of class working on their projects. In the past, some students have reported that this course consumes as much as 15 hours per week. 
+* There will be a small number of special events outside of class meeting times (such as public artist lectures), for which attendance is strongly recommended, but not strictly required.
 * Students may also wish to attend optional and occasional group work sessions.
 
 

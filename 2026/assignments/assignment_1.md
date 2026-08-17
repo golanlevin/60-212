@@ -1,0 +1,99 @@
+# Assignment Set #1
+
+## Getting Started; Points and Lines
+
+### Due Wednesday, August 26, 2026
+
+
+---
+
+![assignment_1_banner.jpg](img/assignment_1_banner.jpg)
+
+*This set of deliverables is due by the beginning of class on Wednesday 8/26. There are four main sets of tasks, the total of which should take less than ~5 hours:*
+
+* 1.1. [Administrative Tasks](#11-administrative-tasks) *(30 minutes)*
+* 1.2. [Touchstone Sharing](#12-touchstone-sharing) *(15 minutes)*
+* 1.3. [p5 Wayfinding](#13-p5-wayfinding) *(30 minutes)*
+* 1.4. [Five Small Exercises](#14-five-small-exercises) *(2-3 hours)*
+
+
+---
+
+## 1.1. Administrative Tasks
+
+(***30 minutes***) Please **complete** the following administrative tasks:
+
+* (*1 minute*) **Bookmark** our [Course GitHub](https://github.com/golanlevin/60-212/blob/main/2026/readme.md) in your laptop's browser, so you can easily find it. Assignments and lecture notes will be shared here.
+* (*4 minutes*) **Create** an ID on [Discord.com](https://discord.com/), if you don't already have one. **Join** our class Discord, using the invitation sent to you by email. **Browse** our server's channels so you know what's where.
+* (*5 minutes*) In the `#main-chatter` channel of our course Discord, **introduce** yourself in a sentence or two. Please share something about yourself — pets, favorite food, arcane superpowers, etc.
+* (*5 minutes*) **Create** an ID on [OpenProcessing.org](https://openprocessing.org) (if you don't already have one). **Join** our [OpenProcessing classroom](https://openprocessing.org/class/100952#/), using the invitation sent to you by email, and **bookmark** it in your laptop's browser. Take a moment to **browse** some of the sketches that people have published at [https://openprocessing.org/discover](https://openprocessing.org/discover). *(Note: the quality varies widely!)* Run the programs, and be sure to **look** at their code (*command-shift-return* may help switch to the code view).
+* (*15 minutes*) **Review** the [Syllabus](https://github.com/golanlevin/60-212/blob/main/2026/syllabus/README.md) carefully, and **complete** the [**Welcome Form & Exit Ticket**](https://forms.gle/L4FDuXApCnWMobiX7).
+
+
+---
+
+## 1.2. Touchstone Sharing
+
+(***20 minutes***) You are asked to share a "touchstone" — a project (made by someone else) that you admire. The purpose of this exercise is to help me become familiar with your interests, tastes, and familiarity with the field — and for you to be able to share some work you admire with your peers. I also want to make sure that you're able to access the Discord.
+
+* **Recall** a project you have admired (by someone else) which you feel falls under the broad umbrella of "Creative Coding".
+* **Create** a post in the `#01-touchstone` channel in our course Discord. 
+* **Describe** the project in a few sentences, and **explain** what you like about it in your own voice. It's sufficient to write 3-5 sentences. *Please don't write with AI here.*
+* **Answer** the questions: *Who* made this project? (Was it an individual, a small team, a big company?) *Why* did they make it, or for whom (what kind of audience)?
+* **Include** a link (URL) to the project or its documentation (such as a YouTube video).
+* **Embed** an image of the project in your post. 
+
+
+---
+
+## 1.3. p5 Wayfinding 
+
+(***30 minutes***) The purpose of this task is to help **ensure** that you know where to find good-quality information about the p5.js toolkit, such as documentation and tutorials. 
+
+* (*10 minutes*) **Browse** the [p5.js Reference](https://p5js.org/reference/). Examine at least ten Reference pages, starting with the [Shape commands](https://p5js.org/reference/#Shape). Note that many of the Reference pages allow you to tinker with the code. *(For what it's worth, I happen to prefer the [old version of the reference](https://archive.p5js.org/reference/).)*
+* (*10 minutes*) **Browse** the [p5.js Examples](https://archive.p5js.org/examples/) archive, which are organized thematically. Review at least ten p5.js Examples, skimming their code.
+* (*10 minutes*) **Browse** some of the many free YouTube tutorials for p5.js, including those by: [Dan Shiffman](https://www.youtube.com/@TheCodingTrain/playlists) (Coding Train), [Xin Xin](https://www.youtube.com/@xinxin1011/videos) and CMU alum, [Patt Vira](https://www.youtube.com/@pattvira/playlists). Their offerings range from [completely introductory](https://www.youtube.com/watch?v=HerCR8bw_GE&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA) to impressively advanced.
+
+Additionally: 
+
+* If you find it helpful, Lauren McCarthy's book, "[Getting Started with p5.js](https://learning.oreilly.com/library/view/getting-started-with/9781457186769/?sso_link=yes&sso_link_from=cmu-edu)" is available online for free through the CMU libraries.
+* Remember, if you get stuck while making a project, you can always give a shout in the `#haaaalp` channel in the course Discord!
+
+
+---
+
+## 1.4. Five Small Exercises
+
+![assignment_1_five_exercises.png](img/assignment_1_five_exercises.png)
+
+(***2-3 hours***) Please **complete** and **submit** the following five mini-assignments in our [OpenProcessing classroom](https://openprocessing.org/class/100952#/). The purpose of these exercises is to help me assess your preparedness and baseline level of skill. (For this reason, these exercises are not as open-ended as the others you'll encounter this semester.) In case it's helpful, a tutorial on how to use OpenProcessing is available [here](https://www.youtube.com/watch?v=Oj3DGSCMAOQ).
+
+* **1.4.1.** (*5 minutes*) **Do** [Iteration: Transitioning Rectangles](https://openprocessing.org/class/100952/#/c/100955)
+* **1.4.2.** (*10 minutes*) **Do** [Nested Iteration & Randomness: Grid, Interrupted](https://openprocessing.org/class/100952/#/c/100956)
+* **1.4.3.** (*15 minutes*) **Do** [Transformations + Functional Abstraction: Critter Stamps](https://openprocessing.org/class/100952/#/c/100957)
+* **1.4.4.** (*30 minutes*) **Do** [Array of (Animating) Objects: Ripples](https://openprocessing.org/class/100952/#/c/100958)
+* **1.4.5.** (*60-120 minutes*) **Do** [Expressive Control of a Single Line: Profile Generator](https://openprocessing.org/class/100952/#/c/100959)
+
+For each exercise, remember to do the following:
+
+* **Add metadata** to your project in OpenProcessing, by giving it a title, description, and thumbnail image. To do this, click *SAVE* or ⓘ, then click *EDIT*, and add information to the various fields. Click on the thumbnail square in order to capture a thumbnail image of your project. Because I have OCD, projects that are missing thumbnail images will lose points *disproportionately*.
+* **Submit** your project to the appropriate collection in the OpenProcessing classroom. 
+* No additional documentation (writeup, screenshot, etc.) is required for these exercises, but please **note** that in the future, I may ask you to share screenshots and writeups in Discord.
+
+**Note**: *Although I will usually allow/welcome you to use AI systems to help you write code in this course, I strongly prefer that you don't use AI to help you write the code for this particular set of introductory exercises: if you're struggling with these projects, you may be underprepared for this course. If you do choose to use AI assistance for this set of exercises, I advise you to have the LLM explain stuff to you, rather than write the code for you.*
+
+---
+
+## Helpful Information
+
+### Locating Pixel Coordinates
+
+It can sometimes be challenging to locate the pixel coordinates you want. You may find it helpful to plan your design using [graph paper](https://print-graph-paper.com/), or by displaying your cursor's coordinates using something like the following (find the code [here](https://editor.p5js.org/golan/sketches/vvEg7XbQ4)):
+
+<img src="../../2024/assignments/images/mouse-recording.gif" width="400">
+
+
+
+
+
+

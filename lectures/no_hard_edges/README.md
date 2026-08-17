@@ -21,6 +21,9 @@ Field-based logic (no hierarchy or figure/ground)
 Built from small gestures: dots, strokes, dabs
 Light, color, or texture emerge from accumulation
 No “image of” — just image
+
+https://openprocessing.org/@atzedent/2955321 - Shader demo artwork
+
 -->
 
 

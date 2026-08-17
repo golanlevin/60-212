@@ -1,12 +1,14 @@
 # Creative Coding (60-212) • Fall 2026
 
+![cc2026_banner.jpg](syllabus/img/cc2026_banner.jpg)
+
 * Creative Coding [Fall 2026 Syllabus](syllabus/README.md)
 * Time and Location: Mon/Wed, 2:00-4:50pm in CFA-303
-* OpenProcessing Classroom: [https://openprocessing.org/class/TBA]()
+* OpenProcessing Classroom: [openprocessing.org/class/107236](https://openprocessing.org/class/107236/#/)
 * Professor: [Golan Levin](http://www.art.cmu.edu/people/golan-levin/), `golan@`
-* Teaching Assistant: [Libby McCaffrey](https://elizabethmccaffrey.com/), `lmccaffr@`
+* TA: [Libby McCaffrey](https://elizabethmccaffrey.com/), `lmccaffr@`
 
-<br />
+<br/>
 <img src="syllabus/img/60-212_2026_schedule.png" width="480">
 
 
@@ -14,7 +16,7 @@
 
 ## Assignments
 
-There are 10 sets of assignments: 
+There are 10 sets of assignments. Unless otherwise noted, projects should be *submitted* in [OpenProcessing](https://openprocessing.org/class/107236/#/) and *documented* in our course Discord. 
 
 * `Wed 08/26` — #1 Due (Form; Points and Lines) 
 * `Wed 09/02` — #2 Due (Movement; Illusion, Loops)
@@ -37,13 +39,14 @@ Approximate intensity trajectory of the assignments:
 
 *Attendance at these extracurricular presentations is strongly encouraged:*
 
-* `9/14`: [Patrik Hübner](https://www.patrik-huebner.com/) School of Design lecture
-* `9/16-9/18`: [Design Nexus Summit](https://www.design.cmu.edu/design-nexus/design-nexus-summit) Symposium & Workshops
-* `9/18-9/20`: [Art && Code: Transmissions](https://index.artandcode.org/) Symposium & Workshops
-* Char Stiles livecode performance, TBA
+* `9/14`: [Patrik Hübner](https://www.patrik-huebner.com/) speaks in the IDeATe Creative Conversation Series, 5:30-6:30pm, Hunt Library Studio A (HL 106B) *+snacks*
+* `9/18-9/20`: [Art && Code: Transmissions](https://index.artandcode.org/) Symposium & Workshops ([**RSVP**](https://studioforcreativeinquiry.org/events/artcode-transmissions)!)
+* `c.~10/25`: Char Stiles livecode performance (TBA)
+
+<!-- 
 * [*HCII Lecture Series*](https://hcii.cmu.edu/news/event/2026/09/fall-2026-seminar-series-stay-tuned-full-schedule)
 * [*Robotics Institute Seminar Series*](https://www.ri.cmu.edu/events/month/2026-09/)
-
+* `9/16-9/18`: [Design Nexus Summit](https://www.design.cmu.edu/design-nexus/design-nexus-summit) Symposium & Workshops -->
 ---
 
 ## Calendar & Daily Meeting Notes
@@ -57,11 +60,11 @@ Approximate intensity trajectory of the assignments:
 * `Mon 09/14` — #3 Due (Color); Guest visit ([Patrick Hübner](https://www.patrik-huebner.com/))
 * `Wed 09/16` 
 * `Mon 09/21` 
-* `Wed 09/23` — #4 Due (Cam/Puppet)
+* `Wed 09/23` — #4 Due (Mic/Cam/Puppet)
 * `Mon 09/28` 
 * `Wed 09/30` 
 * `Mon 10/05` 
-* `Wed 10/07` — #5 Due (Mic/AI-Buffet)
+* `Wed 10/07` — #5 Due (AI-Buffet)
 * `Mon 10/12` — *No session (Fall Break)*
 * `Wed 10/14` — *No session (Fall Break)*
 * `Mon 10/19` — 1:1 Meetings; TIXY
@@ -73,10 +76,10 @@ Approximate intensity trajectory of the assignments:
 * `Mon 11/09` — #7 Due (Creative Tool)
 * `Wed 11/11` 
 * `Mon 11/16` — #8a Due (Experiment)
-* `Wed 11/18` — Libby Day
+* `Wed 11/18` — Libby's Day
 * `Mon 11/23` 
 * `Wed 11/25` — *No session (Thanksgiving)*
 * `Mon 11/30` 
 * `Wed 12/02` — #8b Due (Capstone)
-* `TBA` — #8c (Final Presentations and Documentation)
+* `TBA 12/XX` — #8c (Final Presentations and Documentation)
 
