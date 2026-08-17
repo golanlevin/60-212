@@ -125,8 +125,10 @@ You will do this 3 times, creating a total of **27 functions**:
 * In **Part B (Summoning)**, you will be given a list of 9 algorithms that are widely used in computer graphics. These algorithms are easy to appreciate conceptually, but tricky to implement correctly and efficiently. You will be asked to direct a coding agent to write the code for these algorithms, and to ensure they are working properly. It may help to do some independent reading about these algorithms, as you will also be asked to explain them in your own words. The point of this part is for you to *develop an intuitive understanding of what these algorithms do*. 
 * **Part C (Creating)** is open-ended. You are asked to research and/or devise 9 algorithmic treatments that interpret the points in creative and surprising new ways. In this part, you are encouraged to work collaboratively, in two-person teams, and in feedback with an AI coding agent. 
 
-While **Part A** must be programmed entirely by you, **Part B** and **Part C** of this assignment are intentionally designed so that they cannot reasonably be completed *without* AI assistance.
+While **Part A** must be programmed entirely by you, **Part B** and **Part C** of this assignment are intentionally designed so that they cannot reasonably be completed *without* AI assistance. For all three parts, restrict the elements you draw to black-and-white forms. [**Here is the p5.js starter code you will modify**](resources/assignment_1_sketch_template.js).
 
+
+---
 
 ### 1.5.1. Part A: Coding
 
@@ -138,27 +140,27 @@ Your job in **Part A** is to write 9 specific functions that interpret these poi
 2. Draw a perpendicular projection from every point to the horizontal centerline
 3. Star Graph: connect every point to the centroid of the set
 4. Sort the points from left to right; connect them with a polyline
-5. Compute and draw the axis-aligned (min/max) bounding box
+5. Compute and draw the axis-aligned bounding box (AABB)
 6. Sort points clockwise around the centroid; connect them with a closed loop
 7. Connect each point to its nearest neighbor
 8. Connect each point to the point furthest from it
 9. Complete Graph: Connect each point to every other (hairball)
 
-
 ![assignment_1_part_a.png](img/assignment_1_part_a.gif)
 
+#### Part A Deliverables: 
 
-*Note: for the exercises that specify sorting, be sure to copy the points array so the original data remains unchanged. This is a good time to learn JavaScript's spread syntax, e.g. `[...points]`, to create a shallow copy,*
+* **Create** your project in OpenProcessing and **save** it to [this collection](https://openprocessing.org/class/107236/#/c/107238).
+* **Ensure** your project has a thumbnail image in OpenProcessing.
+* **Create** a post in the Discord channel, `#01A-pointset-coding`.
+* **Embed** a screenshot of your project in your Discord post.
+* **Write**, in your own voice, a bried reflective statement about _________.
 
-For all three parts, [**here is the p5.js starter code you will modify**](resources/assignment_1_sketch_template.js).
+---
 
+### 1.5.2. Part B: Summoning
 
-
-## 1.5.2. Part B. 
-
-**Part B** is intended to teach an important lesson that computer science courses often miss.
-
-There is a tendency to equate *understanding what an algorithm does* with *being able to implement it from scratch*. These are not the same skill. 
+In **Part B**, our learning objective shifts from writing algorithms to working responsibly with sophisticated algorithms. This exercise is intended to impart a lesson that computer science courses often miss: *understanding what an algorithm does* and *being able to implement it from scratch* are not the same skill. 
 
 Some algorithms are so well-established, intricate, and widely available that reimplementing them from first principles is rarely the best use of your effort. Very few practicing engineers write their own FFTs or Delaunay triangulations from scratch. Instead, they understand:
 
@@ -167,29 +169,37 @@ Some algorithms are so well-established, intricate, and widely available that re
 * what its output represents;
 * how to verify that it is behaving correctly;
 * what its limitations and failure modes are;
-* when it is the wrong tool.
+* when it is the wrong tool, or the right one.
 
-As creative coders, our challenge is not to recreate an algorithm’s internal mechanics; it is to understand its behavior, its limitations — and what might make it potentially compelling as an aesthetic building block.
+As creative coders, our challenge is (often) not to recreate an algorithm’s internal mechanics, but instead to understand its behavior, its limitations, and what might make it potentially compelling as an aesthetic building block.
 
-In this part of the assignment, our learning objective shifts from **writing algorithms** to **working responsibly with sophisticated algorithms**.
+Using the same [template code](resources/assignment_1_sketch_template.js) as before, use your coding agent to **implement functions for each of the following**: 
 
-Use your coding agent to implement each of the following: 
-
-1. Minimal Spanning Tree of the points (Prim's algorithm)
-2. Minimum-area oriented bounding box of the points
-3. Delaunay triangulation (Bowyer-Watson) of the points
-4. Open traveling-salesperson path (TSP) through the points
-5. Isoline of the points' density-field, using marching squares
-6. Convex hull peeling (onion decomposition) of the point set
-7. Project every point onto the Principal Component Analysis major axis
-8. Voronoi diagram, clipped to circular bubbles around each point
-9. Approximate smallest enclosing annulus
+1. [Minimum Spanning Tree](https://en.wikipedia.org/wiki/Minimum_spanning_tree) of the points (Prim's algorithm)
+2. Minimum-area [oriented bounding box](https://geidav.wordpress.com/2014/01/23/computing-oriented-minimum-bounding-boxes-in-2d/) (OBB) of the points
+3. [Delaunay triangulation](https://en.wikipedia.org/wiki/Delaunay_triangulation) (Bowyer-Watson) of the points
+4. [Open traveling-salesperson path](https://en.wikipedia.org/wiki/Travelling_salesman_problem) (TSP) through the points
+5. [2D Metaballs](https://en.wikipedia.org/wiki/Metaballs) (isoline of a density-field, using marching squares)
+6. [Convex hull](https://en.wikipedia.org/wiki/Convex_hull) peeling ([onion decomposition](https://en.wikipedia.org/wiki/Convex_layers)) of the point set
+7. Project every point onto the [Principal Component Analysis](https://en.wikipedia.org/wiki/Principal_component_analysis) major axis
+8. [Voronoi diagram](https://en.wikipedia.org/wiki/Voronoi_diagram), clipped to circular bubbles around each point
+9. Approximate [smallest enclosing annulus](https://doc.cgal.org/latest/Bounding_volumes/index.html#title3)
 
 ![assignment_1_part_b.gif](img/assignment_1_part_b.gif)
 
-This list draws from several computational disciplines, including computational geometry, graph theory, statistics, computer vision, numerical analysis, optimization, and machine learning. Each field offers different ways of interpreting the same point set: as a spatial arrangement, a network, a statistical distribution, a collection of clusters, a noisy sample of an underlying form, or the initial state of a dynamic system. Some of the methods you will encounter are ordinarily taught only in advanced undergraduate or graduate courses, if they are taught at all. Many of these algorithms would require substantial time, even for an expert, to implement correctly and efficiently. And yet, many of these algorithms have intuitive 
+This list draws from several disciplines, including computational geometry, graph theory, statistics, computer vision, numerical analysis, optimization, and machine learning. Each field offers different ways of interpreting the same point set: as a spatial arrangement, a network, a statistical distribution, a collection of clusters, a noisy sample of an underlying form, or the initial state of a dynamic system. 
 
+Some of these methods are ordinarily taught only in advanced courses, and many of these algorithms would require substantial time to implement correctly and efficiently. Nevertheless, each of these algorithms is easy to understand visually, and can play an important role in creating expressive and interactive graphical systems.
 
+#### Part B Deliverables: 
+
+* **Create** your project in OpenProcessing and **save** it to [this collection](https://openprocessing.org/class/107236/#/c/107239).
+* **Ensure** your project has a thumbnail image in OpenProcessing.
+* **Create** a post in the Discord channel, `#01B-pointset-summoning`.
+* **Embed** a screenshot of your project in your Discord post.
+* **Select** your favorite algorithm of the 9, and in your own voice, in thre Discord post, **write** a brief explanation of what it does, or how to interpret it.
+
+---
 
 
 
