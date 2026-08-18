@@ -10,7 +10,7 @@
 
 *This set of deliverables is due by the beginning of class on Wednesday 8/26. There are four main sets of tasks, the total of which should take 5-6 hours:*
 
-* 1.1. [Administrative Tasks](#11-administrative-tasks) *(30 minutes)*
+* 1.1. [Administrative Tasks](#11-administrative-tasks) *(45 minutes)*
 * 1.2. [Touchstone Sharing](#12-touchstone-sharing) *(15 minutes)*
 * 1.3. [p5.js Wayfinding](#13-p5js-wayfinding) *(30 minutes)*
 * 1.4. [Test Your Coding Agent: Zero-Shot Generation](#14-test-your-coding-agent-zero-shot-generation) *(30 minutes)*
@@ -27,13 +27,15 @@
 
 ## 1.1. Administrative Tasks
 
-(***30 minutes***) Please **complete** the following administrative tasks:
+(***45 minutes***) Please **complete** the following administrative tasks:
 
-* (*1 minute*) **Bookmark** our [Course GitHub](https://github.com/golanlevin/60-212/blob/main/2026/readme.md) in your laptop's browser, so you can easily find it. Assignments and lecture notes will be shared here.
+1. (*1 minute*) **Bookmark** our [Course GitHub](https://github.com/golanlevin/60-212/blob/main/2026/readme.md) in your laptop's browser, so you can easily find it. Assignments and lecture notes will be shared here.
 * (*4 minutes*) **Create** an ID on [Discord.com](https://discord.com/), if you don't already have one. **Join** our class Discord, using the invitation sent to you by email. **Browse** our server's channels so you know what's where.
 * (*5 minutes*) In the `#main-chatter` channel of our course Discord, **introduce** yourself in a sentence or two. Please share something about yourself — pets, favorite food, arcane superpowers, etc.
-* (*5 minutes*) **Create** an ID on [OpenProcessing.org](https://openprocessing.org) (if you don't already have one). **Join** our [OpenProcessing classroom](https://openprocessing.org/class/107236/#/), using the invitation sent to you by email, and **bookmark** it in your laptop's browser. Take a moment to **browse** some of the sketches that people have published at [https://openprocessing.org/discover](https://openprocessing.org/discover). *(Note: the quality varies widely!)* Run the programs, and be sure to **look** at their code (*command-shift-return* may help switch to the code view).
-* (*15 minutes*) **Review** the [Syllabus](https://github.com/golanlevin/60-212/blob/main/2026/syllabus/README.md) carefully, and **complete** the [**Welcome Form**](https://forms.gle/Dtg5fU9wtkG6q3Fm7).
+* (*5 minutes*) **Create** an ID on [OpenProcessing.org](https://openprocessing.org) (if you don't already have one). **Join** our [OpenProcessing classroom](https://openprocessing.org/class/107236/#/), using the invitation sent to you by email, and **bookmark** it in your laptop's browser. Take a moment to **browse** some of the sketches that people have published at [https://openprocessing.org/discover](https://openprocessing.org/discover). *(Note: the quality varies widely.)* Run the programs, and be sure to **look** at their code (*command-shift-return* may help switch to the code view).
+* (*15 minutes*) **Review** the [**Syllabus**](https://github.com/golanlevin/60-212/blob/main/2026/syllabus/README.md) carefully. 
+* (*10 minutes*) **Complete** the [**60-212 Welcome Form**](https://forms.gle/Dtg5fU9wtkG6q3Fm7).
+* (*5 minutes*) **Complete** the (anonymous) [**CMU Student Survey on AI**](https://forms.gle/WfR1rHQ4zw7gR7gY7).
 
 
 ---
