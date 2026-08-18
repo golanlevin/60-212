@@ -8,17 +8,17 @@
 
 ![assignment_1_banner.jpg](img/assignment_1_banner.jpg)
 
-*This set of deliverables is due by the beginning of class on Wednesday 8/26. There are four main sets of tasks, the total of which should take less than ~6 hours:*
+*This set of deliverables is due by the beginning of class on Wednesday 8/26. There are four main sets of tasks, the total of which should take 5-6 hours:*
 
 * 1.1. [Administrative Tasks](#11-administrative-tasks) *(30 minutes)*
 * 1.2. [Touchstone Sharing](#12-touchstone-sharing) *(15 minutes)*
-* 1.3. [p5.js Wayfinding](#13-p5-wayfinding) *(30 minutes)*
+* 1.3. [p5.js Wayfinding](#13-p5js-wayfinding) *(30 minutes)*
 * 1.4. [Test Your Coding Agent: Zero-Shot Generation](#14-test-your-coding-agent-zero-shot-generation) *(30 minutes)*
 * 1.5. [One Point Set, 27 Ways](#15-one-point-set-27-ways) *(4 hours)*
-  * [1.5.0. Overview]()
-  * [1.5.1. Part A: Coding]() (*60 minutes*)
-  * [1.5.2. Part B: Summoning]() (*60 minutes*) 
-  * [1.5.3. Part C: Inventing]() (*2 hours*) 
+  * [1.5.0. Overview](#150-overview)
+  * [1.5.1. Part A: Coding](#151-part-a-coding) (*60 minutes*)
+  * [1.5.2. Part B: Summoning](#152-part-b-summoning) (*60 minutes*) 
+  * [1.5.3. Part C: Inventing](#153-part-c-inventing) (*2 hours*) 
 
 ---
 
@@ -81,7 +81,7 @@ I am aware that Codex and Claude cost money. Fortunately, as a CMU student, you 
 
 Now: 
 
-* **Prompt** your preferred coding agent to **"[zero-shot](https://www.promptingguide.ai/techniques/zeroshot)** a face generator" using the following prompt:
+* **Prompt** your preferred coding agent to "**[zero-shot](https://www.promptingguide.ai/techniques/zeroshot)** a face generator" using the following prompt:
 
 > Use p5.js to make a simple face generator. Have the program generate a new face each time the user presses the spacebar. Have the program save a screenshot when the user presses the `s` key. 
 
@@ -104,9 +104,8 @@ Now:
 ![munari_flight_of_fancy.jpg](img/munari_flight_of_fancy.jpg)<br />
 Illustrations from Bruno Munari, *Flight of Fancy*
 
-(***4 hours***) Please **complete** and **submit** the following: a brief [reading](resources/yoon_on_munari_21_dots.pdf) (Yoon), and three programming assignments in our [OpenProcessing classroom](https://openprocessing.org/class/107236/#/). (In case it's helpful, a tutorial on how to use OpenProcessing is available [here](https://www.youtube.com/watch?v=Oj3DGSCMAOQ).)
+(***4 hours***) Please **complete** and **submit** the following three programming assignments in our [OpenProcessing classroom](https://openprocessing.org/class/107236/#/). (In case it's helpful, a tutorial on how to use OpenProcessing is available [here](https://www.youtube.com/watch?v=Oj3DGSCMAOQ).)
 
-* Read this 200-word article by J. Meejin Yoon, "[Cornell’s Incoming Architecture Dean on the Fanciful Dot Drawings of Bruno Munari](resources/yoon_on_munari_21_dots.pdf)", *Metropolis*, 2018. (*2 minutes*)
 * OpenProcessing slot for [Part A: Coding](https://openprocessing.org/class/107236/#/c/107238) (*60 minutes*)
 * OpenProcessing slot for [Part B: Summoning](https://openprocessing.org/class/107236/#/c/107239) (*60 minutes*) 
 * OpenProcessing slot for [Part C: Inventing](https://openprocessing.org/class/107236/#/c/107240) (*2 hours*) 
@@ -126,7 +125,7 @@ In this assignment, you will explore how different algorithms can allow a single
 You will do this 3 times, creating a total of **27 functions**: 
 
 * In **Part A (Coding)**, you will be given a list of 9 functions to write. *You must write all the code for these functions yourself, without using any AI coding agent.* The point is to make sure you have the basic programming skills necessary to take this course.
-* In **Part B (Summoning)**, you will be given a list of 9 algorithms that are widely used in computer graphics. These algorithms are easy to appreciate conceptually, but tricky to implement correctly and efficiently. You will be asked to direct a coding agent to write the code for these algorithms, and to ensure they are working properly. It may help to do some independent reading about these algorithms, as you will also be asked to explain them in your own words. The point of this part is for you to *develop an intuitive understanding of what these algorithms do*. 
+* In **Part B (Summoning)**, you will be given a list of 9 algorithms that are drawn from several computational fields. These algorithms are easy to appreciate conceptually, but tricky to implement correctly and efficiently. You will be asked to direct a coding agent to write the code for these algorithms, and to ensure they are working properly. It may help to do some independent reading about these algorithms, as you will also be asked to explain them in your own words. The point of this part is for you to *develop an intuitive understanding of what these algorithms do*. 
 * **Part C (Inventing)** is open-ended. You are asked to research and/or devise 9 algorithmic treatments that interpret the points in creative and surprising new ways. In this part, you are encouraged to work collaboratively (in two-person teams) and in feedback with an AI coding agent. 
 
 While **Part A** must be programmed entirely by you, **Part B** and **Part C** of this assignment are intentionally designed so that they cannot reasonably be completed *without* AI assistance. For all three parts, restrict the elements you draw to black-and-white forms. [**Here is the p5.js starter code you will modify**](resources/assignment_1_sketch_template.js).
@@ -149,7 +148,7 @@ On completion of *One Point Set, 27 Ways*, students will be able to demonstrate:
 Your job in **Part A** is to write 9 specific functions that interpret these points as described below. You may do internet searches for necessary documentation (e.g. [`Array.prototype.sort()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort), [`beginShape()`](https://p5js.org/reference/p5/beginShape/), etcetera), but **you are strictly prohibited from using an AI coding agent:**
 
 1. Draw a spline curve connecting all the points, in order. *(Use p5's spline tools.)*
-2. Draw a perpendicular projection from every point to the horizontal centerline
+2. Draw a perpendicular line segment from each point to the horizontal centerline
 3. Star Graph: connect every point to the centroid of the set
 4. Sort the points from left to right; connect them with a polyline
 5. Compute and draw the axis-aligned bounding box (AABB)
@@ -213,6 +212,7 @@ Some of these methods are ordinarily taught only in advanced courses, and many o
 * **Identify** one way that you *verified* that one of the algorithms was actually doing what it claimed to do.
 * **Cite** which coding agent you used. Feel free to share any interesting struggles you had with it.
 
+> *Summoning: you understand what you want to exist, invoke something capable of producing it, and remain responsible for determining whether what appears is actually what you asked for. Summoned things may not obey exactly, may be malformed, and may need supervision.*
 
 ---
 
@@ -220,7 +220,9 @@ Some of these methods are ordinarily taught only in advanced courses, and many o
 
 #### In Part B, you were given 9 questions to ask of the points.<br/>In Part C, your job is to invent the questions.
 
-Before you begin, please **read** this one-page article by J. Meejin Yoon, "[Cornell’s Incoming Architecture Dean on the Fanciful Dot Drawings of Bruno Munari](resources/yoon_on_munari_21_dots.pdf)" ([*Metropolis*](https://metropolismag.com/projects/j-meejin-yoon-bruno-munari-flight-of-fancy/), 2018)
+Before you begin Part C, **please read this one-page article** by J. Meejin Yoon, "[Cornell’s Incoming Architecture Dean on the Fanciful Dot Drawings of Bruno Munari](resources/yoon_on_munari_21_dots.pdf)" ([*Metropolis*](https://metropolismag.com/projects/j-meejin-yoon-bruno-munari-flight-of-fancy/), 2018).
+
+[![yoon_thumbnail](img/yoon_thumbnail.png)](resources/yoon_on_munari_21_dots.pdf)
 
 Now: working individually or in a two-person team, create **9 new computational treatments** of the same point set. You may research existing algorithms, modify or combine algorithms you discover, or devise procedures of your own. You are encouraged to work extensively with your AI coding agent: ask it for suggestions, use it to help identify names for algorithms you have imagined, ask it about unfamiliar areas of mathematics and computation, and direct it to help implement and refine your ideas.
 
@@ -230,7 +232,7 @@ Explore a broad space of possible relationships, structures, behaviors, and repr
 
 **Try inventing a behavior first**, and searching for its name second. You may discover that something you imagined already has a name and a substantial literature. That's great: use what you find to understand and develop the idea further.
 
-Nine variations of the same underlying method do not constitute nine different ideas. Your treatments must be substantially different from one another, and from those in Parts A and B. Aim for conceptual **breadth**, visual **surprise**, and behavioral **richness**. A mathematically tricky algorithm is not necessarily an interesting one, and a simple rule can produce remarkably interesting behavior. Part of your job is to exercise aesthetic judgment: which computational processes are worth looking at?
+Nine variations of the same underlying method do not constitute nine different ideas; a modification should substantially change the computational question being asked, not merely the appearance of its answer. Your treatments must be substantially different from one another, and from those in Parts A and B. Aim for conceptual **breadth**, visual **surprise**, and behavioral **richness**. A mathematically tricky algorithm is not necessarily an interesting one, and a simple rule can produce remarkably interesting behavior. Part of your job is to exercise aesthetic judgment: which computational processes are worth looking at?
 
 As you work, continually regenerate the point set to test your designs. An interesting treatment should not merely produce one fortunate composition; it should define an open-ended system whose behavior remains interesting as its input changes.
 
