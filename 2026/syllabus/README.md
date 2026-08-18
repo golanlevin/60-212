@@ -16,7 +16,7 @@
 
 This is a “studio art course in computer science”, in which our objective is art and design, but our medium is student-written software. Intended as a second course for arts students who have already had one semester of elementary programming (in any language), this class develops craft skills in arts-engineering using a variety of creative coding toolkits, especially including [p5.js](https://p5js.org/) (JavaScript) and [ComfyUI](https://www.runcomfy.com/). Through rigorous programming exercises in these environments, students will develop mastery over the basic vocabulary of constructs that govern static, dynamic, and interactive form, with the aim of applying these skills to problems in interactive art, computational design, and other creative explorations of transmediality, connectivity, generativity, and immersivity.
 
-* [TL;DR](#tldr-grading)
+* [TL;DR: Grading](#tldr-grading)
 * [Overview](#overview)
 * [Administration](#administration)
 * [Attendance Policies](#attendance-policies)
@@ -32,16 +32,18 @@ This is a “studio art course in computer science”, in which our objective is
 
 # TL;DR: Grading 
 
-> 1. **You do not need to be perfect.** You do need to participate reliably. 
-> 2. ***Minimum*** **requirements for passing:** You must substantially complete at least 8 of the 10 assignment sets, and you may not ghost more than two class sessions.
+> 1. You do not need to be perfect, but you do need to participate reliably.
+> 2. The *minimum requirements for passing* are that you must substantially complete at least 8 of the 10 assignment sets, and you may not ghost more than two class sessions.
 
-To a first approximation, your grade in this course is based straightforwardly on your **basic professionalism** in completing work and attending class. The policies below deliberately allow for an occasional bad week, missed deadline, or communication failure without penalty. Repeated failures to participate, however, have steep consequences. These grading policies consider three independent dimensions of professionalism:
+To a first approximation, your grade in this course is based straightforwardly on your **basic professionalism** in completing work and attending class. The policies below deliberately allow for an occasional bad week, missed deadline, or communication failure without penalty. Repeated failures to participate, however, have steep consequences. These grading policies consider three independent dimensions of your professionalism:
 
 * **Forgone work:** Did you substantially complete the assigned work?
-* **Post-crit submission:** Did you have your work ready when the class was there to examine it?
-* **Ghosting:** Did you fulfill your basic responsibility to show up or communicate?
+* **Post-crit submission:** Was your work ready when the class was there to examine it?
+* **Ghosting:** Did you fulfill your basic responsibility to show up (or communicate)?
 
-For each of these dimensions, the basic pattern is: *once is free; twice costs you; three times crosses a line.*<br /><img src="img/grading-policy.jpg" width=512>
+For each of these dimensions, the basic pattern is: *once is free; twice costs you; three times crosses a line.* I have deliberately built slack into the system, but please do not mistake the slack for an absence of standards.
+
+<img src="img/grading-policy.jpg" width=512>
 
 ### Summary of Assignment Policy
 
@@ -49,13 +51,14 @@ For each of these dimensions, the basic pattern is: *once is free; twice costs y
 * 🤕 Forgo 2 assignment sets: lose one letter from your semester grade.
 * 💀 Forgo 3+ assignment sets: you have not met the minimum requirements for passing the course.
 
-There will be 10 sets of assignments this semester (the final project has 3 phased subsets). Each assignment set has a clearly defined checklist of subtasks, intended to help you develop discipline in creating and documenting your work. Your grade is based on your fulfillment of these checklists. An assignment set is considered **forgone** if, one week after its deadline, it remains unsubmitted or is less than 25% completed.
+There will be 10 sets of assignments this semester (the final project has 3 phased subsets). Each assignment set has a clearly defined checklist of subtasks, intended to help you develop discipline in creating and documenting your work. Your grade for these projects is based on your fulfillment of these checklists. An assignment set is considered **forgone** if, one week after its deadline, it remains unsubmitted or is less than 25% completed.
 
-Late submission should not be a loophole for evading the scrutiny of critique. For main (i.e. critiqued) projects submitted after their critique has occurred:
+<!-- KW -->
+Late submission should not be a loophole for evading the scrutiny of critique. Each assignment set generally has one or two "main" projects which are discussed in critique; for main projects that are submitted after their critique has occurred:
 
 * 😓 First main project submitted after crit: no impact whatsoever.
-* 🤕 Second main project submitted after crit: lose one letter from the project grade.
-* 💀 Third main project submitted after crit: no credit for the project.
+* 🤕 Second main project submitted after crit: lose one letter from the project's grade.
+* 💀 Third main project submitted after crit: no credit for that project.
 
 ### Summary of Attendance Policy
 
@@ -63,7 +66,7 @@ Late submission should not be a loophole for evading the scrutiny of critique. F
 * 🤕 Ghost 2 sessions: lose one letter from your semester grade.
 * 💀 Ghost 3+ sessions: you have not met the minimum requirements for passing the course.
 
-For the purposes of this course, **"ghosting"** refers specifically to a **no-call, no-show** attendance event. If you need to miss class—which can happen, within reason—you are expected to communicate with me about your absence, generally no later than 30 minutes before class, in order for it to be considered an **excused absence**. Emergencies that make advance communication impossible will, of course, be handled appropriately. This flexibility should not be abused; additional policies take effect if you incur more than 3 excused absences.
+For the purposes of this course, **"ghosting"** refers specifically to a **no-call, no-show** attendance event. If you need to miss class—which can happen, within reason—you are expected to communicate with me about your absence, generally no later than 30 minutes before class, in order for it to be considered an **excused absence**. Emergencies that make advance communication impossible will, of course, be handled appropriately. This flexibility should not be abused; additional policies take effect if you incur more than 3 excused absences. <!-- AS -->
 
 
 ---
@@ -76,7 +79,7 @@ This fall, there are 10 primary assignment sets, with the following due dates an
 
 * `Wed 08/26` — #1 Due (Form; Points and Lines) 
 * `Wed 09/02` — #2 Due (Movement, Illusion, Loops)
-* `Mon 09/14` — #3 Due (Color)
+* `Mon 09/14` — #3 Due (Color, Pattern)
 * `Wed 09/23` — #4 Due (Mic/Cam/Puppet)
 * `Wed 10/07` — #5 Due (AI-Buffet)
 * `Mon 10/26` — #6 Due (Pixel Logics, Shaders)
@@ -93,8 +96,8 @@ This fall, there are 10 primary assignment sets, with the following due dates an
 *What prior knowledge must students have in order to be successful in this course?*
 
 * 60-212 is a *doubly-intermediate* course: intended for students who have already had at least one semester of arts foundations, and who have *also* already had at least one semester of introductory computer programming (in any language). To qualify for enrollment in this course: 
-	* Students must have made a portfolio of creative work (such as for admission to the School of Art BFA/BXA programs). 
-	* Students must also be familiar and comfortable with computer programming fundamentals, such as iteration, conditional testing, functional abstraction, common memory structures (e.g. arrays), and object-oriented programming, as taught in a course like AP Computer Science, or (at CMU) 15-104, 15-110, or 15-112.
+	* Students must be familiar and comfortable with computer programming fundamentals, such as iteration, conditional testing, functional abstraction, common memory structures (e.g. arrays), and object-oriented programming, as taught in a course like AP Computer Science, or (at CMU) 15-104, 15-110, or 15-112.
+	* Students from outside CFA should be able to demonstrate that they have a creative practice, in a portfolio of creative work. 
 * General computing skills (such as browser use, file management, word processing, and the Linux command line) are essential. Students are also expected to have some familiarity with software workflows for editing and distributing images and video.
 * This course is taught primarily with JavaScript. Students who are only familiar with Python will benefit from doing some additional preparation, such as viewing p5.js videos on the [Coding Train YouTube Channel](https://www.youtube.com/@TheCodingTrain).
 * A strong foundation in mathematics, including geometry, algebra, and trigonometry, may also be helpful.
