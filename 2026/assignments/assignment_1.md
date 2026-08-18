@@ -222,9 +222,9 @@ Some of these methods are ordinarily taught only in advanced courses, and many o
 
 #### In Part B, you were given 9 questions to ask of the points.<br/>In Part C, your job is to invent the questions.
 
-Before you begin Part C, **please read this one-page article** by J. Meejin Yoon, "[Cornell’s Incoming Architecture Dean on the Fanciful Dot Drawings of Bruno Munari](resources/yoon_on_munari_21_dots.pdf)" ([*Metropolis*](https://metropolismag.com/projects/j-meejin-yoon-bruno-munari-flight-of-fancy/), 2018).
+Before you begin Part C, **please read this one-page article** by J. Meejin Yoon, "[Cornell’s Incoming Architecture Dean on the Fanciful Dot Drawings of Bruno Munari](../../readings/yoon_on_munari_21_dots.pdf)" ([*Metropolis*](https://metropolismag.com/projects/j-meejin-yoon-bruno-munari-flight-of-fancy/), 2018).
 
-[![yoon_thumbnail](img/yoon_thumbnail.png)](resources/yoon_on_munari_21_dots.pdf)
+[![yoon_thumbnail](img/yoon_thumbnail.png)](../../readings/yoon_on_munari_21_dots.pdf)
 
 *Now*: working individually or in a two-person team, create **9 new computational treatments** of the same point set. You may research existing algorithms, modify or combine algorithms you discover, or devise procedures of your own. You are encouraged to work extensively with your AI coding agent: ask it for suggestions, use it to help identify names for algorithms you have imagined, ask it about unfamiliar areas of mathematics and computation, and direct it to help implement and refine your ideas.
 
@@ -236,7 +236,7 @@ You are not making nine pictures *of* something; you are constructing nine open-
 
 Nine variations of the same underlying method do not constitute nine different ideas; a modification should substantially change the computational question being asked, not merely the appearance of its answer. Your treatments must be substantially different from one another, and from those in Parts A and B. Aim for conceptual **breadth**, visual **surprise**, and behavioral **richness**. A mathematically tricky algorithm is not necessarily an interesting one, and a simple rule can produce remarkably interesting behavior. Part of your job is to exercise aesthetic judgment: which computational processes are worth looking at?
 
-As you work, continually regenerate the point set to test your designs. An interesting treatment should not merely produce one fortunate composition; it should define an open-ended system whose behavior remains interesting as its input changes.
+As you work, continually re-randomize the point set to test your designs. An interesting treatment should not merely produce one fortunate composition; it should define an open-ended system whose behavior remains interesting as its input changes.
 
 #### Part C Deliverables: 
 
@@ -254,7 +254,7 @@ As you work, continually regenerate the point set to test your designs. An inter
 
 #### During Critique
 
-We will share and discuss your work in **Part C** on Wednesday, 8/26, at the beginning of class. During critique, *you may be called to the whiteboard and asked to explain one of the treatments you used*; be prepared. You are not expected to derive its mathematics, explain the code of its implementation, or discuss its algorithmic complexity; however, you *are* expected to be able to explain, in clear language:
+We will share and discuss your work in **Part C** on Wednesday, 8/26, at the beginning of class. During critique, *you may be called to the whiteboard and asked to explain one of the treatments you created*; be prepared. You are not expected to derive its mathematics, explain the code of its implementation, or discuss its algorithmic complexity; however, you *are* expected to be able to explain, in clear language:
 
 1. What question does the treatment answer? What does it *do*?
 2. What does the resulting graphic represent?

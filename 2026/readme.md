@@ -41,7 +41,8 @@ Approximate intensity trajectory of the assignments:
 
 * `9/14`: [Patrik Hübner](https://www.patrik-huebner.com/) speaks in the IDeATe Creative Conversation Series, 5:30-6:30pm, Hunt Library Studio A (HL 106B) *+snacks*
 * `9/18-9/20`: [Art && Code: Transmissions](https://index.artandcode.org/) Symposium & Workshops ([**RSVP**](https://studioforcreativeinquiry.org/events/artcode-transmissions)!)
-* `c.~10/25`: Char Stiles livecode performance (TBA)
+* `circa ~10/25`: [Char Stiles](https://www.instagram.com/charstiles/) livecode performance (TBA)
+* `10/31–11/1`: [2026 Pittsburgh Art Book Fair](https://carnegieart.org/event/2026-pittsburgh-art-book-fair/)
 
 <!-- 
 * [*HCII Lecture Series*](https://hcii.cmu.edu/news/event/2026/09/fall-2026-seminar-series-stay-tuned-full-schedule)
@@ -51,8 +52,8 @@ Approximate intensity trajectory of the assignments:
 
 ## Calendar & Daily Meeting Notes
 
-* `Mon 08/24` 
-* `Wed 08/26` — #1 Due (Points and Lines)
+* `Mon 08/24` — [Hello World!](daily_notes/20260824.md)
+* `Wed 08/26` — [**Assignment #1 Due**](assignments/assignment_1.md) (Points and Lines)
 * `Mon 08/31` 
 * `Wed 09/02` — #2 Due (Loops)
 * `Mon 09/07` — *No session (Labor Day)*
