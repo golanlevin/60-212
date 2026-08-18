@@ -193,7 +193,7 @@ Using the same [template code](resources/assignment_1_sketch_template.js) as bef
 2. Minimum-area [oriented bounding box](https://geidav.wordpress.com/2014/01/23/computing-oriented-minimum-bounding-boxes-in-2d/) (OBB) of the points
 3. [Delaunay triangulation](https://en.wikipedia.org/wiki/Delaunay_triangulation) (Bowyer-Watson) of the points
 4. [Open traveling-salesperson path](https://en.wikipedia.org/wiki/Travelling_salesman_problem) (TSP) through the points. *(Approximation is acceptable.)*
-5. [2D Metaballs](https://en.wikipedia.org/wiki/Metaballs) (isoline of a density-field, using marching squares)
+5. [2D Metaballs](https://en.wikipedia.org/wiki/Metaballs) (isoline of the points' density-field, using marching squares)
 6. [Convex hull](https://en.wikipedia.org/wiki/Convex_hull) peeling ([onion decomposition](https://en.wikipedia.org/wiki/Convex_layers)) of the point set
 7. Project every point onto the [Principal Component Analysis](https://en.wikipedia.org/wiki/Principal_component_analysis) major axis
 8. [Voronoi diagram](https://en.wikipedia.org/wiki/Voronoi_diagram), clipped to circular bubbles around each point
@@ -211,7 +211,7 @@ Some of these methods are ordinarily taught only in advanced courses, and many o
 * **Ensure** your project has a thumbnail image in OpenProcessing.
 * **Create** a post in the Discord channel, `#15B-pointset-summoning`.
 * **Embed** a screenshot of your project in your Discord post.
-* **Select** your favorite algorithm of the 9, and in your own voice, **write** a brief explanation of what it does, or how to interpret it.
+* **Select** your favorite algorithm of the 9, and in your own voice, **write** a brief explanation of what it does, or how to interpret it. (Can you imagine using it for something?)
 * **Identify** one way that you *verified* that one of the algorithms was actually doing what it claimed to do.
 * **Cite** which coding agent you used. Feel free to share any interesting struggles you had with it.
 
