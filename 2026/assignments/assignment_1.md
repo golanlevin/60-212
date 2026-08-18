@@ -226,11 +226,11 @@ Before you begin Part C, **please read this one-page article** by J. Meejin Yoon
 
 [![yoon_thumbnail](img/yoon_thumbnail.png)](resources/yoon_on_munari_21_dots.pdf)
 
-Now: working individually or in a two-person team, create **9 new computational treatments** of the same point set. You may research existing algorithms, modify or combine algorithms you discover, or devise procedures of your own. You are encouraged to work extensively with your AI coding agent: ask it for suggestions, use it to help identify names for algorithms you have imagined, ask it about unfamiliar areas of mathematics and computation, and direct it to help implement and refine your ideas.
+*Now*: working individually or in a two-person team, create **9 new computational treatments** of the same point set. You may research existing algorithms, modify or combine algorithms you discover, or devise procedures of your own. You are encouraged to work extensively with your AI coding agent: ask it for suggestions, use it to help identify names for algorithms you have imagined, ask it about unfamiliar areas of mathematics and computation, and direct it to help implement and refine your ideas.
 
 You are not making nine pictures *of* something; you are constructing nine open-ended ways for the same information to behave and become visible. My hope is that you can begin building a personal vocabulary of computational ideas (that you might later use as components of artworks), and develop your sensibility for which procedures are worth making in the first place.
 
-Explore a broad space of possible relationships, structures, behaviors, and representations. What else could these points mean? What questions could you ask of them? For example, you might investigate questions about connection, proximity, paths, boundaries, partitions, clustering, fitting, growth, fields, forces, optimization, topology, or transformation. These are starting points, not a checklist. Ask the computer: *what if...?*
+**Explore** a broad space of possible relationships, structures, behaviors, and representations. What else could these points mean? What questions could you ask of them? For example, you might investigate questions about connection, proximity, paths, boundaries, partitions, clustering, fitting, growth, fields, forces, optimization, topology, or transformation. These are starting points, not a checklist. Ask the computer: *what if...?*
 
 **Try inventing a behavior first**, and searching for its name second. You may discover that something you imagined already has a name and a substantial literature. That's great: use what you find to understand and develop the idea further.
 
