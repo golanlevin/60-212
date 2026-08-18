@@ -105,7 +105,7 @@ Now:
 ## 1.5. One Point Set, 27 Ways
 
 ![munari_flight_of_fancy.jpg](img/munari_flight_of_fancy.jpg)<br />
-Illustrations from Bruno Munari, *Flight of Fancy*
+Illustrations from Bruno Munari, *Flight of Fancy* (1992)
 
 (***4 hours***) Please **complete** and **submit** the following three programming assignments in our [OpenProcessing classroom](https://openprocessing.org/class/107236/#/). (In case it's helpful, a tutorial on how to use OpenProcessing is available [here](https://www.youtube.com/watch?v=Oj3DGSCMAOQ).)
 
