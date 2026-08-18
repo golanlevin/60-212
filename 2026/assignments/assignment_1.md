@@ -146,9 +146,17 @@ On completion of *One Point Set, 27 Ways*, students will be able to demonstrate:
 
 ### 1.5.1. Part A: Coding
 
+> [!CAUTION]
+> **AI coding agents are prohibited for Part A.**
+
+& 
+
+> [!WARNING]
+> **AI coding agents are prohibited for Part A.**
+
 [Here](resources/assignment_1_sketch_template.js) is a p5.js (v2) program for you to complete. (You can also find this code [at OpenProcessing](https://openprocessing.org/@golan/2991107), and [at editor.p5js.org](https://editor.p5js.org/golan/sketches/CqeRhgfJZ).) The program fills an array with data for a set of random 2D points, and then displays them 9 times, in a 3×3 grid. When you press the spacebar, the points are randomized. 
 
-Your job in **Part A** is to write 9 specific functions that interpret these points as described below. You may do internet searches for necessary documentation (e.g. [`Array.prototype.sort()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort), [`beginShape()`](https://p5js.org/reference/p5/beginShape/), etcetera), but **you are strictly prohibited from using an AI coding agent:**
+Your job in **Part A** is to write 9 specific functions that interpret these points as described below. You may watch tutorials, ask your friends for guidance, or do internet searches for necessary documentation (e.g. [`Array.prototype.sort()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort), [`beginShape()`](https://p5js.org/reference/p5/beginShape/), [`atan2()`](https://p5js.org/reference/p5/atan2/), etcetera), but **you are strictly prohibited from using an LLM or AI coding agent for Part A:**
 
 1. Draw a spline curve connecting all the points, in order. *(Use p5's spline tools.)*
 2. Draw a perpendicular line segment from each point to the horizontal centerline
@@ -168,7 +176,7 @@ Your job in **Part A** is to write 9 specific functions that interpret these poi
 * **Ensure** your project has a thumbnail image in OpenProcessing.
 * **Create** a post in the Discord channel, `#15A-pointset-coding`.
 * **Embed** a screenshot of your project in your Discord post.
-* **Select** two of your nine panels and (in your own voice) briefly **explain** how their different rules cause the same points to appear to have different structure.
+* **Select** two of your nine panels. In your own voice, briefly **contrast** what each one makes you notice about the points that the other does not.
 
 ---
 
