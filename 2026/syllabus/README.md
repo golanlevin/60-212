@@ -5,7 +5,7 @@
 * Title: *Intermediate Studio: Creative Coding* (60-212), Fall 2026
 * Time and Location: Mon/Wed, 2:00-4:50pm in CFA-303
 * Departments: Carnegie Mellon University [School of Art](http://www.art.cmu.edu/) and [IDeATe Program](https://ideate.cmu.edu/)
-* Course OpenProcessing site: [https://openprocessing.org/class/TBA](https://openprocessing.org/class/TBA#/)
+* Course OpenProcessing site: [https://openprocessing.org/class/107236/#/](https://openprocessing.org/class/107236/#/)
 * Professor: [Golan Levin](http://www.art.cmu.edu/people/golan-levin/), `golan@`
 * TA: [Libby McCaffrey](https://elizabethmccaffrey.com/), `lmccaffr@`
 
@@ -16,7 +16,7 @@
 
 This is a “studio art course in computer science”, in which our objective is art and design, but our medium is student-written software. Intended as a second course for arts students who have already had one semester of elementary programming (in any language), this class develops craft skills in arts-engineering using a variety of creative coding toolkits, especially including [p5.js](https://p5js.org/) (JavaScript) and [ComfyUI](https://www.runcomfy.com/). Through rigorous programming exercises in these environments, students will develop mastery over the basic vocabulary of constructs that govern static, dynamic, and interactive form, with the aim of applying these skills to problems in interactive art, computational design, and other creative explorations of transmediality, connectivity, generativity, and immersivity.
 
-* [TL;DR](#tldr)
+* [TL;DR](#tldr-grading)
 * [Overview](#overview)
 * [Administration](#administration)
 * [Attendance Policies](#attendance-policies)
@@ -29,27 +29,41 @@ This is a “studio art course in computer science”, in which our objective is
 
 ---
 
+
 # TL;DR: Grading 
 
-To a first approximation, your grade in this course is straightforwardly based on your **basic professionalism** in completing work and attending class, subject to the policies summarized below:
+> 1. **You do not need to be perfect.** You do need to participate reliably. 
+> 2. ***Minimum*** **requirements for passing:** You must substantially complete at least 8 of the 10 assignment sets, and you may not ghost more than two class sessions.
 
-<img src="img/grading-policy.jpg" width=512>
+To a first approximation, your grade in this course is based straightforwardly on your **basic professionalism** in completing work and attending class. The policies below deliberately allow for an occasional bad week, missed deadline, or communication failure without penalty. Repeated failures to participate, however, have steep consequences. These grading policies consider three independent dimensions of professionalism:
 
-### Summary of Assignment Policy:
+* **Forgone work:** Did you substantially complete the assigned work?
+* **Post-crit submission:** Did you have your work ready when the class was there to examine it?
+* **Ghosting:** Did you fulfill your basic responsibility to show up or communicate?
 
-* 😓 Forgo 1 set of assignments: no impact on your grade whatsoever.
-* 🤕 Forgo 2 sets of assignments: lose a letter grade.
-* 💀 Forgo 3+ sets of assignments: fail the class.
+For each of these dimensions, the basic pattern is: *once is free; twice costs you; three times crosses a line.*<br /><img src="img/grading-policy.jpg" width=512>
 
-There will be 10 sets of assignments this semester (the final project has 3 phased subsets). Each set of assignments has a clearly defined checklist of subtasks, whose purpose is to help you develop discipline in creating and documenting your work. Your grade is based on your fulfillment of these checklists. A set of assignments is "**forgone**" if it is more than one week late, or if it is less than 25% completed.
+### Summary of Assignment Policy
 
-### Summary of Attendance Policy:
+* 😓 Forgo 1 assignment set: no impact whatsoever.
+* 🤕 Forgo 2 assignment sets: lose one letter from your semester grade.
+* 💀 Forgo 3+ assignment sets: you have not met the minimum requirements for passing the course.
+
+There will be 10 sets of assignments this semester (the final project has 3 phased subsets). Each assignment set has a clearly defined checklist of subtasks, intended to help you develop discipline in creating and documenting your work. Your grade is based on your fulfillment of these checklists. An assignment set is considered **forgone** if, one week after its deadline, it remains unsubmitted or is less than 25% completed.
+
+Late submission should not be a loophole for evading the scrutiny of critique. For main (i.e. critiqued) projects submitted after their critique has occurred:
+
+* 😓 First main project submitted after crit: no impact whatsoever.
+* 🤕 Second main project submitted after crit: lose one letter from the project grade.
+* 💀 Third main project submitted after crit: no credit for the project.
+
+### Summary of Attendance Policy
 
 * 😓 Ghost 1 session: no impact whatsoever.
-* 🤕 Ghost 2 sessions: lose a letter grade.
-* 💀 Ghost 3+ sessions: fail the class.
+* 🤕 Ghost 2 sessions: lose one letter from your semester grade.
+* 💀 Ghost 3+ sessions: you have not met the minimum requirements for passing the course.
 
-For the purposes of this course, *"ghosting"* refers specifically to "**no-call, no-show**" attendance events. If you need to miss class — which can happen, within reason — you are expected to be responsible about **communicating** with me about your attendance, generally no later than 30 minutes before class, in order to obtain an "excused absence". That said, this flexibility should not be abused; additional policies take effect if you incur more than 3 excused absences. 
+For the purposes of this course, **"ghosting"** refers specifically to a **no-call, no-show** attendance event. If you need to miss class—which can happen, within reason—you are expected to communicate with me about your absence, generally no later than 30 minutes before class, in order for it to be considered an **excused absence**. Emergencies that make advance communication impossible will, of course, be handled appropriately. This flexibility should not be abused; additional policies take effect if you incur more than 3 excused absences.
 
 
 ---
@@ -322,14 +336,16 @@ When you submit a project late, you miss the chance to share, discuss and get fe
 
 **To receive critical feedback on your work**, your work must be available for evaluation during the designated review period. For example, at times this semester, your creative projects may be evaluated by your peers in an in-class critique, or by outside experts who review your work online. If your assignment is not viewable by the time those persons do their reviews, then your work will likely not receive feedback from them. Likewise, generally speaking, my feedback for late work is comparatively attenuated. 
 
-**To receive full credit towards your grade**, projects should be documented and uploaded by the time that I get around to reviewing them. This is usually within a week after their stated due date. If your project is more than a week late, I reserve the right to assume it is **foregone** (if you have not made an arrangement with me, and if less than 15% has been completed). For work which is complete but late, I may assign partial credit to it (generally an 80% multiplier on all checklist points). If you know you're going to be just a little bit late with a project, *contact me* to arrange an accommodation.
+If your project is more than a week late, I reserve the right to assume it is **foregone** (if you have not made any arrangement with me, and if less than 25% has been completed). If you know you're going to be just a little bit late with a project, *contact me* prior to the due date to arrange an accommodation.
+
+For work which is complete but late, I may assign partial credit to it. 
 
 
 ### Feedback and Critique
 
 We are a diverse group with broad interests and a great deal of interdisciplinary hybridity. It is impossible to have one single standard we can use for "what is good". 
 
-Sharing our perspective in critiques, and understanding that others may have other perspectives on what is good, **is an act of care.** In art school, it is one of the highest forms of care we can give each other. Outside of art school, if people don't find your work compelling, they will not tell you so; they will simply move on to something they like better. Critiques in an art school are a gift — a context in which you can receive feedback from "inside the house". Take them seriously and give a good faith effort to help your peers. 
+Sharing our perspective in critiques, and understanding that others may have other perspectives on what is good, **is an act of care.** In art school, it is one of the highest forms of care we can give each other. Outside of art school, if people don't find your work compelling, they will not tell you so; they will simply move on to something they like better. Critiques in an art school are a *gift* — a context in which you can receive feedback from "inside the house". Take them seriously and give a good faith effort to help your peers. 
 
 There often isn't enough time to provide in-depth feedback for all students during critiques. If you would like more feedback on a project, ask me.
 
@@ -359,19 +375,19 @@ As art students, you are expected or invited to make extensive use of open-sourc
 
 Our course places a very high value on civic responsibility, which includes helping others learn. In this course, we strongly encourage you to give help (or ask others for help) in using various toolkits, algorithms, libraries, or other facilities. Please note the following expectations:
 
-* **Giving and receiving help is encouraged**. But students who receive help from someone else are obliged to acknowledge that person in their project report, clarifying the nature of the help that was received.
+* **Giving and receiving help is encouraged**. Students who receive help from someone else are obliged to acknowledge that person in their project report, clarifying the nature of the help that was received.
 * **We are all teachers**. Students with advanced skills are expected to help others, yet refrain from doing another’s work for them. You can usually tell when you’re about to cross the line: Ask yourself whether you are teaching someone to fish, or merely giving them the fish.
 * **Give credit**. When in doubt: *give credit* to the people who have helped you.
 
 ### Policies Regarding Formal Collaboration
 
-The assignments in this course are primarily intended to be executed by individuals. That said, I am in favor of students collaborating occasionally if such collaborations arise organically. Please note the following expectations:
+Most of the assignments in this course are intended to be executed by individuals. That said, I am in favor of students collaborating occasionally if such collaborations arise organically. Please note the following expectations:
 
-* **Notify the Professor**. It’s helpful for me to know who is working with whom. Students who wish to collaborate should jointly inform the professor as early as possible.
+* **Notify the Professor**. It’s helpful for me to know who is working with whom. Students who wish to collaborate on a project should jointly inform the professor as early as possible.
 * **No third wheels**. Unless permission is explicitly granted by the Professor, collaborations in this course are restricted to *pairs* of students. 
 * **Describe who did what**. Written reports for collaborative projects should describe how your effort was distributed.
 * **Only collaborators from this class**. Your project collaborator, if you have one, must be in this semester's cohort of 60-212 students. You may not collaborate with people from outside the course (e.g. your housemate).
-* **Avoid co-dependency**. It's great that you have a bestie, but you may not collaborate with the same person (i.e. submit an assignment jointly) on more than two projects.
+* **Avoid co-dependency**. I'm glad you have a bestie, but you may not collaborate with the same person (i.e. submit an assignment jointly) on more than two projects.
 
 ### Policies and Suggestions Regarding Generative AI
 
@@ -405,16 +421,12 @@ I commit to make individual arrangements to address disabilities or religious ne
 
 ### Content Considerations
 
-In order to best engage as critical makers and thinkers, we will approach a diverse range of work with care and curiosity. During this course, you may encounter media containing nudity, strong language, or other material that some may find challenging. When possible, advance notice will be given before showing violent or sexual imagery. All content — including student work — must comply with CMU’s community standards and applicable laws, and should be relevant to our course material and presented professionally. If you have specific sensitivities or require accommodations, please let me know privately so we can make a plan together.
+In order to best engage as critical makers and thinkers, we will approach a diverse range of work with care and curiosity. During this course, it is possible that you may encounter media containing nudity, strong language, or other material that some may find challenging. When possible, advance notice will be given before showing violent or sexual imagery. All content — including student work — must comply with CMU’s community standards and applicable laws, and should be relevant to our course material and presented professionally. If you have specific sensitivities or require accommodations, please let me know privately so we can make a plan together.
 
 
 # Code of Conduct
 
-I am committed to providing an educational experience that is free of harassment and intimidation for everyone in this course—regardless of race, color, ethnicity, nationality, sex, handicap or disability, age, sexual orientation, gender identity and expression, physical appearance, body size, religion, class, creed, ancestry, belief, veteran status, genetic information, or technology choices. I will not tolerate any form of harassment and/or discriminatory, oppressive, suppressive, or violent behavior.
-
-*Harassment* may include, but is not limited to, offensive verbal comments, deliberate intimidation, stalking, following, harassing photography or recording, sustained disruption, inappropriate or non-consensual physical contact, unwelcome sexual attention, and/or refusing to accept the limits or boundaries set by another participant in our classroom. I further define *suppressive* behavior as any sort of communication that stifles or belittles another (noting that this is an in-class community standard rather than a CMU disciplinary category). Participants who have been asked to stop any behavior are expected to comply immediately. I expect all of the participants in our course community to adhere to this code of conduct–including me, the Professor.
-
-Debate and free exchange of ideas is encouraged, but I will not tolerate harassment. If someone engages in harassing behavior, I may take any action deemed appropriate in the Carnegie Mellon University Policy against [Sexual Harassment and Sexual Assault](https://www.cmu.edu/policies/administrative-and-governance/sexual-harassment-and-sexual-assault.html), [Discriminatory Harassment](https://www.cmu.edu/student-affairs/theword/community-policies/discriminatory-harassment.html), or other [community policies](https://www.cmu.edu/student-affairs/theword/community-policies/index.html). If you experience or witness harassment, threatening behavior, suppressive behavior, or have any other concerns, I encourage you to speak up, say something, and/or let us know immediately.
+I am committed to providing an educational experience that is free of harassment and intimidation for everyone in this course. I will not tolerate any form of harassment and/or discriminatory, oppressive, suppressive, or violent behavior. If someone engages in harassing behavior, I may take any action deemed appropriate in the Carnegie Mellon University Policy against [Sexual Harassment and Sexual Assault](https://www.cmu.edu/policies/administrative-and-governance/sexual-harassment-and-sexual-assault.html), [Discriminatory Harassment](https://www.cmu.edu/student-affairs/theword/community-policies/discriminatory-harassment.html), or other [community policies](https://www.cmu.edu/student-affairs/theword/community-policies/index.html). If you experience or witness harassment, threatening behavior, suppressive behavior, or have any other concerns, I encourage you to speak up, say something, and/or let us know immediately.
 
 For incidents that may not violate any formal policies or require disciplinary action, but which still cause harm and necessitate a thoughtful response, Carnegie Mellon has also developed a [Campus Climate and Bias Reporting Protocol](https://www.cmu.edu/title-ix/how-to-report-+-options-for-resolution/ccbrp/index.html). This a non-disciplinary mechanism for reporting and informally resolving incidents of alleged bias; it focuses on education, restoration, and strengthening and upholding our core values as a university community. If you need guidance or are uncertain as to what your options are, please feel free to contact CFA's Office for Diversity, Equity, and Inclusion prior to submitting a CCBRP report.
 
@@ -425,19 +437,19 @@ For incidents that may not violate any formal policies or require disciplinary a
 
 # Classroom Hygiene
 
-As we head back to campus, keep in mind that thousands of students are returning from many different locations — potentially bringing with them some germs you haven't encountered before. In light of this, the following policies and suggestions govern our in-person meetings: 
+As we head back to campus, keep in mind that people are returning from many different locations — potentially bringing with them some germs you haven't encountered before. In light of this, the following policies and suggestions govern our in-person meetings: 
 
-* We will follow current CMU public health guidelines; at minimum, **masks are welcome, respected, and even encouraged**. However: It's important that we be able to see and hear each other well. In the interest of effective interpersonal communication, *feel welcome to lower your mask (if you wish) if you are actively speaking to the entire class.*
+* We will follow current CMU public health guidelines; at minimum, **masks are welcome, respected, and even encouraged**. However: It's important that we be able to see and hear each other well. In the interest of effective interpersonal communication, *feel welcome to lower your mask (if you wish) if you are actively addressing the entire class.*
 * **Drinks** in containers with lids are permitted. 
-* **Messy or greasy meals** (e.g. sauce-heavy food) in the computer lab are strongly discouraged.
-* If you must eat, please do so only at the central table island — **keep food and open drinks away from computer equipment.**
+* **Messy, greasy, and/or pungent meals** in our classroom are strongly discouraged.
+* **Keep food and open drinks away from computer equipment!**
 
 
 ---
 
 # Take Care of Yourself
 
-**Please take care of yourself**. I encourage you to do your best to maintain a healthy lifestyle this semester by eating well, exercising, avoiding drugs and alcohol in excess, getting enough sleep, and taking some time to relax. This will help you achieve your goals and cope with stress. If you or anyone you know experiences any academic stress, difficult life events, or feelings like anxiety or depression, it is critically important to seek support. If you or someone you know is in danger of harm to self or others, please call someone immediately, day or night — such as:
+**Please take care of yourself**. I encourage you to do your best to maintain a healthy lifestyle this semester by eating well, exercising, avoiding drugs and alcohol in excess, getting enough sleep, and taking some time to relax. This will help you achieve your goals and cope with stress. If you or anyone you know experiences any academic stress, difficult life events, or feelings like anxiety or depression, it is critically important to seek support. Help is available, day or night, at:
 
 * **[Counseling and Psychological Services](http://www.cmu.edu/counseling/) (CaPS): +1-412-268-2922**
 * **[Resolve Crisis Network](https://www.upmc.com/services/behavioral-health/resolve-crisis-services) (UPMC): +1-888-796-8226**
