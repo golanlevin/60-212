@@ -20,6 +20,8 @@
   * [1.5.2. Part B: Summoning](#152-part-b-summoning) (*60 minutes*) 
   * [1.5.3. Part C: Inventing](#153-part-c-inventing) (*2 hours*) 
 
+*Note that these exercises are not as open-ended as the others you'll encounter this semester.*
+
 ---
 
 ## 1.1. Administrative Tasks
