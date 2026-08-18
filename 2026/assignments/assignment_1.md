@@ -6,12 +6,12 @@
 
 ---
 
-![assignment_1_banner.jpg](img/assignment_1_banner.jpg)
+![assignment_1_banner.jpg](img/1/assignment_1_banner.jpg)
 
-*This set of deliverables is due by the beginning of class on Wednesday 8/26. There are four main sets of tasks, the total of which should take 5-6 hours:*
+*This set of deliverables is due by the beginning of class on Wednesday 8/26. There are six main sets of tasks, the total of which should take 5-6 hours:*
 
 * 1.1. [Administrative Tasks](#11-administrative-tasks) *(45 minutes)*
-* 1.2. [Touchstone Sharing](#12-touchstone-sharing) *(15 minutes)*
+* 1.2. [Share a Touchstone](#12-share-a-touchstone) *(15 minutes)*
 * 1.3. [p5.js Wayfinding](#13-p5js-wayfinding) *(30 minutes)*
 * 1.4. [Test Your Coding Agent: Zero-Shot Generation](#14-test-your-coding-agent-zero-shot-generation) *(30 minutes)*
 * 1.5. [One Point Set, 27 Ways](#15-one-point-set-27-ways) *(4 hours)*
@@ -40,7 +40,7 @@
 
 ---
 
-## 1.2. Touchstone Sharing
+## 1.2. Share a Touchstone
 
 (***15 minutes***) You are asked to share a "touchstone" — a computational project (made by someone else) that you admire, hold close to your heart, or find yourself thinking about often. The purpose of this exercise is to help us become familiar with your interests and tastes — and for you to be able to share something interesting with your peers. I also want to make sure that you're able to access and use the Discord.
 
@@ -54,7 +54,9 @@
 
 ---
 
-## 1.3. p5.js Wayfinding 
+## 1.3. p5.js Wayfinding
+
+![patt_vira_image](img/1/patt_vira_image.jpg)
 
 (***30 minutes***) The purpose of this task is to help ensure that you know where to find good-quality information about the p5.js toolkit, such as documentation and tutorials. 
 
@@ -91,22 +93,22 @@ Now:
 > Use p5.js to make a simple face generator. Have the program generate a new face each time the user presses the spacebar. Have the program save a screenshot when the user presses the `s` key. 
 
 * **Run** the generated program to **test** it: for example, at [OpenProcessing.org](https://openprocessing.org/), or in the [p5.js editor](https://editor.p5js.org/). 
-* **Please don't** do any iterative refinement (as long as the project is working).
+* **Please don't** do any iterative refinement (as long as the project is working). This is not a creative assignment. I promise those are coming.
 * **Note** that the latest version of p5.js (v.2), which is quite new, has made some breaking changes to splines and curves. You might hit a small bug if your agent generated p5v1 curve commands in a p5v2 environment.
 * **Create** a post in the `#14-zero-shot` channel in our course Discord. 
 * **Tell** us which coding agent you used, and whether you used it at the command line or from within a browser.
 * **Observe** the results. In 1-2 sentences, in your own voice, **write** about one specific choice the coding agent made that reveals the agent's assumptions about what “a simple face generator” means.
 * **Embed** a screenshot of the agent's project in your Discord post. It might look something like the image below.
 
-<img src="img/random-face.png" width=400>
+<img src="img/1/random-face.png" width=400>
 
-*(For what it's worth, if you'd like to see a thoughtfully-executed implementation of procedurally generated faces in JavaScript, the artist Mannay [released this project](img/mannay_generated_faces.jpg) last week, published [here](https://x.com/mannay/status/2087522034351796728).)*
+*(FWIW, if you'd like to see some thoughtfully-executed, procedural faces in JavaScript, the artist @Mannay [released this project](https://x.com/mannay/status/2087522034351796728) last week. He achieved these designs by "placing features on a rough 3D head for proper positioning on face tilts/rotations".)*<br />![img/mannay_generated_faces.jpg](img/1/mannay_generated_faces.jpg)
 
 ---
 
 ## 1.5. One Point Set, 27 Ways
 
-![munari_flight_of_fancy.jpg](img/munari_flight_of_fancy.jpg)<br />
+![munari_flight_of_fancy.jpg](img/1/munari_flight_of_fancy.jpg)<br />
 Illustrations from Bruno Munari, *Flight of Fancy* (1992)
 
 (***4 hours***) Please **complete** and **submit** the following three programming assignments in our [OpenProcessing classroom](https://openprocessing.org/class/107236/#/). (In case it's helpful, a tutorial on how to use OpenProcessing is available [here](https://www.youtube.com/watch?v=Oj3DGSCMAOQ).)
@@ -165,7 +167,7 @@ Your job in **Part A** is to write 9 specific functions that interpret these poi
 8. Connect each point to the point farthest from it
 9. Complete Graph: connect each point to every other (hairball)
 
-![assignment_1_part_a.png](img/assignment_1_part_a.gif)
+![assignment_1_part_a.png](img/1/assignment_1_part_a.gif)
 
 #### Part A Deliverables: 
 
@@ -179,7 +181,7 @@ Your job in **Part A** is to write 9 specific functions that interpret these poi
 
 ### 1.5.2. Part B: Summoning
 
-[![snibbe_boundary_functions.jpg](img/snibbe_boundary_functions.jpg)](https://www.youtube.com/watch?v=5wA3lKcDrlM)
+[![snibbe_boundary_functions.jpg](img/1/snibbe_boundary_functions.jpg)](https://www.youtube.com/watch?v=5wA3lKcDrlM)
 > *In Scott Snibbe's interactive artwork "[Boundary Functions](https://www.youtube.com/watch?v=5wA3lKcDrlM)" (1998), participants' bodies form the sites of a projected Voronoi diagram.*
 
 In **Part B**, our learning objective shifts from writing algorithms to understanding and directing sophisticated algorithms. This exercise is intended to impart a lesson that computer science courses often miss: *understanding what an algorithm does* and *being able to implement it from scratch* are not the same skill. 
@@ -207,7 +209,7 @@ Using the same [template code](resources/assignment_1_sketch_template.js) as bef
 8. [Voronoi diagram](https://en.wikipedia.org/wiki/Voronoi_diagram), clipped to circular bubbles around each point
 9. Approximate [smallest enclosing annulus](https://doc.cgal.org/latest/Bounding_volumes/index.html#title3)
 
-![assignment_1_part_b.gif](img/assignment_1_part_b.gif)
+![assignment_1_part_b.gif](img/1/assignment_1_part_b.gif)
 
 This list draws from several disciplines, including computational geometry, graph theory, statistics, optimization, and numerical methods. Each field offers different ways of interpreting the same point set: as a spatial arrangement, a network, a statistical distribution, a boundary, a field, a noisy sample of an underlying form, or a path through space.
 
@@ -233,7 +235,7 @@ Some of these methods are ordinarily taught only in advanced courses, and many o
 
 Before you begin Part C, **please read this one-page article** by J. Meejin Yoon, "[Cornell’s Incoming Architecture Dean on the Fanciful Dot Drawings of Bruno Munari](../../readings/yoon_on_munari_21_dots.pdf)" ([*Metropolis*](https://metropolismag.com/projects/j-meejin-yoon-bruno-munari-flight-of-fancy/), 2018).
 
-[![yoon_thumbnail](img/yoon_thumbnail.png)](../../readings/yoon_on_munari_21_dots.pdf)
+[![yoon_thumbnail](img/1/yoon_thumbnail.png)](../../readings/yoon_on_munari_21_dots.pdf)
 
 *Now*: working individually or in a two-person team, create **9 new computational treatments** of the same point set. You may research existing algorithms, modify or combine algorithms you discover, or devise procedures of your own. You are encouraged to work extensively with your AI coding agent: ask it for suggestions, use it to help identify names for algorithms you have imagined, ask it about unfamiliar areas of mathematics and computation, and direct it to help implement and refine your ideas.
 
