@@ -14,11 +14,11 @@
 * 1.2. [Touchstone Sharing](#12-touchstone-sharing) *(15 minutes)*
 * 1.3. [p5.js Wayfinding](#13-p5-wayfinding) *(30 minutes)*
 * 1.4. [Test Your Coding Agent: Zero-Shot Generation](#14-test-your-coding-agent-zero-shot-generation) *(30 minutes)*
-* 1.5. [One Point Set, 27 Ways](#15-one-point-set-27-ways) *(3.5 hours)*
+* 1.5. [One Point Set, 27 Ways](#15-one-point-set-27-ways) *(4 hours)*
   * [1.5.0. Overview]()
   * [1.5.1. Part A: Coding]() (*60 minutes*)
-  * [1.5.2. Part B: Summoning]() (*30 minutes*) 
-  * [1.5.3. Part C: Creating]() (*2 hours*) 
+  * [1.5.2. Part B: Summoning]() (*60 minutes*) 
+  * [1.5.3. Part C: Inventing]() (*2 hours*) 
 
 ---
 
@@ -101,11 +101,15 @@ Now:
 
 ## 1.5. One Point Set, 27 Ways
 
-(***3.5 hours***) Please **complete** and **submit** the following three assignments in our [OpenProcessing classroom](https://openprocessing.org/class/107236/#/). (In case it's helpful, a tutorial on how to use OpenProcessing is available [here](https://www.youtube.com/watch?v=Oj3DGSCMAOQ).)
+![munari_flight_of_fancy.jpg](img/munari_flight_of_fancy.jpg)<br />
+Illustrations from Bruno Munari, *Flight of Fancy*
 
-* OpenProcessing slot for [Part A: Coding]() (*60 minutes*)
-* OpenProcessing slot for [Part B: Summoning]() (*30 minutes*) 
-* OpenProcessing slot for [Part C: Creating]() (*2 hours*) 
+(***4 hours***) Please **complete** and **submit** the following: a brief [reading](resources/yoon_on_munari_21_dots.pdf) (Yoon), and three programming assignments in our [OpenProcessing classroom](https://openprocessing.org/class/107236/#/). (In case it's helpful, a tutorial on how to use OpenProcessing is available [here](https://www.youtube.com/watch?v=Oj3DGSCMAOQ).)
+
+* Read this 200-word article by J. Meejin Yoon, "[Cornell’s Incoming Architecture Dean on the Fanciful Dot Drawings of Bruno Munari](resources/yoon_on_munari_21_dots.pdf)", *Metropolis*, 2018. (*2 minutes*)
+* OpenProcessing slot for [Part A: Coding](https://openprocessing.org/class/107236/#/c/107238) (*60 minutes*)
+* OpenProcessing slot for [Part B: Summoning](https://openprocessing.org/class/107236/#/c/107239) (*60 minutes*) 
+* OpenProcessing slot for [Part C: Inventing](https://openprocessing.org/class/107236/#/c/107240) (*2 hours*) 
 
 More details about each part are below. For each exercise, **remember** to do the following:
 
@@ -117,34 +121,42 @@ More details about each part are below. For each exercise, **remember** to do th
 
 #### Creative coding is not about making pictures with code. It is about making **systems whose behavior can be seen**.
 
-In this assignment, you will explore how different algorithms can allow a single set of random points to give rise to a wide variety of geometric structures. You will be given a p5.js template with a 3x3 grid of panels, where each panel shows the same set of points. Your job is to create a different computational process to interpret the points in each panel. Every panel will show the visible consequence of a different process: the results of a different question asked of the same set of points. 
+In this assignment, you will explore how different algorithms can allow a single set of random points to give rise to a wide variety of geometric structures. You will be given a p5.js template with a 3×3 grid of panels, where each panel shows the same set of points. Your job is to create a different computational process to interpret the points in each panel. Every panel will show the visible consequence of a different process: the results of a different question asked of the same set of points. 
 
 You will do this 3 times, creating a total of **27 functions**: 
 
 * In **Part A (Coding)**, you will be given a list of 9 functions to write. *You must write all the code for these functions yourself, without using any AI coding agent.* The point is to make sure you have the basic programming skills necessary to take this course.
 * In **Part B (Summoning)**, you will be given a list of 9 algorithms that are widely used in computer graphics. These algorithms are easy to appreciate conceptually, but tricky to implement correctly and efficiently. You will be asked to direct a coding agent to write the code for these algorithms, and to ensure they are working properly. It may help to do some independent reading about these algorithms, as you will also be asked to explain them in your own words. The point of this part is for you to *develop an intuitive understanding of what these algorithms do*. 
-* **Part C (Creating)** is open-ended. You are asked to research and/or devise 9 algorithmic treatments that interpret the points in creative and surprising new ways. In this part, you are encouraged to work collaboratively, in two-person teams, and in feedback with an AI coding agent. 
+* **Part C (Inventing)** is open-ended. You are asked to research and/or devise 9 algorithmic treatments that interpret the points in creative and surprising new ways. In this part, you are encouraged to work collaboratively (in two-person teams) and in feedback with an AI coding agent. 
 
 While **Part A** must be programmed entirely by you, **Part B** and **Part C** of this assignment are intentionally designed so that they cannot reasonably be completed *without* AI assistance. For all three parts, restrict the elements you draw to black-and-white forms. [**Here is the p5.js starter code you will modify**](resources/assignment_1_sketch_template.js).
+
+#### Learning Objectives
+
+On completion of *One Point Set, 27 Ways*, students will be able to demonstrate:
+
+* **Part A**: Translating straightforward computational procedures into code oneself.
+* **Part B**: Understanding and directing algorithms that one couldn't reasonably implement oneself, at least given the available time.
+* **Part C**: Using that expanded capability to research, invent, and direct the creation of sophisticated new procedures.
 
 
 ---
 
 ### 1.5.1. Part A: Coding
 
-[Here](resources/assignment_1_sketch_template.js) is a p5.js (v2) program for you to complete. (You can also find this code [at OpenProcessing](https://openprocessing.org/@golan/2991107), and [at editor.p5js.org](https://editor.p5js.org/golan/sketches/CqeRhgfJZ).) The program fills an array with data for a set of random 2D points, and then displays them 9 times, in a 3x3 grid. When you press the spacebar, the points are randomized. 
+[Here](resources/assignment_1_sketch_template.js) is a p5.js (v2) program for you to complete. (You can also find this code [at OpenProcessing](https://openprocessing.org/@golan/2991107), and [at editor.p5js.org](https://editor.p5js.org/golan/sketches/CqeRhgfJZ).) The program fills an array with data for a set of random 2D points, and then displays them 9 times, in a 3×3 grid. When you press the spacebar, the points are randomized. 
 
 Your job in **Part A** is to write 9 specific functions that interpret these points as described below. You may do internet searches for necessary documentation (e.g. [`Array.prototype.sort()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort), [`beginShape()`](https://p5js.org/reference/p5/beginShape/), etcetera), but **you are strictly prohibited from using an AI coding agent:**
 
-1. Draw a spline curve connecting all the points, in order
+1. Draw a spline curve connecting all the points, in order. *(Use p5's spline tools.)*
 2. Draw a perpendicular projection from every point to the horizontal centerline
 3. Star Graph: connect every point to the centroid of the set
 4. Sort the points from left to right; connect them with a polyline
 5. Compute and draw the axis-aligned bounding box (AABB)
 6. Sort points clockwise around the centroid; connect them with a closed loop
 7. Connect each point to its nearest neighbor
-8. Connect each point to the point furthest from it
-9. Complete Graph: Connect each point to every other (hairball)
+8. Connect each point to the point farthest from it
+9. Complete Graph: connect each point to every other (hairball)
 
 ![assignment_1_part_a.png](img/assignment_1_part_a.gif)
 
@@ -154,13 +166,13 @@ Your job in **Part A** is to write 9 specific functions that interpret these poi
 * **Ensure** your project has a thumbnail image in OpenProcessing.
 * **Create** a post in the Discord channel, `#01A-pointset-coding`.
 * **Embed** a screenshot of your project in your Discord post.
-* **Write**, in your own voice, a bried reflective statement about _________.
+* **Select** two of your nine panels and (in your own voice) briefly **explain** how their different rules cause the same points to appear to have different structure.
 
 ---
 
 ### 1.5.2. Part B: Summoning
 
-In **Part B**, our learning objective shifts from writing algorithms to working responsibly with sophisticated algorithms. This exercise is intended to impart a lesson that computer science courses often miss: *understanding what an algorithm does* and *being able to implement it from scratch* are not the same skill. 
+In **Part B**, our learning objective shifts from writing algorithms to understanding and directing sophisticated algorithms. This exercise is intended to impart a lesson that computer science courses often miss: *understanding what an algorithm does* and *being able to implement it from scratch* are not the same skill. 
 
 Some algorithms are so well-established, intricate, and widely available that reimplementing them from first principles is rarely the best use of your effort. Very few practicing engineers write their own FFTs or Delaunay triangulations from scratch. Instead, they understand:
 
@@ -178,7 +190,7 @@ Using the same [template code](resources/assignment_1_sketch_template.js) as bef
 1. [Minimum Spanning Tree](https://en.wikipedia.org/wiki/Minimum_spanning_tree) of the points (Prim's algorithm)
 2. Minimum-area [oriented bounding box](https://geidav.wordpress.com/2014/01/23/computing-oriented-minimum-bounding-boxes-in-2d/) (OBB) of the points
 3. [Delaunay triangulation](https://en.wikipedia.org/wiki/Delaunay_triangulation) (Bowyer-Watson) of the points
-4. [Open traveling-salesperson path](https://en.wikipedia.org/wiki/Travelling_salesman_problem) (TSP) through the points
+4. [Open traveling-salesperson path](https://en.wikipedia.org/wiki/Travelling_salesman_problem) (TSP) through the points. *(Approximation is acceptable.)*
 5. [2D Metaballs](https://en.wikipedia.org/wiki/Metaballs) (isoline of a density-field, using marching squares)
 6. [Convex hull](https://en.wikipedia.org/wiki/Convex_hull) peeling ([onion decomposition](https://en.wikipedia.org/wiki/Convex_layers)) of the point set
 7. Project every point onto the [Principal Component Analysis](https://en.wikipedia.org/wiki/Principal_component_analysis) major axis
@@ -187,9 +199,9 @@ Using the same [template code](resources/assignment_1_sketch_template.js) as bef
 
 ![assignment_1_part_b.gif](img/assignment_1_part_b.gif)
 
-This list draws from several disciplines, including computational geometry, graph theory, statistics, computer vision, numerical analysis, optimization, and machine learning. Each field offers different ways of interpreting the same point set: as a spatial arrangement, a network, a statistical distribution, a collection of clusters, a noisy sample of an underlying form, or the initial state of a dynamic system. 
+This list draws from several disciplines, including computational geometry, graph theory, statistics, optimization, and numerical methods. Each field offers different ways of interpreting the same point set: as a spatial arrangement, a network, a statistical distribution, a boundary, a field, a noisy sample of an underlying form, or a path through space.
 
-Some of these methods are ordinarily taught only in advanced courses, and many of these algorithms would require substantial time to implement correctly and efficiently. Nevertheless, each of these algorithms is easy to understand visually, and can play an important role in creating expressive and interactive graphical systems.
+Some of these methods are ordinarily taught only in advanced courses, and many of these algorithms would require substantial time to implement correctly and efficiently. Nevertheless, the behavior of each of these algorithms can be *understood visually*, and each can play an important role in creating expressive and interactive graphical systems.
 
 #### Part B Deliverables: 
 
@@ -197,9 +209,52 @@ Some of these methods are ordinarily taught only in advanced courses, and many o
 * **Ensure** your project has a thumbnail image in OpenProcessing.
 * **Create** a post in the Discord channel, `#01B-pointset-summoning`.
 * **Embed** a screenshot of your project in your Discord post.
-* **Select** your favorite algorithm of the 9, and in your own voice, in thre Discord post, **write** a brief explanation of what it does, or how to interpret it.
+* **Select** your favorite algorithm of the 9, and in your own voice, **write** a brief explanation of what it does, or how to interpret it.
+* **Identify** one way that you *verified* that one of the algorithms was actually doing what it claimed to do.
+* **Cite** which coding agent you used. Feel free to share any interesting struggles you had with it.
+
 
 ---
 
+### 1.5.3. Part C: Inventing
 
+#### In Part B, you were given 9 questions to ask of the points.<br/>In Part C, your job is to invent the questions.
 
+Before you begin, please **read** this one-page article by J. Meejin Yoon, "[Cornell’s Incoming Architecture Dean on the Fanciful Dot Drawings of Bruno Munari](resources/yoon_on_munari_21_dots.pdf)" ([*Metropolis*](https://metropolismag.com/projects/j-meejin-yoon-bruno-munari-flight-of-fancy/), 2018)
+
+Now: working individually or in a two-person team, create **9 new computational treatments** of the same point set. You may research existing algorithms, modify or combine algorithms you discover, or devise procedures of your own. You are encouraged to work extensively with your AI coding agent: ask it for suggestions, use it to help identify names for algorithms you have imagined, ask it about unfamiliar areas of mathematics and computation, and direct it to help implement and refine your ideas.
+
+You are not making nine pictures *of* something; you are constructing nine open-ended ways for the same information to behave and become visible. My hope is that you can begin building a personal vocabulary of computational ideas (that you might later use as components of artworks), and develop your sensibility for which procedures are worth making in the first place.
+
+Explore a broad space of possible relationships, structures, behaviors, and representations. What else could these points mean? What questions could you ask of them? For example, you might investigate questions about connection, proximity, paths, boundaries, partitions, clustering, fitting, growth, fields, forces, optimization, topology, or transformation. These are starting points, not a checklist. Ask the computer: *what if...?*
+
+**Try inventing a behavior first**, and searching for its name second. You may discover that something you imagined already has a name and a substantial literature. That's great: use what you find to understand and develop the idea further.
+
+Nine variations of the same underlying method do not constitute nine different ideas. Your treatments must be substantially different from one another, and from those in Parts A and B. Aim for conceptual **breadth**, visual **surprise**, and behavioral **richness**. A mathematically tricky algorithm is not necessarily an interesting one, and a simple rule can produce remarkably interesting behavior. Part of your job is to exercise aesthetic judgment: which computational processes are worth looking at?
+
+As you work, continually regenerate the point set to test your designs. An interesting treatment should not merely produce one fortunate composition; it should define an open-ended system whose behavior remains interesting as its input changes.
+
+#### Part C Deliverables: 
+
+* **Create** your project in OpenProcessing and save it to [this collection](https://openprocessing.org/class/107236/#/c/107240). As before, you should start with [this template code](https://openprocessing.org/@golan/2991107), and you are *still* restricted to black-and-white graphics.
+* **Ensure** your project has a thumbnail image in OpenProcessing.
+* **Create** a post in the Discord channel, `#01C-pointset-inventing`.
+* **Embed** a screenshot of your project in your Discord post.
+* For each of your 9 treatments: 
+  - **Give** it a descriptive name or caption. 
+  - Clearly **state** whether it was an algorithm you *chose* (an existing method you adopted), *modified* (an existing method you substantially altered or combined with another), or *devised* (a procedure you formulated yourself). It's entirely possible to devise something yourself and later discover that someone else has already given it a name; that's perfectly fine.
+  - In your own voice, **state the question it asks of the points** in one or two sentences.
+* **Select** your two favorite treatments and briefly **explain** how they work and why you found their behavior interesting.
+* If you worked with a partner, **identify** your collaborator. Each partner should nevertheless submit their own project and Discord post.
+* **Cite** which coding agent you used. Feel free to share any interesting struggles you had with it.
+
+#### During Critique
+
+We will share and discuss your work in **Part C** on Wednesday, 8/26, at the beginning of class. During critique, *you may be called to the whiteboard and asked to explain one of the treatments you used*; be prepared. You are not expected to derive its mathematics, explain the code of its implementation, or discuss its algorithmic complexity; however, you *are* expected to be able to explain, in clear language:
+
+1. What question does the treatment answer? What does it *do*?
+2. What does the resulting graphic represent?
+3. What conditions, parameters, or assumptions affect it?
+4. Why did you find it interesting to include?
+
+---

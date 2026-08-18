@@ -213,7 +213,7 @@ Fifty random points, all mutually connected. This establishes that an elementary
   * https://www.artic.edu/artworks/196148/wall-drawing-118-50-randomly-placed-points-connected-by-straight-lines
   * https://www.youtube.com/watch?v=ky9K_-NJoPU
 * Bruno Munari, *Flight of Fancy*
-https://www.mysimulator.uk/categories/algorithms/
+
 
 ---
 
@@ -244,3 +244,15 @@ No AI is permitted for Part A: you must be able to accomplish these yourself.
 7. Project every point onto the PCA major axis
 8. Bubble-clipped Voronoi diagram
 9. Projections onto minimum bounding circle
+
+
+
+#### Some Possible Starting Points
+
+Here are a few places you might get started — but note, it's important to get to a place where you're coming up with your own ideas for treatments, and not just reaching into a grab bag of existing techniques. 
+
+* [@algo_visuals](https://www.instagram.com/algo_visuals/)
+* [@codevisuals.io/](https://www.instagram.com/codevisuals.io/)
+* [@3blue1brown](https://www.instagram.com/3blue1brown/)
+* [cartography-playground](https://cartography-playground.gitlab.io/)
+* [Computational Geometry Algorithms Library](https://doc.cgal.org/latest/Manual/packages.html#PartConvexHullAlgorithms) (CGAL)
