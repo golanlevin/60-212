@@ -19,6 +19,7 @@
   * [1.5.1. Part A: Coding](#151-part-a-coding) (*60 minutes*)
   * [1.5.2. Part B: Summoning](#152-part-b-summoning) (*60 minutes*) 
   * [1.5.3. Part C: Inventing](#153-part-c-inventing) (*2 hours*) 
+* 1.6. [Reflection](#16-reflection) (*15 minutes*)
 
 *Note that these exercises are not as open-ended as the others you'll encounter this semester.*
 
@@ -42,7 +43,7 @@
 (***15 minutes***) You are asked to share a "touchstone" — a computational project (made by someone else) that you admire, hold close to your heart, or find yourself thinking about often. The purpose of this exercise is to help us become familiar with your interests and tastes — and for you to be able to share something interesting with your peers. I also want to make sure that you're able to access and use the Discord.
 
 * **Recall** a project you have admired (by someone else) which you feel falls under the broad umbrella of "Creative Coding".
-* **Create** a post in the `#01-touchstone` channel in our course Discord. 
+* **Create** a post in the `#12-touchstone` channel in our course Discord. 
 * **Describe** the project in a few sentences, and in your own voice, **explain** what you like about it. It's sufficient to write 3-5 sentences. *Please don't write with AI here.*
 * **Answer** the questions: *Who* made this project? (Was it an individual, a small team, a big company?) *Why* did they make it, or for whom (what kind of audience)?
 * **Include** a link (URL) to the project and/or its documentation (such as a YouTube video).
@@ -90,7 +91,7 @@ Now:
 * **Run** the generated program to **test** it: for example, at [OpenProcessing.org](https://openprocessing.org/), or in the [p5.js editor](https://editor.p5js.org/). 
 * **Please don't** do any iterative refinement (as long as the project is working).
 * **Note** that the latest version of p5.js (v.2), which is quite new, has made some breaking changes to splines and curves. You might hit a small bug if your agent generated p5v1 curve commands in a p5v2 environment.
-* **Create** a post in the `#01-zero-shot` channel in our course Discord. 
+* **Create** a post in the `#14-zero-shot` channel in our course Discord. 
 * **Tell** us which coding agent you used, and whether you used it at the command line or from within a browser.
 * **Observe** the results. In 1-2 sentences, in your own voice, **write** about one specific choice the coding agent made that reveals the agent's assumptions about what “a simple face generator” means.
 * **Embed** a screenshot of the agent's project in your Discord post. It might look something like the image below.
@@ -165,7 +166,7 @@ Your job in **Part A** is to write 9 specific functions that interpret these poi
 
 * **Create** your project in OpenProcessing and **save** it to [this collection](https://openprocessing.org/class/107236/#/c/107238).
 * **Ensure** your project has a thumbnail image in OpenProcessing.
-* **Create** a post in the Discord channel, `#01A-pointset-coding`.
+* **Create** a post in the Discord channel, `#15A-pointset-coding`.
 * **Embed** a screenshot of your project in your Discord post.
 * **Select** two of your nine panels and (in your own voice) briefly **explain** how their different rules cause the same points to appear to have different structure.
 
@@ -208,7 +209,7 @@ Some of these methods are ordinarily taught only in advanced courses, and many o
 
 * **Create** your project in OpenProcessing and **save** it to [this collection](https://openprocessing.org/class/107236/#/c/107239).
 * **Ensure** your project has a thumbnail image in OpenProcessing.
-* **Create** a post in the Discord channel, `#01B-pointset-summoning`.
+* **Create** a post in the Discord channel, `#15B-pointset-summoning`.
 * **Embed** a screenshot of your project in your Discord post.
 * **Select** your favorite algorithm of the 9, and in your own voice, **write** a brief explanation of what it does, or how to interpret it.
 * **Identify** one way that you *verified* that one of the algorithms was actually doing what it claimed to do.
@@ -242,7 +243,7 @@ As you work, continually re-randomize the point set to test your designs. An int
 
 * **Create** your project in OpenProcessing and save it to [this collection](https://openprocessing.org/class/107236/#/c/107240). As before, you should start with [this template code](https://openprocessing.org/@golan/2991107), and you are *still* restricted to black-and-white graphics.
 * **Ensure** your project has a thumbnail image in OpenProcessing.
-* **Create** a post in the Discord channel, `#01C-pointset-inventing`.
+* **Create** a post in the Discord channel, `#15C-pointset-inventing`.
 * **Embed** a screenshot of your project in your Discord post.
 * For each of your 9 treatments: 
   - **Give** it a descriptive name or caption. 
@@ -262,3 +263,18 @@ We will share and discuss your work in **Part C** on Wednesday, 8/26, at the beg
 4. Why did you find it interesting to include?
 
 ---
+
+## 1.6. Reflection
+
+(***15 minutes***) **Write** a brief reflection in Discord.
+
+In the Discord channel `#16-reflection`, **write** a brief reflection (a few sentences or a couple of short paragraphs) about your experience with the *One Point Set, 27 Ways* assignment (1.5). *Please write in your own voice, without AI assistance.*
+
+You don't need to answer all of the following questions. Instead, use one or more as starting points:
+
+* **What did you learn?** This could be something about programming, algorithms, AI coding agents, creative coding, your own working process, or something else entirely.
+* **Compare the experiences** of "coding", "summoning", and "inventing". Where did you feel most engaged, frustrated, capable, or creatively involved?
+* [Seymour Papert](https://en.wikipedia.org/wiki/Seymour_Papert) has written about “[hard fun](https://dailypapert.com/hard-fun/)”: the particular satisfaction that can come from working hard on a difficult problem that you care about. As we delegate more of our codecraft to machine intelligence, **how can we preserve access to that kind of experience, and to the joy of making?**
+* Did working with your coding agent ever **click** for you, becoming a fluid and enjoyable way to create, experiment, or explore ideas almost at the speed of thought? Did it sometimes feel hollow, confusing, or alienating? **What made the difference?**
+* Did the coding agent allow you to think or make things that would otherwise have been inaccessible to you? Conversely, was anything **lost** when you were no longer responsible for constructing every part yourself?
+* After completing all three parts of *One Point Set, 27 Ways*, **what do you now think is worth knowing how to do yourself?** What are you comfortable delegating? What do you still feel responsible for understanding?
