@@ -177,6 +177,9 @@ Your job in **Part A** is to write 9 specific functions that interpret these poi
 
 ### 1.5.2. Part B: Summoning
 
+[![snibbe_boundary_functions.jpg](img/snibbe_boundary_functions.jpg)](https://www.youtube.com/watch?v=5wA3lKcDrlM)
+> *In Scott Snibbe's interactive artwork "[Boundary Functions](https://www.youtube.com/watch?v=5wA3lKcDrlM)" (1998), participants' bodies form the sites of a projected Voronoi diagram.*
+
 In **Part B**, our learning objective shifts from writing algorithms to understanding and directing sophisticated algorithms. This exercise is intended to impart a lesson that computer science courses often miss: *understanding what an algorithm does* and *being able to implement it from scratch* are not the same skill. 
 
 Some algorithms are so well-established, intricate, and widely available that reimplementing them from first principles is rarely the best use of your effort. Very few practicing engineers write their own FFTs or Delaunay triangulations from scratch. Instead, they understand:
