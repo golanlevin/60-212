@@ -35,7 +35,7 @@
 * (*5 minutes*) **Create** an ID on [OpenProcessing.org](https://openprocessing.org) (if you don't already have one). **Join** our [OpenProcessing classroom](https://openprocessing.org/class/107236/#/), using the invitation sent to you by email, and **bookmark** it in your laptop's browser. Take a moment to **browse** some of the sketches that people have published at [https://openprocessing.org/discover](https://openprocessing.org/discover). *(Note: the quality varies widely.)* Run the programs, and be sure to **look** at their code (*command-shift-return* may help switch to the code view).
 * (*15 minutes*) **Review** the [**Syllabus**](https://github.com/golanlevin/60-212/blob/main/2026/syllabus/README.md) carefully. 
 * (*10 minutes*) **Complete** the [**60-212 Welcome Form**](https://forms.gle/Dtg5fU9wtkG6q3Fm7).
-* (*5 minutes*) **Complete** the (anonymous) [**CMU Student Survey on AI**](https://forms.gle/WfR1rHQ4zw7gR7gY7).
+* (*5 minutes*) **Complete** the (anonymous) [**CMU Student Survey on AI**](https://forms.gle/7kZrFXS3yT3dVe3y5).
 
 
 ---
