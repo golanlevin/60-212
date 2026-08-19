@@ -14,7 +14,7 @@
 * 1.2. [Share a Touchstone](#12-share-a-touchstone) *(15 minutes)*
 * 1.3. [p5.js Wayfinding](#13-p5js-wayfinding) *(30 minutes)*
 * 1.4. [Test Your Coding Agent: Zero-Shot Generation](#14-test-your-coding-agent-zero-shot-generation) *(30 minutes)*
-* 1.5. [One Point Set, 27 Ways](#15-one-point-set-27-ways) *(4 hours)*
+* 1.5. [O**ne Point Set, 27 Ways**](#15-one-point-set-27-ways) *(4 hours; "Main Project")*
   * [1.5.0. Overview](#150-overview)
   * [1.5.1. Part A: Coding](#151-part-a-coding) (*60 minutes*)
   * [1.5.2. Part B: Summoning](#152-part-b-summoning) (*60 minutes*) 
