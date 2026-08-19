@@ -91,7 +91,6 @@ This fall, there are 10 primary assignment sets, with the following schedule:
 * `Wed 12/02` — #8b Due (Capstone)
 * `TBA 12/XX` — #8c (Capstone Presentations and Documentation)
 
-<br />
 ![60-212_2026_schedule](img/60-212_2026_schedule.png)
 
 ### Prerequisites
