@@ -21,7 +21,7 @@ This is a “studio art course in computer science”, in which our objective is
 * [Administration](#administration)
 * [Attendance Policies](#attendance-policies)
 * [Grading and Evaluation Policies](#grading-and-evaluation-policies)
-* [Academic Integrity](#academic-integrity)
+* [Academic Integrity and AI Policies](#academic-integrity-and-ai-policies)
 * [Accommodations](#accommodations)
 * [Code of Conduct](#code-of-conduct)
 * [Classroom Hygiene](#classroom-hygiene)
@@ -32,8 +32,9 @@ This is a “studio art course in computer science”, in which our objective is
 
 # TL;DR: Grading 
 
-> 1. You do not need to be perfect, but you do need to participate reliably.
-> 2. The *minimum requirements for passing* are that you must substantially complete at least 8 of the 10 assignment sets, and you may not ghost more than two class sessions.
+> 1. I'm liberal about incidents, strict about patterns.
+> 2. You do not need to be perfect, but you do need to participate reliably.
+> 3. The *minimum requirements for passing* are that you must substantially complete at least 8 of the 10 assignment sets, and you may not ghost more than two class sessions.
 
 To a first approximation, your grade in this course is based straightforwardly on your **basic professionalism** in completing work and attending class. The policies below deliberately allow for an occasional bad week, missed deadline, or communication failure without penalty. Repeated failures to participate, however, have steep consequences. These grading policies address three independent shortcomings of professionalism:
 
@@ -97,7 +98,7 @@ This fall, there are 10 primary assignment sets, with the following due dates an
 
 * 60-212 is a *doubly-intermediate* course: intended for students who have already had at least one semester of arts foundations, and who have *also* already had at least one semester of introductory computer programming (in any language). To qualify for enrollment in this course: 
 	* Students must be familiar and comfortable with computer programming fundamentals, such as iteration, conditional testing, functional abstraction, common memory structures (e.g. arrays), and object-oriented programming, as taught in a course like AP Computer Science, or (at CMU) 15-104, 15-110, or 15-112.
-	* Students from outside CFA should be able to demonstrate that they have a creative practice, in a portfolio of creative work. 
+	* Students from outside CFA should be able to demonstrate that they have a creative practice, usually by presenting a portfolio of creative work. 
 * General computing skills (such as browser use, file management, word processing, and the Linux command line) are essential. Students are also expected to have some familiarity with software workflows for editing and distributing images and video.
 * This course is taught primarily with JavaScript. Students who are only familiar with Python will benefit from doing some additional preparation, such as viewing p5.js videos on the [Coding Train YouTube Channel](https://www.youtube.com/@TheCodingTrain).
 
@@ -175,281 +176,386 @@ This course uses the following software systems to share information:
 
 # Attendance Policies
 
-This section articulates policies on: 
+In brief:
 
-* **Excused absences** (about which you have communicated responsibly)
-* **Ghosting** ("No-Call, No-Show" absences)
-* **Partial attendance** (tardiness, mental absence)
-* **Malingering** on critique days (avoidant behavior)
-* **Health-Related Absences**
-* **Classroom Streams/Recordings**
+* **Excused and Excessive Absences:** I trust your reasons, but absence accumulates.
+* **Ghosting:** Tell me you're not coming.
+* **Partial Attendance:** A lapse gets a nudge; please don't make me start counting.
+* **Avoidant Absence on Critique Days:** Being behind does not excuse withdrawal.
+* **Health-Related Absences:** Don't infect the room; I don't need medical details.
+* **Classroom Recordings:** The classroom is deliberately ephemeral.
 
-### Excused Absences
+### Excused and Excessive Absences
 
-An *excused* absence is one about which you have communicated with me in a timely, professional, and responsible manner.
+An *excused absence* is one about which you have communicated with me in a timely, professional, and responsible manner. **I generally trust your judgment about when you need to miss class.** You do not need to persuade me that an individual absence is sufficiently important, or disclose private details in order for me to take you seriously.
 
-* **Communication is paramount**. If you're running late or need to miss class — which can happen, within reason — you are expected to be responsible about communicating with me. If you’re ill, or if you know you will have a planned absence, let me know by Discord or email at least 30 minutes before the beginning of that class session. I can be very understanding and accommodating about planned and necessary absences, family circumstances, and/or medical issues when you inform me in a timely and professional manner. 
-* **This policy on excused absences shall not be abused**. Even if your absences are "excused", special arrangements will become necessary if you need to miss more than a few sessions. Not every circumstance can be accommodated, not all excuses are equal, and some class sessions (*especially:* critiques) are more important than others. I reserve the right to lower your grade if you miss four or more sessions, in whole or in part, without such a special accommodation in place. If you have chronic medical issues that are likely to impact your attendance, please speak to the [Office of Disability Resources](https://www.cmu.edu/disability-resources/) as soon as possible and then make an appointment with me to discuss any accommodation requests. 
-* **Missed information is your problem**. The professor or TA *may* be able to help, but *you* are ultimately responsible for any information you have missed as a result of absence. Per CMU policy: *"faculty are not obligated to re-teach material due to a student missing class."* Organize with your classmates to get class information and material that you have missed.
+* **Communication is paramount**. If you're running late or need to miss class—which can happen, within reason—let me know by Discord or email, generally at least 30 minutes before the beginning of that class session. Emergencies that make advance communication impossible will, of course, be handled appropriately.
+* **An excused absence is still an absence.** Any individual absence may be entirely reasonable; a pattern of frequent absences can nevertheless become an academic problem. If you accumulate four absences from full class sessions, regardless of whether those individual absences were excused, your attendance has become an academic concern, and we will meet to discuss your attendance and make a plan. Further absences may affect your grade or your ability to complete the course, unless an appropriate accommodation is in place.
+* **Missed information is your responsibility**. The professor or TA *may* be able to help, but *you* are ultimately responsible for information you miss as a result of absence. Per CMU policy: *"faculty are not obligated to re-teach material due to a student missing class."* Organize with your classmates to obtain class information and materials that you have missed.
 
-### *Ghosting* (No-Call, No-Show Absences)
 
-If I, the professor, am unable to come to class, I will send a message so that you can plan accordingly. I respectfully ask exactly the same courtesy of you. 
+### Ghosting (No-Call, No-Show Absences)
 
-Failing to communicate responsibly about your absences — in other words, *ghosting*, or "No-Call, No-Show" events — is problematic and disrespectful to the classroom community, and is not acceptable in this course. Allowing the grace of one emergency for everyone, the following policy applies (*except as otherwise officially accommodated under University policy*):
+If I am unable to come to class, I will send you a message so that you can plan accordingly. I ask the same courtesy of you.
 
-* Ghost 1 session: no impact on your grade.
-* Ghost 2 sessions: lose a letter grade (A→B).
-* Ghost 3 or more sessions: fail the class (B→R).
+**Ghosting** means missing class without communicating with me—a "No-Call, No-Show" absence. Missing class can sometimes be necessary; failing to communicate about it is a separate matter of basic professionalism. Allowing everyone the grace of one emergency, the following policy applies (except as otherwise officially accommodated under University policy):
 
-Short of a truly incapacitating emergency, there are very few situations in which a person is *literally unable* to send a brief message. Students are responsible for notifying the professor as soon as possible, even in a justified *No-Call, No-Show* situation — i.e. a "delayed notice of absence". Depending on the severity of the situation, a *post-hoc* excuse for an unexcused absence may or may not be accepted, at the professor's discretion.
+* 😓 Ghost 1 session: no impact on your grade.
+* 🤕 Ghost 2 sessions: lose one letter from your semester grade.
+* 💀 Ghost 3+ sessions: you have not met the minimum requirements for passing the course.
 
-Students are responsible for notifying the professor as soon as possible, even in a justified *No-Call, No-Show* situation — i.e. a "delayed notice of absence". Depending on the severity of the situation, the notice period should not exceed three days from the day of absence. Such a *post-hoc* excuse for an unexcused absence may or may not be accepted, at the professor's discretion.
+**If an emergency prevents you from contacting me beforehand, contact me as soon as reasonably possible afterward.** A delayed notice does not automatically erase a ghosting event, but I may excuse it when circumstances genuinely prevented timely communication.
+
 
 ### Partial Attendance
 
-Focus is precious, and our class time is limited. Physical presence means nothing if you’re “checked out”; your mental presence is extremely important. *Partial absence* includes situations like tardiness, sleeping in class, moonlighting, or other forms of mental absence (i.e. distracted participation). Three incidents of unexcused partial absence may cause you to lose a letter grade (A→B).
+**Focus is precious, and our class time is limited.** Physical presence means little if you're “checked out”; your attention and participation are extremely important. *Partial absence* includes situations like tardiness, sleeping in class, moonlighting, or other forms of conspicuous disengagement or distracted participation.
 
-* **Tardiness** is a form of partial absence in which you are more than 15 minutes late to a class session. Tardiness may be excused or unexcused. Note that I typically begin to lecture (or commence other important class activities) no more than 5 minutes after the official start time. Your first incident of unexcused tardiness will receive a warning, but further instances may impact your grade.
-* **Sleeping in class** is considered partial attendance. If you are sleeping in class I will wake you up. Your first incident of sleeping in class will receive a warning, but further instances may impact your grade. If you are not getting enough sleep please address this issue either with a doctor or with an academic advisor in order to better balance your days and nights.
-* **Working on homework for another class**, during class time (i.e. *moonlighting*) is considered partial attendance. Moonlighting is particularly harmful to class morale because it signals a willful disengagement and lack of respect, both for your peers and the course content. When you disengage from the collective learning experience, it diminishes the collaborative energy and focus of the group. This behavior can create a ripple effect, distracting others and lowering the overall quality of the class. 
-* **Stepping out briefly is OK**. I don't require notification if you just need to step out for a few minutes in the middle of class (e.g. to use the restroom, collect yourself, take an urgent call, etc.). If I'm in the middle of lecturing, please don't interrupt me; just excuse yourself. Stepping out for a moment is not considered partial absence.
+* **Tardiness** is a form of partial absence. Arriving more than 15 minutes late will generally qualify. Tardiness may be excused or unexcused. Note that I typically begin to lecture (or commence other important class activities) no more than 5 minutes after the official start time. If you know you will be substantially late, please communicate with me just as you would about an absence.
+* **Sleeping in class** is considered partial attendance. If you are sleeping in class, I will wake you up. Please understand that it is genuinely difficult to lecture when someone is visibly asleep in front of you; your disengagement affects not only you, but the person who is trying to teach you and the atmosphere of the room. **Sleeping during a guest lecture is particularly unacceptable and profoundly disrespectful to our guest.** If I have to wake you up once, I'll wake you up; if I *keep* having to wake you up, we have a problem.
+* **Working on homework for another class** during class time (i.e. *moonlighting*) is considered partial attendance. Moonlighting is particularly harmful to class morale because it signals a willful disengagement and lack of respect, both for your peers and the course content. When you disengage from the collective learning experience, it diminishes the collaborative energy and focus of the group. This behavior can create a ripple effect, distracting others and lowering the overall quality of the class.
+* **Stepping out briefly is OK.** I don't require notification if you just need to step out for a few minutes in the middle of class (e.g. to use the restroom, collect yourself, take an urgent call, etc.). If I'm in the middle of lecturing, please don't interrupt me to ask; just quietly excuse yourself. Stepping out for a moment is not considered partial absence.
 
-### [Malingering](https://www.merriam-webster.com/dictionary/malinger) On Critique Days
+I am not interested in keeping a tally of minor lapses in attention or participation. People have tired days, arrive late occasionally, or otherwise have imperfect moments. **The problem is when I keep noticing the same problem.** If I notice that your partial attendance has developed into a pattern, I will let you know. **Please don't make me start counting.** Once I have explicitly warned you that a pattern has become a problem, the period of informal slack is over; I will begin documenting further incidents, which may result in a reduction of your semester grade.
 
-Sometimes, students who haven’t completed their projects choose to avoid class on critique days, because they are too embarrassed to come to class empty-handed. *Please have courage.* Your participation on critique days is essential, even if your own project is incomplete or missing, because these sessions and conversations help you understand the nature of the work. If you are empty-handed, just say so; it happens. Even if you are without a project, you are still expected to help your peers by contributing productively to the class discussion.
+
+### Avoidant Absence on Critique Days
+
+Sometimes, students who haven't completed their projects choose to avoid class on critique days because they are embarrassed to come to class empty-handed. **This is unacceptable, and it compounds the problem.** Being unprepared for critique is not a reason to miss critique.
+
+*Please have courage.* Your participation on critique days is essential even if your own project is incomplete or missing. Critique isn't only about receiving feedback on your own work; listening carefully, discussing your peers' work, and participating in the conversation are themselves important parts of the course. Avoiding critique deprives you of precisely the experience that can help you recover when your work isn't going well, and deprives your classmates of your participation in their critiques.
+
+If you are empty-handed, just say so; it happens. **Come to class anyway.** You are still expected to help your peers by looking carefully, thinking seriously, and contributing productively to the discussion.
+
 
 ### Health-Related Absences
 
-Please refrain from attending class if you feel even slightly unwell. You are emphatically encouraged to seek appropriate medical attention for treatment of illness, and notify me by email/Discord about your absence as soon as practical, so that accommodations can be made. I don't need or want to know intimate details about your medical issues; it's sufficient to let me know that you're unwell.
+**Please do not come to class when you are sick and potentially contagious.** I would much rather excuse an absence than have you make your classmates, instructors, or their families sick. Use reasonable judgment, and let me know by Discord or email as soon as practical that you will be absent.
+
+I do not need or want intimate details about your medical situation, and you do not need to prove to me that you are sick. It is sufficient to tell me that you are unwell. **I trust you to use this flexibility responsibly.**
+
+If an ongoing medical or disability-related condition is likely to affect your attendance repeatedly, please contact the [Office of Disability Resources](https://www.cmu.edu/disability-resources/) as soon as possible and then speak with me about any appropriate accommodations.
+
 
 ### Classroom Recordings
 
-This course is intended to be experienced in person, in the room, and in the moment. To preserve the spontaneity and candor of our classroom environment—and to minimize the amount of surveillance and recording in our lives—I do not ordinarily record or livestream class sessions, or provide Zoom connections for absent students. An exception will, of course, be made when recording or remote access is required as part of a student's documented medical accommodation.
+This course is intended to be experienced **in person, in the room, and in the moment**. To preserve the spontaneity and candor of our classroom environment—and to minimize the amount of surveillance and recording in our lives—class sessions are ordinarily **not recorded or livestreamed**. I do not provide recordings, livestreams, or Zoom connections for absent students, and students should not make their own audio, video, or screen recordings of class without permission. Exceptions will, of course, be made when recording or remote access is required as part of an approved disability accommodation.
 
 
 ---
 
 # Grading and Evaluation Policies
 
-In this course, your effort is evaluated according to three different systems, which are decoupled to the greatest extent possible:
+***My Opinion of Your Work is Not Your Grade; Your Grade is Not My Opinion of Your Work.***
 
-* **Grades** (standards used by CMU on its transcripts, to indicate your objective level of effort in a course.) 
-* **Evaluations** (standards used by our class community in critiques)
-* **Expectations of Professionalism** (additional standards used by Golan)
+In this course, your work is considered through three different lenses, which are decoupled to the greatest extent possible:
 
-## Policies for Foregone Work
+* **Grades** reflect your fulfillment of explicit, objective course requirements.
+* **Evaluations** reflect subjective judgments about the quality, interest, and significance of your creative work.
+* **Expectations of Professionalism** describe habits and conduct that will help you learn, contribute to our class community, and prosper as an artist and practitioner.
 
-An assignment set is considered **forgone** if, one week after its deadline, it remains unsubmitted or is less than 25% completed. The following grading policy concerns "foregone" assignments:
+Put more simply: **Grades ≠ Evaluations.** It is entirely possible to receive full credit for a project that I don't happen to think is particularly good or interesting. Conversely, it is possible to make something remarkable while failing to fulfill some of the basic requirements of the assignment.
 
-* Forgo 1 weekly assignment: no impact on your grade whatsoever.
-* Forgo 2 weekly assignments: lose a letter grade (A→B).
-* Forgo 3+ weekly assignments: fail the class (B→R).
 
-If you know you're going to be late with a project, *contact me* prior to the due date to arrange an accommodation.
+## Policies for Forgone Work
+
+An assignment set is considered **forgone** if, one week after its deadline, it remains unsubmitted or is less than 25% completed. The following grading policy concerns forgone assignments:
+
+* 😓 Forgo 1 assignment set: no impact on your grade whatsoever.
+* 🤕 Forgo 2 assignment sets: lose one letter from your semester grade.
+* 💀 Forgo 3+ assignment sets: you have not met the minimum requirements for passing the course.
+
+If you know you're going to be late with a project, *contact me* prior to the due date.
 
 
 ## Policies for Incomplete Work
 
-Your grades in 60-212 will be based on your self-evident **fulfillment** of simple checklists. Assignment sets and projects will always have a checklist of *supporting requirements*, totaling 100%. These are often very straightforward to fulfill, but if you fail to meet these, you will have points deducted. Practically every project will ask you to execute simple subtasks such as (for example):
+Your grades in 60-212 are primarily based on your self-evident **fulfillment** of simple checklists. Assignment sets and projects will have clearly stated supporting requirements, totaling 100%. These requirements are deliberately straightforward and easy to verify. For example, a project might ask you to:
 
 * **Create** a unique Discord post for your project.
 * **Upload** a static image of your project, such as a screenshot or photograph.
-* **Upload** a photo of your notebook sketches for the project, if applicable.
-* **Upload** dynamic documentation of your project (such as an animated GIF, video recording, or interactive applet) into the blog post, if applicable.
-* **Write** 100-150 words about your project, describing its development process. In your writing, include some critical reflection and analysis of your project: What were your goals? In what ways did you succeed? And in what ways did you fall short? 
+* **Upload** dynamic documentation, such as an animated GIF, video recording, or interactive applet.
+* **Write** a brief reflection about your project, its development process, and what you learned.
 * **Link** to your project or code, if requested.
-* As per our syllabus policies on Academic Integrity, you must also:
-	* **Credit** any other students (or AI agents, or tutors, etc.) from whom you received advice or help, and describe the help you received. If you had collaborators, explain how the work was distributed among the collaborators.
-	* **Cite** any code, external libraries, or other media (e.g. photographs, soundtracks, source images) which you used in your project. Citing your sources and crediting your helpmeets is extremely important. Err on the side of generosity.
+* **Credit** other students, AI agents, tutors, or anyone else from whom you received substantial advice or help, and briefly describe the help you received.
+* **Cite** any code, external libraries, or other media (e.g. photographs, soundtracks, source images) that you used in your project.
 
-Note that the objective, easy-to-verify nature of these checklists means that some of your grading may be performed by our Teaching Assistant.
+**Citing your sources and crediting your helpmeets is extremely important. Err on the side of generosity.**
+
+If you fail to fulfill checklist requirements, points will be deducted accordingly. Because these requirements are objective and easy to verify, some checklist grading may be performed by our Teaching Assistant.
 
 
 ## Policies for Late Work
 
-When you submit a project late, you miss the chance to share, discuss and get feedback on your work. These are some of the most valuable affordances of this class.
+When you submit a project late, you miss the chance to share, discuss, and get feedback on your work. These are some of the most valuable affordances of this class.
 
-To receive critical feedback on your work, your work must be available for evaluation during the designated review period. For example, at times this semester, your creative projects may be evaluated by your peers in an in-class critique, or by outside experts who review your work online. If your assignment is not viewable by the time those persons do their reviews, then your work will generally not receive feedback from them. Likewise, my feedback for late work is often comparatively attenuated.
+To receive critical feedback, your work must be available during the designated review period. At various times this semester, your creative projects may be evaluated by your peers in an in-class critique, or by outside experts who review your work online. If your assignment is not viewable when those people conduct their reviews, then your work will generally not receive feedback from them. Likewise, my feedback for late work is often comparatively attenuated.
 
-Late submission should not be a loophole for evading the scrutiny of critique. Each assignment set generally has one or two "main" projects which are discussed in critique; for these "main" projects:
+**Late submission should not be a loophole for evading the scrutiny of critique.** Each assignment set generally has one or two "main" projects that are discussed in critique. For these main projects:
 
 * 😓 First main project submitted after critique: no impact whatsoever.
 * 🤕 Second main project submitted after critique: lose one letter from the project's grade.
 * 💀 Third main project submitted after critique: no credit for that project.
 
+
 ## Evaluations
 
-**Evaluations** are standards used by our class community in critiques, to provide subjective feedback about your creative work. These are *opinions*.
+**Evaluations** are subjective assessments of your creative work. They are *opinions*.
 
-This section discusses how your work will be Evaluated. Evaluations reflect professional assessments of your work—as provided by me, our Teaching Assistant, external guest critics, your peers, or even your own self-evaluation. Evaluations articulate someone's personal *opinion* about whether your creative effort is *good*, *interesting*, *noteworthy*, etc. As such, Evaluations do not figure into your grade.
+Evaluations may come from me, our Teaching Assistant, external guest critics, your peers, or even your own self-evaluation. They articulate someone's personal and professional judgment about whether your creative effort is *good*, *interesting*, *noteworthy*, surprising, skillful, provocative, underdeveloped, etc. **Evaluations do not figure into your grade.**
 
-The purpose of our open-ended projects is to provide well-circumscribed opportunities for you to make creative work. Generally the prompts will invite you to explore a specific topic or set of tools, but, unless stated otherwise, there is no correct solution, and no specific requirement for how you should implement your idea. My assignments will not only ask for a creative solution, but also for some creativity in how you define and approach the problem. It is expected that your Projects will be presented and documented in the appropriate channels of our class Discord.
+The purpose of our open-ended projects is to provide well-circumscribed opportunities for you to make creative work. Generally, the prompts will invite you to explore a specific topic or set of tools, but unless stated otherwise, there is no correct solution and no specific requirement for how you should implement your idea. My assignments will often ask not only for a creative solution, but also for some creativity in how you define and approach the problem.
 
-The quality of your creative projects may be unrelated to how much time you spent making it. You may sometimes observe a very quickly-executed solution which succeeds because of its strong concept. Usually, however, the quality of a project is rewarded by extra attention to its craft.
+The quality of a creative project may be unrelated to how much time you spent making it. You may sometimes encounter a quickly executed solution that succeeds because of its strong concept. Usually, however, the quality of a project is rewarded by extra attention to its craft.
 
-In addition to Evaluations for your individual projects, I will also provide a brief written mid-semester Evaluation of your work. 
+**There is intentionally no single rubric for creative quality.** Different evaluative lenses call attention to different qualities in creative work, and I like to experiment with different subjective schemas. You may therefore encounter different forms of evaluation for different projects. These schemas are tools for thinking and discussion, not grading systems.
 
-I will provide Evaluations to you by email or private message. They may be quite brief. Evaluations may be given along different scales, or no scales at all, according to the project. I like to experiment with different subjective schemas for evaluating your open-ended projects. For example:
+In addition to evaluations for individual projects, I will provide a brief written mid-semester evaluation of your work. Other evaluations may be provided by email or private message and may be quite brief.
 
-#### Evaluation Schema 1: S/A/B/C/D/F
+Here are some of the evaluative schemas we may use:
 
-Sometimes, my feedback may take the form of scores of S,A,B,C,D, or F, as described below. Note that it is possible for you to receive full *credit* for an assignment (i.e. you technically ticked off all the items on the checklist), while still receiving an Evaluation of B or C.
-
-* **S** (Exceptional): You made something truly outstanding
-* **A** (Excellent): You made something very good
-* **B** (Good): You made something satisfactory, that fulfills all requirements
-* **C** (Needs Improvement): You tried to make something
-* **D** (Unacceptable): The work does not fulfill any requirements completely
-* **F** (No Credit): You did not even try, and made no arrangements to address this
-
-#### Evaluation Schema 2: C/G/S (Allison Parrish)
+### Evaluation Schema 1: C/G/S (Allison Parrish)
 
 Your work may be critiqued based on [these subjective considerations from Allison Parrish](https://eroft.decontextualize.com/#evaluation-rubric):
 
 * An assignment is **Compliant** if it meets the brief.
-* An assignment is **Gregarious** if it makes connections between course content and the rest of the world; e.g. your own interests as an artist, designer, technologist, etc. and/or other fields of research and practice.
-* An assignment is **Stubborn** if it provides evidence that its maker was opinionated about what they wanted to accomplish and did not let small setbacks (whether conceptual or technical) deter them this end.
+* An assignment is **Gregarious** if it makes connections between course content and the rest of the world; e.g. your own interests as an artist, designer, technologist, etc., and/or other fields of research and practice.
+* An assignment is **Stubborn** if it provides evidence that its maker was opinionated about what they wanted to accomplish and did not let small setbacks (whether conceptual or technical) deter them from this end.
 
-Assignments will be assigned a score of 0, 1 or 2 in these categories, in accordance with the extent to which the assignment demonstrates the properties described:
+Assignments may be assigned a score of 0, 1, or 2 in these categories, according to the extent to which the assignment demonstrates the properties described:
 
-* **0**: No evidence of quality
-* **1**: Meets expectations
-* **2**: Shows exceptional effort
+* **0:** Little or no evidence of this quality
+* **1:** Meets expectations
+* **2:** Exceptional evidence of this quality
 
-#### Evaluation Schema 3: C/T/E/I
+### Evaluation Schema 2: C/T/E/I
 
-* **Curiosity**: Are you asking questions as you work?
-* **Tenacity**: Are you forging through difficult problems without giving up?
-* **Execution**: Are you crafting with purpose, precision, and attention?
-* **Inventiveness**: Are you discovering/exploring methods outside the obvious and predictable?
+* **Curiosity:** Are you asking questions as you work?
+* **Tenacity:** Are you forging through difficult problems without giving up?
+* **Execution:** Are you crafting with purpose, precision, and attention?
+* **Inventiveness:** Are you discovering or exploring methods outside the obvious and predictable?
 
+This schema may also use the 0/1/2 rating, as above. 
 
-#### Evaluation Schema 3: Studio Habits of Mind (Lois Hetland et al.)
+### Evaluation Schema 3: Studio Habits of Mind (Lois Hetland et al.)
 
-At some point you may be asked to perform a self-evaluation of a project, using the four-point "Studio Habits of Mind" rubic by Lois Hetland et al.:
+At some point, you may be asked to perform a self-evaluation of a project using the four-point "Studio Habits of Mind" rubric by Lois Hetland et al.:
 
-![studio_habits_of_mind.png](img/studio_habits_of_mind.png)
+![studio habits of mind](img/studio_habits_of_mind.png)
 
 
 ## Expectations of Professionalism
 
-*My Opinion of Your Work is Not Your Grade; Your Grade is Not My Opinion of Your Work. Earning good grades is roughly correlated with, but not the same thing as, being a good learner.*
+**Earning good grades is roughly correlated with, but is not the same thing as, being a good learner.**
 
-Because your grade reflects your fulfilment of basic checklists, it follows that I regularly give "**A**" grades to work that is meets checklist criteria, but which I don't happen to think is particularly good or interesting.
+Because your grade primarily reflects your fulfillment of basic requirements, I regularly give **A** grades to work that fully meets the checklist criteria but that I don't happen to think is particularly good or interesting.
 
-I am just one person, and despite my years of experience in this field, my particular taste is ultimately irrelevant. I have been known to dismiss student projects that later proved to be highly influential and significant. I have sometimes brought in outside critics whose opinions I deeply respect, who surprise me with radically different (but equally valid) opinions about student projects. And I have even been known to change my own mind about student projects quickly, and often.
+I am just one person, and despite my years of experience in this field, my particular taste is ultimately irrelevant. I have been known to dismiss student projects that later proved to be highly influential and significant. I have brought in outside critics whose opinions I deeply respect, only to be surprised by their radically different (but equally valid) opinions about student projects. And I have been known to change my own mind about student projects quickly, and often.
 
-That said, there are a few aspects of your professional conduct that set you up to actually learn stuff. These things may seem simple and obvious, but it’s sometimes surprising how few students seem to get these right:
+That said, there are some habits of professional conduct that will set you up to actually learn stuff. They are simple, but they matter:
 
-* **Be good**. Have a positive attitude.
-* **Be present**. Show up to all of the course sessions, on time.
-* **Be diligent**. Submit your work punctually, and with clear documentation.
-* **Be responsible**. Communicate with me if you have a problem, and clean up after yourself.
-* **Be helpful**. Help your classmates when they’re stuck. Contribute to discussions.
-* **Be generous**. Make helpful contributions to discussions.
-* **Be fearless**. Work outside your comfort zone. Give yourself permission to weird.
-* **Be conscientious**. Pay attention to details of craft and execution. Put your heart in the work.
-* **Be persevering**. Become resourceful about getting the assistance you need.
-* **Be curious**. If you don’t understand something, start with curiosity rather than judgment.
-* **Be tenacious**: Are you forging through difficult problems without giving up?
-* **Be rigorous**: Are you crafting with purpose, precision, and attention?
-* **Be brave**: Are you exploring methods outside the obvious and predictable?
-* **Be respectful** of our social space. Make space for others.
-* **Ask for help**. If you don’t know how/where/what, ask for help.
+* **Be present and responsible.** Show up, participate, communicate when you have a problem, submit your work punctually, and clean up after yourself.
+* **Be generous.** Help your classmates when they're stuck. Make space for others. Contribute thoughtfully to discussions and critiques.
+* **Be curious.** If you don't understand something, start with curiosity rather than judgment. Ask questions. Ask for help.
+* **Be conscientious.** Pay attention to craft, execution, and documentation. Put your heart in the work.
+* **Be tenacious and resourceful.** Difficult problems are part of the work. Figure out what you need to learn, and get the assistance you need rather than simply giving up.
+* **Be fearless.** Work outside your comfort zone. Explore methods outside the obvious and predictable. Give yourself permission to weird.
 
-Whether or not you adhere to these recommendations will not affect your grade. But when students do follow these recommendations, they *learn* a lot more. Students who do these things are *also* more likely to make a good impression. This means that I am more likely to do things like:
+These qualities are **not another hidden grading rubric**. I am not assigning points for generosity, curiosity, fearlessness, or whether I happen to enjoy working with you. But grades are not the only form of consequence in a professional community. Over time, the way you work with other people naturally shapes their confidence in you as a colleague.
 
-* ...admit them into a future course from my waitlist. 
-* ...recommend them to another professor who asks about them.
-* ...introduce them to outside professionals (e.g. for internships).
-* ...arrange an Independent Study course with them.
-* ...write letters of recommendation for them.
+When professors recommend students for opportunities, introduce them to professional contacts, agree to supervise independent work, admit students from waitlists, or write letters of recommendation, we necessarily draw on our experience of working with those students. Reliability, generosity, curiosity, initiative, and collegiality become part of that professional reputation. This isn't a system of rewards for pleasing me; it's one of the ways professional communities actually work.
 
 
 ## Feedback and Critique
 
-We are a diverse group with broad interests and a great deal of interdisciplinary hybridity. It is impossible to have one single standard we can use for "what is good". 
+We are a diverse group with broad interests and a great deal of interdisciplinary hybridity. It is impossible to have one single standard we can use for "what is good."
 
-Sharing our perspective in critiques, and understanding that others may have other perspectives on what is good, **is an act of care.** In art school, it is one of the highest forms of care we can give each other. Outside of art school, if people don't find your work compelling, they will not tell you so; they will simply move on to something they like better. Critiques in an art school are a *gift* — a context in which you can receive feedback from "inside the house". Take them seriously and give a good faith effort to help your peers. 
+Sharing our perspectives in critiques, while understanding that others may have very different perspectives on what is good, **is an act of care.** In art school, it is one of the highest forms of care we can give each other.
 
-There often isn't enough time to provide in-depth feedback for all students during critiques. If you would like more feedback on a project, ask me.
+Outside of art school, if people don't find your work compelling, they will generally not tell you so; they will simply move on to something they like better. Critiques in an art school are a *gift*—a context in which you can receive candid feedback from "inside the house." Take them seriously, listen generously, and make a good-faith effort to help your peers see their own work more clearly.
+
+There often isn't enough time to provide in-depth feedback for every student during critiques. If you would like more feedback on a project, ask me.
+
+
 
 
 ---
 
-# Academic Integrity
 
-Your behavior as a responsible member of the new-media arts community is very important — as demonstrated, for example, by properly citing your sources and borrowed code, and crediting those who have helped you. These expectations and obligations are addressed here.
+# Academic Integrity and AI Policies
 
-### Summary: *Acknowledge, Credit, Cite*
+#### TL;DR: *Acknowledge, Credit, Cite*
 
-**Credit is one of the most important forms of currency** in economies of commons-based peer production and open-source media arts. You are expected to cite the source of any code, media, or ideas you borrow.
+**Credit is one of the most important forms of currency** in the economies of commons-based peer production and open-source media arts. For more than a quarter-century, the field of creative coding has involved learning from other people's work, borrowing and modifying code, using open-source libraries, following tutorials, asking friends for help, and building on ideas that came before us. Generative AI has made these relationships more complicated, but it has not changed the basic principle:
 
-* **Did you use an AI agent?** Acknowledge it.
-* **Did your friend or TA help you?** Credit them.
-* **Did you use some code you found?** Cite it. 
-* **Were you inspired by an artwork you saw?** Say so. 
+**Be honest and generous about where your work came from and who, or what, helped you make it.**
+
+* **Did you use an AI coding agent?** Acknowledge it.
+* **Did your friend, TA, or tutor help you?** Credit them.
+* **Did you use some code you found?** Cite it.
+* **Did you use a library, dataset, image, sound, or other media made by someone else?** Cite it.
+* **Were you inspired by an artwork you saw?** Say so.
 * **Did you follow a tutorial?** Tell us.
 
-### Policies for Open-Ended Creative Projects
+When in doubt: **give credit.**
 
-For your open-ended creative projects, there are no “correct answers”. Your curiosity, creativity, ingenuity and originality are prized.
+## Assignment-Specific Rules Come First
 
-You may borrow code or ideas from other sources, within the limits of principles described below, provided you acknowledge your sources. Your projects will likely be discussed and critiqued in front of (and with the assistance of) your peers.  
+This semester we will—intentionally, critically, and with care—make extensive use of LLM-based coding agents and other generative AI systems. In many assignments, their use will be explicitly permitted or even required. In other assignments, I may ask you to do something entirely by hand, without AI assistance, because the intellectual activity of doing it yourself is the point of the exercise.
 
-As art students, you are expected or invited to make extensive use of open-source toolkits, libraries and tutorials. When working in this way, much like a knitting circle, our classroom is structured around peer instruction, in which students are expected to help each other learn.
+**The rules of the individual assignment always take precedence over the general policies below.** An assignment may require, permit, restrict, or prohibit the use of AI, collaboration, particular libraries, tutorials, or other forms of assistance. I will make these restrictions clear.
+
+Using an AI agent on an assignment where AI is explicitly prohibited is no different, for the purposes of Academic Integrity, from using any other unauthorized assistance.
 
 
-### Use of Online and/or Open-Source Code in Projects
+## Policies Regarding AI Coding Agents
 
-* **Use Libraries**. In your Projects, the use of general-purpose, reusable code libraries that solve specific technical problems is very strongly encouraged. The people who developed these components worked hard, often for no pay; please acknowledge their community contributions by citing their name and linking to their repository.
-* **Be Careful**. It sometimes happens that an artist will place the entire source code for their artwork online. You might even discover the work of a student in some other course or school, who has posted their code for a project that responds to a similar assignment. *You should probably avoid this code*, or at the very least, you should be *extremely* careful about approaching such code for any possible re-use. Forking an *artwork* from someone’s page on OpenProcessing and simply changing the colors would be disgracefully lazy; doing so without thorough and proper citation would be outright plagiarism.
+In this class, you are generally permitted—and often, *affirmatively encouraged*—to explore generative AI as an instrument for programming and art-making.
 
-### Policies Regarding Informal Collaboration
+We do this:
 
-Our course places a very high value on civic responsibility, which includes helping others learn. In this course, we strongly encourage you to give help (or ask others for help) in using various toolkits, algorithms, libraries, or other facilities. Please note the following expectations:
+* Partially, to understand firsthand the new things we can do and make with these systems;
+* Partially, because it is incumbent upon us to understand how these systems are changing the nature of creative coding, software development, and digital culture; and
+* Partially, to see whether it is possible to make something with them that feels like it is *ours*, and whether it is possible to find some joy in doing so.
 
-* **Giving and receiving help is encouraged**. Students who receive help from someone else are obliged to acknowledge that person in their project report, clarifying the nature of the help that was received.
-* **We are all teachers**. Students with advanced skills are expected to help others, yet refrain from doing another’s work for them. You can usually tell when you’re about to cross the line: Ask yourself whether you are teaching someone to fish, or merely giving them the fish.
-* **Give credit**. When in doubt: *give credit* to the people who have helped you.
+It may no longer be practical or important to ask "who typed this code?" Instead, I am interested in questions like: 
 
-### Policies Regarding Formal Collaboration
+* Did you follow the rules of the assignment? 
+* Were you honest about how the work was made? 
+* Did you engage with the intellectual activity the assignment was designed to address?
+* Can you take responsibility for what you submitted?
 
-Most of the assignments in this course are intended to be executed by individuals. That said, I am in favor of students collaborating occasionally if such collaborations arise organically, and there may even be a few instances where I specifically encourage collaborations. Please note the following expectations:
 
-* **Notify the Professor**. It’s helpful for me to know who is working with whom. Students who wish to collaborate on a project should jointly inform the professor as early as possible.
-* **No third wheels**. Unless permission is explicitly granted by the Professor, collaborations in this course are restricted to *pairs* of students. 
-* **Describe who did what**. Written reports for collaborative projects should describe how your effort was distributed.
-* **Only collaborators from this class**. Your project collaborator, if you have one, must be in this semester's cohort of 60-212 students. You may not collaborate with people from outside the course (e.g. your housemate).
-* **Avoid co-dependency**. I'm glad you have a bestie, but you may not collaborate with the same person (i.e. submit an assignment jointly) on more than two projects.
+### Take Ownership of ALL Your Work
 
-### Policies and Suggestions Regarding Generative AI
+**AI assistance does not transfer responsibility.** You are fully responsible for everything you submit in this course, regardless of whether you wrote it yourself, adapted it from another source, developed it collaboratively, or generated it with an AI system.
 
-<!--
-This semester we will -- intentionally, critically, and with care -- make use of LLM-based coding agents:
+If your coding agent generates something **mediocre, broken, plagiaristic, or offensive**, and you choose to submit it, then it is *your* mediocre, broken, plagiaristic, or offensive submission.
 
-Partially, to understand firsthand the new things we can do and make with them; and
-Partially, to see if it is possible for us to make something with them that feels like it is ours, and to see if it is possible for us to find some joy in doing so.
--->
+You don't necessarily need to understand every line of code an agent produces. Indeed, part of what we will investigate this semester is what it means to work productively with systems capable of doing things that exceed our own technical knowledge. But you should understand your project well enough to use it, test it, evaluate it, modify it, discuss it, and stand behind it.
 
-In this class, you are permitted and encouraged to explore the affordances of generative AI as an instrument for art-making.
 
-With only a few exceptions (I'll be clear), you are *affirmatively encouraged* to use generative AI systems (such as ChatGPT, Claude, or CoPilot) to assist you with your programming projects. Indeed: it is incumbent upon us to explore how these systems are changing the nature of creative coding and software development. In using AI systems in your classwork, please keep the following in mind:
+### Acknowledge Your Use
 
-* **Use your own words when requested**. You will be asked to produce a handful of extremely brief writing assignments (such as providing anonymous critical feedback to your peers, or narrating how you made something, or writing [*Looking Outwards*](https://github.com/golanlevin/lectures/blob/master/syllabi/looking-outwards.md) reports) where your own thoughts, opinions, and voice are prized. These will not be difficult writing assignments. Using AI tools to speak for you represents a bad-faith posture.
-* **Take ownership of ALL your work**, including activities supported by AI. The more you develop projects through your own thinking and labor, the easier it is to stand by the work you produce. You are fully responsible for all of the material you produce in this class, even if some of it was generated with the help of AI. Be prepared to stand behind everything you develop.
-* **Acknowledge your use.** Carnegie Mellon University’s Academic Integrity Policy prohibits use of unauthorized assistance to complete coursework, but allows instructors to define what is "authorized" versus "unauthorized". So here it is: in this course, if you use an LLM or generative AI system to assist you in the creation of a project, *you are required to say so* — in exactly the same way that you would cite another author, acknowledge using some code you found online, or acknowledge receiving help from another student. In your project write-up and/or in your code, please state which system you used, and how you used it. Your honesty in this matter is of the utmost importance as we all learn to understand this new landscape. 
-* **There's no short-cut to skill.** The person who benefits most from engaging with studio work and academic projects is you. There are many instances where you may be able to use AI to assist with or even take over tasks. However, you may miss out on important learning opportunities if you don’t engage with the intellectual activities that the project entails. 
-* **Beware the loss of your voice.** This is an art course that seeks to cultivate your unique creative voice. But generative AI systems are designed to regurgitate a digested version of stuff they've seen before, a brownish-gray paste made from human knowledge. The results they generate are inherently average. Slop may be perfectly adequate to solve a technical problem in which there is a well-defined correct answer, but it is likely unfit for a creative project in which the goal is for you to express a distinctive perspective. I may hope that you make something *beautiful*; I may hope that you make something *interesting*; but most importantly of all, my assignments in this course challenge you to make something *yours*.
-* **Beware the loss of your time.**  You are advised to check claims, verify evidence, and evaluate any sources that appear in AI output. When AI programs lack information, their operations will select less relevant materials or even make up information to complete their responses. Although the results might appear authoritative or unique, the operations behind AI output can produce inaccurate information, over-fit resemblances to pre-existing work, or hard-to-find bugs. It may sometimes be easier just to program the damn thing yourself, than to spend your time coping with an AI's errors, hallucinations, and lack of originality.
-* **Beware the loss of serendipity.** Bob Ross famously quipped, "We don't make mistakes — we just have happy accidents." Although it may be expedient to have a system write your code for you, you may miss out on the chance to become intimately familiar with the grain of your medium, and to have accidents that suggest new possibilities and ideas.
-* **Be careful with your private information.** Please be aware that many AI companies ingest and integrate user information; do not enter confidential information as part of any prompt. 
+Carnegie Mellon University's Academic Integrity Policy prohibits the use of *unauthorized* assistance to complete coursework, while allowing instructors to establish what forms of assistance are authorized for their courses and assignments.
 
-### Summary of CMU Academic Integrity Policies
-Carnegie Mellon University prohibits academic dishonesty. This includes plagiarism, and may consist of: submitting the work of someone else as your own; failing to cite assistance you received; or the failure to properly cite materials or ideas from other sources. **Nearly all of these problems can be easily avoided if you’re clear and generous in giving credit where credit is due.** 
+So here it is: **unless an assignment specifically says otherwise, generative AI is authorized in this course. But if you use it, you are required to say so.**
 
-CMU's [University Policy on Cheating and Plagiarism](https://www.cmu.edu/policies/student-and-student-life/academic-integrity.html) articulates the possible penalties associated with plagiarism and academic dishonesty. These may include, but are not limited to, zero credit for the specific plagiarized assignment, to failure in the class. If you have any questions about this policy as it relates to work you are doing in the course, please feel free to contact me.
+In your project write-up and/or code, identify which AI system or coding agent you used and briefly describe how you used it. You do not need to provide a detailed transcript of every prompt, but I want your honest account of the role the system played in making the work.
+
+Your honesty in this matter is of the utmost importance as we all learn to understand this new landscape.
+
+
+### Use Your Own Voice When Requested
+
+Some assignments will specifically ask you to write **"in your own voice"**: for example, reflecting briefly on something you made, explaining a decision, describing your experience, or providing critical feedback to your peers.
+
+These are not difficult writing assignments, and polished prose is generally not the point. When I ask for your own thoughts, observations, opinions, or voice, using an AI system to speak for you is a small but real betrayal of yourself: you are outsourcing the one contribution to the class that only you can make. I would much rather read two awkward sentences that actually contain *your observation* than a polished paragraph generated by a machine.
+
+
+### Pay Attention to What You Delegate
+
+The person who benefits most from engaging with studio work and academic projects is you. An AI agent can assist with, or simply take over, many of the tasks involved in making a project. Sometimes that's exactly what I want you to explore. Other times, **outsourcing the task also outsources the learning.**
+
+**Pay attention to what you are delegating.** It can be useful to distinguish between *plumbing* and *expression*.
+
+By **plumbing**, I mean technical infrastructure that is necessary for a project to function but incidental to what you are trying to express: a file-loader, an FFT implementation, a routine for parsing some data, a tedious interface to an API. Delegating this kind of work to an AI coding agent may be entirely sensible. There is often little educational or creative value in reinventing the plumbing yourself.
+
+But be much more cautious about delegating decisions that contribute to the **voice, perspective, behavior, or character** of your work. 
+
+Unfortunately, in the media arts, plumbing and expression are often coextensive: the particular way something moves, responds, glitches, interpolates, selects, sorts, draws, or fails may *be* the artwork. Seemingly small implementation decisions accumulate into style.
+
+There is therefore no clean boundary between plumbing and expression. Worse, delegation has a tendency to **creep**. An agent solves one incidental technical problem, then another; soon it is proposing the architecture, determining the aesthetics, and filling in decisions you never consciously decided to delegate. The convenience is seductive.
+
+**Delegate plumbing strategically; don't accidentally delegate your point of view.** Periodically ask yourself: *Which parts of this project are actually mine? Which decisions am I still making?*
+
+
+### Beware the Loss of Your Voice
+
+This is an art course that seeks to cultivate your unique creative voice. Generative AI systems are extraordinarily capable, but they are also very good at producing a digested version of things they've seen before: a **brownish-gray paste made from human knowledge**.
+
+Slop may be perfectly adequate for solving a technical problem in which there is a well-defined correct answer. It is much less useful when the purpose of a creative project is to express a distinctive perspective.
+
+I may hope that you make something *beautiful*. I may hope that you make something *interesting*. But most importantly of all, my assignments exist to challenge you to make something ***yours***.
+
+
+### Beware the Loss of Your Time
+
+AI systems can produce inaccurate information, inappropriate solutions, hard-to-find bugs, imaginary APIs, unnecessary complexity, and confident explanations of things that simply aren't true.
+
+Check claims, test code, verify sources. Look at what the agent actually made.
+
+Sometimes an AI agent will save you hours, but sometimes **it may be easier just to program the damn thing yourself** than to spend your time coping with an AI's errors, hallucinations, and poor decisions. Learning to recognize which situation you're in is part of learning to use these tools well.
+
+
+
+### Beware the Loss of Serendipity
+
+Bob Ross famously quipped, *"We don't make mistakes—we just have happy accidents."*
+
+Although it may be expedient to have a system write your code for you, there is value in becoming intimately familiar with the grain of your medium. Programming something yourself exposes you to errors, misunderstandings, unexpected behaviors, and strange intermediate states. Sometimes those accidents suggest possibilities that neither you nor an AI agent would have deliberately proposed.
+
+Efficiency is useful. **It is not always the point.**
+
+
+
+### Protect Private and Sensitive Information
+
+Do not provide confidential, private, sensitive, or personally identifying information to third-party AI systems unless you understand and accept how that information will be handled. This includes other people's information as well as your own.
+
+
+
+## Informal Collaboration
+
+Our course places a high value on civic responsibility, which includes helping other people learn. **Giving and receiving help is encouraged.**
+
+Ask your classmates, friends, Teaching Assistant, and other knowledgeable people for help. Explain things to one another, debug together, recommend libraries and techniques. Point someone toward useful documentation. Show someone how you solved a technical problem.
+
+A few expectations apply:
+
+* **We are all teachers.** Students with advanced skills are expected to help others when they can.
+* **Don't pretend you did it alone.** If someone substantially helped you solve a problem or develop a project, acknowledge them and briefly describe the help you received.
+* **When in doubt, give credit.**
+
+
+## Formal Collaboration
+
+Most assignments in this course are intended to be executed individually. Some assignments may permit or explicitly require collaboration.
+
+If you formally collaborate on a project:
+
+* **Notify me.** Let me know who is working together.
+* **Describe who did what.** Your project documentation should briefly explain how the work was distributed among collaborators.
+* **No third wheels.** Unless I explicitly say otherwise, formal collaborations are restricted to pairs of students.
+* **Collaborate within the class.** Formal project collaborators must be members of this semester's 60-212 cohort. Getting informal help from someone outside the course is fine; submitting a project jointly with them is not.
+* **Avoid co-dependency.** I'm glad you have a bestie, but don't automatically work with the same person every time. You may submit jointly with the same collaborator on no more than two projects.
+
+
+## Borrowed Code, Libraries, Media, and Ideas
+
+Creative coding is built on other people's work. In this course, reuse is not inherently plagiarism; **misrepresentation is the problem.**
+
+* **Use libraries.** General-purpose, reusable libraries that solve technical problems are strongly encouraged. The people who developed these components worked hard, often for no pay; acknowledge their contributions by naming the library and linking to its source when appropriate.
+* **Use tutorials and examples.** Learning by modifying examples is a normal part of programming. Cite the tutorial or example when it materially contributed to your project.
+* **Be careful when borrowing from artworks.** Sometimes an artist publishes the complete source code for an artwork, or another student somewhere has posted code responding to an assignment remarkably similar to yours. That is very different from using a general-purpose library. Forking an *artwork* from someone's OpenProcessing page and merely changing its colors is disgracefully lazy; doing so without thorough and proper citation is plagiarism.
+* **Acknowledge inspiration.** Citation isn't only for code. If another artwork, artist, paper, tutorial, image, movie, game, or idea materially shaped what you made, say so.
+
+Your creative work didn't arise out of nowhere: it has a lineage. Make it visible by acknowledging the people, tools, ideas, and sources that helped shape what you made. Doing so will make it more interesting, not less.
+
+
+## Summary of CMU Academic Integrity Policies
+
+Carnegie Mellon University prohibits academic dishonesty. This includes plagiarism and may include submitting someone else's work as your own, using unauthorized assistance, failing to acknowledge assistance you received, or failing to properly cite materials or ideas from other sources.
+
+**Nearly all of the Academic Integrity issues relevant to this course can be avoided by following two rules:**
+
+1. **Follow the specific rules of the assignment.**
+2. **Be clear and generous in giving credit where credit is due.**
+
+Violations of CMU's Academic Integrity Policy may carry serious consequences, ranging from loss of credit on an assignment to failure in the course and other University sanctions.
+
+If you are ever uncertain whether a particular form of assistance, borrowing, collaboration, or AI use is permitted, **ask me before you submit the work.**
+
 
 ---
 
@@ -457,9 +563,7 @@ CMU's [University Policy on Cheating and Plagiarism](https://www.cmu.edu/policie
 
 ### Inclusivity Statement
 
-It is my intent that students from all diverse backgrounds and perspectives be well served by this course, and that the diversity that students bring to this class be viewed as a resource, strength and benefit. I will gladly honor your request to address you by the pronouns and name you specify.
-
-I commit to make individual arrangements to address disabilities or religious needs (e.g. religious events in conflict with class meetings). Please advise me of these requirements early in the semester so that I may make appropriate accommodations.
+I want students with different backgrounds, perspectives, circumstances, and access needs to be able to participate fully in this course. If you have an approved disability accommodation, please share it with me early so that we can discuss how it applies to the particular activities of this class. If religious observances or other university-recognized circumstances conflict with course activities, please let me know as early as practical.
 
 ### Content Considerations
 
@@ -468,30 +572,26 @@ In order to best engage as critical makers and thinkers, we will approach a dive
 
 # Code of Conduct
 
-I am committed to providing an educational experience that is free of harassment and intimidation for everyone in this course. I will not tolerate any form of harassment and/or discriminatory, oppressive, suppressive, or violent behavior. If someone engages in harassing behavior, I may take any action deemed appropriate in the Carnegie Mellon University Policy against [Sexual Harassment and Sexual Assault](https://www.cmu.edu/policies/administrative-and-governance/sexual-harassment-and-sexual-assault.html), [Discriminatory Harassment](https://www.cmu.edu/student-affairs/theword/community-policies/discriminatory-harassment.html), or other [community policies](https://www.cmu.edu/student-affairs/theword/community-policies/index.html). If you experience or witness harassment, threatening behavior, suppressive behavior, or have any other concerns, I encourage you to speak up, say something, and/or let us know immediately.
+I am committed to providing an educational experience that is free of harassment and intimidation for everyone in this course. I will not tolerate any form of harassment and/or discriminatory, oppressive, suppressive, or violent behavior. If someone engages in these, I may take any action deemed appropriate in the Carnegie Mellon University Policy against [Sexual Harassment and Sexual Assault](https://www.cmu.edu/policies/administrative-and-governance/sexual-harassment-and-sexual-assault.html), [Discriminatory Harassment](https://www.cmu.edu/student-affairs/theword/community-policies/discriminatory-harassment.html), or other [community policies](https://www.cmu.edu/student-affairs/theword/community-policies/index.html). If you experience or witness harassment, threatening behavior, suppressive behavior, or have any other concerns, I encourage you to speak up, say something, and/or let us know immediately.
 
-For incidents that may not violate any formal policies or require disciplinary action, but which still cause harm and necessitate a thoughtful response, Carnegie Mellon has also developed a [Campus Climate and Bias Reporting Protocol](https://www.cmu.edu/title-ix/how-to-report-+-options-for-resolution/ccbrp/index.html). This a non-disciplinary mechanism for reporting and informally resolving incidents of alleged bias; it focuses on education, restoration, and strengthening and upholding our core values as a university community. If you need guidance or are uncertain as to what your options are, please feel free to contact CFA's Office for Diversity, Equity, and Inclusion prior to submitting a CCBRP report.
-
-> *Carnegie Mellon University is firmly committed to intellectual honesty, freedom of inquiry and expression, and respect for the dignity of each individual. Acts of discriminatory harassment or intimidation by a student directed toward any member of the community are inconsistent with this commitment and will not be tolerated. Consistent with the University’s Statement of Assurance, prohibited acts include harassment and intimidation motivated by discriminatory intent based on race, color, national origin, sex, handicap or disability, age, sexual orientation, gender identity, religion, creed, ancestry, belief, veteran status, or genetic information. Any such harassment or intimidation of or by a student should be referred to the Dean of Student Affairs for resolution.*
+For incidents that may not violate any formal policies or require disciplinary action, but which still cause harm and necessitate a thoughtful response, Carnegie Mellon has also developed a [Campus Climate and Bias Reporting Protocol](https://www.cmu.edu/title-ix/how-to-report-+-options-for-resolution/ccbrp/index.html) (CCBRP). This a non-disciplinary mechanism for reporting and informally resolving incidents of alleged bias; it focuses on education, restoration, and strengthening and upholding our core values as a university community. If you need guidance or are uncertain as to what your options are, please feel free to contact CFA's Office for Diversity, Equity, and Inclusion prior to submitting a CCBRP report.
 
 
 ---
 
 # Classroom Hygiene
 
-As we head back to campus, keep in mind that people are returning from many different locations — potentially bringing with them some germs you haven't encountered before. In light of this, the following policies and suggestions govern our in-person meetings: 
-
-* We will follow current CMU public health guidelines; at minimum, **masks are welcome, respected, and even encouraged**. However: It's important that we be able to see and hear each other well. In the interest of effective interpersonal communication, *feel welcome to lower your mask (if you wish) if you are actively addressing the entire class.*
-* **Drinks** in containers with lids are permitted. 
+* **Masks** are welcome and respected.
+* **Drinks** in containers with lids are permitted.
 * **Messy, greasy, and/or pungent meals** in our classroom are strongly discouraged.
-* **Keep food and open drinks away from computer equipment!**
-
+* **Keep food and open drinks away from computer equipment.**
+* If you are sick and potentially contagious, please follow the Health-Related Absences policy above and stay home.
 
 ---
 
 # Take Care of Yourself
 
-**Please take care of yourself**. I encourage you to do your best to maintain a healthy lifestyle this semester by eating well, exercising, avoiding drugs and alcohol in excess, getting enough sleep, and taking some time to relax. This will help you achieve your goals and cope with stress. If you or anyone you know experiences any academic stress, difficult life events, or feelings like anxiety or depression, it is critically important to seek support. Help is available, day or night, at:
+**Please take care of yourself.** College can sometimes become difficult for reasons that extend well beyond a particular course. If academic stress, difficult life circumstances, anxiety, depression, or other problems are interfering with your ability to function, please seek support rather than trying to handle everything alone.
 
 * **[Counseling and Psychological Services](http://www.cmu.edu/counseling/) (CaPS): +1-412-268-2922**
 * **[Resolve Crisis Network](https://www.upmc.com/services/behavioral-health/resolve-crisis-services) (UPMC): +1-888-796-8226**
