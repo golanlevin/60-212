@@ -12,7 +12,7 @@
 
 ## Contents
 
-*Intermediate Studio: Creative Coding* (60-212) is a practical introduction to the use of programming and computation within the context of the arts. In this intermediate level course, students develop or deepen the skills and confidence to produce interactive, generative, and computational artworks; discuss their work in relation to current and historic praxes of computer art; and engage new technologies critically.
+*Intermediate Studio: Creative Coding* (60-212) is a practical introduction to the use of programming and computation within the context of the arts. In this intermediate-level course, students develop or deepen the skills and confidence to produce interactive, generative, and computational artworks; discuss their work in relation to current and historical practices of computer art; and engage new technologies critically.
 
 This is a “studio art course in computer science”, in which our objective is art and design, but our medium is student-written software. Intended as a second course for arts students who have already had one semester of elementary programming (in any language), this class develops craft skills in arts-engineering using a variety of creative coding toolkits, especially including [p5.js](https://p5js.org/) (JavaScript) and [ComfyUI](https://www.runcomfy.com/). Through rigorous programming exercises in these environments, students will develop mastery over the basic vocabulary of constructs that govern static, dynamic, and interactive form, with the aim of applying these skills to self-directed inquiries in interactive art, computational design, and other creative explorations of transmediality, connectivity, generativity, and immersivity.
 
@@ -67,7 +67,9 @@ Late submission should not be a loophole for evading the scrutiny of critique. E
 * 🤕 Ghost 2 sessions: lose one letter from your semester grade.
 * 💀 Ghost 3+ sessions: you have not met the minimum requirements for passing the course.
 
-For the purposes of this course, **"ghosting"** refers specifically to a **no-call, no-show** attendance event. If you need to miss class—which can happen, within reason—you are expected to communicate with me about your absence, generally no later than 30 minutes before class, in order for it to be considered an **excused absence**. Emergencies that make advance communication impossible will, of course, be handled appropriately. This flexibility should not be abused; additional policies take effect if you incur more than 3 excused absences. <!-- AS -->
+For the purposes of this course, **"ghosting"** refers specifically to a **no-call, no-show** attendance event. If you need to miss class—which can happen, within reason—you are expected to communicate with me about your absence, generally no later than 30 minutes before class, in order for it to be considered an **excused absence**. Emergencies that make advance communication impossible will, of course, be handled appropriately. 
+
+An excused absence is still an absence; if you accumulate four full-session absences, we will meet to discuss your attendance and make a plan. <!-- AS -->
 
 
 ---
@@ -76,7 +78,7 @@ For the purposes of this course, **"ghosting"** refers specifically to a **no-ca
 
 ### Units and Schedule
 
-This fall, there are 10 primary assignment sets, with the following due dates and schedule below: 
+This fall, there are 10 primary assignment sets, with the following schedule: 
 
 * `Wed 08/26` — #1 Due (Form; Points and Lines) 
 * `Wed 09/02` — #2 Due (Movement, Illusion, Loops)
@@ -99,7 +101,7 @@ This fall, there are 10 primary assignment sets, with the following due dates an
 * 60-212 is a *doubly-intermediate* course: intended for students who have already had at least one semester of arts foundations, and who have *also* already had at least one semester of introductory computer programming (in any language). To qualify for enrollment in this course: 
 	* Students must be familiar and comfortable with computer programming fundamentals, such as iteration, conditional testing, functional abstraction, common memory structures (e.g. arrays), and object-oriented programming, as taught in a course like AP Computer Science, or (at CMU) 15-104, 15-110, or 15-112.
 	* Students from outside CFA should be able to demonstrate that they have a creative practice, usually by presenting a portfolio of creative work. 
-* General computing skills (such as browser use, file management, word processing, and the Linux command line) are essential. Students are also expected to have some familiarity with software workflows for editing and distributing images and video.
+* General computing skills (such as browser use, file management, word processing, and command-line interfaces) are essential. Students are also expected to have some familiarity with software workflows for editing and distributing images and video.
 * This course is taught primarily with JavaScript. Students who are only familiar with Python will benefit from doing some additional preparation, such as viewing p5.js videos on the [Coding Train YouTube Channel](https://www.youtube.com/@TheCodingTrain).
 
 ### Learning Objectives and Course Goals
@@ -107,7 +109,7 @@ This fall, there are 10 primary assignment sets, with the following due dates an
 At the conclusion of this course, students will be able to:
 
 * Demonstrate proficiency in using computer programming to make artworks and creative software.
-* Demonstrate familiarity with a repertoire of artists, designers, works and activities around creative coding, generative form, interactive art, and computational design.
+* Demonstrate familiarity with a repertoire of artists, designers, works and practices around creative coding, generative form, interactive art, and computational design.
 * Understand the role of computation in artworks and other creative software that explore concepts of transmediality, generativity, connectivity, and immersivity.
 * Understand how to document and present artworks created using code.
 
@@ -126,21 +128,21 @@ This course is relevant to students who are interested in:
 
 This course uses [*specifications grading*](https://academictech.uchicago.edu/2025/07/28/specifications-grading-a-powerful-way-to-reflect-what-students-learn/). Work is evaluated against a set of explicit, observable criteria, and these criteria are designed to be relatively unambiguous and quickly verifiable.
 
-* **10 Sets of Assignments**. There will be ten sets of Assignments this semester, assigned at approximately weekly intervals. Each set will have several sub-components, usually including multiple warmup exercises and a main project, that may have different intermediate deadlines.
+* **10 Sets of Assignments**. There will be ten sets of assignments this semester, assigned at approximately weekly intervals. Each set will have several sub-components, usually including multiple warmup exercises and a main project, that may have different intermediate deadlines.
 * **Complete the checklists**. For each set of deliverables, an objective checklist of subtasks will be provided, with clearly defined assessment criteria. To ensure transparency, fairness and consistency, grades in this course are straightforwardly calculated according to students' fulfillment of these checklists and criteria. Many items on these checklists are intentionally easy to fulfill; pay attention to them.
 * **Qualitative evaluations are decoupled from grades**. In addition to grades that reflect the fulfillment of straightforward checklists, students will also receive qualitative and subjective feedback from a variety of people, including the professor, the teaching assistant, other CMU faculty, outside professionals, and/or your peers. This critical feedback on the content and quality of your projects does not factor into your grade. Sometimes the source of this feedback may be anonymized (e.g. from peers).
 
 This semester, you can expect to receive the following feedback, at a minimum: 
 
 * You will receive a numeric grade for each component of each weekly set of deliverables, as well as a brief written evaluation about one or more of your weekly projects.
-* At Fall Break, you will receive a mid-semester grade, as well as a brief written evaluation about your overall performance.
+* You will receive a mid-semester grade, as well as a brief written evaluation about your overall performance, around the time of Fall Break.
 * At the end of the semester you will receive a final grade, and a written evaluation. 
 
 ### Extra Time Commitments
 
 *Are there extra time commitments required outside of the regularly scheduled course meeting times?*
 
-* I anticipate that students will spend approximately 6-10 hours per week outside of class working on their projects. For the period from 2023-2025, students reported spending an average of 12.3 hours per week in this course.
+* I anticipate that students will spend approximately 6-8 hours per week outside of class working on their projects. For the period from 2023-2025, students reported spending an average of 12.3 hours per week (including 6 in-class hours) in this course.
 * There will be a small number of special events outside of class meeting times (such as public artist lectures), for which attendance is strongly recommended, but not strictly required.
 * Students may also wish to attend optional and occasional group work sessions.
 
@@ -155,11 +157,11 @@ This semester, you can expect to receive the following feedback, at a minimum:
 
 ### Required Course Materials
 
-* **Laptop**. Students should have access to a personal laptop with a webcam and a reliable internet connection. Recent, well-updated installations of Mac OSX, Windows and Linux are all acceptable operating systems. However, it is possible that example projects may only be provided for Mac OSX.
+* **Laptop**. Students should have access to a personal laptop with a webcam and a reliable internet connection. Recent installations of macOS, Windows and Linux are all acceptable operating systems. However, it is possible that example projects may only be provided for macOS.
 * **Programming Environments**. The primary programming environment used for example projects and sample code will be [p5.js](https://p5js.org/) (JavaScript, optionally programmed within [Visual Studio Code](https://code.visualstudio.com/) with the [p5.vscode](https://marketplace.visualstudio.com/items?itemName=samplavigne.p5-vscode) extension). However, we may also encounter [ComfyUI](https://www.runcomfy.com/), and potentially [TouchDesigner](https://derivative.ca/), [Processing](https://processing.org/) (Java), and/or Python.
 * **Sketchbook**. It is extremely wise to plan your projects on paper before writing any code, and some assignments will require you to post images of your project sketches. In support of this, you are strongly advised to maintain a sketchbook for this course, ideally on paper.
 * **Smartphone Camera**. Students should have access to a smartphone with a camera to document certain projects.
-* **LLM Account**. You will need to have an account for an AI coding assistant. As a CMU student, you receive free access to [Google Gemini](https://gemini.google.com/) (chat) and [Microsoft Copilot Chat](https://www.cmu.edu/computing/services/ai/tools/copilot/index.html). That said, I strongly recommend that you have a CLI (command-line interface) agent or other LLM tool that can help you manage larger projects, such as OpenAI [Codex via ChatGPT Plus](https://openai.com/chatgpt/pricing/), Anthropic [Claude.ai Pro](https://www.anthropic.com/pricing), Google [AI Studio](https://aistudio.google.com/apps), or Google [Antigravity CLI](https://antigravity.google/).  
+* **LLM / Coding Agent Account**. You will need to have an account for an AI coding assistant. As a CMU student, you receive free access to [Google Gemini](https://gemini.google.com/) (chat) and [Microsoft Copilot Chat](https://www.cmu.edu/computing/services/ai/tools/copilot/index.html). That said, I strongly recommend that you have a CLI (command-line interface) agent or other LLM tool that can help you manage larger projects, such as OpenAI [Codex via ChatGPT Plus](https://openai.com/chatgpt/pricing/), Anthropic [Claude.ai Pro](https://www.anthropic.com/pricing), Google [AI Studio](https://aistudio.google.com/apps), or Google [Antigravity CLI](https://antigravity.google/).  
 
 
 ### Communication Tools
@@ -167,7 +169,7 @@ This semester, you can expect to receive the following feedback, at a minimum:
 This course uses the following software systems to share information:
 
 * **Discord** — our primary communication channel. Submit your work and ask for help.
-* **Email**. The Professor will broadcast summary emails once per week. Please read them.
+* **Email**. The professor will broadcast summary emails once per week. Please read them.
 * **GitHub**, where lectures, assignments and resources will be posted. 
 * **Zoom**, for remote meetings, *in the unlikely event that circumstances require it.*
 
@@ -250,7 +252,7 @@ This course is intended to be experienced **in person, in the room, and in the m
 
 In this course, your work is considered through three different lenses, which are decoupled to the greatest extent possible:
 
-* **Grades** reflect your fulfillment of explicit, objective course requirements.
+* **Grades** reflect your fulfillment of explicit, observable course requirements.
 * **Evaluations** reflect subjective judgments about the quality, interest, and significance of your creative work.
 * **Expectations of Professionalism** describe habits and conduct that will help you learn, contribute to our class community, and prosper as an artist and practitioner.
 
@@ -282,7 +284,7 @@ Your grades in 60-212 are primarily based on your self-evident **fulfillment** o
 
 **Citing your sources and crediting your helpmeets is extremely important. Err on the side of generosity.**
 
-If you fail to fulfill checklist requirements, points will be deducted accordingly. Because these requirements are objective and easy to verify, some checklist grading may be performed by our Teaching Assistant.
+If you fail to fulfill checklist requirements, points will be deducted accordingly. Because these requirements are objective and easy to verify, some checklist grading may be performed by our teaching assistant.
 
 
 ## Policies for Late Work
@@ -302,7 +304,7 @@ To receive critical feedback, your work must be available during the designated 
 
 **Evaluations** are subjective assessments of your creative work. They are *opinions*.
 
-Evaluations may come from me, our Teaching Assistant, external guest critics, your peers, or even your own self-evaluation. They articulate someone's personal and professional judgment about whether your creative effort is *good*, *interesting*, *noteworthy*, surprising, skillful, provocative, underdeveloped, etc. **Evaluations do not figure into your grade.**
+Evaluations may come from me, our teaching assistant, external guest critics, your peers, or even your own self-evaluation. They articulate someone's personal and professional judgment about whether your creative effort is *good*, *interesting*, *noteworthy*, surprising, skillful, provocative, underdeveloped, etc. **Evaluations do not figure into your grade.**
 
 The purpose of our open-ended projects is to provide well-circumscribed opportunities for you to make creative work. Generally, the prompts will invite you to explore a specific topic or set of tools, but unless stated otherwise, there is no correct solution and no specific requirement for how you should implement your idea. My assignments will often ask not only for a creative solution, but also for some creativity in how you define and approach the problem.
 
@@ -339,7 +341,7 @@ This schema may also use the 0/1/2 rating, as above.
 
 ### Evaluation Schema 3: Studio Habits of Mind (Lois Hetland et al.)
 
-At some point, you may be asked to perform a self-evaluation of a project using the four-point "Studio Habits of Mind" rubric by Lois Hetland et al.:
+At some point, you may be asked to perform a self-evaluation of a project using the four-point "Studio Habits of Mind" rubric by Lois Hetland et al. (via Zach Lieberman):
 
 ![studio habits of mind](img/studio_habits_of_mind.png)
 
@@ -410,7 +412,7 @@ Using an AI agent on an assignment where AI is explicitly prohibited is no diffe
 
 ## Policies Regarding AI Coding Agents
 
-In this class, you are generally permitted—and often, *affirmatively encouraged*—to explore generative AI as an instrument for programming and art-making.
+In this class, you are generally permitted—and often *affirmatively encouraged*—to explore generative AI as an instrument for programming and art-making.
 
 We do this:
 
@@ -509,7 +511,7 @@ Do not provide confidential, private, sensitive, or personally identifying infor
 
 Our course places a high value on civic responsibility, which includes helping other people learn. **Giving and receiving help is encouraged.**
 
-Ask your classmates, friends, Teaching Assistant, and other knowledgeable people for help. Explain things to one another, debug together, recommend libraries and techniques. Point someone toward useful documentation. Show someone how you solved a technical problem.
+Ask your classmates, friends, teaching assistant, and other knowledgeable people for help. Explain things to one another, debug together, recommend libraries and techniques. Point someone toward useful documentation. Show someone how you solved a technical problem.
 
 A few expectations apply:
 
@@ -547,7 +549,7 @@ Your creative work didn't arise out of nowhere: it has a lineage. Make it visibl
 
 Carnegie Mellon University prohibits academic dishonesty. This includes plagiarism and may include submitting someone else's work as your own, using unauthorized assistance, failing to acknowledge assistance you received, or failing to properly cite materials or ideas from other sources.
 
-**Nearly all of the Academic Integrity issues relevant to this course can be avoided by following two rules:**
+**Nearly all of the academic integrity issues relevant to this course can be avoided by following two rules:**
 
 1. **Follow the specific rules of the assignment.**
 2. **Be clear and generous in giving credit where credit is due.**
@@ -572,9 +574,9 @@ In order to best engage as critical makers and thinkers, we will approach a dive
 
 # Code of Conduct
 
-I am committed to providing an educational experience that is free of harassment and intimidation for everyone in this course. I will not tolerate any form of harassment and/or discriminatory, oppressive, suppressive, or violent behavior. If someone engages in these, I may take any action deemed appropriate in the Carnegie Mellon University Policy against [Sexual Harassment and Sexual Assault](https://www.cmu.edu/policies/administrative-and-governance/sexual-harassment-and-sexual-assault.html), [Discriminatory Harassment](https://www.cmu.edu/student-affairs/theword/community-policies/discriminatory-harassment.html), or other [community policies](https://www.cmu.edu/student-affairs/theword/community-policies/index.html). If you experience or witness harassment, threatening behavior, suppressive behavior, or have any other concerns, I encourage you to speak up, say something, and/or let us know immediately.
+I am committed to providing an educational experience that is free of harassment and intimidation for everyone in this course. I will not tolerate any form of harassment and/or discriminatory, oppressive, suppressive, or violent behavior. If someone engages in such behavior, I may take any action deemed appropriate in the Carnegie Mellon University Policy against [Sexual Harassment and Sexual Assault](https://www.cmu.edu/policies/administrative-and-governance/sexual-harassment-and-sexual-assault.html), [Discriminatory Harassment](https://www.cmu.edu/student-affairs/theword/community-policies/discriminatory-harassment.html), or other [community policies](https://www.cmu.edu/student-affairs/theword/community-policies/index.html). If you experience or witness harassment, threatening behavior, suppressive behavior, or have any other concerns, I encourage you to speak up, say something, and/or let us know immediately.
 
-For incidents that may not violate any formal policies or require disciplinary action, but which still cause harm and necessitate a thoughtful response, Carnegie Mellon has also developed a [Campus Climate and Bias Reporting Protocol](https://www.cmu.edu/title-ix/how-to-report-+-options-for-resolution/ccbrp/index.html) (CCBRP). This a non-disciplinary mechanism for reporting and informally resolving incidents of alleged bias; it focuses on education, restoration, and strengthening and upholding our core values as a university community. If you need guidance or are uncertain as to what your options are, please feel free to contact CFA's Office for Diversity, Equity, and Inclusion prior to submitting a CCBRP report.
+For incidents that may not violate any formal policies or require disciplinary action, but which still cause harm and necessitate a thoughtful response, Carnegie Mellon has also developed a [Campus Climate and Bias Reporting Protocol](https://www.cmu.edu/title-ix/how-to-report-+-options-for-resolution/ccbrp/index.html) (CCBRP). This is a non-disciplinary mechanism for reporting and informally resolving incidents of alleged bias; it focuses on education, restoration, and upholding our core values as a university community. If you need guidance or are uncertain as to what your options are, please feel free to contact CFA's Office for Diversity, Equity, and Inclusion prior to submitting a CCBRP report.
 
 
 ---
