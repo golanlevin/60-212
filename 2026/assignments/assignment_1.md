@@ -33,7 +33,7 @@
 * (*4 minutes*) **Create** an ID on [Discord.com](https://discord.com/), if you don't already have one. **Join** our class Discord, using the invitation sent to you by email. **Browse** our server's channels so you know what's where.
 * (*5 minutes*) In the `#main-chatter` channel of our course Discord, **introduce** yourself in a sentence or two. Please share something about yourself — pets, favorite food, arcane superpowers, etc.
 * (*5 minutes*) **Create** an ID on [OpenProcessing.org](https://openprocessing.org) (if you don't already have one). **Join** our [OpenProcessing classroom](https://openprocessing.org/class/107236/#/), using the invitation sent to you by email, and **bookmark** it in your laptop's browser. Take a moment to **browse** some of the sketches that people have published at [https://openprocessing.org/discover](https://openprocessing.org/discover). *(Note: the quality varies widely.)* Run the programs, and be sure to **look** at their code (*command-shift-return* may help switch to the code view).
-* (*15 minutes*) **Review** the [**Syllabus**](https://github.com/golanlevin/60-212/blob/main/2026/syllabus/README.md) carefully. 
+* (*15 minutes*) **Review** our [**Syllabus**](../syllabus/README.md) carefully. 
 * (*10 minutes*) **Complete** the [**60-212 Welcome Form**](https://forms.gle/Dtg5fU9wtkG6q3Fm7).
 * (*5 minutes*) **Complete** the (anonymous) [**CMU Student Survey on AI**](https://forms.gle/7kZrFXS3yT3dVe3y5).
 
@@ -41,6 +41,8 @@
 ---
 
 ## 1.2. Share a Touchstone
+
+[![Helen Evans & Heiko Hansen, *Nuage Vert*](img/1/hehe_nuage_vert_2x.jpg)](https://vimeo.com/17350218)<br />*Helen Evans & Heiko Hansen, [Nuage Vert](https://vimeo.com/17350218) (2008)*
 
 (***15 minutes***) You are asked to share a "touchstone" — a computational project (made by someone else) that you admire, hold close to your heart, or find yourself thinking about often. The purpose of this exercise is to help us become familiar with your interests and tastes — and for you to be able to share something interesting with your peers. I also want to make sure that you're able to access and use the Discord.
 
@@ -74,35 +76,46 @@
 
 ## 1.4. Test Your Coding Agent: Zero-Shot Generation
 
+![zero-shot-face-codex.png](img/1/zero-shot-face-codex.png)
+
 (***10-30 minutes***) Make sure you have a working coding agent.
 
-***Note: Your creative effort is purposefully not requested for this task.***
+This semester we will -- intentionally, critically, and with care -- make use of LLM-based coding agents:
 
-This semester we will make use of LLM-based coding agents such as OpenAI *Codex* or *ChatGPT*, Anthropic *Claude*, or Google's *AI Studio* or *Antigravity*. The purpose of this task is simply infrastructure verification: to make sure that you have one of these tools installed — ideally as a **CLI** (command-line interface) — and that you are able to successfully demonstrate its use.
+* Partially, to understand firsthand the new things we can do and make with them; and 
+* Partially, to see if it is possible for us to make something with them that feels like it is *ours*, and to see if it is possible for us to find some joy in doing so. 
+
+<img src="img/1/vectorpark_on_ai.png" width=400>
+
+The primary purpose of this present task (1.4) is simply **infrastructure verification**: to make sure that you have access to a tool such as OpenAI *Codex* or *ChatGPT*, Anthropic *Claude*, or Google's *AI Studio* or *Antigravity* — ideally installed as a **CLI** (command-line interface) — and that you are able to successfully demonstrate its use. For this present task, your creative energy is, I'm sorry to say, not requested; save it for later.
 
 I am aware that Codex and Claude cost money. Fortunately, as a CMU student, you receive free access to Google's Gemini LLM through your university Google account. It can be accessed in your browser through these links:
 
 * [https://www.cmu.edu/computing/services/ai/tools/google-ai-tools/](https://www.cmu.edu/computing/services/ai/tools/google-ai-tools/)
 * Gemini.Google.com: [https://gemini.google.com/](https://gemini.google.com/)
-* Google AI Studio: [https://aistudio.google.com/apps](https://aistudio.google.com/apps) *(preferable, as it is able to create and manage multi-file projects)*
 
 Now: 
 
-* **Prompt** your preferred coding agent to "**[zero-shot](https://www.promptingguide.ai/techniques/zeroshot)** a face generator" using the following prompt:
+* **Prompt** your preferred coding agent to "**[zero-shot](https://www.promptingguide.ai/techniques/zeroshot)** a face generator" using the prompt below:
 
-> Use p5.js to make a simple face generator. Have the program generate a new face each time the user presses the spacebar. Have the program save a screenshot when the user presses the `s` key. 
+> Use p5.js to make a simple face generator. Have the program generate a new face each time the user presses the spacebar. Have the program save a screenshot when the user presses the `s` key.
 
-* **Run** the generated program to **test** it: for example, at [OpenProcessing.org](https://openprocessing.org/), or in the [p5.js editor](https://editor.p5js.org/). 
-* **Please don't** do any iterative refinement (as long as the project is working). This is not a creative assignment. I promise those are coming.
-* **Note** that the latest version of p5.js (v.2), which is quite new, has made some breaking changes to splines and curves. You might hit a small bug if your agent generated p5v1 curve commands in a p5v2 environment.
+*(If it helps, you can provide the agent with [this blank template](resources/simple-p5v2-project.zip) project.)*
+
+### 1.4 Task Checklist
+
+* **Run** the generated program to **test** it. You might run it locally, or paste the code into [OpenProcessing.org](https://openprocessing.org/) or the [p5.js editor](https://editor.p5js.org/). 
+* **Please don't** do any iterative refinement (as long as the project is working).
+* **Note** that the latest version of p5.js (v.2), which is quite new, has made some breaking changes to splines and curves. You might hit an easy-to-fix bug if your agent generated p5v1 curve commands in a p5v2 environment.
 * **Create** a post in the `#14-zero-shot` channel in our course Discord. 
 * **Tell** us which coding agent you used, and whether you used it at the command line or from within a browser.
-* **Observe** the results. In 1-2 sentences, in your own voice, **write** about one specific choice the coding agent made that reveals the agent's assumptions about what “a simple face generator” means.
+* **Observe** the results. In 1-2 sentences, in your own voice, **write** about one specific choice the coding agent made that reveals the agent's assumptions about what a “face generator” means.
 * **Embed** a screenshot of the agent's project in your Discord post. It might look something like the image below.
 
 <img src="img/1/random-face.png" width=400>
 
-*(FWIW, if you'd like to see some thoughtfully-executed, procedural faces in JavaScript, the artist @Mannay [released this project](https://x.com/mannay/status/2087522034351796728) last week. He achieved these designs by "placing features on a rough 3D head for proper positioning on face tilts/rotations".)*<br />![img/mannay_generated_faces.jpg](img/1/mannay_generated_faces.jpg)
+*(For what it's worth: if you'd like to see some thoughtfully-executed, procedurally-generated faces in JavaScript, the artist @Mannay [released this project](https://x.com/mannay/status/2087522034351796728) last week. He achieved these designs by "placing features on a rough 3D head for proper positioning on face tilts/rotations".)*<br />![img/mannay_generated_faces.jpg](img/1/mannay_generated_faces.jpg)
+
 
 ---
 
@@ -135,7 +148,7 @@ You will do this 3 times, creating a total of **27 functions**:
 * In **Part B (Summoning)**, you will be given a list of 9 algorithms that are drawn from several computational fields. These algorithms are easy to appreciate conceptually, but tricky to implement correctly and efficiently. You will be asked to direct a coding agent to write the code for these algorithms, and to ensure they are working properly. It may help to do some independent reading about these algorithms, as you will also be asked to explain them in your own words. The point of this part is for you to *develop an intuitive understanding of what these algorithms do*. 
 * **Part C (Inventing)** is open-ended. You are asked to research and/or devise 9 algorithmic treatments that interpret the points in creative and surprising new ways. In this part, you are encouraged to work collaboratively (in two-person teams) and in feedback with an AI coding agent. 
 
-While **Part A** must be programmed entirely by you, **Part B** and **Part C** of this assignment are intentionally designed so that they cannot reasonably be completed *without* AI assistance. For all three parts, restrict the elements you draw to black-and-white forms. [**Here is the p5.js starter code you will modify**](resources/assignment_1_sketch_template.js).
+While **Part A** must be programmed entirely by you, **Part B** (and likely **Part C**) of this assignment are intentionally designed so that they cannot reasonably be completed *without* AI assistance. For all three parts, restrict the elements you draw to black-and-white forms. [**Here is the p5.js starter code you will modify**](resources/assignment_1_sketch_template.js).
 
 #### Learning Objectives
 

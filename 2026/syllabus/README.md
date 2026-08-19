@@ -14,7 +14,7 @@
 
 *Intermediate Studio: Creative Coding* (60-212) is a practical introduction to the use of programming and computation within the context of the arts. In this intermediate level course, students develop or deepen the skills and confidence to produce interactive, generative, and computational artworks; discuss their work in relation to current and historic praxes of computer art; and engage new technologies critically.
 
-This is a “studio art course in computer science”, in which our objective is art and design, but our medium is student-written software. Intended as a second course for arts students who have already had one semester of elementary programming (in any language), this class develops craft skills in arts-engineering using a variety of creative coding toolkits, especially including [p5.js](https://p5js.org/) (JavaScript) and [ComfyUI](https://www.runcomfy.com/). Through rigorous programming exercises in these environments, students will develop mastery over the basic vocabulary of constructs that govern static, dynamic, and interactive form, with the aim of applying these skills to problems in interactive art, computational design, and other creative explorations of transmediality, connectivity, generativity, and immersivity.
+This is a “studio art course in computer science”, in which our objective is art and design, but our medium is student-written software. Intended as a second course for arts students who have already had one semester of elementary programming (in any language), this class develops craft skills in arts-engineering using a variety of creative coding toolkits, especially including [p5.js](https://p5js.org/) (JavaScript) and [ComfyUI](https://www.runcomfy.com/). Through rigorous programming exercises in these environments, students will develop mastery over the basic vocabulary of constructs that govern static, dynamic, and interactive form, with the aim of applying these skills to self-directed inquiries in interactive art, computational design, and other creative explorations of transmediality, connectivity, generativity, and immersivity.
 
 * [TL;DR: Grading](#tldr-grading)
 * [Overview](#overview)
@@ -35,7 +35,7 @@ This is a “studio art course in computer science”, in which our objective is
 > 1. You do not need to be perfect, but you do need to participate reliably.
 > 2. The *minimum requirements for passing* are that you must substantially complete at least 8 of the 10 assignment sets, and you may not ghost more than two class sessions.
 
-To a first approximation, your grade in this course is based straightforwardly on your **basic professionalism** in completing work and attending class. The policies below deliberately allow for an occasional bad week, missed deadline, or communication failure without penalty. Repeated failures to participate, however, have steep consequences. These grading policies consider three independent dimensions of your professionalism:
+To a first approximation, your grade in this course is based straightforwardly on your **basic professionalism** in completing work and attending class. The policies below deliberately allow for an occasional bad week, missed deadline, or communication failure without penalty. Repeated failures to participate, however, have steep consequences. These grading policies address three independent shortcomings of professionalism:
 
 * **Forgone work:** Did you substantially complete the assigned work?
 * **Post-crit submission:** Was your work ready when the class was there to examine it?
@@ -54,7 +54,7 @@ For each of these dimensions, the basic pattern is: *once is free; twice costs y
 There will be 10 sets of assignments this semester (the final project has 3 phased subsets). Each assignment set has a clearly defined checklist of subtasks, intended to help you develop discipline in creating and documenting your work. Your grade for these projects is based on your fulfillment of these checklists. An assignment set is considered **forgone** if, one week after its deadline, it remains unsubmitted or is less than 25% completed.
 
 <!-- KW -->
-Late submission should not be a loophole for evading the scrutiny of critique. Each assignment set generally has one or two "main" projects which are discussed in critique; for main projects that are submitted after their critique has occurred:
+Late submission should not be a loophole for evading the scrutiny of critique. Each assignment set generally has one or two "main" projects which are discussed in critique. Regarding main projects that are submitted after their critique has occurred:
 
 * 😓 First main project submitted after crit: no impact whatsoever.
 * 🤕 Second main project submitted after crit: lose one letter from the project's grade.
@@ -100,7 +100,6 @@ This fall, there are 10 primary assignment sets, with the following due dates an
 	* Students from outside CFA should be able to demonstrate that they have a creative practice, in a portfolio of creative work. 
 * General computing skills (such as browser use, file management, word processing, and the Linux command line) are essential. Students are also expected to have some familiarity with software workflows for editing and distributing images and video.
 * This course is taught primarily with JavaScript. Students who are only familiar with Python will benefit from doing some additional preparation, such as viewing p5.js videos on the [Coding Train YouTube Channel](https://www.youtube.com/@TheCodingTrain).
-* A strong foundation in mathematics, including geometry, algebra, and trigonometry, may also be helpful.
 
 ### Learning Objectives and Course Goals
 
@@ -128,7 +127,7 @@ This course uses [*specifications grading*](https://academictech.uchicago.edu/20
 
 * **10 Sets of Assignments**. There will be ten sets of Assignments this semester, assigned at approximately weekly intervals. Each set will have several sub-components, usually including multiple warmup exercises and a main project, that may have different intermediate deadlines.
 * **Complete the checklists**. For each set of deliverables, an objective checklist of subtasks will be provided, with clearly defined assessment criteria. To ensure transparency, fairness and consistency, grades in this course are straightforwardly calculated according to students' fulfillment of these checklists and criteria. Many items on these checklists are intentionally easy to fulfill; pay attention to them.
-* **Qualitative evaluations are decoupled from grades**. In addition to grades that reflect the fulfillment of straightforward checklists, students will also receive qualitative and subjective feedback from a variety of people, including the professor, the teaching assistant, other CMU faculty, outside professionals, and/or your peers. This critical feedback on the content and quality of your projects does not factor into your grade.
+* **Qualitative evaluations are decoupled from grades**. In addition to grades that reflect the fulfillment of straightforward checklists, students will also receive qualitative and subjective feedback from a variety of people, including the professor, the teaching assistant, other CMU faculty, outside professionals, and/or your peers. This critical feedback on the content and quality of your projects does not factor into your grade. Sometimes the source of this feedback may be anonymized (e.g. from peers).
 
 This semester, you can expect to receive the following feedback, at a minimum: 
 
@@ -140,7 +139,7 @@ This semester, you can expect to receive the following feedback, at a minimum:
 
 *Are there extra time commitments required outside of the regularly scheduled course meeting times?*
 
-* I anticipate that students will spend approximately 6-10 hours per week outside of class working on their projects. In the past, some students have reported that this course consumes as much as 15 hours per week. 
+* I anticipate that students will spend approximately 6-10 hours per week outside of class working on their projects. For the period from 2023-2025, students reported spending an average of 12.3 hours per week in this course.
 * There will be a small number of special events outside of class meeting times (such as public artist lectures), for which attendance is strongly recommended, but not strictly required.
 * Students may also wish to attend optional and occasional group work sessions.
 
@@ -155,11 +154,11 @@ This semester, you can expect to receive the following feedback, at a minimum:
 
 ### Required Course Materials
 
-* **Laptop**. Students should have access to a personal laptop with a webcam and a reliable internet connection. Recent, well-updated installations of Mac OSX, Windows and Linux are all acceptable operating systems. However, although all of the programming toolkits with which we work are free and cross-platform, it is possible that example projects may only be provided for Mac OSX.
-* **Programming Environments**. The primary programming environment used for example projects and sample code will be [p5.js](https://p5js.org/) (JavaScript, optionally programmed within [Visual Studio Code](https://code.visualstudio.com/) with the [p5.vscode](https://marketplace.visualstudio.com/items?itemName=samplavigne.p5-vscode) extension). However, we are also expected to encounter [ComfyUI](https://www.runcomfy.com/), and potentially [TouchDesigner](https://derivative.ca/), [Processing](https://processing.org/) (Java), and/or Python.
+* **Laptop**. Students should have access to a personal laptop with a webcam and a reliable internet connection. Recent, well-updated installations of Mac OSX, Windows and Linux are all acceptable operating systems. However, it is possible that example projects may only be provided for Mac OSX.
+* **Programming Environments**. The primary programming environment used for example projects and sample code will be [p5.js](https://p5js.org/) (JavaScript, optionally programmed within [Visual Studio Code](https://code.visualstudio.com/) with the [p5.vscode](https://marketplace.visualstudio.com/items?itemName=samplavigne.p5-vscode) extension). However, we may also encounter [ComfyUI](https://www.runcomfy.com/), and potentially [TouchDesigner](https://derivative.ca/), [Processing](https://processing.org/) (Java), and/or Python.
 * **Sketchbook**. It is extremely wise to plan your projects on paper before writing any code, and some assignments will require you to post images of your project sketches. In support of this, you are strongly advised to maintain a sketchbook for this course, ideally on paper.
 * **Smartphone Camera**. Students should have access to a smartphone with a camera to document certain projects.
-* **LLM Account**. You will need to have an account for a command-line-based LLM coding assistant, such as Google [Antigravity CLI](https://antigravity.google/) (formerly Gemini CLI), OpenAI [Codex via ChatGPT Plus](https://openai.com/chatgpt/pricing/), or [Anthropic Claude.ai Pro](https://www.anthropic.com/pricing).
+* **LLM Account**. You will need to have an account for an AI coding assistant. As a CMU student, you receive free access to [Google Gemini](https://gemini.google.com/) (chat) and [Microsoft Copilot Chat](https://www.cmu.edu/computing/services/ai/tools/copilot/index.html). That said, I strongly recommend that you have a CLI (command-line interface) agent or other LLM tool that can help you manage larger projects, such as OpenAI [Codex via ChatGPT Plus](https://openai.com/chatgpt/pricing/), Anthropic [Claude.ai Pro](https://www.anthropic.com/pricing), Google [AI Studio](https://aistudio.google.com/apps), or Google [Antigravity CLI](https://antigravity.google/).  
 
 
 ### Communication Tools
@@ -168,7 +167,7 @@ This course uses the following software systems to share information:
 
 * **Discord** — our primary communication channel. Submit your work and ask for help.
 * **Email**. The Professor will broadcast summary emails once per week. Please read them.
-* **Github**, where lectures, assignments and resources will be posted. 
+* **GitHub**, where lectures, assignments and resources will be posted. 
 * **Zoom**, for remote meetings, *in the unlikely event that circumstances require it.*
 
 
@@ -189,8 +188,8 @@ This section articulates policies on:
 
 An *excused* absence is one about which you have communicated with me in a timely, professional, and responsible manner.
 
-* **Communication is paramount**. If you're running late or need to miss class — which can happen, within reason — you are expected to be responsible about communicating with me. If you’re ill, or if you know you will have a planned absence, let me know by Discord or email before the beginning of that class session. I can be very understanding and accommodating about planned and necessary absences, family circumstances, and/or medical issues when you inform me in a timely and professional manner. 
-* **This policy on excused absences shall not be abused**. Even if your absences are "excused", special arrangements will become necessary if you need to miss more than a few sessions. Not every circumstance can be accommodated, not all excuses are equal, and some class sessions (especially: critiques) are more important than others. I reserve the right to lower your grade if you miss four or more sessions, in whole or in part, without such a special accommodation in place. If you have chronic medical issues that are likely to impact your attendance, please speak to the [Office of Disability Resources](https://www.cmu.edu/disability-resources/) as soon as possible and then make an appointment with me to discuss any accommodation requests. 
+* **Communication is paramount**. If you're running late or need to miss class — which can happen, within reason — you are expected to be responsible about communicating with me. If you’re ill, or if you know you will have a planned absence, let me know by Discord or email at least 30 minutes before the beginning of that class session. I can be very understanding and accommodating about planned and necessary absences, family circumstances, and/or medical issues when you inform me in a timely and professional manner. 
+* **This policy on excused absences shall not be abused**. Even if your absences are "excused", special arrangements will become necessary if you need to miss more than a few sessions. Not every circumstance can be accommodated, not all excuses are equal, and some class sessions (*especially:* critiques) are more important than others. I reserve the right to lower your grade if you miss four or more sessions, in whole or in part, without such a special accommodation in place. If you have chronic medical issues that are likely to impact your attendance, please speak to the [Office of Disability Resources](https://www.cmu.edu/disability-resources/) as soon as possible and then make an appointment with me to discuss any accommodation requests. 
 * **Missed information is your problem**. The professor or TA *may* be able to help, but *you* are ultimately responsible for any information you have missed as a result of absence. Per CMU policy: *"faculty are not obligated to re-teach material due to a student missing class."* Organize with your classmates to get class information and material that you have missed.
 
 ### *Ghosting* (No-Call, No-Show Absences)
@@ -224,9 +223,9 @@ Sometimes, students who haven’t completed their projects choose to avoid class
 
 Please refrain from attending class if you feel even slightly unwell. You are emphatically encouraged to seek appropriate medical attention for treatment of illness, and notify me by email/Discord about your absence as soon as practical, so that accommodations can be made. I don't need or want to know intimate details about your medical issues; it's sufficient to let me know that you're unwell.
 
-### Classroom Streams/Recordings
+### Classroom Recordings
 
-You are welcome to ask, but *I am unable to offer guarantees* about my ability to offer lectures recordings, live-streams, or Zoom connections to absent students, especially on short notice. 
+This course is intended to be experienced in person, in the room, and in the moment. To preserve the spontaneity and candor of our classroom environment—and to minimize the amount of surveillance and recording in our lives—I do not ordinarily record or livestream class sessions, or provide Zoom connections for absent students. An exception will, of course, be made when recording or remote access is required as part of a student's documented medical accommodation.
 
 
 ---
@@ -235,58 +234,67 @@ You are welcome to ask, but *I am unable to offer guarantees* about my ability t
 
 In this course, your effort is evaluated according to three different systems, which are decoupled to the greatest extent possible:
 
-* **Grades** (standards used by CMU on its transcripts) 
+* **Grades** (standards used by CMU on its transcripts, to indicate your objective level of effort in a course.) 
 * **Evaluations** (standards used by our class community in critiques)
 * **Expectations of Professionalism** (additional standards used by Golan)
 
-### Grades
+## Policies for Foregone Work
 
-**Grades** are standards used by CMU on its transcripts, to indicate your objective level of effort in a course. The following policy concerns "foregone" assignments, i.e weekly problem sets which you have skipped altogether, or on which you have completed less than 15% by their due date:
+An assignment set is considered **forgone** if, one week after its deadline, it remains unsubmitted or is less than 25% completed. The following grading policy concerns "foregone" assignments:
 
 * Forgo 1 weekly assignment: no impact on your grade whatsoever.
 * Forgo 2 weekly assignments: lose a letter grade (A→B).
 * Forgo 3+ weekly assignments: fail the class (B→R).
 
-Your grades in 60-212 will be based on your self-evident **fulfillment** of simple checklists. Projects will always have a checklist of *supporting requirements*. These are often very straightforward to fulfill, but if you fail to meet these, you will have points deducted. Practically every project assignment will ask you to check off subtasks such as (for example):
+If you know you're going to be late with a project, *contact me* prior to the due date to arrange an accommodation.
+
+
+## Policies for Incomplete Work
+
+Your grades in 60-212 will be based on your self-evident **fulfillment** of simple checklists. Assignment sets and projects will always have a checklist of *supporting requirements*, totaling 100%. These are often very straightforward to fulfill, but if you fail to meet these, you will have points deducted. Practically every project will ask you to execute simple subtasks such as (for example):
 
 * **Create** a unique Discord post for your project.
-* **Title** and **Tag** your project in a specified manner.
-* **Upload** a photo of your notebook sketches for the project, if applicable.
 * **Upload** a static image of your project, such as a screenshot or photograph.
+* **Upload** a photo of your notebook sketches for the project, if applicable.
 * **Upload** dynamic documentation of your project (such as an animated GIF, video recording, or interactive applet) into the blog post, if applicable.
 * **Write** 100-150 words about your project, describing its development process. In your writing, include some critical reflection and analysis of your project: What were your goals? In what ways did you succeed? And in what ways did you fall short? 
 * **Link** to your project or code, if requested.
 * As per our syllabus policies on Academic Integrity, you must also:
-	* **Name** any other students (or generative AI systems) from whom you received advice or help, and describe the help you received. If you had collaborators, explain how the work was distributed among the collaborators.
-	* **Cite** and link to the sources for any code, external libraries, or other media (e.g. photographs, soundtracks, source images) which you used in your Project. Citing your sources is extremely important. Err on the side of generosity.
+	* **Credit** any other students (or AI agents, or tutors, etc.) from whom you received advice or help, and describe the help you received. If you had collaborators, explain how the work was distributed among the collaborators.
+	* **Cite** any code, external libraries, or other media (e.g. photographs, soundtracks, source images) which you used in your project. Citing your sources and crediting your helpmeets is extremely important. Err on the side of generosity.
 
 Note that the objective, easy-to-verify nature of these checklists means that some of your grading may be performed by our Teaching Assistant.
 
 
-### Evaluations
+## Policies for Late Work
+
+When you submit a project late, you miss the chance to share, discuss and get feedback on your work. These are some of the most valuable affordances of this class.
+
+To receive critical feedback on your work, your work must be available for evaluation during the designated review period. For example, at times this semester, your creative projects may be evaluated by your peers in an in-class critique, or by outside experts who review your work online. If your assignment is not viewable by the time those persons do their reviews, then your work will generally not receive feedback from them. Likewise, my feedback for late work is often comparatively attenuated.
+
+Late submission should not be a loophole for evading the scrutiny of critique. Each assignment set generally has one or two "main" projects which are discussed in critique; for these "main" projects:
+
+* 😓 First main project submitted after critique: no impact whatsoever.
+* 🤕 Second main project submitted after critique: lose one letter from the project's grade.
+* 💀 Third main project submitted after critique: no credit for that project.
+
+## Evaluations
 
 **Evaluations** are standards used by our class community in critiques, to provide subjective feedback about your creative work. These are *opinions*.
 
-This section discusses how your work will be Evaluated. Evaluations reflect professional assessments of your work—as provided by me, our Teaching Assistant, external guest critics, and/or your peers. Evaluations articulate someone's personal *opinion* about whether your creative effort is *good*, *interesting*, *noteworthy*, etc. As such, Evaluations do not figure into your grade.
+This section discusses how your work will be Evaluated. Evaluations reflect professional assessments of your work—as provided by me, our Teaching Assistant, external guest critics, your peers, or even your own self-evaluation. Evaluations articulate someone's personal *opinion* about whether your creative effort is *good*, *interesting*, *noteworthy*, etc. As such, Evaluations do not figure into your grade.
 
 The purpose of our open-ended projects is to provide well-circumscribed opportunities for you to make creative work. Generally the prompts will invite you to explore a specific topic or set of tools, but, unless stated otherwise, there is no correct solution, and no specific requirement for how you should implement your idea. My assignments will not only ask for a creative solution, but also for some creativity in how you define and approach the problem. It is expected that your Projects will be presented and documented in the appropriate channels of our class Discord.
 
 The quality of your creative projects may be unrelated to how much time you spent making it. You may sometimes observe a very quickly-executed solution which succeeds because of its strong concept. Usually, however, the quality of a project is rewarded by extra attention to its craft.
 
-In our critiques, we will evaluate your open-ended projects according to the following subjective considerations:
+In addition to Evaluations for your individual projects, I will also provide a brief written mid-semester Evaluation of your work. 
 
-* **Curiosity**: Are you asking questions as you work?
-* **Tenacity**: Are you forging through difficult problems without giving up?
-* **Execution**: Are you crafting with purpose, precision, and attention?
-* **Inventiveness**: Are you discovering/exploring methods outside the obvious and predictable?
+I will provide Evaluations to you by email or private message. They may be quite brief. Evaluations may be given along different scales, or no scales at all, according to the project. I like to experiment with different subjective schemas for evaluating your open-ended projects. For example:
 
-Your work may also be critiqued based on [these subjective considerations from Allison Parrish](https://eroft.decontextualize.com/):
+#### Evaluation Schema 1: S/A/B/C/D/F
 
-* An assignment is **Compliant** if it meets the brief.
-* An assignment is **Gregarious** if it makes connections between course content and the rest of the world; e.g. your own interests as an artist, designer, technologist, etc. and/or other fields of research and practice.
-* An assignment is **Stubborn** if it provides evidence that its maker was opinionated about what they wanted to accomplish and did not let small setbacks (whether conceptual or technical) deter them this end.
-
-I will provide Evaluations to you by email or private message. They may be quite brief. Evaluations may be given along different scales, or no scales at all, according to the project. Other times, evaluation feedback may take the form of scores of S,A,B,C,D, or F, as described below. Note that it is possible for you to receive full *credit* for an assignment (i.e. you ticked off all the items on the checklist), while still receiving an Evaluation of B or C.
+Sometimes, my feedback may take the form of scores of S,A,B,C,D, or F, as described below. Note that it is possible for you to receive full *credit* for an assignment (i.e. you technically ticked off all the items on the checklist), while still receiving an Evaluation of B or C.
 
 * **S** (Exceptional): You made something truly outstanding
 * **A** (Excellent): You made something very good
@@ -295,10 +303,36 @@ I will provide Evaluations to you by email or private message. They may be quite
 * **D** (Unacceptable): The work does not fulfill any requirements completely
 * **F** (No Credit): You did not even try, and made no arrangements to address this
 
-In addition to Evaluations for your individual projects, I will also provide a brief written mid-semester Evaluation of your work. 
+#### Evaluation Schema 2: C/G/S (Allison Parrish)
+
+Your work may be critiqued based on [these subjective considerations from Allison Parrish](https://eroft.decontextualize.com/#evaluation-rubric):
+
+* An assignment is **Compliant** if it meets the brief.
+* An assignment is **Gregarious** if it makes connections between course content and the rest of the world; e.g. your own interests as an artist, designer, technologist, etc. and/or other fields of research and practice.
+* An assignment is **Stubborn** if it provides evidence that its maker was opinionated about what they wanted to accomplish and did not let small setbacks (whether conceptual or technical) deter them this end.
+
+Assignments will be assigned a score of 0, 1 or 2 in these categories, in accordance with the extent to which the assignment demonstrates the properties described:
+
+* **0**: No evidence of quality
+* **1**: Meets expectations
+* **2**: Shows exceptional effort
+
+#### Evaluation Schema 3: C/T/E/I
+
+* **Curiosity**: Are you asking questions as you work?
+* **Tenacity**: Are you forging through difficult problems without giving up?
+* **Execution**: Are you crafting with purpose, precision, and attention?
+* **Inventiveness**: Are you discovering/exploring methods outside the obvious and predictable?
 
 
-### Expectations of Professionalism
+#### Evaluation Schema 3: Studio Habits of Mind (Lois Hetland et al.)
+
+At some point you may be asked to perform a self-evaluation of a project, using the four-point "Studio Habits of Mind" rubic by Lois Hetland et al.:
+
+![studio_habits_of_mind.png](img/studio_habits_of_mind.png)
+
+
+## Expectations of Professionalism
 
 *My Opinion of Your Work is Not Your Grade; Your Grade is Not My Opinion of Your Work. Earning good grades is roughly correlated with, but not the same thing as, being a good learner.*
 
@@ -333,18 +367,7 @@ Whether or not you adhere to these recommendations will not affect your grade. B
 * ...write letters of recommendation for them.
 
 
-### Policies for Late Work
-
-When you submit a project late, you miss the chance to share, discuss and get feedback on your work. These are some of the most valuable affordances of this class.
-
-**To receive critical feedback on your work**, your work must be available for evaluation during the designated review period. For example, at times this semester, your creative projects may be evaluated by your peers in an in-class critique, or by outside experts who review your work online. If your assignment is not viewable by the time those persons do their reviews, then your work will likely not receive feedback from them. Likewise, generally speaking, my feedback for late work is comparatively attenuated. 
-
-If your project is more than a week late, I reserve the right to assume it is **foregone** (if you have not made any arrangement with me, and if less than 25% has been completed). If you know you're going to be just a little bit late with a project, *contact me* prior to the due date to arrange an accommodation.
-
-For work which is complete but late, I may assign partial credit to it. 
-
-
-### Feedback and Critique
+## Feedback and Critique
 
 We are a diverse group with broad interests and a great deal of interdisciplinary hybridity. It is impossible to have one single standard we can use for "what is good". 
 
@@ -359,6 +382,16 @@ There often isn't enough time to provide in-depth feedback for all students duri
 
 Your behavior as a responsible member of the new-media arts community is very important — as demonstrated, for example, by properly citing your sources and borrowed code, and crediting those who have helped you. These expectations and obligations are addressed here.
 
+### Summary: *Acknowledge, Credit, Cite*
+
+**Credit is one of the most important forms of currency** in economies of commons-based peer production and open-source media arts. You are expected to cite the source of any code, media, or ideas you borrow.
+
+* **Did you use an AI agent?** Acknowledge it.
+* **Did your friend or TA help you?** Credit them.
+* **Did you use some code you found?** Cite it. 
+* **Were you inspired by an artwork you saw?** Say so. 
+* **Did you follow a tutorial?** Tell us.
+
 ### Policies for Open-Ended Creative Projects
 
 For your open-ended creative projects, there are no “correct answers”. Your curiosity, creativity, ingenuity and originality are prized.
@@ -367,9 +400,8 @@ You may borrow code or ideas from other sources, within the limits of principles
 
 As art students, you are expected or invited to make extensive use of open-source toolkits, libraries and tutorials. When working in this way, much like a knitting circle, our classroom is structured around peer instruction, in which students are expected to help each other learn.
 
-### Use of Online and/or Open-Source Code in Projects
 
-**Credit is one of the most important forms of currency** in economies of commons-based peer production and open-source media arts. You are expected to cite the source of any code you use. Please note the following expectations and guidelines:
+### Use of Online and/or Open-Source Code in Projects
 
 * **Use Libraries**. In your Projects, the use of general-purpose, reusable code libraries that solve specific technical problems is very strongly encouraged. The people who developed these components worked hard, often for no pay; please acknowledge their community contributions by citing their name and linking to their repository.
 * **Be Careful**. It sometimes happens that an artist will place the entire source code for their artwork online. You might even discover the work of a student in some other course or school, who has posted their code for a project that responds to a similar assignment. *You should probably avoid this code*, or at the very least, you should be *extremely* careful about approaching such code for any possible re-use. Forking an *artwork* from someone’s page on OpenProcessing and simply changing the colors would be disgracefully lazy; doing so without thorough and proper citation would be outright plagiarism.
@@ -384,7 +416,7 @@ Our course places a very high value on civic responsibility, which includes help
 
 ### Policies Regarding Formal Collaboration
 
-Most of the assignments in this course are intended to be executed by individuals. That said, I am in favor of students collaborating occasionally if such collaborations arise organically. Please note the following expectations:
+Most of the assignments in this course are intended to be executed by individuals. That said, I am in favor of students collaborating occasionally if such collaborations arise organically, and there may even be a few instances where I specifically encourage collaborations. Please note the following expectations:
 
 * **Notify the Professor**. It’s helpful for me to know who is working with whom. Students who wish to collaborate on a project should jointly inform the professor as early as possible.
 * **No third wheels**. Unless permission is explicitly granted by the Professor, collaborations in this course are restricted to *pairs* of students. 
@@ -394,16 +426,23 @@ Most of the assignments in this course are intended to be executed by individual
 
 ### Policies and Suggestions Regarding Generative AI
 
+<!--
+This semester we will -- intentionally, critically, and with care -- make use of LLM-based coding agents:
+
+Partially, to understand firsthand the new things we can do and make with them; and
+Partially, to see if it is possible for us to make something with them that feels like it is ours, and to see if it is possible for us to find some joy in doing so.
+-->
+
 In this class, you are permitted and encouraged to explore the affordances of generative AI as an instrument for art-making.
 
 With only a few exceptions (I'll be clear), you are *affirmatively encouraged* to use generative AI systems (such as ChatGPT, Claude, or CoPilot) to assist you with your programming projects. Indeed: it is incumbent upon us to explore how these systems are changing the nature of creative coding and software development. In using AI systems in your classwork, please keep the following in mind:
 
-* **Use your own words when requested**. You will be asked to produce a handful of extremely brief writing assignments (such as providing anonymous critical feedback to your peers, or narrating how you made something, or writing [*Looking Outwards*](https://github.com/golanlevin/lectures/blob/master/syllabi/looking-outwards.md) reports) where your own thoughts, opinions, and voice are prized. These will not be difficult writing assignments. Using AI tools to write them for you would represent a bad-faith posture.
-* **Take ownership of your work**, including activities supported by AI. The more you develop projects through your own thinking and labor, the easier it is to stand by the work you produce. You are fully responsible for all of the material you produce in this class, even if some of it was generated with the help of AI. Be prepared to stand behind everything you develop.
+* **Use your own words when requested**. You will be asked to produce a handful of extremely brief writing assignments (such as providing anonymous critical feedback to your peers, or narrating how you made something, or writing [*Looking Outwards*](https://github.com/golanlevin/lectures/blob/master/syllabi/looking-outwards.md) reports) where your own thoughts, opinions, and voice are prized. These will not be difficult writing assignments. Using AI tools to speak for you represents a bad-faith posture.
+* **Take ownership of ALL your work**, including activities supported by AI. The more you develop projects through your own thinking and labor, the easier it is to stand by the work you produce. You are fully responsible for all of the material you produce in this class, even if some of it was generated with the help of AI. Be prepared to stand behind everything you develop.
 * **Acknowledge your use.** Carnegie Mellon University’s Academic Integrity Policy prohibits use of unauthorized assistance to complete coursework, but allows instructors to define what is "authorized" versus "unauthorized". So here it is: in this course, if you use an LLM or generative AI system to assist you in the creation of a project, *you are required to say so* — in exactly the same way that you would cite another author, acknowledge using some code you found online, or acknowledge receiving help from another student. In your project write-up and/or in your code, please state which system you used, and how you used it. Your honesty in this matter is of the utmost importance as we all learn to understand this new landscape. 
-* **There's no short-cut to skill.** The person who benefits most from engaging with studio work and academic projects is you. There are many instances where you may be able to use AI to assist with or even take over tasks. However, you may miss out on important learning opportunities if you don’t engage with the intellectual activities that the project entails. There aren't many exercises in this class that could be made wholesale by an AI — but those that possibly could, are basic exercises which have been assigned to you precisely because I genuinely believe you actually need to develop those skills in order to make even more creative stuff. 
+* **There's no short-cut to skill.** The person who benefits most from engaging with studio work and academic projects is you. There are many instances where you may be able to use AI to assist with or even take over tasks. However, you may miss out on important learning opportunities if you don’t engage with the intellectual activities that the project entails. 
+* **Beware the loss of your voice.** This is an art course that seeks to cultivate your unique creative voice. But generative AI systems are designed to regurgitate a digested version of stuff they've seen before, a brownish-gray paste made from human knowledge. The results they generate are inherently average. Slop may be perfectly adequate to solve a technical problem in which there is a well-defined correct answer, but it is likely unfit for a creative project in which the goal is for you to express a distinctive perspective. I may hope that you make something *beautiful*; I may hope that you make something *interesting*; but most importantly of all, my assignments in this course challenge you to make something *yours*.
 * **Beware the loss of your time.**  You are advised to check claims, verify evidence, and evaluate any sources that appear in AI output. When AI programs lack information, their operations will select less relevant materials or even make up information to complete their responses. Although the results might appear authoritative or unique, the operations behind AI output can produce inaccurate information, over-fit resemblances to pre-existing work, or hard-to-find bugs. It may sometimes be easier just to program the damn thing yourself, than to spend your time coping with an AI's errors, hallucinations, and lack of originality.
-* **Beware a push toward normativity.** This is an art course that seeks to cultivate your unique creative voice. But generative AI systems are designed to regurgitate a digested version of stuff they've seen before. The results they generate are often inherently average. Slop may be perfectly adequate to solve a technical problem in which there is a well-defined correct answer, but it is likely unfit for an art project in which the goal is for you to express your own perspective or discover how a medium works. I may hope that you make something *beautiful*; I may hope that you make something *interesting*; but most importantly of all, my assignments in this course challeng you to make something *yours*.
 * **Beware the loss of serendipity.** Bob Ross famously quipped, "We don't make mistakes — we just have happy accidents." Although it may be expedient to have a system write your code for you, you may miss out on the chance to become intimately familiar with the grain of your medium, and to have accidents that suggest new possibilities and ideas.
 * **Be careful with your private information.** Please be aware that many AI companies ingest and integrate user information; do not enter confidential information as part of any prompt. 
 
