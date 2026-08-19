@@ -2,7 +2,7 @@
 
 ![cc2026_banner.jpg](syllabus/img/cc2026_banner.jpg)
 
-* Creative Coding [Fall 2026 Syllabus](syllabus/README.md)
+* Creative Coding [Fall 2026 Syllabus](syllabus/README.md) [[PDF](syllabus/pdf/60-212_2026_syllabus.pdf)]
 * Time and Location: Mon/Wed, 2:00-4:50pm in CFA-303
 * OpenProcessing Classroom: [openprocessing.org/class/107236](https://openprocessing.org/class/107236/#/)
 * Professor: [Golan Levin](http://www.art.cmu.edu/people/golan-levin/), `golan@`
@@ -18,7 +18,7 @@
 
 There are 10 sets of assignments. Unless otherwise noted, projects should be *submitted* in [OpenProcessing](https://openprocessing.org/class/107236/#/) and *documented* in our course Discord. 
 
-* `Wed 08/26` — #1 Due (Form; Points and Lines) 
+* `Wed 08/26` — [**#1 Due**](assignments/assignment_1.md) (Form; Points and Lines) 
 * `Wed 09/02` — #2 Due (Movement; Illusion, Loops)
 * `Mon 09/14` — #3 Due (Pattern; Color)
 * `Wed 09/23` — #4 Due (Camera/Puppet)
