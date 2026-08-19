@@ -8,6 +8,7 @@
 * Course OpenProcessing site: [https://openprocessing.org/class/107236/#/](https://openprocessing.org/class/107236/#/)
 * Professor: [Golan Levin](http://www.art.cmu.edu/people/golan-levin/), `golan@`
 * TA: [Libby McCaffrey](https://elizabethmccaffrey.com/), `lmccaffr@`
+* [Syllabus PDF](pdf/60-212_2026_syllabus.pdf)
 
 
 ## Contents
