@@ -1,21 +1,15 @@
+
+
 # One Point Set, Nine Ways
 
 
-A Voronoi diagram asks:
+* A Voronoi diagram asks: "Which part of the plane is closest to each point?"
+* A minimum spanning tree asks: "How can all the points be connected using the least total length of line?"
+* A convex hull asks: "What is the smallest convex boundary containing all the points?"
 
-> Which part of the plane is closest to each point?
+A nearest-neighbor graph, principal curve, Delaunay triangulation, clustering algorithm, or circle-packing method will ask something different. Each algorithm is a different question; each image is its answer.
 
-A minimum spanning tree asks:
-
-> How can all the points be connected using the least total length of line?
-
-A convex hull asks:
-
-> What is the smallest convex boundary containing all the points?
-
-A nearest-neighbor graph, principal curve, Delaunay triangulation, clustering algorithm, or circle-packing method will ask something different.
-
-Each algorithm is a different question. Each image is its answer.
+<!--
 
 ## The larger purpose
 
@@ -199,3 +193,5 @@ Here are a few places you might get started — but note, it's important to get 
 * [@3blue1brown](https://www.instagram.com/3blue1brown/)
 * [cartography-playground](https://cartography-playground.gitlab.io/)
 * [Computational Geometry Algorithms Library](https://doc.cgal.org/latest/Manual/packages.html#PartConvexHullAlgorithms) (CGAL)
+
+-->
