@@ -4,7 +4,6 @@ This is a scratchpad for Golan's course prep notes. It's not specifically for pu
 
 ---
 
-* 9 Ways to connect a set of points
 * [Patt Vira shader tutorial](https://www.youtube.com/watch?v=q1xzpZu1KTc)
 
 ---

@@ -2,6 +2,9 @@
 
 Ultimate interactive system. Tools as artworks: an intervention that expands the vocabulary of human action, allowing new thoughts. The "message" is that people (users) ought to be able to do X,Y,Z.
 
+
+<!--
+
 ## In-Class Viewings
 
 [Lecture on Drawing Machines](https://github.com/golanlevin/lectures/tree/master/lecture_drawing)
@@ -345,4 +348,4 @@ It is:
 
 > **What does this software make possible?**
 
----
+-->
