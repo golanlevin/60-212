@@ -10,16 +10,16 @@
 
 *This set of deliverables is due by the beginning of class on Wednesday 8/26. There are six main sets of tasks, the total of which should take 5-6 hours:*
 
-* 1.1. [Administrative Tasks](#11-administrative-tasks) *(45 minutes)*
-* 1.2. [Share a Touchstone](#12-share-a-touchstone) *(15 minutes)*
-* 1.3. [p5.js Wayfinding](#13-p5js-wayfinding) *(30 minutes)*
-* 1.4. [Test Your Coding Agent: Zero-Shot Generation](#14-test-your-coding-agent-zero-shot-generation) *(30 minutes)*
+* 1.1. [Administrative Tasks](#11-administrative-tasks) *(45 minutes, 10%)*
+* 1.2. [Share a Touchstone](#12-share-a-touchstone) *(15 minutes, 5%)*
+* 1.3. [p5.js Wayfinding](#13-p5js-wayfinding) *(30 minutes, 5%)*
+* 1.4. [Test Your Coding Agent: Zero-Shot Generation](#14-test-your-coding-agent-zero-shot-generation) *(10-30 minutes, 5%)*
 * 1.5. [**One Point Set, 27 Ways**](#15-one-point-set-27-ways) *(4 hours; "Main Project")*
   * [1.5.0. Overview](#150-overview)
-  * [1.5.1. Part A: Coding](#151-part-a-coding) (*60 minutes*)
-  * [1.5.2. Part B: Summoning](#152-part-b-summoning) (*60 minutes*) 
-  * [1.5.3. Part C: Inventing](#153-part-c-inventing) (*2 hours*) 
-* 1.6. [Reflection](#16-reflection) (*15 minutes*)
+  * [1.5.1. Part A: Coding](#151-part-a-coding) (*60 minutes, 15%*)
+  * [1.5.2. Part B: Summoning](#152-part-b-summoning) (*60 minutes, 15%*) 
+  * [1.5.3. Part C: Inventing](#153-part-c-inventing) (*2 hours, 35%*) 
+* 1.6. [Reflection](#16-reflection) (*15 minutes, 10%*)
 
 *Note that these exercises are not as open-ended as the others you'll encounter this semester.*
 
@@ -29,7 +29,7 @@
 
 (***45 minutes***) Please **complete** the following administrative tasks:
 
-1. (*1 minute*) **Bookmark** our [Course GitHub](https://github.com/golanlevin/60-212/blob/main/2026/readme.md) in your laptop's browser, so you can easily find it. Assignments and lecture notes will be shared here.
+* (*1 minute*) **Bookmark** our [Course GitHub](https://github.com/golanlevin/60-212/blob/main/2026/readme.md) in your laptop's browser, so you can easily find it. Assignments and lecture notes will be shared here.
 * (*4 minutes*) **Create** an ID on [Discord.com](https://discord.com/), if you don't already have one. **Join** our class Discord, using the invitation sent to you by email. **Browse** our server's channels so you know what's where.
 * (*5 minutes*) In the `#11-introductions` channel of our course Discord, **introduce** yourself in a sentence or two. Please **share** something about yourself — pets, favorite food, arcane superpowers, etc.
 * (*5 minutes*) **Create** an ID on [OpenProcessing.org](https://openprocessing.org) (if you don't already have one). **Join** our [OpenProcessing classroom](https://openprocessing.org/class/107236/#/), using the invitation sent to you by email, and **bookmark** it in your laptop's browser. Take a moment to **browse** some of the sketches that people have published at [https://openprocessing.org/discover](https://openprocessing.org/discover). *(Note: the quality varies widely.)* **Run** the programs, and be sure to **look** at their code (*command-shift-return* may help switch to the code view).
@@ -82,12 +82,11 @@
 
 This semester we will -- intentionally, critically, and with care -- make use of LLM-based coding agents:
 
-* Partially, to understand firsthand the new things we can do and make with them; and 
-* Partially, to see if it is possible for us to make something with them that feels like it is *ours*, and to see if it is possible for us to find some joy in doing so. 
+* Partially, to understand firsthand the new things we can do and make with them;  
+* Partially, to see if it is possible for us to make something with them that feels like it is *ours*, and 
+* Partially, to see if it is possible for us to find some *joy* in doing so. 
 
-But not right now. The primary purpose of this present task (1.4) is simply **infrastructure verification**: to make sure that you have access to a tool such as OpenAI *Codex* or *ChatGPT*, Anthropic *Claude*, or Google's *AI Studio* or *Antigravity* — ideally installed as a **CLI** (command-line interface) — and that you are able to demonstrate its use. For this present task, your creative energy is, I'm sorry to say, not requested; save it for later.
-
-<img src="img/1/vectorpark_on_ai.png" width=400>
+But not right now. The primary purpose of this present task (1.4) is purely **infrastructure verification**: to make sure that you have access to a tool such as OpenAI *Codex* or *ChatGPT*, Anthropic *Claude*, or Google's *AI Studio* or *Antigravity* — ideally installed as a **CLI** (command-line interface) — and that you are able to demonstrate its use. For this present task, your creative energy is not requested; save it for later.
 
 I am aware that Codex and Claude cost money. Fortunately, as a CMU student, you receive free access to Google's Gemini LLM through your university Google account. It can be accessed in your browser through these links:
 
@@ -102,6 +101,8 @@ Now:
 
 *(If it helps, you can provide the agent with [this blank template](resources/simple-p5v2-project.zip) project.)*
 
+<img src="img/1/vectorpark_on_ai.png" width=400>
+
 ### 1.4 Task Checklist
 
 * **Run** the generated program to **test** it. You might run it locally, or paste the code into [OpenProcessing.org](https://openprocessing.org/) or the [p5.js editor](https://editor.p5js.org/). 
@@ -112,11 +113,11 @@ Now:
 * **Observe** the results. In 1-2 sentences, in your own voice, **write** about one specific choice the coding agent made that reveals the agent's assumptions about what a “face generator” means.
 * **Embed** a screenshot of the agent's project in your Discord post. It might look something like the image below.
 
-Making a face generator has been a classic creative coding assignment for more than two decades. For example, here are some of my CMU student's projects [from 2011](https://openprocessing.org/class/877/#/c/904) and [from 2012](https://openprocessing.org/class/1886/#/c/2034). Your agent has been trained on code produced by generations of students just like yourselves. 
+Making a face generator has been a classic creative coding assignment for more than two decades. For example, here are some of my CMU student's projects [from 2011](https://openprocessing.org/class/877/#/c/904) and [from 2012](https://openprocessing.org/class/1886/#/c/2034). For many years we posted our code in the open, so others could learn from it. Your agent has undoubtedly been trained on code produced by generations of students just like yourselves. 
 
 <img src="img/1/random-face.png" width=400>
 
-*(For what it's worth: if you'd like to see some contemporary, thoughtfully-executed, procedurally-generated faces in JavaScript, the artist @Mannay [released this project](https://x.com/mannay/status/2087522034351796728) last week. He achieved these designs by "placing features on a rough 3D head for proper positioning on face tilts/rotations".)*<br />![img/mannay_generated_faces.jpg](img/1/mannay_generated_faces.jpg)
+*(For what it's worth: if you'd like to see some contemporary, thoughtfully-executed, procedurally-generated faces in JavaScript, the artist @Mannay [released this project](https://x.com/mannay/status/2087522034351796728) last week. They achieved these designs by "placing features on a rough 3D head for proper positioning on face tilts/rotations".)*<br />![img/mannay_generated_faces.jpg](img/1/mannay_generated_faces.jpg)
 
 
 ---
@@ -189,7 +190,7 @@ Your job in **Part A** is to write 9 specific functions that interpret these poi
 
 #### Part A Deliverables: 
 
-* **Create** your project in OpenProcessing and **save** it to [this collection](https://openprocessing.org/class/107236/#/c/107238).
+* **Create** your project in OpenProcessing and **save** it to [this OpenProcessing collection](https://openprocessing.org/class/107236/#/c/107238).
 * **Ensure** your project has a thumbnail image in OpenProcessing.
 * **Create** a post in the Discord channel, `#15A-pointset-coding`.
 * **Embed** a screenshot of your project in your Discord post.
@@ -236,7 +237,7 @@ Some of these methods are ordinarily taught only in advanced courses, and many o
 
 #### Part B Deliverables: 
 
-* **Create** your project in OpenProcessing and **save** it to [this collection](https://openprocessing.org/class/107236/#/c/107239).
+* **Create** your project in OpenProcessing and **save** it to [this OpenProcessing collection](https://openprocessing.org/class/107236/#/c/107239).
 * **Ensure** your project has a thumbnail image in OpenProcessing.
 * **Create** a post in the Discord channel, `#15B-pointset-summoning`.
 * **Embed** a screenshot of your project in your Discord post.
@@ -274,7 +275,7 @@ As you work, continually re-randomize the point set to test your designs. An int
 
 #### Part C Deliverables: 
 
-* **Create** your project in OpenProcessing and save it to [this collection](https://openprocessing.org/class/107236/#/c/107240). As before, you should start with [this template code](https://openprocessing.org/@golan/2991107), and you are *still* restricted to black-and-white graphics.
+* **Create** your project in OpenProcessing and save it to [this OpenProcessing collection](https://openprocessing.org/class/107236/#/c/107240). As before, you should start with [this template code](https://openprocessing.org/@golan/2991107), and you are *still* restricted to black-and-white graphics.
 * **Ensure** your project has a thumbnail image in OpenProcessing.
 * **Create** a post in the Discord channel, `#15C-pointset-inventing`.
 * **Embed** a screenshot of your project in your Discord post.
@@ -306,9 +307,9 @@ In the Discord channel `#16-reflection`, **write** a brief reflection (a few sen
 
 You don't need to answer all of the following questions. Instead, use one or more as starting points:
 
-* **What did you learn?** This could be something about programming, algorithms, AI coding agents, creative coding, your own working process, or something else entirely.
+* **What did you learn?** Share something you learned. This could be something about programming, algorithms, AI coding agents, creative coding, your own working process, or something else entirely.
 * **Compare the experiences** of "coding", "summoning", and "inventing". Where did you feel most engaged, frustrated, capable, or creatively involved?
-* [Seymour Papert](https://en.wikipedia.org/wiki/Seymour_Papert) has written about “[hard fun](https://dailypapert.com/hard-fun/)”: the particular satisfaction that can come from working hard on a difficult problem that you care about. As we delegate more of our codecraft to machine intelligence, **how can we preserve access to that kind of experience, and to the joy of making?**
-* Did working with your coding agent ever **click** for you, becoming a fluid and enjoyable way to create, experiment, or explore ideas almost at the speed of thought? Did it sometimes feel hollow, confusing, or alienating? **What made the difference?**
+* [Seymour Papert](https://en.wikipedia.org/wiki/Seymour_Papert) has written about “[hard fun](https://dailypapert.com/hard-fun/)”: the particular satisfaction that can come from working hard on a difficult problem that you care about. Did you experience this at any point in this project? As we delegate more of our codecraft to machine intelligence, **how can we preserve access to that kind of experience, and to the joy of making?**
+* Did working with your coding agent ever **click** for you, becoming a fluid and enjoyable way to create, experiment, or explore ideas at the speed of thought? Did it sometimes feel hollow, confusing, or alienating? **What made the difference?**
 * Did the coding agent allow you to think or make things that would otherwise have been inaccessible to you? Conversely, was anything **lost** when you were no longer responsible for constructing every part yourself?
-* After completing all three parts of *One Point Set, 27 Ways*, **what do you now think is worth knowing how to do yourself?** What are you comfortable delegating? What do you still feel responsible for understanding?
+* After completing all three parts of *One Point Set, 27 Ways*, **what tasks would you now think are worth knowing how to do yourself?** What are you comfortable delegating? What do you still feel responsible for understanding?
