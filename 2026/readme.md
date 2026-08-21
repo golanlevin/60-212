@@ -8,13 +8,12 @@
 * Professor: [Golan Levin](http://www.art.cmu.edu/people/golan-levin/), `golan@`
 * TA: [Libby McCaffrey](https://elizabethmccaffrey.com/), `lmccaffr@`
 
-<br/>
-<img src="syllabus/img/60-212_2026_schedule.png" width="480">
-
-
 ---
 
 ## Assignments
+
+<img src="syllabus/img/60-212_2026_schedule.png" width="480">
+
 
 There are 10 sets of assignments. Unless otherwise noted, projects should be *submitted* in [OpenProcessing](https://openprocessing.org/class/107236/#/) and *documented* in our course Discord. 
 

@@ -34,7 +34,7 @@
 * (*5 minutes*) In the `#11-introductions` channel of our course Discord, **introduce** yourself in a sentence or two. Please **share** something about yourself — pets, favorite food, arcane superpowers, etc.
 * (*5 minutes*) **Create** an ID on [OpenProcessing.org](https://openprocessing.org) (if you don't already have one). **Join** our [OpenProcessing classroom](https://openprocessing.org/class/107236/#/), using the invitation sent to you by email, and **bookmark** it in your laptop's browser. Take a moment to **browse** some of the sketches that people have published at [https://openprocessing.org/discover](https://openprocessing.org/discover). *(Note: the quality varies widely.)* **Run** the programs, and be sure to **look** at their code (*command-shift-return* may help switch to the code view).
 * (*15 minutes*) **Review** our [**Syllabus**](../syllabus/README.md) carefully (!) 
-* (*10 minutes*) **Complete** the [**60-212 Welcome Form**](https://forms.gle/Dtg5fU9wtkG6q3Fm7).
+* (*10 minutes*) **Complete** the 2026 [**60-212 Welcome Form**](https://forms.gle/Dtg5fU9wtkG6q3Fm7).
 * (*5 minutes*) **Complete** the (anonymous) [**CMU Student Survey on AI**](https://forms.gle/7kZrFXS3yT3dVe3y5).
 
 
@@ -85,9 +85,9 @@ This semester we will -- intentionally, critically, and with care -- make use of
 * Partially, to understand firsthand the new things we can do and make with them; and 
 * Partially, to see if it is possible for us to make something with them that feels like it is *ours*, and to see if it is possible for us to find some joy in doing so. 
 
-<img src="img/1/vectorpark_on_ai.png" width=400>
+But not right now. The primary purpose of this present task (1.4) is simply **infrastructure verification**: to make sure that you have access to a tool such as OpenAI *Codex* or *ChatGPT*, Anthropic *Claude*, or Google's *AI Studio* or *Antigravity* — ideally installed as a **CLI** (command-line interface) — and that you are able to demonstrate its use. For this present task, your creative energy is, I'm sorry to say, not requested; save it for later.
 
-The primary purpose of this present task (1.4) is simply **infrastructure verification**: to make sure that you have access to a tool such as OpenAI *Codex* or *ChatGPT*, Anthropic *Claude*, or Google's *AI Studio* or *Antigravity* — ideally installed as a **CLI** (command-line interface) — and that you are able to successfully demonstrate its use. For this present task, your creative energy is, I'm sorry to say, not requested; save it for later.
+<img src="img/1/vectorpark_on_ai.png" width=400>
 
 I am aware that Codex and Claude cost money. Fortunately, as a CMU student, you receive free access to Google's Gemini LLM through your university Google account. It can be accessed in your browser through these links:
 
@@ -112,9 +112,11 @@ Now:
 * **Observe** the results. In 1-2 sentences, in your own voice, **write** about one specific choice the coding agent made that reveals the agent's assumptions about what a “face generator” means.
 * **Embed** a screenshot of the agent's project in your Discord post. It might look something like the image below.
 
+Making a face generator has been a classic creative coding assignment for more than two decades. For example, here are some of my CMU student's projects [from 2011](https://openprocessing.org/class/877/#/c/904) and [from 2012](https://openprocessing.org/class/1886/#/c/2034). Your agent has been trained on code produced by generations of students just like yourselves. 
+
 <img src="img/1/random-face.png" width=400>
 
-*(For what it's worth: if you'd like to see some thoughtfully-executed, procedurally-generated faces in JavaScript, the artist @Mannay [released this project](https://x.com/mannay/status/2087522034351796728) last week. He achieved these designs by "placing features on a rough 3D head for proper positioning on face tilts/rotations".)*<br />![img/mannay_generated_faces.jpg](img/1/mannay_generated_faces.jpg)
+*(For what it's worth: if you'd like to see some contemporary, thoughtfully-executed, procedurally-generated faces in JavaScript, the artist @Mannay [released this project](https://x.com/mannay/status/2087522034351796728) last week. He achieved these designs by "placing features on a rough 3D head for proper positioning on face tilts/rotations".)*<br />![img/mannay_generated_faces.jpg](img/1/mannay_generated_faces.jpg)
 
 
 ---
@@ -144,7 +146,7 @@ In this assignment, you will explore how different algorithms can allow a single
 
 You will do this 3 times, creating a total of **27 functions**: 
 
-* In **Part A (Coding)**, you will be given a list of 9 functions to write. *You must write all the code for these functions yourself, without using any AI coding agent.* The point is to make sure you have the basic programming skills necessary to take this course.
+* In **Part A (Coding)**, you will be given a list of 9 functions to write. *You must write all the code for these functions yourself, "by hand", without using any AI coding agent.* The point is to make sure you have the basic programming skills necessary to take this course.
 * In **Part B (Summoning)**, you will be given a list of 9 algorithms that are drawn from several computational fields. These algorithms are easy to appreciate conceptually, but tricky to implement correctly and efficiently. You will be asked to direct a coding agent to write the code for these algorithms, and to ensure they are working properly. It may help to do some independent reading about these algorithms, as you will also be asked to explain them in your own words. The point of this part is for you to *develop an intuitive understanding of what these algorithms do*. 
 * **Part C (Inventing)** is open-ended. You are asked to research and/or devise 9 algorithmic treatments that interpret the points in creative and surprising new ways. In this part, you are encouraged to work collaboratively (in two-person teams) and in feedback with an AI coding agent. 
 
@@ -165,6 +167,9 @@ On completion of *One Point Set, 27 Ways*, students will be able to demonstrate:
 
 > [!CAUTION]
 > **AI coding agents are prohibited for Part A.**
+
+![lewitt_wall_drawing_118.jpg](img/1/lewitt_wall_drawing_118.jpg)
+> *Sol Lewitt's [Wall Drawing #118](https://massmoca.org/sol-lewitt/) (1971) is a codelike set of instructions that asks drafters to connect each of 50 points to every other.*
 
 [Here](resources/assignment_1_sketch_template.js) is a p5.js (v2) program for you to complete. (You can also find this code [at OpenProcessing](https://openprocessing.org/@golan/2991107), and [at editor.p5js.org](https://editor.p5js.org/golan/sketches/CqeRhgfJZ).) The program fills an array with data for a set of random 2D points, and then displays them 9 times, in a 3×3 grid. When you press the spacebar, the points are randomized. 
 
@@ -190,12 +195,13 @@ Your job in **Part A** is to write 9 specific functions that interpret these poi
 * **Embed** a screenshot of your project in your Discord post.
 * **Select** two of your nine panels. In your own voice, briefly **contrast** what each one makes you notice about the points that the other does not.
 
+
 ---
 
 ### 1.5.2. Part B: Summoning
 
 [![snibbe_boundary_functions.jpg](img/1/snibbe_boundary_functions.jpg)](https://www.youtube.com/watch?v=5wA3lKcDrlM)
-> *In Scott Snibbe's interactive artwork "[Boundary Functions](https://www.youtube.com/watch?v=5wA3lKcDrlM)" (1998), participants' bodies form the sites of a projected Voronoi diagram.*
+> *Scott Snibbe's interactive installation artwork "[Boundary Functions](https://www.youtube.com/watch?v=5wA3lKcDrlM)" (1998) summons a [Voronoi diagram](https://en.wikipedia.org/wiki/Voronoi_diagram) to visualize the personal space of its participants' bodies.*
 
 In **Part B**, our learning objective shifts from writing algorithms to understanding and directing sophisticated algorithms. This exercise is intended to impart a lesson that computer science courses often miss: *understanding what an algorithm does* and *being able to implement it from scratch* are not the same skill. 
 
@@ -240,9 +246,13 @@ Some of these methods are ordinarily taught only in advanced courses, and many o
 
 > *Summoning: you understand what you want to exist, invoke something capable of producing it, and remain responsible for determining whether what appears is actually what you asked for. Summoned things may not obey exactly, may be malformed, and may need supervision.*
 
+
 ---
 
 ### 1.5.3. Part C: Inventing
+
+![nekropunk_elektrobotanika_2024.jpg](img/1/nekropunk_elektrobotanika_2024.jpg)
+> *[Elektrobotanika](https://www.raster.art/artwork/elektrobotanika-by-nekropunk) (2024) by Nekropunk is a real-time generative artwork series which records fluid streamlines from a configuration of points.*
 
 #### In Part B, you were given 9 questions to ask of the points.<br/>In Part C, your job is to invent the questions.
 
@@ -284,6 +294,7 @@ We will share and discuss your work in **Part C** on Wednesday, 8/26, at the beg
 2. What does the resulting graphic represent?
 3. What conditions, parameters, or assumptions affect it?
 4. Why did you find it interesting to include?
+
 
 ---
 
