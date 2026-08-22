@@ -161,7 +161,7 @@ This semester, you can expect to receive the following feedback, at a minimum:
 * **Programming Environments**. The primary programming environment used for example projects and sample code will be [p5.js](https://p5js.org/) (JavaScript, optionally programmed within [Visual Studio Code](https://code.visualstudio.com/) with the [p5.vscode](https://marketplace.visualstudio.com/items?itemName=samplavigne.p5-vscode) extension). However, we may also encounter [ComfyUI](https://www.runcomfy.com/), and potentially [TouchDesigner](https://derivative.ca/), [Processing](https://processing.org/) (Java), and/or Python.
 * **Sketchbook**. It is extremely wise to plan your projects on paper before writing any code, and some assignments will require you to post images of your project sketches. In support of this, you are strongly advised to maintain a sketchbook for this course, ideally on paper.
 * **Smartphone Camera**. Students should have access to a smartphone with a camera to document certain projects.
-* **LLM / Coding Agent Account**. You will need to have an account for an AI coding assistant. As a CMU student, you receive free access to [Google Gemini](https://gemini.google.com/) (chat) and [Microsoft Copilot Chat](https://www.cmu.edu/computing/services/ai/tools/copilot/index.html). That said, I strongly recommend that you have a CLI (command-line interface) agent or other LLM tool that can help you manage larger projects, such as OpenAI [Codex via ChatGPT Plus](https://openai.com/chatgpt/pricing/), Anthropic [Claude.ai Pro](https://www.anthropic.com/pricing), Google [AI Studio](https://aistudio.google.com/apps), or Google [Antigravity CLI](https://antigravity.google/).  
+* **LLM / Coding Agent Account**. You will need to have an account for an AI coding assistant. As a CMU student, you receive free access to [Google Gemini](https://gemini.google.com/) (chat) and [Microsoft Copilot Chat](https://www.cmu.edu/computing/services/ai/tools/copilot/index.html), which should be sufficient. That said, I strongly recommend that you have a CLI (command-line interface) agent or other LLM tool that can help you manage larger projects, such as OpenAI [Codex via ChatGPT Plus](https://openai.com/chatgpt/pricing/), Anthropic [Claude.ai Pro](https://www.anthropic.com/pricing), Google [AI Studio](https://aistudio.google.com/apps), or Google [Antigravity CLI](https://antigravity.google/).  
 
 
 ### Communication Tools
@@ -171,7 +171,7 @@ This course uses the following software systems to share information:
 * **Discord** — our primary communication channel. Submit your work and ask for help.
 * **Email**. The professor will broadcast summary emails once per week. Please read them.
 * **GitHub**, where lectures, assignments and resources will be posted. 
-* **Zoom**, for remote meetings, *in the unlikely event that circumstances require it.*
+* **Zoom** — potentially — *in the unlikely event that circumstances require it.*
 
 
 ---
