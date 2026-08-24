@@ -140,7 +140,9 @@ More details about each part are below. For each exercise, **remember** to do th
 
 ### 1.5.0. Overview
 
-#### Creative coding is not about making pictures with code. It is about making **systems whose behavior can be seen**.
+This assignment presents the position that 
+
+> *Creative coding is not about making pictures with code; it is about making* ***systems whose behavior can be seen.***
 
 In this assignment, you will explore how different algorithms can allow a single set of random points to give rise to a wide variety of geometric structures. You will be given a p5.js template with a 3×3 grid of panels, where each panel shows the same set of points. Your job is to create a different computational process to interpret the points in each panel. Every panel will show the visible consequence of a different process: the results of a different question asked of the same set of points. 
 
@@ -166,7 +168,7 @@ On completion of *One Point Set, 27 Ways*, students will be able to demonstrate:
 ### 1.5.1. Part A: Coding
 
 > [!CAUTION]
-> **AI coding agents are prohibited for Part A.**
+> **AI coding agents are strictly prohibited for Part A.**
 
 ![lewitt_wall_drawing_118.jpg](img/1/lewitt_wall_drawing_118.jpg)
 > *Sol Lewitt's [Wall Drawing #118](https://massmoca.org/sol-lewitt/) (1971) is a codelike set of instructions that asks drafters to connect each of 50 points to every other.*
@@ -186,6 +188,7 @@ Your job in **Part A** is to write 9 specific functions that interpret these poi
 9. Complete Graph: connect each point to every other (hairball)
 
 ![assignment_1_part_a.png](img/1/assignment_1_part_a.gif)
+
 
 #### Part A Deliverables: 
 
@@ -229,6 +232,31 @@ Using the same [template code](resources/assignment_1_sketch_template.js) as bef
 9. Approximate [smallest enclosing annulus](https://doc.cgal.org/latest/Bounding_volumes/index.html#title3)
 
 ![assignment_1_part_b.gif](img/1/assignment_1_part_b.gif)
+
+<details>
+<summary><strong>What question does each algorithm answer?</strong></summary>
+
+- **Minimum Spanning Tree (Prim's algorithm)** asks:  
+  *“How can all the points be connected using the least total length of line?”*
+- **Minimum-area Oriented Bounding Box (OBB)** asks:  
+  *“What is the smallest-area rectangle, at any rotation, that contains all the points?”*
+- **Delaunay Triangulation (Bowyer-Watson)** asks:  
+  *“How can the points be connected into triangles so that no point lies inside the circumcircle of any triangle?”*  
+  Or more intuitively: *“What triangulation connects nearby points while avoiding unnecessarily skinny triangles?”*
+- **Open Traveling-Salesperson Path (TSP)** asks:  
+  *“What is the shortest path that visits every point exactly once?”*
+- **2D Metaballs / Density Isoline (Marching Squares)** asks:  
+  *“If every point contributes to a continuous field around it, where does the combined field reach a chosen threshold?”*
+- **Convex Hull Peeling / Onion Decomposition** asks:  
+  *“What nested convex boundaries are revealed if we repeatedly remove the outermost layer of points?”*
+- **Principal Component Analysis (PCA), major axis** asks:  
+  *“Along which direction does the point set vary the most?”*  
+  Projecting onto that axis then asks: *“Where does each point fall along that dominant direction?”*
+- **Voronoi Diagram** asks:  
+  *“Which part of the plane is closest to each point? (within some radius)”*  
+- **Smallest Enclosing Annulus** asks:  
+  *“What is the thinnest ring that can contain all the points?”*
+</details>
 
 This list draws from several disciplines, including computational geometry, graph theory, statistics, optimization, and numerical methods. Each field offers different ways of interpreting the same point set: as a spatial arrangement, a network, a statistical distribution, a boundary, a field, a noisy sample of an underlying form, or a path through space.
 
