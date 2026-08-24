@@ -31,7 +31,7 @@
 
 * (*1 minute*) **Bookmark** our [Course GitHub](https://github.com/golanlevin/60-212/blob/main/2026/readme.md) in your laptop's browser, so you can easily find it. Assignments and lecture notes will be shared here.
 * (*1 minute*) **Create** an ID on [Discord.com](https://discord.com/), if you don't already have one. **Join** our class Discord, using the invitation sent to you by email. **Browse** our server's channels so you know what's where.
-* (*1 minutes*) In the `#11-introductions` channel of our course Discord, **introduce** yourself in a sentence or two. Please **share** something about yourself — pets, favorite food, arcane superpowers, etc.
+* (*1 minute*) In the `#11-introductions` channel of our course Discord, **introduce** yourself in a sentence or two. Please **share** something about yourself — pets, favorite food, arcane superpowers, etc.
 * (*2 minutes*) **Create** an ID on [OpenProcessing.org](https://openprocessing.org) (if you don't already have one). **Join** our [OpenProcessing classroom](https://openprocessing.org/class/107236/#/), using the invitation sent to you by email, and **bookmark** it in your laptop's browser. Take a moment to **browse** some of the sketches that people have published at [https://openprocessing.org/discover](https://openprocessing.org/discover). *(Note: the quality varies widely.)* **Run** the programs, and be sure to **look** at their code (*command-shift-return* may help switch to the code view).
 * (*15 minutes*) **Review** our [**Syllabus**](../syllabus/README.md) carefully (!) 
 * (*10 minutes*) **Complete** the 2026 [**60-212 Welcome Form**](https://forms.gle/Dtg5fU9wtkG6q3Fm7).
@@ -302,7 +302,7 @@ We will share and discuss your work in **Part C** on Wednesday, 8/26, at the beg
 
 (*30 minutes*) This exercise has **two parts**: 
 
-* 1.6.1. **Complete** these [Questionnaires on AI Use](https://forms.gle/7kZrFXS3yT3dVe3y5).
+* 1.6.1. **Complete** this [Questionnaire on AI Use](https://forms.gle/7kZrFXS3yT3dVe3y5).
 * 1.6.2. **Write** a brief reflection on Assignment 1.5.
 
 
@@ -311,17 +311,17 @@ We will share and discuss your work in **Part C** on Wednesday, 8/26, at the beg
 (*15 minutes*) Please **complete** the questions in [**this anonymous form**](https://forms.gle/7kZrFXS3yT3dVe3y5), which combines two sets of questions:
 
 * (Part A) **The Fall 2026 CMU Student Survey on AI.** This is a set of 4 questions about AI use by students, produced by CMU's [Eberly Center for Teaching Excellence](https://www.cmu.edu/teaching/technology/aitools/genai-studentsurvey/index.html) for distribution at the start of the fall 2026 semester. The Eberly Center will receive your responses to these questions.
-* (Part B) **Assessing your use of AI in Assignment 1.5.** This is a set of 6 questions which I have generated in collaboration with my doctoral student, Alice Tang, who is researching the impact of AI tools on creative technology practice and education. These questions are part of an IRB-approved study. 
+* (Part B) **Assessing your use of AI in Assignment 1.5.** This is a set of 6 questions developed in collaboration with my doctoral student, Alice Tang, who is researching the impact of AI tools on creative technology practice and education. These questions are part of an IRB-approved study. 
 
 ### 1.6.2. Brief Written Reflection
 
 (*15 minutes*) In the Discord channel `#16-reflection`, please **write** a few sentences about your experience with the *One Point Set, 27 Ways* assignment (1.5). *Please write in your own voice, without AI assistance.*
 
-For your reflection, **pick any one** of the following starting points. (You don't have to select more than one!)
+For your reflection, **pick any one** of the following starting points. (You don't have to address more than one!)
 
 * **What did you learn?** Share something you learned about programming, algorithms, AI coding agents, creative coding, or your own working process.
 * **Compare the experiences** of "coding", "summoning", and "inventing". Where did you feel most engaged, frustrated, capable, or creative?
-* [Seymour Papert](https://en.wikipedia.org/wiki/Seymour_Papert) called the satisfaction of working hard on a difficult problem you care about “[**hard fun**](https://dailypapert.com/hard-fun/)”. Where, if anywhere, did you experience "hard fun" in this assignment? **What effect, if any, did using AI have on that experience?**
+* Seymour Papert used the phrase “[**hard fun**](https://dailypapert.com/hard-fun/)” for the satisfaction of working hard on a difficult problem you care about. Where, if anywhere, did you experience "hard fun" in this assignment? **What effect, if any, did using AI have on that experience?**
 * Did working with your coding agent ever ***click***, allowing you to quickly implement ideas? When did it instead feel confusing, hollow, or alienating? **What made the difference?**
 * After completing all three parts of *One Point Set, 27 Ways*, do you have any new opinions about what is worth knowing how to do yourself, and what you feel comfortable delegating?
 
