@@ -6,15 +6,17 @@ Golan Levin, CMU School of Art
 
 ---
 
-## Assignment
+## A Typical Assignment
 
-Using iteration, generate a set of parallel lines or curves, spaced at narrow intervals. Onto this, overlap another set of lines, differing by a small rotation and/or translation, to create a subtle Moiré pattern. I strongly recommend keeping your composition *simple* and allowing the interference patterns to do the work for you.
+***This isn't your specific assignment***, *but it's an example of the rough outline of what a Moiré assignment might look like. Check the Assignment page to verify your actual list of requirements.*
 
-To achieve the rotation, I recommend that you use the p5.js `rotate()` function. (Here's a [Coding Train tutorial on rotation](https://www.youtube.com/watch?v=o9sgjuh-CBM), if it's helpful, and a [tutorial about rotate() by Xin Xin](https://www.youtube.com/watch?v=maTfm84mLbo).) If you're feeling more advanced, consider creating sets of near-parallel polylines that are subtly perturbed by Perlin noise, as described in [this tutorial](https://www.patreon.com/posts/exploring-moire-61867805) by Maks Surguy.
-
-Place some dimensions of variability (such as the line separation, line weight, position, and/or rotation angle) under time-based or interactive control.
-
-Present your composition in a fullscreen canvas (use `createCanvas(windowWidth, windowHeight)` or the [`fullscreen()`](https://p5js.org/reference/#/p5/fullscreen) command). You may use any colors you prefer.
+> Using iteration, generate a set of parallel lines or curves, spaced at narrow intervals. Onto this, overlap another set of lines, differing by a small rotation and/or translation, to create a subtle Moiré pattern. I strongly recommend keeping your composition *simple* and allowing the interference patterns to do the work for you.
+> 
+> To achieve the rotation, I recommend that you use the p5.js `rotate()` function. (Here's a [Coding Train tutorial on rotation](https://www.youtube.com/watch?v=o9sgjuh-CBM), if it's helpful, and a [tutorial about rotate() by Xin Xin](https://www.youtube.com/watch?v=maTfm84mLbo).) If you're feeling more advanced, consider creating sets of near-parallel polylines that are subtly perturbed by Perlin noise, as described in [this tutorial](https://www.patreon.com/posts/exploring-moire-61867805) by Maks Surguy.
+> 
+> Place some dimensions of variability (such as the line separation, line weight, position, and/or rotation angle) under time-based or interactive control.
+>
+> Present your composition in a fullscreen canvas (use `createCanvas(windowWidth, windowHeight)` or the [`fullscreen()`](https://p5js.org/reference/#/p5/fullscreen) command). You may use any colors you prefer.
 
 <table>
 <tr>
@@ -48,7 +50,7 @@ Moiré patterns are a "real thing" that have effects in the physical world. Here
 
 [**Anoka Faruqee**](https://www.artsy.net/artist/anoka-faruqee), on the painting faculty at Yale, creates paintings that make use of Moiré-type interference patterns. 
 
-[![Anoka Faruqee](../../openprocessing_images/anoka_faruqee_video.jpg)](https://www.youtube.com/watch?v=hYn3Ou8L3o0&t=107s)
+[![Anoka Faruqee](../../openprocessing_images/anoka_faruqee_video.jpg)](https://www.youtube.com/watch?v=hYn3Ou8L3o0&t=107s)<br />@107s
 
 ![Anoka Faruqee, paintings](../../openprocessing_images/anoka_faruqee_paintings.jpg)
 
@@ -90,11 +92,11 @@ Nicolas Sassoon's [*PATTERNS*](http://www.nicolassassoon.com/PATTERNS.html) stun
 
 ![Nicolas Sassoon's *PATTERNS](../../openprocessing_images/nicolas_sassoon_moire.jpg)
 
-Liam Egan creates [interactive Moiré patterns](https://www.fxhash.xyz/generative/slug/euphonic) with lovely colors:
+Liam Egan's [*Euphonic* series](https://objkt.com/collections/fxhash/projects/10982) creates [interactive Moiré patterns](https://objkt.com/tokens/fxhash/612012) with lovely colors:
 
 ![Liam Egan's *Euphonic*](../../openprocessing_images/liam_egan_moire.gif)
 
-Amy Goodchild's lavalike [*No Apologies*](https://foundation.app/@amygoodchild/foundation/80549) animation is mesmerizing.
+Amy Goodchild's lavalike [*No Apologies*](https://vimeo.com/619371894) animation is mesmerizing.
 
 ![Amy Goodchild's *No Apologies*](../../openprocessing_images/amy_goodchild_no_apologies_moire.gif) 
 
@@ -104,14 +106,10 @@ Cacheflowe (Justin Gitlin)'s [*Moiré-Room*](https://cacheflowe.com/art/physical
 
 Takahiro Kurashima's interactive [*Poemotion*](https://www.lars-mueller-publishers.com/poemotion-1) and [*Moirémotion*](https://www.youtube.com/watch?v=zG5omMyxmNI) books explore the closely related phenomenon of "[barrier-grid animation](https://en.wikipedia.org/wiki/Barrier-grid_animation_and_stereography)" or "picket-fence animation":
 
-[![Kurashima's *Moirémotion*](../../openprocessing_images/kurashima_book.jpg)](https://www.youtube.com/watch?v=zG5omMyxmNI)
+[![Kurashima's *Moirémotion*](../../openprocessing_images/kurashima_book.jpg)](https://www.youtube.com/watch?v=zG5omMyxmNI&t=10s)<br />[(Video)](https://www.youtube.com/watch?v=zG5omMyxmNI&t=10s)
 
 ---
 
-![mathijs_delbaere_moire.gif](img/mathijs_delbaere_moire.gif)
-Animation by Mathijs Delbaere.
-
----
 
 Here's some nice work by Zach Lieberman, who has made some lovely shader-based [interference studies](https://x.com/zachlieberman/status/1799588785245618467):
 
@@ -133,8 +131,7 @@ Some additional Moiré work you might like includes:
 * Melissa Weiderrecht's [*Both Be Both*](https://superrare.com/artwork-v2/both-be-both-41921) (2023) animation explores contrasts: "pixelated and soft, glitchy and smooth, digital and textured" ([*image*](../../openprocessing_images/melissa_weiderrecht_both_be_both_moire.jpg))
 * This 1973 quartet of computer plotter drawings by Manfred Mohr obtains intensity from Moiré-type interference ([*image*](../../openprocessing_images/p137_mohr_1973.png)) 
 * Nat Sarkissian's [*Hello Modulo*](https://verse.works/collections/hello-modulo-by-nat-sarkissian) presents a contrast between machinic interference patterns and a 'hand-drawn' (computational) rendering style ([*image*](../../openprocessing_images/nat_sarkissian_moire.jpg))
+* Animation by Mathijs Delbaere: [image](img/mathijs_delbaere_moire.gif)
 * [Loren Bednar's *Phase* NFT](https://opensea.io/collection/phase-by-loren-bednar) ([*image*](../../openprocessing_images/bednar_phase_moire.jpg))
 * [Tutorial for SVG Moiré Patterns in Blender by Maks Surguy](https://www.patreon.com/posts/exploring-moire-61867805)
-* [Mario Klingemann's shader replication of a hex lattice in the Manchester Airport smoking area (Twitter thread)](https://twitter.com/quasimondo/status/1132276597405495298)
-
-![img/hex_lattice_moire.gif](img/hex_lattice_moire.gif)
+* [Mario Klingemann's shader replication of a hex lattice in the Manchester Airport smoking area (Twitter thread)](https://twitter.com/quasimondo/status/1132276597405495298)<br />![img/hex_lattice_moire.gif](img/hex_lattice_moire.gif)
