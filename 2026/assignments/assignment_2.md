@@ -193,6 +193,89 @@ A successful project should reward looking at several scales. Up close, we can u
 1. **Looking Outwards.** Spend 10 minutes checking out the work of professional loopmakers like [Bees and Bombs](https://www.instagram.com/davebeesbombs/), [Melissa Rodriguez](https://objkt.com/profile/tz1UtTasn4DTyb9rHYnLAjxSQHfkvAWtBbAQ/created), [Cindy Suen](https://cargocollective.com/cindysuen), [Lucas Zanotto](https://www.instagram.com/lucas_zanotto/?hl=en), [Andreas Wannerstedt](https://andreaswannerstedt.se/projects) ("Oddly Satisfying" works), [Etienne Jacob](https://bleuje.com/animationsite/), [Paolo Ceric](https://patakk.tumblr.com/), and [DVDP](https://www.instagram.com/dvdp/). You can also check out the wild variety of looping GIFs at the [Objkt.com NFT bazaar](https://objkt.com/tokens?search=GIFDAY2024), which just hosted a [#GIFDAY2024 showcase](https://objkt.com/tokens?search=GIFDAY2024). an In the Discord channel *#25-looking-outwards*, embed or post a link to a loop that you appreciated, and write a sentence or two about what you liked.
 2. **Reading**. Skim the article “[On Repeat: How to Use Loops to Explain Anything](https://www.propublica.org/nerds/on-repeat-how-to-use-loops-to-explain-anything)” by Lena Groeger, a journalist/developer/information-designer at ProPublica. This article is purely for your edification/entertainment; there’s no deliverable for this reading. It should take about 10 minutes to browse this elegant stack.
 
+---
+
+## 2.5. Rhythm Loop with Figure-Ground Reversal
+
+(**90 minutes**) *This is primarily a technical exercise to ensure that you're able to create a loop, and to make sure you're locked in on carefully looking at what you're doing.*
+
+**Create** a temporally seamless, 640x640-pixel looping animation in p5.js with a "figure-ground reversal". A figure-ground reversal occurs when the positive and negative spaces switch roles: what initially appears to be the foreground shape becomes the background, and vice versa.
+
+Here's one example. This was written with 43 lines of p5.js code: 
+
+![bees-knockoff-1.gif](https://raw.githubusercontent.com/golanlevin/60-212/refs/heads/main/2026/assignments/img/2/bees-knockoff-1.gif)
+
+Here's another example; this one differs from the example above by just a single line of code: 
+
+![bees-knockoff-2.gif](https://raw.githubusercontent.com/golanlevin/60-212/refs/heads/main/2026/assignments/img/2/bees-knockoff-2.gif)
+
+For some more examples to inspire you, see: 
+
+* <https://beesandbombs.tumblr.com/image/186503916064>
+* <https://beesandbombs.tumblr.com/image/178459794764>
+* <https://beesandbombs.tumblr.com/image/178493871934>
+* <https://www.instagram.com/p/BslTILaHYwV/>
+* <https://www.instagram.com/p/CwORLIRoFRA/>
+* <https://www.instagram.com/p/Cur8ndtg6B5/>
+* <https://www.instagram.com/p/BuCFzGICmZi/>
+
+
+To support you in this and the following assignment, below is a very simple p5.js program that shows some different ways of making seamless looping movement, and also how to export an animated GIF file. The resulting GIF that it produces is also shown:
+
+```javascript
+let progress = 0;
+let cycleLength = 90; // frames
+
+function setup() {
+  createCanvas(400, 400);
+}
+
+function draw() {
+  background(0);
+  noStroke(); 
+
+  // progress is a number that goes from 0 to 1
+  // it describes where we are in the current cycle
+  progress = (frameCount%cycleLength)/cycleLength;
+
+  // Draw a green square that travels across the screen.
+  // Use the map() function to create proportions/
+  fill("lime"); 
+  let squareSize = 50; 
+  let sx = map(progress, 0,1, 0-squareSize,width); 
+  square(sx,0,squareSize); 
+
+  // Draw a blue circle that travels around. 
+  // Use math to calculate its position.
+  fill("blue"); 
+  let r = 150; 
+  let cx = width/2; 
+  let cy = height/2; 
+  let px = cx + r * cos(progress * TWO_PI); 
+  let py = cy + r * sin(progress * TWO_PI); 
+  circle(px,py, 100); 
+
+  // Draw a rotating red rectangle. Rotate it
+  // using transforms (rotate, translate, etc.)
+  fill("red"); 
+  push(); 
+  translate(200,200); 
+  rotate(progress * 0.5 * TWO_PI); 
+  rect(-75,-50, 150,100); 
+  pop(); 
+}
+
+
+// Save a 3-second gif when the user presses the 's' key.=
+function keyPressed() {
+  if (key == "s") {
+    saveGif("mySketch", 90, { units: "frames" } );
+  }
+}
+```
+
+![savegif-demo.gif](https://raw.githubusercontent.com/golanlevin/60-212/refs/heads/main/2026/assignments/img/2/savegif-demo.gif)
+
 
 ---
 
@@ -238,24 +321,3 @@ Here’s a reminder that you can eliminate visual certain discontinuity hiccups 
 ![Loop Noise](https://raw.githubusercontent.com/golanlevin/60-212/main/openprocessing_images/looping_noise.gif)
 
 ---
-
-<!--
-
-* [this](https://beesandbombs.tumblr.com/image/186503916064)
-* [this](https://beesandbombs.tumblr.com/image/178459794764), 
-* [this](https://www.instagram.com/p/BslTILaHYwV/).
-
-
-// Old assignments
-
-* 24: Iteration & Graphics Transforms: Moiré Pattern
-	* https://openprocessing.org/class/93074/#/c/93248
-	* https://openprocessing.org/class/100952/#/c/101252
-* 7.6. Generative Composition: Hexagonal Truchet Tiles,
-	* https://openprocessing.org/class/93074/#/c/94624
-	* https://openprocessing.org/class/100952/#/c/101942
-* 29: Rhythm Loop: 
-	* https://openprocessing.org/class/93074/#/c/93560
-	* https://openprocessing.org/class/100952#/
-
--->
