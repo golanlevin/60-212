@@ -199,7 +199,7 @@ A successful project should reward looking at several scales. Up close, we can u
 
 (**90 minutes**) *This is primarily a technical exercise to ensure that you're able to create a loop, and to make sure you're locked in on carefully looking at what you're doing.*
 
-**Create** a temporally seamless, 640x640-pixel looping animation in p5.js with a "figure-ground reversal". A figure-ground reversal occurs when the positive and negative spaces switch roles: what initially appears to be the foreground shape becomes the background, and vice versa.
+**Create** a simple, temporally seamless, 640x640-pixel looping animation in p5.js with a "figure-ground reversal". A figure-ground reversal occurs when the positive and negative spaces switch roles: what initially appears to be the foreground shape becomes the background, and vice versa.
 
 Here's one example. This was written with 43 lines of p5.js code: 
 
@@ -218,7 +218,6 @@ For some more examples to inspire you, see:
 * <https://www.instagram.com/p/CwORLIRoFRA/>
 * <https://www.instagram.com/p/Cur8ndtg6B5/>
 * <https://www.instagram.com/p/BuCFzGICmZi/>
-
 
 To support you in this and the following assignment, below is a very simple p5.js program that shows some different ways of making seamless looping movement, and also how to export an animated GIF file. The resulting GIF that it produces is also shown:
 
