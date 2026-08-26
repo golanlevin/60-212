@@ -52,7 +52,7 @@ Approximate intensity trajectory of the assignments:
 ## Calendar & Daily Meeting Notes
 
 * `Mon 08/24` — [Hello World!](daily_notes/20260824.md)
-* `Wed 08/26` — [Notes](20260826.md); [**Assignment #1 Due**](assignments/assignment_1.md) (Points and Lines)
+* `Wed 08/26` — [Notes](daily_notes/20260826.md); [**Assignment #1 Due**](assignments/assignment_1.md) (Points and Lines)
 * `Mon 08/31` 
 * `Wed 09/02` — #2 Due (Loops)
 * `Mon 09/07` — *No session (Labor Day)*
