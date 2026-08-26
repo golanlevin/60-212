@@ -4,10 +4,9 @@
 
 ### Due Wednesday, September 2, 2026
 
-<!--
+
 <img src="../../openprocessing_images/loop-dinkolas.gif" width="200" height="200"> <img src="../../openprocessing_images/loop-alyssa.gif" width="200" height="200"> <img src="../../openprocessing_images/loop-jun.gif" width="200" height="200">
 <img src="../../openprocessing_images/loop-yulissa.gif" width="200" height="200"><br />*Some loops by previous Art undergraduates in 60-212.*
--->
 
 
 Our second set of Deliverables is due at the beginning of class on Wednesday, September 2. The primary topics it emphasizes are iteration, pattern, and looping movement. I estimate that it will take you about 6-7 hours.

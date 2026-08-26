@@ -18,7 +18,7 @@
 There are 10 sets of assignments. Unless otherwise noted, projects should be *submitted* in [OpenProcessing](https://openprocessing.org/class/107236/#/) and *documented* in our course Discord. 
 
 * `Wed 08/26` — [**#1 Due**](assignments/assignment_1.md) (Form; Points and Lines) 
-* `Wed 09/02` — #2 Due (Movement; Illusion, Loops)
+* `Wed 09/02` — [**#2 Due**](assignments/assignment_2.md) (Movement; Illusion, Loops)
 * `Mon 09/14` — #3 Due (Pattern; Color)
 * `Wed 09/23` — #4 Due (Camera/Puppet)
 * `Wed 10/07` — #5 Due (Speech/AI-Buffet)
@@ -52,7 +52,7 @@ Approximate intensity trajectory of the assignments:
 ## Calendar & Daily Meeting Notes
 
 * `Mon 08/24` — [Hello World!](daily_notes/20260824.md)
-* `Wed 08/26` — [**Assignment #1 Due**](assignments/assignment_1.md) (Points and Lines)
+* `Wed 08/26` — [Notes](20260826.md); [**Assignment #1 Due**](assignments/assignment_1.md) (Points and Lines)
 * `Mon 08/31` 
 * `Wed 09/02` — #2 Due (Loops)
 * `Mon 09/07` — *No session (Labor Day)*
