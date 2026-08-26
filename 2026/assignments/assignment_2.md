@@ -102,6 +102,8 @@ You will need to expand the original set of two Truchet tiles. **Ask** yourself:
 
 ## 2.3. Aperiodic Truchet Tiling
 
+![fisheinstein-georglind.jpeg](img/2/fisheinstein-georglind.jpeg)
+
 **(90 minutes)** *In the previous exercise, you modified a simple square Truchet tiling so that colors and curves agreed across the boundaries between tiles. In this exercise, the grid itself gets much stranger.*
 
 Use [this OpenProcessing slot](https://openprocessing.org/class/107236/#/c/107370) to host this project.
