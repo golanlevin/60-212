@@ -13,12 +13,12 @@ Our second set of Deliverables is due at the beginning of class on Wednesday, Se
 
 We are still in a phase of the course that emphasizes the development of programming skills, knowledge of your toolset, careful observation, and precision execution. In terms of creative expression, this is not a particularly “open-ended” set of Deliverables. Things will open out more, soon, however. 
 
-* (30 minutes) 2.1. [Moiré Pattern Composition](https://openprocessing.org/class/107236/#/c/107368)
-* (30 minutes) 2.2. [Simple Duotone Truchet Tiling](https://openprocessing.org/class/107236/#/c/107369)
-* (90 minutes) 2.3. [Aperiodic Truchet Tiling](https://openprocessing.org/class/107236/#/c/107370)
-* (30 minutes) 2.4. [Reading and Looking: Loops](#24-reading-and-looking-loops) (see below)
-* (90 minutes) 2.5. [Rhythm Loop with Figure-Ground Reversal](https://openprocessing.org/class/107236/#/c/107377)
-* (120 minutes) 2.6. [Freestyle Rhythm Loop](https://openprocessing.org/class/107236/#/c/107371)
+* (30 minutes) 2.1. [Moiré Pattern Composition](https://openprocessing.org/class/107236/#/c/107368) (15%)
+* (30 minutes) 2.2. [Simple Duotone Truchet Tiling](https://openprocessing.org/class/107236/#/c/107369) (10%)
+* (90 minutes) 2.3. [Aperiodic Truchet Tiling](https://openprocessing.org/class/107236/#/c/107370) (20%)
+* (30 minutes) 2.4. [Reading and Looking: Loops](#24-reading-and-looking-loops) (10%)
+* (90 minutes) 2.5. [Rhythm Loop with Figure-Ground Reversal](https://openprocessing.org/class/107236/#/c/107377) (20%)
+* (120 minutes) 2.6. [Freestyle Rhythm Loop](https://openprocessing.org/class/107236/#/c/107371) (25%)
 
 ---
 
@@ -198,11 +198,13 @@ A successful project should reward looking at several scales. Up close, we can u
 
 ## 2.5. Rhythm Loop with Figure-Ground Reversal
 
+![blackorwhite.jpg](img/2/blackorwhite.jpg)
+
 (**90 minutes**) *This is primarily a technical exercise to ensure that you're able to create a loop, and to make sure you're locked in on carefully looking at what you're doing.*
 
 **Create** a simple, temporally seamless, 640x640-pixel looping animation in p5.js with a "figure-ground reversal". A figure-ground reversal occurs when the positive and negative spaces switch roles: what initially appears to be the foreground shape becomes the background, and vice versa.
 
-Here's one example. This was written with 43 lines of p5.js code: 
+Here's one example. This GIF was exported from a sketch with just 33 lines of p5.js code: 
 
 ![bees-knockoff-1.gif](https://raw.githubusercontent.com/golanlevin/60-212/refs/heads/main/2026/assignments/img/2/bees-knockoff-1.gif)
 
@@ -265,7 +267,6 @@ function draw() {
   pop(); 
 }
 
-
 // Save a 3-second gif when the user presses the 's' key.=
 function keyPressed() {
   if (key == "s") {
@@ -283,18 +284,18 @@ function keyPressed() {
 
 ![Rect loop](https://raw.githubusercontent.com/golanlevin/60-212/main/openprocessing_images/rect-loop-demo.gif)
 
-(**2 hours**) In this mini-project, you will explore visual rhythm— by creating a seamlessly looping, animated GIF using computationally generated graphics. In addition to the code-based project [presented on OpenProcessing](https://openprocessing.org/class/107236/#/c/107371), you are also expected to **post** your exported GIF to the `#26-rhythm-loop` channel of our Discord, along with a brief **writeup** about your design. Use [this OpenProcessing slot](https://openprocessing.org/class/107236/#/c/107371) to host your project.
+(**2 hours**) In this mini-project, you will explore visual rhythm, by creating a seamlessly looping, animated GIF using computationally generated graphics. In addition to the code-based project [presented on OpenProcessing](https://openprocessing.org/class/107236/#/c/107371), you are also expected to **post** your exported GIF to the `#26-rhythm-loop` channel of our Discord, along with a brief **writeup** about your design. Use [this OpenProcessing slot](https://openprocessing.org/class/107236/#/c/107371) to host your project.
 
-This is a mini-project, so **SKETCH FIRST** and **KEEP IT SIMPLE**. There are several important constraints:
+This is a mini-project, so please **SKETCH FIRST** and **KEEP IT SIMPLE**. There are several important constraints:
 
 * Your canvas must be **square**, with dimensions of exactly 640×640 pixels. The square format and resolution are important, as these will allow us to exhibit your work consistently later.
 * Your looping GIF must be **seamless**: it should be impossible to determine the moment at which your loop “begins”, and there should be no hiccups or jarring discontinuities.
-* Your design is restricted to using exactly **2,3, or 4 colors**: ultra-flat with no transparency blending, please. One possibility is to have a background, foreground, and special spot (highlight) color. (If you use alpha transparency or blend modes, your GIF will likely  have too many colors and won't work well!)
-* To create expressive animation, you are encouraged to experiment with the **[p5.func](https://idmnyu.github.io/p5.js-func/)** library for shaping/easing functions.
-* To export an animated GIF of your project, you should probably use the [`saveGif()`](https://p5js.org/reference/p5/saveGif/) function. 
-* After you upload your GIF, you may wish to use a tool like [ezgif.com](https://ezgif.com/optimize) to **optimize** it and reduce its file size. Please keep your GIF under 8MB in order to be able to upload it to Discord!
+* Your design is restricted to using exactly **2,3, or 4 colors**: ultra-flat with no transparency blending, please. One possibility is to have a background, foreground, and special spot (highlight) color. (If you use alpha transparency or blend modes, your GIF will likely have too many colors and won't work well!)
+* To export an animated GIF of your project, you should probably use the [`saveGif()`](https://p5js.org/reference/p5/saveGif/) function.
+* Optionally, to create expressive animation, you are encouraged to **experiment** with the **[p5.func](https://idmnyu.github.io/p5.js-func/)** library for shaping/easing functions.
+* After you upload your GIF, you may wish to use a tool like [ezgif.com](https://ezgif.com/optimize) to **optimize** it and reduce its file size. *Please keep your GIF under 8MB in order to be able to upload it to Discord!*
 
-You can see these constraints in the example above (whose code is [here](https://editor.p5js.org/golan/sketches/b6pgPm9Ab)). There are only **3 flat colors** (black, white, red); the loop is **seamless**; the dimensions are square. Notice how there is a "graphical concept" or "premise" (the roundedness of the corners circulate around the design; the corners of the red shape kiss the corners of the white one, etc.). *To be extremely clear, I am NOT asking you to reproduce this design!*
+You can see these constraints in the example above (whose code is [here](https://editor.p5js.org/golan/sketches/b6pgPm9Ab)). There are only **3 flat colors** (black, white, red); the loop is **seamless**; the dimensions are square. Notice how there is a "graphical concept" or "premise" (the roundedness of the corners circulate around the design; the corners of the red shape kiss the corners of the white one, etc.). *To be extremely clear, I am NOT asking you to reproduce this design!* This exercise be a good place to re-use some of the computational geometry code you developed for Assignment 1.
 
 If it's helpful, here's a Coding Train tutorial on [creating a seamless loop in p5.js](https://thecodingtrain.com/challenges/135-making-a-gif-loop-in-processing) (with shaping functions!), as well as an [older Coding Train walkthrough](https://www.youtube.com/watch?v=c6K-wJQ77yQ) and [my own video demo](https://www.youtube.com/watch?v=-HPjv-KVUe0) of a similar workflow. For my own 12-minute overview about shaping functions, [see this video](https://www.youtube.com/watch?v=wJRgAs6rbUY).
 
@@ -302,7 +303,7 @@ If it's helpful, here's a Coding Train tutorial on [creating a seamless loop in 
 
 MORE INFORMATION
 
-Here’s a sketch showing the use of a progress variable that goes from 0 to 1 each loop: [[@OpenProcessing](https://openprocessing.org/sketch/1464775) / [@Editor.p5](https://editor.p5js.org/golan/sketches/EmjMT6z_P)]. This demo also introduces some of the simplest possible shaping functions (sq and sqrt):
+Here’s a sketch showing the use of a progress variable that goes from 0 to 1 each loop: [[@OpenProcessing](https://openprocessing.org/sketch/1464775) / [@Editor.p5](https://editor.p5js.org/golan/sketches/EmjMT6z_P)]. This demo also introduces some of the simplest possible shaping functions (`sq()` and `sqrt()`):
 
 ![Loop Progress, Shaped](https://raw.githubusercontent.com/golanlevin/60-212/main/openprocessing_images/animloop-progress-shaped.gif)
 
@@ -317,7 +318,5 @@ Here’s a template for a Lissajous-inspired loop using `sin()` and `cos()`: [At
 Here’s a reminder that you can eliminate visual certain discontinuity hiccups by going all the way offscreen: [At OpenProcessing](https://openprocessing.org/sketch/1464781) • [At Editor.p5js.org](https://editor.p5js.org/golan/sketches/s42vcR_pO)
 
 ![Loop offscreen](https://raw.githubusercontent.com/golanlevin/60-212/main/openprocessing_images/looping_offscreen.gif)
-
-![Loop Noise](https://raw.githubusercontent.com/golanlevin/60-212/main/openprocessing_images/looping_noise.gif)
 
 ---

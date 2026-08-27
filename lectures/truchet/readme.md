@@ -9,7 +9,7 @@ Vera Molnár, *Untitled (Quatre éléments distribués au hasard)*, 1959:
 
 ![molnar_1959.jpg](molnar_1959.jpg)
 
-Anna Carreras, [*Trossets*](https://www.artblocks.io/curated/collections/trossets-by-anna-carreras?tab=Artworks), 2021:
+Anna Carreras, [*Trossets*](https://www.artblocks.io/collection/trossets-by-anna-carreras), 2021:
 
 ![anna_carreras_2021.png](anna_carreras_2021.png)
 
