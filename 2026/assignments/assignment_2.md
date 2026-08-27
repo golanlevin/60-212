@@ -280,7 +280,7 @@ function keyPressed() {
 
 ---
 
-## 2.6. Rhythm Loop
+## 2.6. Freestyle Rhythm Loop
 
 ![Rect loop](https://raw.githubusercontent.com/golanlevin/60-212/main/openprocessing_images/rect-loop-demo.gif)
 

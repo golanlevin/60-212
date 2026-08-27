@@ -52,9 +52,9 @@ Approximate intensity trajectory of the assignments:
 ## Calendar & Daily Meeting Notes
 
 * `Mon 08/24` — [Hello World!](daily_notes/20260824.md)
-* `Wed 08/26` — [Notes](daily_notes/20260826.md); [**Assignment #1 Due**](assignments/assignment_1.md) (Points and Lines)
-* `Mon 08/31` 
-* `Wed 09/02` — #2 Due (Loops)
+* `Wed 08/26` — [Notes](daily_notes/20260826.md); [**#1 Due**](assignments/assignment_1.md) (Points and Lines)
+* `Mon 08/31` — [Notes](daily_notes/20260831.md); work session
+* `Wed 09/02` — [**#2 Due**](assignments/assignment_2.md) (Pattern; Loops)
 * `Mon 09/07` — *No session (Labor Day)*
 * `Wed 09/09` — Guest visit ([David Aerne](https://elastiq.ch/))
 * `Mon 09/14` — #3 Due (Color); Guest visit ([Patrick Hübner](https://www.patrik-huebner.com/))
