@@ -11,7 +11,7 @@
 
 Our second set of Deliverables is due at the beginning of class on Wednesday, September 2. The primary topics it emphasizes are iteration, pattern, and looping movement. I estimate that it will take you about 6-7 hours.
 
-We are still in a phase of the course that emphasizes the development of programming skills, knowledge of your toolset, careful observation, and precision execution. In terms of creative expression, this is not a particularly “open-ended” set of Deliverables. Things will open out more, soon, however. 
+We are still in a phase of the course that emphasizes the development of programming skills, knowledge of your toolset, careful observation, and precision execution. In terms of creative expression, I'm sorry to say that this is not yet a particularly “open-ended” set of Deliverables. Things will open out more, soon, however. 
 
 * (30 minutes) 2.1. [Moiré Pattern Composition](https://openprocessing.org/class/107236/#/c/107368) (15%)
 * (30 minutes) 2.2. [Simple Duotone Truchet Tiling](https://openprocessing.org/class/107236/#/c/107369) (10%)
@@ -299,9 +299,7 @@ You can see these constraints in the example above (whose code is [here](https:/
 
 If it's helpful, here's a Coding Train tutorial on [creating a seamless loop in p5.js](https://thecodingtrain.com/challenges/135-making-a-gif-loop-in-processing) (with shaping functions!), as well as an [older Coding Train walkthrough](https://www.youtube.com/watch?v=c6K-wJQ77yQ) and [my own video demo](https://www.youtube.com/watch?v=-HPjv-KVUe0) of a similar workflow. For my own 12-minute overview about shaping functions, [see this video](https://www.youtube.com/watch?v=wJRgAs6rbUY).
 
-![loop-func-giffer.gif](https://raw.githubusercontent.com/golanlevin/60-212/main/openprocessing_images/loop-func-giffer.gif)
-
-MORE INFORMATION
+### MORE INFORMATION
 
 Here’s a sketch showing the use of a progress variable that goes from 0 to 1 each loop: [[@OpenProcessing](https://openprocessing.org/sketch/1464775) / [@Editor.p5](https://editor.p5js.org/golan/sketches/EmjMT6z_P)]. This demo also introduces some of the simplest possible shaping functions (`sq()` and `sqrt()`):
 
