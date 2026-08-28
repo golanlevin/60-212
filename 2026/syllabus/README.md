@@ -186,6 +186,7 @@ In brief:
 * **Avoidant Absence on Critique Days:** Being behind does not excuse withdrawal.
 * **Health-Related Absences:** Don't infect the room; I don't need medical details.
 * **Classroom Recordings:** The classroom is deliberately ephemeral.
+* **Auditing:** Nope; participation requires stakes.
 
 ### Excused and Excessive Absences
 
@@ -244,11 +245,16 @@ If an ongoing medical or disability-related condition is likely to affect your a
 This course is intended to be experienced **in person, in the room, and in the moment**. To preserve the spontaneity and candor of our classroom environment—and to minimize the amount of surveillance and recording in our lives—class sessions are ordinarily **not recorded or livestreamed**. I do not provide recordings, livestreams, or Zoom connections for absent students, and students should not make their own audio, video, or screen recordings of class without permission. Exceptions will, of course, be made when recording or remote access is required as part of an approved disability accommodation.
 
 
+### Auditing
+
+I do not permit students to audit this course. 60-212 is a hands-on studio course that requires significant effort and participation, and **I believe everyone in the room needs to have skin in the game**. If you are participating in our critiques, discussions, and studio culture, you should also be making the work, meeting the deadlines, and subjecting your own work to the same scrutiny as everyone else.
+
+
 ---
 
 # Grading and Evaluation Policies
 
-***My Opinion of Your Work is Not Your Grade; Your Grade is Not My Opinion of Your Work.***
+***My Opinion of Your Work is Not Your Grade; <br/>Your Grade is Not My Opinion of Your Work.***
 
 In this course, your work is considered through three different lenses, which are decoupled to the greatest extent possible:
 
