@@ -25,11 +25,11 @@ We are still in a phase of the course that emphasizes the development of program
 
 ## 2.1. Moiré Composition (Iteration, Transforms, Pattern)
 
-(**30 minutes**) First, please take a few minutes to **review** [this lecture about Moiré patterns](https://github.com/golanlevin/60-212/blob/main/lectures/moire/README.md) in art. 
+(**30 minutes**) First and foremost: I want to make sure that you understand what the Moiré phenomenon *is*. You are not simply making a composition with a lot of lines; you are asked to constructing a composition from *interference patterns*. **Please take a few minutes to carefully review [this lecture about Moiré patterns](https://github.com/golanlevin/60-212/blob/main/lectures/moire/README.md)**, especially if you have any doubts about what I'm referring to. 
 
 *I would strongly prefer that you didn't use AI for this exercise. The `for`-loops it requires should be well within your abilities, and much of what leads to success here is your craft — the extent to which you are in command of subtle perceptual details.*
 
-Now: **write** a program which uses iteration to generate a compelling [Moiré pattern](https://en.wikipedia.org/wiki/Moir%C3%A9_pattern) composition. Begin with a set of parallel lines or curves, spaced at narrow intervals. Onto this, **overlap** another set of very similar lines, which differ by a very small rotation, translation, and/or other distortion, to create a subtle Moiré. Use [this OpenProcessing slot](https://openprocessing.org/class/107236/#/c/107368) to host your project.
+Now: **write** a program which uses iteration to generate a compelling [Moiré pattern](https://en.wikipedia.org/wiki/Moir%C3%A9_pattern) composition. Begin with a set of parallel lines or curves, spaced at narrow intervals. Onto this, **overlap** a second set of very similar lines, which differ by a very small rotation, translation, and/or other distortion. By means of their interference, these two sets of lines should produce a third, *implicit* set of lines that you never explicitly drew — a subtle Moiré. Use [this OpenProcessing slot](https://openprocessing.org/class/107236/#/c/107368) to host your project.
 
 You may use any colors you prefer. That said, for this project, **less is more.** Keep your composition **simple**, maintain a light touch, and allow the interference patterns to do the work for you!
 
