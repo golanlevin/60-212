@@ -15,7 +15,7 @@ We are still in a phase of the course that emphasizes the development of program
 
 * (30 minutes) 2.1. [Moiré Pattern Composition](https://openprocessing.org/class/107236/#/c/107368) (15%)
 * (30 minutes) 2.2. [Simple Duotone Truchet Tiling](https://openprocessing.org/class/107236/#/c/107369) (10%)
-* (90 minutes) 2.3. [Aperiodic Truchet Tiling](https://openprocessing.org/class/107236/#/c/107370) (20%)
+* (90 minutes) 2.3. [Non-Square Tiling](https://openprocessing.org/class/107236/#/c/107370) (20%)
 * (30 minutes) 2.4. [Reading and Looking: Loops](#24-reading-and-looking-loops) (10%)
 * (90 minutes) 2.5. [Rhythm Loop with Figure-Ground Reversal](https://openprocessing.org/class/107236/#/c/107377) (20%)
 * (120 minutes) 2.6. [Freestyle Rhythm Loop](https://openprocessing.org/class/107236/#/c/107371) (25%)
@@ -100,15 +100,27 @@ You will need to expand the original set of two Truchet tiles. **Ask** yourself:
 
 ---
 
-## 2.3. Aperiodic Truchet Tiling
+## 2.3. Non-Square Tiling
 
-![fisheinstein-georglind.jpeg](img/2/fisheinstein-georglind.jpeg)
+*(REVISED FROM Aperiodic Truchet Tiling)*
 
 **(90 minutes)** *In the previous exercise, you modified a simple square Truchet tiling so that colors and curves agreed across the boundaries between tiles. In this exercise, the grid itself gets much stranger.*
 
 Use [this OpenProcessing slot](https://openprocessing.org/class/107236/#/c/107370) to host this project.
 
-### About Aperiodic Tilings
+### **UPDATE: MAKE A *NON-SQUARE* TILING**
+
+As you will recall, [**Truchet tiles**](https://github.com/golanlevin/lectures/tree/master/lecture_pattern#truchet--related-patternmaking) can help form a wide range of patterns. Their modular nature makes them ideal for generative art, where algorithmic placement can produce emergent visual patterns from simple, repeating components. In this exercise you will create a generative composition based on **non-square** Truchet tiles. You may select **any non-square tiling you prefer** (including hexagonal), including periodic tilings. 
+
+[![nonsquare-grids.png](img/2/nonsquare-grids.png)](https://en.wikipedia.org/wiki/List_of_Euclidean_uniform_tilings)
+
+There are some **terrific indexes of different tiling patterns** here: 
+
+* <https://en.wikipedia.org/wiki/List_of_Euclidean_uniform_tilings>
+* <https://en.wikipedia.org/wiki/Euclidean_tilings_by_convex_regular_polygons>
+* <https://en.wikipedia.org/wiki/List_of_k-uniform_tilings>
+
+### FYI / FWIW: About Aperiodic Tilings
 
 Most familiar tilings are **periodic**: somewhere in the pattern there is a translation that makes the entire tiling coincide with itself. Checkerboards, brick walls, and hexagonal honeycombs all repeat themselves. An **aperiodic set of tiles** is stranger: the tiles can cover the entire plane without gaps or overlaps, but **cannot do so periodically**.
 
@@ -118,7 +130,7 @@ In the 1960s, mathematicians discovered the first such tile sets, initially requ
 
 This suggested the question: "Could a *single* tile force the plane to be tiled aperiodically?" Such a hypothetical shape became known as an **einstein** (from German, meaning "one stone"). For decades, nobody knew whether such a tile existed. Then, in 2023, shape enthusiast David Smith discovered an extraordinary 14-sided polygon he called [**Tile(1,1)**](https://polytope.miraheze.org/wiki/Tile(1,1)). Working with a global team of mathematicians, Smith showed that, if reflections are disallowed, then Tile(1,1) is an aperiodic monotile. That's the tile shape we'll use for this exercise. Below are the coordinates of its vertices, and a photo of one of Smith's experiments with it:
 
-```
+```javascript
 const rt3 = Math.sqrt(3);
 const tile11 = [
   [0.0,             0.0],
@@ -142,48 +154,44 @@ const tile11 = [
 
 ### Your Challenge
 
-**Create** a Truchet-like design that seamlessly spans an aperiodic tiling made entirely from copies of Tile(1,1).
+**Create** a Truchet-like design that seamlessly spans an non-square tiling. You could use hexagons, triangles, [something from this list](https://en.wikipedia.org/wiki/List_of_Euclidean_uniform_tilings), or a tiling made entirely from copies of Tile(1,1). Your tiling can be periodic or aperiodic. 
 
-You are **allowed to use AI** to help you generate the underlying Tile(1,1) tiling. You do not need to derive or understand the mathematics of its aperiodic substitution system — although you should be able to explain generally what the code is doing. Your real problem begins **after you have the tiling working**: 
+You are **allowed to use AI** to help you generate the underlying tiling. You do not need to derive or understand the mathematics — although you should be able to explain generally what the code is doing. Your real problem begins **after you have the tiling working**: 
 
-**Design** a modular graphic system for the Tile(1,1) shape. When many copies of your decorated tile are assembled, marks should connect seamlessly across their shared edges, producing larger visual structures that are not explicitly drawn anywhere. The key challenge is: 
+**Design** a modular graphic system for your tile shape(s). When many copies of your decorated tiles are assembled, *marks should connect seamlessly across their shared edges*, producing larger visual structures that are not explicitly drawn anywhere. The key challenge is: 
 
 > **Modular elements, randomized; larger structures seemingly emerging therefrom.**
 
-Your program should not simply draw an interesting picture *inside each tile*. Lines, bands, colors, contours, paths, or other graphical elements should **enter and leave tiles in ways that connect with their neighbors**. Ideally, when the tile outlines are hidden, it should become difficult to tell where one Tile(1,1) ends and another begins.
+Your program should not simply draw an interesting picture *inside each tile*. Lines, bands, colors, contours, paths, or other graphical elements should **enter and leave tiles in ways that connect with their neighbors**. Ideally, when the tile outlines are hidden, it should become difficult to tell where one tile ends and another begins.
 
 ### Think Like a Truchet Designer
 
 In the previous exercise, you learned that a tile cannot always be placed without considering its neighbors. Its edges carry information about what may legally touch them. Apply that idea here.
 
-* **Study** the geometry of Tile(1,1). It has many more edges than a square, but because copies meet edge-to-edge, every shared edge creates an opportunity for continuity.
-* **Print out** some tilings (you can use [this image](img/2/tile11.png)) and **draw** with a pencil!
+* **Study** the geometry of your preferred tile set (possibly including Tile(1,1)). Because copies meet edge-to-edge, every shared edge creates an opportunity for continuity.
 * **Decide** what information your design needs to communicate across those edges. For example, you might consider:
 	* where a line or band crosses an edge;
 	* whether an edge carries one color or another;
 	* which edges should become connected through the interior of a tile;
-	* whether several different decorations of the same Tile(1,1) can be chosen while remaining mutually compatible;
+	* whether several different decorations of the same tile can be chosen while remaining mutually compatible;
 	* whether a decision made in one tile should constrain the appearance of its neighbors.
 
-You do **not** need to imitate the circular arcs of traditional Truchet tiles. Invent a visual vocabulary appropriate to this strange 14-sided shape.
+You do **not** need to imitate the circular arcs of traditional Truchet tiles. Invent a visual vocabulary appropriate to your selected tiling. ([Here's](https://raw.githubusercontent.com/golanlevin/60-212/refs/heads/main/2026/assignments/img/2/fisheinstein-georglind.jpeg) an example of someone who has done this for Tile(1,1).)
 
 ### Requirements
 
 Your sketch must:
 
-* cover the visible canvas with an **aperiodic Tile(1,1) tiling**;
-* use only translated and rotated copies of Tile(1,1), **not reflected copies**;
-* apply your own modular graphic design to the tiles;
-* make graphical structures connect **seamlessly across tile boundaries**;
-* contain meaningful variation between tiles rather than simply stamping the identical decorated polygon everywhere;
+* cover the visible canvas with a **non-square tiling**, such as a hexagonal tiling or aperiodic Tile(1,1) tiling. (If you do use Tile(1,1), use only translated and rotated copies of Tile(1,1) — **not reflected copies**).
+* apply your own modular design to the tiles;
+* ensure that graphical structures connect **seamlessly across tile boundaries**;
 * allow the tile outlines to be hidden, so that the emergent larger-scale structure becomes visible;
 * generate a new variation when the sketch is clicked.
 
-You may use AI extensively for the **aperiodic tiling machinery**. You may also ask AI technical questions while developing your design. But the **visual system and the decisions about how modules connect across boundaries are yours**. Do not ask an AI to invent or implement the finished design for you.
+You may use AI extensively for the **tiling machinery**. You may also ask AI technical questions while developing your design. But the **visual system and the decisions about how modules connect across boundaries are yours**. Do not ask an AI to invent or implement the finished design for you.
 
-This is not primarily an exercise about aperiodic-tiling mathematics. Tile(1,1) is providing you with an unusually complicated substrate for a familiar creative-coding problem: **How can simple local decisions produce convincing global structure?**
+This is not primarily an exercise about tiling mathematics. Your main challenge is to see **how can simple local decisions produce convincing global structure?** A successful project should reward looking at different scales.
 
-A successful project should reward looking at several scales. Up close, we can understand the individual modules and their rules. From farther away, those modules should cease to dominate, and larger structures should seem to emerge from their interactions. The strongest solutions will make those larger structures feel simultaneously **surprising and inevitable**: clearly governed by rules, but not obviously designed in advance.
 
 ---
 
