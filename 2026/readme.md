@@ -19,7 +19,7 @@ There are 10 sets of assignments. Unless otherwise noted, projects should be *su
 
 * `Wed 08/26` — [**#1 Due**](assignments/assignment_1.md) (Form; Points and Lines) 
 * `Wed 09/02` — [**#2 Due**](assignments/assignment_2.md) (Movement; Illusion, Loops)
-* `Mon 09/14` — #3 Due (Pattern; Color)
+* `Mon 09/14` — [**#3 Due**](assignments/assignment_3_color.md) (Pattern; Color)
 * `Wed 09/23` — #4 Due (Camera/Puppet)
 * `Wed 10/07` — #5 Due (Speech/AI-Buffet)
 * `Mon 10/26` — #6 Due (Pixel Logics; Shaders)
@@ -54,10 +54,10 @@ Approximate intensity trajectory of the assignments:
 * `Mon 08/24` — [Hello World!](daily_notes/20260824.md)
 * `Wed 08/26` — [Notes](daily_notes/20260826.md); [**#1 Due**](assignments/assignment_1.md) (Points and Lines)
 * `Mon 08/31` — [Notes](daily_notes/20260831.md); work session
-* `Wed 09/02` — [**#2 Due**](assignments/assignment_2.md) (Pattern; Loops)
+* `Wed 09/02` — [Notes](daily_notes/20260902.md); [**#2 Due**](assignments/assignment_2.md) (Pattern; Loops)
 * `Mon 09/07` — *No session (Labor Day)*
 * `Wed 09/09` — Guest visit ([David Aerne](https://elastiq.ch/))
-* `Mon 09/14` — #3 Due (Color); Guest visit ([Patrick Hübner](https://www.patrik-huebner.com/))
+* `Mon 09/14` — [**#3 Due**](assignments/assignment_3_color.md) (Color); Guest visit ([Patrick Hübner](https://www.patrik-huebner.com/))
 * `Wed 09/16` 
 * `Mon 09/21` 
 * `Wed 09/23` — #4 Due (Mic/Cam/Puppet)

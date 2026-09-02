@@ -1,4 +1,4 @@
-# Color
+# Color & Computing
 
 ![cercis-canadensis.jpg](cercis-canadensis.jpg)
 
@@ -14,7 +14,7 @@
 
 ![yellowoverpurple.jpg](yellowoverpurple.jpg)
 
-Josef Albers' discoveries of color relativity highlight how the perception of a color is influenced by its surrounding colors. He demonstrated that colors are not seen in isolation; instead, they interact with adjacent colors, often altering how we perceive them. He showed that a single color can appear differently depending on context, subjectively and dynamically, showing that understanding color requires direct experimentation and observation rather than relying solely on theory.
+Josef Albers' discoveries of **color relativity** highlight how the perception of a color is influenced by its surrounding colors. He demonstrated that colors are not seen in isolation; instead, they interact with adjacent colors, often altering how we perceive them. He showed that a single color can appear differently depending on context, subjectively and dynamically, showing that understanding color requires direct experimentation and observation rather than relying solely on theory.
 
 
 **Make three colors look like four:**
@@ -148,7 +148,7 @@ OKLab is an improvement over the CIELAB color space, [introduced by Björn Ottos
 
 #### Artworks
 
-* Kjetil Golid's [**Archetype**](https://www.artblocks.io/curated/collections/archetype-by-kjetil-golid?tab=Artworks)
+* Kjetil Golid's [**Archetype**](https://www.artblocks.io/collection/archetype-by-kjetil-golid)
 * Anatoly Zenkov's [**Parametric Pottery**](https://anatolyzenkov.com/parametric-pottery/preview/22) (click!) & [code](https://anatolyzenkov.com/preview/parametric-pottery/js/colors.js) (uses OKlab!)
 * David Aerne's [**Albers**](https://albers.elastiq.ch/)
 
