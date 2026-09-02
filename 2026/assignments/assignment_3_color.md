@@ -147,5 +147,6 @@ A *quick rule of thumb* is that you can generate satisfying compositions with th
 	* **Voronoi diagram** — generate cells from points and assign colors according to measured cell areas.
 	* **Truchet tiling** — use three colors within the motifs themselves.
 * **Save** your work to the [correct slot in our OpenProcessing classroom](https://openprocessing.org/class/107236/#/c/107472).
+* In the Discord channel `#36-color-composition`, **write** a few sentences describing your strategies for the project, and **include** a screenshot or two. 
 
 ---
