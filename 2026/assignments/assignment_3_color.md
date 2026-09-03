@@ -89,7 +89,6 @@ Now observe how David Aerne and Rik Oostenbroek have developed [an entire artwor
 In this exercise you are asked to **make a gradient** that smoothly transitions between a sequence of four different colors. (Note that because some tools use smoothed interpolation, it's possible that your gradient may not pass precisely through all four colors, as shown in the doodle below.)
 
 ![bezier-through-colors.png](../../2024/assignments/images/bezier-through-colors.png)
-Chroma.js documentation: https://gka.github.io/chroma.js/
 
 * You are strongly encouraged to use Chroma.js for this exercise, because it specifically has utilities for creating multi-color gradients...which will make your life easier. To get started, **read** or **skim** this article: [*Mastering Multi-hued Color Scales with Chroma.js*](https://www.vis4.net/blog/mastering-multi-hued-color-scales/)
 * Carefully **examine** and potentially **fork** one of the following Chroma.js examples: 
@@ -101,10 +100,15 @@ Chroma.js documentation: https://gka.github.io/chroma.js/
 	  - ![libraries](img/3/libraries.png)
 * **Create** a sketch that presents a smooth gradient through *four* colors. 
 * **Important**: In a separate part of your canvas, **display** chips of the four colors in isolation. 
-* **Be prepared** to discuss the question: *which color interpolation technique(s) did you use and why?*
-* Consider evaluating a screenshot of your gradient using this [Color Blind Check tool](https://www.color-blindness.com/coblis-color-blindness-simulator/). (What did you learn?)
+* **Be prepared** to discuss which color spaces and interpolation methods you used.
 * **Save** your work to the [correct slot in our OpenProcessing classroom](https://openprocessing.org/class/107236/#/c/107469).
 
+Here's an example assignment response by a student from 2024:
+![tippi_gradient.png](img/3/tippi_gradient.png)
+
+<!--
+* Consider evaluating a screenshot of your gradient using this [Color Blind Check tool](https://www.color-blindness.com/coblis-color-blindness-simulator/). (What did you learn?)
+-->
 
 ---
 
