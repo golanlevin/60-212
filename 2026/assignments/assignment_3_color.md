@@ -40,13 +40,14 @@ The following p5.js **template demos** may be helpful for this Assignment:
 
 ![munsell.png](../../2024/assignments/images/munsell.png)
 
-(*10%, 30 minutes*) **Briefly skim** all three of the following articles, and **select one** for close reading. Complete your reading/response by Monday September 7: 
+(*10%, 30 minutes*) **Quick;y skim** both of the following articles, and then **select one** for close reading. **Complete** your reading/response by Monday September 7: 
 
-* [*Computational Color*](http://printingcode.runemadsen.com/lecture-color/) by Rune Madsen (20 minute read)
-* [*Okay, Color Spaces*](https://ericportis.com/posts/2024/okay-color-spaces/), Eric Portis, 2024. Includes interactives. (20 minute read)
-* [*A perceptual color space for image processing*](https://bottosson.github.io/posts/oklab/) by Björn Ottosson, 2020 ("From personal project to industry standard")
+* [*Computational Color*](http://printingcode.runemadsen.com/lecture-color/), from "Programming Design Systems", by Rune Madsen (20 minute read) <!-- [PDF backup](../../readings/rune_madsen_computational_color.pdf) -->
+* [*Okay, Color Spaces*](https://ericportis.com/posts/2024/okay-color-spaces/), Eric Portis, 2024. Includes interactives. (20 minute read) <!-- [PDF backup](../../readings/okay_color_spaces_eric_portis.pdf) -->
+<!-- [*A perceptual color space for image processing*](https://bottosson.github.io/posts/oklab/) by Björn Ottosson, 2020 ("From personal project to industry standard") 
+-->
 
-*Now*: In the Discord channel, `#31-color-readings`, in your own words, **write** a sentence of reflection about something that you found interesting or helpful from these readings. 
+*Now*: In the Discord channel, `#31-color-readings`, in your own words, **write** a sentence of reflection about something that you found interesting or helpful from one of these readings. 
 
 
 ---
@@ -75,22 +76,28 @@ The following p5.js **template demos** may be helpful for this Assignment:
 
 ![magma-gradient.png](https://raw.githubusercontent.com/golanlevin/60-212/refs/heads/main/openprocessing_images/magma-gradient.png)
 
-**Above**: The "Magma" color palette is a sequential colormap by Nathaniel J. Smith and Stefan van der Walt. It is designed to be perceptually uniform even when viewed by persons with common forms of color vision deficiency, and when printed in black-and-white. It is widely used in scientific imaging, as in this [thermal camera](https://www.youtube.com/watch?v=WkxKrk8lqE4). (Note, this is just an *example* of a multi-color gradient; you are not being asked to reproduce this gradient specifically.) The lines show the intensity of the individual RGB channels.
+**Above**: The "Magma" color palette is a sequential colormap by Nathaniel J. Smith and Stefan van der Walt. It is designed to be perceptually uniform even when viewed by persons with common forms of color vision deficiency, and when printed in black-and-white. It is widely used in scientific imaging, as in this [thermal camera](https://www.youtube.com/watch?v=WkxKrk8lqE4). (Note, this is just an *example* of a multi-color gradient; you are not asked to reproduce this gradient specifically.) The lines above it show the intensity of the individual RGB channels.
 
 Now observe how David Aerne and Rik Oostenbroek have developed [an entire artwork](https://verloop.xyz/) out of multi-stop gradients: 
 ![verloop](https://raw.githubusercontent.com/golanlevin/60-212/refs/heads/main/2026/assignments/img/3/aerne_verloop.png)
 
-In this exercise you are asked to **make a gradient** that, in a manner similar to the Magma color palette, smoothly transitions between a sequence of four different colors. (Note that because some tools use smoothed interpolation, it's possible that your gradient may not pass precisely through all four colors, as shown in the doodle below.)
+In this exercise you are asked to **make a gradient** that smoothly transitions between a sequence of four different colors. (Note that because some tools use smoothed interpolation, it's possible that your gradient may not pass precisely through all four colors, as shown in the doodle below.)
 
 ![bezier-through-colors.png](../../2024/assignments/images/bezier-through-colors.png)
+Chroma.js documentation: https://gka.github.io/chroma.js/
 
-* **Read** or **skim** this article: [*Mastering Multi-hued Color Scales with Chroma.js*](https://www.vis4.net/blog/mastering-multi-hued-color-scales/)
-* Carefully **examine** this [Chroma.js+p5 example](https://editor.p5js.org/golan/sketches/2pkxnwYxF), — especially the `scale` feature of Chroma.js. *(There are alternate implementations here: [Chroma.js+p5.js 2024](https://editor.p5js.org/golan/sketches/CYUB1GAJV), [Pure p5.js](https://editor.p5js.org/golan/sketches/Aki6fvzQe)).*
-* Feel free to **study** and/or **fork** this [dead-simple Chroma + p5 example at OpenProcessing](https://openprocessing.org/sketch/2384439).
-* **Create** a sketch that presents a smooth gradient through four colors. 
-* In a separate part of your canvas, **display** chips of the four colors in isolation. 
+* You are strongly encouraged to use Chroma.js for this exercise, because it specifically has utilities for creating multi-color gradients...which will make your life easier. To get started, **read** or **skim** this article: [*Mastering Multi-hued Color Scales with Chroma.js*](https://www.vis4.net/blog/mastering-multi-hued-color-scales/)
+* Carefully **examine** and potentially **fork** one of the following Chroma.js examples: 
+  * [Dead-simple Chroma + p5 example](https://openprocessing.org/@golan/2384439).
+  * [Chroma.js+p5 example](https://openprocessing.org/@golan/3000734), highlighting the Chroma.js `scale` feature.
+  * You'll have to **learn** how to include libraries in your OpenProcessing project. To include chroma.js, use one of these in the SKETCH/LIBRARIES tab, and **remember** to turn the switch "ON" for the library:
+	  - [https://cdn.jsdelivr.net/npm/chroma-js@2.4.2/chroma.min.js](https://cdn.jsdelivr.net/npm/chroma-js@2.4.2/chroma.min.js)
+	  - [https://cdnjs.cloudflare.com/ajax/libs/chroma-js/2.4.2/chroma.min.js](https://cdnjs.cloudflare.com/ajax/libs/chroma-js/2.4.2/chroma.min.js)
+	  - ![libraries](img/3/libraries.png)
+* **Create** a sketch that presents a smooth gradient through *four* colors. 
+* **Important**: In a separate part of your canvas, **display** chips of the four colors in isolation. 
 * **Be prepared** to discuss the question: *which color interpolation technique(s) did you use and why?*
-* Consider testing a screenshot image of your gradient using this [Color Blind Check tool](https://www.color-blindness.com/coblis-color-blindness-simulator/). (What did you learn?)
+* Consider evaluating a screenshot of your gradient using this [Color Blind Check tool](https://www.color-blindness.com/coblis-color-blindness-simulator/). (What did you learn?)
 * **Save** your work to the [correct slot in our OpenProcessing classroom](https://openprocessing.org/class/107236/#/c/107469).
 
 
@@ -102,7 +109,7 @@ In this exercise you are asked to **make a gradient** that, in a manner similar 
 
 ![split-complementaries.jpg](../../2024/assignments/images/split-complementaries.jpg)
 
-A color’s “split complements” are a pair of colors that are not quite opposite to it, but just adjacent (±15–30°) to its opposite on the color wheel. Here, you are asked to create an interactive sketch that displays swatches of the split complements for a randomly generated color.
+A color’s “split complements” are a pair of colors that are *not quite* opposite to it, but just adjacent (±15–30°) to its complement on the color wheel. Here, you are asked to create an interactive sketch that displays swatches of the split complements for a randomly generated color.
 
 For this project, I recommend you work with a color space that allows explicit and perceptual control of hue, such as **OKLCH**, **OKHSV**, or **OKHSL**. <!--Good choices would be [Texel/Color](https://editor.p5js.org/golan/sketches/Ya1xm67i6) or [Chroma.js](https://editor.p5js.org/golan/sketches/2pkxnwYxF). -->
 
@@ -117,11 +124,21 @@ For this project, I recommend you work with a color space that allows explicit a
 
 (*20%, 45 minutes*) This is due at the beginning of class on Monday September 14.
 
+[**Josef Albers**](https://www.guggenheim.org/artwork/artist/josef-albers) (1888–1976) was a German-born artist and educator who taught at the Bauhaus, Black Mountain College, and Yale. He is best known for *Interaction of Color* (1963), an influential book based on decades of teaching experiments about how our perception of a color changes depending on the colors around it. You can read his book free, online, [here](https://interactionofcolor.com/) with your CMU login. 
+
+Rather than treating color as a fixed property that can be understood from a color wheel or numerical value, Albers emphasized **color relativity**: the same physical color can appear dramatically different in different contexts. His exercises, including "make four colors appear as three", use carefully chosen arrangements to make these perceptual effects directly visible.
+
+For example, you might think there are 3 colors here — but there are actually 4. The two spot colors, which look the same, are actually quite different:
+
 ![albers_4like3.png](img/3/albers_4like3.png)
 
-* **Create** a program to generate novel color sets that always fulfill Josef Albers's *four-look-like-three* condition. Your program should generate a new set of colors each time the user clicks the mouse button. **Demonstrate** the relativity of color by duplicating the spots’ colors in a location where they can be more easily compared. 
-* *For this assignment, you are asked to use an advanced color library, such as [Chroma.js](https://editor.p5js.org/golan/sketches/2pkxnwYxF), [Texel/Color](https://editor.p5js.org/golan/sketches/Ya1xm67i6), [Mixbox](https://editor.p5js.org/golan/sketches/FPtOVXlpV), [Color.js](https://colorjs.io/), or [Culori.js](https://culorijs.org/).*
-* You might find [this video](https://www.youtube.com/watch?v=_Le83fKGKEo) and [this video](https://www.youtube.com/watch?v=foEBm-LCzT0) to be helpful in explaining color strategies for this project. 
+*Now:*
+
+* **Create** a program to generate novel color sets that always fulfill Josef Albers's *four-look-like-three* condition. Your program should generate a new set of colors each time the user clicks the mouse button. 
+* **Demonstrate** the relativity of color by duplicating the spots’ colors in a location where they can be more easily compared, as shown in the image below.
+* **HINT:** Begin by picking two *sufficiently and purposefully* different background colors, A and B. Then, using color interpolation, try constructing each spot color by moving some fraction of the way between one background color and a shared third color — or between colors derived from the opposite background. Experiment with the interpolation amount until the two physically different spot colors appear surprisingly similar.
+* You might also find [this video](https://www.youtube.com/watch?v=_Le83fKGKEo) and [this video](https://www.youtube.com/watch?v=foEBm-LCzT0) to be helpful in explaining color strategies for this project.
+* *For this assignment, you are asked to use an advanced color library, such as [Chroma.js](https://openprocessing.org/@golan/2384439). You can also check out [Texel/Color](https://editor.p5js.org/golan/sketches/Ya1xm67i6), [Mixbox](https://editor.p5js.org/golan/sketches/FPtOVXlpV), [Color.js](https://colorjs.io/), or [Culori.js](https://culorijs.org/).*
 * **Save** your work to the [correct slot in our OpenProcessing classroom](https://openprocessing.org/class/107236/#/c/107471).
 
 ![albers-4-looks-like-3.png](../../2024/assignments/images/albers-4-looks-like-3.png)  
@@ -139,14 +156,15 @@ A *quick rule of thumb* is that you can generate satisfying compositions with th
 
 * Please **watch** [this 3-minute video about the "60-30-10 rule"](https://www.youtube.com/watch?v=rAfjUOkbyr0).
 * [This p5.js sketch](https://editor.p5js.org/golan/sketches/U5EgeSwwR) presents a set of three colors in approximately 60-30-10 proportions. **Begin** by modifying [this sketch](https://editor.p5js.org/golan/sketches/U5EgeSwwR) to use a satisfying trio of colors, replacing lines 14-16 with your own generative strategy. Your program must generate a new set of colors each time the user clicks the mouse button, and those colors must work well in the 60-30-10 proportions (they should interrelate with each other; they can't be mutually random.)
-  * *For this assignment, you are asked to use a color model which is* ***not*** *RGB or HSB/HSL,* such as OKLAB or OKLCH. Consider using a color library like [Chroma.js](https://editor.p5js.org/golan/sketches/2pkxnwYxF), [Texel/Color](https://editor.p5js.org/golan/sketches/Ya1xm67i6), [Mixbox](https://editor.p5js.org/golan/sketches/FPtOVXlpV): [Mixbox](https://github.com/scrtwpns/mixbox), [Color.js](https://colorjs.io/), or [Culori.js](https://culorijs.org/).
-* **Change** the composition to use your own generative strategy for laying out the image — so long as the three colors are still distributed in approximately 60-30-10 proportions. Some possible compositional strategies could include:
+  * *For this assignment, you are asked to use a color model which is* ***not*** *RGB or HSB/HSL,* such as OKLAB or OKLCH. Consider using a color library like [Chroma.js](https://openprocessing.org/@golan/2384439).
+* **Change** the composition to use your own generative strategy for laying out the image — so long as the three colors are still distributed in approximately 60-30-10 proportions. Some **possible** compositional strategies could include:
 	* [**Circle packing**](https://www.google.com/search?q=circle+packing&sca_esv=47811f8b104e4ef5&hl=en&source=hp&biw=1537&bih=924&ei=ujuYaragDoi15NoPzMvoiQE&iflsig=ABILxe8AAAAAaphJygUk7EHQkL5B7SLrDmsVloEqhdaD&ved=0ahUKEwi25fmqltCWAxWIGlkFHcwlOhEQ4dUDCA0&uact=5&oq=circle+packing&gs_lp=EgNpbWciDmNpcmNsZSBwYWNraW5nMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABEjqElC9Alj6EHAAeACQAQCYAXOgAbkEqgEEMTMuMbgBA8gBAPgBAYoCC2d3cy13aXotaW1nmAIOoALhBKgCAMICCBAAGIAEGLEDwgILEAAYgAQYsQMYgwHCAg4QABiABBiKBRixAxiDAZgDAZIHBDEzLjGgB5JBsgcEMTMuMbgH4QTCBwYwLjEzLjHIBxyACAE&sclient=img&udm=2&sei=vjuYapHaCNrn5NoP75bSiQY) — circles grow until collision; assign colors based on their area.
 	* **Subdivision**: Quadtree subdivision, BSP (binary space partitioning), or recursive rectangular subdivision — recursively split rectangles; color terminal cells according to area budget.
 	* **Treemap** — explicitly construct nested regions with 60/30/10 area relationships.
 	* **Voronoi diagram** — generate cells from points and assign colors according to measured cell areas.
 	* **Truchet tiling** — use three colors within the motifs themselves.
+	* *Potentially, other approaches, such as particle simulations, cellular automata, according to your interests. This list is not exhaustive!* 
 * **Save** your work to the [correct slot in our OpenProcessing classroom](https://openprocessing.org/class/107236/#/c/107472).
-* In the Discord channel `#36-color-composition`, **write** a few sentences describing your strategies for the project, and **include** a screenshot or two. 
+* **Create** a post in the Discord channel `#36-color-composition`. **Write** a few sentences describing your strategies for the project, and **include** a screenshot or two of your color compositions.
 
 ---
