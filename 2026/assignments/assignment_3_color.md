@@ -6,6 +6,10 @@
 
 ## Summary of Deliverables
 
+In this assignment set, we're approaching color **computationally**. The goal is not to find a particular set of colors that looks good, but to develop **systems for generating and relating colors**: interpolating between them, constructing relationships among them, exploiting their perceptual interactions, and distributing them in a composition.
+
+In other words, don't show me that you found good colors; show me that you figured out how to generate good color relationships. Your programs should be capable of producing many different, successful results because you have encoded some principle about how their colors relate.
+
 This assignment has six parts, paced out on different days, totaling about 5 hours:
 
 Due **Monday** September 7:
@@ -15,8 +19,8 @@ Due **Monday** September 7:
 
 Due **Wednesday** September 9:
 
-* [3.3. Four-Color Gradient](#33-four-color-gradient) *(10%, 45m)*
-* [3.4. Split Complementaries](#34-split-complementaries) *(15%, 30m)*
+* [3.3. Four-Color Gradient](#33-four-color-gradient) *(15%, 45m)*
+* [3.4. Split Complementaries](#34-split-complementaries) *(10%, 30m)*
 
 Due **Monday** September 14:
 
@@ -73,7 +77,7 @@ The following p5.js **template demos** may be helpful for this Assignment:
 
 ## 3.3. Four-Color Gradient
 
-(*10%, 45 minutes*) This is due at the beginning of class on Wednesday September 9.
+(*15%, 45 minutes*) This is due at the beginning of class on Wednesday September 9.
 
 ![magma-gradient.png](https://raw.githubusercontent.com/golanlevin/60-212/refs/heads/main/openprocessing_images/magma-gradient.png)
 
@@ -106,7 +110,7 @@ Chroma.js documentation: https://gka.github.io/chroma.js/
 
 ## 3.4. Split Complementaries
 
-(*15%, 30 minutes*) This is due at the beginning of class on Wednesday September 9.
+(*10%, 30 minutes*) This is due at the beginning of class on Wednesday September 9.
 
 ![split-complementaries.jpg](../../2024/assignments/images/split-complementaries.jpg)
 
@@ -142,7 +146,9 @@ For example, you might think there are 3 colors here — but there are actually 
 * *For this assignment, you are asked to use an advanced color library, such as [Chroma.js](https://openprocessing.org/@golan/2384439). You can also check out [Texel/Color](https://editor.p5js.org/golan/sketches/Ya1xm67i6), [Mixbox](https://editor.p5js.org/golan/sketches/FPtOVXlpV), [Color.js](https://colorjs.io/), or [Culori.js](https://culorijs.org/).*
 * **Save** your work to the [correct slot in our OpenProcessing classroom](https://openprocessing.org/class/107236/#/c/107471).
 
-![albers-4-looks-like-3.png](../../2024/assignments/images/albers-4-looks-like-3.png)  
+*Note that there isn't a simple computational predicate for  `fourLooksLikeThree(colors)`. You are solving an inverse perceptual problem with your own eyes as the evaluation function.*
+
+![albers-4-looks-like-3.png](../../2024/assignments/images/albers-4-looks-like-3.png)
 
 
 ---
