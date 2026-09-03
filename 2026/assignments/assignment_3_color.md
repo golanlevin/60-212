@@ -45,10 +45,13 @@ The following p5.js **template demos** may be helpful for this Assignment:
 
 ![munsell.png](../../2024/assignments/images/munsell.png)
 
-(*10%, 30 minutes*) **Quick;y skim** both of the following articles, and then **select one** for close reading. **Complete** your reading/response by Monday September 7: 
+(*10%, 30 minutes*) **Quickly skim** the following articles, and then **select one** for close reading. **Complete** your reading/response by Monday September 7: 
 
 * [*Computational Color*](http://printingcode.runemadsen.com/lecture-color/), from "Programming Design Systems", by Rune Madsen (20 minute read) <!-- [PDF backup](../../readings/rune_madsen_computational_color.pdf) -->
-* [*Okay, Color Spaces*](https://ericportis.com/posts/2024/okay-color-spaces/), Eric Portis, 2024. Includes interactives. (20 minute read) <!-- [PDF backup](../../readings/okay_color_spaces_eric_portis.pdf) -->
+* [*Okay, Color Spaces*](https://ericportis.com/posts/2024/okay-color-spaces/), Eric Portis, 2024. Includes interactives. (20 minute read)
+* [*Mastering Multi-hued Color Scales with Chroma.js*](https://www.vis4.net/blog/mastering-multi-hued-color-scales/), Gregor Aisch, 2013. (15 minute read) 
+
+<!-- [PDF backup](../../readings/okay_color_spaces_eric_portis.pdf) -->
 <!-- [*A perceptual color space for image processing*](https://bottosson.github.io/posts/oklab/) by Björn Ottosson, 2020 ("From personal project to industry standard") 
 -->
 
@@ -168,7 +171,7 @@ A *quick rule of thumb* is that you can generate satisfying compositions with th
 * Please **watch** [this 3-minute video about the "60-30-10 rule"](https://www.youtube.com/watch?v=rAfjUOkbyr0).
 * [This p5.js sketch](https://editor.p5js.org/golan/sketches/U5EgeSwwR) presents a set of three colors in approximately 60-30-10 proportions. **Begin** by modifying [this sketch](https://editor.p5js.org/golan/sketches/U5EgeSwwR) to use a satisfying trio of colors, replacing lines 14-16 with your own generative strategy. Your program must generate a new set of colors each time the user clicks the mouse button, and those colors must work well in the 60-30-10 proportions (they should interrelate with each other; they can't be mutually random.)
   * *For this assignment, you are asked to use a color model which is* ***not*** *RGB or HSB/HSL,* such as OKLAB or OKLCH. Consider using a color library like [Chroma.js](https://openprocessing.org/@golan/2384439).
-* **Change** the composition to use your own generative strategy for laying out the image — so long as the three colors are still distributed in approximately 60-30-10 proportions. Some **possible** compositional strategies could include:
+* **Change** the composition to use *your own generative strategy* for laying out the image — so long as the three colors are still distributed in approximately 60-30-10 proportions. Some **possible** compositional strategies could include:
 	* [**Circle packing**](https://www.google.com/search?q=circle+packing&sca_esv=47811f8b104e4ef5&hl=en&source=hp&biw=1537&bih=924&ei=ujuYaragDoi15NoPzMvoiQE&iflsig=ABILxe8AAAAAaphJygUk7EHQkL5B7SLrDmsVloEqhdaD&ved=0ahUKEwi25fmqltCWAxWIGlkFHcwlOhEQ4dUDCA0&uact=5&oq=circle+packing&gs_lp=EgNpbWciDmNpcmNsZSBwYWNraW5nMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABEjqElC9Alj6EHAAeACQAQCYAXOgAbkEqgEEMTMuMbgBA8gBAPgBAYoCC2d3cy13aXotaW1nmAIOoALhBKgCAMICCBAAGIAEGLEDwgILEAAYgAQYsQMYgwHCAg4QABiABBiKBRixAxiDAZgDAZIHBDEzLjGgB5JBsgcEMTMuMbgH4QTCBwYwLjEzLjHIBxyACAE&sclient=img&udm=2&sei=vjuYapHaCNrn5NoP75bSiQY) — circles grow until collision; assign colors based on their area.
 	* **Subdivision**: Quadtree subdivision, BSP (binary space partitioning), or recursive rectangular subdivision — recursively split rectangles; color terminal cells according to area budget.
 	* **Treemap** — explicitly construct nested regions with 60/30/10 area relationships.
