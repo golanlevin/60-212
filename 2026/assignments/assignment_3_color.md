@@ -25,11 +25,12 @@ Due **Monday** September 14:
 
 The following p5.js **template demos** may be helpful for this Assignment: 
 
-* Color interpolations (with and without **Chroma.js**):<br />[ChromaJs2024](https://editor.p5js.org/golan/sketches/CYUB1GAJV) /  [ChromaJs2026](https://editor.p5js.org/golan/sketches/2pkxnwYxF) / [p5js2026](https://editor.p5js.org/golan/sketches/Aki6fvzQe)
+* [**ChromaJs2024** at OpenProcessing](https://openprocessing.org/@golan/3000734) (and also [ChromaJs2026](https://editor.p5js.org/golan/sketches/2pkxnwYxF) / [p5js2026](https://editor.p5js.org/golan/sketches/Aki6fvzQe))
 * [Dead-simple Chroma + p5 example at OpenProcessing](https://openprocessing.org/sketch/2384439)
-* [Texel/Color + p5.js](https://editor.p5js.org/golan/sketches/Ya1xm67i6)
-* [Dead-simple Texel/Color + p5 example at OpenProcessing](https://openprocessing.org/sketch/2384613)
-* [Mixbox + p5.js](https://editor.p5js.org/golan/sketches/FPtOVXlpV)
+* And also: 
+  * [Texel/Color + p5.js](https://editor.p5js.org/golan/sketches/Ya1xm67i6)
+  * [Dead-simple Texel/Color + p5 example at OpenProcessing](https://openprocessing.org/sketch/2384613)
+  * [Mixbox + p5.js](https://editor.p5js.org/golan/sketches/FPtOVXlpV)
 
 *Note: The "60-30-10 Composition" exercise is the "main" creative project, with the most room for creativity.* 
 
