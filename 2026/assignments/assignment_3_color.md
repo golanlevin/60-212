@@ -10,18 +10,18 @@ This assignment has six parts, paced out on different days, totaling about 5 hou
 
 Due **Monday** September 7:
 
-* 3.1. Readings: Computational Color *(10%, 30m)*
-* 3.2. Interactives! Color Explorers *(15%, 30m)*
+* [3.1. Readings: Computational Color](#31-readings-computational-color) *(10%, 30m)*
+* [3.2. Interactives! Color Explorers](#32-interactives-color-explorers) *(15%, 30m)*
 
 Due **Wednesday** September 9:
 
-* 3.3. Four-Color Gradient *(10%, 45m)*
-* 3.4. Split Complementaries *(15%, 30m)*
+* [3.3. Four-Color Gradient](#33-four-color-gradient) *(10%, 45m)*
+* [3.4. Split Complementaries](#34-split-complementaries) *(15%, 30m)*
 
 Due **Monday** September 14:
 
-* 3.5. Color Relativity *(20%, 45m)*
-* 3.6. 60-30-10 Composition *(30%, 120m)*
+* [3.5. Color Relativity: Make 4 Colors Look Like 3](#35-color-relativity-make-4-colors-look-like-3) *(20%, 45m)*
+* [3.6. 60-30-10 Composition](#36-60-30-10-color-composition) *(30%, 120m)*
 
 The following p5.js **template demos** may be helpful for this Assignment: 
 
@@ -114,7 +114,7 @@ A color’s “split complements” are a pair of colors that are *not quite* op
 
 For this project, I recommend you work with a color space that allows explicit and perceptual control of hue, such as **OKLCH**, **OKHSV**, or **OKHSL**. <!--Good choices would be [Texel/Color](https://editor.p5js.org/golan/sketches/Ya1xm67i6) or [Chroma.js](https://editor.p5js.org/golan/sketches/2pkxnwYxF). -->
 
-* [**Modify** the code from this empty sketch](https://editor.p5js.org/golan/sketches/VtdpsUYLU) so that the chips are colored with a main color and its split complementaries. 
+* [**Modify** the code from this stub sketch](https://editor.p5js.org/golan/sketches/VtdpsUYLU) so that the chips are colored with a main color and its split complementaries (instead of my dummy colors). 
 * Your program must generate a new set of colors each time the user clicks the mouse button. 
 * **Save** your work to the [correct slot in our OpenProcessing classroom](https://openprocessing.org/class/107236/#/c/107470).
 
