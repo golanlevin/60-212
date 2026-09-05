@@ -2,6 +2,18 @@
 
 Ultimate interactive system. Tools as artworks: an intervention that expands the vocabulary of human action, allowing new thoughts. The "message" is that people (users) ought to be able to do X,Y,Z.
 
+---
+
+### Links of apps in documentation 
+
+* ["Unusual Suspects" drawing game](https://bsky.app/profile/neal.fun/post/3muk7etjrhc22)
+
+---
+
+### Links to working apps
+
+
+
 
 <!--
 

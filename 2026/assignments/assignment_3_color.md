@@ -84,7 +84,7 @@ The following p5.js **template demos** may be helpful for this Assignment:
 
 ![magma-gradient.png](https://raw.githubusercontent.com/golanlevin/60-212/refs/heads/main/openprocessing_images/magma-gradient.png)
 
-**Above**: The "Magma" color palette is a sequential colormap by Nathaniel J. Smith and Stefan van der Walt. It is designed to be perceptually uniform even when viewed by persons with common forms of color vision deficiency, and when printed in black-and-white. It is widely used in scientific imaging, as in this [thermal camera](https://www.youtube.com/watch?v=WkxKrk8lqE4). (Note, this is just an *example* of a multi-color gradient; you are not asked to reproduce this gradient specifically.) The lines above it show the intensity of the individual RGB channels.
+**Above**: The "Magma" color palette is a sequential colormap by Nathaniel J. Smith and Stefan van der Walt. It is designed to be perceptually uniform even when viewed by persons with common forms of color vision deficiency, and when printed in black-and-white. *Note how it passes through several different colors.* It is widely used in scientific imaging, as in this [thermal camera](https://www.youtube.com/watch?v=WkxKrk8lqE4). (Note, this is just an *example* of a multi-color gradient; you are not asked to reproduce this gradient specifically.) The lines above it show the intensity of the individual RGB channels.
 
 Now observe how David Aerne and Rik Oostenbroek have developed [an entire artwork](https://verloop.xyz/) out of multi-stop gradients: 
 ![verloop](https://raw.githubusercontent.com/golanlevin/60-212/refs/heads/main/2026/assignments/img/3/aerne_verloop.png)
@@ -93,17 +93,18 @@ In this exercise you are asked to **make a gradient** that smoothly transitions 
 
 ![bezier-through-colors.png](../../2024/assignments/images/bezier-through-colors.png)
 
-* You are strongly encouraged to use Chroma.js for this exercise, because it specifically has utilities for creating multi-color gradients...which will make your life easier. To get started, **read** or **skim** this article: [*Mastering Multi-hued Color Scales with Chroma.js*](https://www.vis4.net/blog/mastering-multi-hued-color-scales/)
-* Carefully **examine** and potentially **fork** one of the following Chroma.js examples: 
-  * [Dead-simple Chroma + p5 example](https://openprocessing.org/@golan/2384439).
-  * [Chroma.js+p5 example](https://openprocessing.org/@golan/3000734), highlighting the Chroma.js `scale` feature.
-  * You'll have to **learn** how to include libraries in your OpenProcessing project. To include chroma.js, use one of these in the SKETCH/LIBRARIES tab, and **remember** to turn the switch "ON" for the library:
+* You are strongly encouraged to use Chroma.js for this exercise, because it specifically has utilities for creating smooth multi-color gradients. To get started, **read** or **skim** this article: [*Mastering Multi-hued Color Scales with Chroma.js*](https://www.vis4.net/blog/mastering-multi-hued-color-scales/). The Chroma.js `scale()` and `correctLightness()` functions are *especially* useful.
+* Carefully **examine** and potentially **fork** one of the following examples. These projects show how to construct, mix, and translate colors in p5.js and Chroma.js:
+  - [p5.js + Chroma.js Tutorial](https://openprocessing.org/@golan/3002523)
+  - [Dead-simple Chroma + p5 example](https://openprocessing.org/@golan/2384439).
+  - [Chroma.js+p5 example](https://openprocessing.org/@golan/3000734).
+* You'll have to **learn** how to include libraries in your OpenProcessing project. To include chroma.js, use one of these in the SKETCH/LIBRARIES tab, and **remember** to turn the switch "ON" for the library:
 	  - [https://cdn.jsdelivr.net/npm/chroma-js@2.4.2/chroma.min.js](https://cdn.jsdelivr.net/npm/chroma-js@2.4.2/chroma.min.js)
 	  - [https://cdnjs.cloudflare.com/ajax/libs/chroma-js/2.4.2/chroma.min.js](https://cdnjs.cloudflare.com/ajax/libs/chroma-js/2.4.2/chroma.min.js)
 	  - ![libraries](img/3/libraries.png)
-* **Create** a sketch that presents a smooth gradient through *four* colors. 
+* **Create** a sketch that presents a smooth gradient through *four* colors. Choose your colors with care.
 * **Important**: In a separate part of your canvas, **display** chips of the four colors in isolation. 
-* **Be prepared** to discuss which color spaces and interpolation methods you used.
+* **Be prepared** to discuss how you selected your colors, and which color spaces and interpolation methods you used.
 * **Save** your work to the [correct slot in our OpenProcessing classroom](https://openprocessing.org/class/107236/#/c/107469).
 
 Here's an example assignment response by a student from 2024:
