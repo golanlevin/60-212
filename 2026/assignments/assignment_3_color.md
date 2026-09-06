@@ -73,7 +73,7 @@ The following p5.js **template demos** may be helpful for this Assignment:
 * [**OK Color Picker**](https://bottosson.github.io/misc/colorpicker/) by Björn Ottosson
 * [**OKLCH Color Picker & Converter**](https://oklch.com/#77.33,0.141,123.88,100) by Evil Martians
 
-*Now*: In the Discord channel, `#32-color-explorers`, in your own words, **write** a sentence of reflection about something that you found interesting or helpful from interacting with these tools. 
+*Now*: In the Discord channel, `#32-color-explorers`, in your own words, **write** a sentence of reflection about something that you found interesting or helpful. It's enough to write about just one of them.
 
 
 ---
