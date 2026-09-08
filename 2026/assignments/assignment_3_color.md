@@ -24,8 +24,8 @@ Due **Wednesday** September 9:
 
 Due **Monday** September 14:
 
-* [3.5. Color Relativity: Make 4 Colors Look Like 3](#35-color-relativity-make-4-colors-look-like-3) *(20%, 45m)*
-* [3.6. 60-30-10 Composition](#36-60-30-10-color-composition) *(30%, 120m)*
+* [3.5. Color Relativity: Make 4 Colors Look Like 3](#35-color-relativity-make-4-colors-look-like-3) *(15%, 45m)*
+* [3.6. 60-30-10 Composition](#36-60-30-10-color-composition) *(35%, 150m)*
 
 The following p5.js **template demos** may be helpful for this Assignment: 
 
@@ -135,7 +135,7 @@ For this project, I recommend you work with a color space that allows explicit a
 
 ## 3.5. Color Relativity (Make 4 Colors Look Like 3)
 
-(*20%, 45 minutes*) This is due at the beginning of class on Monday September 14.
+(*15%, 45 minutes*) This is due at the beginning of class on Monday September 14.
 
 [**Josef Albers**](https://www.guggenheim.org/artwork/artist/josef-albers) (1888–1976) was a German-born artist and educator who taught at the Bauhaus, Black Mountain College, and Yale. He is best known for *Interaction of Color* (1963), an influential book based on decades of teaching experiments about how our perception of a color changes depending on the colors around it. You can read his book free, online, [here](https://interactionofcolor.com/) with your CMU login. 
 
@@ -163,23 +163,39 @@ For example, you might think there are 3 colors here — but there are actually 
 
 ## 3.6. 60-30-10 Color Composition
 
-(*30%, 120 minutes*) This is due at the beginning of class on Monday September 14.
+(*35%, 150 minutes*) This is due at the beginning of class on Monday September 14. It is the "main" exercise.
 
 ![60-30-10.png](../../2024/assignments/images/60-30-10.png)
 
-A *quick rule of thumb* is that you can generate satisfying compositions with three well-chosen colors, when these appear in proportions of 60% (the "main" color), 30% (a supporting color), and 10% (an "accent" color). In this assignment we will explore this proposition.
+In this exercise you will: 
+
+* **devise** an algorithm for generating a harmonious 3-color palette, and
+* **devise** a generative composition that distributes those colors across an image in approximately 60-30-10 pixel-area proportions.
+
+> **NOTE:** *When you're done, don't forget to **create** a post in the Discord channel `#36-color-composition`, where you are asked to **write** a few sentences that describe your palette-generation and compositional strategies. You should also **include** a screenshot or two of your software's compositions.* 
+
+A common rule of thumb in design is that effective three-color compositions can be made with three well-chosen colors appearing in proportions of 60% (the "main" color), 30% (a supporting color), and 10% (an "accent" color). In this assignment we will explore this proposition: we will treat 60-30-10 as an interesting computational constraint rather than as a universal rule of good composition.
 
 * Please **watch** [this 3-minute video about the "60-30-10 rule"](https://www.youtube.com/watch?v=rAfjUOkbyr0).
-* [This p5.js sketch](https://editor.p5js.org/golan/sketches/U5EgeSwwR) presents a set of three colors in approximately 60-30-10 proportions. **Begin** by modifying [this sketch](https://editor.p5js.org/golan/sketches/U5EgeSwwR) to use a satisfying trio of colors, replacing lines 14-16 with your own generative strategy. Your program must generate a new set of colors each time the user clicks the mouse button, and those colors must work well in the 60-30-10 proportions (they should interrelate with each other; they can't be mutually random.)
-  * *For this assignment, you are asked to use a color model which is* ***not*** *RGB or HSB/HSL,* such as OKLAB or OKLCH. Consider using a color library like [Chroma.js](https://openprocessing.org/@golan/2384439).
-* **Change** the composition to use *your own generative strategy* for laying out the image — so long as the three colors are still distributed in approximately 60-30-10 proportions. Some **possible** compositional strategies could include:
-	* [**Circle packing**](https://www.google.com/search?q=circle+packing&sca_esv=47811f8b104e4ef5&hl=en&source=hp&biw=1537&bih=924&ei=ujuYaragDoi15NoPzMvoiQE&iflsig=ABILxe8AAAAAaphJygUk7EHQkL5B7SLrDmsVloEqhdaD&ved=0ahUKEwi25fmqltCWAxWIGlkFHcwlOhEQ4dUDCA0&uact=5&oq=circle+packing&gs_lp=EgNpbWciDmNpcmNsZSBwYWNraW5nMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABEjqElC9Alj6EHAAeACQAQCYAXOgAbkEqgEEMTMuMbgBA8gBAPgBAYoCC2d3cy13aXotaW1nmAIOoALhBKgCAMICCBAAGIAEGLEDwgILEAAYgAQYsQMYgwHCAg4QABiABBiKBRixAxiDAZgDAZIHBDEzLjGgB5JBsgcEMTMuMbgH4QTCBwYwLjEzLjHIBxyACAE&sclient=img&udm=2&sei=vjuYapHaCNrn5NoP75bSiQY) — circles grow until collision; assign colors based on their area.
+* [This p5.js sketch](https://editor.p5js.org/golan/sketches/U5EgeSwwR) presents a set of three colors in approximately 60-30-10 proportions. **Begin** by modifying [this sketch](https://editor.p5js.org/golan/sketches/U5EgeSwwR) to use a satisfying trio of colors, replacing lines 14-16 with your own generative strategy. Your program must generate a new set of colors each time the user clicks the mouse button, and those colors should work well in the 60-30-10 proportions. 
+* The colors in your palette should be generated *in relation* to one another; they cannot simply be three independently random colors. Your palette-generation algorithm should take these unequal roles into account: **consider** how a color intended to occupy 60% of the image might differ from one intended to occupy just 10%.
+* For this assignment, generate or manipulate your colors using a color model other than RGB or HSB/HSL, such as OKLAB or OKLCH. p5.js has support for OKLAB and OKLCH; you may also consider experimenting with a color library like [Chroma.js](https://openprocessing.org/@golan/2384439) or [Mixbox](https://github.com/scrtwpns/mixbox).
+* **Change** the composition to use your own generative strategy for laying out the image — so long as the three colors are still distributed in approximately 60-30-10 proportions. You may achieve these proportions by construction, by measurement and feedback, or by some other algorithmic strategy. Some possible compositional strategies could include:
+	* [**Circle packing**](https://www.google.com/search?q=circle+packing&sca_esv=47811f8b104e4ef5&hl=en&source=hp&biw=1537&bih=924&ei=ujuYaragDoi15NoPzMvoiQE&iflsig=ABILxe8AAAAAaphJygUk7EHQkL5B7SLrDmsVloEqhdaD&ved=0ahUKEwi25fmqltCWAxWIGlkFHcwlOhEQ4dUDCA0&uact=5&oq=circle+packing&gs_lp=EgNpbWciDmNpcmNsZSBwYWNraW5nMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABEjqElC9Alj6EHAAeACQAQCYAXOgAbkEqgEEMTMuMbgBA8gBAPgBAYoCC2d3cy13aXotaW1nmAIOoALhBKgCAMICCBAAGIAEGLEDwgILEAAYgAQYsQMYgwHCAg4QABiABBiKBRixAxiDAZgDAZIHBDEzLjGgB5JBsgcEMTMuMbgH4QTCBwYwLjEzLjHIBxyACAE&sclient=img&udm=2&sei=vjuYapHaCNrn5NoP75bSiQY) — circles grow until collision; choose their colors so that their accumulated areas approach the target proportions.
 	* **Subdivision**: Quadtree subdivision, BSP (binary space partitioning), or recursive rectangular subdivision — recursively split rectangles; color terminal cells according to area budget.
-	* **Treemap** — explicitly construct nested regions with 60/30/10 area relationships.
-	* **Voronoi diagram** — generate cells from points and assign colors according to measured cell areas.
-	* **Truchet tiling** — use three colors within the motifs themselves.
-	* *Potentially, other approaches, such as particle simulations, cellular automata, according to your interests. This list is not exhaustive!* 
+	* **Treemap** — explicitly construct nested regions with 60-30-10 area relationships.
+	* **Voronoi diagram** — generate cells from points and assign cell colors so that their accumulated areas approach the target proportions.
+	* **Truchet tiling** — design motifs whose colored regions collectively approach 60-30-10.
+
+This list is not exhaustive; the assignment invites your ingenuity in devising a way of achieving approximately the correct area proportions. For example, in [this demo](https://editor.p5js.org/golan/sketches/ZZ6Znukpo), I access the app's pixel buffer in order to measure the true color distribution, and in the example shown below I used a flocking algorithm:
+![flocking-60-30-10](https://raw.githubusercontent.com/golanlevin/60-212/refs/heads/main/2026/assignments/img/3/603010_flocking.jpg)
+
+
+
+*Finally:*
+
 * **Save** your work to the [correct slot in our OpenProcessing classroom](https://openprocessing.org/class/107236/#/c/107472).
 * **Create** a post in the Discord channel `#36-color-composition`. **Write** a few sentences describing your strategies for the project, and **include** a screenshot or two of your color compositions.
+
 
 ---
