@@ -163,7 +163,7 @@ For example, you might think there are 3 colors here — but there are actually 
 
 ## 3.6. 60-30-10 Color Composition
 
-(*35%, 150 minutes*) This is due at the beginning of class on Monday September 14. It is the "main" exercise.
+(*35%, 150 minutes*) In this "main" exercise, color is simultaneously perceptual, quantitative, and structural. It is due at the beginning of class on Monday September 14.
 
 ![60-30-10.png](../../2024/assignments/images/60-30-10.png)
 
@@ -180,7 +180,7 @@ A common rule of thumb in design is that effective three-color compositions can 
 * [This p5.js sketch](https://editor.p5js.org/golan/sketches/U5EgeSwwR) presents a set of three colors in approximately 60-30-10 proportions. **Begin** by modifying [this sketch](https://editor.p5js.org/golan/sketches/U5EgeSwwR) to use a satisfying trio of colors, replacing lines 14-16 with your own generative strategy. Your program must generate a new set of colors each time the user clicks the mouse button, and those colors should work well in the 60-30-10 proportions. 
 * The colors in your palette should be generated *in relation* to one another; they cannot simply be three independently random colors. Your palette-generation algorithm should take these unequal roles into account: **consider** how a color intended to occupy 60% of the image might differ from one intended to occupy just 10%.
 * For this assignment, generate or manipulate your colors using a color model other than RGB or HSB/HSL, such as OKLAB or OKLCH. p5.js has support for OKLAB and OKLCH; you may also consider experimenting with a color library like [Chroma.js](https://openprocessing.org/@golan/2384439) or [Mixbox](https://github.com/scrtwpns/mixbox).
-* **Change** the composition to use your own generative strategy for laying out the image — so long as the three colors are still distributed in approximately 60-30-10 proportions. You may achieve these proportions by construction, by measurement and feedback, or by some other algorithmic strategy. Some possible compositional strategies could include:
+* **Change** the composition to use your own generative strategy for laying out the image — so long as the three colors are still distributed in approximately 60-30-10 proportions. You may achieve these proportions by construction, by measurement and feedback, or by some other algorithmic strategy. In other words, you must **invent** a system that somehow causes the 60-30-10 proportion to emerge. Some possible compositional strategies could include:
 	* [**Circle packing**](https://www.google.com/search?q=circle+packing&sca_esv=47811f8b104e4ef5&hl=en&source=hp&biw=1537&bih=924&ei=ujuYaragDoi15NoPzMvoiQE&iflsig=ABILxe8AAAAAaphJygUk7EHQkL5B7SLrDmsVloEqhdaD&ved=0ahUKEwi25fmqltCWAxWIGlkFHcwlOhEQ4dUDCA0&uact=5&oq=circle+packing&gs_lp=EgNpbWciDmNpcmNsZSBwYWNraW5nMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABEjqElC9Alj6EHAAeACQAQCYAXOgAbkEqgEEMTMuMbgBA8gBAPgBAYoCC2d3cy13aXotaW1nmAIOoALhBKgCAMICCBAAGIAEGLEDwgILEAAYgAQYsQMYgwHCAg4QABiABBiKBRixAxiDAZgDAZIHBDEzLjGgB5JBsgcEMTMuMbgH4QTCBwYwLjEzLjHIBxyACAE&sclient=img&udm=2&sei=vjuYapHaCNrn5NoP75bSiQY) — circles grow until collision; choose their colors so that their accumulated areas approach the target proportions.
 	* **Subdivision**: Quadtree subdivision, BSP (binary space partitioning), or recursive rectangular subdivision — recursively split rectangles; color terminal cells according to area budget.
 	* **Treemap** — explicitly construct nested regions with 60-30-10 area relationships.
@@ -189,8 +189,6 @@ A common rule of thumb in design is that effective three-color compositions can 
 
 This list is not exhaustive; the assignment invites your ingenuity in devising a way of achieving approximately the correct area proportions. For example, in [this demo](https://editor.p5js.org/golan/sketches/ZZ6Znukpo), I access the app's pixel buffer in order to measure the true color distribution, and in the example shown below I used a flocking algorithm:
 ![flocking-60-30-10](https://raw.githubusercontent.com/golanlevin/60-212/refs/heads/main/2026/assignments/img/3/603010_flocking.jpg)
-
-
 
 *Finally:*
 
