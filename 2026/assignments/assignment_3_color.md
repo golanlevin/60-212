@@ -1,6 +1,6 @@
 # Assignment Set #3: Color
 
-![Albers by David Aerne](../../2024/assignments/images/albers_by_elastiq.png)<br />[*Albers*, an artwork by David Aerne](https://albers.elastiq.ch/)
+![Albers by David Aerne](../../2024/assignments/images/albers_by_elastiq.png)<br />[*Albers*, an artwork by our guest speaker, David Aerne](https://albers.elastiq.ch/)
 
 ---
 
@@ -62,6 +62,8 @@ The following p5.js **template demos** may be helpful for this Assignment:
 
 ## 3.2. Interactives! Color Explorers
 
+![oklch-picker.png](img/3/oklch-picker.png)
+
 ![chromajs-demo.png](../../2024/assignments/images/chromajs-demo.png)
 
 (*15%, 30 minutes*) By Monday September 7: **Interact** with each of the following interactive color explorers for a few minutes apiece: 
@@ -73,7 +75,7 @@ The following p5.js **template demos** may be helpful for this Assignment:
 * [**OK Color Picker**](https://bottosson.github.io/misc/colorpicker/) by Björn Ottosson
 * [**OKLCH Color Picker & Converter**](https://oklch.com/#77.33,0.141,123.88,100) by Evil Martians
 
-*Now*: In the Discord channel, `#32-color-explorers`, in your own words, **write** a sentence of reflection about something that you found interesting or helpful. It's enough to write about just one of them.
+*Now*: In the Discord channel, `#32-color-explorers`, in your own words, **write** a sentence of reflection about something that you found interesting or helpful. *It's enough to write about just one of them.*
 
 
 ---
@@ -141,7 +143,7 @@ For this project, I recommend you work with a color space that allows explicit a
 
 Rather than treating color as a fixed property that can be understood from a color wheel or numerical value, Albers emphasized **color relativity**: the same physical color can appear dramatically different in different contexts. His exercises, including "make four colors appear as three", use carefully chosen arrangements to make these perceptual effects directly visible.
 
-For example, you might think there are 3 colors here — but there are actually 4. The two spot colors, which look the same, are actually quite different:
+For example, you might *think* there are 3 colors here — but there are actually 4. The two spot colors, which look the same, are actually quite different:
 
 ![albers_4like3.png](img/3/albers_4like3.png)
 
@@ -187,7 +189,12 @@ A common rule of thumb in design is that effective three-color compositions can 
 	* **Voronoi diagram** — generate cells from points and assign cell colors so that their accumulated areas approach the target proportions.
 	* **Truchet tiling** — design motifs whose colored regions collectively approach 60-30-10.
 
-This list is not exhaustive; the assignment invites your ingenuity in devising a way of achieving approximately the correct area proportions. For example, in [this demo](https://editor.p5js.org/golan/sketches/ZZ6Znukpo), I access the app's pixel buffer in order to measure the true color distribution, and in the example shown below I used a flocking algorithm:
+This list is not exhaustive; the assignment invites your ingenuity in devising a way of achieving approximately the correct area proportions. For example, in [this demo](https://editor.p5js.org/golan/sketches/ZZ6Znukpo), I access the app's pixel buffer in order to measure the true color distribution: 
+
+
+
+
+and in the example shown below I used a flocking algorithm to achieve the 60-30-10 proportions:
 ![flocking-60-30-10](https://raw.githubusercontent.com/golanlevin/60-212/refs/heads/main/2026/assignments/img/3/603010_flocking.jpg)
 
 *Finally:*
