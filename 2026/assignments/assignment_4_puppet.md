@@ -18,7 +18,7 @@ This assignment has six parts, paced out on different days, totaling about 6 hou
 
 (*10%, 40 minutes*) In order to keep you on track, this set of viewings and its written response is due this Wednesday, September 16.
 
-* **Spend** 30 minutes reviewing this set of my lecture notes on [**Realtime Tracking in Interactive Art**](https://github.com/CMUSchoolOfArt/60-120/blob/main/lectures/responsive_environment/body_tracking/readme.md). *(It's possible you may have seen this presentation before, in 60-120.)* This presentation links to dozens documentation videos of projects.  
+* **Spend** 30 minutes reviewing this set of lecture notes on [**Realtime Tracking in Interactive Art**](https://github.com/CMUSchoolOfArt/60-120/blob/main/lectures/responsive_environment/body_tracking/readme.md). *(It's possible you may have seen this presentation before, in 60-120.)* This presentation links to dozens documentation videos of projects.  
 * If you find this material interesting and want more, here are some additional/alternative lectures you can browse: 
   * [The Expanded Body](https://github.com/golanlevin/lectures/tree/master/lecture_expanded_body)
   * [Shadow Play (Computing with Silhouettes)](https://github.com/golanlevin/lectures/tree/master/lecture_shadow)
@@ -75,7 +75,7 @@ Face Stuff
 
 > The mouse specifies a target position, and the chain of connected bones repeatedly adjusts its joint angles to reach toward it. The IK solver works recursively from the end of the chain backward, rotating each bone so that the chain’s current endpoint moves toward the target; repeating this process several times rapidly converges on a solution.
 
-*Now,* in [the OpenProcessing slot for Exercise 4.2](), you are asked to **modify** the construction of the skeleton in Pagurek's sketch, so that it forms a simple **Y**-shaped puppet: a torso with two articulated arms extending from the same shoulder point:
+*Now,* in [the OpenProcessing slot for Exercise 4.2](), you are asked to **modify** the construction of the skeleton so that it forms a simple **Y**-shaped puppet: a torso with two articulated arms extending from the same shoulder point:
 
 ![ik-y-arms.gif](img/4/ik-y-arms1.gif)
 
@@ -84,11 +84,13 @@ Face Stuff
 * You should not need to modify the `Bone` class or the IK algorithm itself.
 * Currently, Dave Pagurek's inverse-kinematics sketch consists of a single chain of connected bones. Instead of one variable called `chain`, you will want *two* IK chains, with variable names like (e.g.) `leftArm` and `rightArm`. Both arms can begin at the same (x, y) position. Call `updateIK()` and `draw()` separately for each arm.
 * Have the two hands chase points located 50 pixels to the left and right of the mouse cursor, i.e, `[mouseX - 50, mouseY]` and `[mouseX + 50, mouseY]`.
-* Finally and additionally, **make** the shoulder point move independently (autonomously) according to a slow sinusoid or noise wave. 
+* Finally and additionally, **make** the shoulder point move independently (autonomously) according to a slow sinusoid or noise wave.
 
 ![ik-y-arms2.gif](img/4/ik-y-arms2.gif)
 
 ---
+
+4.3. 
 
 
 <!--
