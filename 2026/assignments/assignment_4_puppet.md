@@ -12,7 +12,7 @@ This assignment has six parts, paced out on different days, totaling about 7 hou
 * [4.3. ARAP Shape Exercise](#43-arap-shape-exercise) *(10%, 45m)*
 * [4.4. Deforming a Shape with Your Body](#44-deforming-a-shape-with-your-body) *(10%, 45m)*
 * [4.5. Camera-Driven Puppet](#45-camera-driven-puppet) *(45%, 4 hours)*
-* [4.6. Puppet Party Trick Performance](#46-puppet-party-trick) *(15%, 30m)*
+* [4.6. Puppet Party Trick Performance](#46-puppet-party-trick-performance) *(15%, 30m)*
 
 ---
 
