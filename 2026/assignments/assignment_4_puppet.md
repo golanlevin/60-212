@@ -65,7 +65,7 @@ Face Stuff
 
 ## 4.2. Inverse Kinematics Exercise
 
-(*5%, 20 minutes*) In order to keep you on track, this simple technical exercise is due this Wednesday, September 16.
+(*10%, 20 minutes*) In order to keep you on track, this simple technical exercise is due this Wednesday, September 16.
 
 **Inverse kinematics** (IK) is a technique for figuring out how a chain of connected joints should bend in order to place its endpoint at a desired location. Instead of specifying the angle of every shoulder, elbow, or knee yourself, you specify where you want a hand, foot, or robotic gripper to go, and IK computes the joint angles needed to get it there.
 
@@ -90,8 +90,60 @@ Face Stuff
 
 ---
 
-4.3. 
+## 4.3. ARAP Shape Exercise
 
+(*10%, 40 minutes*) In order to keep you on track, this technical exercise is due this Wednesday, September 16.
+
+**ARAP**, or “as-rigid-as-possible” deformation, lets you bend, stretch, or pose a 2D shape by moving a few control points while the rest of the shape tries to preserve its original local structure. It is an interesting and useful algorithm because it feels almost like puppeteering a material object: the shape can change globally, but local regions still behave as if they have some stiffness and memory.
+
+You are provided with a p5.js wrapper on Kyle McDonald's [reimplementation](https://github.com/kylemcdonald/puppetry) of the 2D "[As-Rigid-As-Possible (ARAP) Shape Manipulation](https://dl.acm.org/doi/10.1145/1073204.1073323)" method by Takeo Igarashi, Tomer Moscovich, John F. Hughes, published in SIGGRAPH 2005. Igarashi's algorithm is discussed and demonstrated [in this video](https://www.youtube.com/watch?v=1M_oyUEOHK8): 
+
+[![igarashi.gif](img/4/igarashi.gif)](https://www.youtube.com/watch?v=1M_oyUEOHK8)
+
+**Here is what you need:** 
+
+* **The arap-p5 library is available here:** [https://golanlevin.github.io/arap-p5/arap-p5.js](https://golanlevin.github.io/arap-p5/arap-p5.js)
+* If you want to work *purely* locally, you will also need this .wasm (web assembly) file: [https://golanlevin.github.io/arap-p5/arap2d_bg.wasm](https://golanlevin.github.io/arap-p5/arap2d_bg.wasm)
+* **Documentation for the library's API is here:** 
+
+![the-letter-y.gif](img/4/the-letter-y.gif)
+
+https://github.com/kylemcdonald/puppetry
+https://kylemcdonald.github.io/puppetry/
+
+The script is served from: 
+https://golanlevin.github.io/arap-p5/arap-p5.js
+
+```
+  myShapeVertices = [
+    [200, 150],
+    [300,  50],
+    [325,  75],
+    [225, 175],
+    [225, 350],
+    [175, 350],
+    [175, 175],
+    [ 75,  75],
+    [100,  50],
+  ];
+
+  myControlPoints = [
+    [300,75],
+    [100,75],
+    [250,125],
+    [150,125],
+    [200,175],
+    [200,250],
+  ];
+
+  myPins = [
+    [200,325],
+  ];
+```
+
+[![the-letter-y.jpg](img/4/the-letter-y.jpg)](https://www.youtube.com/watch?v=FEzxchU4RUY)
+
+---
 
 <!--
 
