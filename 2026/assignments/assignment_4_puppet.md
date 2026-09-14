@@ -7,12 +7,12 @@
 
 This assignment has six parts, paced out on different days, totaling about 7 hours:
 
-* [4.1. Viewings (Realtime Tracking)](#41-viewings-realtime-tracking) *(10%, 40m)*
-* [4.2. Inverse Kinematics Exercise](#42-inverse-kinematics-exercise) *(10%, 20m)*
-* [4.3. ARAP Shape Exercise](#43-arap-shape-exercise) *(10%, 45m)*
-* [4.4. Deforming a Shape with Your Body](#44-deforming-a-shape-with-your-body) *(10%, 45m)*
-* [4.5. Camera-Driven Puppet](#45-camera-driven-puppet) *(45%, 4 hours)*
-* [4.6. Puppet Party Trick Performance](#46-puppet-party-trick-performance) *(15%, 30m)*
+* [4.1. Viewings (Realtime Tracking)](#41-viewings-realtime-tracking) *(10%, 40m)*, due 9/16.
+* [4.2. Inverse Kinematics Exercise](#42-inverse-kinematics-exercise) *(10%, 20m)*, due 9/18.
+* [4.3. ARAP Shape Exercise](#43-arap-shape-exercise) *(10%, 45m)*, due 9/18.
+* [4.4. Deforming a Shape with Your Body](#44-deforming-a-shape-with-your-body) *(10%, 45m)*, due 9/18.
+* [**4.5. Camera-Driven Puppet**](#45-camera-driven-puppet) *(45%, 4 hours; main project)*, **due 9/23**.
+* [4.6. Puppet ("Party Trick") Performance](#46-puppet-party-trick-performance) *(15%, 30m)*, due 9/23.
 
 ---
 
@@ -21,11 +21,11 @@ This assignment has six parts, paced out on different days, totaling about 7 hou
 (*10%, 40 minutes*) In order to keep you on track, this set of viewings and its written response is due this Wednesday, September 16.
 
 * **Spend** 30 minutes reviewing this set of lecture notes on [**Realtime Tracking in Interactive Art**](https://github.com/CMUSchoolOfArt/60-120/blob/main/lectures/responsive_environment/body_tracking/readme.md). *(It's possible you may have seen this presentation before, in 60-120.)* This presentation links to dozens documentation videos of projects.  
-* If you find this material interesting and want more, here are some additional/alternative lectures you can browse: 
+* If you happen to find this material interesting and want more, here are some additional/alternative lectures you can browse: 
   * [The Expanded Body](https://github.com/golanlevin/lectures/tree/master/lecture_expanded_body)
   * [Shadow Play (Computing with Silhouettes)](https://github.com/golanlevin/lectures/tree/master/lecture_shadow)
   * [Faces in New Media Art](https://github.com/golanlevin/lectures/tree/master/lecture_face)
-* **Select** one project whose way of responding to the body you find interesting. *(You may choose any project, with the exception of those created by the Professor.)*
+* **Select** one project from these lecture notes whose way of responding to the body you find interesting. *(You may choose any project, with the exception of those created by the Professor.)*
 * **Create** a post in the Discord channel `#41-viewing-response`. **Write** a sentence or two, describing the interaction and what you appreciate about it. **Include** a link to documentation of the project. 
 
 
@@ -69,7 +69,7 @@ Face Stuff
 
 [![boxsquad.png](img/4/boxsquad.png)](https://spacetypegenerator.com/boxsquad)
 
-(*10%, 20 minutes*) In order to keep you on track, this simple technical exercise is due this Wednesday, September 16.
+(*10%, 20 minutes*) In order to keep you on track, this simple technical exercise is due before the end of this week (~Friday 9/18).
 
 **Inverse kinematics** (IK) is a technique for figuring out how a chain of connected joints should bend in order to place its endpoint at a desired location. Instead of specifying the angle of every shoulder, elbow, or knee yourself, you specify where you want a hand, foot, or robotic gripper to go, and IK computes the joint angles needed to get it there. For example, here's an [IK demo for a 6DOF robot arm](https://www.grippy.app/). 
 
@@ -98,7 +98,7 @@ Face Stuff
 
 ## 4.3. ARAP Shape Exercise
 
-(*10%, 45 minutes*) In order to keep you on track, this technical exercise is due this Wednesday, September 16.
+(*10%, 45 minutes*) In order to keep you on track, this technical exercise is due before the end of this week (~Friday 9/18)
 
 **ARAP**, or “as-rigid-as-possible” deformation, lets you bend, stretch, or pose a 2D shape by moving a few control points while the rest of the shape tries to preserve its original local structure. It is an interesting and useful algorithm because it feels almost like puppeteering a material object: the shape can change globally, but local regions still behave as if they have some stiffness and memory.
 
@@ -154,13 +154,13 @@ Now that you understand what ARAP is and does, your task will be to use the arap
 
 ## 4.4. Deforming a Shape With Your Body
 
-(*10%, 45 minutes*) This exercise should be completed before Monday 9/21. *This is a primarily technical exercise whose goal is to make sure you are well-prepared for the main assignment.*
+(*10%, 45 minutes*) This exercise should be completed before the end of this week (~Friday 9/18). *This is a primarily technical exercise whose goal is to make sure you are well-prepared for the main assignment.*
 
 You are provided with [a p5.js wrapper on Google's MediaPipe](https://openprocessing.org/@golan/2760298), a high-quality computer vision system that can track the face, body, and hands. 
 
 [![mediapipe.png](img/4/mediapipe.jpg)](https://openprocessing.org/@golan/2760298)
 
-Your task is to reproduce the sketch shown below, in which your Y-shaped ARAP model is connected to your body pose. I have attached the Y-shape's upper control points to my wrists; the next-lowest pair to my elbows; the Y-shape's branch point to the midpoint of my shoulders; the point below that to my waist; and the foot to an imaginary point offset below the waist. For the best quality performance, disable the MediaPipe face-tracking and hand-tracking (there are boolean settings for this). 
+Your task in this exercise is to reproduce the sketch shown below, in which your Y-shaped ARAP model is connected to your body pose. I have attached the Y-shape's upper control points to my wrists; the next-lowest pair to my elbows; the Y-shape's branch point to the midpoint of my shoulders; the point below that to my waist; and the foot to an imaginary point offset below the waist. For the best quality performance, disable the MediaPipe face-tracking and hand-tracking (there are boolean settings for this). 
 
 ![golan-y.gif](img/4/golan-y.gif)
 
@@ -183,8 +183,8 @@ Your task is to reproduce the sketch shown below, in which your Y-shaped ARAP mo
 
 *Roughly:*
 
-* Watch Cartoon Mess Live: [Roger and Gorf](https://www.instagram.com/p/DXF6SdtkhJ_) and [Tom's custom software](https://www.instagram.com/p/DXSKQdTEojQ/). Alsoo watch Kellie Kiakas's [Interactive Rig Demo](https://www.instagram.com/p/DbI1A7zuHTk)
-* **Create** a virtual puppet which is driven by your face, body, and/or hands. You are encouraged to use inverse kinematics and as-rigid-as-possible deformation. You may work with a partner if you wish; in that case, you should make *two* puppets, who inhabit the same space.
+* **Watch** Cartoon Mess Live: [Roger and Gorf](https://www.instagram.com/p/DXF6SdtkhJ_) and [Tom's custom software](https://www.instagram.com/p/DXSKQdTEojQ/). Also watch Kellie Kiakas's [Interactive Rig Demo](https://www.instagram.com/p/DbI1A7zuHTk)
+* **Create** a virtual puppet which is driven by your face, body, and/or hands. You are encouraged to use inverse kinematics and as-rigid-as-possible deformation. You may work with a partner if you wish; in that case, you should make *two* puppets, who inhabit the same canvas space.
 * Your puppet should also probably respond to your voice. **Observe** [this microphone audio demo](https://openprocessing.org/@golan/2189436). *Note: this needs to be updated to p5.js v.2.*
 * **Add** your sketch to the [OpenProcessing slot for this exercise]() (TBA).
 * **Create** a Discord post to document your project.
@@ -193,7 +193,7 @@ Your task is to reproduce the sketch shown below, in which your Y-shaped ARAP mo
 
 ## 4.6. Puppet Party Trick Performance
 
-*(15%, 30m)*
+*(15%, 30m)* 
 
 **Create** a brief video (10-30s) in which your puppet presents a party trick with their body. For example, Gorf might say, "Check out this thing I can do with my fleebles". 
 
