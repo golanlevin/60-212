@@ -20,7 +20,7 @@ There are 10 sets of assignments. Unless otherwise noted, projects should be *su
 * `Wed 08/26` — [**#1 Due**](assignments/assignment_1.md) (Form; Points and Lines) 
 * `Wed 09/02` — [**#2 Due**](assignments/assignment_2.md) (Movement; Illusion, Loops)
 * `Mon 09/14` — [**#3 Due**](assignments/assignment_3_color.md) (Pattern; Color)
-* `Wed 09/23` — #4 Due (Camera/Puppet)
+* `Wed 09/23` — [**#4 Due**](assignments/assignment_4_puppet.md) (Camera/Puppet)
 * `Wed 10/07` — #5 Due (Speech/AI-Buffet)
 * `Mon 10/26` — #6 Due (Pixel Logics; Shaders)
 * `Mon 11/09` — #7 Due (Creative Tool)
@@ -60,7 +60,7 @@ Approximate intensity trajectory of the assignments:
 * `Mon 09/14` — [Notes](daily_notes/20260914.md); [**#3 Due**](assignments/assignment_3_color.md) (Color); Guest visit ([Patrick Hübner](https://www.patrik-huebner.com/))
 * `Wed 09/16` 
 * `Mon 09/21` 
-* `Wed 09/23` — #4 Due (Mic/Cam/Puppet)
+* `Wed 09/23` — [**#4 Due**](assignments/assignment_4_puppet.md) (Mic/Cam/Puppet)
 * `Mon 09/28` 
 * `Wed 09/30` 
 * `Mon 10/05` 
