@@ -79,9 +79,11 @@ You are provided with a p5.js wrapper on Kyle McDonald's [JS reimplementation](h
 
 To get started, **spend 5 minutes exploring** [Kyle's interactive ARAP demo](https://kylemcdonald.github.io/puppetry/): 
 
-[![kyle-arap.png](img/4/kyle-arap.png)](https://kylemcdonald.github.io/puppetry/)
+[![kyle-arap.png](img/4/kyle-arap.gif)](https://kylemcdonald.github.io/puppetry/)
 
-Now that you understand what ARAP is and does, your task will be to use the arap-p5 library to **reproduce** a manipulable **Y-shape** design, as shown below. Almost everything you need has been provided; all you have to do is connect up the arap-p5.js API correctly. **Here is what you need:** 
+### Your Task: Recreate this Y-Shape with ARAP
+
+Now that you understand what ARAP is and does, your task will be to use the arap-p5.js library to **reproduce** a manipulable **Y-shape** design, as shown below. Almost everything you need has been provided; all you have to do is connect up the arap-p5.js API correctly. **Here is what you need:** 
 
 * **The arap-p5 library is available here:** [https://golanlevin.github.io/arap-p5/arap-p5.js](https://golanlevin.github.io/arap-p5/arap-p5.js)
 * **Documentation for the library API is here:** [resources/arap-p5-documentation.md](resources/arap-p5-documentation.md). You will definitely want to read this.
@@ -118,6 +120,8 @@ Now that you understand what ARAP is and does, your task will be to use the arap
   ];
 ```
 
+*Perhaps you're asking why.*
+
 [![the-letter-y.jpg](img/4/the-letter-y.jpg)](https://www.youtube.com/watch?v=FEzxchU4RUY)
 
 
@@ -125,25 +129,31 @@ Now that you understand what ARAP is and does, your task will be to use the arap
 
 ## 4.4. Deforming a Shape With Your Body
 
-(*10%, 45 minutes*) This exercise should be completed before the end of this week (~Friday 9/18). *This is a primarily technical exercise whose goal is to make sure you are well-prepared for the main assignment.*
+![golan-y.gif](img/4/golan-y.gif)
 
-You are provided with [a p5.js wrapper on Google's MediaPipe](https://openprocessing.org/@golan/2760298), a high-quality computer vision system that can track the face, body, and hands. 
+(*10%, 45 minutes*) This brief exercise should be completed before the end of this week (~Friday 9/18). *This is a primarily technical exercise whose goal is to make sure you are well-prepared for the main assignment.*
+
+Your task in this exercise is to **reproduce the sketch shown above**, in which your Y-shaped ARAP model from exercise 43 is controlled by your body pose. In this sketch, I have: 
+
+* attached the Y-shape's upper control points to my wrists;
+* attached the next-lowest pair to my elbows; 
+* attached the Y-shape's branch point to the midpoint between my shoulders; 
+* attached the point below that to my waist; and 
+* attached the Y's foot to an imaginary point offset below my waist. 
+
+You are provided with [a p5.js wrapper on Google's MediaPipe](https://openprocessing.org/@golan/2760298), a high-quality computer vision system that can track the face, body, and hands. Note that for the best quality performance, you should **disable** the MediaPipe face-tracking and hand-tracking (there are boolean settings for this). 
 
 [![mediapipe.png](img/4/mediapipe.jpg)](https://openprocessing.org/@golan/2760298)
-
-Your task in this exercise is to reproduce the sketch shown below, in which your Y-shaped ARAP model is connected to your body pose. I have attached the Y-shape's upper control points to my wrists; the next-lowest pair to my elbows; the Y-shape's branch point to the midpoint of my shoulders; the point below that to my waist; and the foot to an imaginary point offset below the waist. For the best quality performance, disable the MediaPipe face-tracking and hand-tracking (there are boolean settings for this). 
-
-![golan-y.gif](img/4/golan-y.gif)
 
 ***Now:***
 
 * **Fork** [the MediaPipe demo](https://openprocessing.org/@golan/2760298). 
 * **Add** the arap-p5.js library to it, and add your ARAP Y-shape from exercise #43.
-* **Fetch** the correct body pose data points, using the provided MediaPipe wrapper commands like `getPoseLandmark()` and index constants like `POSE_RIGHT_SHOULDER`. 
-* **Use** these data to govern the ARAP control points. 
+* **Fetch** the correct body pose data points, using the provided MediaPipe wrapper commands like `getPoseLandmark()` and index constants like `POSE_RIGHT_SHOULDER`. You can find these in `trackerstuff.js`. 
+* **Use** your joint data to govern the ARAP control points.
 * **Add** your sketch to the [OpenProcessing slot for this exercise]() (TBA).
-* **Screenshot** an image of yourself puppeteering the Y-shape with your body.
-* **Create** a post in the Discord channel `44-camera-deformation`, and **embed** the screenshot in the post. 
+* **Screenshot** a goofy image of yourself puppeteering the Y-shape with your body.
+* **Create** a post in the Discord channel `44-camera-deformation`, and **embed** the screenshot in the post.
 
 
 ---
