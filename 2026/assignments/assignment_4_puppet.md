@@ -143,7 +143,7 @@ Your task in this exercise is to **reproduce the sketch shown above**, in which 
 * attached the point below that to my waist; and 
 * attached the Y's foot to an imaginary point offset below my waist. 
 
-You are provided with [a p5.js wrapper on Google's MediaPipe](https://openprocessing.org/@golan/2760298), a high-quality computer vision system that can track the face, body, and hands. Note that for the best quality performance, you should **disable** the MediaPipe face-tracking and hand-tracking (there are boolean settings for this). 
+You are provided with [a p5.js wrapper on Google's MediaPipe](https://openprocessing.org/@golan/2760298), a high-quality computer vision system that can track the face, body, and hands. Note that for the best quality performance, you should **disable** the MediaPipe modalities you're not using (in this case, the face and hands; there are boolean settings for this).
 
 [![mediapipe.png](img/4/mediapipe.jpg)](https://openprocessing.org/@golan/2760298)
 
@@ -168,11 +168,11 @@ You are provided with [a p5.js wrapper on Google's MediaPipe](https://openproces
 
 You are now able to track landmarks on the face, body, and hands with a realtime motion capture system. You can use those landmarks to control a jointed physical simulation, using inverse kinematics. And you can use tracked landmarks and IK joints to govern the control points of a deformable 2D shape, using the ARAP algorithm. 
 
-### Your Task: Make a Puppet
+### Your Task: Make a Virtual Puppet
 
 * **SKETCH FIRST!** Make some sketches! Make more sketches. Your puppet can be any kind of character you wish: human, animal, monster, alien, sentient object, etc.  
-* **Create** a virtual puppet which is driven by landmarks on your face, body, and/or hands. You are encouraged to use inverse kinematics and as-rigid-as-possible (ARAP) deformation to design your creature. **Remember** that you don't have to map like-to-like: for example, your fingers could become the legs of a spider. (For best performance, be sure to disable tracking modes (face, hands, body) that you're not using.)
-* Your puppet should respond to your voice. **View** and **explore** [this microphone audio demo](https://openprocessing.org/@golan/3009672), which uses the [p5.sound.js](https://p5js.org/reference/p5.sound/) library. Also check out [this demo](https://openprocessing.org/@golan/3009913) (wear headphones!), which applies a real-time pitch shifter to your voice -- very useful for puppets.
+* **Create** a virtual puppet in p5.js which is driven by landmarks on your face, body, and/or hands. You are encouraged to take advantage of inverse kinematics and as-rigid-as-possible (ARAP) deformation to design your creature. **Remember** that you don't have to map like-to-like: for example, your fingers could puppeteer the legs of a spider. (For best performance, be sure to disable the MediaPipe tracking modes (face, hands, or body) that you're not using.)
+* Your puppet should probably respond to your voice. **View** and **explore** [this microphone audio demo](https://openprocessing.org/@golan/3009672), which uses the [p5.sound.js](https://p5js.org/reference/p5.sound/) library. Also check out [this demo](https://openprocessing.org/@golan/3009913) (wear headphones!), which applies a real-time pitch shifter to your voice -- very useful for puppets.
 * You may **collaborate** with a partner if you wish; in that case, you should create *two* puppet characters, who inhabit the same canvas space.
 * **Add** your sketch to the [OpenProcessing slot for this exercise](https://openprocessing.org/class/107236/#/c/107653).
 * **Record** a brief (2-3 second) GIF showing your puppet moving in response to your body. *This GIF is not the video performance documentation; see exercise 4.6.*
@@ -182,10 +182,14 @@ You are now able to track landmarks on the face, body, and hands with a realtime
 
 ## 4.6. Puppet Party Trick Performance
 
-*(15%, 30m)* In this exercise, you will **create a brief video recording** (10-15s) of a performance you make with your puppet. 
+*(15%, 30m)* In this exercise, you are asked to **create a brief video recording** (10-15s) of a performance you make with your puppet. 
 ![trick-tongue.gif](img/4/trick-tongue.gif)
 ![trick-neck.gif](img/4/trick-neck.gif)
 
+* For some inspiration, **check out** the following "live animation" performers: 
+  * Cartoon Mess Live: [Roger and Gorf](https://www.instagram.com/p/DXF6SdtkhJ_) 
+  * [Tom's custom software](https://www.instagram.com/p/DXSKQdTEojQ/). 
+  * Kellie Kiakas's [Interactive Rig Demo](https://www.instagram.com/p/DbI1A7zuHTk)
 * **Imagine** that your puppet character is auditioning to perform a [party trick on television](https://www.youtube.com/watch?v=oW3Xt-FqWng). In this scenario, your character might **introduce** themselves, and **perform** some interesting trick with their body. For example, Gorf might say, *"Check out this thing I can do with my fleebles"*.
 * **Plan** and **record** a screenrecording of your puppet performing this party trick.
 * **Consider** using the p5 pitch shifter [demo](https://openprocessing.org/@golan/3009913) to alter your voice, or experiment with other professional voice-altering software like [Voicemod](https://www.voicemod.net/) or [Voxal Voicechanger](https://www.nchsoftware.com/voicechanger/index.html) to get into character.
