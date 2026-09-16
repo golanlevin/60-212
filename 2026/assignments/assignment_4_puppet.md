@@ -174,7 +174,7 @@ You are now able to track landmarks on the face, body, and hands with a realtime
 * **Create** a virtual puppet which is driven by landmarks on your face, body, and/or hands. You are encouraged to use inverse kinematics and as-rigid-as-possible (ARAP) deformation to design your creature. **Remember** that you don't have to map like-to-like: for example, your fingers could become the legs of a spider. (For best performance, be sure to disable tracking modes (face, hands, body) that you're not using.)
 * Your puppet should respond to your voice. **View** and **explore** [this microphone audio demo](https://openprocessing.org/@golan/3009672), which uses the [p5.sound.js](https://p5js.org/reference/p5.sound/) library. Also check out [this demo](https://openprocessing.org/@golan/3009913) (wear headphones!), which applies a real-time pitch shifter to your voice -- very useful for puppets.
 * You may **collaborate** with a partner if you wish; in that case, you should create *two* puppet characters, who inhabit the same canvas space.
-* **Add** your sketch to the [OpenProcessing slot for this exercise]().
+* **Add** your sketch to the [OpenProcessing slot for this exercise](https://openprocessing.org/class/107236/#/c/107653).
 * **Record** a brief (2-3 second) GIF showing your puppet moving in response to your body. *This GIF is not the video performance documentation; see exercise 4.6.*
 * **Create** a post in the Discord channel, `#45-puppet`, to document your project. In your post, **write** about your character and how you operate it. **Describe** some of the decisions you made about your control mappings. **Embed** a screenshot and your GIF recording. 
 
@@ -186,8 +186,8 @@ You are now able to track landmarks on the face, body, and hands with a realtime
 ![trick-tongue.gif](img/4/trick-tongue.gif)
 ![trick-neck.gif](img/4/trick-neck.gif)
 
-* **Imagine** that your puppet character is auditioning to perform a [party trick on television](https://www.youtube.com/watch?v=oW3Xt-FqWng). 
-* **Plan** and **record** a screenrecording of your puppet performing this party trick. In this recording, your character might introduce themselves, and perform some interesting trick with their body. For example, Gorf might say, *"Check out this thing I can do with my fleebles"*.
+* **Imagine** that your puppet character is auditioning to perform a [party trick on television](https://www.youtube.com/watch?v=oW3Xt-FqWng). In this scenario, your character might **introduce** themselves, and **perform** some interesting trick with their body. For example, Gorf might say, *"Check out this thing I can do with my fleebles"*.
+* **Plan** and **record** a screenrecording of your puppet performing this party trick.
 * **Consider** using the p5 pitch shifter [demo](https://openprocessing.org/@golan/3009913) to alter your voice, or experiment with other professional voice-altering software like [Voicemod](https://www.voicemod.net/) or [Voxal Voicechanger](https://www.nchsoftware.com/voicechanger/index.html) to get into character.
 * You might need to add keypresses to conrol your puppet.
 * It's great if your recording is brief, like 5-15 seconds. 
