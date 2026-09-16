@@ -182,13 +182,13 @@ You are now able to track landmarks on the face, body, and hands with a realtime
 
 ## 4.6. Puppet Party Trick Performance
 
-*(15%, 30m)* In this exercise, you will create a brief video recording (10-15s) of a performance you make with your puppet. 
+*(15%, 30m)* In this exercise, you will **create a brief video recording** (10-15s) of a performance you make with your puppet. 
 ![trick-tongue.gif](img/4/trick-tongue.gif)
 ![trick-neck.gif](img/4/trick-neck.gif)
 
 * **Imagine** that your puppet character is auditioning to perform a [party trick on television](https://www.youtube.com/watch?v=oW3Xt-FqWng). 
-* **Plan** and **record** a screenrecording of your puppet performing this party trick. In this performance, your character would likely introduce themselves, and perform some interesting trick with their body. For example, Gorf might say, *"Check out this thing I can do with my fleebles"*.
-* **Consider** using the p5 pitch shifter [demo](https://openprocessing.org/@golan/3009913) to alter your voice, or experiment with professional software like [Voicemod](https://www.voicemod.net/) or [Voxal Voicechanger](https://www.nchsoftware.com/voicechanger/index.html) to get into character.
+* **Plan** and **record** a screenrecording of your puppet performing this party trick. In this recording, your character might introduce themselves, and perform some interesting trick with their body. For example, Gorf might say, *"Check out this thing I can do with my fleebles"*.
+* **Consider** using the p5 pitch shifter [demo](https://openprocessing.org/@golan/3009913) to alter your voice, or experiment with other professional voice-altering software like [Voicemod](https://www.voicemod.net/) or [Voxal Voicechanger](https://www.nchsoftware.com/voicechanger/index.html) to get into character.
 * You might need to add keypresses to conrol your puppet.
 * It's great if your recording is brief, like 5-15 seconds. 
 * **Upload** the video of your performance to an unlisted YouTube video.
