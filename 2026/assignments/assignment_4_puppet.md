@@ -9,7 +9,7 @@ This assignment has six parts, paced out on different days, totaling about 7 hou
 
 * [4.1. Viewings (Realtime Tracking)](#41-viewings-realtime-tracking) *(10%, 40m)*, due 9/16.
 * [4.2. Inverse Kinematics Exercise](#42-inverse-kinematics-exercise) *(10%, 20m)*, due 9/18.
-* [4.3. ARAP Shape Exercise](#43-arap-shape-exercise) *(10%, 45m)*, due 9/18.
+* [4.3. ARAP Shape Deformation Exercise](#43-arap-shape-deformation-exercise) *(10%, 45m)*, due 9/18.
 * [4.4. Deforming a Shape with Your Body](#44-deforming-a-shape-with-your-body) *(10%, 45m)*, due 9/18.
 * [**4.5. Camera-Driven Puppet**](#45-camera-driven-puppet) *(45%, 4 hours; main project)*, **due 9/23**.
 * [4.6. Puppet ("Party Trick") Performance](#46-puppet-party-trick-performance) *(15%, 30m)*, due 9/23.
@@ -20,55 +20,22 @@ This assignment has six parts, paced out on different days, totaling about 7 hou
 
 [![Puppet Parade](https://raw.githubusercontent.com/CMUSchoolOfArt/60-120/main/lectures/responsive_environment/body_tracking/images/design-io_puppet_parade.gif)](https://vimeo.com/34824490)
 
-(*10%, 40 minutes*) In order to keep you on track, this viewing and its written response is due this Wednesday, September 16.
+(*10%, 40 minutes*) You are invited to browse a variety of new media artworks that use body-tracking, face-tracking, and hand-tracking. In order to keep you on track, this viewing and its written response is due this Wednesday, September 16.
 
 * **Spend** 30 minutes reviewing this set of lecture notes on [**Realtime Tracking in Interactive Art**](https://github.com/CMUSchoolOfArt/60-120/blob/main/lectures/responsive_environment/body_tracking/readme.md). *(It's possible you may have seen this presentation before, in 60-120.)* This presentation links to dozens documentation videos of projects.  
 * **Select** one project from these lecture notes whose way of responding to the body you find interesting. *(You may choose any project, with the exception of those created by the Professor.)*
 * **Create** a post in the Discord channel `#41-viewing-response`. **Write** a sentence or two, describing the interaction and what you appreciate about it. **Include** a link to documentation of the project. 
-* *Optionally*, if you happen to find this material interesting and want more, here are some additional/alternative lectures you can browse: 
-  * [The Expanded Body](https://github.com/golanlevin/lectures/tree/master/lecture_expanded_body)
+* *Optionally*, if you happen to find this material interesting and want more, here are some additional lectures you may browse: 
   * [Shadow Play (Computing with Silhouettes)](https://github.com/golanlevin/lectures/tree/master/lecture_shadow)
   * [Faces in New Media Art](https://github.com/golanlevin/lectures/tree/master/lecture_face)
+  * [The Expanded Body](https://github.com/golanlevin/lectures/tree/master/lecture_expanded_body)
 
-<!--
-
-Live Animation
-
-* [**DesignIO**](https://www.design-io.com/) (Emily Gobeille and Theo Watson)
-  * [Original prototype](https://vimeo.com/16985224)
-  * [Puppet Parade](https://www.design-io.com/projects/puppetparade)
-* [**Cartoon Mess Live**](https://www.cartoonmess.live/)
-	* [Roger and Gorf](https://www.instagram.com/p/DXF6SdtkhJ_)
-	* [Tom's custom software](https://www.instagram.com/p/DXSKQdTEojQ/)
-	* [Ninja turtle drawing](https://www.instagram.com/p/DYieH0eyh4C/)
-	* [Duck in use; mild cartoon violence](https://www.instagram.com/p/DXxj2IBPJVr/)
-	* [Duck in use; building](https://www.instagram.com/p/Db-D3rayrHq)
-* [**Kiafoolish**](https://www.instagram.com/foolishkia/) (Kellie Kiakas)
-	* [Interactive Rig Demo](https://www.instagram.com/p/DbI1A7zuHTk)
-
-Hand Stuff
-
-![ojrgb_touchdesigner_2026.gif](https://raw.githubusercontent.com/CMUSchoolOfArt/60-120/main/lectures/responsive_environment/body_tracking/images/ojrgb_touchdesigner_2026.gif)
-
-* [@ojrgb](https://www.instagram.com/p/DVn2ryfkSOj)
-* [@cottondesigninc](https://www.instagram.com/p/DdBwZBNtErn)
-* @Karakold: [jealous](https://www.instagram.com/p/Dc58CAENsqE), [yesterday](https://www.instagram.com/p/DcWOZgMNG9L)
-* [@julip.mp3](https://www.instagram.com/p/DSoKeDGjMHU/), [nike](https://www.instagram.com/p/DZ5pmXLIlQV/)
-* [@elliotisacoolguy](https://www.instagram.com/p/Dbr08NlxDXO)
-
-Face Stuff
-
-* Karolina Sobecka, [All the Universe is Full of the Lives of Perfect Creatures](https://vimeo.com/35262930) (2012)
-* Zach Lieberman, [Más Que la Cara overview](https://medium.com/@zachlieberman/m%C3%A1s-que-la-cara-overview-48331a0202c0) (2016)
-* Rachel Ciavarella (CMU), [Animatronic Avatars](https://vimeo.com/126283584) (2015)
-
--->
 
 ---
 
 ## 4.2. Inverse Kinematics Exercise
 
-[![boxsquad.png](img/4/boxsquad.png)](https://spacetypegenerator.com/boxsquad)
+[![boxsquad.png](img/4/boxsquad_interaction.gif)](https://spacetypegenerator.com/boxsquad)
 
 (*10%, 20 minutes*) In order to keep you on track, this simple technical exercise is due before the end of this week (~Friday 9/18).
 
@@ -78,22 +45,20 @@ Face Stuff
 
 * **View** and **explore** the "[BoxSquad](https://spacetypegenerator.com/boxsquad)" artwork by creative coder, [Kiel Mutschelknaus](https://www.instagram.com/kiel.d.m/?hl=en). Here is the [Live interactive experience](https://spacetypegenerator.com/boxsquad) (try out the "twerk" and "debug" buttons), and here is a [recorded interaction](https://www.instagram.com/p/DajD1SPmK8t/) on Instagram (as a backup).
 * **Read** [this 800-word article on Inverse Kinematics](https://www.davepagurek.com/blog/inverse-kinematics/) by Dave Pagurek, an artist and p5.js contributor. (If you'd like to learn more about Inverse Kinematics, feel free to **watch** [this 35m Coding Train video](https://www.youtube.com/watch?v=hbgDqyy8bIw).)
-* **View** and **explore** [this p5.js sketch](https://editor.p5js.org/golan/sketches/txTrE72lG), adapted from Pagurek's demo, which allows you to easily see the IK code. This project works in the following way: 
+* **View** and **explore** [this p5.js sketch](https://openprocessing.org/@golan/3008809), adapted from Pagurek's demo, which allows you to easily see the IK code. This project works in the following way: 
 
 > The mouse specifies a target position, and the chain of connected bones repeatedly adjusts its joint angles to reach toward it. The IK solver works recursively from the end of the chain backward, rotating each bone so that the chain’s current endpoint moves toward the target; repeating this process several times rapidly converges on a solution.
 
-### Your Task: Make this Y-Shape with IK
-
-***Now:***
-
-* **Modify** the construction of the skeleton so that it forms a simple **Y**-shaped puppet: a torso with two simple articulated arms extending from the same shoulder point, as shown below.
-* *Note:* You should not need to modify the `Bone` class or the IK algorithm itself.
-* Currently, Dave Pagurek's inverse-kinematics sketch consists of a *single* chain of connected bones. Instead of one variable called `chain`, you will want *two* IK chains, with variable names like (e.g.) `leftArm` and `rightArm`. Both arms can begin at the same (x, y) position. Call `updateIK()` and `draw()` separately for each arm.
+### Your Task: Recreate this Y-Shape with IK
 
 ![ik-y-arms.gif](img/4/ik-y-arms1.gif)
 
-**Additionally:**
+***Now:***
 
+* **Fork** [Pagurek's IK demo](https://openprocessing.org/@golan/3008809) in OpenProcessing.
+* **Modify** the construction of the skeleton so that it forms a simple **Y**-shaped puppet: a torso with two simple articulated arms extending from the same shoulder point, as shown above.
+  * You should not need to modify the `Bone` class or the IK algorithm itself.
+  * Currently, Dave Pagurek's inverse-kinematics sketch consists of a *single* chain of connected bones. Instead of one variable called `chain`, you will want *two* IK chains, with variable names like (e.g.) `leftArm` and `rightArm`. Both arms can begin at the same (x, y) position. Call `updateIK()` and `draw()` separately for each arm.
 * **Make** the Y's two hands chase points located ±50 pixels to the left and right of the mouse cursor, i.e, `[mouseX - 50, mouseY]` and `[mouseX + 50, mouseY]`.
 * **Make** the Y's shoulder point move independently (autonomously) according to a slow sinusoid or noise wave, as shown below.
 * **Upload** your sketch to [the OpenProcessing slot for Exercise 4.2](https://openprocessing.org/class/107236/#/c/107628).
@@ -102,7 +67,7 @@ Face Stuff
 
 ---
 
-## 4.3. ARAP Shape Exercise
+## 4.3. ARAP Shape Deformation Exercise
 
 (*10%, 45 minutes*) In order to keep you on track, this technical exercise is due before the end of this week (~Friday 9/18)
 
@@ -212,5 +177,36 @@ Your task in this exercise is to reproduce the sketch shown below, in which your
 <!--
 
 
+Live Animation
+
+* [**DesignIO**](https://www.design-io.com/) (Emily Gobeille and Theo Watson)
+  * [Original prototype](https://vimeo.com/16985224)
+  * [Puppet Parade](https://www.design-io.com/projects/puppetparade)
+* [**Cartoon Mess Live**](https://www.cartoonmess.live/)
+	* [Roger and Gorf](https://www.instagram.com/p/DXF6SdtkhJ_)
+	* [Tom's custom software](https://www.instagram.com/p/DXSKQdTEojQ/)
+	* [Ninja turtle drawing](https://www.instagram.com/p/DYieH0eyh4C/)
+	* [Duck in use; mild cartoon violence](https://www.instagram.com/p/DXxj2IBPJVr/)
+	* [Duck in use; building](https://www.instagram.com/p/Db-D3rayrHq)
+* [**Kiafoolish**](https://www.instagram.com/foolishkia/) (Kellie Kiakas)
+	* [Interactive Rig Demo](https://www.instagram.com/p/DbI1A7zuHTk)
+
+Hand Stuff
+
+![ojrgb_touchdesigner_2026.gif](https://raw.githubusercontent.com/CMUSchoolOfArt/60-120/main/lectures/responsive_environment/body_tracking/images/ojrgb_touchdesigner_2026.gif)
+
+* [@ojrgb](https://www.instagram.com/p/DVn2ryfkSOj)
+* [@cottondesigninc](https://www.instagram.com/p/DdBwZBNtErn)
+* @Karakold: [jealous](https://www.instagram.com/p/Dc58CAENsqE), [yesterday](https://www.instagram.com/p/DcWOZgMNG9L)
+* [@julip.mp3](https://www.instagram.com/p/DSoKeDGjMHU/), [nike](https://www.instagram.com/p/DZ5pmXLIlQV/)
+* [@elliotisacoolguy](https://www.instagram.com/p/Dbr08NlxDXO)
+
+Face Stuff
+
+* Karolina Sobecka, [All the Universe is Full of the Lives of Perfect Creatures](https://vimeo.com/35262930) (2012)
+* Zach Lieberman, [Más Que la Cara overview](https://medium.com/@zachlieberman/m%C3%A1s-que-la-cara-overview-48331a0202c0) (2016)
+* Rachel Ciavarella (CMU), [Animatronic Avatars](https://vimeo.com/126283584) (2015)
+
 -->
+
 
