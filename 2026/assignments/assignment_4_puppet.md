@@ -11,8 +11,9 @@ This assignment has six parts, paced out on different days, totaling about 7 hou
 * [4.2. Inverse Kinematics Exercise](#42-inverse-kinematics-exercise) *(10%, 20m)*, due 9/18.
 * [4.3. ARAP Shape Deformation Exercise](#43-arap-shape-deformation-exercise) *(10%, 45m)*, due 9/18.
 * [4.4. Deforming a Shape with Your Body](#44-deforming-a-shape-with-your-body) *(10%, 45m)*, due 9/18.
-* [**4.5. Camera-Driven Puppet**](#45-camera-driven-puppet) *(45%, 4 hours; main project)*, **due 9/23**.
-* [4.6. Puppet ("Party Trick") Performance](#46-puppet-party-trick-performance) *(15%, 30m)*, due 9/23.
+* **[**4.5. Camera-Driven Live Animation Puppet**](#45-camera-driven-live-animation-puppet) *(45%, 4 hours; main project)*, due 9/23**.
+* [4.6. Puppet Party Trick Performance](#46-puppet-party-trick-performance) *(15%, 30m)*, due 9/23.
+
 
 ---
 
@@ -65,6 +66,7 @@ This assignment has six parts, paced out on different days, totaling about 7 hou
 
 ![ik-y-arms2.gif](img/4/ik-y-arms2.gif)
 
+
 ---
 
 ## 4.3. ARAP Shape Deformation Exercise
@@ -73,7 +75,7 @@ This assignment has six parts, paced out on different days, totaling about 7 hou
 
 **ARAP**, or “as-rigid-as-possible” deformation, lets you bend, stretch, or pose a 2D shape by moving a few control points while the rest of the shape tries to preserve its original local structure. It is an interesting and useful algorithm because it feels almost like puppeteering a material object: the shape can change globally, but local regions still behave as if they have some stiffness and memory.
 
-You are provided with a p5.js wrapper on Kyle McDonald's [JS reimplementation](https://github.com/kylemcdonald/puppetry) of the 2D "[As-Rigid-As-Possible (ARAP) Shape Manipulation](https://dl.acm.org/doi/10.1145/1073204.1073323)" method by Takeo Igarashi et al., published in SIGGRAPH 2005. Igarashi's algorithm is discussed [here](https://www-ui.is.s.u-tokyo.ac.jp/~takeo/research/rigid/index.html) and demonstrated [in this video](https://www.youtube.com/watch?v=1M_oyUEOHK8): 
+You are provided with a [p5.js wrapper](https://golanlevin.github.io/arap-p5/arap-p5.js) for Kyle McDonald's [JS reimplementation](https://github.com/kylemcdonald/puppetry) of the 2D "[As-Rigid-As-Possible (ARAP) Shape Manipulation](https://dl.acm.org/doi/10.1145/1073204.1073323)" method by Takeo Igarashi et al., published in SIGGRAPH 2005. Igarashi's algorithm is discussed [here](https://www-ui.is.s.u-tokyo.ac.jp/~takeo/research/rigid/index.html) and demonstrated [in this fantastic video](https://www.youtube.com/watch?v=1M_oyUEOHK8):
 
 [![igarashi.gif](img/4/igarashi.gif)](https://www.youtube.com/watch?v=1M_oyUEOHK8)
 
@@ -148,44 +150,58 @@ You are provided with [a p5.js wrapper on Google's MediaPipe](https://openproces
 ***Now:***
 
 * **Fork** [the MediaPipe demo](https://openprocessing.org/@golan/2760298). 
-* **Add** the arap-p5.js library to it, and add your ARAP Y-shape from exercise #43.
-* **Fetch** the correct body pose data points, using the provided MediaPipe wrapper commands like `getPoseLandmark()` and index constants like `POSE_RIGHT_SHOULDER`. You can find these in `trackerstuff.js`. 
+* **Add** the [arap-p5.js](https://golanlevin.github.io/arap-p5/arap-p5.js) library to it, and add your deformable Y-shape from exercise #43.
+* **Fetch** the correct body pose data points, using the provided MediaPipe wrapper commands like `getPoseLandmark()` and index constants like `POSE_RIGHT_SHOULDER`. You can find these commands and constants in `trackerstuff.js`. 
 * **Use** your joint data to govern the ARAP control points.
-* **Add** your sketch to the [OpenProcessing slot for this exercise]() (TBA).
+* **Add** your sketch to the [OpenProcessing slot for this exercise](https://openprocessing.org/class/107236/#/c/107652).
 * **Screenshot** a goofy image of yourself puppeteering the Y-shape with your body.
 * **Create** a post in the Discord channel `44-camera-deformation`, and **embed** the screenshot in the post.
 
 
 ---
 
-## 4.5. Camera-Driven Puppet
+## 4.5. Camera-Driven Live Animation Puppet
 
-*(45%, 4 hours)* Details TBA.
+![cartoonmesslive.jpg](img/4/cartoonmesslive.jpg)
 
-*Roughly:*
+*(45%, 4 hours)* **This is the main exercise**. Using p5.js and MediaPipe, you are asked to create a virtual puppet which is driven by your camera and voice. You may use your face, body, and/or hands. You are encouraged to use ARAP deformation and inverse kinematics, as appropriate to your design. *Keep in mind that you will be asked to use this puppet in a brief performance (see exercise 4.6).*
 
-* **Watch** Cartoon Mess Live: [Roger and Gorf](https://www.instagram.com/p/DXF6SdtkhJ_) and [Tom's custom software](https://www.instagram.com/p/DXSKQdTEojQ/). Also watch Kellie Kiakas's [Interactive Rig Demo](https://www.instagram.com/p/DbI1A7zuHTk)
-* **Create** a virtual puppet which is driven by your face, body, and/or hands. You are encouraged to use inverse kinematics and as-rigid-as-possible deformation. You may work with a partner if you wish; in that case, you should make *two* puppets, who inhabit the same canvas space.
-* Your puppet should also probably respond to your voice. **Observe** [this microphone audio demo](https://openprocessing.org/@golan/2189436). *Note: this needs to be updated to p5.js v.2.*
-* **Add** your sketch to the [OpenProcessing slot for this exercise]() (TBA).
-* **Create** a Discord post to document your project.
+You are now able to track landmarks on the face, body, and hands with a realtime motion capture system. You can use those landmarks to control a jointed physical simulation, using inverse kinematics. And you can use tracked landmarks and IK joints to govern the control points of a deformable 2D shape, using the ARAP algorithm. 
+
+### Your Task: Make a Puppet
+
+* **SKETCH FIRST!** Make some sketches! Make more sketches. Your puppet can be any kind of character you wish: human, animal, monster, alien, sentient object, etc.  
+* **Create** a virtual puppet which is driven by landmarks on your face, body, and/or hands. You are encouraged to use inverse kinematics and as-rigid-as-possible (ARAP) deformation to design your creature. **Remember** that you don't have to map like-to-like: for example, your fingers could become the legs of a spider. (For best performance, be sure to disable tracking modes (face, hands, body) that you're not using.)
+* Your puppet should respond to your voice. **View** and **explore** [this microphone audio demo](https://openprocessing.org/@golan/3009672), which uses the [p5.sound.js](https://p5js.org/reference/p5.sound/) library. Also check out [this demo](https://openprocessing.org/@golan/3009913) (wear headphones!), which applies a real-time pitch shifter to your voice -- very useful for puppets.
+* You may **collaborate** with a partner if you wish; in that case, you should create *two* puppet characters, who inhabit the same canvas space.
+* **Add** your sketch to the [OpenProcessing slot for this exercise]().
+* **Record** a brief (2-3 second) GIF showing your puppet moving in response to your body. *This GIF is not the video performance documentation; see exercise 4.6.*
+* **Create** a post in the Discord channel, `#45-puppet`, to document your project. In your post, **write** about your character and how you operate it. **Describe** some of the decisions you made about your control mappings. **Embed** a screenshot and your GIF recording. 
 
 ---
 
 ## 4.6. Puppet Party Trick Performance
 
-*(15%, 30m)* 
+*(15%, 30m)* In this exercise, you will create a brief video recording (10-15s) of a performance you make with your puppet. 
+![trick-tongue.gif](img/4/trick-tongue.gif)
+![trick-neck.gif](img/4/trick-neck.gif)
 
-**Create** a brief video (10-30s) in which your puppet presents a party trick with their body. For example, Gorf might say, "Check out this thing I can do with my fleebles". 
-
-* https://www.youtube.com/watch?v=oW3Xt-FqWng
-* https://www.youtube.com/watch?v=NP2pfCPV8sM
-
+* **Imagine** that your puppet character is auditioning to perform a [party trick on television](https://www.youtube.com/watch?v=oW3Xt-FqWng). 
+* **Plan** and **record** a screenrecording of your puppet performing this party trick. In this performance, your character would likely introduce themselves, and perform some interesting trick with their body. For example, Gorf might say, *"Check out this thing I can do with my fleebles"*.
+* **Consider** using the p5 pitch shifter [demo](https://openprocessing.org/@golan/3009913) to alter your voice, or experiment with professional software like [Voicemod](https://www.voicemod.net/) or [Voxal Voicechanger](https://www.nchsoftware.com/voicechanger/index.html) to get into character.
+* You might need to add keypresses to conrol your puppet.
+* It's great if your recording is brief, like 5-15 seconds. 
+* **Upload** the video of your performance to an unlisted YouTube video.
+* In the Discord channel `#46-performance`, **link** to your performance video. **Write** a sentence or two about your character and what they're doing. **Share** some of the backstory. 
 
 ---
 
 <!--
 
+* **Watch** the following three brief videos: 
+  * Cartoon Mess Live: [Roger and Gorf](https://www.instagram.com/p/DXF6SdtkhJ_) 
+  * [Tom's custom software](https://www.instagram.com/p/DXSKQdTEojQ/). 
+  * Kellie Kiakas's [Interactive Rig Demo](https://www.instagram.com/p/DbI1A7zuHTk)
 
 Live Animation
 
@@ -198,6 +214,7 @@ Live Animation
 	* [Ninja turtle drawing](https://www.instagram.com/p/DYieH0eyh4C/)
 	* [Duck in use; mild cartoon violence](https://www.instagram.com/p/DXxj2IBPJVr/)
 	* [Duck in use; building](https://www.instagram.com/p/Db-D3rayrHq)
+	* [Full show](https://www.youtube.com/watch?v=SrfYwPvaL34&t=1650s)
 * [**Kiafoolish**](https://www.instagram.com/foolishkia/) (Kellie Kiakas)
 	* [Interactive Rig Demo](https://www.instagram.com/p/DbI1A7zuHTk)
 
