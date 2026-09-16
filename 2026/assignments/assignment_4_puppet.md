@@ -5,7 +5,7 @@
 
 ## Summary of Deliverables
 
-This assignment has six parts, paced out on different days, totaling about 7 hours:
+This assignment has six parts, paced out on different days, totaling about 7 hours of effort. The expected deliverables include four small technical exercises, one main project, and a performance-documentation.
 
 * [4.1. Viewings (Realtime Tracking)](#41-viewings-realtime-tracking) *(10%, 40m)*, due 9/16.
 * [4.2. Inverse Kinematics Exercise](#42-inverse-kinematics-exercise) *(10%, 20m)*, due 9/18.
@@ -170,8 +170,12 @@ You are now able to track landmarks on the face, body, and hands with a realtime
 
 ### Your Task: Make a Virtual Puppet
 
-* **SKETCH FIRST!** Make some sketches! Make more sketches. Your puppet can be any kind of character you wish: human, animal, monster, alien, sentient object, etc.  
-* **Create** a virtual puppet in p5.js which is driven by landmarks on your face, body, and/or hands. You are encouraged to take advantage of inverse kinematics and as-rigid-as-possible (ARAP) deformation to design your creature. **Remember** that you don't have to map like-to-like: for example, your fingers could puppeteer the legs of a spider. (For best performance, be sure to disable the MediaPipe tracking modes (face, hands, or body) that you're not using.)
+* For some inspiration, **check out** the following "live animation" performers: 
+  * Cartoon Mess Live: [Roger and Gorf](https://www.instagram.com/p/DXF6SdtkhJ_) 
+  * [Tom's custom software](https://www.instagram.com/p/DXSKQdTEojQ/). 
+  * Kellie Kiakas's [Interactive Rig Demo](https://www.instagram.com/p/DbI1A7zuHTk)
+* **SKETCH FIRST!** Make some sketches! Make more sketches. Your puppet can be any kind of character you wish: human, animal, monster, alien, sentient object, etc.
+* **Create** a virtual puppet in p5.js which is controlled (directly or indirectly) by landmarks on your face, body, and/or hands. You are encouraged to take advantage of inverse kinematics and as-rigid-as-possible (ARAP) deformation to design your creature. **Remember** that you don't have to map like-parts-to-like-parts: for example, your fingers could puppeteer the legs of a spider. (For the best frame rate, be sure to disable the MediaPipe tracking modes (face, hands, or body) that you're not using.)
 * Your puppet should probably respond to your voice. **View** and **explore** [this microphone audio demo](https://openprocessing.org/@golan/3009672), which uses the [p5.sound.js](https://p5js.org/reference/p5.sound/) library. Also check out [this demo](https://openprocessing.org/@golan/3009913) (wear headphones!), which applies a real-time pitch shifter to your voice -- very useful for puppets.
 * You may **collaborate** with a partner if you wish; in that case, you should create *two* puppet characters, who inhabit the same canvas space.
 * **Add** your sketch to the [OpenProcessing slot for this exercise](https://openprocessing.org/class/107236/#/c/107653).
@@ -186,17 +190,16 @@ You are now able to track landmarks on the face, body, and hands with a realtime
 ![trick-tongue.gif](img/4/trick-tongue.gif)
 ![trick-neck.gif](img/4/trick-neck.gif)
 
-* For some inspiration, **check out** the following "live animation" performers: 
-  * Cartoon Mess Live: [Roger and Gorf](https://www.instagram.com/p/DXF6SdtkhJ_) 
-  * [Tom's custom software](https://www.instagram.com/p/DXSKQdTEojQ/). 
-  * Kellie Kiakas's [Interactive Rig Demo](https://www.instagram.com/p/DbI1A7zuHTk)
 * **Imagine** that your puppet character is auditioning to perform a [party trick on television](https://www.youtube.com/watch?v=oW3Xt-FqWng). In this scenario, your character might **introduce** themselves, and **perform** some interesting trick with their body. For example, Gorf might say, *"Check out this thing I can do with my fleebles"*.
-* **Plan** and **record** a screenrecording of your puppet performing this party trick.
+* You might need to add keypresses to help conrol your puppet. That's fine.
+* **Plan** and **record** a screen-recording of your puppet performing this party trick. I recommend you **hide** the direct view of your webcam pixels.
 * **Consider** using the p5 pitch shifter [demo](https://openprocessing.org/@golan/3009913) to alter your voice, or experiment with other professional voice-altering software like [Voicemod](https://www.voicemod.net/) or [Voxal Voicechanger](https://www.nchsoftware.com/voicechanger/index.html) to get into character.
-* You might need to add keypresses to conrol your puppet.
 * It's great if your recording is brief, like 5-15 seconds. 
 * **Upload** the video of your performance to an unlisted YouTube video.
-* In the Discord channel `#46-performance`, **link** to your performance video. **Write** a sentence or two about your character and what they're doing. **Share** some of the backstory. 
+* In the Discord channel `#46-performance`, **link** to your performance video. **Write** a sentence or two about your character and what they're doing. **Share** some of the backstory or development notes. 
+
+![body_tricks.jpg](img/4/body_tricks.jpg)
+
 
 ---
 
