@@ -59,7 +59,7 @@ Approximate intensity trajectory of the assignments:
 * `Wed 09/09` — [Notes](daily_notes/20260909.md); [David Aerne](https://elastiq.ch/) Guest presentation
 * `Mon 09/14` — [Notes](daily_notes/20260914.md); [**#3 Due**](assignments/assignment_3_color.md) (Color); Guest visit ([Patrick Hübner](https://www.patrik-huebner.com/))
 * `Wed 09/16` — [Notes](daily_notes/20260916.md); work session
-* `Mon 09/21` 
+* `Mon 09/21` — [Notes](daily_notes/20260921.md); work session
 * `Wed 09/23` — [**#4 Due**](assignments/assignment_4_puppet.md) (Mic/Cam/Puppet)
 * `Mon 09/28` 
 * `Wed 09/30` 
