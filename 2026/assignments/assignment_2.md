@@ -18,7 +18,7 @@ We are still in a phase of the course that emphasizes the development of program
 * (90 minutes) 2.3. [Non-Square Tiling](https://openprocessing.org/class/107236/#/c/107370) (20%)
 * (30 minutes) 2.4. [Reading and Looking: Loops](#24-reading-and-looking-loops) (10%)
 * (90 minutes) 2.5. [Rhythm Loop with Figure-Ground Reversal](https://openprocessing.org/class/107236/#/c/107377) (20%)
-* (120 minutes) 2.6. [Freestyle Rhythm Loop](https://openprocessing.org/class/107236/#/c/107371) (25%)
+* (120 minutes) 2.6. [Freestyle Rhythm Loop](https://openprocessing.org/class/107236/#/c/107371) (main project, 25%)
 
 ---
 
@@ -292,7 +292,7 @@ function keyPressed() {
 
 ![Rect loop](https://raw.githubusercontent.com/golanlevin/60-212/main/openprocessing_images/rect-loop-demo.gif)
 
-(**2 hours**) In this mini-project, you will explore visual rhythm, by creating a seamlessly looping, animated GIF using computationally generated graphics. In addition to the code-based project [presented on OpenProcessing](https://openprocessing.org/class/107236/#/c/107371), you are also expected to **post** your exported GIF to the `#26-rhythm-loop` channel of our Discord, along with a brief **writeup** about your design. Use [this OpenProcessing slot](https://openprocessing.org/class/107236/#/c/107371) to host your project.
+(**2 hours**) In this project, you will explore visual rhythm, by creating a seamlessly looping, animated GIF using computationally generated graphics. In addition to the code-based project [presented on OpenProcessing](https://openprocessing.org/class/107236/#/c/107371), you are also expected to **post** your exported GIF to the `#26-rhythm-loop` channel of our Discord, along with a brief **writeup** about your design. Use [this OpenProcessing slot](https://openprocessing.org/class/107236/#/c/107371) to host your project.
 
 This is a mini-project, so please **SKETCH FIRST** and **KEEP IT SIMPLE**. There are several important constraints:
 
