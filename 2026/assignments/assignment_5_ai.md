@@ -7,7 +7,7 @@
 
 * 5.1. [Dino Diffusion + p5](https://openprocessing.org/class/107236/#/c/107705) • *(10%, 30m)*
 * 5.2. [Canvas Describer: Gemini + p5](https://openprocessing.org/class/107236/#/c/107706) • *(10%, 15m)*
-* More TBA.
+* Additional Exercises TBA.
 
 
 ---
@@ -17,10 +17,9 @@
 
 ![Dino+p5](img/5/dino-diffusion-hi.png)
 
-*(10%, 30 minutes, due Monday 11/11)* [Diffusion models](https://en.wikipedia.org/wiki/Diffusion_model) are the core algorithms used in popular AI-image generation tools like MidJourney. In this quick warm-up exercise, you will experiment with using custom, generative p5.js graphics to "condition" (guide) a simple diffusion AI. We will base our work on "Dino Diffusion", an ultra-minimal diffusion model created by [Ollin Boer Bohan](https://madebyoll.in/) that generates 512×512 botanical images in the browser, in real-time.
+*(10%, 30 minutes)* [Diffusion models](https://en.wikipedia.org/wiki/Diffusion_model) are the core algorithms used in popular AI-image generation tools like MidJourney. In this quick warm-up exercise, you will experiment with using custom generative p5.js graphics to "condition" (guide) a simple diffusion AI. We will base our work on "Dino Diffusion", an ultra-minimal diffusion model created by [Ollin Boer Bohan](https://madebyoll.in/) that generates 512×512 botanical images in the browser, in real-time.
 
-* **Read** "[Dino Diffusion: Bare-bones Diffusion Models](https://madebyoll.in/posts/dino_diffusion/)" (2023) by Ollin Boer Bohan. (You can play with Bohan's [demo here](https://madebyoll.in/posts/dino_diffusion/demo/).) This is an estimated 12-minute reading.
-* **Write** a sentence sharing something you learned from this article, in the Discord channel `#51-dino-diffusion`.
+* **Read** "[Dino Diffusion: Bare-bones Diffusion Models](https://madebyoll.in/posts/dino_diffusion/)" (2023) by Ollin Boer Bohan. (You can play with Bohan's [demo here](https://madebyoll.in/posts/dino_diffusion/demo/).) This is an estimated 12-minute reading. *You will be asked to respond to this reading (see below).*
 * **Fork** [this OpenProcessing sketch](https://openprocessing.org/@golan/3016653), which is a p5.js port of Bohan's Dino-Diffusion project. In your sketch's `LIBRARIES` tab, you should also **ensure** that your sketch includes the following ONNX runtime library: `https://cdn.jsdelivr.net/npm/onnxruntime-web@1.30.0/dist/ort.webgl.min.js`
 * **Experiment** with this sketch as follows:
   * Press RETURN to start or re-start the AI process.
@@ -29,7 +28,8 @@
   * **Draw** on the canvas with the cursor to provide input to the AI.
 * *Now*: **modify** the code of this sketch, creating your own generative image for guiding the AI. You are expected to do this by specifically modifying the  `generateInputImage()` function. (There are no other parts of the code that should be modified.) Keep in mind that your graphics must be rendered into the `inputGraphics` buffer, an offscreen image whose dimensions are 64×64 pixels. Your program should generate a novel input image every time the user presses a key.
 * **Upload** your sketch to the [corresponding slot](https://openprocessing.org/class/107236/#/c/107705) in our OpenProcessing classroom.
-* **Add** an appealing screenshot of your OpenProcessing sketch to your Discord post in `51-dino-diffusion` (you can press the Down arrow to generate a screenshot image from the forked sketch). Be sure that it shows both your generated graphic and the AI result generated from it. In your post, **write** a sentence describing what you generated, and what guided your experiments. 
+* **Create** a post in the Discord channel `#51-dino-diffusion`, and **write** a sentence sharing something you learned from [Ollin's article](https://madebyoll.in/posts/dino_diffusion/).
+* **Add** an appealing screenshot of your OpenProcessing sketch to your Discord post. (You can press the *Down* arrow to generate a screenshot image from the forked sketch); be sure that it shows both your generated input and the AI result generated from it. In your post, **write** a sentence describing what you generated, and what guided your experiments.
 
 
 --- 
@@ -38,9 +38,7 @@
 
 ![newyorker_gemini.png](img/5/newyorker_gemini.png)
 
-*(10% - 15 minutes)* 
-
-In this brief exercise, you're asked to modify a simple example sketch in a hopefully interesting way. This is intended to be a quick exercise to make sure you're able to work with the [Google Gemini API](https://ai.google.dev/gemini-api/docs), which CMU provides to you. 
+*(10%, 15 minutes)* In this brief exercise, you're asked to trivially modify a simple example sketch in a hopefully interesting way. This is intended to be a quick exercise to make sure you're able to work with the [Google Gemini API](https://ai.google.dev/gemini-api/docs), which CMU provides to you. 
 
 [**Here is an interactive demonstration/template program**](https://openprocessing.org/@golan/3016851). It asks the user to make a drawing on the p5 canvas; it transmits the canvas image to the Google Gemini AI for analysis; and then it asks the AI to generate a text response to that image — conditioned by a text prompt provided in the p5.js code. When Gemini's text is returned, it is displayed in an HTML `div` below the canvas.
 
@@ -51,14 +49,12 @@ In this brief exercise, you're asked to modify a simple example sketch in a hope
 * **Create** a post in the Discord channel `#52-canvas-describer`, and **paste** in your revised prompt.
 * In your Discord post, **embed** two screenshots of your program in use, and **provide** the Gemini system's responses to those images. **write** a sentence or two about other things you tried, and some reflection on your process.
 
-To get started, you'll need to **make** a Google AI Studio developer test API key. Use the [**instructions here**](resources/gemini/README.md) ("Canvas Describer: Gemini API Key Setup").
- 
-*Note:* Make sure to keep your API key secure, and avoid sharing it publicly!
+To get started, you'll need to **make** a Google AI Studio developer test API key. Use the [**instructions here**](resources/gemini/README.md) ("Gemini API Key Setup"). Remember to keep your API key secure!
 
 
 ---
 
-## More TBA.
+## Additional Exercises TBA.
 
 
 

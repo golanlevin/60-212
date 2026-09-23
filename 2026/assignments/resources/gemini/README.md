@@ -1,4 +1,4 @@
-# Canvas Describer: Gemini API Key Setup
+# Gemini API Key Setup
 
 This project is a p5.js sketch that sends your drawing to the Google Gemini API and displays Gemini's response below the canvas.
 
