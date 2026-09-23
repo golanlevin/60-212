@@ -12,7 +12,7 @@ This assignment has six parts, paced out on different days, totaling about 7 hou
 * [4.3. ARAP Shape Deformation Exercise](#43-arap-shape-deformation-exercise) *(10%, 45m)*, due 9/18.
 * [4.4. Deforming a Shape with Your Body](#44-deforming-a-shape-with-your-body) *(10%, 45m)*, due 9/18.
 * **[**4.5. Camera-Driven Live Animation Puppet**](#45-camera-driven-live-animation-puppet)** *(45%, 4 hours; main project)*<br />🚨 **DEADLINE EXTENDED TO MONDAY 9/28** 
-  * **Alternate Assignment:** 
+  * **[Alternate Assignment](https://openprocessing.org/class/107236/#/c/107712):** 
   * An interactive software **creature** that responds to the Body/Face/Hands, **OR**
   * An interactive software **system** that responds to and augments the Body/Face/Hands, e.g. "[Gesture Expander](https://github.com/golanlevin/60-212/blob/main/2024/assignments/assignment_8.md)" (2024)
 * [**4.6. Performance or Demo**](#46-performance-or-demo) *(15%, 30m)*<br/>🚨 **DEADLINE EXTENDED TO MONDAY 9/28**
@@ -178,7 +178,7 @@ You are now able to track landmarks on the face, body, and hands with a realtime
 ### *Alternate Assignment (New)*
 
   * *An interactive software* **creature** *that responds to the Body/Face/Hands,* **OR**
-  * *An interactive software* **system** *that responds to and augments the Body/Face/Hands, e.g. "[Gesture Expander](https://github.com/golanlevin/60-212/blob/main/2024/assignments/assignment_8.md)" (2024)*
+  * *An interactive software* **system** *that responds to and augments the Body/Face/Hands, e.g. "[Gesture Expander](https://github.com/golanlevin/60-212/blob/main/2024/assignments/assignment_8.md)" (2024)* If you choose to make such a system, please post it in [this OpenProcessing channel](https://openprocessing.org/class/107236/#/c/107712).
 
 ### Your Task: Make a Virtual Puppet
 
@@ -200,6 +200,8 @@ You are now able to track landmarks on the face, body, and hands with a realtime
 
 ## 4.6. Performance or Demo
 
+![https://www.youtube.com/watch?v=ZZ-MfS9EKx8](https://img.youtube.com/vi/ZZ-MfS9EKx8/0.jpg)
+
 *(15%, 30m)* In this exercise, you are asked to **create a brief video recording** (10-15s) of a performance you make with your puppet. 
 
 <!--![trick-tongue.gif](img/4/trick-tongue.gif)
@@ -216,7 +218,7 @@ You are now able to track landmarks on the face, body, and hands with a realtime
 
 ### *Alternate Assignment (New)*
 
-*Enact a brief (10-30 second) demonstration or performance that makes use of your software. Be deliberate about how you perform, demonstrate, or use your software. Consider how your demo-performance should be tailored to your software, and your software should be tailored to your performance. It may help to write a script for your performance or demo narration.*
+* *Enact a brief (10-30 second) demonstration or performance that makes use of your software. Be deliberate about how you perform, demonstrate, or use your software. Consider how your demo-performance should be tailored to your software, and your software should be tailored to your performance. It may help to write a script for your performance or demo narration.*
 
 
 
