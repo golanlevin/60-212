@@ -11,8 +11,13 @@ This assignment has six parts, paced out on different days, totaling about 7 hou
 * [4.2. Inverse Kinematics Exercise](#42-inverse-kinematics-exercise) *(10%, 20m)*, due 9/18.
 * [4.3. ARAP Shape Deformation Exercise](#43-arap-shape-deformation-exercise) *(10%, 45m)*, due 9/18.
 * [4.4. Deforming a Shape with Your Body](#44-deforming-a-shape-with-your-body) *(10%, 45m)*, due 9/18.
-* **[**4.5. Camera-Driven Live Animation Puppet**](#45-camera-driven-live-animation-puppet) *(45%, 4 hours; main project)*, due 9/23**.
-* [4.6. Puppet Party Trick Performance](#46-puppet-party-trick-performance) *(15%, 30m)*, due 9/23.
+* **[**4.5. Camera-Driven Live Animation Puppet**](#45-camera-driven-live-animation-puppet)** *(45%, 4 hours; main project)*<br />🚨 **DEADLINE EXTENDED TO MONDAY 9/28** 
+  * **Alternate Assignment:** 
+  * An interactive software **creature** that responds to the Body/Face/Hands, **OR**
+  * An interactive software **system** that responds to and augments the Body/Face/Hands, e.g. "[Gesture Expander](https://github.com/golanlevin/60-212/blob/main/2024/assignments/assignment_8.md)" (2024)
+* [**4.6. Performance or Demo**](#46-performance-or-demo) *(15%, 30m)*<br/>🚨 **DEADLINE EXTENDED TO MONDAY 9/28**
+  * **Alternate Assignment:** 
+  * 10-30 second video documentation of your software
 
 
 ---
@@ -164,9 +169,16 @@ You are provided with [a p5.js wrapper on Google's MediaPipe](https://openproces
 
 ![cartoonmesslive.jpg](img/4/cartoonmesslive.jpg)
 
+### 🚨 DEADLINE EXTENDED TO MONDAY 9/28.
+
 *(45%, 4 hours)* **This is the main exercise**. Using p5.js and MediaPipe, you are asked to create a virtual puppet which is driven by your camera and voice. You may use your face, body, and/or hands. You are encouraged to use ARAP deformation and inverse kinematics, as appropriate to your design. *Keep in mind that you will be asked to use this puppet in a brief performance (see exercise 4.6).*
 
-You are now able to track landmarks on the face, body, and hands with a realtime motion capture system. You can use those landmarks to control a jointed physical simulation, using inverse kinematics. And you can use tracked landmarks and IK joints to govern the control points of a deformable 2D shape, using the ARAP algorithm. 
+You are now able to track landmarks on the face, body, and hands with a realtime motion capture system. You can use those landmarks to control a jointed physical simulation, using inverse kinematics. And you can use tracked landmarks and IK joints to govern the control points of a deformable 2D shape, using the ARAP algorithm.
+
+### *Alternate Assignment (New)*
+
+  * *An interactive software* **creature** *that responds to the Body/Face/Hands,* **OR**
+  * *An interactive software* **system** *that responds to and augments the Body/Face/Hands, e.g. "[Gesture Expander](https://github.com/golanlevin/60-212/blob/main/2024/assignments/assignment_8.md)" (2024)*
 
 ### Your Task: Make a Virtual Puppet
 
@@ -180,15 +192,19 @@ You are now able to track landmarks on the face, body, and hands with a realtime
 * You may **collaborate** with a partner if you wish; in that case, you should create *two* puppet characters, who inhabit the same canvas space.
 * **Add** your sketch to the [OpenProcessing slot for this exercise](https://openprocessing.org/class/107236/#/c/107653).
 * **Record** a brief (2-3 second) GIF showing your puppet moving in response to your body. *This GIF is not the video performance documentation; see exercise 4.6.*
-* **Create** a post in the Discord channel, `#45-puppet`, to document your project. In your post, **write** about your character and how you operate it. **Describe** some of the decisions you made about your control mappings. **Embed** a screenshot and your GIF recording. 
+* **Create** a post in the Discord channel, `#45-puppet`, to document your project. In your post, **write** about your character and how you operate it. **Describe** some of the decisions you made about your control mappings. **Embed** a screenshot and your GIF recording.
+
+
 
 ---
 
-## 4.6. Puppet Party Trick Performance
+## 4.6. Performance or Demo
 
 *(15%, 30m)* In this exercise, you are asked to **create a brief video recording** (10-15s) of a performance you make with your puppet. 
-![trick-tongue.gif](img/4/trick-tongue.gif)
+
+<!--![trick-tongue.gif](img/4/trick-tongue.gif)
 ![trick-neck.gif](img/4/trick-neck.gif)
+-->
 
 * **Imagine** that your puppet character is auditioning to perform a [party trick on television](https://www.youtube.com/watch?v=oW3Xt-FqWng). In this scenario, your character might **introduce** themselves, and **perform** some interesting trick with their body. For example, Gorf might say, *"Check out this thing I can do with my fleebles"*.
 * You might need to add keypresses to help conrol your puppet. That's fine.
@@ -196,10 +212,18 @@ You are now able to track landmarks on the face, body, and hands with a realtime
 * **Consider** using the p5 pitch shifter [demo](https://openprocessing.org/@golan/3009913) to alter your voice, or experiment with other professional voice-altering software like [Voicemod](https://www.voicemod.net/) or [Voxal Voicechanger](https://www.nchsoftware.com/voicechanger/index.html) to get into character.
 * It's great if your recording is brief, like 5-15 seconds. 
 * **Upload** the video of your performance to an unlisted YouTube video.
-* In the Discord channel `#46-performance`, **link** to your performance video. **Write** a sentence or two about your character and what they're doing. **Share** some of the backstory or development notes. 
+* In the Discord channel `#46-performance`, **link** to your performance video. **Write** a sentence or two about your character and what they're doing. **Share** some of the backstory or development notes.
 
+### *Alternate Assignment (New)*
+
+*Enact a brief (10-30 second) demonstration or performance that makes use of your software. Be deliberate about how you perform, demonstrate, or use your software. Consider how your demo-performance should be tailored to your software, and your software should be tailored to your performance. It may help to write a script for your performance or demo narration.*
+
+
+
+
+<!--
 ![body_tricks.jpg](img/4/body_tricks.jpg)
-
+-->
 
 ---
 
