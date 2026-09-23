@@ -21,7 +21,7 @@ There are 10 sets of assignments. Unless otherwise noted, projects should be *su
 * `Wed 09/02` — [**#2 Due**](assignments/assignment_2.md) (Movement; Illusion, Loops)
 * `Mon 09/14` — [**#3 Due**](assignments/assignment_3_color.md) (Pattern; Color)
 * `Wed 09/23` — [**#4 Due**](assignments/assignment_4_puppet.md) (Camera/Puppet)
-* `Wed 10/07` — #5 Due (Speech/AI-Buffet)
+* `Wed 10/07` — [**#5 Due**](assignments/assignment_5_ai.md) (LLM/AI-Buffet)
 * `Mon 10/26` — #6 Due (Pixel Logics; Shaders)
 * `Mon 11/09` — #7 Due (Creative Tool)
 * `Mon 11/16` — #8a Due (Capstone Experiment)
@@ -60,11 +60,11 @@ Approximate intensity trajectory of the assignments:
 * `Mon 09/14` — [Notes](daily_notes/20260914.md); [**#3 Due**](assignments/assignment_3_color.md) (Color); Guest visit ([Patrick Hübner](https://www.patrik-huebner.com/))
 * `Wed 09/16` — [Notes](daily_notes/20260916.md); work session
 * `Mon 09/21` — [Notes](daily_notes/20260921.md); work session
-* `Wed 09/23` — [**#4 Due**](assignments/assignment_4_puppet.md) (Mic/Cam/Puppet)
+* `Wed 09/23` — [**#4 Due**](assignments/assignment_4_puppet.md) (Cam/Puppet)
 * `Mon 09/28` 
 * `Wed 09/30` 
 * `Mon 10/05` 
-* `Wed 10/07` — #5 Due (AI-Buffet)
+* `Wed 10/07` — [**#5 Due**](assignments/assignment_5_ai.md) (AI-Buffet)
 * `Mon 10/12` — *No session (Fall Break)*
 * `Wed 10/14` — *No session (Fall Break)*
 * `Mon 10/19` — 1:1 Meetings; TIXY
