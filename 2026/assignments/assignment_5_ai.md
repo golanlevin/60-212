@@ -5,19 +5,18 @@
 
 ## Summary of Deliverables
 
-* 5.1. [Dino Diffusion + p5](https://openprocessing.org/class/107236/#/c/107705) • *(10%, 30m)*
-* 5.2. [Canvas Describer: Gemini + p5](https://openprocessing.org/class/107236/#/c/107706) • *(10%, 15m)*
-* Additional Exercises TBA.
+* 5.1. [Dino Diffusion + p5](https://openprocessing.org/class/107236/#/c/107705) • *(10%, 30m, due Wednesday 9/30)*
+* 5.2. [Canvas Describer: Gemini + p5](https://openprocessing.org/class/107236/#/c/107706) • *(10%, 30m, due Wednesday 9/30)*
+* **Additional Exercises TBA**, totaling 5 hours, due Wednesday 10/7
 
 
 ---
 
 ## 5.1. Exercise: Dino Diffusion + p5
 
-
 ![Dino+p5](img/5/dino-diffusion-hi.png)
 
-*(10%, 30 minutes)* [Diffusion models](https://en.wikipedia.org/wiki/Diffusion_model) are the core algorithms used in popular AI-image generation tools like MidJourney. In this quick warm-up exercise, you will experiment with using custom generative p5.js graphics to "condition" (guide) a simple diffusion AI. We will base our work on "Dino Diffusion", an ultra-minimal diffusion model created by [Ollin Boer Bohan](https://madebyoll.in/) that generates 512×512 botanical images in the browser, in real-time.
+(*10%, 30 minutes, due Wednesday 9/30.*) [Diffusion models](https://en.wikipedia.org/wiki/Diffusion_model) are the core algorithms used in popular AI-image generation tools like MidJourney. In this quick warm-up exercise, you will experiment with using custom generative p5.js graphics to "condition" (guide) a simple diffusion AI. We will base our work on "Dino Diffusion", an ultra-minimal diffusion model created by [Ollin Boer Bohan](https://madebyoll.in/) that generates 512×512 botanical images in the browser, in real-time.
 
 * **Read** "[Dino Diffusion: Bare-bones Diffusion Models](https://madebyoll.in/posts/dino_diffusion/)" (2023) by Ollin Boer Bohan. (You can play with Bohan's [demo here](https://madebyoll.in/posts/dino_diffusion/demo/).) This is an estimated 12-minute reading. *You will be asked to respond to this reading (see below).*
 * **Fork** [this OpenProcessing sketch](https://openprocessing.org/@golan/3016653), which is a p5.js port of Bohan's Dino-Diffusion project. In your sketch's `LIBRARIES` tab, you should also **ensure** that your sketch includes the following ONNX runtime library: `https://cdn.jsdelivr.net/npm/onnxruntime-web@1.30.0/dist/ort.webgl.min.js`
@@ -32,24 +31,25 @@
 * **Add** an appealing screenshot of your OpenProcessing sketch to your Discord post. (You can press the *Down* arrow to generate a screenshot image from the forked sketch); be sure that it shows both your generated input and the AI result generated from it. In your post, **write** a sentence describing what you generated, and what guided your experiments.
 
 
+
 --- 
 
 ## 5.2. Canvas Describer: Gemini + p5
 
 ![newyorker_gemini.png](img/5/newyorker_gemini.png)
 
-*(10%, 15 minutes)* In this brief exercise, you're asked to trivially modify a simple example sketch in a hopefully interesting way. This is intended to be a quick exercise to make sure you're able to work with the [Google Gemini API](https://ai.google.dev/gemini-api/docs), which CMU provides to you. 
+(*10%, 30 minutes, due Wednesday 9/30.*) The goal of this exercise is to introduce you to the [Google Gemini API](https://ai.google.dev/gemini-api/docs), and to a small taste of scripting an LLM through your own JS code. In this exercise, you're asked to **modify** an example sketch in a simple but hopefully interesting way. 
 
-[**Here is an interactive demonstration/template program**](https://openprocessing.org/@golan/3016851). It asks the user to make a drawing on the p5 canvas; it transmits the canvas image to the Google Gemini AI for analysis; and then it asks the AI to generate a text response to that image — conditioned by a text prompt provided in the p5.js code. When Gemini's text is returned, it is displayed in an HTML `div` below the canvas.
+[**Here is an interactive demonstration/template program**](https://openprocessing.org/@golan/3016851). It asks the program's user to make a drawing on the p5 canvas, paired with a text prompt designed by you. The program transmits the canvas image to the Google Gemini AI for analysis; and then it asks the AI to generate a text response to that image — conditioned by the text prompt in the p5.js code. When Gemini's text is returned, it is displayed in an HTML `div` region below the canvas.
 
 *Now:*
 
-* **Fork** this [demonstration program](https://openprocessing.org/@golan/3016851) and change the prompt. You're welcome to modify the graphics and/or interaction code if you wish, but that's not required for this small exercise.
+* To get started, you'll need to **make** a Google AI Studio developer test API key. **Follow** the [**instructions here**](https://github.com/golanlevin/60-212/blob/main/2026/assignments/resources/gemini/README.md). *Make sure to keep your API key secure.*
+* **Fork** this [**demonstration program**](https://openprocessing.org/@golan/3016851) and **change** the prompt. 
+* You're also welcome to modify the graphics if you wish, but that's not specifically required.
 * **Upload** your modified sketch to the [OpenProcessing channel for this exercise](https://openprocessing.org/class/107236/#/c/107706).
 * **Create** a post in the Discord channel `#52-canvas-describer`, and **paste** in your revised prompt.
-* In your Discord post, **embed** two screenshots of your program in use, and **provide** the Gemini system's responses to those images. **write** a sentence or two about other things you tried, and some reflection on your process.
-
-To get started, you'll need to **make** a Google AI Studio developer test API key. Use the [**instructions here**](resources/gemini/README.md) ("Gemini API Key Setup"). Remember to keep your API key secure!
+* In your Discord post, **embed** two screenshots of your program in use, and **provide** the system's responses to those images. **Write** a sentence or two about the things you tried, and some reflections on your process.
 
 
 ---
@@ -99,6 +99,19 @@ Please note that you might need to modify the code of `geminiAPI.js` in order to
 * In the Discord channel `#62-llm-app`, **describe** your project, and **embed** a few screenshots (or an animated GIF, or an unlisted YouTube video) of your program in use. **Write** a sentence or two of reflection about your project and/or process.
 
 ---
+
+
+* Log into RunComfy
+* Go to https://www.runcomfy.com/comfyui-workflows/my-workflows
+* Launch & Build "ComfyUI-NodesLoaded"
+* Choose "Medium" (0.99/hr)
+* On the Machine Stop Timer, allocate 2 hours
+* Click Launch Now, then wait 3-5 minutes for the machine to build
+* When the ComfyUI interface shows up, zoom in and have a look. Click "Run" in the upper right to run the default patch and make sure everything is working. It will take a minute the first time, to load the necessary models. 
+* Go to the "C" menu in the upper left and select ⚙️ Settings. This will open a Settings control panel interface.
+* Under Settings→Comfy→Dev Mode, enable Dev Mode ("Enable dev mode options (API save, etc.)"), by turning the switch to ON (blue).
+* Under Settings→Lite Graph→Node (scroll down), set "Node ID badge mode" to “Show All”.
+
 
 
 
