@@ -62,8 +62,8 @@ Approximate intensity trajectory of the assignments:
 * `Mon 09/21` — [Notes](daily_notes/20260921.md); work session
 * `Wed 09/23` — work session
 * `Mon 09/28` — [Notes](daily_notes/20260928.md); [**#4 Due**](assignments/assignment_4_puppet.md) (Cam/Puppet)
-* `Wed 09/30` — [#5.1 and 5.2 Due](assignments/assignment_5_ai.md)
-* `Mon 10/05` 
+* `Wed 09/30` — [Notes](daily_notes/20260930.md); [#5.1 and 5.2 Due](assignments/assignment_5_ai.md)
+* `Mon 10/05` — In-Class exercise, 5.5: ComfyUI + p5.
 * `Wed 10/07` — [**#5 Due**](assignments/assignment_5_ai.md) (AI-Buffet)
 * `Mon 10/12` — *No session (Fall Break)*
 * `Wed 10/14` — *No session (Fall Break)*
