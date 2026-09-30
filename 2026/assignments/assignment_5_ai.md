@@ -8,8 +8,8 @@
 * 5.1. [Dino Diffusion + p5](https://openprocessing.org/class/107236/#/c/107705) • *(10%, 30m, due Wednesday 9/30)*
 * 5.2. [Canvas Describer: Gemini + p5](https://openprocessing.org/class/107236/#/c/107706) • *(10%, 30m, due Wednesday 9/30)*
 * 5.3. [LLM-Boosted Interaction](https://openprocessing.org/class/107236/#/c/107809) *(35%, 3 hours, due Wednesday 10/7)*
-* 5.4. [Poetic Detector](https://openprocessing.org/class/107236/#/c/107810) *(35%, 2 hours, due Wednesday 10/7)*
-* 5.5. ComfyUI+p5 Exercise *(10%, in-class exercise, due Monday 10/5)* 
+* 5.4. [Poetic Detector](https://openprocessing.org/class/107236/#/c/107810) *(30%, 2 hours, due Wednesday 10/7)*
+* 5.5. [ComfyUI+p5 Exercise](https://openprocessing.org/class/107236/#/c/107811) *(15%, in-class exercise, due Monday 10/5)* 
 
 
 ---
@@ -58,7 +58,7 @@
 
 ## 5.3. LLM-Boosted Interaction
 
-*(30% - 3 hours, due Wednesday, 10/7)* In this project, you are asked to **create** a *small* app in p5.js that uses the Google Gemini API to do something interesting/personal/unexpected. 
+*(35% - 3 hours, due Wednesday, 10/7)* In this project, you are asked to **create** a *small* app in p5.js that uses the Google Gemini API to do something interesting/personal/unexpected. 
 
 It helps to understand what's possible. **Browse** the [Google Gemini API documentation](https://ai.google.dev/gemini-api/docs/), and  =**observe** how the Gemini AI is able to do things like: 
 
@@ -115,7 +115,7 @@ The emphasis here is on the *selection* and *collection* of intriguing data, rat
 
 ### Details TBA
 
-*(10%, in-class exercise, due Monday 10/5)*
+*(15%, in-class exercise, due Monday 10/5.)* See [this OpenProcessing collection](https://openprocessing.org/class/107236/#/c/107811).
 
 ---
 
