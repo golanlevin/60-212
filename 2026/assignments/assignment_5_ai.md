@@ -7,8 +7,9 @@
 
 * 5.1. [Dino Diffusion + p5](https://openprocessing.org/class/107236/#/c/107705) • *(10%, 30m, due Wednesday 9/30)*
 * 5.2. [Canvas Describer: Gemini + p5](https://openprocessing.org/class/107236/#/c/107706) • *(10%, 30m, due Wednesday 9/30)*
-* **Additional Exercises TBA**, totaling 5 hours, due Wednesday 10/7
-
+* 5.3. [LLM-Boosted Interaction](https://openprocessing.org/class/107236/#/c/107809) *(35%, 3 hours, due Wednesday 10/7)*
+* 5.4. [Poetic Detector](https://openprocessing.org/class/107236/#/c/107810) *(35%, 2 hours, due Wednesday 10/7)*
+* 5.5. ComfyUI+p5 Exercise *(10%, in-class exercise, due Monday 10/5)*
 
 ---
 
@@ -54,52 +55,71 @@
 
 ---
 
-## Additional Exercises TBA.
+## 5.3. LLM-Boosted Interaction
 
+*(30% - 3 hours, due Wednesday, 10/7)* In this project, you are asked to **create** a *small* app in p5.js that uses the Google Gemini API to do something interesting/personal/unexpected. 
 
-
-<!--
-
-## 5.x (Project) LLM-Boosted Interaction
-
-*(80% - 3-4 hours, Due Wednesday October 8)* In this project, you are asked to **make** an app in p5.js that uses the Google Gemini API to do something interesting. 
-
-<details><summary>*wut?*</summary>
-
-![biu.jpg](img/biu.jpg)
-</details>
-
-It helps to understand what's possible! Please **browse** the [Google Gemini API documentation](https://ai.google.dev/gemini-api/docs/). Observe how the Gemini AI is able to do things like: 
+It helps to understand what's possible. **Browse** the [Google Gemini API documentation](https://ai.google.dev/gemini-api/docs/), and  =**observe** how the Gemini AI is able to do things like: 
 
 * [Describe, summarize, and answer questions about text](https://ai.google.dev/gemini-api/docs/document-processing?lang=python#upload-document)
 * [Describe, summarize, and answer questions about an image](https://ai.google.dev/gemini-api/docs/vision?lang=python#upload-image)
-* [Provide the bounding box for an object in an image](https://ai.google.dev/gemini-api/docs/vision?lang=python#bbox)
+* [Provide the bounding box for a desired object in an image](https://ai.google.dev/gemini-api/docs/vision?lang=python#bbox)
 * [Describe, summarize, and answer questions about audio](https://ai.google.dev/gemini-api/docs/audio?lang=python#upload-audio)
 * [Provide a transcription of audio](https://ai.google.dev/gemini-api/docs/audio?lang=python#transcript)
 
-### Some lightweight examples
+**Check out** the examples below to see some examples of using Google's Gemini AI to make interesting interactions in p5.js. *This is not an exhaustive list of techniques or possibilities!*
 
-The pandora's box of Gemini+p5 has been cracked open by [Amit Pitaru](https://pitaru.com/), [Alexander Chen](https://www.chenalexander.com/Bio), and [Trudy Painter](https://www.trudy.computer/), who all work at Google's Creative Lab in NYC. **Check out** the examples below to see how they and others have used Google's Gemini AI to make interesting interactions in p5.js. *This is not an exhaustive list of techniques or possibilities!*
+* [*Word sorter*](https://openprocessing.org/@golan/3023627) by [Trudy Painter](https://www.trudy.computer/). A text analyzer that organizes words along user-defined spectra. ([Tweet](https://x.com/trudypainter/status/1820555477455167900))
+* [*Grow a Seed*](https://openprocessing.org/@golan/3023629) AI-collaborative drawing tool by Amit Pitaru. The AI analyzes the canvas, and returns working p5.js code (!!) to enhance it. ([Tweet](https://x.com/pitaru/status/1821310018198642867))
+* [*Penny Dater*](https://openprocessing.org/@golan/3023640) by Golan. The AI reads the date on a penny. 
+* [*Life's biggest questions*](https://openprocessing.org/@golan/3023647) by ttarigh. Responds to all questions with a single, profound word. ([Tweet](https://x.com/tinaz0ne/status/1824153041597239433))
 
-* [*Gemini API starter examples*](https://x.com/pitaru/status/1819797112399511625) by Amit Pitaru: Gemini AI describes p5.js canvas. [Minimal Demo](https://editor.p5js.org/pitaru/sketches/Ixu00bucD); [Version with instructions](https://editor.p5js.org/pitaru/sketches/NSAqfrdJY).
-* [*One Line, One Word*](https://editor.p5js.org/golan/sketches/7k4imWAs1) by Alexander Chen. The AI poetically describes the quality of a line. ([Tweet](https://x.com/alexanderchen/status/1819939988676440241))
-* [*Stick Figure Theater*](https://editor.p5js.org/golan/sketches/LIaa52nxi) by Alexander Chen. Draw a character; the AI returns a line of dialogue. ([Tweet](https://x.com/alexanderchen/status/1821011074658828481))
-* [*Word sorter*](https://editor.p5js.org/golan/sketches/dt6OLwey8) by [Trudy Painter](https://www.trudy.computer/). A text analyzer that organizes words along user-defined spectra. ([Tweet](https://x.com/trudypainter/status/1820555477455167900))
-* [*Grow a Seed*](https://editor.p5js.org/golan/sketches/ZkdhSxlGx) AI-collaborative drawing tool by Amit Pitaru. The AI analyzes the canvas, and returns working p5.js code (!!) to enhance it. ([Tweet](https://x.com/pitaru/status/1821310018198642867))
-* [*Crappy gaze Estimation*](https://editor.p5js.org/golan/sketches/sktetHnz8) by Golan. The AI tries to estimate which direction the eye is looking.
-* [*Life's biggest questions*](https://editor.p5js.org/golan/sketches/em7IzgngM) by Tina Tarighian. Responds to all questions with a single, profound word. ([Tweet](https://x.com/tinaz0ne/status/1824153041597239433))
-* [*Penny Dater*](https://editor.p5js.org/golan/sketches/x3oKtHYtP) by Golan. The AI reads the date on a penny. 
-
-Please note that you might need to modify the code of `geminiAPI.js` in order to implement a concept with unusual functionality. *Also, please note that while it is possible to [enable reduced content safety settings in Google Gemini](https://ai.google.dev/gemini-api/docs/safety-settings#safety-filtering-per-request), your projects must still adhere to our Syllabus [Code of Conduct guidelines](https://github.com/golanlevin/60-212/blob/main/2024/syllabus/60-212_syllabus_fall2024.md#code-of-conduct).* 
+Please note that you might need to modify the code of `geminiAPI.js` in order to implement a concept with unusual functionality. *Also, please note that while it may be possible to [enable reduced content safety settings in Google Gemini](https://ai.google.dev/gemini-api/docs/safety-settings#safety-filtering-per-request), your projects should still adhere to our Syllabus [Code of Conduct guidelines](https://github.com/golanlevin/60-212/blob/main/2026/syllabus/README.md#code-of-conduct).* 
 
 *Now*: 
 
 * **Create** an app in p5.js that uses the Google Gemini API to do something interesting.
-* **Post** your app to the "6.2. LLM-Boosted Interaction" collection in OpenProcessing. 
-* In the Discord channel `#62-llm-app`, **describe** your project, and **embed** a few screenshots (or an animated GIF, or an unlisted YouTube video) of your program in use. **Write** a sentence or two of reflection about your project and/or process.
+* **Post** your app to the "5.3. LLM-Boosted Interaction" [collection in OpenProcessing](https://openprocessing.org/class/107236/#/c/107809). 
+* **Create** a post in the Discord channel `#53-llm-app`. **Describe** your project, and **embed** a few screenshots (or an animated GIF, or an unlisted YouTube video) of your program in use. **Write** a sentence or two of critical reflection about your project and/or process.
 
 ---
 
+
+## 5.4. Poetic Detector
+
+> What is an interesting subject to detect or classify with a video camera? How might a system respond in an interesting way to these observations?
+
+*(30%, 3 hours, due Wednesday 10/7)* This assignment is intended to deepen your understanding of how AI models are trained. In this conceptually-oriented project, you are asked to create a working “situated eye” – a “contextualized classifier” – a “poetic detector“.
+
+You will **create** a machine that uses a camera and neural net to detect something of interest. Your machine should either detect something interesting, detect something in an interesting way, or create an interesting provocation by bringing a detection to our attention. What overlooked phenomenon or invisible rhythm can you discover?
+
+The emphasis here is on the *selection* and *collection* of intriguing data, rather than on the *production* of an attractive interpretation, visualization, or game. In other words, you are asked to create a camera-based system that is located *in a specific place*; which is trained to *detect a specific thing*; and which is the "detector half" of a software system whose remaining "responsive half" you only need to describe *speculatively*.
+
+**Now:**
+
+* You have been provided with a tethered webcam, tripod, and USB extension cable. **Consider** where to put it! Don’t limit yourself to the physical constraints of your laptop’s webcam, and the default assumptions it imposes on where a camera is located and what a camera looks at.
+* **Choose** a subject. Your system might respond to things like machines, vehicles, places, trees, animals. (You may point your camera at people, but *you must not violate anyone’s privacy*.)
+* **Train** a working image classifier using [Google's Teachable Machine](https://teachablemachine.withgoogle.com/). **Export** the model for p5.js, **save** it to Google's cloud, and be absolutely sure to **keep** a copy of the model's URL. The URL will look like `https://teachablemachine.withgoogle.com/models/XXXXXX/`. *Do not train a model on any confidential data (such as an ID card or credit card), or private/NSFW imagery*.
+* **Fork** this sketch, [**ml5_teachable_machine_2026**](https://openprocessing.org/@golan/3019306), for a working p5.js project that loads Teachable Machine models using the ml5.js library. **Replace** the model URL with that of your model.
+* **Modify** your sketch to better reflect the content of your detected subject(s). Keep it simple. 
+* **Upload** your sketch to the *Poetic Detector* [OpenProcessing collection](https://openprocessing.org/class/107236/#/c/107810).
+* **Document** your detector doing its job, successfully classifying your subject from within your p5.js sketch. Your documentation should take the form of an unlisted YouTube video or an animated GIF.
+* **Create** a post in the Discord channel `#54-detector`. **Link** or **embed** your video/GIF documentation in the post. In a couple of sentences, *describe* what your app is detecting/classifying. 
+* In your post, **speculatively describe** a *hypothetical app* that would respond to these detections or classifications. You don’t actually have to make your software respond in this way—but it should be *possible* for someone to do so in theory. Remember that your system could respond in real-time, or it might serve as a system for recording, logging, or counting what it observes. Keep in mind that you can save files (data, images) to disk. Your system might respond audiovisually (i.e. with graphics and/or sound), and/or it might send a signal over the internet. **Include** a pencil-and-paper sketch of your imagined system.
+
+
+---
+
+## 5.5. ComfyUI+p5 Exercise
+
+### Details TBA
+
+*(10%, in-class exercise, due Monday 10/5)*
+
+---
+
+
+<!--
 
 * Log into RunComfy
 * Go to https://www.runcomfy.com/comfyui-workflows/my-workflows
