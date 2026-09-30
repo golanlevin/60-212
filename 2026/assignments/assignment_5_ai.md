@@ -9,7 +9,8 @@
 * 5.2. [Canvas Describer: Gemini + p5](https://openprocessing.org/class/107236/#/c/107706) • *(10%, 30m, due Wednesday 9/30)*
 * 5.3. [LLM-Boosted Interaction](https://openprocessing.org/class/107236/#/c/107809) *(35%, 3 hours, due Wednesday 10/7)*
 * 5.4. [Poetic Detector](https://openprocessing.org/class/107236/#/c/107810) *(35%, 2 hours, due Wednesday 10/7)*
-* 5.5. ComfyUI+p5 Exercise *(10%, in-class exercise, due Monday 10/5)*
+* 5.5. ComfyUI+p5 Exercise *(10%, in-class exercise, due Monday 10/5)* 
+
 
 ---
 
