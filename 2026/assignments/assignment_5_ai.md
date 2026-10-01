@@ -58,9 +58,9 @@
 
 ## 5.3. LLM-Boosted Interaction
 
-*(35% - 3 hours, due Wednesday, 10/7)* In this project, you are asked to **create** a *small* app in p5.js that uses the Google Gemini API to do something interesting/personal/unexpected. 
+*(35% - 3 hours, due Wednesday, 10/7)* In this project, you are asked to **create** a *small* app (such as a game, utility, toy, poetic experience, etc.) in p5.js that uses the Google Gemini API to do something interesting, personal, and/or unexpected.
 
-It helps to understand what's possible. **Browse** the [Google Gemini API documentation](https://ai.google.dev/gemini-api/docs/), and  =**observe** how the Gemini AI is able to do things like: 
+It helps to understand what's possible. **Browse** the [Google Gemini API documentation](https://ai.google.dev/gemini-api/docs/), and **observe** how the Gemini AI is able to do things like: 
 
 * [Describe, summarize, and answer questions about text](https://ai.google.dev/gemini-api/docs/document-processing?lang=python#upload-document)
 * [Describe, summarize, and answer questions about an image](https://ai.google.dev/gemini-api/docs/vision?lang=python#upload-image)
@@ -71,9 +71,9 @@ It helps to understand what's possible. **Browse** the [Google Gemini API docume
 **Check out** the examples below to see some examples of using Google's Gemini AI to make interesting interactions in p5.js. *This is not an exhaustive list of techniques or possibilities!*
 
 * [*Word sorter*](https://openprocessing.org/@golan/3023627) by [Trudy Painter](https://www.trudy.computer/). A text analyzer that organizes words along user-defined spectra. ([Tweet](https://x.com/trudypainter/status/1820555477455167900))
-* [*Grow a Seed*](https://openprocessing.org/@golan/3023629) AI-collaborative drawing tool by Amit Pitaru. The AI analyzes the canvas, and returns working p5.js code (!!) to enhance it. ([Tweet](https://x.com/pitaru/status/1821310018198642867))
-* [*Penny Dater*](https://openprocessing.org/@golan/3023640) by Golan. The AI reads the date on a penny. 
+* [*Grow a Seed*](https://openprocessing.org/@golan/3023629) AI-collaborative drawing tool by Amit Pitaru. The AI analyzes the canvas, and returns working p5.js code (!!) to enhance it. ([Tweet](https://x.com/pitaru/status/1821310018198642867)) 
 * [*Life's biggest questions*](https://openprocessing.org/@golan/3023647) by ttarigh. Responds to all questions with a single, profound word. ([Tweet](https://x.com/tinaz0ne/status/1824153041597239433))
+* [*Penny Dater*](https://openprocessing.org/@golan/3023640) by Golan. The AI reads the date on a penny.
 
 Please note that you might need to modify the code of `geminiAPI.js` in order to implement a concept with unusual functionality. *Also, please note that while it may be possible to [enable reduced content safety settings in Google Gemini](https://ai.google.dev/gemini-api/docs/safety-settings#safety-filtering-per-request), your projects should still adhere to our Syllabus [Code of Conduct guidelines](https://github.com/golanlevin/60-212/blob/main/2026/syllabus/README.md#code-of-conduct).* 
 
@@ -98,16 +98,17 @@ The emphasis here is on the *selection* and *collection* of intriguing data, rat
 
 **Now:**
 
-* You have been provided with a tethered webcam, tripod, and USB extension cable. **Consider** where to put it! Don’t limit yourself to the physical constraints of your laptop’s webcam, and the default assumptions it imposes on where a camera is located and what a camera looks at.
+* You've been provided with a tethered webcam, tripod, and USB extension cable. **Consider** where to put this camera! Don’t limit yourself to the physical constraints of your laptop’s webcam — and the default assumptions it imposes on where a camera is located and what a camera looks at.
 * **Choose** a subject. Your system might respond to things like machines, vehicles, places, trees, animals. (You may point your camera at people, but *you must not violate anyone’s privacy*.)
-* **Train** a working image classifier using [Google's Teachable Machine](https://teachablemachine.withgoogle.com/). **Export** the model for p5.js, **save** it to Google's cloud, and be absolutely sure to **keep** a copy of the model's URL. The URL will look like `https://teachablemachine.withgoogle.com/models/XXXXXX/`. *Do not train a model on any confidential data (such as an ID card or credit card), or private/NSFW imagery*.
+* **Train** a working image classifier using [**Google's Teachable Machine**](https://teachablemachine.withgoogle.com/). It might take a couple of tries to get right. There are YouTube tutorials for doing so [here](https://www.youtube.com/watch?v=DFBbSTvtpy4) and [here](https://www.youtube.com/watch?v=kwcillcWOg0). *Note: Do not train a model on confidential data (such as an ID card, credit card, etc.), or private/NSFW imagery*.
+* **Export** the Teachable Machine model for p5.js, **save** it to Google's cloud, and be sure to **keep** a copy of the model's URL. The URL will look like `https://teachablemachine.withgoogle.com/models/XXXXXX/`.
 * **Fork** this sketch, [**ml5_teachable_machine_2026**](https://openprocessing.org/@golan/3019306), for a working p5.js project that loads Teachable Machine models using the ml5.js library. **Replace** the model URL with that of your model.
 * **Modify** your sketch to better reflect the content of your detected subject(s). Keep it simple. 
 * **Upload** your sketch to the *Poetic Detector* [OpenProcessing collection](https://openprocessing.org/class/107236/#/c/107810).
 * **Document** your detector doing its job, successfully classifying your subject from within your p5.js sketch. Your documentation should take the form of an unlisted YouTube video or an animated GIF.
-* **Create** a post in the Discord channel `#54-detector`. **Link** or **embed** your video/GIF documentation in the post. In a couple of sentences, *describe* what your app is detecting/classifying. 
+* **Create** a post in the Discord channel `#54-detector`. In a couple of sentences, *describe* what your app is detecting/classifying. 
+* **Link** or **embed** your video/GIF documentation in the post. Also **include** a screenshot (still image) of your detector at work. 
 * In your post, **speculatively describe** a *hypothetical app* that would respond to these detections or classifications. You don’t actually have to make your software respond in this way—but it should be *possible* for someone to do so in theory. Remember that your system could respond in real-time, or it might serve as a system for recording, logging, or counting what it observes. Keep in mind that you can save files (data, images) to disk. Your system might respond audiovisually (i.e. with graphics and/or sound), and/or it might send a signal over the internet. **Include** a pencil-and-paper sketch of your imagined system.
-
 
 ---
 
