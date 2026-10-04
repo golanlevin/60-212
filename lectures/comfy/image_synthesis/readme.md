@@ -1,7 +1,7 @@
 
-# p5js *in* ComfyUI
+# p5js in ComfyUI
 
-*In this lesson, we will use p5.js code to generate an image that conditions a full-featured Stable Diffusion process within ComfyUI. With this setup, you can use traditional generative art to scaffold more naturalistically textured images. These instructions are current as of 10 November 2024.*
+*In this lesson, we will use p5.js code to generate an image that conditions a full-featured Stable Diffusion process within ComfyUI. With this setup, you can use traditional generative art to scaffold more naturalistically textured images. These instructions are current as of 4 October 2026.*
 
 ![results.png](images/results.png)
 
@@ -37,31 +37,30 @@
 
 ## Let's Use p5 in Comfy!
 
-We will be using [**comfyui-p5js-node**](https://github.com/tracerstar/comfyui-p5js-node), a custom node for using p5.js within ComfyUI, created by Benjamin Fox. We will create the following workflow, [`p5-in-comfy.json`](workflows/p5-in-comfy.json), which is based on very minimal modifications from the RunComfy Default Patch:
+We will be using [**comfyui-p5js-node**](https://github.com/golanlevin/comfyui-p5js-node), a custom node for using p5.js within ComfyUI. This teaching fork is based on Benjamin Fox's original node, updated for p5.js 2.3.4 and the current RunComfy/ComfyUI interface. It intentionally does **not** load `p5.sound`, so use visual-only p5 sketches here. We will create the following workflow, [`p5-in-comfy.json`](workflows/p5-in-comfy.json), which is based on very minimal modifications from the RunComfy Default Patch:
 
 ![p5-in-comfy.png](workflows/p5-in-comfy.png)
 
 #### Steps to get p5 in RunComfy:
 
 * Begin with the RunComfy Default Patch. 
-* We need to install the *comfyui-p5js-node*. Unfortunately, to do this we will need to temporarily lower our RunComfy security settings, or else we will receive an error, “This action is not allowed with this security level configuration”. 
-* Per the advice in [this article](https://comfyui-guides.runcomfy.com/ultimate-comfyui-how-tos-a-runcomfy-guide/how-to-fix-this-action-is-not-allowed-with-this-security-level-configuration): Inside the Assets file browser, go to `ComfyUI > custom_nodes > ComfyUI-Manager` and find the `config.ini` file. 
-* Double-click on the `config.ini`. This will open the file in a simple text editor. Now you can config the manager. 
-* Change `security_level` to `weak` at the bottom of the file. 
-* Click the floppy disk icon in upper right to save the change. Close that editor.
-* Once you finish editing `config.ini`, you need to restart the ComfyUI by clicking the top left *Restart Comfy* button (NOT restart the machine!). This should take a few seconds. 
-* For good measure, refresh the browser page. 
-* Now, click on the "Manager" button near the bottom of the Control Panel
-* Click "Install via Git URL"
-* Enter **`https://github.com/tracerstar/comfyui-p5js-node.git`**
-* Click *Restart Comfy* again 
-* Refresh the browser page again
-* In your Assets, under `Home > ComfyUI > custom_nodes`, you should now see `comfyui-p5js-node`. 
-* At this point you can double-click on the gray Comfy desktop and add the *comfyui-p5js-node*. 
+* We need to install the *comfyui-p5js-node* teaching fork. The most direct way is to use RunComfy's Terminal.
+* Click the **Terminal** button in the right-side RunComfy panel.
+* In the terminal, run:
+
+```
+cd ComfyUI/custom_nodes
+git clone https://github.com/golanlevin/comfyui-p5js-node.git
+```
+
+* Click *Restart Comfy*.
+* Refresh the browser page.
+* In your Assets, under `Home > ComfyUI > custom_nodes`, you should now see `comfyui-p5js-node`.
+* At this point you can double-click on the gray Comfy desktop and add the *p5js image* node. 
 * You'll also need to add a *VAE Encode* node. You will likely also want to wire in a *Preview Image* and *Save Image* node. Wire these in as shown in the image above. 
 * If you get stuck, you can just load in the [`p5-in-comfy.json` workflow linked here](workflows/p5-in-comfy.json). 
 
-I created a [simple landscape generator](https://editor.p5js.org/golan/sketches/LPXbObyb5) in p5.js. (Note that I developed this using a proper p5.js editor like OpenProcessing, editor.p5js.org, or Visual Studio Code. Unfortunately the *comfyui-p5js-node* text entry area is not a proper code editor, and has many UI bugs.) Here's the code for my simple landscape. Paste this into the text area of the *comfyui-p5js-node*: 
+I created a [simple landscape generator](https://editor.p5js.org/golan/sketches/LPXbObyb5) in p5.js. I still recommend developing and debugging your sketch first in a proper p5.js editor like OpenProcessing, editor.p5js.org, or Visual Studio Code; the ComfyUI node is mainly for running a known-working sketch inside the workflow. This node uses p5.js 2.3.4, and does not support `p5.sound`. Here's the code for my simple landscape. Paste this into the text area of the *p5js image* node: 
 
 ```
 function setup() {
@@ -92,8 +91,8 @@ function draw() {
 
 * I also modified the prompt in the (positive) *CLIP Text Conditioning* node. I changed it to `Rolling hills, foggy day, cloudy sky, mountains with trees`. 
 * If you now click **Queue Prompt**, you should be able to generate images using Stable Diffusion that are conditioned by your text prompt and your p5.js generative art! An example of my landscape is below.
-* **NOTE 1**: Our conditioning images from p5.js must have dimensions of **512x512** to work properly with Stable Diffusion 1.5, which (for now) is what we're using.
-* **NOTE 2**: There have been some weird issues with the p5 sketch sometimes generating images that are 512x512, and other times that are 1024x1024. I thought this could be solved with `pixelDensity(1)` but that doesn't seem to work, so you may have to compensate further down the pipeline if this happens to you. 
+* **NOTE 1**: Our conditioning images from p5.js should have dimensions of **512x512** for this Stable Diffusion 1.5 workflow, so use `createCanvas(512, 512)`.
+* **NOTE 2**: The current teaching fork exports the p5 canvas at its displayed p5 size. This should avoid accidental 1024x1024 captures from a 512x512 sketch on high-DPI displays. If exact dimensions matter, double-check the p5 output with a *Preview Image* node before a long generation run. 
 
 
 ![landscape.png](images/landscape.png)
