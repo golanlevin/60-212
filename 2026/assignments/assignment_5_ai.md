@@ -114,9 +114,9 @@ The emphasis here is on the *selection* and *collection* of intriguing data, rat
 
 ## 5.5. ComfyUI+p5 Exercise
 
-### Details TBA
+*(15%, ~60 minutes; in-class exercise, due Monday 10/5.)* 
 
-*(15%, in-class exercise, due Monday 10/5.)* See [this OpenProcessing collection](https://openprocessing.org/class/107236/#/c/107811).
+See details in [this OpenProcessing collection](https://openprocessing.org/class/107236/#/c/107811) and in the [daily notes from October 5](../daily_notes/20261005.md#in-class-exercise). The project requires about an hour of tinkering and a post in the `#55-p5-comfy` Discord channel. 
 
 ---
 
@@ -133,8 +133,6 @@ The emphasis here is on the *selection* and *collection* of intriguing data, rat
 * Go to the "C" menu in the upper left and select ⚙️ Settings. This will open a Settings control panel interface.
 * Under Settings→Comfy→Dev Mode, enable Dev Mode ("Enable dev mode options (API save, etc.)"), by turning the switch to ON (blue).
 * Under Settings→Lite Graph→Node (scroll down), set "Node ID badge mode" to “Show All”.
-
-
 
 
 -->
