@@ -60,8 +60,6 @@ Flip-dot (or flip-disc) displays are widely used in transportation signage. Beca
 
 ![chuck_close_and_jenny_odell.jpg](../../2024/assignments/images/chuck_close_and_jenny_odell.jpg)<br />*(Chuck Close; Jenny Odell)*
 
-> *What if we change the elements from which an image is constructed?*
-
 *(30%, 2 hours, due Wednesday 10/21)* Pixels are the fundamental building blocks of bitmap images and digital displays. Conventionally, pixels are square, uniform, and parked in a static Cartesian grid. Challenge these assumptions by writing code to reconstruct a webcam image using “custom picture elements” of your own devising. What if pixels were arranged on a hexagonal or irregular lattice? What if they overlapped, moved, or had a variety of sizes? What if an image was itself constructed from fragments of other images, or from a database of tiny icons, symbols, flags, or emojis? Can you break out of the grid? Can your picture elements be "intelligent"? Can you use graphics primitives in an interesting way?
 
 [![golan-pixels.png](../../2024/assignments/images/golan-pixels.png)](https://openprocessing.org/sketch/2405701)
@@ -123,8 +121,6 @@ Briefly **survey** the following shader-programming resources. They vary conside
 ## 6.5. Shader Composition
 
 ![Ruxandra Duru](../../lectures/no_hard_edges/img/ruxandra_duru_video.png)<br/>*(Ruxandra Duru)*
-
-> *What if we change the rules by which an image is generated?*
 
 *(40%, 3 hours, due Monday 10/26)* **Create** a visual composition using a GLSL fragment shader. You are encouraged to make a composition with aspects that are generative, interactive, and/or time-based.
 
