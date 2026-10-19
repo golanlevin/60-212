@@ -3,9 +3,11 @@
 
 As follows:
 
-* 6.1. [Tixy.Land](#61-tixyland) *(5%, 20 minutes, due Monday 10/19)*
-* 6.2. [Animated Composition for Flipdot Display](#62-animated-composition-for-flipdot-display) *(10%, 20 minutes, due 10/19)*
-* 6.3. [Custom Pixel](#63-custom-pixel) *(25%, 2 hours, due XXXX)*
+* 6.1. [Tixy.Land](#61-tixyland) *(5%, 15 minutes, due Monday 10/19)*
+* 6.2. [Animated Composition for Flipdot Display](#62-animated-composition-for-flipdot-display) *(10%, 30 minutes, due 10/19)*
+* 6.3. [Custom Pixel](#63-custom-pixel) *(30%, 2 hours, due XXXX)*
+* 6.4. [Looking Outwards](#64-looking-outwards) *(15%, 1 hour)*
+* 6.5. [Shader Composition](#65-shader-composition) *(40%, 3 hours)*
 
 
 ---
@@ -14,7 +16,7 @@ As follows:
 
 ![tixy.png](../../2024/assignments/images/tixy.png)
 
-*(5%, 20 minutes, due Monday 10/19)* In this very lightweight exercise, we get our first exposure to "data-parallel computing", or "SIMD (Single Instruction, Multiple Data) processing", wherein the same operation is applied to multiple data points (pixels) simultaneously. 
+*(5%, 15 minutes, due Monday 10/19)* In this very lightweight exercise, we get our first exposure to "data-parallel computing", or "SIMD (Single Instruction, Multiple Data) processing", wherein the same operation is applied to multiple data points (pixels) simultaneously. 
 
 We will use [**tixy.land**](https://tixy.land/), a tiny online environment for JavaScript "code golfing" in which you will write a tiny program that is applied to a 16x16 grid of pixels. In Tixy, each "pixel" executes a common program whose only inputs are the current time (`t`), its index (`i`), and its `x` and `y` coordinates. *Now:*
 
@@ -56,7 +58,7 @@ Flip-dot (or flip-disc) displays are widely used in transportation signage. Beca
 
 ## 6.3. Custom Pixel
 
-![chuck_close_and_jenny_odell.jpg](../../2024/assignments/images/chuck_close_and_jenny_odell.jpg)<br /><small>Chuck Close; Jenny Odell</small>
+![chuck_close_and_jenny_odell.jpg](../../2024/assignments/images/chuck_close_and_jenny_odell.jpg)<br />*(Chuck Close; Jenny Odell)*
 
 *(40%, 2 hours)* Pixels are the fundamental building blocks of bitmap images and digital displays. Conventionally, pixels are square, uniform, and parked in a static Cartesian grid. Challenge these assumptions by writing code to reconstruct a webcam image using “custom picture elements” of your own devising. What if pixels were arranged on a hexagonal or irregular lattice? What if they overlapped, moved, or had a variety of sizes? What if an image was itself constructed from fragments of other images, or from a database of tiny icons, symbols, flags, or emojis? Can you break out of the grid? Can your picture elements be "intelligent"? Can you use graphics primitives in an interesting way?
 
@@ -76,5 +78,30 @@ You might want to research the following terms in the p5 reference: [get()](http
 * **Include** a screenshot or animated GIF of your project. 
 * **Write** a couple of sentences describing your approach to designing a custom pixel.
 
+
 ---
 
+## 6.4. Looking Outwards
+
+*(15%, 1 hour)* This exercise has 3 parts:
+
+1. **Take a photograph** of the sky. Post it in Discord. 
+2. **Review** a provided collection of artworks. Select one that speaks to you and write a sentence about it.
+3. 
+
+
+omantic landscape painting through Tonalism, Impressionism, abstraction, perceptual effects, and contemporary computational work
+
+
+
+---
+
+## 6.5. Shader Composition
+
+https://openprocessing.org/@golan/2405238
+
+shader programming provides a new technical vocabulary for some very old artistic problems: how to represent light, how to organize atmosphere, how to create depth without objects, how to make color seem luminous, and how to direct attention when there's no obvious subject.
+
+Indistinctness is not the absence of composition. This is the most important idea to preserve. The risk is that students interpret your examples as an invitation to produce arbitrary clouds of noise, gradients, or blurry blobs. Yet your examples are carefully composed. A Rothko painting is not simply a collection of gradients. A Sugimoto seascape is not merely a horizontal division between two gray regions. The precise relationships between areas of near-uniformity, variation, and transition are essential.
+
+Softness is not necessarily produced by blurring. Your inclusion of Alma Thomas and Richard Anuszkiewicz is valuable precisely because it complicates the title. Their hard-edged marks produce perceptual effects that aren't hard-edged. This opens a productive distinction between the local construction of an image and its global perceptual effect. The same distinction applies to dithering, halftoning, stippling, and noise-based shader techniques.

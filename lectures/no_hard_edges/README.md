@@ -1,6 +1,10 @@
 # No Hard Edges
 
-*Work in Progress*
+Until now, most of our drawings with code have been made from discrete geometric shapes: circles, squares, lines, polygons. Each has a definite boundary, separating what's inside from what's outside. But what if we stopped thinking about images as collections of objects, and started thinking about them as **continuous fields of color, light, and texture**?
+
+Below are a few artworks representing Romantic landscape painting, Tonalism, Impressionism, abstraction, perceptual effects, and contemporary computational work. This collection of works explores the visual possibilities of **indistinctness**: soft boundaries, ambiguous spaces, gradual transitions, atmospheric effects, and forms that seem to emerge, dissolve, or hover at the threshold of recognition. In some of these works, it's difficult to say where one thing ends and another begins, or even what we're looking at.
+
+As you browse, consider how an image can have structure without outlines, depth without perspective, and complexity without identifiable objects. What becomes possible when we stop drawing *things*?
 
 ---
 
@@ -22,7 +26,7 @@ Built from small gestures: dots, strokes, dabs
 Light, color, or texture emerge from accumulation
 No “image of” — just image
 
-https://openprocessing.org/@atzedent/2955321 - Shader demo artwork
+
 
 -->
 
@@ -37,7 +41,7 @@ https://openprocessing.org/@atzedent/2955321 - Shader demo artwork
 
 ![jmw_turner_snow_storm_1842](img/jmw_turner_snow_storm_1842.jpg)<br />J.M.W. Turner, [*Snow Storm – Steam-Boat off a Harbour’s Mouth Making Signals in Shallow Water, and going by the Lead. The Artist was in this Storm on the Night the Ariel left Harwich*](https://en.wikipedia.org/wiki/Snow_Storm:_Steam-Boat_off_a_Harbour%27s_Mouth), 1842.
 
-
+*What happens to our perception of space when we can't clearly distinguish the sky from the sea, or the foreground from the background? Notice how much of these paintings is devoted to areas where very little seems to happen. How do these apparently "empty" regions contribute to the composition?*
 
 ---
 
@@ -56,6 +60,8 @@ Tonalist landscapes often depict twilight, mist, or still water, with hazy silho
 ![monet_houses_of_parliament_in_fog_1903](img/monet_houses_of_parliament_in_fog_1903.jpg)<br />Claude Monet, *Houses of Parliament in Fog*, 1903.
 
 ![monet_houses_of_parliament_in_fog_1904](img/monet_houses_of_parliament_in_fog_1904.jpg)
+
+*Where does the building end and the atmosphere begin? Try to distinguish the color of an object from the color of the light surrounding it. Is the fog something depicted in front of the building, or is it inseparable from the way the building is painted?*
 
 ---
 
@@ -91,9 +97,16 @@ Dana Gordon reflected on a visit to the Mark Rothko retrospective at The Fondati
 
 ![looking_at_rothko_no14](img/looking_at_rothko_no14.jpg)
 
+*Spend some time looking at the boundaries between adjacent colors in Rothko's work. Are they sharp, blurred, feathered, irregular, or somehow luminous? Notice that a soft boundary isn't necessarily a simple gradient. How does the character of an edge affect whether a region appears flat, glowing, floating, or receding?*
+
+
+---
+
 Jordan Belson (1926–2011) was an American abstract filmmaker whose work explored visionary and cosmic imagery, often described as meditative journeys into inner and outer space. Drawing on influences from Eastern mysticism, meditation, and metaphysical traditions, his films use shifting fields of light, color, and sound to evoke transcendent, spiritual states of consciousness. Belson’s aesthetics aimed less at narrative and more at evoking an experiential encounter with the sublime, the infinite, and the unseen. Here is a clip from [*Momentum*](https://www.youtube.com/watch?v=F2EBAksEoJM&t=77s) (1968):
 
 [![jordan_belson_momentum_1968](img/jordan_belson_momentum_1968.jpg)](https://www.youtube.com/watch?v=F2EBAksEoJM&t=77s)
+
+---
 
 *Dansaekhwa*, sometimes known as Korean monochrome painting, is an art movement born in South Korea in the 1970s. Dansaekhwa artists avoided any reference to Western realism in their works, creating primarily monochrome and minimalist paintings with a strong focus on materiality. An example is Hur Hwang (허황), whose paintings explore subtle variations of the color white, which he believes invokes diverse psychological responses. Hur Hwang creates his own paint, mostly out of a thick mix of natural stone powder that he poured onto the canvas.
 
@@ -104,9 +117,11 @@ Jordan Belson (1926–2011) was an American abstract filmmaker whose work explor
 
 I realize I said "no hard edges". In these two works, intermediate colors are achieved by a kind of half-tone or dithering technique: placing small chips or lines of different colors, with admittedly hard edges, in close alternation. 
 
-![alma_thomas_SAAM_1977](img/alma_thomas_SAAM_1977.jpg)<br>Alma Thomas, 1977
+![alma_thomas_SAAM_1977](img/alma_thomas_SAAM_1977.jpg)<br>Alma Thomas, *SAAM*, 1977
 
 ![richard_anuszkiewicz_temple_of_midnight_red_1983](img/richard_anuszkiewicz_temple_of_midnight_red_1983.jpg)<br />Richard Anuszkiewicz, *Temple of Midnight Red*, 1983
+
+*Here's a paradox: an image can be constructed entirely from hard-edged marks and still produce the sensation of a continuous, luminous field. In these works, colors appear to mix in our perception rather than on the surface. How does the scale of the marks, their spacing, and their arrangement affect what we see? What changes when you look from farther away?*
 
 
 ---
@@ -117,6 +132,8 @@ I realize I said "no hard edges". In these two works, intermediate colors are ac
 ---
 
 ![hiroshi_sugimoto_seascape](img/hiroshi_sugimoto_seascape.jpg)<br />Hiroshi Sugimoto, *Seascape*, photograph.
+
+*How little information does an image need to sustain your attention? Look for extremely small variations in brightness, color, and texture. At what point does a nearly uniform field begin to suggest an enormous space?*
 
 ---
 
@@ -139,6 +156,8 @@ Tauba Auerbach, [*Untitled (Fold)*](https://taubaauerbach.com/view.php?id=376), 
 ![cory_arcangel_photoshop_cs_2017-042](img/cory_arcangel_photoshop_cs_2017-042.jpg)<br />Cory Arcangel, *"Photoshop CS: 84 by 144 inches, 300 DPI, RGB, square pixels, default gradient "Spectrum", mousedown y=12100, x=26340, mouseup y=12100, x=42000; tool "Wand", select y= 12100, x=20000, tolerance=94, contiguous=on; default gradient "Spectrum", mousedown y=24300, x=16320, mouseup y=0, x=16320"*, 2017
 -->
 
+A fragment shader offers a different way of making images than the geometric commands we've used thus far. Instead of issuing commands to draw individual shapes, we can write a function that determines the color of every pixel from its position, the time, and other variables. Gradients, waves, interference patterns, noise, and distortions can emerge from relatively simple mathematical relationships. As you examine these computational works, try to imagine the underlying rules. Which visual properties vary smoothly? Which repeat? Which depend on distance, orientation, or time?
+
 ![manolo_gamboa_naon_cirrrll_2020](img/manolo_gamboa_naon_cirrrll_2020.jpg)<br />Manolo Gamboa Naon, [*cirrrll*](https://www.behance.net/gallery/95976629/cirrrll), 2020
 
 ---
@@ -146,7 +165,8 @@ Tauba Auerbach, [*Untitled (Fold)*](https://taubaauerbach.com/view.php?id=376), 
 Light: Rafaël Rozendaal at MoMA
 
 ![rafael_rozendaal_light_moma_2025](img/rafael_rozendaal_light_moma_2025.jpg)
-[another](img/rafael_rozendaal_light_moma_2025_2.jpg) by Rozendaal
+
+![rafael_rozendaal_light_moma_2025_2.jpg](img/rafael_rozendaal_light_moma_2025_2.jpg)
 
 ![rafael_rozendaal_81_landscapes_2025](img/rafael_rozendaal_81_landscapes_2025.jpg)
 
@@ -164,41 +184,45 @@ Works by [Krista Kim](https://www.kristakimstudio.com/), 2024:
 
 ---
 
-![static_zachlieberman_conegradientstudies.jpg](img/static_zachlieberman_conegradientstudies.jpg)<br />Zach Lieberman, [*Cone Gradient Study*](https://verse.works/series/color-gradient-study-by-zach-lieberman) #18 and #32 (2023)<br />Some additional examples by Lieberman: 
-
-* [DENYFFnJfXo](https://www.instagram.com/zach.lieberman/reel/DENYFFnJfXo/) (dynamic)
-* [C59Po3Ypu4p](https://www.instagram.com/zach.lieberman/p/C59Po3Ypu4p/?img_index=5)
-* [C3id8aXp7Mg](https://www.instagram.com/zach.lieberman/p/C3id8aXp7Mg/?img_index=1)
-* [C3YhGT3Jd1p](https://www.instagram.com/zach.lieberman/p/C3YhGT3Jd1p/?img_index=1)
-* [DGPf6PNsXQ-](https://www.instagram.com/zach.lieberman/p/DGPf6PNsXQ-/?img_index=1)
-
 [*Soft Continuum*](https://verse.works/series/soft-continuum-by-mchx) by Anton Dubrovn (MCHX), 2026.
 
 ![anton_dubrovin_mchx_2025](img/anton_dubrovin_mchx_2025.jpg)<br />Anton Dubrovn (MCHX), 2025.
 
 ![anton_dubrovn_mchx_2025_2](img/anton_dubrovn_mchx_2025_2.jpg)<br />Anton Dubrovn (MCHX), [2025](https://www.instagram.com/p/DNSeYfRMyrV/?img_index=1).
 
-<!-- 
-![light_doesn't_bend_that_way_lars_wander](img/light_doesn't_bend_that_way_lars_wander.jpg)<br />Lars Wander, [Light Doesn't Bend that Way](https://larswander.com/art/light-doesnt-bend-that-way/), 2023.
--->
+---
 
+[![matthias_hurrle_as_above_so_below.jpg](img/matthias_hurrle_as_above_so_below.jpg)](https://openprocessing.org/@atzedent/2955321)
+
+Matthias Hurrle, [*As Above, So Below*](https://openprocessing.org/@atzedent/2955321) (dynamic, at OpenProcessing!). 
+
+---
+
+![light_doesn't_bend_that_way_lars_wander](img/light_doesn't_bend_that_way_lars_wander.jpg)<br />Lars Wander, [Light Doesn't Bend that Way](https://larswander.com/), 2023.
+
+---
+
+![doxas.jpg](img/doxas.jpg)<br />[Untitled one-line shader program](https://twigl.app/?ol=true&ss=-OV-iPL4DQkXYW-ABUrV) by @Doxas, 2025
 
 
 ---
+
+![static_zachlieberman_conegradientstudies.jpg](img/static_zachlieberman_conegradientstudies.jpg)<br />Zach Lieberman, [*Cone Gradient Study*](https://verse.works/series/color-gradient-study-by-zach-lieberman) #18 and #32 (2023)<br />Some additional examples by Lieberman: [DENYFFnJfXo](https://www.instagram.com/zach.lieberman/reel/DENYFFnJfXo/) (dynamic!); [C3YhGT3Jd1p](https://www.instagram.com/zach.lieberman/p/C3YhGT3Jd1p/?img_index=1), [DGPf6PNsXQ-](https://www.instagram.com/zach.lieberman/p/DGPf6PNsXQ-/?img_index=1); 
+
+| ![](img/zachlieberman_C59Po3Ypu4p.png) | ![](img/zachlieberman_C3id8aXp7Mg.jpg) | ![](img/zachlieberman_C3YhGT3Jd1p.jpg) |
+|---|---|---|
+| [C59Po3Ypu4p](https://www.instagram.com/zach.lieberman/p/C59Po3Ypu4p/?img_index=5) | [C3id8aXp7Mg](https://www.instagram.com/zach.lieberman/p/C3id8aXp7Mg/?img_index=1) | [C3YhGT3Jd1p](https://www.instagram.com/zach.lieberman/p/C3YhGT3Jd1p/?img_index=1) |
+
 
 <!--
 
 https://x.com/XorDev/status/1927869795304669566
-
----
 
 https://www.ruxandra-duru.com/work/gradients-soft-boundaries
 
 https://medium.com/design-bootcamp/color-gradients-and-blurry-boundaries-f1739003b955
 
 https://design.google/library/color-theory-ruxandra-duru
-
-
 
 ---
 
