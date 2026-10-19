@@ -1,5 +1,7 @@
 # No Hard Edges
 
+### *Articulating the Indistinct*
+
 Until now, most of our drawings with code have been made from discrete geometric shapes: circles, squares, lines, polygons. Each has a definite boundary, separating what's inside from what's outside. But what if we stopped thinking about images as collections of objects, and started thinking about them as **continuous fields of color, light, and texture**?
 
 Below are a few artworks representing Romantic landscape painting, Tonalism, Impressionism, abstraction, perceptual effects, and contemporary computational work. This collection of works explores the visual possibilities of **indistinctness**: soft boundaries, ambiguous spaces, gradual transitions, atmospheric effects, and forms that seem to emerge, dissolve, or hover at the threshold of recognition. In some of these works, it's difficult to say where one thing ends and another begins, or even what we're looking at.
@@ -10,7 +12,6 @@ As you browse, consider how an image can have structure without outlines, depth 
 
 ![spectrum-cast-by-prism](img/spectrum-cast-by-prism.jpg)
 
-*Articulating the Indistinct*
 
 <!--
 
@@ -89,7 +90,7 @@ In the mid-20th century, *Color Field* painting aimed to evoke emotional and spi
 
 **Mark Rothko**'s Color Field paintings are especially relevant for studying hue shifts, saturation, and edge softness. Observe how the edges glow or dissolve, and how the “fields” imply not flatness, but atmosphere and depth. (Here's another, [*No. 61, Rust and Blue*](img/mark_rothko_no61_rust_and_blue_1953.jpg))
 
-![rothko_no14_1960](img/mark_rothko_no14_1960.jpg)<br />Mark Rothko, *No. 14*, 1960.  [another](img/mark_rothko_no61_rust_and_blue_1953.jpg)
+![rothko_no14_1960](img/mark_rothko_no14_1960.jpg)<br />Mark Rothko, *No. 14*, 1960.
 
 Dana Gordon reflected on a visit to the Mark Rothko retrospective at The Fondation Vuitton in Paris. [Gordon observed](https://www.painters-table.com/synopsis/notes-and-reflections-on-rothko-in-paris/) that his paintings from the 1950s:
 
@@ -99,10 +100,12 @@ Dana Gordon reflected on a visit to the Mark Rothko retrospective at The Fondati
 
 *Spend some time looking at the boundaries between adjacent colors in Rothko's work. Are they sharp, blurred, feathered, irregular, or somehow luminous? Notice that a soft boundary isn't necessarily a simple gradient. How does the character of an edge affect whether a region appears flat, glowing, floating, or receding?*
 
+![mark_rothko_no61_rust_and_blue_1953.jpg](img/mark_rothko_no61_rust_and_blue_1953.jpg)<br/> Mark Rothko, *No. 61, Rust and Blue*, 1953.
+
 
 ---
 
-Jordan Belson (1926–2011) was an American abstract filmmaker whose work explored visionary and cosmic imagery, often described as meditative journeys into inner and outer space. Drawing on influences from Eastern mysticism, meditation, and metaphysical traditions, his films use shifting fields of light, color, and sound to evoke transcendent, spiritual states of consciousness. Belson’s aesthetics aimed less at narrative and more at evoking an experiential encounter with the sublime, the infinite, and the unseen. Here is a clip from [*Momentum*](https://www.youtube.com/watch?v=F2EBAksEoJM&t=77s) (1968):
+Jordan Belson (1926–2011) was an American abstract filmmaker whose work explored visionary and cosmic imagery, often described as meditative journeys into inner and outer space. Drawing on influences from Eastern mysticism, meditation, and metaphysical traditions, his films use shifting fields of light, color, and sound to evoke transcendent, spiritual states of consciousness. Belson’s aesthetics aimed less at narrative and more at evoking an experiential encounter with the sublime, the infinite, and the unseen. [Here is a YouTube clip from *Momentum*](https://www.youtube.com/watch?v=F2EBAksEoJM&t=77s) (1968):
 
 [![jordan_belson_momentum_1968](img/jordan_belson_momentum_1968.jpg)](https://www.youtube.com/watch?v=F2EBAksEoJM&t=77s)
 
@@ -161,6 +164,8 @@ A fragment shader offers a different way of making images than the geometric com
 ![manolo_gamboa_naon_cirrrll_2020](img/manolo_gamboa_naon_cirrrll_2020.jpg)<br />Manolo Gamboa Naon, [*cirrrll*](https://www.behance.net/gallery/95976629/cirrrll), 2020
 
 ---
+
+[![ruxandra_duru_video.png](img/ruxandra_duru_video.png)](https://design.google/library/color-theory-ruxandra-duru)<br/>Ruxandra Duru.
 
 ![ruxandra-duru-gradients.jpg](img/ruxandra-duru-gradients.jpg)<br/>Ruxandra Duru, [*Gradients and soft boundaries*](https://www.ruxandra-duru.com/work/gradients-soft-boundaries), 2018-2020. Articles by Ruxandra Duru:
 

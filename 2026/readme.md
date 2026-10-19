@@ -67,7 +67,7 @@ Approximate intensity trajectory of the assignments:
 * `Wed 10/07` — [**#5 Due**](assignments/assignment_5_ai.md) (AI-Buffet)
 * `Mon 10/12` — *No session (Fall Break)*
 * `Wed 10/14` — *No session (Fall Break)*
-* `Mon 10/19` — 1:1 Meetings; TIXY
+* `Mon 10/19` — [Notes](20261019.md); 1:1 Meetings; TIXY
 * `Wed 10/21` — Guest visit ([Char Stiles](https://www.instagram.com/charstiles/))
 * `Mon 10/26` — #6 Due (Shaders)
 * `Wed 10/28` 
