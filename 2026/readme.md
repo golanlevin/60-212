@@ -22,7 +22,7 @@ There are 10 sets of assignments. Unless otherwise noted, projects should be *su
 * `Mon 09/14` — [**#3 Due**](assignments/assignment_3_color.md) (Pattern; Color)
 * `Wed 09/23` — [**#4 Due**](assignments/assignment_4_puppet.md) (Camera/Puppet)
 * `Wed 10/07` — [**#5 Due**](assignments/assignment_5_ai.md) (LLM/AI-Buffet)
-* `Mon 10/26` — [**#6 Due**](assignments/assignment_6_pixel) (Pixel Logics; Shaders)
+* `Mon 10/26` — [**#6 Due**](assignments/assignment_6_pixel.md) (Pixel Logics; Shaders)
 * `Mon 11/09` — #7 Due (Creative Tool)
 * `Mon 11/16` — #8a Due (Capstone Experiment)
 * `Wed 12/02` — #8b Due (Capstone)
@@ -69,7 +69,7 @@ Approximate intensity trajectory of the assignments:
 * `Wed 10/14` — *No session (Fall Break)*
 * `Mon 10/19` — [Notes](daily_notes/20261019.md); 1:1 Meetings; TIXY
 * `Wed 10/21` — Guest visit ([Char Stiles](https://www.instagram.com/charstiles/))
-* `Mon 10/26` — [**#6 Due**](assignments/assignment_6_pixel) (Shaders)
+* `Mon 10/26` — [**#6 Due**](assignments/assignment_6_pixel.md) (Shaders)
 * `Wed 10/28` 
 * `Mon 11/02` 
 * `Wed 11/04` 
