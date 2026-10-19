@@ -162,6 +162,13 @@ A fragment shader offers a different way of making images than the geometric com
 
 ---
 
+![ruxandra-duru-gradients.jpg](img/ruxandra-duru-gradients.jpg)<br/>Ruxandra Duru, [*Gradients and soft boundaries*](https://www.ruxandra-duru.com/work/gradients-soft-boundaries), 2018-2020. Articles by Ruxandra Duru:
+
+* [*"Color, gradients, and blurry boundaries: What I have learned from working with color in a fuzzy context"*](https://medium.com/design-bootcamp/color-gradients-and-blurry-boundaries-f1739003b955)
+* [*Rethinking Color Theory*](https://design.google/library/color-theory-ruxandra-duru)
+
+---
+
 Light: Rafaël Rozendaal at MoMA
 
 ![rafael_rozendaal_light_moma_2025](img/rafael_rozendaal_light_moma_2025.jpg)
@@ -218,9 +225,6 @@ Matthias Hurrle, [*As Above, So Below*](https://openprocessing.org/@atzedent/295
 
 https://x.com/XorDev/status/1927869795304669566
 
-https://www.ruxandra-duru.com/work/gradients-soft-boundaries
-
-https://medium.com/design-bootcamp/color-gradients-and-blurry-boundaries-f1739003b955
 
 https://design.google/library/color-theory-ruxandra-duru
 

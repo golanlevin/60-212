@@ -83,6 +83,10 @@ You might want to research the following terms in the p5 reference: [get()](http
 
 ## 6.4. Looking Outwards
 
+<video controls width="100%">
+  <source src="https://storage.googleapis.com/gd-prod/media/627e3671-dd05-4be6-954e-17b048cb5ab4_rethinking_color_00_2x1.mp4" type="video/mp4">
+</video>
+
 *(15%, 1 hour)* This exercise has 3 parts:
 
 1. **Take a photograph** of the sky. Post it in Discord. 
