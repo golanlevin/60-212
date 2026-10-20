@@ -7,7 +7,7 @@
 * 6.2. [Animated Composition for Flipdot Display](#62-animated-composition-for-flipdot-display) *(10%, 30 minutes, due 10/19)*
 * 6.3. [Custom Pixel](#63-custom-pixel) *(30%, 2 hours, due Wednesday 10/21)*
 * 6.4. [Looking Outwards](#64-looking-outwards) *(15%, 1 hour, due Wednesday 10/21)*
-* 6.5. [Shader Composition](#65-shader-composition) *(40%, 3 hours, due Monday 10/26)*
+* 6.5. [Shader Composition](#65-shader-composition) *(40%, 3 hours, due Monday 10/26, 11:59pm)*
 
 
 ---
@@ -122,7 +122,7 @@ Briefly **survey** the following shader-programming resources. They vary conside
 
 ![Ruxandra Duru](../../lectures/no_hard_edges/img/ruxandra_duru_video.png)<br/>*(Ruxandra Duru)*
 
-*(40%, 3 hours, due Monday 10/26)* **Create** a visual composition using a GLSL fragment shader. You are encouraged to make a composition with aspects that are generative, interactive, and/or time-based.
+*(40%, 3 hours, due Monday 10/26, 11:59pm)* **Create** a visual composition using a GLSL fragment shader. You are encouraged to make a composition with aspects that are generative, interactive, and/or time-based.
 
 Until now, most of your p5.js drawings have been constructed by placing discrete geometric shapes. Shader programming offers a different way to make images: by describing how color and brightness vary across a field of pixels. It also offers a new technical vocabulary for some very old artistic problems: how to represent light, organize atmosphere, suggest depth, create luminosity, and direct the viewer's attention.
 
