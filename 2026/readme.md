@@ -68,7 +68,7 @@ Approximate intensity trajectory of the assignments:
 * `Mon 10/12` — *No session (Fall Break)*
 * `Wed 10/14` — *No session (Fall Break)*
 * `Mon 10/19` — [Notes](daily_notes/20261019.md); 1:1 Meetings; TIXY
-* `Wed 10/21` — Guest visit ([Char Stiles](https://www.instagram.com/charstiles/))
+* `Wed 10/21` — [Notes](daily_notes/20261021.md); Guest visit ([Char Stiles](https://www.instagram.com/charstiles/))
 * `Mon 10/26` — [**#6 Due**](assignments/assignment_6_pixel.md) (Shaders)
 * `Wed 10/28` 
 * `Mon 11/02` 
