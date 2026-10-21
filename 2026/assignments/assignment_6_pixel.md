@@ -7,7 +7,7 @@
 * 6.2. [Animated Composition for Flipdot Display](#62-animated-composition-for-flipdot-display) *(10%, 30 minutes, due 10/19)*
 * 6.3. [Custom Pixel](#63-custom-pixel) *(30%, 2 hours, due Wednesday 10/21)*
 * 6.4. [Looking Outwards](#64-looking-outwards) *(15%, 1 hour, due Wednesday 10/21)*
-* 6.5. [Shader Composition](#65-shader-composition) *(40%, 3 hours, due Monday 10/26, 11:59pm)*
+* 6.5. [Shader Composition](#65-shader-composition) *(40%, 3 hours, due Monday 10/26, **11:59pm**)*
 
 
 ---
@@ -115,14 +115,16 @@ Briefly **survey** the following shader-programming resources. They vary conside
 
 
 
-
 ---
 
 ## 6.5. Shader Composition
 
 ![Ruxandra Duru](../../lectures/no_hard_edges/img/ruxandra_duru_video.png)<br/>*(Ruxandra Duru)*
 
-*(40%, 3 hours, due Monday 10/26, 11:59pm)* **Create** a visual composition using a GLSL fragment shader. You are encouraged to make a composition with aspects that are generative, interactive, and/or time-based.
+*(40%, 3 hours, due Monday 10/26, 11:59pm)* **Create** a visual composition using a GLSL fragment shader. You are encouraged to make a composition with aspects that are generative, interactive, and/or time-based. Here are two OpenProcessing templates you can **fork** and **use** to develop your project; study them both to see which suits your needs:
+
+- [Simple Shader with Uniforms](https://openprocessing.org/@golan/2405238)
+- [Simple Shader Template](https://openprocessing.org/@golan/3038198)
 
 Until now, most of your p5.js drawings have been constructed by placing discrete geometric shapes. Shader programming offers a different way to make images: by describing how color and brightness vary across a field of pixels. It also offers a new technical vocabulary for some very old artistic problems: how to represent light, organize atmosphere, suggest depth, create luminosity, and direct the viewer's attention.
 
@@ -132,18 +134,9 @@ Whatever direction you choose, pay attention to the *composition* of your image.
 
 ### Instructions
 
-* **Develop** a visual composition using GLSL. You may work from scratch, adapt an example, or fork one of the starter projects below. Experiment with shader techniques such as gradients, distance functions, noise, domain warping, color palettes, and periodic functions. You are not expected to master all of these techniques.
+* **Develop** a visual composition using GLSL. You may work from scratch, adapt an example, or fork one of the starter projects provided above. Experiment with shader techniques such as gradients, distance functions, noise, domain warping, color palettes, and periodic functions. You are not expected to master all of these techniques.
 * **Consider** how your composition changes over space and, optionally, over time or in response to interaction. The important thing is to make deliberate visual decisions rather than merely demonstrate a shader effect.
-* **Publish** your finished project as a p5.js sketch using a GLSL fragment shader, and submit it to our OpenProcessing classroom.
+* **Publish** your finished project as a p5.js sketch using a GLSL fragment shader, and submit it to the [appropriate OpenProcessing collection](https://openprocessing.org/class/107236/#/c/107989).
 * **Create** a post in the Discord channel `#65-shader-composition`. In the post, **include** one or two screenshots of your project. In a sentence or two, **describe** an important visual decision you made, and what you hoped to achieve with it.
 
-### Starter Templates
-
-Here are two OpenProcessing templates you can **fork** and **use** to develop your project:
-
-- [Simple Shader with Uniforms](https://openprocessing.org/@golan/2405238)
-- [Simple Shader Template](https://openprocessing.org/@golan/3038198)
-
-You may also do some of your shader development in another environment, such as ShaderToy or KodeLife, but your submitted project must run in p5.js on OpenProcessing. Be aware that different environments use slightly different GLSL conventions.
-
-
+---
