@@ -134,6 +134,7 @@ Whatever direction you choose, pay attention to the *composition* of your image.
 
 ### Instructions
 
+* Please take 10-15 minutes to **read** this Shader [tutorial](https://openprocessing.org/@golan/3041566) I made for you on OpenProcessing: [https://openprocessing.org/@golan/3041566](https://openprocessing.org/@golan/3041566). It may help clarify some concepts!
 * **Develop** a visual composition using GLSL. You may work from scratch, adapt an example, or fork one of the starter projects provided above. Experiment with shader techniques such as gradients, distance functions, noise, domain warping, color palettes, and periodic functions. You are not expected to master all of these techniques.
 * **Consider** how your composition changes over space and, optionally, over time or in response to interaction. The important thing is to make deliberate visual decisions rather than merely demonstrate a shader effect.
 * **Publish** your finished project as a p5.js sketch using a GLSL fragment shader, and submit it to the [appropriate OpenProcessing collection](https://openprocessing.org/class/107236/#/c/107989).
