@@ -121,8 +121,9 @@ Briefly **survey** the following shader-programming resources. They vary conside
 
 ![Ruxandra Duru](../../lectures/no_hard_edges/img/ruxandra_duru_video.png)<br/>*(Ruxandra Duru)*
 
-*(40%, 3 hours, due Monday 10/26, 11:59pm)* **Create** a visual composition using a GLSL fragment shader. You are encouraged to make a composition with aspects that are generative, interactive, and/or time-based. Here are two OpenProcessing templates you can **fork** and **use** to develop your project; study them both to see which suits your needs:
+*(40%, 3 hours, due Monday 10/26, 11:59pm)* **Create** a visual composition using a GLSL fragment shader. You are encouraged to make a composition with aspects that are generative, interactive, and/or time-based. Here are some OpenProcessing templates you can **fork** and **use** to develop your project; study them to see which suits your needs:
 
+- [**Here's a tutorial I made for you!**](https://openprocessing.org/@golan/3041566) << Please look!
 - [Simple Shader with Uniforms](https://openprocessing.org/@golan/2405238)
 - [Simple Shader Template](https://openprocessing.org/@golan/3038198)
 
