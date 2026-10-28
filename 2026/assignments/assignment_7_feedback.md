@@ -5,12 +5,12 @@
 
 
 
-* [7.1. Circle Packing with Geometric Testing]() *(10%, 30 minutes, due 10/28)*
-* [7.2. Circle Packing with Pixel Testing]() *(10%, 30 minutes, due 10/28)*
-* [7.3. Guided Master Study: *Substrate*]() *(20%, 60 minutes, due Monday 11/2)*
+* [7.1. Circle Packing with Geometric Testing](#71-circle-packing-with-geometric-testing) *(10%, 30 minutes, due 10/28)*
+* [7.2. Circle Packing with Pixel Testing](#72-circle-packing-with-pixel-testing) *(10%, 30 minutes, due 10/28)*
+* [7.3. Guided Master Study: *Substrate*](#73-guided-master-study-substrate) *(20%, 60 minutes, due Monday 11/2)*
 * [7.4. Looking Outwards: Generative Art]() *(10%, 45 minutes, due Monday 11/2)* 
 * [7.5. Simple Plot Test]() *(5%, 15 minutes, due Monday 11/2)*
-* [7.6. Plotted Feedback Composition]() *(45%, due Monday 11/9)*
+* [7.6. Plotted Feedback Composition](#76-plotted-feedback-composition) *(45%, due Monday 11/9)*
 
 
 
@@ -219,11 +219,21 @@ class Bug {
 
 ---
 
+## 7.4. Looking Outwards: Generative Art
+
+*(10%, 45 minutes, due Monday 11/2)*
+
+---
+
+
+## 7.5. Simple Plot Test
+
+*(5%, 15 minutes, due Monday 11/2)*
 
 
 ---
 
-## 7.6. Plotted Feedback Composition 
+## 7.6. (Plotted) Feedback Composition 
 
 ![mitchell_whitelaw_limits_to_growth_2008.jpg](img/7/mitchell_whitelaw_limits_to_growth_2008.jpg)<br />Mitchell Whitelaw, *Limits to Growth* (2008)
 
