@@ -23,7 +23,7 @@ There are 10 sets of assignments. Unless otherwise noted, projects should be *su
 * `Wed 09/23` — [**#4 Due**](assignments/assignment_4_puppet.md) (Camera/Puppet)
 * `Wed 10/07` — [**#5 Due**](assignments/assignment_5_ai.md) (LLM/AI-Buffet)
 * `Mon 10/26` — [**#6 Due**](assignments/assignment_6_pixel.md) (Pixel Logics; Shaders)
-* `Mon 11/09` — #7 Due (Creative Tool)
+* `Mon 11/09` — [**#7 Due**](assignments/assignment_7_feedback.md) (Feedback Composition)
 * `Mon 11/16` — #8a Due (Capstone Experiment)
 * `Wed 12/02` — #8b Due (Capstone)
 * `TBA 12/XX` — #8c Due (Capstone Presentations & Documentation)
@@ -32,8 +32,7 @@ Approximate intensity trajectory of the assignments:
 
 <img src="syllabus/img/60-212_2026_semester_trajectory.png" width="320">
 
----
-
+<!--
 ## Special Events
 
 *Attendance at these extracurricular presentations is strongly encouraged:*
@@ -43,10 +42,8 @@ Approximate intensity trajectory of the assignments:
 * `circa ~10/25`: [Char Stiles](https://www.instagram.com/charstiles/) livecode performance (TBA)
 * `10/31–11/1`: [2026 Pittsburgh Art Book Fair](https://carnegieart.org/event/2026-pittsburgh-art-book-fair/)
 
-<!-- 
-* [*HCII Lecture Series*](https://hcii.cmu.edu/news/event/2026/09/fall-2026-seminar-series-stay-tuned-full-schedule)
-* [*Robotics Institute Seminar Series*](https://www.ri.cmu.edu/events/month/2026-09/)
-* `9/16-9/18`: [Design Nexus Summit](https://www.design.cmu.edu/design-nexus/design-nexus-summit) Symposium & Workshops -->
+-->
+
 ---
 
 ## Calendar & Daily Meeting Notes
@@ -70,10 +67,10 @@ Approximate intensity trajectory of the assignments:
 * `Mon 10/19` — [Notes](daily_notes/20261019.md); 1:1 Meetings; TIXY
 * `Wed 10/21` — [Notes](daily_notes/20261021.md); Guest visit ([Char Stiles](https://www.instagram.com/charstiles/))
 * `Mon 10/26` — [**#6 Due**](assignments/assignment_6_pixel.md) (Shaders)
-* `Wed 10/28` 
+* `Wed 10/28` — [Notes](daily_notes/20261028.md)
 * `Mon 11/02` 
 * `Wed 11/04` 
-* `Mon 11/09` — #7 Due (Creative Tool)
+* `Mon 11/09` — [**#7 Due**](assignments/assignment_7_feedback.md) (Feedback Composition)
 * `Wed 11/11` 
 * `Mon 11/16` — #8a Due (Experiment)
 * `Wed 11/18` — Libby's Day
