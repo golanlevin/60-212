@@ -1,15 +1,15 @@
 # Assignment Set #7: Feedback Drawing
 
 
-*In this assignment set, we'll explore ....*
+*In this assignment set, we'll explore how generative drawings can respond to their own histories. We'll investigate techniques for storing and examining previously drawn marks, and for using that information to influence what gets drawn next. Along the way, we'll study a classic work of generative art, experiment with geometric and pixel-based feedback, and learn to export vector drawings as SVG files. Finally, you'll invent your own feedback-driven drawing system, developing a composition whose structure emerges from the interactions of its marks, and produce a physical drawing with a pen plotter.*
 
-
+This unit has 6 exercises, of which #7.6 is the "main assignment". 
 
 * [7.1. Circle Packing with Geometric Testing](#71-circle-packing-with-geometric-testing) *(10%, 30 minutes, due 10/28)*
 * [7.2. Circle Packing with Pixel Testing](#72-circle-packing-with-pixel-testing) *(10%, 30 minutes, due 10/28)*
 * [7.3. Guided Master Study: *Substrate*](#73-guided-master-study-substrate) *(20%, 60 minutes, due Monday 11/2)*
-* [7.4. Simple SVG Generation](#75-simple-svg-generation) *(5%, 15 minutes, due Monday 11/2)*
-* [7.5. Looking Outwards: Generative Art](#74-looking-outwards-generative-art) *(15%, 45 minutes; due Monday 11/2)* 
+* [7.4. Simple SVG Generation](#74-simple-svg-generation) *(5%, 15 minutes, due Monday 11/2)*
+* [7.5. Looking Outwards: Generative Art](#75-looking-outwards-generative-art) *(15%, 45 minutes; due Monday 11/2)* 
 * [7.6. Feedback Composition (for Pen Plotting)](#76-feedback-composition-for-pen-plotting) *(40%, 6 hours; due Monday 11/9)*
 
 
@@ -59,7 +59,6 @@
 * **Create** a p5 canvas with dimensions of 800x600 pixels, and in the `setup()` function, set the `background()` to black. **Remove** any subsequent invocation of the `background()` function.
 * **Generate** a circle with a random size and location on the canvas, and **draw** it using a white-filled `circle()` command. 
 * On every subsequent `draw()` call, **generate** the geometric parameters `(cx,cy,r)` of a candidate circle with a new random size and location. In order to **test** whether that candidate circle overlaps any previously stored circle, **compute** a series of test points `(px,py)` at various angles `a` around its perimeter (using something like `px = cx + r * cos(a)`, *etcetera*). Then, **use** the p5.js `get()` command to fetch the colors at those locations. If all of the circle's points would be drawn at a black location, then you can safely **add** that circle to the accumulation buffer.
-* If all of the tested points are black, then **add** the candidate circle to the accumulation buffer. 
   * **Consider** whether this sampling technique guarantees that circles will never overlap.
   * **Consider** how the number of test points affects the reliability and performance of your algorithm. 
   * To speed things up, you may wish to generate a number of candidate circles on each frame.
@@ -67,7 +66,7 @@
 
 ### DISCUSSION
 
-We will follow the implmentation of projects 7.1 and 7.2 with a brief discussion. prepared to **answer**:
+We will follow the implementation of exercises 7.1 and 7.2 with a brief discussion. Be prepared to **answer**:
  
 * What are some **advantages and disadvantages** of each technique for circle packing?
 * Both techniques produce images whose future states depend on their past states, but they store and query their histories differently. What are the **implications of these different representations** (e.g. for algorithmic efficiency)?
@@ -86,7 +85,7 @@ Jared Tarbell's *Substrate* (2003), originally implemented in Processing/Java, i
 
 *Substrate* is related to a family of generative drawing systems known as [Ice-Ray Grammars](https://www.contrib.andrew.cmu.edu/~ramesh/teaching/course/48-747/subFrames/readings/Stiny-1977-EPB3_89-98.Ice-ray..pdf), described by George Stiny in 1977. These systems generate intricate networks of lines through simple rules governing their growth and interaction.
 
-In *Substrate*, numerous lines — let us call them "cracks" — propagate across the drawing surface. Each crack advances incrementally in a particular direction, leaving a visible trace behind it. When a crack encounters another crack or reaches the edge of the canvas, it stops growing. New cracks originate along existing cracks, typically departing at approximately right angles. Over time, these simple interactions produce an increasingly intricate network of intersecting paths and subdivided regions. Tarbell's artwork also includes delicate, sand-like deposits of color nearby the cracks.
+In *Substrate*, numerous lines — let us call them "cracks" — propagate across the drawing surface. Each crack advances incrementally in a particular direction, leaving a visible trace behind it. When a crack encounters another crack or reaches the edge of the canvas, it stops growing. New cracks originate along existing cracks, typically departing at approximately right angles. Over time, these simple interactions produce an increasingly intricate network of intersecting paths and subdivided regions. Tarbell's artwork also includes delicate, sand-like deposits of color alongside the cracks.
 
 Below and [here at OpenProcessing](https://openprocessing.org/@golan/3046937) is a heavily simplified, approximately 100-line program, loosely based on *Substrate*. It introduces several computational ideas that go beyond our previous circle-packing exercises:
 
@@ -274,7 +273,7 @@ In the previous exercises in this unit, we explored two different ways for a dra
 Note that **there is an important distinction** between mere *accumulation* and *feedback*:
 
 - In mere **accumulation,** new marks are added according to a set of rules, *without consulting the marks already made*. For example, a program might deposit thousands of circles according to a random distribution, or draw lines that follow a predetermined noise field. Those techniques can produce nice compositions, but any existing marks do not influence what happens next.
-- In designs that use **feedback:**, on the other hand, the marks that were already made become inputs to subsequent drawing decisions. For example, new marks might avoid occupied regions, follow existing contours, cluster near intersections, branch when they encounter other marks, or change their size or direction in response to the artwork's local density.
+- In designs that use **feedback**, on the other hand, the marks that were already made become inputs to subsequent drawing decisions. For example, new marks might avoid occupied regions, follow existing contours, cluster near intersections, branch when they encounter other marks, or change their size or direction in response to the artwork's local density.
 
 Feedback can help a composition develop in response to its own evolving structure. Rather than following only a predetermined spatial plan, the drawing can develop clusters, boundaries, gaps, corridors, regions of contrasting density, and other relationships through the interactions of its marks.
 
@@ -293,7 +292,7 @@ You are encouraged to explore approaches beyond the circle packing and crack pro
 
 These are starting points, not recipes. You may combine techniques, invent your own, or pursue an entirely different approach.
 
-**Important:** You may reuse techniques from our exercises, including collision detection, pixel sampling, and agent-based drawing, but you must develop an original generative process with a substantially different relationship between existing and subsequent marks. A straightforward modification of circle packing or the provided Substrate-like will not satisfy this assignment. 
+**Important:** You may reuse techniques from our exercises, including collision detection, pixel sampling, and agent-based drawing, but you must develop an original generative process with a substantially different relationship between existing and subsequent marks. A straightforward modification of circle packing or the provided Substrate-like program will not satisfy this assignment. 
 
 
 ### Your Task
