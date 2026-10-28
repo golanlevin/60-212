@@ -16,9 +16,8 @@ This unit has 6 exercises, of which #7.6 is the "main assignment".
 
 ---
 
-<!--
 ![buechley_and_watz_packings.png](img/7/buechley_and_watz_packings.png)<br/>Computational circle packing designs by [Leah Buechley](https://x.com/leahbuechley/status/936669240605552640?lang=en) (2017) and [Marius Watz](https://mariuswatz.com/) (2008).
--->
+
 
 ## 7.1. Circle Packing with Geometric Testing
 
@@ -42,9 +41,8 @@ This unit has 6 exercises, of which #7.6 is the "main assignment".
 
 ---
 
-<!--
 ![amy_goodchild_manolo_gamboa-naon.jpg](img/7/amy_goodchild_manolo_gamboa-naon.jpg)<br/>Computational shape packing designs by [Amy Goodchild](https://www.amygoodchild.com/blog/maplands) (2022) and Manolo Gamboa Naon (2021).
--->
+
 
 ## 7.2. Circle Packing with Pixel Testing
 
@@ -258,7 +256,7 @@ The purpose of this simple technical exercise is to make sure you understand how
 
 ## 7.6. Feedback Composition (for Pen Plotting)
 
-<!-- ![mitchell_whitelaw_limits_to_growth_2008.jpg](img/7/mitchell_whitelaw_limits_to_growth_2008.jpg)<br />Mitchell Whitelaw, *Limits to Growth* (2008) -->
+![mitchell_whitelaw_limits_to_growth_2008.jpg](img/7/mitchell_whitelaw_limits_to_growth_2008.jpg)<br />Mitchell Whitelaw, *Limits to Growth* (2008)
 
 > “The manner in which I work constantly involves a feedback. I paint out parts, change others, and add and subtract as I go along. [...] One's initial ideas may have to do with chance, but as one continues, one watches and controls the effects.” — *Jasper Johns: A Print Retrospective* (MoMA, [PDF](https://www.moma.org/documents/moma_catalogue_1816_300001136.pdf?utm_source=chatgpt.com), 1977. p.26).
 
