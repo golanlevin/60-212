@@ -8,9 +8,9 @@
 * [7.1. Circle Packing with Geometric Testing](#71-circle-packing-with-geometric-testing) *(10%, 30 minutes, due 10/28)*
 * [7.2. Circle Packing with Pixel Testing](#72-circle-packing-with-pixel-testing) *(10%, 30 minutes, due 10/28)*
 * [7.3. Guided Master Study: *Substrate*](#73-guided-master-study-substrate) *(20%, 60 minutes, due Monday 11/2)*
-* [7.4. Looking Outwards: Generative Art]() *(10%, 45 minutes, due Monday 11/2)* 
-* [7.5. Simple Plot Test]() *(5%, 15 minutes, due Monday 11/2)*
-* [7.6. Plotted Feedback Composition](#76-plotted-feedback-composition) *(45%, due Monday 11/9)*
+* [7.4. Simple SVG Generation](#75-simple-svg-generation) *(5%, 15 minutes, due Monday 11/2)*
+* [7.5. Looking Outwards: Generative Art](#74-looking-outwards-generative-art) *(15%, 45 minutes, due Monday 11/2)* 
+* [7.6. Plotted Feedback Composition](#76-plotted-feedback-composition) *(40%, due Monday 11/9)*
 
 
 
@@ -112,6 +112,7 @@ Starting with the code provided below, **create** your own modified version of t
   - Giving different agents different speeds, lifespans, or behaviors;
   - Changing the conditions under which agents stop moving;
   - Introducing a new way for agents to respond to the marks already drawn.
+  - Note that you should probably retain the simple coloring (black lines on white background); doing otherwise may break the pixel-based feedback algorithm.
 * **Upload** your modified project to the [appropriate collection]() on OpenProcessing. 
 * **Create** a post in the Discord channel `#73-substrate`. **Write** a brief comment explaining the two most significant changes you made and what effects they had on the drawing.
 * **Include** a screenshot or two of your program in your Discord post. 
@@ -217,18 +218,21 @@ class Bug {
 ```
 
 
----
 
-## 7.4. Looking Outwards: Generative Art
-
-*(10%, 45 minutes, due Monday 11/2)*
 
 ---
 
 
-## 7.5. Simple Plot Test
+## 7.4. Simple SVG Generation
 
 *(5%, 15 minutes, due Monday 11/2)*
+
+
+---
+
+## 7.5. Looking Outwards: Generative Art
+
+*(15%, 45 minutes, due Monday 11/2)*
 
 
 ---
@@ -237,7 +241,7 @@ class Bug {
 
 ![mitchell_whitelaw_limits_to_growth_2008.jpg](img/7/mitchell_whitelaw_limits_to_growth_2008.jpg)<br />Mitchell Whitelaw, *Limits to Growth* (2008)
 
-*(45%, due Monday 11/9)*
+*(40%, due Monday 11/9)*
 
 *Details TBA.*
 
