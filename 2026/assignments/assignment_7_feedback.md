@@ -9,14 +9,16 @@
 * [7.2. Circle Packing with Pixel Testing](#72-circle-packing-with-pixel-testing) *(10%, 30 minutes, due 10/28)*
 * [7.3. Guided Master Study: *Substrate*](#73-guided-master-study-substrate) *(20%, 60 minutes, due Monday 11/2)*
 * [7.4. Simple SVG Generation](#75-simple-svg-generation) *(5%, 15 minutes, due Monday 11/2)*
-* [7.5. Looking Outwards: Generative Art](#74-looking-outwards-generative-art) *(15%, 45 minutes, due Monday 11/2)* 
-* [7.6. Plotted Feedback Composition](#76-plotted-feedback-composition) *(40%, due Monday 11/9)*
+* [7.5. Looking Outwards: Generative Art](#74-looking-outwards-generative-art) *(15%, 45 minutes; due Monday 11/2)* 
+* [7.6. Feedback Composition (for Pen Plotting)](#76-feedback-composition-for-pen-plotting) *(40%, 4 hours; due Monday 11/9)*
 
 
 
 ---
 
+<!--
 ![buechley_and_watz_packings.png](img/7/buechley_and_watz_packings.png)<br/>Computational circle packing designs by [Leah Buechley](https://x.com/leahbuechley/status/936669240605552640?lang=en) (2017) and [Marius Watz](https://mariuswatz.com/) (2008).
+-->
 
 ## 7.1. Circle Packing with Geometric Testing
 
@@ -40,7 +42,9 @@
 
 ---
 
+<!--
 ![amy_goodchild_manolo_gamboa-naon.jpg](img/7/amy_goodchild_manolo_gamboa-naon.jpg)<br/>Computational shape packing designs by [Amy Goodchild](https://www.amygoodchild.com/blog/maplands) (2022) and Manolo Gamboa Naon (2021).
+-->
 
 ## 7.2. Circle Packing with Pixel Testing
 
@@ -227,22 +231,98 @@ class Bug {
 
 *(5%, 15 minutes, due Monday 11/2)*
 
+The purpose of this simple technical exercise is to make sure you understand how to use the [p5.plotSvg library](https://github.com/golanlevin/p5.plotSvg/blob/main/README.md) to generate and share SVG files for pen-plotting. No creative work is required. 
+
+* **Skim** the [main README for p5.plotSvg](https://github.com/golanlevin/p5.plotSvg/blob/main/README.md), a library that I created to support plotter-friendly SVG export for p5.js. But be sure to actually **read** the [Quickstart Instructions](https://github.com/golanlevin/p5.plotSvg/blob/main/README.md#quickstart-installation-instructions) section.
+* **Run** the following programs at OpenProcessing. Use them to **export** SVG files. 
+  - [plotSvg Generative](https://openprocessing.org/@golan/2455399)
+  - [plotSvg Particle Paths](https://openprocessing.org/@golan/2478945)
+  - [plotSvg Hello Animating](https://openprocessing.org/@golan/2455390)
+* **Examine** the resulting SVG files in your favorite vector editor, such as Adobe Illustrator, the new Illustrator clone, [VectorCraft](https://getartcraft.com/apps/vectorcraft) (free!), or [InkScape](https://inkscape.org/) (free!). Observe how you can zoom in with glorious infinite resolution. 
+* **Fork** and **modify** one of the programs so that it exports a US Letter-sized document, either 8.5x11" or 11x8.5". You will not receive any credit for this Exercise (7.4) if you do not do this. **Export** a letter-sized document.
+* **Upload** your SVG to your Google drive, and **Share** it so that anyone with the link can view it. 
+* In the Discord channel `#74-svg-test`, **create** a post and in it, **paste** a link to your SVG document. It might look something like this: `https://drive.google.com/file/d/1erbfgOjnXluFTtT3EHJ_vVZjGpHX25yE/view?usp=sharing`
 
 ---
 
 ## 7.5. Looking Outwards: Generative Art
 
-*(15%, 45 minutes, due Monday 11/2)*
+*(15%, 45 minutes; due Monday 11/2)*
 
 
 ---
 
-## 7.6. (Plotted) Feedback Composition 
+## 7.6. Feedback Composition (for Pen Plotting)
 
-![mitchell_whitelaw_limits_to_growth_2008.jpg](img/7/mitchell_whitelaw_limits_to_growth_2008.jpg)<br />Mitchell Whitelaw, *Limits to Growth* (2008)
+<!-- ![mitchell_whitelaw_limits_to_growth_2008.jpg](img/7/mitchell_whitelaw_limits_to_growth_2008.jpg)<br />Mitchell Whitelaw, *Limits to Growth* (2008) -->
 
-*(40%, due Monday 11/9)*
+> “The manner in which I work constantly involves a feedback. I paint out parts, change others, and add and subtract as I go along. [...] One's initial ideas may have to do with chance, but as one continues, one watches and controls the effects.” — *Jasper Johns: A Print Retrospective* (MoMA, [PDF](https://www.moma.org/documents/moma_catalogue_1816_300001136.pdf?utm_source=chatgpt.com), 1977. p.26).
 
-*Details TBA.*
+*(40%, 6 hours; due in SVG form on Monday 11/9)*
+
+**Create** an original generative drawing in which the marks already drawn influence the placement, geometry, or behavior of subsequent marks. Your final composition must be exported as an SVG and will be physically drawn with a pen plotter, using exclusively black ink on white, US Letter-sized paper (8.5 × 11 inches).
+
+### A Drawing That Remembers
+
+In the previous exercises in this unit, we explored two different ways for a drawing program to remember what it has already drawn: by storing geometric information in arrays, and by reading pixels from the canvas. We also examined Jared Tarbell's *Substrate*, in which moving agents respond to the marks left by previous agents. Now it's your turn to invent a drawing system that uses **feedback** as a central part of its generative process.
+
+Note that **there is an important distinction** between mere *accumulation* and *feedback*:
+
+- In mere **accumulation,** new marks are added according to a set of rules, *without consulting the marks already made*. For example, a program might deposit thousands of circles according to a random distribution, or draw lines that follow a predetermined noise field. Those techniques can produce nice compositions, but any existing marks do not influence what happens next.
+- In designs that use **feedback:**, on the other hand, the marks that were already made become inputs to subsequent drawing decisions. For example, new marks might avoid occupied regions, follow existing contours, cluster near intersections, branch when they encounter other marks, or change their size or direction in response to the artwork's local density.
+
+Feedback can help a composition develop in response to its own evolving structure. Rather than following only a predetermined spatial plan, the drawing can develop clusters, boundaries, gaps, corridors, regions of contrasting density, and other relationships through the interactions of its marks.
+
+**The KEY REQUIREMENT is that your drawing's accumulated history must influence what the program does next.** Simply repeating a drawing operation, leaving previous marks visible, or varying parameters over time is not sufficient. Your work will be judged on the originality and effectiveness of its feedback mechanism, the visual and compositional development of the drawing, the quality of its physical realization, and your ability to explain the relationship between your algorithm and its results.
+
+### Possible Approaches
+
+You are encouraged to explore approaches beyond the circle packing and crack propagation demonstrated in class. Some techniques worth investigating include:
+
+- **Offset curves:** Curved lines are drawn alongside previous curved lines, influenced by the previous lines' bumps. 
+- **Diffusion-Limited Aggregation (DLA):** Moving particles attach to an existing structure, producing branching, accretive forms.
+- **Space Colonization:** Growing branches respond to the positions of nearby targets and previous branches, producing leaflike designs.
+- **Ice-Ray Grammars:** Lines propagate, intersect, terminate, and generate new lines according to rules that respond to the existing drawing.
+- **Density-Based Drawing:** New marks respond to the concentration or distribution of marks in different regions of the page.
+- **Attraction and Repulsion:** Existing marks influence the movement, direction, or placement of subsequent marks.
+
+These are starting points, not recipes. You may combine techniques, invent your own, or pursue an entirely different approach.
+
+**Important:** You may reuse techniques from our exercises, including collision detection, pixel sampling, and agent-based drawing, but you must develop an original generative process with a substantially different relationship between existing and subsequent marks. A straightforward modification of circle packing or the provided Substrate-like will not satisfy this assignment. 
+
+
+### Your Task
+
+**Proceed** as follows:
+
+1. **SKETCH FIRST!!** Use your own drawing and doodling process to help you **devise** a feedback mechanism for your drawing. Well before you begin programming, **complete** the following sentence in your mind or sketchbook:
+   - *"When my program is about to draw a new ______, it examines ______ from the existing drawing, and uses that information to decide ______."*
+   - For example: *"When my program is about to draw a new line, it examines the density of nearby lines and uses that information to decide which direction to turn."*
+2. **Implement** your drawing system in p5.js. You may use any method to represent and query the accumulated drawing (such as pixel testing or arrays of geometries). Your feedback mechanism must respond to information about the drawing's existing marks — not merely the number of iterations elapsed or the values of a predetermined noise field.
+3. **Experiment** with your system to develop an interesting visual composition. **Investigate** how changes to its rules and parameters affect the drawing's organization, density, rhythm, and structure. **Consider** how feedback might produce interesting relationships between different regions of the drawing.
+4. **Adapt** your program to produce plotter-friendly SVG output using the [p5.plotSvg library](https://github.com/golanlevin/p5.plotSvg). Your composition must fit on a **US Letter-sized page**, in either portrait or landscape orientation. Use exclusively **black strokes on a white background**, with no colors, grayscale, transparency, or filled shapes. Consider the practical limitations of pen plotting, including line density, overlapping strokes, drawing time, and the physical characteristics of ink and paper.
+5. **Upload** your p5.js project to the [appropriate collection]() on OpenProcessing. In a comment at the top of your code, briefly **explain** how your feedback mechanism works.\
+6. **Export** several SVG compositions and examine them in a vector editor. Select your strongest result. Make sure your exported geometry accurately represents the drawing generated by your feedback system. **Upload** at least one completed SVG to your Google Drive, and make sure to **share** it so that anyone with the link can view it.
+7. **Create** a post in the Discord channel, `#76-feedback-composition`. In your post, **include** a link to the SVG file(s) in your Google Drive, and **upload** a screenshot as well. In your post, **respond** in writing to the following questions about your project:
+  - **Your feedback mechanism:** How does it work? What information does your drawing remember, and how does that information influence subsequent marks?
+  - **Your compositional decisions:** How did you shape the system's behavior to produce the particular visual organization of your drawing?
+  - **Design for plotting:** How did the constraints and possibilities of pen plotting affect your design?
+8. On Monday 11/9, in class, we will **plot** your final compositions on white, US Letter-sized paper using a black pen. Because some setup is required for this process, assignments which are submitted after the 11/9 due date may not be plotted. 
+
+The Feedback Composition is the "main exercise" for this unit, worth 40 points. Your rigor and discipline in fulfilling technical requirements is greatly appreciated; reciprocally, there will be penalties for each of the following: 
+
+* Creation of a design that uses only mere accumulation, and not feedback: -20 points.
+* Late delivery of SVGs (submitted too late for plotting on Monday 11/9): -10 points. 
+* SVGs with incorrect/private sharing permissions (unviewable on the first try): -5 points. 
+* Document size other than US Letter (8.5x11): -5 points. 
+
+---
+
+EOF. 
+
+
+
+
+
 
 
