@@ -10,7 +10,7 @@
 * [7.3. Guided Master Study: *Substrate*](#73-guided-master-study-substrate) *(20%, 60 minutes, due Monday 11/2)*
 * [7.4. Simple SVG Generation](#75-simple-svg-generation) *(5%, 15 minutes, due Monday 11/2)*
 * [7.5. Looking Outwards: Generative Art](#74-looking-outwards-generative-art) *(15%, 45 minutes; due Monday 11/2)* 
-* [7.6. Feedback Composition (for Pen Plotting)](#76-feedback-composition-for-pen-plotting) *(40%, 4 hours; due Monday 11/9)*
+* [7.6. Feedback Composition (for Pen Plotting)](#76-feedback-composition-for-pen-plotting) *(40%, 6 hours; due Monday 11/9)*
 
 
 
@@ -36,7 +36,7 @@
 * **Generate** a circle with a random size and location on the canvas, and **store** information about the circle's geometry into an array called (e.g.) `bubbles`. 
 * On every subsequent `draw()` call, **generate** a candidate circle with a new random size and location. **Test** to see whether the candidate circle overlaps any previously stored circle, including cases where one circle contains another. (You should be able to test this using [A-level Maths](https://www.youtube.com/watch?v=lDk_8pFzNZY) and/or the p5.js [`dist()`](https://p5js.org/reference/p5/dist/) function.) If the candidate circle does *not* overlap any previous circle, then **add** it to the array. To speed things up, you may wish to generate a number of candidate circles on each frame.
 * **Display** the collection of non-intersecting circles by looping through the `bubbles` array to fetch their parameters. **Demonstrate** the success of your algorithm by rendering all of your circles as unfilled shapes, i.e. with a white stroke and `noFill()`.
-* **Upload** your project into the [appropriate collection]() on OpenProcessing.
+* **Upload** your project into the [appropriate collection](https://openprocessing.org/class/107236/#/c/108053) on OpenProcessing.
 * During discussion, be prepared to **answer**: what are some advantages and disadvantages of this technique for circle-packing? 
 
 
@@ -63,7 +63,7 @@
   * **Consider** whether this sampling technique guarantees that circles will never overlap.
   * **Consider** how the number of test points affects the reliability and performance of your algorithm. 
   * To speed things up, you may wish to generate a number of candidate circles on each frame.
-* **Upload** your project into the [appropriate collection]() on OpenProcessing.
+* **Upload** your project into the [appropriate collection](https://openprocessing.org/class/107236/#/c/108054) on OpenProcessing.
 
 ### DISCUSSION
 
@@ -88,7 +88,7 @@ Jared Tarbell's *Substrate* (2003), originally implemented in Processing/Java, i
 
 In *Substrate*, numerous lines — let us call them "cracks" — propagate across the drawing surface. Each crack advances incrementally in a particular direction, leaving a visible trace behind it. When a crack encounters another crack or reaches the edge of the canvas, it stops growing. New cracks originate along existing cracks, typically departing at approximately right angles. Over time, these simple interactions produce an increasingly intricate network of intersecting paths and subdivided regions. Tarbell's artwork also includes delicate, sand-like deposits of color nearby the cracks.
 
-Below and [here at OpenProcessing](https://openprocessing.org/@golan/3046937) is a simplified, approximately 100-line program, loosely based on *Substrate*. It introduces several computational ideas that go beyond our previous circle-packing exercises:
+Below and [here at OpenProcessing](https://openprocessing.org/@golan/3046937) is a heavily simplified, approximately 100-line program, loosely based on *Substrate*. It introduces several computational ideas that go beyond our previous circle-packing exercises:
 
 * **Persistent moving agents**. Instead of generating independent candidate shapes, each `Bug` object maintains its position, heading, and alive/dead state across frames.
 * **Continuous mark-making**. Agents deposit connected line segments as they move, rather than adding complete geometric shapes.
@@ -98,7 +98,7 @@ Below and [here at OpenProcessing](https://openprocessing.org/@golan/3046937) is
 
 ### Your Task
 
-Starting with the code provided below, **create** your own modified version of this generative drawing system. *(You are not asked to reproduce Substrate.)* Your goal is to **understand** the existing mechanisms, **experiment** with their behavior, and **make** deliberate changes to the rules that generate the drawing. See if you can *make it your own*.
+Starting with the code provided below, **create** your own modified version of [this generative drawing system](https://openprocessing.org/@golan/3046937). *(You are not asked to reproduce Substrate.)* Your goal is to **understand** the existing mechanisms, **experiment** with their behavior, and **make** deliberate changes to the rules that generate the drawing. See if you can *make it your own*.
 
 * **Study** Tarbell's *Substrate*, either from the [screen recording](https://vimeo.com/208903786) or from [Tom White's interactive re-code](https://dribnet.github.io/substrate/). **Observe** how new cracks originate, propagate, branch, and terminate. Notice how the composition becomes increasingly complex as marks accumulate.
 * **Fork** the [provided sketch](https://openprocessing.org/@golan/3046937) into your own p5.js project. Run it and examine the code. In particular, identify where the program:
@@ -117,7 +117,7 @@ Starting with the code provided below, **create** your own modified version of t
   - Changing the conditions under which agents stop moving;
   - Introducing a new way for agents to respond to the marks already drawn.
   - Note that you should probably retain the simple coloring (black lines on white background); doing otherwise may break the pixel-based feedback algorithm.
-* **Upload** your modified project to the [appropriate collection]() on OpenProcessing. 
+* **Upload** your modified project to the [appropriate collection](https://openprocessing.org/class/107236/#/c/108055) on OpenProcessing. 
 * **Create** a post in the Discord channel `#73-substrate`. **Write** a brief comment explaining the two most significant changes you made and what effects they had on the drawing.
 * **Include** a screenshot or two of your program in your Discord post. 
 
@@ -247,7 +247,12 @@ The purpose of this simple technical exercise is to make sure you understand how
 
 ## 7.5. Looking Outwards: Generative Art
 
-*(15%, 45 minutes; due Monday 11/2)*
+
+![mapan.jpg](../../2024/assignments/images/mapan.jpg)<br/><small>*William Mapan*</small>
+
+*(15%, 45 minutes; due Monday 11/2)* [**Here are some collections of generative artworks**](https://github.com/CMUSchoolOfArt/60-120/tree/main/lectures/generative_artworks). Each section presents just a few variations produced by a single piece of software-art, as part of a much larger collection to which it links. **Browse** these pages and **select** a project you like (or which appeals to you more than the others). In the Discord channel `#75-generative-art`, **identify** the project you liked; **write** a sentence about what you found interesting about it; and **include** an image of the artwork.
+
+**Note**: many of these artworks are dynamic and/or interactive, and some allow you to generate new results beyond the ones already generated.
 
 
 ---
@@ -298,10 +303,10 @@ These are starting points, not recipes. You may combine techniques, invent your 
 1. **SKETCH FIRST!!** Use your own drawing and doodling process to help you **devise** a feedback mechanism for your drawing. Well before you begin programming, **complete** the following sentence in your mind or sketchbook:
    - *"When my program is about to draw a new ______, it examines ______ from the existing drawing, and uses that information to decide ______."*
    - For example: *"When my program is about to draw a new line, it examines the density of nearby lines and uses that information to decide which direction to turn."*
-2. **Implement** your drawing system in p5.js. You may use any method to represent and query the accumulated drawing (such as pixel testing or arrays of geometries). Your feedback mechanism must respond to information about the drawing's existing marks — not merely the number of iterations elapsed or the values of a predetermined noise field.
+2. **Implement** your drawing system in p5.js. You may use any method to represent and query the accumulated drawing (such as pixel testing or arrays of geometries). Your feedback mechanism must respond to information about the drawing's existing marks — not merely the number of iterations elapsed or the values of a predetermined noise field. In a comment at the top of your code, briefly **explain** how your feedback mechanism works.
 3. **Experiment** with your system to develop an interesting visual composition. **Investigate** how changes to its rules and parameters affect the drawing's organization, density, rhythm, and structure. **Consider** how feedback might produce interesting relationships between different regions of the drawing.
 4. **Adapt** your program to produce plotter-friendly SVG output using the [p5.plotSvg library](https://github.com/golanlevin/p5.plotSvg). Your composition must fit on a **US Letter-sized page**, in either portrait or landscape orientation. Use exclusively **black strokes on a white background**, with no colors, grayscale, transparency, or filled shapes. Consider the practical limitations of pen plotting, including line density, overlapping strokes, drawing time, and the physical characteristics of ink and paper.
-5. **Upload** your p5.js project to the [appropriate collection]() on OpenProcessing. In a comment at the top of your code, briefly **explain** how your feedback mechanism works.\
+5. **Upload** your p5.js project to the [appropriate collection](https://openprocessing.org/class/107236/#/c/108056) on OpenProcessing.
 6. **Export** several SVG compositions and examine them in a vector editor. Select your strongest result. Make sure your exported geometry accurately represents the drawing generated by your feedback system. **Upload** at least one completed SVG to your Google Drive, and make sure to **share** it so that anyone with the link can view it.
 7. **Create** a post in the Discord channel, `#76-feedback-composition`. In your post, **include** a link to the SVG file(s) in your Google Drive, and **upload** a screenshot as well. In your post, **respond** in writing to the following questions about your project:
   - **Your feedback mechanism:** How does it work? What information does your drawing remember, and how does that information influence subsequent marks?
