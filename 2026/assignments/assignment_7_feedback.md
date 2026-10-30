@@ -247,9 +247,16 @@ The purpose of this simple technical exercise is to make sure you understand how
 
 ![mapan.jpg](../../2024/assignments/images/mapan.jpg)<br/><small>*William Mapan*</small>
 
-*(15%, 45 minutes; due Monday 11/2)* [**Here are some collections of generative artworks**](https://github.com/CMUSchoolOfArt/60-120/tree/main/lectures/generative_artworks). Each section presents just a few variations produced by a single piece of software-art, as part of a much larger collection to which it links. **Browse** these pages and **select** a project you like (or which appeals to you more than the others). In the Discord channel `#75-generative-art`, **identify** the project you liked; **write** a sentence about what you found interesting about it; and **include** an image of the artwork.
+*(15%, 45 minutes; due Monday 11/2)* [**Here are some collections of generative artworks**](https://github.com/CMUSchoolOfArt/60-120/tree/main/lectures/generative_artworks). Each section presents just a few variations produced by a single piece of software-art, as part of a much larger collection to which it links. **Browse** these pages and **select** a project you like. (**Note**: many of these artworks are dynamic and/or interactive, and some allow you to generate new results.) In the Discord channel `#75-generative-art`, **identify** the project you liked; **write** a sentence about what you found interesting about it; and **include** an image of the artwork.
 
-**Note**: many of these artworks are dynamic and/or interactive, and some allow you to generate new results beyond the ones already generated.
+If you would prefer some different lists besides mine, **you are also welcome to browse any of the following collections**:
+
+* [The Anne & Michael Spalter Digital Art Collection](https://spalterdigital.com/)
+* [The Bre Pettis Collection of Computer Art](https://www.bre.art/)
+* [The Ragnar Digital Collection](https://www.ragnardigital.art/)
+* [Digital Art Museum (Germany)](https://dam.org/museum/)
+* [ArtBlocks Curated Collection](https://www.artblocks.io/discover/curated)
+* [LeRandom History of Generative Art](https://timeline.lerandom.art/history-of-generative-art)
 
 
 ---
