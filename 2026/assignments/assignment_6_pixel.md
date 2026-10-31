@@ -7,7 +7,7 @@
 * 6.2. [Animated Composition for Flipdot Display](#62-animated-composition-for-flipdot-display) *(10%, 30 minutes, due 10/19)*
 * 6.3. [Custom Pixel](#63-custom-pixel) *(30%, 2 hours, due Wednesday 10/21)*
 * 6.4. [Looking Outwards](#64-looking-outwards) *(15%, 1 hour, due Wednesday 10/21)*
-* 6.5. [Shader Composition](#65-shader-composition) *(40%, 3 hours, due Monday 10/26, 11:59pm)*
+* 6.5. [Shader Composition](#65-shader-composition) *(35%, 3 hours, due Monday 10/26, 11:59pm)*
 * 6.6. [Self-Evaluation](#66-self-evaluation) *(5%, 10 minutes, due Wednesday 10/28)*
 
 
@@ -52,7 +52,6 @@ Flip-dot (or flip-disc) displays are widely used in transportation signage. Beca
 * **Include** a screenshot or animated GIF. Your exercise will be presented on the display in a public exhibition later this semester, in a looping sequence with the other students' exercises.
 
 ![flipdot_2.png](https://raw.githubusercontent.com/golanlevin/p5-flipdots/main/img/ptixy_screenrecording.gif)
-
 
 
 ---
@@ -115,7 +114,6 @@ Briefly **survey** the following shader-programming resources. They vary conside
 * [Acerola YouTube channel](https://www.youtube.com/@Acerola_t/videos) (making custom shaders for games)
 
 
-
 ---
 
 ## 6.5. Shader Composition
@@ -141,7 +139,8 @@ Whatever direction you choose, pay attention to the *composition* of your image.
 * **Consider** how your composition changes over space and, optionally, over time or in response to interaction. The important thing is to make deliberate visual decisions rather than merely demonstrate a shader effect.
 * **Publish** your finished project as a p5.js sketch using a GLSL fragment shader, and submit it to the [appropriate OpenProcessing collection](https://openprocessing.org/class/107236/#/c/107989).
 * **Create** a post in the Discord channel `#65-shader-composition`. In the post, **include** one or two screenshots of your project. In a sentence or two, **describe** an important visual decision you made, and what you hoped to achieve with it.
-* Please **complete** [this self-evaluation form](https://forms.gle/R2p1nHcsNMtra1hU6) when you finish the assignment. 
+* Please **complete** [this self-evaluation form](https://forms.gle/R2p1nHcsNMtra1hU6) when you finish the assignment. *(This is the same as exercise 6.6, below.)*
+
 
 ---
 
@@ -149,5 +148,8 @@ Whatever direction you choose, pay attention to the *composition* of your image.
 
 *(5%, 10 minutes, due Wednesday 10/28)*
 
-Before class on Wednesday 10/28, kindly complete this self-evaluation form: [https://forms.gle/R2p1nHcsNMtra1hU6](https://forms.gle/R2p1nHcsNMtra1hU6)
+Before class on Wednesday 10/28, kindly complete this self-evaluation form for your Shader Composition: [https://forms.gle/R2p1nHcsNMtra1hU6](https://forms.gle/R2p1nHcsNMtra1hU6)
 
+---
+
+EOF.
