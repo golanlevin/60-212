@@ -263,13 +263,14 @@ If you would prefer some different lists besides mine, **you are also welcome to
 
 ## 7.6. Feedback Composition (for Pen Plotting)
 
-![mitchell_whitelaw_limits_to_growth_2008.jpg](img/7/mitchell_whitelaw_limits_to_growth_2008.jpg)<br />Mitchell Whitelaw, *Limits to Growth* (2008)
+![mitchell_whitelaw_limits_to_growth_2008.jpg](img/7/mitchell_whitelaw_limits_to_growth_2008.jpg)<br />Mitchell Whitelaw, [*Limits to Growth*](https://mtchl.net/limits-to-growth/) (2008)
 
 > “The manner in which I work constantly involves a feedback. I paint out parts, change others, and add and subtract as I go along. [...] One's initial ideas may have to do with chance, but as one continues, one watches and controls the effects.” — *Jasper Johns: A Print Retrospective* (MoMA, [PDF](https://www.moma.org/documents/moma_catalogue_1816_300001136.pdf?utm_source=chatgpt.com), 1977. p.26).
 
 *(40%, 6 hours; due in SVG form on Monday 11/9)*
 
 **Create** an original generative drawing in which the marks already drawn influence the placement, geometry, or behavior of subsequent marks. Your final composition must be exported as an SVG and will be physically drawn with a pen plotter, using exclusively black ink on white, US Letter-sized paper (8.5 × 11 inches).
+
 
 ### A Drawing That Remembers
 
@@ -283,6 +284,7 @@ Note that **there is an important distinction** between mere *accumulation* and 
 Feedback can help a composition develop in response to its own evolving structure. Rather than following only a predetermined spatial plan, the drawing can develop clusters, boundaries, gaps, corridors, regions of contrasting density, and other relationships through the interactions of its marks.
 
 **The KEY REQUIREMENT is that your drawing's accumulated history must influence what the program does next.** Simply repeating a drawing operation, leaving previous marks visible, or varying parameters over time is not sufficient. Your work will be judged on the originality and effectiveness of its feedback mechanism, the visual and compositional development of the drawing, the quality of its physical realization, and your ability to explain the relationship between your algorithm and its results.
+
 
 ### Possible Approaches
 
@@ -318,9 +320,10 @@ These are starting points, not recipes. You may combine techniques, invent your 
   - **Design for plotting:** How did the constraints and possibilities of pen plotting affect your design?
 8. On Monday 11/9, in class, we will **plot** your final compositions on white, US Letter-sized paper using a black pen. Because some setup is required for this process, assignments which are submitted after the 11/9 due date may not be plotted.
 
+
 ### Technical Requirements
 
-The Feedback Composition (7.6) is the "main exercise" for this unit, worth 40 points. Your rigor and discipline in fulfilling technical requirements is greatly appreciated. The 40 points for this exercise will be assigned as follows: 
+The Feedback Composition ([7.6](#76-feedback-composition-for-pen-plotting)) is the "main exercise" for this unit, worth 40 points. Your rigor and discipline in fulfilling technical requirements is greatly appreciated. The 40 points for this exercise will be assigned as follows: 
 
 * Composition uses *feedback* (and not mere *accumulation*): **10 points**.
 * Composition is documented in Discord per task #7 above: **10 points**.
