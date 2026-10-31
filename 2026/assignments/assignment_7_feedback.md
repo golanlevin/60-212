@@ -320,7 +320,7 @@ These are starting points, not recipes. You may combine techniques, invent your 
 
 ### Technical Requirements
 
-The Feedback Composition (7.6) is the "main exercise" for this unit, worth 40 points. Your rigor and discipline in fulfilling technical requirements is greatly appreciated. Please note that there will be penalties for each of the following: 
+The Feedback Composition (7.6) is the "main exercise" for this unit, worth 40 points. Your rigor and discipline in fulfilling technical requirements is greatly appreciated. The 40 points for this exercise will be assigned as follows: 
 
 * Composition uses *feedback* (and not mere *accumulation*): **10 points**.
 * Composition is documented in Discord per task #7 above: **10 points**.
