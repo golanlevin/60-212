@@ -68,7 +68,7 @@ Approximate intensity trajectory of the assignments:
 * `Wed 10/21` — [Notes](daily_notes/20261021.md); Guest visit ([Char Stiles](https://www.instagram.com/charstiles/))
 * `Mon 10/26` — [**#6 Due**](assignments/assignment_6_pixel.md) (Shaders)
 * `Wed 10/28` — [Notes](daily_notes/20261028.md)
-* `Mon 11/02` 
+* `Mon 11/02` — [Notes](daily_notes/20261102.md)
 * `Wed 11/04` 
 * `Mon 11/09` — [**#7 Due**](assignments/assignment_7_feedback.md) (Feedback Composition)
 * `Wed 11/11` 

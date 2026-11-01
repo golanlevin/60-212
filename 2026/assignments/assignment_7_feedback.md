@@ -39,6 +39,7 @@ This unit has 6 exercises, of which #7.6 is the "main assignment".
 * During discussion, be prepared to **answer**: what are some advantages and disadvantages of this technique for circle-packing? 
 
 
+
 ---
 
 ![amy_goodchild_manolo_gamboa-naon.jpg](img/7/amy_goodchild_manolo_gamboa-naon.jpg)<br/>Computational shape packing designs by [Amy Goodchild](https://www.amygoodchild.com/blog/maplands) (2022) and Manolo Gamboa Naon (2021).
@@ -69,6 +70,7 @@ We will follow the implementation of exercises 7.1 and 7.2 with a brief discussi
 * What are some **advantages and disadvantages** of each technique for circle packing?
 * Both techniques produce images whose future states depend on their past states, but they store and query their histories differently. What are the **implications of these different representations** (e.g. for algorithmic efficiency)?
 * Likewise, what kinds of visual effects or behaviors might be **easier to achieve** with one technique than the other?
+
 
 
 ---
@@ -220,7 +222,6 @@ class Bug {
 
 
 
-
 ---
 
 ## 7.4. Simple SVG Generation
@@ -240,6 +241,7 @@ The purpose of this simple technical exercise is to make sure you understand how
 * In the Discord channel `#74-svg-test`, **create** a post and in it, **paste** a link to your SVG document. Your URL might look something like this: `https://drive.google.com/file/d/1erbfgOjnXluFTtT3EHJ_vVZjGpHX25yE/view?usp=sharing`
 
 
+
 ---
 
 ## 7.5. Looking Outwards: Generative Art
@@ -257,6 +259,7 @@ If you would prefer some different lists besides mine, **you are also welcome to
 * [Digital Art Museum (Germany)](https://dam.org/museum/)
 * [ArtBlocks Curated Collection](https://www.artblocks.io/discover/curated)
 * [LeRandom History of Generative Art](https://timeline.lerandom.art/history-of-generative-art)
+
 
 
 ---
@@ -288,18 +291,21 @@ Feedback can help a composition develop in response to its own evolving structur
 
 ### Possible Approaches
 
-You are encouraged to explore approaches beyond the circle packing and crack propagation demonstrated in class. Some techniques worth investigating include:
+![padcrafting.jpg](img/7/padcrafting.jpg)
 
+You are encouraged to explore approaches beyond the examples demonstrated in class. Some techniques worth investigating include:
+
+- **Recursive partitioning:** Repeatedly subdivide the largest remaining region.
+- **Density-Balancing:** New marks respond to the concentration or distribution of marks in different regions of the page.
 - **Offset curves:** Curved lines are drawn alongside previous curved lines, influenced by the previous lines' bumps. 
 - **Diffusion-Limited Aggregation (DLA):** Moving particles attach to an existing structure, producing branching, accretive forms.
 - **Space Colonization:** Growing branches respond to the positions of nearby targets and previous branches, producing leaflike designs.
-- **Ice-Ray Grammars:** Lines propagate, intersect, terminate, and generate new lines according to rules that respond to the existing drawing.
-- **Density-Based Drawing:** New marks respond to the concentration or distribution of marks in different regions of the page.
 - **Attraction and Repulsion:** Existing marks influence the movement, direction, or placement of subsequent marks.
+- **Ice-Ray Grammars:** Lines propagate, intersect, terminate, and generate new lines according to rules that respond to the existing drawing.
 
 These are starting points, not recipes. You may combine techniques, invent your own, or pursue an entirely different approach.
 
-**Important:** You may reuse techniques from our exercises, including collision detection, pixel sampling, and agent-based drawing, but you must develop an original generative process with a substantially different relationship between existing and subsequent marks. A straightforward modification of circle packing or the provided Substrate-like program will not satisfy this assignment. 
+**Important:** a straightforward modification of circle packing or minimal change to the provided Substrate-like program will not satisfy this assignment. 
 
 
 ### Your Task
@@ -329,7 +335,13 @@ The Feedback Composition ([7.6](#76-feedback-composition-for-pen-plotting)) is t
 * Composition is documented in Discord per task #7 above: **10 points**.
 * SVG is delivered on time (ready for plotting on Monday 11/9): **10 points**. 
 * SVG is correctly permissioned (viewable on the first try): **5 points**. 
-* SVG is correctly dimensioned to US Letter size (8.5x11): **5 points**. 
+* SVG is correctly dimensioned to US Letter size (8.5x11): **5 points**.
+
+
+### Self-Evaluation 
+
+*During class on Monday 11/9, you will be asked to complete a self-evaluation using the "Studio Habits of Mind" rubric, shown below:*<br/>
+![studio_habits_of_mind_7.png](img/7/studio_habits_of_mind_7.png) 
 
 ---
 
