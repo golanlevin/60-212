@@ -24,9 +24,9 @@ There are 10 sets of assignments. Unless otherwise noted, projects should be *su
 * `Wed 10/07` — [**#5 Due**](assignments/assignment_5_ai.md) (LLM/AI-Buffet)
 * `Mon 10/26` — [**#6 Due**](assignments/assignment_6_pixel.md) (Pixel Logics; Shaders)
 * `Mon 11/09` — [**#7 Due**](assignments/assignment_7_feedback.md) (Feedback Composition)
-* `Mon 11/16` — #8a Due (Capstone Experiment)
-* `Wed 12/02` — #8b Due (Capstone)
-* `TBA 12/XX` — #8c Due (Capstone Presentations & Documentation)
+* `Mon 11/16` — [**#8a Due**](assignments/assignment_8a_experiment.md) (Self-Directed Experiment)
+* `Wed 12/02` — #8b Due (Self-Directed Project)
+* `Wed 12/09` — #8c Due (Self-Directed Project Presentations & Documentation)
 
 Approximate intensity trajectory of the assignments: 
 
@@ -72,11 +72,11 @@ Approximate intensity trajectory of the assignments:
 * `Wed 11/04` 
 * `Mon 11/09` — [**#7 Due**](assignments/assignment_7_feedback.md) (Feedback Composition)
 * `Wed 11/11` 
-* `Mon 11/16` — #8a Due (Experiment)
+* `Mon 11/16` — [**#8a Due**](assignments/assignment_8a_experiment.md) (Self-Directed Experiment)
 * `Wed 11/18` — Libby's Day
 * `Mon 11/23` 
 * `Wed 11/25` — *No session (Thanksgiving)*
 * `Mon 11/30` 
 * `Wed 12/02` — #8b Due (Capstone)
-* `TBA 12/XX` — #8c (Final Presentations and Documentation)
+* `Wed 12/09` — #8c (Final Presentations and Documentation)
 
