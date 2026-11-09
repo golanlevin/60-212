@@ -44,17 +44,36 @@ The three phases of the Self-Directed Project are collectively worth **2 regular
 
 *(5%, 20 minutes, due before Wednesday 11/11)* 
 
-* **Identify** two small-scale creative coding projects that inspire you. Think: something made by a [single person on Instagram](https://www.instagram.com/p/Den-Mhbp0dc/) — not a 50-person [Teamlab installation](https://www.teamlab.art/e/tokyo/). 
+* **Identify** two tiny-scale creative coding projects that inspire you. Think: something made by a [single person on Instagram](https://www.instagram.com/p/Den-Mhbp0dc/) or [on Twitter](https://x.com/FILO_gamedev/status/2052026160390013110) — not a 50-person [Teamlab installation](https://www.teamlab.art/e/tokyo/). 
 * **Create** a post the Discord channel `8a2-looking-outwards`. 
 * **Write** a sentence about each project. **Include** a URL link and an image or screenshot.
 
 If you're interested, here are some vibecoded apps that various people have made: 
 
 * [blobSketch](https://cpreid2.github.io/blobSketch/) by Colin Reid
-* [Ray-Color](https://meodai.github.io/ray-color/) by David Aerne
+* [Hangulish](https://dirt.design/Hangulish/) and [EscherColoring](https://dirt.design/EscherColoring/) by David Braun
 * [Symmetry Tool](https://sites.laura.computer/004/) by [Laura Sinisterra](https://laura.computer/#symmetry)
+* [Ball Painter](https://ttillberg.github.io/codevember-2026/07/) by Theo Tillberg
+* [Ray-Color](https://meodai.github.io/ray-color/) by David Aerne
+* [Schematic Brush](https://x.com/blak3shao/status/2095592282665648144) by Blake Shao
 * [Plottimation Tool](https://golanlevin.github.io/plottimation/) by Golan Levin
 * [Cartoon Show Maker](https://dlobser.github.io/showmaker/) by David Lobser
+* [Flipbook Tool](https://flipflipflip.netlify.app/) by Natalie Freed
+* [The Flattery](https://theflattery.net/) by Olivia Robinson
+* [Ants Explorer](https://ants.superradiance.net/) by Memo Akten
+* [Lichen](https://fox-gieg.com/lichen/) by Nick Fox-Gieg
+* [sanctuary.lucidspace](https://sanctuary.lucidspace.nyc/) by Ritesh Lala
+* [StitchSlop](https://www.stitchslop.com/) by William Osmans
+* [Orthomania](https://x.com/andreasgysin/status/2118628093006913822) by Andreas Gysin
+* [Sample Chopper](https://x.com/_nok__/status/2100929883434320355) by @_nok__
+* [Sumiiid](https://takayustudio.jp/sumiiid/) by Takayu
+* [ink-inky](https://ink-inky.vercel.app/) by Ben Lau
+* [Fractal Glass Orb](https://x.com/airlasart/status/2077188766301892628) by Airla Fan
+* [Paint IRL](https://github.com/LingDong-/paint-irl) by Lingdong Huang
+* [Paper303](https://www.instagram.com/p/DfMhKxGAsxh) by Yunlong Gong
+* [KnitCanvas](https://www.instagram.com/p/Dez6iX6IEas) by Fatih Izciler
+* [Noise Grid](https://www.instagram.com/p/Deg7JEeBcNx) by zorphamax
+
 
 
 ---
