@@ -90,7 +90,7 @@ This fall, there are 10 primary assignment sets, with the following schedule:
 * `Mon 11/09` — #7 Due (Creative Tool)
 * `Mon 11/16` — #8a Due (Capstone Experiment)
 * `Wed 12/02` — #8b Due (Capstone)
-* `TBA 12/XX` — #8c (Capstone Presentations and Documentation)
+* `Wed 12/09` — #8c (Capstone Presentations and Documentation)
 
 ![60-212_2026_schedule](img/60-212_2026_schedule.png)
 
