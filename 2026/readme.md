@@ -25,7 +25,8 @@ There are 10 sets of assignments. Unless otherwise noted, projects should be *su
 * `Mon 10/26` — [**#6 Due**](assignments/assignment_6_pixel.md) (Pixel Logics; Shaders)
 * `Mon 11/09` — [**#7 Due**](assignments/assignment_7_feedback.md) (Feedback Composition)
 * `Mon 11/16` — [**#8a Due**](assignments/assignment_8a_experiment.md) (Self-Directed Experiment)
-* `Wed 12/02` — [**#8b Due**](assignments/assignment_8b_selfdirected.md) (Self-Directed Project)
+* `Wed 11/18` — [**#8b1 Due**](assignments/assignment_8b_selfdirected.md)
+* `Wed 12/02` — [**#8b2 Due**](assignments/assignment_8b_selfdirected.md) (Self-Directed Project)
 * `Wed 12/09` — #8c Due (Self-Directed Project Presentations & Documentation)
 
 Approximate intensity trajectory of the assignments: 
@@ -73,7 +74,7 @@ Approximate intensity trajectory of the assignments:
 * `Mon 11/09` — [**#7 Due**](assignments/assignment_7_feedback.md) (Feedback Composition)
 * `Wed 11/11` 
 * `Mon 11/16` — [**#8a Due**](assignments/assignment_8a_experiment.md) (Self-Directed Experiment)
-* `Wed 11/18` — Libby's Day
+* `Wed 11/18` — [**#8b1 Due**](assignments/assignment_8b_selfdirected.md); **Libby's Notes:** [*Repetition, Replication, and the Afterlife of Form*](daily_notes/20261118/README.md)
 * `Mon 11/23` 
 * `Wed 11/25` — *No session (Thanksgiving)*
 * `Mon 11/30` 
